@@ -36,7 +36,7 @@ avg_rating  |    integer      | not null
 **Bookshelf**
 
 column name  |   data type  |   details
--------------|---|--
+-------------|-----------------|---------------
 id           |   integer    |   not null, primary key
 title         |  string     |   not null
 author_id     |  integer    |   not null
@@ -44,7 +44,7 @@ author_id     |  integer    |   not null
 **ShelfToBook**
 
 column name   |  data type  |   details
---|-|--
+--|------------------|-------------------------
 user_id     |    integer   |    not null, foreign_key
 manga_id     |   integer    |   not null, foreign_key
 bookshelf_id  |  integer    |   not null, foreign_key
