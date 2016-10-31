@@ -1,6 +1,6 @@
 
 
-Component Hierarchy:
+**Component Hierarchy:**
 
 AuthFormContainer
   - AuthForm
@@ -33,15 +33,16 @@ ReviewFormContainer
   - MangaInfo
     - Review
 
-Routes
+**Routes**
 
-Path                        Component
-"/"                         AuthFormContainer
-"/sign-in"                  AuthFormContainer
-"/sign-up"                  AuthFormContainer
-"/home"                     HomeContainer
-"/home/myManga"             BookshelfContainer  
-"/search"                   SearchContainer
-"/manga/id"                 MangaContainer
-"/user/id"                  UserComponent
-"/manga/id/review"          ReviewFormContainer
+  Path   |            Component
+------------------|---------------------
+"/"                |         AuthFormContainer
+"/sign-in"          |        AuthFormContainer
+"/sign-up"           |       AuthFormContainer
+"/home"              |       HomeContainer
+"/home/myManga"      |       BookshelfContainer  
+"/search"            |       SearchContainer
+"/manga/id"          |       MangaContainer
+"/user/id"           |       UserComponent
+"/manga/id/review"   |       ReviewFormContainer
