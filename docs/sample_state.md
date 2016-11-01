@@ -1,23 +1,16 @@
-
+```js
 {
-
   currentUser: {
-
     id: 1,
     username: "Satoshi"
   },
-
   forms: {
-
     signUp: {errors: []},
     logIn: {errors: []},
     createReview: {errors: ["Review can't be blank."]},
     addToShelf: {errors: ["Shelf cannot be blank."]}
-
   },
-
   bookshelves: {
-
       1: {
         title: "To-Read" {
           1: {
@@ -30,9 +23,7 @@
         }
       }
   },
-
   reviews: {
-    
     1: {
       manga_id: 1,
       user_id: 1,
@@ -42,3 +33,4 @@
     }
   }
 }
+```

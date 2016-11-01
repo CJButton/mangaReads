@@ -5,33 +5,27 @@
 AuthFormContainer
   - AuthForm
 
-HomeContainer
+TopBarContainer
   - Topbar
 
 BookshelfContainer
   - Bookshelf
-    - MangaInfo
 
 MangaContainer
   - MangaInfo
 
-RecommendationContainer
-  - Recommendation
-
 UpdatesContainer
+  - UserContainer
   - Updates
-    - Users
 
-UserComponent
-  - Bookshelf
+UserContainer
+  - User
 
 SearchContainer
   - SearchResults
-    - MangaInfo
 
 ReviewFormContainer
-  - MangaInfo
-    - Review
+  - Review
 
 **Routes**
 
@@ -41,7 +35,7 @@ ReviewFormContainer
 "/sign-in"          |        AuthFormContainer
 "/sign-up"           |       AuthFormContainer
 "/home"              |       HomeContainer
-"/home/myManga"      |       BookshelfContainer  
+"/my-Manga"      |       BookshelfContainer  
 "/search"            |       SearchContainer
 "/manga/id"          |       MangaContainer
 "/user/id"           |       UserComponent
