@@ -23,28 +23,25 @@ title       |    string     |   not null
 body        |    text       |   not null
 star_rating   |  integer    |   not_null
 
-**Manga**
+**manga**
 
 column name  |   data type  |   details
 ------------|--------------|-------------
 id         |     integer    |   not null, primary key
-cover_id    |    integer    |   not null
 title       |    string     |   not null
 author      |    string      |  not null
-avg_rating  |    integer      | not null
 
-**Bookshelf**
+**bookshelves**
 
 column name  |   data type  |   details
 -------------|-----------------|---------------
 id           |   integer    |   not null, primary key
 title         |  string     |   not null
-author_id     |  integer    |   not null
+user_id     |  integer    |   not null
 
-**ShelfToBook**
+**manga_bookshelves**
 
 column name   |  data type  |   details
 --------------|------------------|-------------------------
-user_id     |    integer   |    not null, foreign_key
 manga_id     |   integer    |   not null, foreign_key
 bookshelf_id  |  integer    |   not null, foreign_key
