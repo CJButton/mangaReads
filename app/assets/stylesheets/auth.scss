@@ -1,0 +1,36 @@
+
+
+
+
+#errorMessage {
+  font-size: 10pt;
+}
+
+#loginForm > input {
+  height: 20px;
+}
+
+#signUpForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#signUpForm > input {
+  height: 20px;
+  width: 175px;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+#signUpButton {
+  width: 50px;
+  height: 25px;
+}
+
+#mottoSplash {
+  flex: auto;
+  padding-left: 300px;
+  padding-top: 150px;
+  font-size: 24px;
+}

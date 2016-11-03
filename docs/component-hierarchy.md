@@ -35,7 +35,7 @@ ReviewFormContainer
 "/sign-in"          |        AuthFormContainer
 "/sign-up"           |       AuthFormContainer
 "/home"              |       HomeContainer
-"/my-Manga"      |       BookshelfContainer  
+"/my-Manga"          |       BookshelfContainer  
 "/search"            |       SearchContainer
 "/manga/id"          |       MangaContainer
 "/user/id"           |       UserComponent
