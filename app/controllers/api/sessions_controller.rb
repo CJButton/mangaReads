@@ -1,5 +1,4 @@
 
-require 'byebug'
 
 class Api::SessionsController < ApplicationController
 
