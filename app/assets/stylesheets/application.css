@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+ .login-signup {
+
+ }
+
+ body {
+   background-color: #f4f2e9;
+ }
+
+ #root {
+
+ }
+
+ #signUpBody {
+   display: flex;
+   justify-content: flex-end;;
+   padding-right: 265px;
+ }
+
+#headerNav {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #D3D3D3;
+}
+
+#loginForm {
+  padding-right: 250px;
+  padding-top: 20px;
+}
+
+#logo {
+  padding-left: 200px;
+  padding-top: 10px;
+}
