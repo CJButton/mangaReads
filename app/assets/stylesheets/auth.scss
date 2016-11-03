@@ -2,20 +2,24 @@
 
 
 
-#errorMessage {
+.errorMessage {
   font-size: 10pt;
 }
 
-#loginForm > input {
+.loginForm > input {
   height: 20px;
 }
 
-#signUpForm {
+.signUpForm > h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+.signUpForm {
   display: flex;
   flex-direction: column;
 }
 
-#signUpForm > input {
+.signUpForm > input {
   height: 20px;
   width: 175px;
   padding: 5px;
@@ -23,12 +27,12 @@
   font-family: 'Lato', sans-serif;
 }
 
-#signUpButton {
+.signUpButton {
   width: 50px;
   height: 25px;
 }
 
-#mottoSplash {
+.mottoSplash {
   flex: auto;
   padding-left: 300px;
   padding-top: 150px;

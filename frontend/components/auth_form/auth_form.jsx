@@ -50,13 +50,13 @@ class AuthForm extends React.Component{
   }
 
   // how can I display errors better?
-  // the current system is not ideal
+  // the current system is not classNameeal
   renderErrors() {
     if (this.props.errors){
     return(
       <ul>
         {this.props.errors.map((error) => (
-          <li id="errorMessage">
+          <li className="errorMessage">
             {error}
           </li>
         ))}
@@ -71,13 +71,13 @@ class AuthForm extends React.Component{
     return (
     <nav className="login-signup">
 
-        <div id="headerNav">
+        <div className="headerNav">
 
-          <h3 id="logo">MangaReads</h3>
+          <h3 className="logo">MangaReads</h3>
 
         {this.renderErrors()}
 
-          <form id="loginForm" onSubmit={this.handleLogin}>
+          <form className="loginForm" onSubmit={this.handleLogin}>
             <input type="text"
               placeholder="Username"
               value={username}
@@ -93,18 +93,18 @@ class AuthForm extends React.Component{
             <input type="submit" value="Login"/>&nbsp;
 
 
-            <input id="guestLogin" type="submit" onSubmit={this.handleGuest}
+            <input className="guestLogin" type="submit" onSubmit={this.handleGuest}
               value="Guest Login" />
           </form>
 
         </div>
 
       &nbsp;&nbsp;
-      <div id="signUpBody">
-        <h3 id="mottoSplash">
+      <div className="signUpBody">
+        <h3 className="mottoSplash">
           Discover Japan through comics.
         </h3>
-        <form id="signUpForm" onSubmit={this.handleSignup}>
+        <form className="signUpForm" onSubmit={this.handleSignup}>
           <h4>"New here? Create a free account!"</h4>
 
           <input type="text"
@@ -120,9 +120,9 @@ class AuthForm extends React.Component{
             value={password2}
             onChange={this.update("password2")}/>
 
-          <input id="signUpButton" type="submit" placeholder="Sign up"/>
+          <input className="signUpButton" type="submit" placeholder="Sign up"/>
 
-          <input id="guetLoginButton" type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
+          <input className="guetLoginButton" type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
         </form>
       </div>
     </nav>
