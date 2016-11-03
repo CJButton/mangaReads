@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 
-class Greeting extends React.Component{
+class AuthForm extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
@@ -49,6 +49,22 @@ class Greeting extends React.Component{
     this.props.signup(newUser);
   }
 
+  // how can I display errors better?
+  // the current system is not ideal
+  renderErrors() {
+    if (this.props.errors){
+    return(
+      <ul>
+        {this.props.errors.map((error) => (
+          <li id="errorMessage">
+            {error}
+          </li>
+        ))}
+      </ul>
+    );
+   }
+  }
+
   render() {
     const {username, password1, name, email, password2} = this.state;
 
@@ -59,18 +75,24 @@ class Greeting extends React.Component{
 
           <h3 id="logo">MangaReads</h3>
 
+        {this.renderErrors()}
+
           <form id="loginForm" onSubmit={this.handleLogin}>
             <input type="text"
               placeholder="Username"
               value={username}
               onChange={this.update("username")}/>
+
             <input type="text"
               placeholder="Password"
               value={password1}
               onChange={this.update("password1")}/>
+
             <br>
             </br>
             <input type="submit" value="Login"/>&nbsp;
+
+
             <input id="guestLogin" type="submit" onSubmit={this.handleGuest}
               value="Guest Login" />
           </form>
@@ -79,25 +101,28 @@ class Greeting extends React.Component{
 
       &nbsp;&nbsp;
       <div id="signUpBody">
-        <form id="signupForm" onSubmit={this.handleSignup}>
+        <h3 id="mottoSplash">
+          Discover Japan through comics.
+        </h3>
+        <form id="signUpForm" onSubmit={this.handleSignup}>
           <h4>"New here? Create a free account!"</h4>
+
           <input type="text"
             placeholder="Name"
             value={name}
             onChange={this.update("name")} />
-          <br></br>
           <input type="text"
             placeholder="Email Address"
             value={email}
             onChange={this.update("email")} />
-          <br></br>
           <input type="password"
             placeholder="Password"
             value={password2}
             onChange={this.update("password2")}/>
-          <br></br>
-          <input type="submit" value="Sign up"/>
-          <input type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
+
+          <input id="signUpButton" type="submit" placeholder="Sign up"/>
+
+          <input id="guetLoginButton" type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
         </form>
       </div>
     </nav>
@@ -105,4 +130,4 @@ class Greeting extends React.Component{
   }
 }
 
-export default Greeting;
+export default AuthForm;

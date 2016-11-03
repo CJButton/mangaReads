@@ -14,12 +14,6 @@
  *= require_self
  */
 
-
-
- .login-signup {
-
- }
-
  body {
    background-color: #f4f2e9;
  }
@@ -31,7 +25,11 @@
  #signUpBody {
    display: flex;
    justify-content: flex-end;;
-   padding-right: 265px;
+   padding-right: 120px;
+   height: 400px;
+   background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478191191/background_torii_mznrtq.jpg);
+   background-size: cover;
+   background-position: center;;
  }
 
 #headerNav {

@@ -2,12 +2,11 @@
 
 
 import React from 'react';
-import GreetingContainer from './greeting/greeting_container';
+import AuthContainer from './auth_form/auth_container';
 
 const App = ({ children }) => (
   <div>
-    <GreetingContainer />
-    {children}
+
   </div>
 );
 

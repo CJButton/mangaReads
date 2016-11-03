@@ -2,10 +2,14 @@
 
 import {connect} from 'react-redux';
 import {logout, login, signup} from '../../actions/session_actions';
-import Greeting from './greeting';
+import AuthForm from './auth_form';
 
+
+// if user is logged in, then redirect them elsewhere
 const mapStateToProps = ({session}) => ({
-  currentUser: session.currentUser
+  currentUser: session.currentUser,
+  errors: session.errors,
+  loggedIn: Boolean(session.currentUser)
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -17,4 +21,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Greeting);
+)(AuthForm);
