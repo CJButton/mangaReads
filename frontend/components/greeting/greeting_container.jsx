@@ -1,7 +1,7 @@
 
 
 import {connect} from 'react-redux';
-import {logout} from '../../actions/session_actions';
+import {logout, login, signup} from '../../actions/session_actions';
 import Greeting from './greeting';
 
 const mapStateToProps = ({session}) => ({
@@ -9,7 +9,9 @@ const mapStateToProps = ({session}) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  logout: () => dispatch(logout())
+  logout: () => dispatch(logout()),
+  login: user => dispatch(login(user)),
+  signup: user => dispatch(signup(user))
 });
 
 export default connect(

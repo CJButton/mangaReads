@@ -3,50 +3,106 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-//instead of a link to, let's replace this with two forms
-// the first one will be a login form
-// the second one will be a signup form
-// <Link to="/login" activeClassName="current">Login</Link>
-//<Link to="/signup" activeClassName="current">Sign up!</Link>
-const sessionLinks = () => (
-  <nav className="login-signup">
-    <form>
-      <input type="text"
-             placeholder="Username"
-             value="" />
-           <input type="text"
-                  placeholder="Password"
-                  value=""/>
-                <button onSubmit="">Login</button>
-    </form>
-    &nbsp;&nbsp;
-    <form>
-      <h4>"New here? Create a free account!"</h4>
-      <input type="text"
-             placeholder="Name"
-             value="" />
-           <br></br>
-           <input type="text"
-                  placeholder="Email Address"
-                  value="" />
-                <br></br>
-           <input type="text"
-                  placeholder="Password"
-                  value=""/>
-                <button onSubmit="">Sign Up</button>
-    </form>
-  </nav>
-);
 
-const personalGreeting = (currentUser, logout) => (
-	<hgroup className="header-group">
-    <h2 className="header-name">Hi, {currentUser.username}!</h2>
-    <button className="header-button" onClick={logout}>Log Out</button>
-	</hgroup>
-);
+class Greeting extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+      username: "",
+      password1: "",
+      name: "",
+      email: "",
+      password2: ""
+    };
 
-const Greeting = ({ currentUser, logout }) => (
-  currentUser ? personalGreeting(currentUser, logout) : sessionLinks()
-);
+    this.handleLogin = this.handleLogin.bind(this);
+    this.handleSignup = this.handleSignup.bind(this);
+    this.handleGuest = this.handleGuest.bind(this);
+  }
+
+  update(property) {
+    return e => this.setState({[property]: e.target.value});
+  }
+
+  handleGuest(e) {
+    e.preventDefault();
+    const username = "Guest";
+    const password = "123456";
+    const user = {user: {username, password}};
+    this.props.login(user);
+  }
+
+  handleLogin(e) {
+    e.preventDefault();
+    const username = this.state.username;
+    const password = this.state.password1;
+    const user = {user: {username, password}};
+    this.props.login(user);
+  }
+
+  handleSignup(e) {
+    e.preventDefault();
+    const username = this.state.name;
+    const email = this.state.email;
+    const password = this.state.password2;
+    const newUser = {user: {username, password, email}};
+    this.props.signup(newUser);
+  }
+
+  render() {
+    const {username, password1, name, email, password2} = this.state;
+
+    return (
+    <nav className="login-signup">
+
+        <div id="headerNav">
+
+          <h3 id="logo">MangaReads</h3>
+
+          <form id="loginForm" onSubmit={this.handleLogin}>
+            <input type="text"
+              placeholder="Username"
+              value={username}
+              onChange={this.update("username")}/>
+            <input type="text"
+              placeholder="Password"
+              value={password1}
+              onChange={this.update("password1")}/>
+            <br>
+            </br>
+            <input type="submit" value="Login"/>&nbsp;
+            <input id="guestLogin" type="submit" onSubmit={this.handleGuest}
+              value="Guest Login" />
+          </form>
+
+        </div>
+
+      &nbsp;&nbsp;
+      <div id="signUpBody">
+        <form id="signupForm" onSubmit={this.handleSignup}>
+          <h4>"New here? Create a free account!"</h4>
+          <input type="text"
+            placeholder="Name"
+            value={name}
+            onChange={this.update("name")} />
+          <br></br>
+          <input type="text"
+            placeholder="Email Address"
+            value={email}
+            onChange={this.update("email")} />
+          <br></br>
+          <input type="password"
+            placeholder="Password"
+            value={password2}
+            onChange={this.update("password2")}/>
+          <br></br>
+          <input type="submit" value="Sign up"/>
+          <input type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
+        </form>
+      </div>
+    </nav>
+    );
+  }
+}
 
 export default Greeting;
