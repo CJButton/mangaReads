@@ -14,7 +14,7 @@ const MangaReducer = (state = {}, action) => {
 
     case RECEIVE_MANGA:
     const newManga = merge({}, action.manga);
-    debugger
+
       return merge(newManga);
 
     case RECEIVE_ALL_MANGA:

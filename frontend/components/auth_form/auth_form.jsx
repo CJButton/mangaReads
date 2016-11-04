@@ -7,13 +7,6 @@ import { Link } from 'react-router';
 class AuthForm extends React.Component{
   constructor(props) {
     super(props);
-    this.state = {
-      username: "",
-      password1: "",
-      name: "",
-      email: "",
-      password2: ""
-    };
 
     this.handleLogin = this.handleLogin.bind(this);
     this.handleSignup = this.handleSignup.bind(this);
