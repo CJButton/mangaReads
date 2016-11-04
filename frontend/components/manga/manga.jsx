@@ -7,7 +7,10 @@ import { Link } from 'react-router';
 const MangaShow = ({id, title, author, synopsis, img_url}) => (
       <div className="single-manga-show">
         <div className="single-manga-words">
-          <li>{title}</li>
+          Hello!
+          console.log(props);
+          <li>こんばんは！</li>
+          <li>title: {title}</li>
           <li>{author}</li>
           <li>{synopsis}</li>
         </div>

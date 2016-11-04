@@ -1,7 +1,9 @@
 
 
 
-import {RECEIVE_MANGA, RECEIVE_ERRORS} from '../actions/manga_actions';
+import {RECEIVE_MANGA,
+        RECEIVE_ERRORS,
+        RECEIVE_ALL_MANGA} from '../actions/manga_actions';
 import { merge } from 'lodash';
 
 
@@ -12,6 +14,9 @@ const MangaReducer = (state = {}, action) => {
 
     case RECEIVE_MANGA:
       return merge({[action.manga.id]: action.manga});
+
+    case RECEIVE_ALL_MANGA:
+      return merge({}, action.manga);
 
     default:
       return state;
