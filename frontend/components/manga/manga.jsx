@@ -2,20 +2,17 @@
 
 
 import React from 'react';
-import { Link } from 'react-router';
 
-const MangaShow = ({id, title, author, synopsis, img_url}) => (
+const MangaShow = ( {manga} ) => (
       <div className="single-manga-show">
-        <div className="single-manga-words">
-          Hello!
-          console.log(props);
-          <li>こんばんは！</li>
-          <li>title: {title}</li>
-          <li>{author}</li>
-          <li>{synopsis}</li>
-        </div>
+        <ul className="single-manga-words">
+          <li>おはようございます</li>
+          <li>title: {manga.title}</li>
+          <li>{manga.author}</li>
+          <li>{manga.synopsis}</li>
+        </ul>
         <div className="single-manga-picture">
-          <li><img src={img_url} /></li>
+          <li><img src={manga.img_url} /></li>
         </div>
       </div>
 );
