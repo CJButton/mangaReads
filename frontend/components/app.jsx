@@ -3,6 +3,8 @@
 
 import React from 'react';
 
+import TopBarContainer from './topbar/topbar_container';
+
 
 // <header>
 //   <Link to="/" className="header-link"><h1>Bench BnB</h1></Link>
@@ -13,7 +15,8 @@ import React from 'react';
 // we are wrapping the rest of our routes in it
 const App = ({ children }) => (
   <div>
-    Hello from App
+    <TopBarContainer />
+    Hello from App!
     {children}
   </div>
 );

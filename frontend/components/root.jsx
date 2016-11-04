@@ -65,6 +65,7 @@ const Root = ({store}) => {
       <Router history={hashHistory}>
         <Route path ="/" component={App} onEnter={_ensureLoggedIn}>
           <Route path="/manga/:id" component={MangaContainer} onEnter={loadSingleManga}/>
+
         </Route>
         <Route path="/login" component={AuthContainer} onEnter={_redirectIfLoggedIn}/>
       </Router>
