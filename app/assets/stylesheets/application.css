@@ -18,38 +18,3 @@
    background-color: #f4f2e9;
    font-family: 'Lato', sans-serif;
  }
-
- .root {
-
- }
-
- .signUpBody {
-   display: flex;
-   justify-content: flex-end;;
-   padding-right: 120px;
-   height: 400px;
-   background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478191191/background_torii_mznrtq.jpg);
-   background-size: cover;
-   background-position: center;;
- }
-
-
-
-.headerNav {
-  display: flex;
-  justify-content: space-between;
-  height: 75px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: .D3D3D3;
-}
-
-.loginForm {
-  padding-right: 250px;
-  padding-top: 20px;
-}
-
-.logo {
-  padding-left: 200px;
-  padding-top: 10px;
-}

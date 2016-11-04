@@ -7,6 +7,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 import App from './app';
 import AuthContainer from './auth_form/auth_container';
+import MangaContainer from './manga/manga_container';
 
 const Root = ({store}) => {
 
@@ -32,7 +33,8 @@ const Root = ({store}) => {
       <Router history={hashHistory}>
         <Route path ="/" component={App}>
           <Route path="/login" component={AuthContainer}>
-
+          </Route>
+          <Route path="/manga/:id" component={MangaContainer}>
           </Route>
         </Route>
       </Router>
