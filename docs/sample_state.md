@@ -31,6 +31,14 @@
       body: "A long time ago in Edo..",
       star_rating: 5
     }
+  },
+  manga: {
+    1: {
+      id: 1,
+      title: "Ruroni Kenshin",
+      author: "Nobuhiro Watsuki",
+      synopsis: "The story begins during the 11th year of the Meiji period in Japan and follows a former assassin from the Bakumatsu, known as Hitokiri Battosai. After his work against the bakufu, Hitokiri Battosai disappears to become Himura Kenshin: a wandering samurai who protects the people of Japan with a vow of never to take another life."
+      img_url: "url goes here"
+    }
   }
 }
-```

@@ -2,6 +2,35 @@
 
 
 
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+// background images goes here
+.signUpBody {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  border-bottom-color: black;
+  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478191191/background_torii_mznrtq.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.signUpForm {
+  padding-right: 150px;
+}
+.logo {
+  padding-left: 250px;
+}
+
+.loginForm {
+  padding-right: 250px;
+}
+
+
 .errorMessage {
   font-size: 10pt;
 }

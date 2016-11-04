@@ -111,18 +111,20 @@ class AuthForm extends React.Component{
             placeholder="Name"
             value={name}
             onChange={this.update("name")} />
+
           <input type="text"
             placeholder="Email Address"
             value={email}
             onChange={this.update("email")} />
+
           <input type="password"
             placeholder="Password"
             value={password2}
             onChange={this.update("password2")}/>
 
-          <input className="signUpButton" type="submit" placeholder="Sign up"/>
+          <input className="submitButton"type="submit" placeholder="Sign up"/>
 
-          <input className="guetLoginButton" type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
+          <input className="submitButton" type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
         </form>
       </div>
     </nav>
