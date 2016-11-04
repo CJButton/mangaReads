@@ -1,7 +1,7 @@
 
 
 
-export const requestManga = (id, success, error) => {
+export const getManga = (id, success, error) => {
   $.ajax({
     type: 'GET',
     url: `api/mangas/${id}`,

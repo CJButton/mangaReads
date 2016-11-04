@@ -2,10 +2,18 @@
 
 
 import React from 'react';
-import AuthContainer from './auth_form/auth_container';
 
+
+// <header>
+//   <Link to="/" className="header-link"><h1>Bench BnB</h1></Link>
+//   <Topbar />
+// </header>
+//
+// this is basically a container
+// we are wrapping the rest of our routes in it
 const App = ({ children }) => (
   <div>
+    Hello from App
     {children}
   </div>
 );
