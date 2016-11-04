@@ -20,13 +20,14 @@ export default ({ getState, dispatch }) => next => action => {
       return next(action);
 
     case LOGOUT:
+      debugger
       logout(() => next(action));
       break;
 
     case SIGNUP:
       signup(action.user, successCallback, errorCallback);
       return next(action);
-      
+
     default:
       return next(action);
   }
