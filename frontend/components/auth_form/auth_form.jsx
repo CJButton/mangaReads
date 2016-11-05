@@ -38,6 +38,7 @@ class AuthForm extends React.Component{
     const password = this.state.password1;
     const user = {user: {username, password}};
     this.props.login(user);
+    this.props.router.push("/");
   }
 
   handleSignup(e) {
@@ -48,6 +49,16 @@ class AuthForm extends React.Component{
     const newUser = {user: {username, password, email}};
     this.props.signup(newUser);
   }
+
+  componentDidUpdate() {
+		this.redirectIfLoggedIn();
+	}
+
+	redirectIfLoggedIn() {
+		if (this.props.loggedIn) {
+			this.props.router.push("/");
+		}
+	}
 
   renderErrors() {
     if (this.props.errors){

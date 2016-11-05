@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 import logout from '../../actions/session_actions';
+import { hashHistory } from 'react-router';
 
 class TopBar extends React.Component{
   constructor(props) {
