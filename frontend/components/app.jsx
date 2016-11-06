@@ -16,7 +16,7 @@ import TopBarContainer from './topbar/topbar_container';
 const App = ({ children }) => (
   <div>
     <TopBarContainer />
-    Hello from App!
+    Hi Chika!
     {children}
   </div>
 );
