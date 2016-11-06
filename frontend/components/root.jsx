@@ -12,6 +12,7 @@ import App from './app';
 import AuthContainer from './auth_form/auth_container';
 import MangaContainer from './manga/manga_container';
 import HomeContainer from './home/home_container';
+import BookshelfContainer from './bookshelf/bookshelf_container';
 
 // actions
 // import {requestAllManga} from './actions/manga_actions';
@@ -49,6 +50,7 @@ const Root = ({store}) => {
         <Route path ="/" component={App} onEnter={_ensureLoggedIn}>
           <IndexRoute component={HomeContainer} />
           <Route path="/manga/:id" component={MangaContainer} onEnter={loadSingleManga}/>
+          <Route path="/my-Manga" component={BookshelfContainer} />
         </Route>
         <Route path="/login" component={AuthContainer} onEnter={_redirectIfLoggedIn}/>
       </Router>

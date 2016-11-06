@@ -96,9 +96,7 @@ class AuthForm extends React.Component{
               placeholder="Password"
               value={password1}
               onChange={this.update("password1")}/>
-
-            <br>
-            </br>
+            <br></br>
             <input type="submit" value="Login"/>&nbsp;
 
 
@@ -107,8 +105,6 @@ class AuthForm extends React.Component{
           </form>
 
         </div>
-
-      &nbsp;&nbsp;
       <div className="signUpBody">
         <h3 className="mottoSplash">
           Discover Japan through comics.
