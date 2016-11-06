@@ -9,12 +9,13 @@
 .single-manga-picture {
   list-style-type: none;
   display: flex;
-  padding-left: 75px;
-  width: 25%;
+  max-width: 50%;
+  height: auto;
+  padding-left: 100px;
 }
 
 .single-manga-words {
-  padding-right: 175px;
+  padding-right: 150px;
   list-style-type: none;
   line-height: 1.5em;
   text-decoration: none;
