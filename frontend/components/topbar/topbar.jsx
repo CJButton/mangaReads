@@ -39,11 +39,11 @@ class TopBar extends React.Component{
               <input className="topbar-home-button" type="submit"
                 onClick={this.handleHome} value="Home" />
             </li>
+          </ul>
             <li>
               <input type="text" placeholder="Search Manga"
                 onClick={this.handleSearch} className="topbar-search" />
             </li>
-          </ul>
           <ul className="topbar-list-right">
             <li>
             <input className="topbar-logout-button" type="submit"
