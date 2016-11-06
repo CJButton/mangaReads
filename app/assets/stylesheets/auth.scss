@@ -6,10 +6,12 @@
   justify-content: space-between;
   padding-top: 30px;
   height: 70px;
+  background-color: #f4f2e9;
 }
 
 // background images goes here
 .signUpBody {
+  border-top: 500px;
   display: flex;
   justify-content: space-between;
   height: 350px;
@@ -25,7 +27,7 @@
 .logo {
   border-style: none;
   background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png);
-  height: 100px;;
+  height: 55px;;
   width: 200px;
   background-repeat: no-repeat;
   margin-left: 200px;
@@ -69,6 +71,7 @@
 
 .mottoSplash {
   flex: auto;
+  margin-top: 0px;
   padding-left: 300px;
   padding-top: 150px;
   font-size: 24px;
