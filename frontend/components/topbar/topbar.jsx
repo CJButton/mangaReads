@@ -5,6 +5,8 @@ import { Link } from 'react-router';
 
 import logout from '../../actions/session_actions';
 
+import {hashHistory} from 'react-router';
+
 class TopBar extends React.Component{
   constructor(props) {
     super(props);
@@ -14,8 +16,23 @@ class TopBar extends React.Component{
 
   handleSearch(e) {
     e.preventDefault();
-    // finish after css for topbar
+    // comlete after creating component
+  }
 
+  handleMyManga(e) {
+    e.preventDefault();
+    // complete after creating component
+  }
+
+  handleProfile(e) {
+    e.preventDefault();
+    // complete after creating component
+  }
+
+  handleHome(e) {
+    console.log("Did we hit home?");
+    e.preventDefault();
+    hashHistory.push("/");
   }
 
 

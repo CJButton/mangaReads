@@ -1,0 +1,21 @@
+
+
+
+.single-manga-show {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-manga-picture {
+  list-style-type: none;
+  display: flex;
+  padding-left: 75px;
+  width: 25%;
+}
+
+.single-manga-words {
+  padding-right: 175px;
+  list-style-type: none;
+  line-height: 1.5em;
+  text-decoration: none;
+}
