@@ -1,11 +1,11 @@
 
 
 
-
 .headerNav {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  height: 70px;
 }
 
 // background images goes here
@@ -23,6 +23,12 @@
   padding-right: 150px;
 }
 .logo {
+  border-style: none;
+  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png);
+  height: 100px;;
+  width: 200px;
+  background-repeat: no-repeat;
+  margin-left: 200px;
   padding-left: 250px;
 }
 
@@ -40,7 +46,7 @@
 }
 
 .signUpForm > h4 {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .signUpForm {

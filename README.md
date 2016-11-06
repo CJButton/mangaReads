@@ -61,8 +61,7 @@ Functioning rails project with front-end Authentication
 
 **Objective:**
 
- Bookshelves belong to a specific user, and can be created, edited and destroyed. And can have manga added
- to them.
+ Bookshelves belong to a specific user, and can be created, edited and destroyed. And can have manga added to them.
 
 **Phase 4:**
 
