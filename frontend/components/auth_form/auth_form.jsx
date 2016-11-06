@@ -82,7 +82,7 @@ class AuthForm extends React.Component{
 
         <div className="headerNav">
 
-          <h3 className="logo">MangaReads</h3>
+          <div className="logo" src=""></div>
 
         {this.renderErrors()}
 
@@ -102,7 +102,7 @@ class AuthForm extends React.Component{
             <input type="submit" value="Login"/>&nbsp;
 
 
-            <input className="guestLogin" type="submit" onSubmit={this.handleGuest}
+            <input className="guestLogin" type="submit" onClick={this.handleGuest}
               value="Guest Login" />
           </form>
 
@@ -133,7 +133,7 @@ class AuthForm extends React.Component{
 
           <input className="submitButton"type="submit" placeholder="Sign up"/>
 
-          <input className="submitButton" type="submit" value="Guest Login" onSubmit={this.handleGuest}/>
+          <input className="submitButton" type="submit" value="Guest Login" onClick={this.handleGuest}/>
         </form>
       </div>
     </nav>
