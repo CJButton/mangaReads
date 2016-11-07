@@ -14,13 +14,8 @@ class User < ActiveRecord::Base
 
 	after_initialize :ensure_session_token
 	before_validation :ensure_session_token_uniqueness
-	# after_validation :create_default_bookshelves
 
 	has_many :bookshelves
-
-	# def create_default_bookshelves
-	# 	Bookshelf.create()
-	# end
 
 	def password= password
 		self.password_digest = BCrypt::Password.create(password)
