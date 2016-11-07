@@ -21,6 +21,12 @@ Session
 Manga
   - GET /api/manga/:id
 
+Bookshelf
+  - POST /api/bookshelf
+  - DELETE /api/bookshelf/:id
+  - GET /api/bookshelf/:id
+  - PATCH /api/bookshelf/:id
+
 Reviews
   - GET /api/reviews
   - POST /api/reviews/
