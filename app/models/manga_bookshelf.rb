@@ -4,6 +4,6 @@
 
 
 class MangaBookshelf < ActiveRecord::Base
-  has_many :bookshelves
-  has_many :mangas
+  belongs_to :bookshelf
+  belongs_to :manga
 end
