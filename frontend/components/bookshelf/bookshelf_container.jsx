@@ -1,11 +1,7 @@
 
 
-
-import React from 'react';
 import { connect } from 'react-redux';
-
 import { createBookshelf } from '../../actions/bookshelf_actions';
-
 import Bookshelf from './bookshelf';
 
 const mapStateToProps = ({bookshelf}) => ({
@@ -13,12 +9,8 @@ const mapStateToProps = ({bookshelf}) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  createBookshelf: bookshelf => dispatch(createBookshelf(bookshelf))
+  createBookshelf: shelf => dispatch(createBookshelf(shelf))
 });
-
-// const mapDispatchToProps = ({}) = ({
-//
-// });
 
 export default connect(
   mapStateToProps,

@@ -10,12 +10,12 @@ const Home = ({}) => (
     <div className="home-center">
       "Please excuse our dust!"
       <br></br>
-      "Haven't finished search/libraries yet."
+      "Haven't quite finished search/shelves yet."
       <br></br>
-      "To see an individual manga, please visit manga/2"
+      "To see an example of an individual manga, please visit manga/2"
     </div>
     <div className="home-right">
-      Home left
+      Home right
     </div>
   </main>
 );

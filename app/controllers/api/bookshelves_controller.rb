@@ -1,15 +1,16 @@
 
 
 
+class Api::BookshelvesController < ApplicationController
 
-class Api::Bookshelves < ApplicationController
 
   def create
     @bookshelf = Bookshelf.new(bookshelf_params)
     if @bookshelf.save
-      render json: @user
+      render json: @bookshelf
     else
-      render json: @user.errors.full_messages, status: 422
+      render json: @bookshelf.errors.full_messages, status: 422
+    end
   end
 
    private

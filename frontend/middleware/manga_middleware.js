@@ -11,7 +11,7 @@ import {receiveManga,
 
 import { getAllManga, getManga } from '../util/manga_api_util';
 
-const MangaMiddleware = ({ getState, dispatch}) => next => action => {
+const MangaMiddleware = ({ getState, dispatch }) => next => action => {
   const errorCallBack = xhr => dispatch(receiveErrors(xhr.responseJSON));
   let success;
 
