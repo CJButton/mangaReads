@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import Root from './components/root';
 import configureStore from './store/store';
 
-import { login, signup, logout } from './actions/session_actions';
+import { createBookshelf } from './actions/bookshelf_actions';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,11 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
     store = configureStore();
     }
-
     const root = document.getElementById('root');
     ReactDOM.render(<Root store={store} />, root);
     window.store = store;
-    window.login = login;
-    window.signup = signup;
-    window.logout = logout;
+    window.createBookshelf = createBookshelf;
 });

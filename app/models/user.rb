@@ -4,7 +4,7 @@ require 'bcrypt'
 
 class User < ActiveRecord::Base
 
-	
+
 	attr_reader :password
 
 	validates :username, :password_digest, :session_token, presence: true
@@ -15,6 +15,7 @@ class User < ActiveRecord::Base
 	after_initialize :ensure_session_token
 	before_validation :ensure_session_token_uniqueness
 
+	has_many :bookshelves
 
 	def password= password
 		self.password_digest = BCrypt::Password.create(password)

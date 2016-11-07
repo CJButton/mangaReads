@@ -28,6 +28,7 @@ export default ({ getState, dispatch }) => next => action => {
 
     case SIGNUP:
       signup(action.user, successCallback, errorCallback);
+      // can we dispatch another action here as well?
       return next(action);
 
     default:

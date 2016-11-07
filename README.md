@@ -6,7 +6,7 @@
 What is it about?
 
 MangaReads is a place where people can read, enjoy, and share comics from Japan. Our goal
-is to allow people from around the world to experience what life in Japan, share
+is to allow people from around the world to experience what life is like in Japan, share
 with one another our opinions, and give suggestions for other comics one might enjoy.
 
 MangaReads
@@ -18,7 +18,7 @@ Goodreads
   - Hosing on Heroku
   - New account creation, login, and a guest/demo login
   - Manga (Japanese comic books)
-  - Bookshelves (allow us to organize our comics in our own choosing)
+  - Bookshelves (allow us to organize our comics to our own choosing)
   - Reviews
   - Read Status (read, reading, want to read, etc.)
   - Production README

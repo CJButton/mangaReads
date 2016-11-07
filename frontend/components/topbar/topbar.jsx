@@ -21,7 +21,7 @@ class TopBar extends React.Component{
 
   handleMyManga(e) {
     e.preventDefault();
-    // complete after creating component
+    hashHistory.push("/my-Manga");
   }
 
   handleProfile(e) {
