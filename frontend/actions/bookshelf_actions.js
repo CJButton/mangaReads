@@ -3,10 +3,22 @@
 
 export const REQUEST_BOOKSHELF = "REQUEST_BOOKSHELF";
 export const RECEIVE_BOOKSHELF = "REQUEST_BOOKSHELF";
+export const REQUEST_ALL_BOOKSHELVES = "REQUEST_ALL_BOOKSHELVES";
+export const RECEIVE_ALL_BOOKSHELVES = "RECEIVE_ALL_BOOKSHELVES";
 export const DELETE_BOOKSHELF = "DELETE_BOOKSHELF";
 export const CREATE_BOOKSHELF = "CREATE_BOOKSHELF";
 export const UPDATE_BOOKSHELF = "UPDATE_BOOKSHELF";
+export const REMOVE_BOOKSHELF = "REMOVE_BOOKSHELF";
 export const RECEIVE_ERRORS = "RECEIVE_ERRORS";
+
+export const requestBookshelves = () => ({
+  type: REQUEST_ALL_BOOKSHELVES
+});
+
+export const receiveBookshelves = (bookshelves) => ({
+  type: RECEIVE_ALL_BOOKSHELVES,
+  bookshelves
+});
 
 export const receiveBookshelfErrors = (errors) => ({
   type: RECEIVE_ERRORS,
@@ -19,6 +31,10 @@ export const updateBookshelf = (bookshelf) => ({
   bookshelf
 });
 
+export const removeBookshelf = (bookshelf) => ({
+  type: REMOVE_BOOKSHELF,
+  bookshelf
+});
 
 export const deleteBookshelf = (bookshelf) => ({
   type: DELETE_BOOKSHELF,
