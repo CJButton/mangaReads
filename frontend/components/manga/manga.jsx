@@ -9,11 +9,11 @@ const MangaShow = ( {manga} ) => (
           <li><img src={manga.img_url} width="210" height="300"/></li>
         </div>
         <ul className="single-manga-words">
-          <li>{manga.title}</li>
+          <li className="mangaHomeTitle">{manga.title}</li>
           <br></br>
           <li>by {manga.author}</li>
           <br></br>
-          <li>{manga.synopsis}</li>
+          <li className="mangaHomeWords">{manga.synopsis}</li>
         </ul>
       </div>
 );

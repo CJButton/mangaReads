@@ -1,0 +1,53 @@
+
+
+
+
+.bookshelfMain {
+  margin-top: 30px;
+  display: flex
+}
+
+.bookshelfLeft {
+  padding: 25px;
+}
+
+.bookshelfContainer {
+}
+
+.comicDisplayWrapper {
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-right: 10px;
+  margin: 5px;
+  padding-right: auto;
+}
+
+.comicInfoDisplay {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.bookshelfTitle {
+  font-size: 18px;
+}
+
+.bookshelfComicText {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 500px;
+}
+
+.bookshelfComicShow {
+  flex-direction: column;
+  width: 100%;
+  display: flex
+}
+
+.bookshelfPicture {
+  margin: 5px;
+  height: 160px;
+  padding-right: 10px;
+}
