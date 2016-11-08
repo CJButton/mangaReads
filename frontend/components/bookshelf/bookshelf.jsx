@@ -2,8 +2,6 @@
 
 
 import React from 'react';
-import Slider from 'react-slick';
-
 
 import { createBookshelf } from '../../actions/bookshelf_actions';
 
