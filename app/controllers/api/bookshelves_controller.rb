@@ -3,14 +3,25 @@
 
 class Api::BookshelvesController < ApplicationController
 
-  # index should grab ALL comics for the current user
+
   def index
     # @bookshelves = Bookshelf.all
-    @all_manga = current_user.mangas
+    @all_bookshelves = current_user.bookshelves
   end
 
-  def show
+  # json code for the bookshelf show action json page
+  # @all_manga.each do |bookshelf|
+  #   json.set! bookshelf.id do
+  #     json.extract! bookshelf, :id, :title, :author, :img_url
+  #   end
+  # end
 
+  # how do I grab all of the manga on all of the bookshelves though?
+  # @all_manga = current_user.mangas
+  # can find a specific bookshelf just fine
+  def show
+    @bookshelf = Bookshelf.find(params[:id])
+    render json: @bookshelf.mangas
   end
 
 
@@ -23,10 +34,10 @@ class Api::BookshelvesController < ApplicationController
     end
   end
 
-   private
-   def bookshelf_params
-     params.require(:bookshelf).permit(:title, :user_id)
-   end
+  #  private
+  #  def bookshelf_params
+  #    params.require(:bookshelf).permit(:title, :user_id)
+  #  end
 
 
 end

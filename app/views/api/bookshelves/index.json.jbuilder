@@ -1,8 +1,9 @@
 
 
 
-@all_manga.each do |bookshelf|
-  json.set! bookshelf.id do
-    json.extract! bookshelf, :id, :title, :author, :img_url
+
+@all_bookshelves.each do |shelf|
+  json.set! shelf.id do
+    json.extract! shelf, :id, :title, :user_id
   end
 end
