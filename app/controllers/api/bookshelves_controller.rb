@@ -5,16 +5,9 @@ class Api::BookshelvesController < ApplicationController
 
 
   def index
-    # @bookshelves = Bookshelf.all
     @all_bookshelves = current_user.bookshelves
   end
 
-  # json code for the bookshelf show action json page
-  # @all_manga.each do |bookshelf|
-  #   json.set! bookshelf.id do
-  #     json.extract! bookshelf, :id, :title, :author, :img_url
-  #   end
-  # end
 
   # how do I grab all of the manga on all of the bookshelves though?
   # @all_manga = current_user.mangas
@@ -24,6 +17,9 @@ class Api::BookshelvesController < ApplicationController
     render json: @bookshelf.mangas
   end
 
+  def all
+    @all_manga = current_user.mangas
+  end
 
   def create
     @bookshelf = Bookshelf.new(bookshelf_params)
