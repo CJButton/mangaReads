@@ -9,6 +9,10 @@ class Api::BookshelvesController < ApplicationController
     @all_manga = current_user.mangas
   end
 
+  def show
+
+  end
+
 
   def create
     @bookshelf = Bookshelf.new(bookshelf_params)
