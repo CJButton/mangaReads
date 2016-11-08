@@ -6,6 +6,7 @@ import Root from './components/root';
 import configureStore from './store/store';
 
 import { createBookshelf } from './actions/bookshelf_actions';
+// import { requestAllManga } from './actions/manga_actions';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -20,4 +21,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const root = document.getElementById('root');
     ReactDOM.render(<Root store={store} />, root);
     window.store = store;
+    // window.requestAllManga = requestAllManga;
 });

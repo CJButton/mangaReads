@@ -5,7 +5,7 @@ import { createBookshelf } from '../../actions/bookshelf_actions';
 import Bookshelf from './bookshelf';
 
 const mapStateToProps = ({bookshelf}) => ({
-  bookshelf
+  bookshelf: Object.keys(bookshelf).map(key => bookshelf[key])
 });
 
 const mapDispatchToProps = dispatch => ({

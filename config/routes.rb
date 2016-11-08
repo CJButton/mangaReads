@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     resource :user, only: [:create]
     resource :session, only: [:create, :destroy, :show]
     resources :mangas, only: [:show, :index]
-    resources :bookshelves, only: [:show, :destroy, :update, :create]
+    resources :bookshelves, only: [:index, :show, :destroy, :update, :create]
   end
 
 end

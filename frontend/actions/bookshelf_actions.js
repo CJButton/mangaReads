@@ -11,11 +11,11 @@ export const UPDATE_BOOKSHELF = "UPDATE_BOOKSHELF";
 export const REMOVE_BOOKSHELF = "REMOVE_BOOKSHELF";
 export const RECEIVE_ERRORS = "RECEIVE_ERRORS";
 
-export const requestBookshelves = () => ({
+export const requestAllBookshelves = () => ({
   type: REQUEST_ALL_BOOKSHELVES
 });
 
-export const receiveBookshelves = (bookshelves) => ({
+export const receiveAllBookshelves = (bookshelves) => ({
   type: RECEIVE_ALL_BOOKSHELVES,
   bookshelves
 });

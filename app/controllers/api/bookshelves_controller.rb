@@ -3,6 +3,12 @@
 
 class Api::BookshelvesController < ApplicationController
 
+  # index should grab ALL comics for the current user
+  def index
+    # @bookshelves = Bookshelf.all
+    @all_manga = current_user.mangas
+  end
+
 
   def create
     @bookshelf = Bookshelf.new(bookshelf_params)
