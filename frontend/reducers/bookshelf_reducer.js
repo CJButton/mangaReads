@@ -17,8 +17,10 @@ const BookshelfReducer = (state = {}, action) => {
       case RECEIVE_ALL_BOOKSHELVES:
       return action.bookshelves;
 
+      case RECEIVE_BOOKSHELF:
+
       case RECEIVE_ERRORS:
-      alert(action.error);
+
 
     default:
       return state;

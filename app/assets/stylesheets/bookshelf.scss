@@ -4,14 +4,17 @@
 
 .bookshelfMain {
   margin-top: 30px;
-  display: flex
+  display: flex;
+  padding-right: 200px;
 }
 
 .bookshelfLeft {
-  padding: 25px;
+  padding-right: 150px;
 }
 
 .bookshelfContainer {
+
+
 }
 
 .comicDisplayWrapper {
@@ -30,6 +33,7 @@
 
 .bookshelfTitle {
   font-size: 18px;
+  width: 300px;
 }
 
 .bookshelfComicText {
@@ -43,7 +47,7 @@
 .bookshelfComicShow {
   flex-direction: column;
   width: 100%;
-  display: flex
+  display: flex;
 }
 
 .bookshelfPicture {

@@ -92,7 +92,7 @@ class AuthForm extends React.Component{
               value={username}
               onChange={this.update("username")}/>
 
-            <input type="text"
+            <input type="password"
               placeholder="Password"
               value={password1}
               onChange={this.update("password1")}/>

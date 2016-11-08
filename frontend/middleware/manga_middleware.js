@@ -19,12 +19,12 @@ const MangaMiddleware = ({ getState, dispatch }) => next => action => {
     case REQUEST_ALL_MANGA:
     success = manga => dispatch(receiveAllManga(manga));
     getAllManga(success, errorCallBack);
-    next(action);
+    return next(action);
 
     case REQUEST_MANGA:
     success = manga => dispatch(receiveManga(manga));
     getManga(action.id, success);
-    next(action);
+    return next(action);
 
     default:
       next(action);

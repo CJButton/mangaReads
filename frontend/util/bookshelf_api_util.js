@@ -3,7 +3,7 @@
 export const fetchAllBookshelves = (success) => {
   $.ajax({
     type: 'GET',
-    url: `api/bookshelves`,
+    url: `api/bookshelves/all`,
     success
   });
 };

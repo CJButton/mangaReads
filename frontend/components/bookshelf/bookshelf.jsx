@@ -11,7 +11,6 @@ class Bookshelf extends React.Component{
 
   }
 
-
   update(property) {
     return e => this.setState({[property]: e.target.value});
   }
