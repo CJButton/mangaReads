@@ -16,6 +16,7 @@ class User < ActiveRecord::Base
 	before_validation :ensure_session_token_uniqueness
 
 	has_many :bookshelves
+	has_many :mangas, through: :bookshelves, source: :mangas
 
 	def password= password
 		self.password_digest = BCrypt::Password.create(password)

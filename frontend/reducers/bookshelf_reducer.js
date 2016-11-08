@@ -2,7 +2,8 @@
 
 import { RECEIVE_BOOKSHELF,
          REMOVE_BOOKSHELF,
-         RECEIVE_ERRORS } from '../actions/bookshelf_actions';
+         RECEIVE_ERRORS,
+         RECEIVE_ALL_BOOKSHELVES} from '../actions/bookshelf_actions';
 
 import { merge } from 'lodash';
 
@@ -12,13 +13,9 @@ const BookshelfReducer = (state = {}, action) => {
     let newState;
 
     switch(action.type) {
-      case RECEIVE_BOOKSHELF:
-      return merge({}, state, action.bookshelf);
 
-      case REMOVE_BOOKSHELF:
-      newState = Object.assign({}, state);
-      delete newState[action.bookshelf.id];
-      return newState;
+      case RECEIVE_ALL_BOOKSHELVES:
+      return action.bookshelves;
 
       case RECEIVE_ERRORS:
       alert(action.error);

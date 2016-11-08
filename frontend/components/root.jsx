@@ -17,6 +17,7 @@ import BookshelfContainer from './bookshelf/bookshelf_container';
 // actions
 // import {requestAllManga} from './actions/manga_actions';
 import { requestAllManga, requestManga } from '../actions/manga_actions';
+import { requestAllBookshelves } from '../actions/bookshelf_actions';
 
 const Root = ({store}) => {
 
@@ -29,6 +30,10 @@ const Root = ({store}) => {
 
   const loadAllManga = () => {
     store.dispatch(requestAllManga());
+  };
+
+  const loadAllShelves = () => {
+    store.dispatch(requestAllBookshelves());
   };
 
   // what is nextState?
@@ -44,12 +49,13 @@ const Root = ({store}) => {
     }
   };
 
+
   return (
     <Provider store={store}>
       <Router history={hashHistory}>
         <Route path ="/" component={App} onEnter={_ensureLoggedIn}>
-          <IndexRoute component={HomeContainer} />
-          <Route path="/my-Manga" component={BookshelfContainer} />
+          <IndexRoute component={HomeContainer} onEnter={loadAllManga}/>
+          <Route path="/my-Manga" component={BookshelfContainer} onEnter={loadAllShelves}/>
           <Route path="/manga/:id" component={MangaContainer} onEnter={loadSingleManga}/>
         </Route>
         <Route path="/login" component={AuthContainer} onEnter={_redirectIfLoggedIn}/>
