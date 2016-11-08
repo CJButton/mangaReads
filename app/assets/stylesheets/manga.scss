@@ -4,6 +4,15 @@
 .single-manga-show {
   display: flex;
   justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.mangaHomeTitle{
+  font-size: 20px
 }
 
 .single-manga-picture {
@@ -12,6 +21,8 @@
   max-width: 50%;
   height: auto;
   padding-left: 100px;
+  padding-top: 25px;
+  margin-bottom: 25px;
 }
 
 .single-manga-words {

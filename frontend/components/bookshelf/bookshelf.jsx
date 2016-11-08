@@ -13,22 +13,44 @@ class Bookshelf extends React.Component{
 
   }
 
+
   update(property) {
     return e => this.setState({[property]: e.target.value});
   }
 
+  pictureRedirect() {
+
+  }
+
   render() {
     return (
-      <ul>
-        {this.props.bookshelf.map((comic, i) => (
-          <li key={i} className="allBookshelfManga">
-            <div className="allBookshelfImage">
-              <img src={comic.img_url} width="210" height="300"/>
+      <div className="bookshelfMain">
+        <div className="bookshelfLeft">
+          Left Container
+        </div>
+          <div className="bookshelfContainer">
+              <div className="bookshelfComicShow">
+              {
+                this.props.bookshelf.map((comic, i) => (
+                <element className="comicDisplayWrapper">
+                  <ul className="comicInfoDisplay">
+
+                    <a href={`#/manga/${comic.id}`}>
+                      <img className="bookshelfPicture" src={comic.img_url}/>
+                    </a>
+                    <ul className="bookshelfComicText">
+                      <li className="bookshelfTitle">{comic.title}</li>
+                      <li>by {comic.author}</li>
+
+                    </ul>
+                  </ul>
+                </element>
+                  )
+                    )
+              }
             </div>
-            <div>{comic.title}</div>
-          </li>
-        ))}
-      </ul>
+          </div>
+    </div>
     );
   }
 }
