@@ -11,7 +11,7 @@ export const fetchAllBookshelves = (success) => {
 export const fetchBookshelf = (id, success, error) => {
   $.ajax({
     type: 'GET',
-    url: `/api/bookshelves/${id}`,
+    url: `api/bookshelves/${id}`,
     success,
     error
   });
@@ -20,7 +20,7 @@ export const fetchBookshelf = (id, success, error) => {
 export const postBookshelf = (bookshelf, success, error) => {
   $.ajax({
     type: 'POST',
-    url: `/api/bookshelves`,
+    url: `api/bookshelves`,
     data: bookshelf,
     success,
     error

@@ -31,6 +31,7 @@ class Bookshelf extends React.Component{
           <div className="bookshelfContainer">
               <div className="bookshelfComicShow">
               {
+
                 this.props.bookshelf.map((comic, i) => (
                 <element className="comicDisplayWrapper">
                   <ul className="comicInfoDisplay">

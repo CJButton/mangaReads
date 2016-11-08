@@ -9,6 +9,9 @@ class Api::UsersController < ApplicationController
 
     if @user.save
       login(@user)
+      Bookshelf.create({user_id: current_user.id, title: "To-Read"})
+      Bookshelf.create({user_id: current_user.id, title: "Read"})
+      Bookshelf.create({user_id: current_user.id, title: "Current-Reading"})
       render "api/users/show"
     else
       render json: @user.errors.full_messages, status: 422
