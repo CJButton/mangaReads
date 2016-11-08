@@ -2,6 +2,8 @@
 
 
 import React from 'react';
+import Slider from 'react-slick';
+
 
 import { createBookshelf } from '../../actions/bookshelf_actions';
 
@@ -20,9 +22,9 @@ class Bookshelf extends React.Component{
       <ul>
         {this.props.bookshelf.map((comic, i) => (
           <li key={i} className="allBookshelfManga">
-            <li className="allBookshelfImage">
+            <div className="allBookshelfImage">
               <img src={comic.img_url} width="210" height="300"/>
-            </li>
+            </div>
             <div>{comic.title}</div>
           </li>
         ))}
