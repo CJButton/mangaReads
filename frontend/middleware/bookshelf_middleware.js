@@ -19,7 +19,7 @@ import { createBookshelf,
 const BookshelfMiddleware = ({ getState, dispatch }) => next => action => {
   const errorCallback = xhr => dispatch(receiveBookshelfErrors(xhr.responseJSON));
   let success;
-  console.log(action.type);
+
   switch(action.type) {
     case REQUEST_ALL_BOOKSHELVES:
     success = shelves => dispatch(receiveAllBookshelves(shelves));

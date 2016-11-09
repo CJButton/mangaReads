@@ -6,7 +6,7 @@ import React from 'react';
 const MangaShow = ( {manga} ) => (
       <div className="single-manga-show">
         <div className="single-manga-picture">
-          <li><img src={manga.img_url} width="210" height="300"/></li>
+          <li><img className="manga-picture-show" src={manga.img_url} width="210" height="300"/></li>
         </div>
         <ul className="single-manga-words">
           <li className="mangaHomeTitle">{manga.title}</li>

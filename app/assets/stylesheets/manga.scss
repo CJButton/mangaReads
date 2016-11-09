@@ -15,6 +15,11 @@
   font-size: 20px
 }
 
+.manga-picture-show {
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
 .single-manga-picture {
   list-style-type: none;
   display: flex;
@@ -23,6 +28,7 @@
   padding-left: 100px;
   padding-top: 25px;
   margin-bottom: 25px;
+
 }
 
 .single-manga-words {

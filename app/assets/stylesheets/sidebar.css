@@ -2,12 +2,27 @@
 
 
 .sidebar-continer {
+}
 
+.sidebar-wrapper {
+  border-right-width: 1px;
+  border-style: solid;
+  height: 500px;
 }
 
 
 .sidebar-shelves-holder {
+  padding-top: 150px;
   display: flex;
   flex-direction: column;
   width: 100px;
+  list-style-type: none;
+  line-height: 1.5em;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+
+.sidebar-footer {
+  width: 25px;
 }

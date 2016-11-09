@@ -3,23 +3,26 @@
 
 
 .home-container {
+  padding-top: 75px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   justify-content: space-between;
   background-color: #FFFFFF;
 }
 
 .mangaHomeDisplay {
+  margin-top: 150px;
   display: inline-block;
   height: 2px;
   margin: 1px;
-  border: 3px solid #73AD21;
 }
-
 
 
 .homePicture {
   margin: 5px;
   height: 160px;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .home-left {
