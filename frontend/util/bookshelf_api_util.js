@@ -17,18 +17,22 @@ export const fetchBookshelf = (id, success, error) => {
   });
 };
 
-export const postBookshelf = (bookshelf, success, error) => {
+export const postBookshelf = (shelf, success, error) => {
   $.ajax({
     type: 'POST',
     url: `api/bookshelves`,
-    data: bookshelf,
+    data: {shelf},
     success,
     error
   });
-
-
-
-
-
-
 };
+
+
+export const deleteBookshelf = (id, success, error) => {
+  $.ajax({
+    type: 'DELETE',
+    url: `/api/bookshelves/${id}`,
+    success,
+    error
+  })
+}
