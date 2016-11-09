@@ -18,12 +18,6 @@ class Api::BookshelvesController < ApplicationController
     render json: @bookshelf
   end
 
-  # grab ALL the comics for the current user, to be displayed on entrance
-  # or on hitting the ALL button in my-Manga
-  def all
-    @all_manga = current_user.mangas
-  end
-
   # create a new bookshelf for the user, to be added to :bookshelf ???
   def create
     @bookshelf = Bookshelf.new(bookshelf_params)

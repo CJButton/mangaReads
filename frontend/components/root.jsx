@@ -34,7 +34,7 @@ const Root = ({store}) => {
   };
 
   const loadAllShelves = () => {
-    store.dispatch(requestAllBookshelves());
+    store.dispatch(requestAllManga("all"));
   };
 
   // what is nextState?

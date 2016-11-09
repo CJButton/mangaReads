@@ -10,7 +10,7 @@ import BookshelfReducer from './bookshelf_reducer';
 const RootReducer = combineReducers({
   session: SessionReducer,
   manga: MangaReducer,
-  bookshelf: BookshelfReducer
+  bookshelves: BookshelfReducer
 });
 
 export default RootReducer;

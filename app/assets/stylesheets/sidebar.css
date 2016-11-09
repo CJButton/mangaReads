@@ -1,0 +1,13 @@
+
+
+
+.sidebar-continer {
+
+}
+
+
+.sidebar-shelves-holder {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
