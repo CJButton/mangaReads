@@ -4,6 +4,8 @@
 import React from 'react';
 
 import { createBookshelf } from '../../actions/bookshelf_actions';
+import BookshelfSidebar from '../sidebar/sidebar_container';
+
 
 class Bookshelf extends React.Component{
   constructor(props) {
@@ -14,14 +16,14 @@ class Bookshelf extends React.Component{
   render() {
     return (
       <div className="bookshelfMain">
-        <div className="bookshelfLeft">
+        <BookshelfSidebar className="bookshelfLeft">
           Left Container
-        </div>
+        </BookshelfSidebar>
           <div className="bookshelfContainer">
               <div className="bookshelfComicShow">
               {
 
-                this.props.bookshelf.map((comic, i) => (
+                this.props.manga.map((comic, i) => (
                 <element className="comicDisplayWrapper">
                   <ul className="comicInfoDisplay">
 

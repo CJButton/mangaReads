@@ -15,9 +15,9 @@ export const requestAllBookshelves = () => ({
   type: REQUEST_ALL_BOOKSHELVES
 });
 
-export const receiveAllMangaBookshelves = (bookshelves) => ({
+export const receiveAllBookshelves = (shelves) => ({
   type: RECEIVE_ALL_BOOKSHELVES,
-  bookshelves
+  shelves
 });
 
 export const receiveBookshelfErrors = (errors) => ({
@@ -25,7 +25,6 @@ export const receiveBookshelfErrors = (errors) => ({
   errors
 });
 
-// need to rethink this one; how exactly do I update
 export const updateBookshelf = (bookshelf) => ({
   type: UPDATE_BOOKSHELF,
   bookshelf

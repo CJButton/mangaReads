@@ -12,10 +12,10 @@ const BookshelfReducer = (state = {}, action) => {
     Object.freeze(state);
     let newState;
 
+    console.log("In the reducer");
     switch(action.type) {
-
       case RECEIVE_ALL_BOOKSHELVES:
-      return merge({}, action.bookshelves);
+      return merge({}, action.shelves);
 
     default:
       return state;

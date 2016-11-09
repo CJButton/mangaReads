@@ -7,16 +7,17 @@ import { createBookshelf,
          deleteBookshelf,
          updateBookshelf } from '../../actions/bookshelf_actions';
 import Sidebar from './sidebar';
+import values from 'lodash/values';
 
-const mapStateToProps = ({bookshelves}) => ({
-  bookshelves
+const mapStateToProps = (state) => ({
+  bookshelves: values(state.bookshelves)
 });
 
 const mapDispatchToProps = dispatch => ({
-  requestAllBookshelves: () => dispatch(requestAllBookshelves),
+  requestAllBookshelves: () => dispatch(requestAllBookshelves()),
   createBookshelf: shelf => dispatch(createBookshelf(shelf)),
-  deleteBookshelf: bookshelf => dispatch(deleteBookshelf(bookshelf)),
-  updateBookshelf: bookshelf => dispatch(updateBookshelf(bookshelf))
+  deleteBookshelf: shelf => dispatch(deleteBookshelf(shelf)),
+  updateBookshelf: shelf => dispatch(updateBookshelf(shelf))
 });
 
 export default connect(
