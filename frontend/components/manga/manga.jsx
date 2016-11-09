@@ -3,7 +3,6 @@
 
 import React from 'react';
 
-
 class MangaShow extends React.Component{
   constructor(props) {
     super(props);
