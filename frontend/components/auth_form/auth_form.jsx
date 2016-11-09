@@ -129,7 +129,6 @@ class AuthForm extends React.Component{
 
           <input className="submitButton"type="submit" placeholder="Sign up"/>
 
-          <input className="submitButton" type="submit" value="Guest Login" onClick={this.handleGuest}/>
         </form>
       </div>
     </nav>

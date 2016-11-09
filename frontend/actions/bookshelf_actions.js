@@ -35,9 +35,9 @@ export const removeBookshelf = (bookshelf) => ({
   bookshelf
 });
 
-export const deleteBookshelf = (bookshelf) => ({
+export const deleteBookshelf = (id) => ({
   type: DELETE_BOOKSHELF,
-  bookshelf
+  id
 });
 
 export const createBookshelf = (bookshelf) => ({

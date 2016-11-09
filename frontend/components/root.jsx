@@ -37,9 +37,7 @@ const Root = ({store}) => {
     store.dispatch(requestAllManga("all"));
   };
 
-  // what is nextState?
   const loadSingleManga = nextState => {
-    console.log("Are we in the loadSingleManga?");
     store.dispatch(requestManga(nextState.params.id));
   };
 

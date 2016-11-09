@@ -2,7 +2,8 @@
 
 
 import { postBookshelf,
-         fetchAllBookshelves} from '../util/bookshelf_api_util';
+         fetchAllBookshelves,
+         deleteBookshelf} from '../util/bookshelf_api_util';
 
 import { createBookshelf,
          receiveBookshelf,
@@ -26,14 +27,20 @@ const BookshelfMiddleware = ({ getState, dispatch }) => next => action => {
     fetchAllBookshelves(success);
     return next(action);
 
+    case CREATE_BOOKSHELF:
+    success = shelf => dispatch(receiveBookshelf(shelf));
+    postBookshelf(action.bookshelf, success);
+    return next(action);
+
+    case DELETE_BOOKSHELF:
+    success = bookshelf => dispatch(removeBookshelf(bookshelf))
+    deleteBookshelf(action.id, success);
+    return next(action);
+
+
     default:
       next(action);
   }
 };
-
-
-
-
-
 
 export default BookshelfMiddleware;

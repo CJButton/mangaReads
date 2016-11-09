@@ -20,7 +20,10 @@ class Api::BookshelvesController < ApplicationController
 
   # create a new bookshelf for the user, to be added to :bookshelf ???
   def create
-    @bookshelf = Bookshelf.new(bookshelf_params)
+    #@bookshelf = Bookshelf.new({title: "tester", user_id: current_user.id})
+
+    @bookshelf = Bookshelf.new(title: params[:shelf], user_id: current_user.id)
+
     if @bookshelf.save
       render json: @bookshelf
     else
@@ -28,9 +31,17 @@ class Api::BookshelvesController < ApplicationController
     end
   end
 
+  def destroy
+
+    @bookshelf = Bookshelf.find(params[:id])
+    @bookshelf.destroy
+    render json: @bookshelf
+
+  end
+
    private
    def bookshelf_params
-     params.require(:bookshelf).permit(:title, :user_id)
+     params.require(:bookshelf).permit(:title)
    end
 
 

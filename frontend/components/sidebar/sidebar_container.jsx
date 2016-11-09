@@ -19,7 +19,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = dispatch => ({
   requestAllBookshelves: () => dispatch(requestAllBookshelves()),
   createBookshelf: shelf => dispatch(createBookshelf(shelf)),
-  deleteBookshelf: shelf => dispatch(deleteBookshelf(shelf)),
+  deleteBookshelf: id => dispatch(deleteBookshelf(id)),
   updateBookshelf: shelf => dispatch(updateBookshelf(shelf)),
   requestAllManga: shelf => dispatch(requestAllManga(shelf))
 });
