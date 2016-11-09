@@ -1,6 +1,6 @@
 
 
-export const fetchAllBookshelves = (success) => {
+export const fetchAllMangaBookshelves = (success) => {
   $.ajax({
     type: 'GET',
     url: `api/bookshelves/all`,
