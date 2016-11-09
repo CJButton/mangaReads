@@ -6,11 +6,21 @@ import React from 'react';
 class Sidebar extends React.Component{
   constructor(props) {
     super(props);
+    this.handleAll = this.handleAll.bind(this);
+    this.handleShelf = this.handleShelf.bind(this);
   }
 
   componentDidMount() {
-    console.log("Sidebar mounted?");
     this.props.requestAllBookshelves();
+  }
+
+  handleAll() {
+    this.props.requestAllManga("all");
+  }
+
+  handleShelf(e) {
+    let target = e.currentTarget.value;
+    this.props.requestAllManga(target);
   }
 
   render() {
@@ -22,11 +32,20 @@ class Sidebar extends React.Component{
     console.log(bookshelves);
     return (
       <main className="sidebar-container">
+        <div className="sidbar-wrapper">
         <ul className="sidebar-shelves-holder">
+
+          <input className="sidebar-all" onClick={this.handleAll}
+            type="submit" value="All"/>
+
           {this.props.bookshelves.map((shelf, i) => (
-            <ul>{shelf.title}</ul>
+            <input className="sidebar-shelves" onClick={this.handleShelf}
+              type="submit" value={shelf.title} />
           ))}
+
         </ul>
+        <footer classname="sidebar-footer"></footer>
+        </div>
       </main>
     );
   }

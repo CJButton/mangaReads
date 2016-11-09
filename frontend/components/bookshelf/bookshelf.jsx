@@ -24,7 +24,7 @@ class Bookshelf extends React.Component{
               {
 
                 this.props.manga.map((comic, i) => (
-                <element className="comicDisplayWrapper">
+                <element key={i} className="comicDisplayWrapper">
                   <ul className="comicInfoDisplay">
 
                     <a href={`#/manga/${comic.id}`}>
