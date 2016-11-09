@@ -1,0 +1,8 @@
+
+
+
+class MangaStatusesController < ApplicationController
+
+  
+
+end
