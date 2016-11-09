@@ -15,7 +15,7 @@ export const requestAllBookshelves = () => ({
   type: REQUEST_ALL_BOOKSHELVES
 });
 
-export const receiveAllBookshelves = (bookshelves) => ({
+export const receiveAllMangaBookshelves = (bookshelves) => ({
   type: RECEIVE_ALL_BOOKSHELVES,
   bookshelves
 });

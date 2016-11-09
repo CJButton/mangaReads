@@ -2,13 +2,13 @@
 
 
 import { postBookshelf,
-         fetchAllBookshelves} from '../util/bookshelf_api_util';
+         fetchAllMangaBookshelves} from '../util/bookshelf_api_util';
 
 import { createBookshelf,
          receiveBookshelf,
          receiveBookshelfErrors,
          requestBookshelves,
-         receiveAllBookshelves,
+         receiveAllMangaBookshelves,
          removeBookshelf,
          CREATE_BOOKSHELF,
          DELETE_BOOKSHELF,
@@ -23,8 +23,8 @@ const BookshelfMiddleware = ({ getState, dispatch }) => next => action => {
 
   switch(action.type) {
     case REQUEST_ALL_BOOKSHELVES:
-    success = bookshelves => dispatch(receiveAllBookshelves(bookshelves));
-    return fetchAllBookshelves(success);
+    success = bookshelves => dispatch(receiveAllMangaBookshelves(bookshelves));
+    return fetchAllMangaBookshelves(success);
 
     case CREATE_BOOKSHELF:
     return postBookshelf(action.bookshelf, receiveBookshelfSuccess);

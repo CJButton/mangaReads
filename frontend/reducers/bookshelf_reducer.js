@@ -15,12 +15,7 @@ const BookshelfReducer = (state = {}, action) => {
     switch(action.type) {
 
       case RECEIVE_ALL_BOOKSHELVES:
-      return action.bookshelves;
-
-      case RECEIVE_BOOKSHELF:
-
-      case RECEIVE_ERRORS:
-
+      return merge({}, action.bookshelves);
 
     default:
       return state;

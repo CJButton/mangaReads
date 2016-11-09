@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import { createBookshelf } from '../../actions/bookshelf_actions';
 import Bookshelf from './bookshelf';
 
-const mapStateToProps = ({bookshelf}) => ({
-  bookshelf: Object.keys(bookshelf).map(key => bookshelf[key])
+const mapStateToProps = ({manga}) => ({
+  manga: Object.keys(manga).map(key => manga[key])
 });
 
 const mapDispatchToProps = dispatch => ({
