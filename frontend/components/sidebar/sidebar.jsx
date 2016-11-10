@@ -41,42 +41,54 @@ class Sidebar extends React.Component{
 
   render() {
 
+
     let bookshelves = [];
     if (this.props.bookshelves ) {
       bookshelves = this.props.bookshelves;
+      console.log(bookshelves);
     }
 
     const {shelfname} = this.state;
+    // need an if statment or an for loop to skip the first two elements in the bookshelf
 
     return (
       <main className="sidebar-container">
         <div className="sidbar-wrapper">
-        <ul className="sidebar-shelves-holder">
+          <ul className="sidebar-shelves-holder">
 
           <input className="sidebar-all" onClick={this.handleAll}
             type="submit" value="All"/>
 
-          {this.props.bookshelves.map((shelf, i) => {
-            return (<div>
-            <input className="sidebar-shelves" onClick={this.handleShelf}
+          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "To-Read")}
+            type="submit" value="To-Read"/>
+
+          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Read")}
+            type="submit" value="Read"/>
+
+          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Currently-Reading")}
+            type="submit" value="Currently-Reading"/>
+
+          {bookshelves.map((shelf, i) => {
+            return (<div className="sidebar-generated-buttons">
+            <input key={i} className="sidebar-shelves" onClick={this.handleShelf}
               type="submit" value={shelf.title} />
-            <span onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</span>
+
+            <span className="sidebar-delete" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</span>
             </div>
           );
           })}
 
         </ul>
-        <input type="text"
-               placeholder="Place Shelfname here"
+        <input className="sidebar-shelf-name"
+               type="text"
+               placeholder="Shelfname"
                value={shelfname}
                onChange={this.update("shelfname")}/>
-
+             <br></br>
           <input className="addShelfSubmit"
                  type="submit"
                  placeholder="Add Shelf"
                  onClick={this.handleAddShelf} />
-
-               <footer className="sidebar-footer"></footer>
         </div>
       </main>
     );

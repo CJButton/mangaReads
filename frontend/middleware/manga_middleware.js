@@ -7,7 +7,7 @@ import {receiveManga,
         receiveErrors,
         receiveAllManga,
         requestAllManga,
-        REQUEST_ALL_MANGA} from '../actions/manga_actions.js';
+        REQUEST_ALL_MANGA} from '../actions/manga_actions';
 
 import { getAllManga, getManga } from '../util/manga_api_util';
 

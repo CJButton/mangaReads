@@ -5,21 +5,75 @@
 }
 
 .sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
   border-right-width: 1px;
   border-style: solid;
   height: 500px;
+  border: none;
+
 }
 
+.sidebar-all {
+  border: none;
+  background-color: inherit;
+  width: 100px;
+}
 
-.sidebar-shelves-holder {
-  padding-top: 150px;
-  display: flex;
-  flex-direction: column;
+.sidebar-generated-buttons input{
+  border: none;
+  margin: 5px;
+  margin-right: 10px;
+  margin-left: -17px;
+  height: 20px;
+  width: 33px;
+  padding-right: 100px;
+}
+
+.sidebar-to-read {
+  background-color: inherit;
+  width: 100px;
+  border: none;
+
+}
+
+.sidebar-delete {
+  border: none;
+  background-color: inherit;
+
+}
+
+.sidebar-shelves {
+  margin: 5px;
+  width: 100px;
+  margin: 15px;
+  padding-top: 80px;
   width: 100px;
   list-style-type: none;
   line-height: 1.5em;
   text-decoration: none;
-  padding-right: 20px;
+  padding-right: 10px;
+}
+
+.sidebar-shelf-name {
+  width: 100px;
+  margin-left: 50px;
+}
+
+.addShelfSubmit {
+  border: none;
+  background-color: inherit;
+  padding-left: 0px;
+}
+
+
+.sidebar-shelves-holder {
+  margin: 15px;
+  width: 100px;
+  list-style-type: none;
+  line-height: 1.5em;
+  text-decoration: none;
+  padding-right: 10px;
 }
 
 

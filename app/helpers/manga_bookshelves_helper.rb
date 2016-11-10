@@ -1,0 +1,2 @@
+module MangaBookshelvesHelper
+end

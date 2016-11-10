@@ -65,11 +65,7 @@ class TopBar extends React.Component{
             <li>
             <input className="topbar-logout-button" type="submit"
               onClick={this.handleLogout} value="Logout"/>
-            </li>
-            <li>
-              <input className="topbar-profile-button" type="submit"
-                onClick={this.handleProfile} value="" />
-            </li>
+          </li>
           </ul>
 
         </nav>
