@@ -8,7 +8,8 @@ class Api::BookshelvesController < ApplicationController
   # display ALL bookshelves of the current user
   # to be displayed in the sidebar
   def index
-    @all_bookshelves = current_user.bookshelves
+    all_bookshelves = current_user.bookshelves
+    @user_shelves = all_bookshelves.drop(3)
   end
 
   # display ONLY the comics for a specific bookshelf
@@ -18,10 +19,7 @@ class Api::BookshelvesController < ApplicationController
     render json: @bookshelf
   end
 
-  # create a new bookshelf for the user, to be added to :bookshelf ???
   def create
-    #@bookshelf = Bookshelf.new({title: "tester", user_id: current_user.id})
-
     @bookshelf = Bookshelf.new(title: params[:shelf], user_id: current_user.id)
 
     if @bookshelf.save

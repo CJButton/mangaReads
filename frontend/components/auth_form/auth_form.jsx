@@ -97,7 +97,7 @@ class AuthForm extends React.Component{
               value={password1}
               onChange={this.update("password1")}/>
             <br></br>
-            <input type="submit" value="Login"/>&nbsp;
+            <input className="auth-login-button" type="submit" value="Login"/>&nbsp;
 
 
             <input className="guestLogin" type="submit" onClick={this.handleGuest}

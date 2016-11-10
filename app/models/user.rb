@@ -17,6 +17,7 @@ class User < ActiveRecord::Base
 
 	has_many :bookshelves
 	has_many :mangas, through: :bookshelves, source: :mangas
+	has_many :manga_statuses
 
 	def password= password
 		self.password_digest = BCrypt::Password.create(password)

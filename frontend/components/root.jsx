@@ -18,7 +18,6 @@ import BookshelfContainer from './bookshelf/bookshelf_container';
 // import {requestAllManga} from './actions/manga_actions';
 import { requestAllManga, requestManga } from '../actions/manga_actions';
 import { requestAllBookshelves } from '../actions/bookshelf_actions';
-window.requestAllManga = requestAllManga;
 
 const Root = ({store}) => {
 
