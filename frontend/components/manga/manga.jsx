@@ -13,6 +13,16 @@ class MangaShow extends React.Component{
     };
   }
 
+
+  toggleCheckbox: function () {
+  this.setState({
+    isChecked: ! this.state.isChecked
+  });
+
+  this.props.handleCheckboxChange(this.props.label);
+},
+
+
   toggle(shelfId, mangaId) {
     this.props.toggleShelf(shelfId, mangaId);
   }
@@ -51,7 +61,7 @@ class MangaShow extends React.Component{
             return (
               <li key={shelf.id}>
                 <label>
-                  <input style={{display: "true"}}
+                  <input
                     className="Shelf-answer-checkbox"
                     type="checkbox"
                     onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
