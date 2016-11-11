@@ -3,7 +3,9 @@ import React from 'react';
 class MangaShow extends React.Component{
  constructor(props) {
    super(props);
-
+   // this.bookshelfIds = this.props.bookshelves.map((shelf) => {
+   //     return shelf.id;
+   //   });
    this.isChecked = this.isChecked.bind(this);
  }
 
@@ -11,6 +13,15 @@ class MangaShow extends React.Component{
  toggle(shelfId, mangaId) {
    this.props.toggleShelf(shelfId, mangaId);
  }
+
+ // componentWillReceiveProps(newProps) {
+ //   let checkboxes = {};
+ //
+ //   newProps.bookshelves.forEach((shelf) => {
+ //     checkboxes[shelf.id] = this.isChecked(shelf.id);
+ //   });
+ //   this.setState(checkboxes);
+ // }
 
  componentDidMount() {
    this.props.requestAllBookshelves();
@@ -30,11 +41,18 @@ class MangaShow extends React.Component{
    return checked;
  }
 
+ // 1. need to send the manga to the approriate bookshelf
+ // 2. have to update the status as well
  handleStatus(e) {
+   // let's send it to the appropriate bookshelf first
+       //this.setState({value: event.target.value});
   this.props.changeMangaStatus(e.target.value);
+
+
  }
 
  render() {
+   console.log(this.props);
 
    return (
    <div className="single-manga-show">
@@ -52,9 +70,9 @@ class MangaShow extends React.Component{
 
        //
        <select value={this.props.status} onChange={this.handleStatus}>
-         <option value="Want-To-Read">Want to Read</option>
+         <option value="Currently-Reading">Want to Read</option>
          <option value="Read">Read</option>
-         <option value="Currently-Reading">Currently-Reading</option>
+         <option value="To-Read">To-Read</option>
        </select>
 
          {this.props.bookshelves.map((shelf, index) => {
