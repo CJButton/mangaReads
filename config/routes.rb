@@ -11,7 +11,7 @@ Rails.application.routes.draw do
     resource :session, only: [:create, :destroy, :show]
     resources :mangas, only: [:show, :index]
     resources :bookshelves, only: [:index, :show, :destroy, :update, :create]
-    resources :mangastatus, only: [:create]
+    resources :mangastatus, only: [:create, :show]
 
     post 'mangabookshelves', :to => 'mangabookshelves#toggle'
   end

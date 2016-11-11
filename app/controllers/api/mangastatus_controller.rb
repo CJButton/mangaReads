@@ -2,8 +2,13 @@
 
 
 
-
 class Api::MangastatusController < ApplicationController
+
+  def show
+
+    @status = MangaStatus.where(user_id: current_user.id, manga_id: params[:mangaId])
+    render json: @status
+  end
 
   def create
     MangaStatus.changer(params[:readStatus], params[:mangaId], current_user.id)
