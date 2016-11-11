@@ -12,8 +12,8 @@ const MangaBookshelvesMiddleware = ({ getState, dispatch }) => next => action =>
   let success;
 
   switch(action.type) {
+    
     case TOGGLE_BOOKSHELF:
-
     success = (bookshelves) => dispatch(receiveToggleUpdate(bookshelves));
     toggleMangaBookshelf(action.bookshelfId, action.mangaId, success, errorCallBack);
     return next(action);

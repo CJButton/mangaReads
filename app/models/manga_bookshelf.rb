@@ -7,7 +7,6 @@ class MangaBookshelf < ActiveRecord::Base
 
   def self.toggle(shelf_id, manga_id)
 
-    # what should I return here though?
     old = MangaBookshelf.where(bookshelf_id: shelf_id, manga_id: manga_id).ids
     if old.empty?
       @shelf = MangaBookshelf.create(bookshelf_id: shelf_id, manga_id: manga_id)

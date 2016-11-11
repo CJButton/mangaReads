@@ -3,9 +3,7 @@ import React from 'react';
 class MangaShow extends React.Component{
  constructor(props) {
    super(props);
-   // this.bookshelfIds = this.props.bookshelves.map((shelf) => {
-   //     return shelf.id;
-   //   });
+
    this.isChecked = this.isChecked.bind(this);
  }
 
@@ -13,15 +11,6 @@ class MangaShow extends React.Component{
  toggle(shelfId, mangaId) {
    this.props.toggleShelf(shelfId, mangaId);
  }
-
- // componentWillReceiveProps(newProps) {
- //   let checkboxes = {};
- //
- //   newProps.bookshelves.forEach((shelf) => {
- //     checkboxes[shelf.id] = this.isChecked(shelf.id);
- //   });
- //   this.setState(checkboxes);
- // }
 
  componentDidMount() {
    this.props.requestAllBookshelves();
@@ -41,6 +30,10 @@ class MangaShow extends React.Component{
    return checked;
  }
 
+ handleStatus(e) {
+  this.props.changeMangaStatus(e.target.value);
+ }
+
  render() {
 
    return (
@@ -57,12 +50,11 @@ class MangaShow extends React.Component{
        <br></br>
        <li className="mangaHomeWords">{this.props.manga.synopsis}</li>
 
-  
-
-       <select>
-         <option value="WantToRead">Want to Read</option>
+       //
+       <select value={this.props.status} onChange={this.handleStatus}>
+         <option value="Want-To-Read">Want to Read</option>
          <option value="Read">Read</option>
-         <option value="To-Read">To-Read</option>
+         <option value="Currently-Reading">Currently-Reading</option>
        </select>
 
          {this.props.bookshelves.map((shelf, index) => {
