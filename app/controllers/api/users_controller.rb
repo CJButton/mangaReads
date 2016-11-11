@@ -9,7 +9,7 @@ class Api::UsersController < ApplicationController
 
     if @user.save
       login(@user)
-      Bookshelf.create({user_id: current_user.id, title: "To-Read"})
+      Bookshelf.create({user_id: current_user.id, title: "Want-To-Read"})
       Bookshelf.create({user_id: current_user.id, title: "Read"})
       Bookshelf.create({user_id: current_user.id, title: "Currently-Reading"})
       render "api/users/show"

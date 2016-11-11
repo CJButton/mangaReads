@@ -59,8 +59,8 @@ class Sidebar extends React.Component{
           <input className="sidebar-all" onClick={this.handleAll}
             type="submit" value="All"/>
 
-          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "To-Read")}
-            type="submit" value="To-Read"/>
+          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Want-To-Read")}
+            type="submit" value="Want-To-Read"/>
 
           <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Read")}
             type="submit" value="Read"/>
