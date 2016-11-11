@@ -73,7 +73,7 @@ class Sidebar extends React.Component{
             <input key={i} className="sidebar-shelves" onClick={this.handleShelf}
               type="submit" value={shelf.title} />
 
-            <span className="sidebar-delete" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</span>
+            <span className="sidebar-delete" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>Delete Shelf</span>
             </div>
           );
           })}
