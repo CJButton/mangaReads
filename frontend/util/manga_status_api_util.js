@@ -11,3 +11,13 @@ export const changeStatus = (readStatus, mangaId, success, error) => {
     error
   });
 };
+
+export const updateStatus = (mangaId, success, error) => {
+  $.ajax({
+    type: 'GET',
+    url: `api/mangastatus/${mangaId}`,
+    data: {mangaId},
+    success,
+    error
+  });
+};

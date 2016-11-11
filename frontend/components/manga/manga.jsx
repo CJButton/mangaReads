@@ -3,12 +3,17 @@ import React from 'react';
 class MangaShow extends React.Component{
  constructor(props) {
    super(props);
-   // this.bookshelfIds = this.props.bookshelves.map((shelf) => {
-   //     return shelf.id;
-   //   });
+
    this.isChecked = this.isChecked.bind(this);
    this.toggle = this.toggle.bind(this);
    this.handleStatus = this.handleStatus.bind(this);
+ }
+
+ // maybe i can use this to set the component state, and that have
+ // the dropdown use that as the default state?
+ setStatus() {
+   let statuses = ["Currently-Reading", "Read", "Want-To-Read"];
+
  }
 
 
@@ -16,17 +21,9 @@ class MangaShow extends React.Component{
    this.props.toggleShelf(shelfId, mangaId);
  }
 
- // componentWillReceiveProps(newProps) {
- //   let checkboxes = {};
- //
- //   newProps.bookshelves.forEach((shelf) => {
- //     checkboxes[shelf.id] = this.isChecked(shelf.id);
- //   });
- //   this.setState(checkboxes);
- // }
-
  componentDidMount() {
    this.props.requestAllBookshelves();
+   this.props.requestMangaStatus(this.props.routeParams.id);
  }
 
  isChecked(myShelfId) {
@@ -43,13 +40,9 @@ class MangaShow extends React.Component{
    return checked;
  }
 
- // 1. need to send the manga to the approriate bookshelf
- // 2. have to update the status as well
  handleStatus(e) {
    console.log(this.props.routeParams.id);
   this.props.changeMangaStatus(e.target.value, this.props.routeParams.id);
-
-
  }
 
  render() {
@@ -69,9 +62,9 @@ class MangaShow extends React.Component{
        <br></br>
        <li className="mangaHomeWords">{this.props.manga.synopsis}</li>
 
-       //
-       <select value={this.props.status} onChange={this.handleStatus}>
-         <option>Choose a shelf!</option>
+
+       <select className="manga-dropdown" value="Placeholder" onChange={this.handleStatus}>
+         <option>"Choose a status:"</option>
          <option value="Currently-Reading">Currently-Reading</option>
          <option value="Read">Read</option>
          <option value="Want-To-Read">Want-To-Read</option>
