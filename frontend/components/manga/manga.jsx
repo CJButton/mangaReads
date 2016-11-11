@@ -7,6 +7,8 @@ class MangaShow extends React.Component{
    //     return shelf.id;
    //   });
    this.isChecked = this.isChecked.bind(this);
+   this.toggle = this.toggle.bind(this);
+   this.handleStatus = this.handleStatus.bind(this);
  }
 
 
@@ -44,9 +46,8 @@ class MangaShow extends React.Component{
  // 1. need to send the manga to the approriate bookshelf
  // 2. have to update the status as well
  handleStatus(e) {
-   // let's send it to the appropriate bookshelf first
-       //this.setState({value: event.target.value});
-  this.props.changeMangaStatus(e.target.value);
+   console.log(this.props.routeParams.id);
+  this.props.changeMangaStatus(e.target.value, this.props.routeParams.id);
 
 
  }
@@ -70,9 +71,10 @@ class MangaShow extends React.Component{
 
        //
        <select value={this.props.status} onChange={this.handleStatus}>
-         <option value="Currently-Reading">Want to Read</option>
+         <option>Choose a shelf!</option>
+         <option value="Currently-Reading">Currently-Reading</option>
          <option value="Read">Read</option>
-         <option value="To-Read">To-Read</option>
+         <option value="Want-To-Read">Want-To-Read</option>
        </select>
 
          {this.props.bookshelves.map((shelf, index) => {

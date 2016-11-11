@@ -14,7 +14,6 @@ const MangaStatusMiddleware = ({ getState, dispatch }) => next => action => {
   let success;
 
   switch(action.type) {
-    
     case CHANGE_MANGA_STATUS:
       success = status => dispatch(receiveMangaStatus(status));
       changeStatus(action.readStatus, action.mangaId, success, errorCallBack);
@@ -24,3 +23,5 @@ const MangaStatusMiddleware = ({ getState, dispatch }) => next => action => {
       next(action);
   }
 };
+
+export default MangaStatusMiddleware;
