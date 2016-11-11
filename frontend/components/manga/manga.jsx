@@ -77,7 +77,7 @@ class MangaShow extends React.Component{
              <li key={shelf.id}>
                <label>
                  <i
-                   className={"Shelf-answer-checkbox" + " " + this.isChecked(shelf.id)}
+                   className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
                    onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
                    value={index}>
                    {this.isChecked(shelf.id)}

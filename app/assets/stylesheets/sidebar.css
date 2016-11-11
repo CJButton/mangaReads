@@ -21,12 +21,11 @@
 }
 
 .sidebar-generated-buttons input{
-  border: none;
   margin: 5px;
   margin-right: 10px;
-  margin-left: -17px;
-  height: 20px;
-  width: 33px;
+  margin-left: 0px;
+  height: 5px;
+  width: 100px;
   padding-right: 100px;
 }
 
@@ -40,7 +39,6 @@
 .sidebar-delete {
   border: none;
   background-color: inherit;
-
 }
 
 .sidebar-shelves {
@@ -48,7 +46,6 @@
   width: 100px;
   margin: 15px;
   padding-top: 80px;
-  width: 100px;
   list-style-type: none;
   line-height: 1.5em;
   text-decoration: none;
@@ -63,7 +60,7 @@
 .addShelfSubmit {
   border: none;
   background-color: inherit;
-  padding-left: 0px;
+  padding-left: 80px;
 }
 
 
