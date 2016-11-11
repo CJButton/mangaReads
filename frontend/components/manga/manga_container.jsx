@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 
 import { requestAllManga } from '../../actions/manga_actions';
 
+import { changeMangaStatus } from '../../actions/manga_status_actions';
+
 import { requestAllBookshelves } from '../../actions/bookshelf_actions';
 import { toggleShelf } from '../../actions/manga_bookshelves_actions';
 
@@ -20,7 +22,8 @@ const mapStateToProps = ({manga, bookshelves, shelvesWithBooks}) => ({
 const mapDispatchToProps = dispatch => ({
   requestAllManga: () => dispatch(requestAllManga()),
   requestAllBookshelves: () => dispatch(requestAllBookshelves()),
-  toggleShelf: (bookshelfId, mangaId) => dispatch(toggleShelf(bookshelfId, mangaId))
+  toggleShelf: (bookshelfId, mangaId) => dispatch(toggleShelf(bookshelfId, mangaId)),
+  changeMangaStatus:  (status) => dispatch(changeMangaStatus(status))
 });
 
 

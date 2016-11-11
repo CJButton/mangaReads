@@ -11,22 +11,20 @@ import {receiveManga,
 
 import { getAllManga, getManga } from '../util/manga_api_util';
 
-// action.shelf
-
 const MangaMiddleware = ({ getState, dispatch }) => next => action => {
   const errorCallBack = xhr => dispatch(receiveErrors(xhr.responseJSON));
   let success;
 
   switch(action.type) {
     case REQUEST_ALL_MANGA:
-    success = manga => dispatch(receiveAllManga(manga));
-    getAllManga(success, errorCallBack, action.shelf);
-    return next(action);
+      success = manga => dispatch(receiveAllManga(manga));
+      getAllManga(success, errorCallBack, action.shelf);
+      return next(action);
 
     case REQUEST_MANGA:
-    success = manga => dispatch(receiveManga(manga));
-    getManga(action.id, success);
-    return next(action);
+      success = manga => dispatch(receiveManga(manga));
+      getManga(action.id, success);
+      return next(action);
 
     default:
       next(action);
