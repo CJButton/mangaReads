@@ -54,8 +54,10 @@ class Sidebar extends React.Component{
     return (
       <main className="sidebar-container">
         <div className="sidbar-wrapper">
+          <li className="sidebar-shelves-title">Manga Status</li>
           <ul className="sidebar-shelves-holder">
 
+            <div className="sidebar-topper">
           <input className="sidebar-all" onClick={this.handleAll}
             type="submit" value="All"/>
 
@@ -67,18 +69,25 @@ class Sidebar extends React.Component{
 
           <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Currently-Reading")}
             type="submit" value="Currently-Reading"/>
+          <br className="sidebar-break"></br>
+          </div>
+          <br></br>
+          <br></br>
 
+          <li className="shelf-title">Bookshelves to organize</li>
           {bookshelves.map((shelf, i) => {
             return (<div className="sidebar-generated-buttons">
             <input key={i} className="sidebar-shelves" onClick={this.handleShelf}
               type="submit" value={shelf.title} />
 
-            <span className="sidebar-delete" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>Delete Shelf</span>
+            <span className="sidebar-delete" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</span>
+            <br></br>
             </div>
           );
           })}
 
         </ul>
+        <li className="sidebar-shelf-create">Create your own shelves!</li>
         <input className="sidebar-shelf-name"
                type="text"
                placeholder="Shelfname"

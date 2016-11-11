@@ -4,9 +4,16 @@
 .single-manga-show {
   display: flex;
   justify-content: space-between;
+  width: 1000px;
   margin-top: 25px;
   margin-left: 100px;
   margin-right: 100px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.mangaHomeWords {
+  padding-bottom: 25px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
@@ -21,6 +28,7 @@
     color: #FF6900;
     text-shadow:0 1px 0 rgba(0,0,0,0.4);
     outline-color:#FF6900;
+
 }
 
 .manga-picture-show {
@@ -29,14 +37,31 @@
 }
 
 .single-manga-picture {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   display: flex;
   max-width: 50%;
   height: auto;
-  padding-left: 100px;
+  padding-left: 200px;
   padding-top: 25px;
   margin-bottom: 25px;
+}
 
+.manga-dropdown-wrapper {
+  width: 250px;
+}
+
+
+
+.single-manga-words {
+  width: 300px;
+}
+
+.single-manga-words ul {
+  justify-content: flex-start;
+  padding-left: 0px;
+  width: 500px;
 }
 
 .single-manga-words {
@@ -44,4 +69,5 @@
   list-style-type: none;
   line-height: 1.5em;
   text-decoration: none;
+  width: 400px;
 }

@@ -6,19 +6,32 @@
   margin-top: 30px;
   display: flex;
   padding-right: 200px;
+  padding-left: 225px;
+}
+
+.sidebar-topper {
+  border-bottom-width: 1px;
+  padding-left: 0px;
+  padding-top: 0px;
+  border-bottom-style: solid;
+}
+
+.shelf-title {
+  padding-right: 10px;
+  font-size: 12px;
 }
 
 .bookshelfLeft {
-  padding-right: 500px;
+  padding-right: 250px;
 }
 
 .bookshelfContainer {
 }
 
 .comicDisplayWrapper {
+
   border-top-style: solid;
   border-top-width: 1px;
-  border-top-color: #F4F1EA;
   margin: 5px;
   padding-right: auto;
 }
@@ -42,10 +55,17 @@
   padding-right: 300px;
 }
 
+.sidebar-shelf-create {
+  font-size: 12px;
+  list-style: none;
+  padding-left: 30px;
+}
+
 .bookshelfComicShow {
   flex-direction: column;
   width: 100%;
   display: flex;
+  align-items: center;
   border-left-style: solid;
   border-left-width: 1px;
   border-left-color: #F4F1EA;

@@ -3,6 +3,9 @@ import React from 'react';
 class MangaShow extends React.Component{
  constructor(props) {
    super(props);
+   this.state = {
+     value: "Select-a-Status"
+   };
 
    this.isChecked = this.isChecked.bind(this);
    this.toggle = this.toggle.bind(this);
@@ -11,14 +14,14 @@ class MangaShow extends React.Component{
 
  // maybe i can use this to set the component state, and that have
  // the dropdown use that as the default state?
- setStatus() {
-   let statuses = ["Currently-Reading", "Read", "Want-To-Read"];
-
- }
 
 
  toggle(shelfId, mangaId) {
    this.props.toggleShelf(shelfId, mangaId);
+ }
+
+ componentWillReceiveProps(nextProps) {
+   this.setState({value: nextProps.status.status});
  }
 
  componentDidMount() {
@@ -43,16 +46,35 @@ class MangaShow extends React.Component{
  handleStatus(e) {
    console.log(this.props.routeParams.id);
   this.props.changeMangaStatus(e.target.value, this.props.routeParams.id);
+  this.setState(e.target.value);
  }
 
  render() {
    console.log(this.props);
 
+   //  <i
+   //    className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
+   //    onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
+   //    value={index}>
+   //    {this.isChecked(shelf.id)}
+   //    </i>
    return (
    <div className="single-manga-show">
      <div className="single-manga-picture">
        <li><img className="manga-picture-show"
                 src={this.props.manga.img_url} width="210" height="300"/></li>
+              <br></br>
+              <br></br>
+              <br></br>
+              <div className="manga-dropdown-wrapper">
+                Choose a status for this manga!
+                <select className="manga-dropdown" value={this.state.value} onChange={this.handleStatus}>
+                  <option disabled value="Select-a-Status">Select a Status</option>
+                  <option value="Currently-Reading">Currently-Reading</option>
+                  <option value="Read">Read</option>
+                  <option value="Want-To-Read">Want-To-Read</option>
+                </select>
+              </div>
 
      </div>
      <ul className="single-manga-words">
@@ -61,27 +83,26 @@ class MangaShow extends React.Component{
        <li>by {this.props.manga.author}</li>
        <br></br>
        <li className="mangaHomeWords">{this.props.manga.synopsis}</li>
-
-
-       <select className="manga-dropdown" value="Placeholder" onChange={this.handleStatus}>
-         <option>"Choose a status:"</option>
-         <option value="Currently-Reading">Currently-Reading</option>
-         <option value="Read">Read</option>
-         <option value="Want-To-Read">Want-To-Read</option>
-       </select>
-
+       <br></br>
+       Create your own shelves in my-Manga, and organize your manga your way!
+       <br></br>
+       <br></br>
          {this.props.bookshelves.map((shelf, index) => {
+           let circle;
+           if (this.isChecked(shelf.id) === "true") {
+             circle = [<i className="fa fa-circle" aria-hidden="true" value={index}
+             onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}></i>];
+           } else {
+            circle = [<i className="fa fa-circle-o" aria-hidden="true" value={index}
+            onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
+            ></i>];
+           }
 
-           console.log(this.isChecked(shelf.id));
+
            return (
              <li key={shelf.id}>
                <label>
-                 <i
-                   className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
-                   onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
-                   value={index}>
-                   {this.isChecked(shelf.id)}
-                   </i>
+                 {circle}
                  {shelf.title}
                </label>
              </li>

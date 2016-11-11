@@ -7,6 +7,12 @@ const Home = ( {manga} ) => (
     <div className="home-left">
     </div>
     <div className="home-center">
+      <ul>
+      <li className="home-title">Welcome to mangaReads!</li>
+      <br></br>
+      <li className="home-description">Click on a manga below to get more infromation about it.</li>
+      <li className="home-greeting">We hope you enjoy and discover a little more about Japan by reading these comics!</li>
+      </ul>
       {
         manga.map((comic, i) => (
       <ul key={i} className="mangaHomeDisplay">
