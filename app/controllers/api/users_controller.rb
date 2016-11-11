@@ -11,7 +11,7 @@ class Api::UsersController < ApplicationController
       login(@user)
       Bookshelf.create({user_id: current_user.id, title: "To-Read"})
       Bookshelf.create({user_id: current_user.id, title: "Read"})
-      Bookshelf.create({user_id: current_user.id, title: "Current-Reading"})
+      Bookshelf.create({user_id: current_user.id, title: "Currently-Reading"})
       render "api/users/show"
     else
       render json: @user.errors.full_messages, status: 422
