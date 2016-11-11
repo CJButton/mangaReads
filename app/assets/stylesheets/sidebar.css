@@ -1,5 +1,24 @@
 
 
+.sidebar-topper {
+  list-style-type: none;
+}
+
+.sidebar-shelf-create {
+  padding-left: 50px;
+}
+
+.sidebar-shelves {
+  padding-top: 50px;
+}
+
+.sidebar-shelves-title {
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
 
 .sidebar-continer {
 }
@@ -9,8 +28,10 @@
   flex-direction: column;
   border-right-width: 1px;
   border-style: solid;
+
   height: 500px;
   border: none;
+  padding-left: 300
 
 }
 

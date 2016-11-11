@@ -17,10 +17,12 @@ class Bookshelf extends React.Component{
     return (
       <div className="bookshelfMain">
         <BookshelfSidebar className="bookshelfLeft">
-          Left Container
         </BookshelfSidebar>
           <div className="bookshelfContainer">
               <div className="bookshelfComicShow">
+                <br></br>
+                      Your collection:
+                <br></br>
               {
 
                 this.props.manga.map((comic, i) => (
