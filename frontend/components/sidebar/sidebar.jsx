@@ -2,6 +2,7 @@
 
 
 import React from 'react';
+import {Link} from 'react-router';
 
 class Sidebar extends React.Component{
   constructor(props) {
@@ -29,7 +30,7 @@ class Sidebar extends React.Component{
   }
 
   handleShelf(e) {
-    let target = e.currentTarget.value;
+    let target = e.currentTarget.innerHTML;
     this.props.requestAllManga(target);
   }
 
@@ -45,7 +46,6 @@ class Sidebar extends React.Component{
     let bookshelves = [];
     if (this.props.bookshelves ) {
       bookshelves = this.props.bookshelves;
-      console.log(bookshelves);
     }
 
     const {shelfname} = this.state;
@@ -74,11 +74,10 @@ class Sidebar extends React.Component{
           <br></br>
           <br></br>
 
-          <li className="shelf-title">Bookshelves to organize</li>
+          <li className="shelf-title">Bookshelves</li>
           {bookshelves.map((shelf, i) => {
             return (<div className="sidebar-generated-buttons">
-            <input key={i} className="sidebar-shelves" onClick={this.handleShelf}
-              type="submit" value={shelf.title} />
+            <span key={i} className="sidebar-shelves" onClick={this.handleShelf}>{shelf.title}</span>
 
             <span className="sidebar-delete" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</span>
             <br></br>
