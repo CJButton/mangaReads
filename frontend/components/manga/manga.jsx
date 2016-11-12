@@ -21,7 +21,7 @@ class MangaShow extends React.Component{
  }
 
  componentWillReceiveProps(nextProps) {
-   this.setState({value: nextProps.status.status});
+   this.setState({value: nextProps.status});
  }
 
  componentDidMount() {
@@ -44,13 +44,12 @@ class MangaShow extends React.Component{
  }
 
  handleStatus(e) {
-   console.log(this.props.routeParams.id);
   this.props.changeMangaStatus(e.target.value, this.props.routeParams.id);
-  this.setState(e.target.value);
+  this.setState({value: e.target.value});
  }
 
  render() {
-   console.log(this.props);
+   console.log(this.state.value);
 
    //  <i
    //    className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
@@ -102,7 +101,7 @@ class MangaShow extends React.Component{
            return (
              <li key={shelf.id}>
                <label>
-                 {circle}
+                 {circle}&nbsp;&nbsp;
                  {shelf.title}
                </label>
              </li>

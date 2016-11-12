@@ -8,8 +8,16 @@
   padding-left: 50px;
 }
 
+.shelf-title {
+  font-size: 16px;
+  margin-bottom: 26px;
+}
+
 .sidebar-shelves {
   padding-top: 50px;
+  font-size: 14px;
+  color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 .sidebar-shelves-title {
