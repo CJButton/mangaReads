@@ -1,6 +1,6 @@
 
 
-## mangaReads ##
+mangaReads
 
 How do we leave a link here to an outside website?
 [mangaReads](https://mangareads.herokuapp.com/#/login)
@@ -9,7 +9,7 @@ How do we leave a link here to an outside website?
 mangaReads is a full-stack web application inspired by GoodReads. This site utilizes Ruby on Rails on the backend, a PostgreSQL database,
 and React.js with a Redux architectural framework on the frontend.
 
-## Features and Implementation ##
+Features and Implementation
 
 Manga (Japanese for comics) are stored on the database in a table, with columns for title, author, a synopsis, and an image url. When a user logs in, they are directed to Home Page which displays a collection of comics to purview. At the top of the page is a 'Topbar' component. This component is always available to the user, and is nested inside the App component which wraps all others. Thus the Topbar is available to users at all times.
 
@@ -24,4 +24,13 @@ This involves makes several complicated joins which took me some times to get co
 
 This page also brings together a few other elements to make it a little more interesting. We also bring together a 'bookshelves' table, a 'manga_statuses' table, and the user's table. By using the current user's id, we find their specific bookshelves that they have made as the 'status' of the manga. The status represents whether the user 'Wants to Read', is 'Currently-Reading', or has 'Read' the particular comic. The user may change this status with a click. At the bottom of the page. At the bottom of the page are the user's bookshelves, ordered in a checkbox fashion, allowing them to add to however many shelves they wish.
 
-We can also add our own custom libraries. Using a checkbox feature, a comic can be added to any shelf at will. When the shelf is checked, a dispatch is sent which in the end will place an object, representing the manga on the shelf.
+We can also add our own custom libraries. Using a checkbox feature, a comic can be added to any shelf at will. When the shelf is checked, a dispatch is sent which in the end will place an object, representing the manga on the shelf. This click will fill in/ clear the bubble, letting the user know if there is such an object on that particular shelf.
+
+If we go to the my-Manga page, we will see all of our manga on all pages. This is automatically loaded when the pages is requested. By clicking on the various statuses on the left, we can get all of the appropriate manga for them.
+
+Getting the correct manga is done by using a special filter in the manga model which grabs manga
+based on the status and the current user.
+
+We can also create and destroy our own bookshelves on this page. After they are created, clicking
+on that shelf will bring up all manga to be found on that shelf. This is done using a simple query
+where the current user's id and the shelf's id are matched.
