@@ -7,71 +7,45 @@
   background-color: #f4f2e9
 }
 
-// .topbar-home-button {
-//  background-color: #F4F1EA;
-//  border: none;
-//  color: black;
-//  padding: 2px;
-//  text-align: center;
-//  text-decoration: none;
-//  display: inline-block;
-//  font-size: 16px;
-//  height: 55px;
-//  margin-left: 50px;
-// }
-
-// .topbar-home-button:hover {
-//   background: orange;
-// }
-
-.topbar-myManga-button {
-  margin-left: 25px;
-  padding-top: 3px;
-  background-color: #F4F1EA;
-  border: none;
-  color: black;
-  padding-bottom: 5px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  padding-right: 6px;
-  height: 55px;
-  padding-left: 5px;
+.topbar-home-button {
+ background-color: #F4F1EA;
+ border: none;
+ color: black;
+ padding: 2px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ height: 55px;
+ margin-left: 25px;
+ padding-left: 10px;
+ padding-right: 10px;
 }
+
+.topbar-home-button:hover {
+  background: orange;
+}
+
 
 .topbar-myManga-button:hover {
   background: orange;
 }
 
 
-
-.topbar-list-left {
-  margin-bottom: 0px;
-  padding-left: 5px;
-  margin-top: 0px;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-.topbar-list-right {
-  margin: 0px;
-  padding-bottom: 0px;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 50px;
-}
-
 .topbar-nav {
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
-  justify-content: flex-start;;
+  justify-content: space-between;
 }
 
 .topbar-search:focus, input:focus{
   outline: none;
+}
+
+.topbar-left {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .topbar-search {
@@ -103,18 +77,27 @@
 
 }
 
-.topbarContainer {
-  height: 50px;
-}
-
 .topbar-logout-button {
-  margin-left: 910px;
   background-color: #F4F1EA;
   border: none;
   width: 80px;
+  height: 55px;
   color: black;
   padding-left: 10px;
+  padding-right: 10px;
   font-size: 16px;
+}
+
+.topbar-myManga-button {
+  background-color: #F4F1EA;
+  border: none;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-right: 10px;
+  height: 55px;
+  padding-left: 10px;
 }
 
 .topbar-logout-button:hover {

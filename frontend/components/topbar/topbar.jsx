@@ -50,11 +50,19 @@ class TopBar extends React.Component{
     return (
       <header className="topbar-header">
         <nav className="topbar-nav">
-          <div className="topbar-logo button" onClick={this.handleLogo}></div>
+
+          <div className="topbar-left">
+            <div className="topbar-logo button" onClick={this.handleLogo}></div>
+            <input className="topbar-home-button button" type="submit"
+              onClick={this.handleHome} value="Home" />
+          </div>
+
+          <div className="topbar-right">
             <input className="topbar-myManga-button button" type="submit"
               onClick={this.handleMyManga} value="MyManga" />
-            <input className="topbar-logout-button button" type="s{ubmit"
+            <input className="topbar-logout-button button" type="submit"
               onClick={this.handleLogout} value="Logout"/>
+          </div>
         </nav>
       </header>
 
@@ -66,8 +74,6 @@ class TopBar extends React.Component{
 export default TopBar;
 
 // <li>
-//   <input className="topbar-home-button" type="submit"
-//     onClick={this.handleHome} value="Home" />
 // </li>
 // <li>
 //   <input type="text" placeholder="Search Manga"
