@@ -10,6 +10,8 @@ class MangaShow extends React.Component{
    this.isChecked = this.isChecked.bind(this);
    this.toggle = this.toggle.bind(this);
    this.handleStatus = this.handleStatus.bind(this);
+   console.log("in constructor");
+   console.log(this.props);
  }
 
  // maybe i can use this to set the component state, and that have
@@ -21,12 +23,18 @@ class MangaShow extends React.Component{
  }
 
  componentWillReceiveProps(nextProps) {
-   this.setState({value: nextProps.status});
+   console.log("in will receive props");
+   if (this.props.status !== undefined) {
+     this.setState({value: nextProps.status.status});
+   }
  }
 
  componentDidMount() {
-   this.props.requestAllBookshelves();
+   console.log("in component did mount");
    this.props.requestMangaStatus(this.props.routeParams.id);
+   // need to know all bookshelves that this book resides on
+   this.props.requestAllBookshelves();
+   // what is the current read status of this book
  }
 
  isChecked(myShelfId) {
@@ -49,8 +57,6 @@ class MangaShow extends React.Component{
  }
 
  render() {
-   console.log(this.state.value);
-
    //  <i
    //    className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
    //    onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
@@ -76,39 +82,6 @@ class MangaShow extends React.Component{
               </div>
 
      </div>
-     <ul className="single-manga-words">
-       <li className="mangaHomeTitle">{this.props.manga.title}</li>
-       <br></br>
-       <li>by {this.props.manga.author}</li>
-       <br></br>
-       <li className="mangaHomeWords">{this.props.manga.synopsis}</li>
-       <br></br>
-       Create your own shelves in my-Manga, and organize your manga your way!
-       <br></br>
-       <br></br>
-         {this.props.bookshelves.map((shelf, index) => {
-           let circle;
-           if (this.isChecked(shelf.id) === "true") {
-             circle = [<i className="fa fa-circle" aria-hidden="true" value={index}
-             onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}></i>];
-           } else {
-            circle = [<i className="fa fa-circle-o" aria-hidden="true" value={index}
-            onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
-            ></i>];
-           }
-
-
-           return (
-             <li key={shelf.id}>
-               <label>
-                 {circle}&nbsp;&nbsp;
-                 {shelf.title}
-               </label>
-             </li>
-           );
-         })}
-     </ul>
-
 
    </div>
    );
@@ -116,3 +89,39 @@ class MangaShow extends React.Component{
 }
 
 export default MangaShow;
+
+
+
+//  <ul className="single-manga-words">
+//    <li className="mangaHomeTitle">{this.props.manga.title}</li>
+//    <br></br>
+//    <li>by {this.props.manga.author}</li>
+//    <br></br>
+//    <li className="mangaHomeWords">{this.props.manga.synopsis}</li>
+//    <br></br>
+//    Create your own shelves in my-Manga, and organize your manga your way!
+//    <br></br>
+//    <br></br>
+//      {this.props.bookshelves.map((shelf, index) => {
+//        let circle;
+//        if (this.isChecked(shelf.id) === "true") {
+//          circle = [<i className="fa fa-circle" aria-hidden="true" value={index}
+//          onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}></i>];
+//        } else {
+//         circle = [<i className="fa fa-circle-o" aria-hidden="true" value={index}
+//         onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
+//         ></i>];
+//        }
+//
+//
+//        return (
+//          <li key={shelf.id}>
+//            <label>
+//              {circle}&nbsp;&nbsp;
+//              {shelf.title}
+//            </label>
+//          </li>
+//        );
+//      })}
+//  </ul>
+//

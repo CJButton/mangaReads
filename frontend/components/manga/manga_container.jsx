@@ -22,7 +22,7 @@ const mapStateToProps = ({manga, bookshelves, shelvesWithBooks, status}) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  requestAllManga: () => dispatch(requestAllManga()),
+  // requestAllManga: () => dispatch(requestAllManga()),
   requestAllBookshelves: () => dispatch(requestAllBookshelves()),
   toggleShelf: (bookshelfId, mangaId) => dispatch(toggleShelf(bookshelfId, mangaId)),
   changeMangaStatus: (readStatus, mangaId) => dispatch(changeMangaStatus(readStatus, mangaId)),
