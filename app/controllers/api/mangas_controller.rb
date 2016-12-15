@@ -13,6 +13,7 @@ class Api::MangasController < ApplicationController
   end
 
   def show
+    # might consider getting status here instead of waiting
     @manga = Manga.find(params[:id])
   end
 
