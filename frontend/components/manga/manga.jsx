@@ -10,7 +10,6 @@ class MangaShow extends React.Component{
    this.isChecked = this.isChecked.bind(this);
    this.toggle = this.toggle.bind(this);
    this.handleStatus = this.handleStatus.bind(this);
-   console.log("in constructor");
    console.log(this.props);
  }
 
@@ -23,15 +22,14 @@ class MangaShow extends React.Component{
  }
 
  componentWillReceiveProps(nextProps) {
-   console.log("in will receive props");
+   console.log("in willreceiveprops");
    if (this.props.status !== undefined) {
-     this.setState({value: nextProps.status.status});
+    //  this.setState({value: nextProps.status.status});
    }
  }
 
- componentDidMount() {
-   console.log("in component did mount");
-   this.props.requestMangaStatus(this.props.routeParams.id);
+ componentWillMount() {
+  //  this.props.requestMangaStatus(this.props.routeParams.id);
    // need to know all bookshelves that this book resides on
    this.props.requestAllBookshelves();
    // what is the current read status of this book
