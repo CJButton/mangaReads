@@ -18,6 +18,7 @@ import BookshelfContainer from './bookshelf/bookshelf_container';
 // import {requestAllManga} from './actions/manga_actions';
 import { requestAllManga, requestManga } from '../actions/manga_actions';
 import { requestAllBookshelves } from '../actions/bookshelf_actions';
+import { requestMangaStatus } from '../actions/manga_status_actions';
 
 const Root = ({store}) => {
 
@@ -38,6 +39,7 @@ const Root = ({store}) => {
 
   const loadSingleManga = nextState => {
     store.dispatch(requestManga(nextState.params.id));
+    store.dispatch(requestMangaStatus(nextState.params.id));
   };
 
   // will redirect the user if they are/aren't logged in

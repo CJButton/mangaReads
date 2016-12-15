@@ -21,12 +21,12 @@ class MangaShow extends React.Component{
    this.props.toggleShelf(shelfId, mangaId);
  }
 
- componentWillReceiveProps(nextProps) {
-   console.log("in willreceiveprops");
-   if (this.props.status !== undefined) {
-    //  this.setState({value: nextProps.status.status});
-   }
- }
+ // componentWillReceiveProps(nextProps) {
+ //   console.log("in willreceiveprops");
+ //   if (this.props.status !== undefined) {
+ //    //  this.setState({value: nextProps.status.status});
+ //   }
+ // }
 
  componentWillMount() {
   //  this.props.requestMangaStatus(this.props.routeParams.id);
@@ -54,7 +54,16 @@ class MangaShow extends React.Component{
   this.setState({value: e.target.value});
  }
 
+ setComicStatus() {
+   if (this.props.status !== undefined) {
+     return this.props.status.status;
+   } else {
+     return this.state.value;
+   }
+ }
+
  render() {
+   console.log(this.props.status);
    //  <i
    //    className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
    //    onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
@@ -71,7 +80,7 @@ class MangaShow extends React.Component{
               <br></br>
               <div className="manga-dropdown-wrapper">
                 Choose a status for this manga!
-                <select className="manga-dropdown" value={this.state.value} onChange={this.handleStatus}>
+                <select className="manga-dropdown" value={this.setComicStatus()} onChange={this.handleStatus}>
                   <option disabled value="Select-a-Status">Select a Status</option>
                   <option value="Currently-Reading">Currently-Reading</option>
                   <option value="Read">Read</option>
