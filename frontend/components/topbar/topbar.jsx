@@ -35,6 +35,11 @@ class TopBar extends React.Component{
     hashHistory.push("/");
   }
 
+  handleLogo(e) {
+    e.preventDefault();
+    hashHistory.push("/");
+  }
+
 
   handleLogout(e) {
     e.preventDefault();
@@ -45,29 +50,11 @@ class TopBar extends React.Component{
     return (
       <header className="topbar-header">
         <nav className="topbar-nav">
-
-          <ul className="topbar-list-left">
-            <div className="topbar-logo"></div>
-            <li>
-              <input className="topbar-myManga-button" type="submit"
-                onClick={this.handleMyManga} value="MyManga" />
-            </li>
-            <li>
-              <input className="topbar-home-button" type="submit"
-                onClick={this.handleHome} value="Home" />
-            </li>
-          </ul>
-            <li>
-              <input type="text" placeholder="Search Manga"
-                onClick={this.handleSearch} className="topbar-search" />
-            </li>
-          <ul className="topbar-list-right">
-            <li>
-            <input className="topbar-logout-button" type="submit"
+          <div className="topbar-logo button" onClick={this.handleLogo}></div>
+            <input className="topbar-myManga-button button" type="submit"
+              onClick={this.handleMyManga} value="MyManga" />
+            <input className="topbar-logout-button button" type="s{ubmit"
               onClick={this.handleLogout} value="Logout"/>
-          </li>
-          </ul>
-
         </nav>
       </header>
 
@@ -77,3 +64,12 @@ class TopBar extends React.Component{
 
 
 export default TopBar;
+
+// <li>
+//   <input className="topbar-home-button" type="submit"
+//     onClick={this.handleHome} value="Home" />
+// </li>
+// <li>
+//   <input type="text" placeholder="Search Manga"
+//     onClick={this.handleSearch} className="topbar-search" />
+// </li>

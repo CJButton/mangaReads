@@ -3,7 +3,7 @@
 
 .headerNav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 30px;
   height: 70px;
   background-color: #f4f2e9;
@@ -14,58 +14,80 @@
   border-top: 500px;
   display: flex;
   justify-content: space-between;
-  height: 350px;
+  height: 425px;
   border-bottom-color: black;
   background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478191191/background_torii_mznrtq.jpg);
   background-position: center;
   background-size: cover;
 }
 
+.errorsContainer {
+  width: 316px;
+  padding-left: 90px;
+  padding-right: 70px;
+}
+
+.errorsContainer ul {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 .signUpForm {
   padding-right: 150px;
 }
+
 .logo {
   border-style: none;
   background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png);
   height: 55px;;
-  width: 200px;
+  width: 300px;
   background-repeat: no-repeat;
-  margin-left: 200px;
-  padding-left: 250px;
 }
 
 .loginForm {
-  padding-right: 250px;
+  height: 150px;
+}
+
+.loginButtons {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .auth-login-button {
   color: #fff;
-background-color: #6496c8;
-text-shadow: -1px 1px #417cb8;
-border: none;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
 }
 
 .submitButton {
   color: #fff;
-background-color: #6496c8;
-text-shadow: -1px 1px #417cb8;
-border: none;
-length: 200px;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  border-radius: 5px;
 }
 
 .guestLogin {
-  color: #fff;
-background-color: #6496c8;
-text-shadow: -1px 1px #417cb8;
-border: none;
+  color: white;
+  background-color: red;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  width: 87px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 5px;
 }
 
 .errorMessage {
   font-size: 10pt;
+  list-style: none;
 }
 
 .loginForm > input {
-  height: 20px;
+  height: 25px;
 }
 
 .signUpForm > h4 {
@@ -88,12 +110,19 @@ border: none;
 .signUpButton {
   width: 50px;
   height: 25px;
+  border-radius: 5px;
 }
 
 .mottoSplash {
   flex: auto;
   margin-top: 0px;
+  margin-bottom: 8px;
   padding-left: 300px;
-  padding-top: 150px;
+  padding-top: 110px;
   font-size: 24px;
+}
+
+.mottoSubSplash {
+  font-size: 18px;
+  padding-left: 300px;
 }

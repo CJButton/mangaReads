@@ -61,22 +61,24 @@ class AuthForm extends React.Component{
 	}
 
   renderErrors() {
-    if (this.props.errors){
-    return(
-      <ul>
-        {this.props.errors.map((error) => (
-          <li className="errorMessage">
-            {error}
-          </li>
-        ))}
-      </ul>
+    if (this.props.errors !== []){
+      return(
+        <div className="errorsContainer">
+          <ul>
+            {this.props.errors.map((error, idx) => (
+              <li key={idx} className="errorMessage">
+                {error}
+              </li>
+            ))}
+          </ul>
+        </div>
     );
    }
   }
 
   render() {
     const {username, password1, name, email, password2} = this.state;
-
+    console.log(this.props.errors);
     return (
     <nav className="login-signup">
 
@@ -97,18 +99,27 @@ class AuthForm extends React.Component{
               value={password1}
               onChange={this.update("password1")}/>
             <br></br>
-            <input className="auth-login-button" type="submit" value="Login"/>&nbsp;
 
-
-            <input className="guestLogin" type="submit" onClick={this.handleGuest}
+          <div className="loginButtons">
+            <input className="guestLogin button" type="submit" onClick={this.handleGuest}
               value="Guest Login" />
-          </form>
 
+            <input className="auth-login-button button" type="submit" value="Login"/>&nbsp;
+
+          </div>
+          </form>
         </div>
       <div className="signUpBody">
-        <h3 className="mottoSplash">
-          Discover Japan through comics.
-        </h3>
+        <div>
+          <h3 className="mottoSplash">
+            Discover Japan through comics.
+          </h3>
+          <p className="mottoSubSplash">
+            Action, adventure, romance, a slice-of-life, and more! You'll<br></br>
+            find it all in these comics from Japan. Organize your collection,<br></br>
+            and find new comics to enjoy, here with mangaReads!
+          </p>
+        </div>
         <form className="signUpForm" onSubmit={this.handleSignup}>
           <h4>"New here? Create a free account!"</h4>
 
@@ -127,7 +138,7 @@ class AuthForm extends React.Component{
             value={password2}
             onChange={this.update("password2")}/>
 
-          <input className="submitButton"type="submit" placeholder="Sign up"/>
+          <input className="submitButton button" type="submit" placeholder="Sign up"/>
 
         </form>
       </div>
