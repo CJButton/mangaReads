@@ -36,12 +36,11 @@ class Sidebar extends React.Component{
 
   handleAddShelf(e) {
     const shelf = this.state.shelfname;
-    console.log(shelf);
     this.props.createBookshelf(shelf);
   }
 
   render() {
-
+    console.log("sidebar render");
 
     let bookshelves = [];
     if (this.props.bookshelves ) {
@@ -49,7 +48,6 @@ class Sidebar extends React.Component{
     }
 
     const {shelfname} = this.state;
-    // need an if statment or an for loop to skip the first two elements in the bookshelf
 
     return (
       <main className="sidebar-container">
@@ -58,16 +56,16 @@ class Sidebar extends React.Component{
           <ul className="sidebar-shelves-holder">
 
             <div className="sidebar-topper">
-          <input className="sidebar-all" onClick={this.handleAll}
+          <input className="sidebar-all button" onClick={this.handleAll}
             type="submit" value="All"/>
 
-          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Want-To-Read")}
+          <input className="sidebar-to-read button" onClick={this.props.requestAllManga.bind(this, "Want-To-Read")}
             type="submit" value="Want-To-Read"/>
 
-          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Read")}
+          <input className="sidebar-to-read button" onClick={this.props.requestAllManga.bind(this, "Read")}
             type="submit" value="Read"/>
 
-          <input className="sidebar-to-read" onClick={this.props.requestAllManga.bind(this, "Currently-Reading")}
+          <input className="sidebar-to-read button" onClick={this.props.requestAllManga.bind(this, "Currently-Reading")}
             type="submit" value="Currently-Reading"/>
           <br className="sidebar-break"></br>
           </div>
