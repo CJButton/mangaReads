@@ -9,6 +9,7 @@ class Sidebar extends React.Component{
     super(props);
 
     this.state = {
+      bookshelves: this.props.bookshelves,
       shelfname: "",
       currently: "bg",
       read: "bg",
@@ -36,7 +37,8 @@ class Sidebar extends React.Component{
       currently: "bg",
       read: "bg",
       want: "bg",
-      all: "bg"
+      all: "bg",
+      [target]: "highlight"
     });
   }
 
@@ -65,16 +67,12 @@ class Sidebar extends React.Component{
     });
   }
 
-
+  // after initializing, add each bookshelf to the state and give it
+  // a state of bg
+  // when one is clicked all other shelves are switched off
+  // try iterating through the bookshelf array with each one of the names
+  // to turn them off; then turn on the correct one
   render() {
-    console.log(this.props);
-    let bookshelves = [];
-    if (this.props.bookshelves ) {
-      bookshelves = this.props.bookshelves;
-    }
-
-    const {shelfname} = this.state;
-
     return (
       <main className="sidebar-container">
         <div className="sidbar-wrapper">
@@ -100,34 +98,48 @@ class Sidebar extends React.Component{
           <br></br>
 
           <li className="shelf-title">Bookshelves</li>
-          {bookshelves.map((shelf, i) => {
+          {this.props.bookshelves.map((shelf, i) => {
             return (<div key={i} className="sidebar-generated-buttons">
-            <div className={`sidebar-shelves button `} onClick={this.handleShelf}>{shelf.title}</div>
-            <div className="sidebar-delete" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</div>
+            <div className={`sidebar-shelves button ` + this.state.title + '' + this.state} onClick={this.handleShelf}>{shelf.title}</div>
+            <div className="sidebar-delete button" onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</div>
 
             <br></br>
             </div>
           );
           })}
-
         </ul>
-        <div className="sidebar-shelf-create">Create your own shelves!</div>
-          <input className="sidebar-shelf-name"
-               type="text"
-               placeholder="Shelfname"
-               value={shelfname}
-               onChange={this.update("shelfname")}/>
+          <div className="addShelves-sidebar">
+            <input className="sidebar-shelf-name"
+              type="text"
+              placeholder="Shelfname"
+              value={this.state.shelfname}
+              onChange={this.update("shelfname")}/>
 
-             <input className="addShelfSubmit button"
-                 type="submit"
-                 placeholder="Add Shelf"
-                 onClick={this.handleAddShelf} />
+           <input className="addShelfSubmit button"
+               type="submit"
+               placeholder="Add Shelf"
+               onClick={this.handleAddShelf} />
+         </div>
         </div>
       </main>
     );
   }
 }
 
+// let bookshelves = [];
+// if (this.props.bookshelves ) {
+//   bookshelves = this.props.bookshelves;
+// }
+//
+// const {shelfname} = this.state;
 
 
 export default Sidebar;
+
+// <div className="sidebar-shelf-create">Create your own shelves!</div>
+//   <input className="sidebar-shelf-name"
+//        type="text"
+//        placeholder="Shelfname"
+//        value={shelfname}
+//        onChange={this.update("shelfname")}/>
+//

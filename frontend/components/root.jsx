@@ -36,7 +36,6 @@ const Root = ({store}) => {
   const loadAllShelves = () => {
     store.dispatch(requestAllManga("all"));
     store.dispatch(requestAllBookshelves());
-
   };
 
   const loadSingleManga = nextState => {

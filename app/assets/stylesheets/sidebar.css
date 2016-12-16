@@ -70,13 +70,19 @@
   margin-right: 5px;
 }
 
+.addShelves-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
 .sidebar-shelf-name {
   width: 100px;
   margin-left: 50px;
 }
 
 .addShelfSubmit {
-  background-color: inherit;
+  width: 106px;
+  margin-left: 50px;
 }
 
 
