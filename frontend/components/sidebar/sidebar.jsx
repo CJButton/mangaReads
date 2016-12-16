@@ -11,9 +11,9 @@ class Sidebar extends React.Component{
     this.state = {
       shelfname: "",
       currently: "",
-      Read: "",
-      Want: "",
-      All: "highlight"
+      read: "",
+      want: "",
+      all: "highlight"
     };
 
     this.handleAll = this.handleAll.bind(this);
@@ -49,17 +49,17 @@ class Sidebar extends React.Component{
 
     this.setState({
       currently: "",
-      Read: "",
-      Want: "",
-      All: ""
-    }, this.setNewHighlight);
-
+      read: "",
+      want: "",
+      all: ""
+    });
+    this.setNewHighlight(name[0].toLowerCase());
   }
 
-  setNewHighlight() {
+  setNewHighlight(status) {
     console.log(status);
     this.setState({
-      currently: "highlight"
+      [status]: "highlight"
     });
   }
 
@@ -80,16 +80,16 @@ class Sidebar extends React.Component{
           <ul className="sidebar-shelves-holder">
 
             <div className="sidebar-topper">
-          <input className={`sidebar-all button ` + this.state.All} onClick={this.handleAll}
+          <input className={`sidebar-all button ` + this.state.all} onClick={this.handleAll}
             type="submit" value="All"/>
 
           <input className={`sidebar-to-read button ` + this.state.currently} onClick={this.getComicsForShelf.bind(this, "Currently-Reading")}
             type="submit" value="Currently-Reading"/>
 
-          <input className={`sidebar-to-read button ` + this.state.Read} onClick={this.getComicsForShelf.bind(this, "Read")}
+          <input className={`sidebar-to-read button ` + this.state.read} onClick={this.getComicsForShelf.bind(this, "Read")}
             type="submit" value="Read"/>
 
-          <input className={`sidebar-to-read button ` + this.state.Want} onClick={this.getComicsForShelf.bind(this, "Want-To-Read")}
+          <input className={`sidebar-to-read button ` + this.state.want} onClick={this.getComicsForShelf.bind(this, "Want-To-Read")}
             type="submit" value="Want-To-Read"/>
 
           <br className="sidebar-break"></br>
