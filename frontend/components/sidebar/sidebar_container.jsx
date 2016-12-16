@@ -17,12 +17,12 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  requestAllBookshelves: () => dispatch(requestAllBookshelves()),
   createBookshelf: shelf => dispatch(createBookshelf(shelf)),
   deleteBookshelf: id => dispatch(deleteBookshelf(id)),
   updateBookshelf: shelf => dispatch(updateBookshelf(shelf)),
   requestAllManga: shelf => dispatch(requestAllManga(shelf))
 });
+// requestAllBookshelves: () => dispatch(requestAllBookshelves()),
 
 export default connect(
   mapStateToProps,

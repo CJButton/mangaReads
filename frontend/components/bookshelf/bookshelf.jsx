@@ -17,7 +17,7 @@ class Bookshelf extends React.Component{
     return (
       <div className="bookshelfMain">
         <BookshelfSidebar className="bookshelfLeft">
-        </BookshelfSidebar>
+        </BookshelfSidebar >
           <div className="bookshelfContainer">
               <div className="bookshelfComicShow">
                 <br></br>
