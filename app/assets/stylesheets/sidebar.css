@@ -5,7 +5,13 @@
 }
 
 .sidebar-topper {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
+}
+
+.sidebar-topper input {
+  margin: 5px;
 }
 
 .sidebar-shelf-create {
@@ -18,7 +24,6 @@
 }
 
 .sidebar-shelves {
-  padding-top: 50px;
   font-size: 14px;
   color: black;
   font-family: 'Lato', sans-serif;
@@ -31,55 +36,38 @@
   list-style-type: none;
 }
 
-
-.sidebar-continer {
-}
-
 .sidebar-wrapper {
   display: flex;
   flex-direction: column;
   border-right-width: 1px;
   border-style: solid;
-
   height: 500px;
   border: none;
   padding-left: 300
+}
 
+.bg {
+  background-color: #FFF;
 }
 
 .sidebar-all {
   border: none;
-  width: 100px;
+  width: inherit;
 }
 
-.sidebar-generated-buttons input{
-  margin: 5px;
-  margin-right: 10px;
-  margin-left: 0px;
-  height: 5px;
-  width: 100px;
-  padding-right: 100px;
-}
-
-.sidebar-to-read {
-  width: 100px;
-  border: none;
+.sidebar-generated-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .sidebar-delete {
-  border: none;
-  background-color: inherit;
+  order: 1;
 }
 
 .sidebar-shelves {
-  margin: 5px;
-  width: 100px;
-  margin: 15px;
-  padding-top: 80px;
-  list-style-type: none;
-  line-height: 1.5em;
-  text-decoration: none;
-  padding-right: 10px;
+  width: 150px;
+  margin-right: 5px;
 }
 
 .sidebar-shelf-name {
@@ -88,15 +76,13 @@
 }
 
 .addShelfSubmit {
-  border: none;
   background-color: inherit;
-  padding-left: 80px;
 }
 
 
 .sidebar-shelves-holder {
   margin: 15px;
-  width: 100px;
+  width: 150px;
   list-style-type: none;
   line-height: 1.5em;
   text-decoration: none;
