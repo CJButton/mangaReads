@@ -25,10 +25,6 @@ class Sidebar extends React.Component{
     return e => this.setState({[property]: e.target.value});
   }
 
-  // componentDidMount() {
-  //   this.props.requestAllBookshelves();
-  // }
-
   handleAll() {
     this.props.requestAllManga("all");
   }
@@ -57,7 +53,6 @@ class Sidebar extends React.Component{
   }
 
   setNewHighlight(status) {
-    console.log(status);
     this.setState({
       [status]: "highlight"
     });
@@ -65,7 +60,6 @@ class Sidebar extends React.Component{
 
 
   render() {
-    console.log(this.state);
     let bookshelves = [];
     if (this.props.bookshelves ) {
       bookshelves = this.props.bookshelves;
@@ -80,7 +74,7 @@ class Sidebar extends React.Component{
           <ul className="sidebar-shelves-holder">
 
             <div className="sidebar-topper">
-          <input className={`sidebar-all button ` + this.state.all} onClick={this.handleAll}
+          <input className={`sidebar-all button ` + this.state.all} onClick={this.getComicsForShelf.bind(this, "all")}
             type="submit" value="All"/>
 
           <input className={`sidebar-to-read button ` + this.state.currently} onClick={this.getComicsForShelf.bind(this, "Currently-Reading")}
