@@ -23,8 +23,7 @@ class Sidebar extends React.Component{
   }
 
   componentWillReceiveProps(nextprops) {
-    console.log(this.state);
-    if (nextprops.bookshelves.length > 0) {
+    if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
       nextprops.bookshelves.map((shelf) => {
         this.setState({
           [shelf.title]: "bg"
@@ -43,8 +42,6 @@ class Sidebar extends React.Component{
 
   handleShelf(e) {
     let target = e.currentTarget.innerHTML;
-    // console.log(target);
-    // console.log(this.state[target]);
     this.props.requestAllManga(target);
     this.setState({
       currently: "bg",
@@ -68,6 +65,7 @@ class Sidebar extends React.Component{
     let name = shelfname.split("-");
     this.setNewHighlight(name[0].toLowerCase());
   }
+  // this.getComicsForPersonalShelf(name[0].toLowerCase());
 
   setStatusShelvesToBG() {
     this.setState({
@@ -80,8 +78,8 @@ class Sidebar extends React.Component{
 
   getComicsForPersonalShelf(shelfname) {
     this.props.requestAllManga(shelfname);
-
     this.setStatusShelvesToBG();
+
     this.props.bookshelves.map((shelf) => {
       this.setState({
         [shelf.title]: "bg"
@@ -96,11 +94,6 @@ class Sidebar extends React.Component{
     });
   }
 
-  // after initializing, add each bookshelf to the state and give it
-  // a state of bg
-  // when one is clicked all other shelves are switched off
-  // try iterating through the bookshelf array with each one of the names
-  // to turn them off; then turn on the correct one
   render() {
     console.log(this.state);
     return (
