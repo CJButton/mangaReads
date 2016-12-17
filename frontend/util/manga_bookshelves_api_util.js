@@ -12,3 +12,11 @@ export const toggleMangaBookshelf = (shelfId, mangaId, success, error) => {
     error
   });
 };
+
+export const fetchAllShelvesWithBook = (mangaId, success) => {
+  $.ajax({
+    type: 'SHOW',
+    url: `api/mangabookshelves/${mangaId}`,
+    success
+  });
+};

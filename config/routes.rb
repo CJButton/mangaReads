@@ -12,8 +12,9 @@ Rails.application.routes.draw do
     resources :mangas, only: [:show, :index]
     resources :bookshelves, only: [:index, :show, :destroy, :update, :create]
     resources :mangastatus, only: [:create, :show]
+    resources :mangabookshelves, only: [:show]
 
     post 'mangabookshelves', :to => 'mangabookshelves#toggle'
+    get 'mangabookshelves', :to => 'mangabookshelves#show'
   end
 end
-# mangastatuses might be wrong; check if routes can't be found
