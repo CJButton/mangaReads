@@ -65,7 +65,6 @@ class Sidebar extends React.Component{
     let name = shelfname.split("-");
     this.setNewHighlight(name[0].toLowerCase());
   }
-  // this.getComicsForPersonalShelf(name[0].toLowerCase());
 
   setStatusShelvesToBG() {
     this.setState({
