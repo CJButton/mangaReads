@@ -44,9 +44,9 @@ class Sidebar extends React.Component{
     let target = e.currentTarget.innerHTML;
     this.props.requestAllManga(target);
     this.setState({
-      currently: "bg",
-      read: "bg",
-      want: "bg",
+      Currently: "bg",
+      Read: "bg",
+      Want: "bg",
       all: "bg",
       [target]: "highlight"
     });
@@ -61,7 +61,7 @@ class Sidebar extends React.Component{
   getComicsForShelf(shelfname) {
     this.props.requestAllManga(shelfname);
     this.setStatusShelvesToBG();
-
+    this.setStatusForPersonalShelvesBG();
     let name = shelfname.split("-");
     this.setNewHighlight(name[0].toLowerCase());
   }
@@ -76,15 +76,18 @@ class Sidebar extends React.Component{
     });
   }
 
-  getComicsForPersonalShelf(shelfname) {
-    this.props.requestAllManga(shelfname);
-    this.setStatusShelvesToBG();
-
+  setStatusForPersonalShelvesBG() {
     this.props.bookshelves.map((shelf) => {
       this.setState({
         [shelf.title]: "bg"
       });
     });
+  }
+
+  getComicsForPersonalShelf(shelfname) {
+    this.props.requestAllManga(shelfname);
+    this.setStatusShelvesToBG();
+    this.setStatusForPersonalShelvesBG();
     this.setNewHighlight(shelfname);
   }
 
@@ -95,7 +98,6 @@ class Sidebar extends React.Component{
   }
 
   render() {
-    console.log(this.state);
     return (
       <main className="sidebar-container">
         <div className="sidbar-wrapper">
