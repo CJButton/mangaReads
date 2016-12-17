@@ -19,6 +19,9 @@ class MangaBookshelf < ActiveRecord::Base
       @all_shelves_with_comic = MangaBookshelf.where(manga_id: manga_id)
       return @all_shelves_with_comic
     end
+  end
 
+  def self.find_shelves(manga_id)
+    @shelves = Manga.find(manga_id).bookshelves
   end
 end
