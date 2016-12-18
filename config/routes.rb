@@ -15,6 +15,5 @@ Rails.application.routes.draw do
     resources :mangabookshelves, only: [:show]
 
     post 'mangabookshelves', :to => 'mangabookshelves#toggle'
-    get 'mangabookshelves', :to => 'mangabookshelves#show'
   end
 end
