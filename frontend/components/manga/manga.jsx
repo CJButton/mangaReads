@@ -7,7 +7,6 @@ class MangaShow extends React.Component{
      value: "Select-a-Status"
    };
 
-   this.isChecked = this.isChecked.bind(this);
    this.toggle = this.toggle.bind(this);
    this.handleStatus = this.handleStatus.bind(this);
  }
@@ -25,13 +24,14 @@ class MangaShow extends React.Component{
               return;
             } else {
               this.setState({
-                [shelf.title]: "empty"
+                [shelf.title]: false
               });
             }
           }
         );
       }
     }
+
 
  // componentWillReceiveProps(nextProps) {
  //   console.log("in willreceiveprops");
@@ -47,19 +47,6 @@ class MangaShow extends React.Component{
  //   // what is the current read status of this book
  // }
 
- isChecked(myShelfId) {
-   this.bookshelfIds = Object.keys(this.props.booksonshelves).map((key) => {
-     return this.props.booksonshelves[key].bookshelf_id;
-   });
-
-   let checked = "false";
-   this.bookshelfIds.forEach((id) => {
-     if (parseInt(id) === myShelfId) {
-       checked = "true";
-     }
-   });
-   return checked;
- }
 
  handleStatus(e) {
   this.props.changeMangaStatus(e.target.value, this.props.routeParams.id);
@@ -75,14 +62,13 @@ class MangaShow extends React.Component{
  }
 
  render() {
-   console.log(this.props);
-   console.log(this.state);
    //  <i
    //    className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
    //    onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
    //    value={index}>
    //    {this.isChecked(shelf.id)}
    //    </i>
+   console.log(this.state);
    return (
    <div className="single-manga-show">
      <div className="single-manga-picture">
@@ -100,17 +86,21 @@ class MangaShow extends React.Component{
                   <option value="Want-To-Read">Want-To-Read</option>
 
                 </select>
+                <div className="checkbox-wrapper">
+                {this.props.bookshelves.map((shelf, i) => {
+                  return(
+                    <label>{shelf.title}
+                      <input key={i}
+                             type="checkbox"
+                             value={this.state[shelf.title]}/>
+                   </label>
+                  );
+                })
+              }
+              </div>
               </div>
 
      </div>
-     {this.props.bookshelves.map((shelf, i) => {
-       return(
-         <label>{shelf.title}
-         <input type="checkbox" value={shelf.title}/>
-         </label>
-       );
-     })
-   }
      <ul className="single-manga-words">
        <li className="mangaHomeTitle">{this.props.manga.title}</li>
        <br></br>
@@ -130,6 +120,11 @@ class MangaShow extends React.Component{
 }
 
 export default MangaShow;
+// <label key={i}
+//        className="checkbox-label">
+//   {shelf.title}
+//   <input type="checkbox"/>
+// </label>
 
 // {this.props.bookshelves.map((shelf, index) => {
 //   let circle;
@@ -152,3 +147,17 @@ export default MangaShow;
 //     </li>
 //   );
 // })}
+
+// isChecked(myShelfId) {
+//   this.bookshelfIds = Object.keys(this.props.booksonshelves).map((key) => {
+//     return this.props.booksonshelves[key].bookshelf_id;
+//   });
+//
+//   let checked = "false";
+//   this.bookshelfIds.forEach((id) => {
+//     if (parseInt(id) === myShelfId) {
+//       checked = "true";
+//     }
+//   });
+//   return checked;
+// }

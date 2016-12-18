@@ -49,10 +49,20 @@
 }
 
 .manga-dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
   width: 250px;
 }
 
+.checkbox-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
+.checkbox-label {
+  display: flex;
+  justify-content: space-between;
+}
 
 .single-manga-words {
   width: 300px;
