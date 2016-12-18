@@ -19,7 +19,7 @@ import BookshelfContainer from './bookshelf/bookshelf_container';
 import { requestAllManga, requestManga } from '../actions/manga_actions';
 import { requestAllBookshelves } from '../actions/bookshelf_actions';
 import { requestMangaStatus } from '../actions/manga_status_actions';
-import { requestAllShelvesWithBook } from '../actions/manga_bookshelves';
+import { requestAllShelvesWithBook } from '../actions/manga_bookshelves_actions';
 
 const Root = ({store}) => {
 

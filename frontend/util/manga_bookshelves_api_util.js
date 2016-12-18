@@ -15,7 +15,7 @@ export const toggleMangaBookshelf = (shelfId, mangaId, success, error) => {
 
 export const fetchAllShelvesWithBook = (mangaId, success) => {
   $.ajax({
-    type: 'SHOW',
+    type: 'GET',
     url: `api/mangabookshelves/${mangaId}`,
     success
   });
