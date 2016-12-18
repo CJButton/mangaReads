@@ -1,4 +1,4 @@
-
+require "byebug"
 
 
 class MangaBookshelf < ActiveRecord::Base
@@ -22,6 +22,6 @@ class MangaBookshelf < ActiveRecord::Base
   end
 
   def self.find_shelves(manga_id)
-    @shelves = Manga.find(manga_id).bookshelves
+    p Manga.find(manga_id).bookshelves
   end
 end

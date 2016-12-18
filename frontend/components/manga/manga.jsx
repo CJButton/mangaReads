@@ -16,6 +16,23 @@ class MangaShow extends React.Component{
    this.props.toggleShelf(shelfId, mangaId);
  }
 
+ componentWillReceiveProps(nextprops) {
+   let bookStatus = ["Want-To-Read", "Read", "Currently-Reading"];
+
+   if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
+          nextprops.bookshelves.forEach((shelf) => {
+            if (bookStatus.includes(shelf)) {
+              return;
+            } else {
+              this.setState({
+                [shelf.title]: "empty"
+              });
+            }
+          }
+        );
+      }
+    }
+
  // componentWillReceiveProps(nextProps) {
  //   console.log("in willreceiveprops");
  //   if (this.props.status !== undefined) {
@@ -23,12 +40,12 @@ class MangaShow extends React.Component{
  //   }
  // }
 
- componentWillMount() {
-  //  this.props.requestMangaStatus(this.props.routeParams.id);
-   // need to know all bookshelves that this book resides on
-  //  this.props.requestAllBookshelves();
-   // what is the current read status of this book
- }
+ // componentWillMount() {
+ //  //  this.props.requestMangaStatus(this.props.routeParams.id);
+ //   // need to know all bookshelves that this book resides on
+ //  //  this.props.requestAllBookshelves();
+ //   // what is the current read status of this book
+ // }
 
  isChecked(myShelfId) {
    this.bookshelfIds = Object.keys(this.props.booksonshelves).map((key) => {
@@ -59,6 +76,7 @@ class MangaShow extends React.Component{
 
  render() {
    console.log(this.props);
+   console.log(this.state);
    //  <i
    //    className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
    //    onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
@@ -80,11 +98,19 @@ class MangaShow extends React.Component{
                   <option value="Currently-Reading">Currently-Reading</option>
                   <option value="Read">Read</option>
                   <option value="Want-To-Read">Want-To-Read</option>
+
                 </select>
               </div>
 
      </div>
-
+     {this.props.bookshelves.map((shelf, i) => {
+       return(
+         <label>{shelf.title}
+         <input type="checkbox" value={shelf.title}/>
+         </label>
+       );
+     })
+   }
      <ul className="single-manga-words">
        <li className="mangaHomeTitle">{this.props.manga.title}</li>
        <br></br>
@@ -95,27 +121,7 @@ class MangaShow extends React.Component{
        Create your own shelves in my-Manga, and organize your manga your way!
        <br></br>
        <br></br>
-       {this.props.bookshelves.map((shelf, index) => {
-         let circle;
-         if (this.isChecked(shelf.id) === "true") {
-           circle = [<i className="fa fa-circle" aria-hidden="true" value={index}
-           onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}></i>];
-         } else {
-           circle = [<i className="fa fa-circle-o" aria-hidden="true" value={index}
-           onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
-           ></i>];
-         }
 
-
-         return (
-           <li key={shelf.id}>
-             <label>
-               {circle}&nbsp;&nbsp;
-               {shelf.title}
-             </label>
-           </li>
-         );
-       })}
      </ul>
 
    </div>
@@ -124,3 +130,25 @@ class MangaShow extends React.Component{
 }
 
 export default MangaShow;
+
+// {this.props.bookshelves.map((shelf, index) => {
+//   let circle;
+//   if (this.isChecked(shelf.id) === "true") {
+//     circle = [<i className="fa fa-circle" aria-hidden="true" value={index}
+//     onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}></i>];
+//   } else {
+//     circle = [<i className="fa fa-circle-o" aria-hidden="true" value={index}
+//     onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
+//     ></i>];
+//   }
+//
+//
+//   return (
+//     <li key={shelf.id}>
+//       <label>
+//         {circle}&nbsp;&nbsp;
+//         {shelf.title}
+//       </label>
+//     </li>
+//   );
+// })}
