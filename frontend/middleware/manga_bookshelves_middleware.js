@@ -21,8 +21,9 @@ const MangaBookshelvesMiddleware = ({ getState, dispatch }) => next => action =>
       success = (bookshelves) => dispatch(receiveToggleUpdate(bookshelves));
       toggleMangaBookshelf(action.bookshelfId, action.mangaId, success, errorCallBack);
       return next(action);
+
     case REQUEST_ALL_SHELVES_WITH_BOOK:
-      success = (shelves) => dispatch(receiveAllShelvesWithBook);
+      success = (shelves) => dispatch(receiveAllShelvesWithBook(shelves));
       fetchAllShelvesWithBook(action.mangaId, success);
       return next(action);
 
