@@ -1,6 +1,5 @@
 
 
-require 'byebug'
 class Api::MangabookshelvesController < ApplicationController
 
   def toggle

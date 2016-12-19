@@ -30,7 +30,6 @@ class TopBar extends React.Component{
   }
 
   handleHome(e) {
-    console.log("Did we hit home?");
     e.preventDefault();
     hashHistory.push("/");
   }
