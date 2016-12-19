@@ -3,7 +3,6 @@
 
 class Api::UsersController < ApplicationController
 
-  # signup a new user
   def create
     @user = User.new(user_params)
 

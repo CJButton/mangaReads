@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     resources :bookshelves, only: [:index, :show, :destroy, :update, :create]
     resources :mangastatus, only: [:create, :show]
     resources :mangabookshelves, only: [:show]
+    resources :reviews, only: [:index, :create, :destroy, :update]
 
     post 'mangabookshelves', :to => 'mangabookshelves#toggle'
   end
