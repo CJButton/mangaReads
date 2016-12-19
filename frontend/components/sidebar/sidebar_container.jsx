@@ -22,7 +22,6 @@ const mapDispatchToProps = dispatch => ({
   updateBookshelf: shelf => dispatch(updateBookshelf(shelf)),
   requestAllManga: shelf => dispatch(requestAllManga(shelf))
 });
-// requestAllBookshelves: () => dispatch(requestAllBookshelves()),
 
 export default connect(
   mapStateToProps,

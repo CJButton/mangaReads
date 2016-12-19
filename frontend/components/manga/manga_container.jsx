@@ -16,7 +16,8 @@ import { toggleShelf,
 import MangaShow from './manga';
 import values from 'lodash/values';
 
-const mapStateToProps = ({manga, bookshelves, shelvesWithBooks, status}) => ({
+const mapStateToProps = ({manga, bookshelves, shelvesWithBooks, status, session}) => ({
+  user: session.currentUser,
   manga,
   bookshelves: values(bookshelves),
   booksonshelves: values(shelvesWithBooks),
@@ -24,12 +25,10 @@ const mapStateToProps = ({manga, bookshelves, shelvesWithBooks, status}) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  // requestAllManga: () => dispatch(requestAllManga()),
   requestAllBookshelves: () => dispatch(requestAllBookshelves()),
   toggleShelf: (bookshelfId, mangaId) => dispatch(toggleShelf(bookshelfId, mangaId)),
   changeMangaStatus: (readStatus, mangaId) => dispatch(changeMangaStatus(readStatus, mangaId)),
-  requestMangaStatus: (mangaId) => dispatch(requestMangaStatus(mangaId)),
-  requestAllShelvesWithBook: (mangaId) => dispatch(requestAllShelvesWithBook(mangaId))
+  requestMangaStatus: (mangaId) => dispatch(requestMangaStatus(mangaId))
 });
 
 

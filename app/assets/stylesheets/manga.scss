@@ -3,13 +3,18 @@
 
 .single-manga-show {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   width: 1000px;
   margin-top: 25px;
   margin-left: 100px;
   margin-right: 100px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
+}
+
+.mangaShowTop {
+  display: flex;
+  flex-direction: row;
 }
 
 .mangaHomeWords {
@@ -36,16 +41,30 @@
 
 }
 
-.single-manga-picture {
+.manga-top-left {
   display: flex;
   flex-direction: column;
+}
+
+.manga-top-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-manga-top {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
   display: flex;
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   padding-left: 200px;
   padding-top: 25px;
+  padding-bottom: 10px;
   margin-bottom: 25px;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
 }
 
 .manga-dropdown-wrapper {
