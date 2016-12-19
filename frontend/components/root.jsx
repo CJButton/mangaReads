@@ -39,11 +39,11 @@ const Root = ({store}) => {
     store.dispatch(requestAllBookshelves());
   };
 
-  const loadSingleManga = nextState => {
+  const loadSingleManga = (nextState) => {
+    store.dispatch(requestAllShelvesWithBook(nextState.params.id));
     store.dispatch(requestManga(nextState.params.id));
     store.dispatch(requestMangaStatus(nextState.params.id));
     store.dispatch(requestAllBookshelves());
-    store.dispatch(requestAllShelvesWithBook(nextState.params.id));
   };
 
   // will redirect the user if they are/aren't logged in

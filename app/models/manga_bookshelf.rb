@@ -22,6 +22,6 @@ class MangaBookshelf < ActiveRecord::Base
   end
 
   def self.find_shelves(manga_id)
-    p Manga.find(manga_id).bookshelves
+    Manga.find(manga_id).bookshelves
   end
 end
