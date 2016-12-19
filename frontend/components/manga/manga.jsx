@@ -90,8 +90,6 @@ class MangaShow extends React.Component{
 
 
  render() {
-   console.log(this.props);
-
    return (
    <div className="single-manga-show">
      <div className="single-manga-picture">
@@ -112,7 +110,7 @@ class MangaShow extends React.Component{
                 <div className="checkbox-wrapper">
                 {this.props.bookshelves.map((shelf, i) => {
                   return(
-                    <label>{shelf.title}
+                    <label key={i}>{shelf.title}
                       <input key={i}
                              type="checkbox"
                              value={this.state[shelf.title]}
@@ -133,7 +131,7 @@ class MangaShow extends React.Component{
        <br></br>
        <li className="mangaHomeWords">{this.props.manga.synopsis}</li>
        <br></br>
-       Create your own shelves in my-Manga, and organize your manga your way!
+       Create your own shelves, and organize your manga your way!
        <br></br>
        <br></br>
 
