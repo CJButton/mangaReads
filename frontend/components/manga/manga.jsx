@@ -15,23 +15,55 @@ class MangaShow extends React.Component{
    this.props.toggleShelf(shelfId, mangaId);
  }
 
- componentWillReceiveProps(nextprops) {
-   let bookStatus = ["Want-To-Read", "Read", "Currently-Reading"];
+ handleCheckChange(shelfname, shelfId) {
+   this.props.toggleShelf(shelfId, this.props.manga.id);
+   let status = (this.state[shelfname] === true ? false : true);
+   this.setState({
+     [shelfname]: status
+   });
+ }
 
-   if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
-          nextprops.bookshelves.forEach((shelf) => {
-            if (bookStatus.includes(shelf)) {
-              return;
-            } else {
-              this.setState({
-                [shelf.title]: false
-              });
-            }
-          }
-        );
-      }
+ componentWillReceiveProps(nextprops) {
+   
+ }
+
+  componentWillReceiveProps(nextprops) {
+    if (nextprops.booksonshelves.length > 0 && this.props.bookshelves.length < 1) {
+      this.updateCheckedShelves(nextprops);
+    } else if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
+      this.updateStateShelves(nextprops);
     }
 
+  }
+
+  updateStateShelves(nextprops) {
+    console.log("in updateStateShelves");
+    let bookStatus = ["Want-To-Read", "Read", "Currently-Reading"];
+      nextprops.bookshelves.forEach((shelf) => {
+        if (bookStatus.includes(shelf.title)) {
+          return;
+        } else {
+          this.setState({
+            [shelf.title]: false
+          });
+        }
+      }
+    );
+  }
+
+  updateCheckedShelves(nextprops) {
+    console.log("in updateCheckedShelves");
+    let bookStatus = ["Want-To-Read", "Read", "Currently-Reading"];
+    nextprops.booksonshelves.map((shelf) => {
+      if (bookStatus.includes(shelf.title)) {
+        return;
+      } else {
+        this.setState({
+          [shelf.title]: true
+        });
+      }
+    });
+  }
 
  // componentWillReceiveProps(nextProps) {
  //   console.log("in willreceiveprops");
@@ -68,6 +100,7 @@ class MangaShow extends React.Component{
    //    value={index}>
    //    {this.isChecked(shelf.id)}
    //    </i>
+   console.log(this.props);
    console.log(this.state);
    return (
    <div className="single-manga-show">
@@ -92,7 +125,8 @@ class MangaShow extends React.Component{
                     <label>{shelf.title}
                       <input key={i}
                              type="checkbox"
-                             value={this.state[shelf.title]}/>
+                             value={this.state[shelf.title]}
+                             onChange={this.handleCheckChange.bind(this, shelf.title, shelf.id)}/>
                    </label>
                   );
                 })

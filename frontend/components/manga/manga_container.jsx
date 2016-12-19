@@ -17,7 +17,7 @@ import values from 'lodash/values';
 const mapStateToProps = ({manga, bookshelves, shelvesWithBooks, status}) => ({
   manga,
   bookshelves: values(bookshelves),
-  booksonshelves: shelvesWithBooks,
+  booksonshelves: values(shelvesWithBooks),
   status: values(status)[0]
 });
 
