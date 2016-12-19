@@ -23,46 +23,41 @@ class MangaShow extends React.Component{
    });
  }
 
- componentWillReceiveProps(nextprops) {
-   
- }
+  componentWillReceiveProps(nextProps) {
+    let shelveBooks = this.onShelves(nextProps.booksonshelves);
 
-  componentWillReceiveProps(nextprops) {
-    if (nextprops.booksonshelves.length > 0 && this.props.bookshelves.length < 1) {
-      this.updateCheckedShelves(nextprops);
-    } else if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
-      this.updateStateShelves(nextprops);
-    }
+    this.props.bookshelves.map((shelf) => {
+      this.setState({
+        [shelf.title]: false
+      });
+    });
 
+    shelveBooks.map((shelf) => {
+      this.setState({
+        [shelf]: true
+      });
+    });
+    // let shelveBooks;
+    // console.log(this.props.booksonshelves);
+    // if (this.props.bookshelves.length < 1) {
+    //   nextProps.bookshelves.map((shelf) => {
+    //     this.setState({
+    //       [shelf.title]: false
+    //     });
+    //   });
+    //   shelveBooks = [];
+    // }
   }
 
-  updateStateShelves(nextprops) {
-    console.log("in updateStateShelves");
+  onShelves(shelves) {
     let bookStatus = ["Want-To-Read", "Read", "Currently-Reading"];
-      nextprops.bookshelves.forEach((shelf) => {
-        if (bookStatus.includes(shelf.title)) {
-          return;
-        } else {
-          this.setState({
-            [shelf.title]: false
-          });
-        }
-      }
-    );
-  }
-
-  updateCheckedShelves(nextprops) {
-    console.log("in updateCheckedShelves");
-    let bookStatus = ["Want-To-Read", "Read", "Currently-Reading"];
-    nextprops.booksonshelves.map((shelf) => {
-      if (bookStatus.includes(shelf.title)) {
-        return;
-      } else {
-        this.setState({
-          [shelf.title]: true
-        });
+    let shelvedBooks = [];
+    shelves.map((shelf) => {
+      if (!bookStatus.includes(shelf.title)) {
+        shelvedBooks.push(shelf.title);
       }
     });
+    return shelvedBooks;
   }
 
  // componentWillReceiveProps(nextProps) {
@@ -93,15 +88,10 @@ class MangaShow extends React.Component{
    }
  }
 
+
  render() {
-   //  <i
-   //    className={"Shelf-answer-checkbox" + "   " + this.isChecked(shelf.id) + "    "}
-   //    onClick={this.toggle.bind(this, shelf.id, this.props.manga.id)}
-   //    value={index}>
-   //    {this.isChecked(shelf.id)}
-   //    </i>
    console.log(this.props);
-   console.log(this.state);
+
    return (
    <div className="single-manga-show">
      <div className="single-manga-picture">
@@ -126,6 +116,7 @@ class MangaShow extends React.Component{
                       <input key={i}
                              type="checkbox"
                              value={this.state[shelf.title]}
+                             checked={this.state[shelf.title]}
                              onChange={this.handleCheckChange.bind(this, shelf.title, shelf.id)}/>
                    </label>
                   );
@@ -154,6 +145,22 @@ class MangaShow extends React.Component{
 }
 
 export default MangaShow;
+// } else if (shelveBooks.length > 0 &&
+//   this.props.bookshelves.length > 0) {
+//     shelveBooks.map((shelf) => {
+//       this.setState({
+//         [shelf]: true
+//       });
+//     });
+// console.log(nextProps);
+// if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
+//   let onShelves = this.onShelves(nextprops.bookshelves);
+//   console.log(onShelves);
+//
+// }
+
+
+
 // <label key={i}
 //        className="checkbox-label">
 //   {shelf.title}

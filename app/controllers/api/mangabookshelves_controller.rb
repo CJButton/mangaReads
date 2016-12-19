@@ -4,7 +4,8 @@ require 'byebug'
 class Api::MangabookshelvesController < ApplicationController
 
   def toggle
-    render json: MangaBookshelf.toggle(params[:shelfId], params[:mangaId])
+    MangaBookshelf.toggle(params[:shelfId], params[:mangaId])
+    render json: MangaBookshelf.find_shelves(params[:mangaId])
   end
 
   # this show action is here to find all all user's shelves where the
