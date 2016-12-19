@@ -1,0 +1,32 @@
+
+.reviews {
+  height: 300px;
+}
+
+.reviewForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewForm p {
+  margin: 0px;
+}
+
+.formDocument {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-text {
+  width: 500px;
+}
+
+.review-textarea {
+  width: 500px;
+  height: 150px;
+}
+
+.review-submit {
+  width: 100px;
+  height: 15px;
+}

@@ -15,7 +15,6 @@ import HomeContainer from './home/home_container';
 import BookshelfContainer from './bookshelf/bookshelf_container';
 
 // actions
-// import {requestAllManga} from './actions/manga_actions';
 import { requestAllManga, requestManga } from '../actions/manga_actions';
 import { requestAllBookshelves } from '../actions/bookshelf_actions';
 import { requestMangaStatus } from '../actions/manga_status_actions';
@@ -46,7 +45,6 @@ const Root = ({store}) => {
     store.dispatch(requestAllBookshelves());
   };
 
-  // will redirect the user if they are/aren't logged in
   const _redirectIfLoggedIn = (nextState, replace) => {
     const currentUser = store.getState().session.currentUser;
     if (currentUser) {
