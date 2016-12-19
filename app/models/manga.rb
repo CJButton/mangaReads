@@ -7,6 +7,7 @@ class Manga < ActiveRecord::Base
 
   has_many :mangabookshelves, :class_name => 'MangaBookshelf'
   has_many :bookshelves, through: :mangabookshelves, source: :bookshelf
+  has_many :reviews
 
 
   def self.filter(current_user, shelf_name)
