@@ -10,10 +10,16 @@ Class Api::ReviewsController < ApplicationController
 
   end
 
+  # might need to render something different here
   def create
     @review = Review.new(review_params)
     if @review.save
       render "api/mangas/show"
+    else
+      render(
+        json: ["Invalid review. A review must contain a rating between 1-5"],
+        status: 401
+      )
     end
 
   end

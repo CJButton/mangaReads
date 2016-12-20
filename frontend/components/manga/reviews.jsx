@@ -4,7 +4,6 @@ import React from 'react';
 class Reviews extends React.Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
   }
 
   handleSubmit() {
@@ -12,6 +11,7 @@ class Reviews extends React.Component {
   }
 
   render() {
+    console.log(this.props);
     return(
       <div className="reviews">
         <div className="reviewForm">
