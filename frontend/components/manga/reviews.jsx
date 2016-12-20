@@ -22,7 +22,6 @@ class Reviews extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     this.props.submit(this.props.user.id, this.props.manga.id,
-     this.props.user.username,
      this.state.rating, this.state.title, this.state.text);
   }
 
@@ -72,33 +71,14 @@ class Reviews extends React.Component {
   }
 
   displayFormOrReview() {
-    console.log("in displayFormOrReview");
-    if (this.props.reviews.length > 0) {
-      this.props.reviews.forEach((review) => {
-        if (review.user_id === this.props.user.id) {
-          console.log("displaying found review");
-          console.log(review);
-          return(
-            <div>
-              {review.rating}
-              {review.title}
-              {review.description}
-            </div>
-          );
-      }});
-    } else {
-      return(
-        this.displayForm()
-      );
 
-    }
   }
 
   render() {
     console.log(this.props);
     return(
       <div className="reviews">
-          {this.displayFormOrReview()}
+        {this.displayFormOrReview()}
       </div>
     );
   }
