@@ -120,7 +120,8 @@ class MangaShow extends React.Component{
                  </ul>
            </div>
          </div>
-     <Reviews user={this.props.user} manga={this.props.manga}/>
+     <Reviews user={this.props.user} manga={this.props.manga}
+              submit={this.props.submitReview}/>
 
 
    </div>
