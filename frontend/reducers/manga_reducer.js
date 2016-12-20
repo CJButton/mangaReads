@@ -9,7 +9,6 @@ import { merge } from 'lodash';
 
 
 const MangaReducer = (state = {}, action) => {
-
   switch(action.type) {
 
     case RECEIVE_MANGA:
