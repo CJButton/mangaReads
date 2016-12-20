@@ -78,7 +78,6 @@ class AuthForm extends React.Component{
 
   render() {
     const {username, password1, name, email, password2} = this.state;
-    console.log(this.props.errors);
     return (
     <nav className="login-signup">
 
