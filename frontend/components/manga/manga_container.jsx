@@ -18,12 +18,14 @@ import { submitReview } from '../../actions/review_actions';
 import MangaShow from './manga';
 import values from 'lodash/values';
 
-const mapStateToProps = ({manga, bookshelves, shelvesWithBooks, status, session}) => ({
+const mapStateToProps = ({manga, bookshelves, reviews,
+              shelvesWithBooks, status, session}) => ({
   user: session.currentUser,
   manga,
   bookshelves: values(bookshelves),
   booksonshelves: values(shelvesWithBooks),
-  status: values(status)[0]
+  status: values(status)[0],
+  reviews
 });
 
 const mapDispatchToProps = dispatch => ({

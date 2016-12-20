@@ -23,7 +23,7 @@ const ReviewMiddleware = ({getState, dispatch}) => next => action => {
 
     case REQUEST_REVIEWS:
       success = reviews => dispatch(receiveMangaReviews(reviews));
-      getReviews(action.mangaId, success, errorCallBack);
+      getReviews(action.id, success, errorCallBack);
       return next(action);
   }
 

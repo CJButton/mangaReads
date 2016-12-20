@@ -14,7 +14,7 @@ Class Api::ReviewsController < ApplicationController
   def create
     @review = Review.new(review_params)
     if @review.save
-      render "api/mangas/show"
+      @reviews = Review.filter(params[:manga_id])
     else
       render(
         json: ["Invalid review. A review must contain a rating between 1-5"],
