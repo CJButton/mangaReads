@@ -3,7 +3,6 @@
 class Api::ReviewsController < ApplicationController
 
   def index
-
   end
 
   def show
@@ -31,11 +30,5 @@ class Api::ReviewsController < ApplicationController
   def update
 
   end
-
-  private
-  def review_params
-    params.require(:review).permit(:manga_id, :user_id, :rating, :title, :description)
-  end
-
 
 end

@@ -14,7 +14,6 @@ class MangaShow extends React.Component{
 
    this.toggle = this.toggle.bind(this);
    this.handleStatus = this.handleStatus.bind(this);
-   console.log(this.props);
  }
 
  toggle(shelfId, mangaId) {
@@ -71,6 +70,9 @@ class MangaShow extends React.Component{
 
 
  render() {
+
+   let submitReview = this.props.submitReview.bind(this);
+
    return (
    <div className="single-manga-show">
      <div className="single-manga-top">
@@ -121,7 +123,8 @@ class MangaShow extends React.Component{
            </div>
          </div>
      <Reviews user={this.props.user} manga={this.props.manga}
-              submit={this.props.submitReview}/>
+              reviews={this.props.reviews}
+              submit={submitReview}/>
 
 
    </div>

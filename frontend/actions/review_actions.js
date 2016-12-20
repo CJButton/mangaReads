@@ -26,7 +26,7 @@ export const requestMangaReviews = (mangaId) => ({
 });
 
 // returning from server
-export const receiveMangaReviews = (review) => ({
+export const receiveMangaReviews = (reviews) => ({
   type: RECEIVE_MANGA_REVIEWS,
-  review
+  reviews
 });
