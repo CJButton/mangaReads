@@ -11,10 +11,10 @@ export const sendReview =
   });
 };
 
-export const getReviews = (mangaId, success, errors) => {
+export const getReviews = (id, success, errors) => {
   $.ajax({
     type: 'GET',
-    url: `api/reviews/${mangaId}`,
+    url: `api/reviews/${id}`,
     success,
     errors
   });
