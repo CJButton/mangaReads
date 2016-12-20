@@ -6,13 +6,14 @@ export const RECEIVE_REVIEW_ERRORS = "RECEIVE_REVIEW_ERRORS";
 export const REQUEST_MANGA_REVIEWS = "REQUEST_MANGA_REVIEWS";
 export const RECEIVE_MANGA_REVIEWS = "RECEIVE_MANGA_REVIEWS";
 
-export const submitReview = (userId, mangaId, rating, title, description) => ({
+export const submitReview = (userId, mangaId, rating, title, description, username) => ({
   type: SUBMIT_REVIEW,
   userId,
   mangaId,
   rating,
   title,
-  description
+  description,
+  username
 });
 
 export const receiveReviewErrors = (errors) => ({

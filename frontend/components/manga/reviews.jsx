@@ -15,16 +15,17 @@ class Reviews extends React.Component {
     this.handleTitle = this.handleTitle.bind(this);
     this.handleText = this.handleText.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.displayFormOrReview = this.displayFormOrReview.bind(this);
   }
 
   // collect all the data here before sending it off to be added to db
   handleSubmit(e) {
     e.preventDefault();
-    console.log(this.props);
     this.props.submit(this.props.user.id, this.props.manga.id,
-             this.state.rating, this.state.title, this.state.text);
-
+     this.props.user.username,
+     this.state.rating, this.state.title, this.state.text);
   }
+
 
   onStarClick(nextValue, prevValue, name) {
     this.setState({rating: nextValue});
@@ -38,37 +39,66 @@ class Reviews extends React.Component {
     this.setState({text: e.target.value});
   }
 
+  displayForm() {
+    return(
+      <div className="reviewForm">
+        <div className="formTop">
+          <div className="formTopLeft">
+            <p>Username: {this.props.user.username}</p>
+            <p>Manga Title: {this.props.manga.title}</p>
+          </div>
+          <div className="formTopRight">
+            <StarRatingComponent
+              className="starRating"
+              name="rater"
+              starCount={5}
+              value={this.state.rating}
+              onStarClick={this.onStarClick.bind(this)}/>
+          </div>
+        </div>
+        <form className="formDocument"
+              onSubmit={this.handleSubmit}>
+          <input className="review-text"
+                 type="text"
+                 onChange={this.handleTitle}></input>
+          <input className="review-textarea"
+                 type="textarea"
+                  onChange={this.handleText}></input>
+          <input className="review-submit"
+                 type="submit"></input>
+        </form>
+      </div>
+    );
+  }
+
+  displayFormOrReview() {
+    console.log("in displayFormOrReview");
+    if (this.props.reviews.length > 0) {
+      this.props.reviews.forEach((review) => {
+        if (review.user_id === this.props.user.id) {
+          console.log("displaying found review");
+          console.log(review);
+          return(
+            <div>
+              {review.rating}
+              {review.title}
+              {review.description}
+            </div>
+          );
+      }});
+    } else {
+      return(
+        this.displayForm()
+      );
+
+    }
+  }
+
   render() {
+    console.log(this.props);
     return(
       <div className="reviews">
-        <div className="reviewForm">
-          <div className="formTop">
-            <div className="formTopLeft">
-              <p>Username: {this.props.user.username}</p>
-              <p>Manga Title: {this.props.manga.title}</p>
-            </div>
-            <div className="formTopRight">
-              <StarRatingComponent
-                className="starRating"
-                name="rater"
-                starCount={5}
-                value={this.state.rating}
-                onStarClick={this.onStarClick.bind(this)}/>
-            </div>
-          </div>
-          <form className="formDocument"
-                onSubmit={this.handleSubmit}>
-            <input className="review-text"
-                   type="text"
-                   onChange={this.handleTitle}></input>
-            <input className="review-textarea"
-                   type="textarea"
-                    onChange={this.handleText}></input>
-            <input className="review-submit"
-                   type="submit"></input>
-          </form>
-        </div>
-
+          {this.displayFormOrReview()}
       </div>
     );
   }

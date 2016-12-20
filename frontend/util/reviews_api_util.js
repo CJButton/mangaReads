@@ -1,11 +1,11 @@
 
 
 export const sendReview =
-      (userId, mangaId, rating, title, description, success, error) => {
+      (userId, mangaId, rating, title, description, username, success, error) => {
   $.ajax({
     type: 'POST',
     url: `api/reviews`,
-    data: {userId, mangaId, rating, title, description },
+    data: {userId, mangaId, rating, title, description, username },
     success,
     error
   });
