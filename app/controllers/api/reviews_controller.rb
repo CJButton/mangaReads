@@ -1,13 +1,13 @@
 
 
-Class Api::ReviewsController < ApplicationController
+class Api::ReviewsController < ApplicationController
 
   def index
-    @reviews = Review.filter(params[:id])
+
   end
 
   def show
-
+    @reviews = Review.filter(params[:id])
   end
 
   # might need to render something different here

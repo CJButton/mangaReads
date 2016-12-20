@@ -6,14 +6,12 @@ export const RECEIVE_MANGA_STATUS = "RECEIVE_MANGA_STATUS";
 export const RECEIVE_MANGA_STATUS_ERRORS = "RECEIVE_MANGA_STATUS_ERRORS";
 export const REQUEST_MANGA_STATUS = "REQUEST_MANGA_STATUS";
 
-// request from component
 export const changeMangaStatus = (readStatus, mangaId) => ({
   type: CHANGE_MANGA_STATUS,
   readStatus,
   mangaId
 });
 
-// returning from api
 export const receiveMangaStatus = (readStatus, mangaId) => ({
   type: RECEIVE_MANGA_STATUS,
   readStatus,
