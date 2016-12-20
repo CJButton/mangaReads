@@ -10,11 +10,12 @@ import { submitReview,
 import { sendReview, getReviews } from '../util/reviews_api_util';
 
 
-const ReviewMiddleware = ({getState, dispatch}) => next => action => {
+const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
   const errorCallBack = xhr => dispatch(receiveReviewErrors(xhr.responseJSON));
   let success;
 
   switch(action.type) {
+
     case REQUEST_MANGA_REVIEWS:
     success = (reviews) => dispatch(receiveMangaReviews(reviews));
     getReviews(action.mangaId, success, errorCallBack);
@@ -26,6 +27,8 @@ const ReviewMiddleware = ({getState, dispatch}) => next => action => {
               action.title, action.description, success, errorCallBack);
       return next(action);
 
+      default:
+        next(action);
   }
 
 

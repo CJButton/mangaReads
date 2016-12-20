@@ -1,15 +1,31 @@
 
 .reviews {
   height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .reviewForm {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .reviewForm p {
   margin: 0px;
+}
+
+.formTop {
+  display: flex;
+  flex-direction: row;
+}
+
+.formTopLeft {
+  width: 428px;
+}
+
+.reviewFormTopRight {
+
 }
 
 .formDocument {
