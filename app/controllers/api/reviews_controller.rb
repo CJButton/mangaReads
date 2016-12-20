@@ -12,8 +12,12 @@ class Api::ReviewsController < ApplicationController
   # might need to render something different here
   def create
     @review = Review.new(:user_id => params[:userId], :manga_id => params[:mangaId],
+<<<<<<< HEAD
       :rating => params[:rating], :title => params[:title], :description => params[:description],
       :username => params[:username])
+=======
+      :rating => params[:rating], :title => params[:title], :description => params[:description])
+>>>>>>> 580a7ca1a8baf67b4f656f32a604c9c7c38a51e8
     if @review.save
       @reviews = Review.filter(params[:mangaId])
     else
