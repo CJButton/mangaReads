@@ -15,10 +15,10 @@ const ReviewReducer = (state = {}, action) => {
         return merge(newReviews);
 
     case RECEIVE_REVIEW:
-      return merge({}, state, action.review);
+        return merge({}, state, action.reviews);
 
     default:
-      return state;
+        return state;
   }
 };
 
