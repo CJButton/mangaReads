@@ -12,6 +12,7 @@ class Reviews extends React.Component {
       title: "",
       text: ""
     };
+
     this.handleTitle = this.handleTitle.bind(this);
     this.handleText = this.handleText.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -21,10 +22,8 @@ class Reviews extends React.Component {
   // collect all the data here before sending it off to be added to db
   handleSubmit(e) {
     e.preventDefault();
-    this.props.submit(this.props.user.id, this.props.manga.id,
-     this.state.rating, this.state.title, this.state.text);
+    this.props.submit(this.props.user.id, this.props.manga.id, this.state.rating, this.state.title, this.state.text);
   }
-
 
   onStarClick(nextValue, prevValue, name) {
     this.setState({rating: nextValue});
@@ -78,7 +77,7 @@ class Reviews extends React.Component {
     console.log(this.props);
     return(
       <div className="reviews">
-        {this.displayFormOrReview()}
+        {this.displayForm()}
       </div>
     );
   }

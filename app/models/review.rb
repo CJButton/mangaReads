@@ -3,6 +3,7 @@
 
 
 class Review < ActiveRecord::Base
+  validates :username, presence: true
 
   belongs_to :manga
 
