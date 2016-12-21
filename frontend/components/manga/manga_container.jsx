@@ -35,8 +35,8 @@ const mapDispatchToProps = dispatch => ({
   changeMangaStatus: (readStatus, mangaId) =>
           dispatch(changeMangaStatus(readStatus, mangaId)),
   requestMangaStatus: (mangaId) => dispatch(requestMangaStatus(mangaId)),
-  submitReview: (userId, mangaId, rating, title, description) =>
-          dispatch(submitReview(userId, mangaId, rating, title, description))
+  submitReview: (userId, mangaId, rating, title, description, username) =>
+          dispatch(submitReview(userId, mangaId, rating, title, description, username))
 });
 
 

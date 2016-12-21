@@ -17,15 +17,16 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
   let success;
 
   switch(action.type) {
+
     case REQUEST_MANGA_REVIEWS:
       success = (reviews) => dispatch(receiveMangaReviews(reviews));
       getReviews(action.mangaId, success, errorCallBack);
     return next(action);
 
     case SUBMIT_REVIEW:
-      success = (review) => dispatch(receiveReview(review));
+      success = (reviews) => dispatch(receiveReview(reviews));
       sendReview(action.userId, action.mangaId, action.rating,
-              action.title, action.description, success);
+              action.title, action.description, success, errorCallBack);
       return next(action);
 
     default:
