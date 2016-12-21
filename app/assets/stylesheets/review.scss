@@ -3,6 +3,8 @@
   height: 300px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  padding-top: 60px;
 }
 
 .reviewForm {
@@ -26,6 +28,11 @@
 
 .reviewFormTopRight {
 
+}
+
+.reviewBox {
+  height: 100px;
+  width: 300px;
 }
 
 .formDocument {

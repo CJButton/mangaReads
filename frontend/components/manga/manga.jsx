@@ -70,7 +70,7 @@ class MangaShow extends React.Component{
 
 
  render() {
-
+   console.log(this.props);
    let submitReview = this.props.submitReview.bind(this);
 
    return (

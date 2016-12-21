@@ -8,7 +8,8 @@ class Review < ActiveRecord::Base
   belongs_to :manga
 
   def self.filter(id)
-    Manga.find(id).reviews
+    p "the id coming in is #{id}"
+    p Manga.find(id).reviews
   end
 
 end
