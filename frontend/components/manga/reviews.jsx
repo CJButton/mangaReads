@@ -77,7 +77,21 @@ class Reviews extends React.Component {
     console.log(this.props);
     return(
       <div className="reviews">
+        <div>
         {this.displayForm()}
+        </div>
+        <div>
+          {this.props.reviews.map((review) => {
+            return(
+              <div className="reviewBox">
+            <div>{review.rating}</div>
+            <div>{review.title}</div>
+            <div>{review.description}</div>
+            </div>
+          );
+          })}
+        </div>
+
       </div>
     );
   }

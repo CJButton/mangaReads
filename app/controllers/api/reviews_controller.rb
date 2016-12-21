@@ -9,14 +9,13 @@ class Api::ReviewsController < ApplicationController
     @reviews = Review.filter(params[:id])
   end
 
-  # might need to render something different here
   def create
     name = User.find(params[:userId]).username
     @review = Review.new(:user_id => params[:userId], :manga_id => params[:mangaId],
       :rating => params[:rating], :title => params[:title], :description => params[:description],
       :username => name)
     if @review.save
-      @reviews = Review.filter(params[:mangaId])
+      @reviews = Review.filter(params[:mangaId)
     else
       render(
         json: ["Invalid review. A review must contain a rating between 1-5"],
@@ -32,11 +31,6 @@ class Api::ReviewsController < ApplicationController
 
   def update
 
-  end
-
-  private
-  def review_params
-    params.require(:review).permit(:userId, :mangaId, :rating, :title, :description)
   end
 
 end

@@ -7,9 +7,8 @@ import { merge } from 'lodash';
 
 
 const ReviewReducer = (state = {}, action) => {
-
+  console.log(action);
   switch(action.type) {
-
     case RECEIVE_MANGA_REVIEWS:
       const newReviews = merge({}, action.reviews);
         return merge(newReviews);

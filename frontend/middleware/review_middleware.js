@@ -13,18 +13,17 @@ import { sendReview, getReviews } from '../util/reviews_api_util';
 const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
   const errorCallBack = xhr => dispatch(receiveReviewErrors(xhr.responseJSON));
   let success;
+  success = (reviews) => dispatch(receiveMangaReviews(reviews));
 
   switch(action.type) {
-
     case REQUEST_MANGA_REVIEWS:
-    success = (reviews) => dispatch(receiveMangaReviews(reviews));
-    getReviews(action.mangaId, success, errorCallBack);
+      getReviews(action.mangaId, success, errorCallBack);
     return next(action);
 
     case SUBMIT_REVIEW:
-      success = reviews => dispatch(receiveMangaReviews(reviews));
       sendReview(action.userId, action.mangaId, action.rating,
-              action.title, action.description, success, errorCallBack);
+              action.title, action.description,
+              success, errorCallBack);
       return next(action);
 
       default:
@@ -36,3 +35,4 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
 };
 
 export default ReviewMiddleware;
+// success = (reviews) => dispatch(receiveMangaReviews(reviews));
