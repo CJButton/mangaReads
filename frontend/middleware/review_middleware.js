@@ -5,7 +5,9 @@ import { submitReview,
          receiveReviewErrors,
          receiveMangaReviews,
          requestReviews,
-         REQUEST_MANGA_REVIEWS} from '../actions/review_actions';
+         REQUEST_MANGA_REVIEWS,
+         RECEIVE_REVIEW,
+         receiveReview } from '../actions/review_actions';
 
 import { sendReview, getReviews } from '../util/reviews_api_util';
 
@@ -13,21 +15,21 @@ import { sendReview, getReviews } from '../util/reviews_api_util';
 const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
   const errorCallBack = xhr => dispatch(receiveReviewErrors(xhr.responseJSON));
   let success;
-  success = (reviews) => dispatch(receiveMangaReviews(reviews));
 
   switch(action.type) {
     case REQUEST_MANGA_REVIEWS:
+      success = (reviews) => dispatch(receiveMangaReviews(reviews));
       getReviews(action.mangaId, success, errorCallBack);
     return next(action);
 
     case SUBMIT_REVIEW:
+      success = (review) => dispatch(receiveReview(review));
       sendReview(action.userId, action.mangaId, action.rating,
-              action.title, action.description,
-              success, errorCallBack);
+              action.title, action.description, success);
       return next(action);
 
-      default:
-        next(action);
+    default:
+      next(action);
   }
 
 
@@ -35,4 +37,3 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
 };
 
 export default ReviewMiddleware;
-// success = (reviews) => dispatch(receiveMangaReviews(reviews));
