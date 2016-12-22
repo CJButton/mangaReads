@@ -23,7 +23,7 @@ class Reviews extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     this.props.submit(this.props.user.id, this.props.manga.id, this.state.rating, this.state.title, this.state.text);
-    
+
   }
 
   onStarClick(nextValue, prevValue, name) {

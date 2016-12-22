@@ -24,7 +24,7 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
     return next(action);
 
     case SUBMIT_REVIEW:
-      success = (reviews) => dispatch(receiveReview(reviews));
+      success = (review) => dispatch(receiveReview(review));
       sendReview(action.userId, action.mangaId, action.rating,
               action.title, action.description, action.username, success, errorCallBack);
       return next(action);

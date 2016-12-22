@@ -17,8 +17,7 @@ class Api::ReviewsController < ApplicationController
       :username => name)
 
     if @review.save
-      p review = Review.find(@review.id)
-      @review = Review.find(@review.id)
+      @review
     end
 
   end
