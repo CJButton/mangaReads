@@ -19,7 +19,7 @@ import { requestAllManga, requestManga } from '../actions/manga_actions';
 import { requestAllBookshelves } from '../actions/bookshelf_actions';
 import { requestMangaStatus } from '../actions/manga_status_actions';
 import { requestAllShelvesWithBook } from '../actions/manga_bookshelves_actions';
-import { requestMangaReviews } from '../actions/review_actions';
+import { requestMangaReviews, requestUserReview } from '../actions/review_actions';
 
 const Root = ({store}) => {
 
@@ -45,6 +45,7 @@ const Root = ({store}) => {
     store.dispatch(requestMangaStatus(nextState.params.id));
     store.dispatch(requestAllBookshelves());
     store.dispatch(requestMangaReviews(nextState.params.id));
+    // store.dispatch(requestUserReview(nextState.params.id));
   };
 
   const _redirectIfLoggedIn = (nextState, replace) => {

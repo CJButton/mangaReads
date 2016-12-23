@@ -6,8 +6,7 @@
 #     json.extract! one_review, :user_id, :manga_id, :rating, :title, :description
 #   end
 # end
-@reviews.each do |review|
-  json.set! review.id do
-    json.extract! review, :user_id, :manga_id, :rating, :title, :description, :username
-  end
+p @review
+json.set! @review.id do
+  json.extract! @review, :id, :user_id, :manga_id, :rating, :title, :description, :username
 end

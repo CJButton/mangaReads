@@ -30,9 +30,31 @@
 
 }
 
+.usersReview {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.review {
+  width: 300px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.deleteEdit {
+
+}
+
+.hide {
+  display: none;
+}
+
 .reviewBox {
   height: 100px;
   width: 300px;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .formDocument {

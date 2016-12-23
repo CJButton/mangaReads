@@ -33,7 +33,7 @@ const BookshelfMiddleware = ({ getState, dispatch }) => next => action => {
     return next(action);
 
     case DELETE_BOOKSHELF:
-    success = bookshelf => dispatch(removeBookshelf(bookshelf))
+    success = bookshelf => dispatch(removeBookshelf(bookshelf));
     deleteBookshelf(action.id, success);
     return next(action);
 
