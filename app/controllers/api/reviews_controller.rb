@@ -1,5 +1,5 @@
 
-require 'byebug'
+
 class Api::ReviewsController < ApplicationController
 
   def index
@@ -28,13 +28,18 @@ class Api::ReviewsController < ApplicationController
   end
 
   def destroy
-    @review = Review.find(params[:id])
+    p params
+    @review = Review.find(params[:id].to_i)
     @review.destroy
     render json: @review
   end
 
   def update
+    p params
+    p @review = Review.update(params[:id].to_i, :rating => params[:rating],
+        :title => params[:title], :description => params[:text])
 
+    render json: @review
   end
 
 end

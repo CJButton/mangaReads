@@ -45,7 +45,6 @@ const Root = ({store}) => {
     store.dispatch(requestMangaStatus(nextState.params.id));
     store.dispatch(requestAllBookshelves());
     store.dispatch(requestMangaReviews(nextState.params.id));
-    // store.dispatch(requestUserReview(nextState.params.id));
   };
 
   const _redirectIfLoggedIn = (nextState, replace) => {
