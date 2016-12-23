@@ -24,7 +24,11 @@ class Reviews extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     this.props.submit(this.props.user.id, this.props.manga.id, this.state.rating, this.state.title, this.state.text);
-
+    this.setState({
+      rating: 0,
+      title: "",
+      text: ""
+    });
   }
 
   onStarClick(nextValue, prevValue, name) {
@@ -90,7 +94,13 @@ class Reviews extends React.Component {
   }
 
   deleteReview(reviewId) {
-    this.props.deleteReview(reviewId);
+    this.props.delete(reviewId);
+  }
+
+  editReviewFunc(reviewId) {
+    console.log(reviewId);
+    console.log(this.state.rating);
+    this.props.edit(reviewId, this.state.rating, this.state.title, this.state.text);
   }
 
   render() {
@@ -102,24 +112,23 @@ class Reviews extends React.Component {
           {this.displayFormOrReview()}
         </div>
         {this.props.reviews.map((review, idx) => {
-          console.log(review);
           return(
             <div className="review" key={idx}>
               <div>{review.title}</div>
               <div>{review.rating}</div>
               <div className={review.user_id === this.props.user.id ? "deleteEdit" : "hide"}>
-                <button onClick={this.deleteReview.bind(this, review.id)}>Delete</button>
-                <button>Edit</button>
+                <button className="delete button"
+                  onClick={this.deleteReview.bind(this, review.id)}>
+                  Delete</button>
+                <button className="edit button"
+                  onClick={this.editReviewFunc.bind(this, review.id)}>
+                  Edit</button>
               </div>
               <div>{review.description}</div>
             </div>
           );
         })}
-
       </div>
-
-
-
     );
   }
 

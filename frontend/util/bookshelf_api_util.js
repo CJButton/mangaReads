@@ -34,5 +34,5 @@ export const deleteBookshelf = (id, success, error) => {
     url: `/api/bookshelves/${id}`,
     success,
     error
-  })
-}
+  });
+};

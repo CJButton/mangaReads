@@ -11,21 +11,22 @@ import { submitReview,
          REQUEST_USER_REVIEW,
          receiveUserReview,
          DELETE_REVIEW,
-         removeReview} from '../actions/review_actions';
+         removeReview,
+         EDIT_REVIEW,
+         receiveEdit} from '../actions/review_actions';
 
-import { sendReview, getReviews, getUserReview, deleteReviewAPI }
-                  from '../util/reviews_api_util';
+import { sendReview, getReviews, getUserReview,
+         deleteReviewAPI, editReviewAPI } from '../util/reviews_api_util';
 
 
 const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
   const errorCallBack = xhr => dispatch(receiveReviewErrors(xhr.responseJSON));
   let success;
-
+  console.log(action);
   switch(action.type) {
-
     case DELETE_REVIEW:
       success = (review) => dispatch(removeReview(review));
-      deleteReviewAPI(action.reviewID, success, errorCallBack);
+      deleteReviewAPI(action.reviewId, success, errorCallBack);
     return next(action);
 
     case REQUEST_MANGA_REVIEWS:
@@ -42,6 +43,12 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
       success = (review) => dispatch(receiveReview(review));
       sendReview(action.userId, action.mangaId, action.rating,
               action.title, action.description, action.username, success, errorCallBack);
+      return next(action);
+
+    case EDIT_REVIEW:
+      success = (review) => dispatch(receiveEdit(review));
+      editReviewAPI(action.reviewId, action.rating, action.title, action.text,
+                  success, errorCallBack);
       return next(action);
 
     default:

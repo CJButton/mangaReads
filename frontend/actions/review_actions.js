@@ -10,6 +10,8 @@ export const REQUEST_USER_REVIEW = "REQUEST_USER_REVIEW";
 export const RECEIVE_USER_REVIEW = "RECEIVE_USER_REVIEW";
 export const DELETE_REVIEW = "DELETE_REVIEW";
 export const REMOVE_REVIEW = "REMOVE_REVIEW";
+export const EDIT_REVIEW = "EDIT_REVIEW";
+export const RECEIVE_EDIT = "RECEIVE_EDIT";
 
 export const submitReview = (userId, mangaId, rating, title, description) => ({
   type: SUBMIT_REVIEW,
@@ -57,5 +59,18 @@ export const receiveMangaReviews = (reviews) => ({
 
 export const receiveReview = (review) => ({
   type: RECEIVE_REVIEW,
+  review
+});
+
+export const editReview = (reviewId, rating, title, text) => ({
+  type: EDIT_REVIEW,
+  reviewId,
+  rating,
+  title,
+  text
+});
+
+export const receiveEdit = (review) => ({
+  type: RECEIVE_EDIT,
   review
 });
