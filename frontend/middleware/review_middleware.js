@@ -7,9 +7,14 @@ import { submitReview,
          requestReviews,
          REQUEST_MANGA_REVIEWS,
          RECEIVE_REVIEW,
-         receiveReview } from '../actions/review_actions';
+         receiveReview ,
+         REQUEST_USER_REVIEW,
+         receiveUserReview,
+         DELETE_REVIEW,
+         removeReview} from '../actions/review_actions';
 
-import { sendReview, getReviews } from '../util/reviews_api_util';
+import { sendReview, getReviews, getUserReview, deleteReviewAPI }
+                  from '../util/reviews_api_util';
 
 
 const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
@@ -18,9 +23,19 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
 
   switch(action.type) {
 
+    case DELETE_REVIEW:
+      success = (review) => dispatch(removeReview(review));
+      deleteReviewAPI(action.reviewID, success, errorCallBack);
+    return next(action);
+
     case REQUEST_MANGA_REVIEWS:
       success = (reviews) => dispatch(receiveMangaReviews(reviews));
-      getReviews(action.mangaId, success, errorCallBack);
+      getReviews(success, errorCallBack, action.mangaId);
+    return next(action);
+
+    case REQUEST_USER_REVIEW:
+      success = (review) => dispatch(receiveUserReview(review));
+      getUserReview(action.mangaId, action.userId, success, errorCallBack);
     return next(action);
 
     case SUBMIT_REVIEW:

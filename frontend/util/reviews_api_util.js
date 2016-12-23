@@ -11,11 +11,31 @@ export const sendReview =
   });
 };
 
-export const getReviews = (id, success, errors) => {
+export const deleteReviewAPI = (reviewId, success, errors) => {
   $.ajax({
-    type: 'GET',
-    url: `api/reviews/${id}`,
+    type: 'DELETE',
+    url: `api/reviews/${reviewId}`,
     success,
     errors
+  });
+};
+
+export const getReviews = (success, errors, id) => {
+  $.ajax({
+    type: 'GET',
+    url: `api/reviews/`,
+    data: {manga: id},
+    success,
+    errors
+  });
+};
+
+export const getUserReview = (mangaId, success, error) => {
+  $.ajax({
+    type: 'GET',
+    url: `api/reviews/${mangaId}`,
+    mangaId,
+    success,
+    error
   });
 };

@@ -1,6 +1,7 @@
 
 import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
+import ReactSpinner from 'react-spinjs';
 
 
 class Reviews extends React.Component {
@@ -70,30 +71,55 @@ class Reviews extends React.Component {
     );
   }
 
-  displayFormOrReview() {
+  displayUserReview() {
+    return(
+        <div className="usersReview">Nothing displayed here atm.</div>
+    );
+  }
 
+  displayFormOrReview() {
+    if (this.props.reviews.length > 0) {
+      this.props.reviews.forEach((review) => {
+        if (review.user_id === this.props.user.id) {
+          return (this.displayUserReview());
+        }
+      });
+    } else {
+        return this.displayForm();
+    }
+  }
+
+  deleteReview(reviewId) {
+    this.props.deleteReview(reviewId);
   }
 
   render() {
     console.log(this.props);
+    let that = this;
     return(
       <div className="reviews">
-        <div>
-        {this.displayForm()}
+        <div className="reviewTop">
+          {this.displayFormOrReview()}
         </div>
-        <div>
-          {this.props.reviews.map((review) => {
-            return(
-              <div className="reviewBox">
-            <div>{review.rating}</div>
-            <div>{review.title}</div>
-            <div>{review.description}</div>
+        {this.props.reviews.map((review, idx) => {
+          console.log(review);
+          return(
+            <div className="review" key={idx}>
+              <div>{review.title}</div>
+              <div>{review.rating}</div>
+              <div className={review.user_id === this.props.user.id ? "deleteEdit" : "hide"}>
+                <button onClick={this.deleteReview.bind(this, review.id)}>Delete</button>
+                <button>Edit</button>
+              </div>
+              <div>{review.description}</div>
             </div>
           );
-          })}
-        </div>
+        })}
 
       </div>
+
+
+
     );
   }
 

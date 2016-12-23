@@ -6,6 +6,10 @@ export const RECEIVE_REVIEW_ERRORS = "RECEIVE_REVIEW_ERRORS";
 export const REQUEST_MANGA_REVIEWS = "REQUEST_MANGA_REVIEWS";
 export const RECEIVE_MANGA_REVIEWS = "RECEIVE_MANGA_REVIEWS";
 export const RECEIVE_REVIEW = "RECEIVE_REVIEW";
+export const REQUEST_USER_REVIEW = "REQUEST_USER_REVIEW";
+export const RECEIVE_USER_REVIEW = "RECEIVE_USER_REVIEW";
+export const DELETE_REVIEW = "DELETE_REVIEW";
+export const REMOVE_REVIEW = "REMOVE_REVIEW";
 
 export const submitReview = (userId, mangaId, rating, title, description) => ({
   type: SUBMIT_REVIEW,
@@ -26,7 +30,26 @@ export const requestMangaReviews = (mangaId) => ({
   mangaId
 });
 
-// returning from server
+export const deleteReview = (reviewId) => ({
+  type: DELETE_REVIEW,
+  reviewId
+});
+
+export const removeReview = (review) => ({
+  type: REMOVE_REVIEW,
+  review
+});
+
+export const requestUserReview = (mangaId) => ({
+  type: REQUEST_USER_REVIEW,
+  mangaId
+});
+
+export const receiveUserRevew = (review) => ({
+  type: RECEIVE_USER_REVIEW,
+  review
+});
+
 export const receiveMangaReviews = (reviews) => ({
   type: RECEIVE_MANGA_REVIEWS,
   reviews
