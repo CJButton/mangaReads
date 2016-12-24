@@ -10,6 +10,7 @@ class Reviews extends React.Component {
     super(props);
 
     this.state = {
+      editModal: false,
       rating: 0,
       title: "",
       text: ""
@@ -21,6 +22,10 @@ class Reviews extends React.Component {
     this.displayFormOrReview = this.displayFormOrReview.bind(this);
   }
 
+  componentWillMount() {
+    Modal.setAppElement('body');
+ }
+
   // collect all the data here before sending it off to be added to db
   handleSubmit(e) {
     e.preventDefault();
@@ -28,8 +33,7 @@ class Reviews extends React.Component {
     this.setState({
       rating: 0,
       title: "",
-      text: "",
-      modalIsOpen: false
+      text: ""
     });
   }
 
@@ -99,27 +103,34 @@ class Reviews extends React.Component {
     this.props.delete(reviewId);
   }
 
-  closeModal() {
-    this.setState({
-      modalIsOpen: false
-    });
-  }
-
   editReviewFunc(reviewId) {
     this.setState({
-      modalIsOpen: true
+      editModal: true
     });
     // this.props.edit(reviewId, this.state.rating, this.state.title, this.state.text);
   }
 
+  closeModal() {
+    this.setState({
+      editModal: false
+    });
+  }
+
   render() {
     console.log(this.props);
-    let that = this;
+    console.log(this.state);
     return(
       <div className="reviews">
         <div className="reviewTop">
           {this.displayFormOrReview()}
         </div>
+        <Modal isOpen={this.state.open}
+               contentLabel="Modal">
+          <h1>Basic Modal</h1>
+           <button onClick={this.closeModal.bind(this)}>Close</button>
+           <input />
+           <input />
+        </Modal>
         {this.props.reviews.map((review, idx) => {
           return(
             <div className="review" key={idx}>
@@ -134,18 +145,6 @@ class Reviews extends React.Component {
                   Edit</button>
               </div>
 
-              <Modal
-           className="ModalClass"
-           overlayClassName="OverlayClass"
-           isOpen={this.state.open}
-           onRequestClose={this.closeModal}
-         >
-           <h1>Styled Using Classes Modal</h1>
-           <button onClick={this.closeModal}>Close</button>
-           <input />
-           <input />
-         </Modal>
-
               <div>{review.description}</div>
             </div>
           );
@@ -153,7 +152,6 @@ class Reviews extends React.Component {
       </div>
     );
   }
-
 }
 
 export default Reviews;
