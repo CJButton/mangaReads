@@ -2,6 +2,7 @@
 import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 import ReactSpinner from 'react-spinjs';
+import Modal from 'react-modal';
 
 
 class Reviews extends React.Component {
@@ -27,7 +28,8 @@ class Reviews extends React.Component {
     this.setState({
       rating: 0,
       title: "",
-      text: ""
+      text: "",
+      modalIsOpen: false
     });
   }
 
@@ -97,10 +99,17 @@ class Reviews extends React.Component {
     this.props.delete(reviewId);
   }
 
+  closeModal() {
+    this.setState({
+      modalIsOpen: false
+    });
+  }
+
   editReviewFunc(reviewId) {
-    console.log(reviewId);
-    console.log(this.state.rating);
-    this.props.edit(reviewId, this.state.rating, this.state.title, this.state.text);
+    this.setState({
+      modalIsOpen: true
+    });
+    // this.props.edit(reviewId, this.state.rating, this.state.title, this.state.text);
   }
 
   render() {
@@ -124,6 +133,19 @@ class Reviews extends React.Component {
                   onClick={this.editReviewFunc.bind(this, review.id)}>
                   Edit</button>
               </div>
+
+              <Modal
+           className="ModalClass"
+           overlayClassName="OverlayClass"
+           isOpen={this.state.open}
+           onRequestClose={this.closeModal}
+         >
+           <h1>Styled Using Classes Modal</h1>
+           <button onClick={this.closeModal}>Close</button>
+           <input />
+           <input />
+         </Modal>
+
               <div>{review.description}</div>
             </div>
           );
