@@ -4,7 +4,8 @@ import { RECEIVE_MANGA_REVIEWS,
          RECEIVE_REVIEW_ERRORS,
          RECEIVE_REVIEW,
          RECEIVE_USER_REVIEW,
-         REMOVE_REVIEW } from '../actions/review_actions';
+         REMOVE_REVIEW,
+         RECEIVE_EDIT } from '../actions/review_actions';
 
 import { merge } from 'lodash';
 
@@ -21,6 +22,11 @@ const ReviewReducer = (state = {}, action) => {
 
       case RECEIVE_USER_REVIEW:
         return merge({}, {userReview: action.review});
+
+      case RECEIVE_EDIT:
+        let editedReview = merge({}, state);
+        editedReview[action.review.id] = action.review;
+          return editedReview;
 
       case REMOVE_REVIEW:
         let deleteReviewState = merge({}, state);

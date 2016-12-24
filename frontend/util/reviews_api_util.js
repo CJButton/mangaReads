@@ -41,7 +41,6 @@ export const getUserReview = (mangaId, success, error) => {
 };
 
 export const editReviewAPI = (reviewId, rating, title, text, success, error) => {
-  debugger
   $.ajax({
     type: 'PUT',
     url: `api/reviews/${reviewId}`,
