@@ -4,7 +4,6 @@ import StarRatingComponent from 'react-star-rating-component';
 import ReactSpinner from 'react-spinjs';
 import Modal from 'react-modal';
 
-
 class Reviews extends React.Component {
   constructor(props) {
     super(props);
@@ -138,6 +137,7 @@ class Reviews extends React.Component {
     return(
       <div className="reviews">
         <div className="reviewTop">
+          <input></input>
           {this.displayFormOrReview()}
         </div>
         {this.props.reviews.map((review, idx) => {
