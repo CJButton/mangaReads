@@ -103,11 +103,20 @@ class Reviews extends React.Component {
     this.props.delete(reviewId);
   }
 
-  editReviewFunc(reviewId) {
+  editReviewModal(reviewId, revRating, revTitle, revText) {
+    console.log(revRating);
     this.setState({
-      editModal: true
+      editModal: true,
+      rating: revRating,
+      title: revTitle,
+      text: revText
     });
-    // this.props.edit(reviewId, this.state.rating, this.state.title, this.state.text);
+  }
+  handleEdit(reviewId){
+    this.props.edit(reviewId, this.state.rating, this.state.title, this.state.text);
+    this.setState({
+      editModal: false
+    });
   }
 
   closeModal() {
@@ -118,19 +127,11 @@ class Reviews extends React.Component {
 
   render() {
     console.log(this.props);
-    console.log(this.state);
     return(
       <div className="reviews">
         <div className="reviewTop">
           {this.displayFormOrReview()}
         </div>
-        <Modal isOpen={this.state.open}
-               contentLabel="Modal">
-          <h1>Basic Modal</h1>
-           <button onClick={this.closeModal.bind(this)}>Close</button>
-           <input />
-           <input />
-        </Modal>
         {this.props.reviews.map((review, idx) => {
           return(
             <div className="review" key={idx}>
@@ -141,11 +142,52 @@ class Reviews extends React.Component {
                   onClick={this.deleteReview.bind(this, review.id)}>
                   Delete</button>
                 <button className="edit button"
-                  onClick={this.editReviewFunc.bind(this, review.id)}>
+                  onClick={this.editReviewModal.bind(this,
+                      review.id, review.rating, review.title, review.description)}>
                   Edit</button>
               </div>
-
               <div>{review.description}</div>
+
+              <Modal isOpen={this.state.editModal}
+                contentLabel="Modal">
+                <h1>Edit your Review</h1>
+                <div className="formTop">
+                  <div className="formTopLeft">
+                    <p>Username: {this.props.user.username}</p>
+                    <p>Manga Title: {this.props.manga.title}</p>
+                  </div>
+                  <div className="formTopRight">
+                    <StarRatingComponent
+                      className="starRating"
+                      name="rater"
+                      starCount={5}
+                      value={review.rating}
+                      onStarClick={this.onStarClick.bind(this)}/>
+                  </div>
+                </div>
+
+                <form className="formDocument"
+                  onSubmit={this.handleEdit.bind(this, review.id)}>
+                  <input className="review-text"
+                    type="text"
+                    onChange={this.handleTitle}
+                    value={this.state.title}></input>
+                  <input className="review-textarea"
+                    type="textarea"
+                    onChange={this.handleText}
+                    value={this.state.text}></input>
+                  <input className="review-submit"
+                    type="submit"></input>
+                </form>
+
+                <button onClick={this.closeModal.bind(this)}>Close</button>
+              </Modal>
+
+              <Modal isOpen={this.state.deleteModal}
+                     contentLabel="Modal">
+                     
+              </Modal>
+
             </div>
           );
         })}
