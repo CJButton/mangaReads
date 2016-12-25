@@ -126,7 +126,8 @@ class MangaShow extends React.Component{
 
          <Reviews user={this.props.user} manga={this.props.manga}
            reviews={this.props.reviews} delete={this.props.deleteReview}
-           edit={this.props.editReview} submit={submitReview}/>
+           edit={this.props.editReview} submit={submitReview}
+           userReview={this.props.userReview}/>
 
    </div>
    );

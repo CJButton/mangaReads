@@ -20,6 +20,10 @@ const ReviewReducer = (state = {}, action) => {
       case RECEIVE_REVIEW:
         return merge({}, state, action.review);
 
+      case RECEIVE_USER_REVIEW:
+        let userReview = {userReview: action.review};
+        return merge({}, state, userReview);
+
       case RECEIVE_EDIT:
         let editedReview = merge({}, state);
         editedReview[action.review.id] = action.review;
