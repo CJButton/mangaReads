@@ -125,6 +125,7 @@ class Reviews extends React.Component {
     return(
       <div className="reviews">
         <div className="reviewTop">
+          {this.props.userReview.null? ? return(null) : }
         </div>
 
         <Modal isOpen={this.state.addModal}
