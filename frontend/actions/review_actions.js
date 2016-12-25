@@ -47,7 +47,7 @@ export const requestUserReview = (mangaId) => ({
   mangaId
 });
 
-export const receiveUserRevew = (review) => ({
+export const receiveUserReview = (review) => ({
   type: RECEIVE_USER_REVIEW,
   review
 });

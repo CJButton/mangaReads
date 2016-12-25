@@ -18,11 +18,13 @@ import { submitReview,
 import { sendReview, getReviews, getUserReview,
          deleteReviewAPI, editReviewAPI } from '../util/reviews_api_util';
 
-
 const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
+  console.log(action);
+
+
   const errorCallBack = xhr => dispatch(receiveReviewErrors(xhr.responseJSON));
   let success;
-  console.log(action);
+
   switch(action.type) {
     case DELETE_REVIEW:
       success = (review) => dispatch(removeReview(review));
@@ -36,7 +38,7 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
 
     case REQUEST_USER_REVIEW:
       success = (review) => dispatch(receiveUserReview(review));
-      getUserReview(action.mangaId, action.userId, success, errorCallBack);
+      getUserReview(action.mangaId, success, errorCallBack);
     return next(action);
 
     case SUBMIT_REVIEW:

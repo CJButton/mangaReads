@@ -19,9 +19,9 @@ class Reviews extends React.Component {
     this.handleTitle = this.handleTitle.bind(this);
     this.handleText = this.handleText.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.displayFormOrReview = this.displayFormOrReview.bind(this);
   }
 
+  // gives the modal something to attach to
   componentWillMount() {
     Modal.setAppElement('body');
  }
@@ -81,22 +81,10 @@ class Reviews extends React.Component {
     );
   }
 
-  displayUserReview() {
-    return(
-        <div className="usersReview">Nothing displayed here atm.</div>
-    );
-  }
-
-  displayFormOrReview() {
-    if (this.props.reviews.length > 0) {
-      this.props.reviews.forEach((review) => {
-        if (review.user_id === this.props.user.id) {
-          return (this.displayUserReview());
-        }
-      });
-    } else {
-        return this.displayForm();
-    }
+  showForm() {
+    this.setState({
+      addModal: true
+    });
   }
 
   deleteReview(reviewId) {
@@ -137,9 +125,39 @@ class Reviews extends React.Component {
     return(
       <div className="reviews">
         <div className="reviewTop">
-          <input></input>
-          {this.displayFormOrReview()}
         </div>
+
+        <Modal isOpen={this.state.addModal}
+          contentLabel="Modal">
+
+          <div className="formTop">
+            <div className="formTopLeft">
+              <p>Username: {this.props.user.username}</p>
+              <p>Manga Title: {this.props.manga.title}</p>
+            </div>
+            <div className="formTopRight">
+              <StarRatingComponent
+                className="starRating"
+                name="rater"
+                starCount={5}
+                value={this.state.rating}
+                onStarClick={this.onStarClick.bind(this)}/>
+            </div>
+          </div>
+          <form className="formDocument"
+            onSubmit={this.handleSubmit}>
+            <input className="review-text"
+              type="text"
+              onChange={this.handleTitle}></input>
+            <input className="review-textarea"
+              type="textarea"
+              onChange={this.handleText}></input>
+            <input className="review-submit"
+              type="submit"></input>
+          </form>
+          <button onClick={this.closeModal.bind(this)}>Cancel</button>
+        </Modal>
+
         {this.props.reviews.map((review, idx) => {
           return(
             <div className="review" key={idx}>
