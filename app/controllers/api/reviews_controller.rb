@@ -7,11 +7,12 @@ class Api::ReviewsController < ApplicationController
   end
 
   def show
-    review = Review.select(:id).find_by(manga_id: params[:id].to_i,
+    @review = Review.find_by(manga_id: params[:id].to_i,
                                         user_id: current_user.id)
-
-    if review
-      @review = Review.find(review)
+    if @review.blank?
+      return nil
+    else
+      @review
     end
   end
 
@@ -28,15 +29,13 @@ class Api::ReviewsController < ApplicationController
   end
 
   def destroy
-    p params
     @review = Review.find(params[:id].to_i)
     @review.destroy
     render json: @review
   end
 
   def update
-    p params
-    p @review = Review.update(params[:id].to_i, :rating => params[:rating],
+    @review = Review.update(params[:id].to_i, :rating => params[:rating],
         :title => params[:title], :description => params[:text])
 
     render json: @review

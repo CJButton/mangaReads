@@ -44,6 +44,7 @@ const Root = ({store}) => {
     store.dispatch(requestManga(nextState.params.id));
     store.dispatch(requestMangaStatus(nextState.params.id));
     store.dispatch(requestAllBookshelves());
+    store.dispatch(requestUserReview(nextState.params.id));
     store.dispatch(requestMangaReviews(nextState.params.id));
   };
 
