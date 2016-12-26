@@ -93,6 +93,9 @@ class Reviews extends React.Component {
 
   deleteReview(reviewId) {
     this.props.delete(reviewId);
+    this.setState({
+      deleteModal: false
+    });
   }
 
   deleteReviewModal() {
@@ -136,6 +139,8 @@ class Reviews extends React.Component {
     console.log(this.props.reviews.allReviews);
     return(
       <div className="reviews">
+      <button onClick={this.displayForm}>Add your Review!</button>
+
         {this.props.reviews.allReviews.length > 0 ?
           this.props.reviews.allReviews.map((review, idx) => {
             return(
@@ -151,6 +156,50 @@ class Reviews extends React.Component {
                 {review.rating}
                 {review.title}
                 {review.description}
+
+                <Modal isOpen={this.state.editModal}
+                  contentLabel="Modal">
+                  <h1>Edit your Review</h1>
+                  <div className="formTop">
+                    <div className="formTopLeft">
+                      <p>Username: {this.props.user.username}</p>
+                      <p>Manga Title: {this.props.manga.title}</p>
+                    </div>
+                    <div className="formTopRight">
+                      <StarRatingComponent
+                        className="starRating"
+                        name="rater"
+                        starCount={5}
+                        value={review.rating}
+                        onStarClick={this.onStarClick.bind(this)}/>
+                    </div>
+                  </div>
+
+                  <form className="formDocument"
+                    onSubmit={this.handleEdit.bind(this, review.id)}>
+                    <input className="review-text"
+                      type="text"
+                      onChange={this.handleTitle}
+                      value={this.state.title}></input>
+                    <input className="review-textarea"
+                      type="textarea"
+                      onChange={this.handleText}
+                      value={this.state.text}></input>
+                    <input className="review-submit"
+                      type="submit"></input>
+                  </form>
+
+                  <button onClick={this.closeModal.bind(this)}>Close</button>
+                </Modal>
+
+                <Modal isOpen={this.state.deleteModal}
+                    contentLabel="Modal">
+                  <div>Are you sure you want to delete your review</div>
+                  <button onClick={this.deleteReview.bind(this, review.id)}>
+                    Yes, delete it!</button>
+                  <button onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
+                </Modal>
+
               </div>
             );
           }) : null }
