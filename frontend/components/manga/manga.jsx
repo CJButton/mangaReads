@@ -3,13 +3,16 @@
 
 import React from 'react';
 import Reviews from './reviews';
+import values from 'lodash/values';
+
 
 
 class MangaShow extends React.Component{
  constructor(props) {
    super(props);
    this.state = {
-     value: "Select-a-Status"
+     value: "Select-a-Status",
+     allReviews: this.props.reviews
    };
 
    this.toggle = this.toggle.bind(this);
@@ -70,9 +73,9 @@ class MangaShow extends React.Component{
 
 
  render() {
-   console.log(this.props);
    let submitReview = this.props.submitReview.bind(this);
-
+   console.log(this.props.reviews);
+   console.log(this.state.allReviews);
    return (
    <div className="single-manga-show">
      <div className="single-manga-top">
@@ -125,9 +128,9 @@ class MangaShow extends React.Component{
 
 
          <Reviews user={this.props.user} manga={this.props.manga}
-           reviews={this.props.reviews} delete={this.props.deleteReview}
+           reviews={this.state.allReviews} delete={this.props.deleteReview}
            edit={this.props.editReview} submit={submitReview}
-           userReview={this.props.userReview}/>
+           />
 
    </div>
    );
