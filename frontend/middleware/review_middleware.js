@@ -19,8 +19,6 @@ import { sendReview, getReviews, getUserReview,
          deleteReviewAPI, editReviewAPI } from '../util/reviews_api_util';
 
 const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
-  console.log(action);
-
 
   const errorCallBack = xhr => dispatch(receiveReviewErrors(xhr.responseJSON));
   let success;
