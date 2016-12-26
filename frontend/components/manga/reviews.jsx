@@ -133,21 +133,27 @@ class Reviews extends React.Component {
   // }
 
   render() {
-    console.log(this.state);
+    console.log(this.props.reviews.allReviews);
     return(
       <div className="reviews">
-        if (this.state.allReviews !== "" ) {
-          this.state.allReviews.forEach((review, idx) => {
-            console.log(review);
+        {this.props.reviews.allReviews.length > 0 ?
+          this.props.reviews.allReviews.map((review, idx) => {
             return(
               <div className="review" key={idx}>
-              <div>{review.title}</div>
-              <div>{review.rating}</div>
-              <div>{review.description}</div>
+                <div className={review.user_id === this.props.user.id ? "deleteEdit" : "hide"}>
+                  <button className="delete button"
+                      onClick={this.deleteReviewModal.bind(this)}>
+                      Delete</button>
+                  <button className="edit button"
+                      onClick={this.editReviewModal.bind(this,
+                      review.id, review.rating, review.title, review.description)}>
+                      Edit</button></div>
+                {review.rating}
+                {review.title}
+                {review.description}
               </div>
             );
-          })
-        }
+          }) : null }
       </div>
     );
   }
