@@ -8,6 +8,8 @@ import { RECEIVE_MANGA_REVIEWS,
          RECEIVE_EDIT } from '../actions/review_actions';
 
 import { merge } from 'lodash';
+import values from 'lodash/values';
+
 
 const initialState = {
   allReviews: {},
@@ -19,20 +21,20 @@ const ReviewReducer = (state = initialState, action) => {
   switch(action.type) {
     case RECEIVE_MANGA_REVIEWS:
       state.allReviews = action.reviews;
-      console.log(state);
         return state;
 
     case RECEIVE_REVIEW:
       let newState = merge({}, state);
       console.log(action.review);
-      merge(newState.allReviews, action.review);
-
-      console.log(newState);
+      console.log(merge(newState.allReviews, action.review));
+      console.log(merge(newState.userReview, values(action.review)[0]));
       return newState;
 
     case RECEIVE_USER_REVIEW:
       let receiveUserRev = merge({}, state);
-      merge(receiveUserRev.allReviews, {[action.review.id]: action.review});
+      console.log(action.review);
+      receiveUserRev.userReview = action.review;
+      console.log(receiveUserRev);
       return receiveUserRev;
 
     case RECEIVE_EDIT:
