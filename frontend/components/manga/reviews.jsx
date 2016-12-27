@@ -13,6 +13,7 @@ class Reviews extends React.Component {
     this.state = {
       editModal: false,
       deleteModal: false,
+      addModal: false,
       rating: 0,
       title: "",
       text: "",
@@ -54,12 +55,13 @@ class Reviews extends React.Component {
   }
 
   displayForm() {
+    let that = this;
     return(
       <div className="reviewForm">
         <div className="formTop">
           <div className="formTopLeft">
-            <p>Username: {this.props.user.username}</p>
-            <p>Manga Title: {this.props.manga.title}</p>
+            <p>Username: {that.props.user.username}</p>
+            <p>Manga Title: {that.props.manga.title}</p>
           </div>
           <div className="formTopRight">
             <StarRatingComponent
@@ -85,7 +87,7 @@ class Reviews extends React.Component {
     );
   }
 
-  showForm() {
+  addReviewModal() {
     this.setState({
       addModal: true
     });
@@ -127,22 +129,16 @@ class Reviews extends React.Component {
     });
   }
 
-  // componentWillReceiveProps(nextState) {
-  //   let arrayedReviews = values(nextState.reviews);
-  //   this.setState({
-  //     allReviews: values(arrayedReviews[0]),
-  //     userReview: values(arrayedReviews[1])[0]
-  //   });
-  // }
-
   render() {
-    console.log(this.props.reviews.allReviews);
+    console.log(this.state);
+    console.log(this.props);
     return(
       <div className="reviews">
-      <button onClick={this.displayForm}>Add your Review!</button>
+        {this.props.userReview.rating !== undefined ? null :
+      <button onClick={this.addReviewModal.bind(this)}>Add your Review!</button>}
 
-        {this.props.reviews.allReviews.length > 0 ?
-          this.props.reviews.allReviews.map((review, idx) => {
+        {this.props.allReviews.length > 0 ?
+          this.props.allReviews.map((review, idx) => {
             return(
               <div className="review" key={idx}>
                 <div className={review.user_id === this.props.user.id ? "deleteEdit" : "hide"}>
@@ -153,6 +149,7 @@ class Reviews extends React.Component {
                       onClick={this.editReviewModal.bind(this,
                       review.id, review.rating, review.title, review.description)}>
                       Edit</button></div>
+
                 {review.rating}
                 {review.title}
                 {review.description}
@@ -193,12 +190,14 @@ class Reviews extends React.Component {
                 </Modal>
 
                 <Modal isOpen={this.state.deleteModal}
-                    contentLabel="Modal">
+                  contentLabel="Modal">
                   <div>Are you sure you want to delete your review</div>
                   <button onClick={this.deleteReview.bind(this, review.id)}>
                     Yes, delete it!</button>
                   <button onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
                 </Modal>
+
+
 
               </div>
             );
