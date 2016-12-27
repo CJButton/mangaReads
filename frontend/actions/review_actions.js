@@ -47,6 +47,8 @@ export const requestUserReview = (mangaId) => ({
   mangaId
 });
 
+// for the userReview prop to more readily check if the user has already
+// submitted a review for the current comic
 export const receiveUserReview = (review) => ({
   type: RECEIVE_USER_REVIEW,
   review
@@ -57,6 +59,8 @@ export const receiveMangaReviews = (reviews) => ({
   reviews
 });
 
+// receive the review that was just submitted to the db(to be added to
+// the store and later returned in reviews.jsx)
 export const receiveReview = (review) => ({
   type: RECEIVE_REVIEW,
   review

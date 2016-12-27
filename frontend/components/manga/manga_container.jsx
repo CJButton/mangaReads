@@ -26,9 +26,10 @@ const mapStateToProps = ({manga, bookshelves, reviews,
   bookshelves: values(bookshelves),
   booksonshelves: values(shelvesWithBooks),
   status: values(status)[0],
-  allReviews: values(values(reviews)[0]),
+  allReviews: values(reviews)[0],
   userReview: reviews.userReview
 });
+// values(valutes(reviews)[0])),
 
 const mapDispatchToProps = dispatch => ({
   requestAllBookshelves: () => dispatch(requestAllBookshelves()),

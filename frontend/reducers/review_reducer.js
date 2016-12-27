@@ -22,7 +22,11 @@ const ReviewReducer = (state = initialState, action) => {
         return state;
 
     case RECEIVE_REVIEW:
-      return merge({}, state, action.review);
+      let prevState = merge({}, state);
+      console.log(prevState);
+      prevState.allReviews[prevState.allReviews.length] = action.review;
+      console.log(prevState);
+      return prevState;
 
     case RECEIVE_USER_REVIEW:
       console.log(state);
@@ -36,7 +40,7 @@ const ReviewReducer = (state = initialState, action) => {
 
     case REMOVE_REVIEW:
       let deleteReviewState = merge({}, state);
-      delete deleteReviewState[action.review.id];
+      delete deleteReviewState.allReviews[action.review.id];
       return deleteReviewState;
 
     default:
