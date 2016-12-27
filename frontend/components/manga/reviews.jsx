@@ -104,7 +104,10 @@ class Reviews extends React.Component {
   deleteReview(reviewId) {
     this.props.delete(reviewId);
     this.setState({
-      deleteModal: false
+      deleteModal: false,
+      rating: 0,
+      title: "",
+      text: ""
     });
   }
 
@@ -133,7 +136,8 @@ class Reviews extends React.Component {
   closeModal() {
     this.setState({
       editModal: false,
-      deleteModal: false
+      deleteModal: false,
+      addModal: false
     });
   }
 
