@@ -25,21 +25,18 @@ const ReviewReducer = (state = initialState, action) => {
 
     case RECEIVE_REVIEW:
       let newState = merge({}, state);
-      console.log(action.review);
-      console.log(merge(newState.allReviews, action.review));
-      console.log(merge(newState.userReview, values(action.review)[0]));
+      merge(newState.allReviews, action.review);
+      merge(newState.userReview, values(action.review)[0]);
       return newState;
 
     case RECEIVE_USER_REVIEW:
       let receiveUserRev = merge({}, state);
-      console.log(action.review);
       receiveUserRev.userReview = action.review;
-      console.log(receiveUserRev);
       return receiveUserRev;
 
     case RECEIVE_EDIT:
       let editedReview = merge({}, state);
-      editedReview[action.review.id] = action.review;
+      editedReview.allReviews[action.review.id] = action.review;
         return editedReview;
 
     case REMOVE_REVIEW:
