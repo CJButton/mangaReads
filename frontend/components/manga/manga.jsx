@@ -12,7 +12,8 @@ class MangaShow extends React.Component{
    super(props);
    this.state = {
      value: "Select-a-Status",
-     allReviews: this.props.reviews
+     allReviews: [],
+     userReview: []
    };
 
    this.toggle = this.toggle.bind(this);
@@ -33,6 +34,7 @@ class MangaShow extends React.Component{
 
   componentWillReceiveProps(nextProps) {
     let shelveBooks = this.onShelves(nextProps.booksonshelves);
+    console.log(nextProps);
 
     this.props.bookshelves.map((shelf) => {
       this.setState({
@@ -44,6 +46,11 @@ class MangaShow extends React.Component{
       this.setState({
         [shelf]: true
       });
+    });
+
+    this.setState({
+      allReviews: nextProps.allReviews,
+      userReview: nextProps.userReview
     });
   }
 
@@ -74,8 +81,8 @@ class MangaShow extends React.Component{
 
  render() {
    let submitReview = this.props.submitReview.bind(this);
-   console.log(this.props.reviews);
-   console.log(this.state.allReviews);
+   console.log(this.props);
+   console.log(this.state);
    return (
    <div className="single-manga-show">
      <div className="single-manga-top">
@@ -126,12 +133,10 @@ class MangaShow extends React.Component{
            </div>
          </div>
 
-
          <Reviews user={this.props.user} manga={this.props.manga}
-           reviews={this.state.allReviews} delete={this.props.deleteReview}
+           allReviews={this.state.allReviews} delete={this.props.deleteReview}
            edit={this.props.editReview} submit={submitReview}
-           />
-
+           userReview={this.state.userReview}/>
    </div>
    );
  }
