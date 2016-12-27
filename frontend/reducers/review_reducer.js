@@ -19,19 +19,21 @@ const ReviewReducer = (state = initialState, action) => {
   switch(action.type) {
     case RECEIVE_MANGA_REVIEWS:
       state.allReviews = action.reviews;
+      console.log(state);
         return state;
 
     case RECEIVE_REVIEW:
-      let prevState = merge({}, state);
-      console.log(prevState);
-      prevState.allReviews[prevState.allReviews.length] = action.review;
-      console.log(prevState);
-      return prevState;
+      let newState = merge({}, state);
+      console.log(action.review);
+      merge(newState.allReviews, action.review);
+
+      console.log(newState);
+      return newState;
 
     case RECEIVE_USER_REVIEW:
-      console.log(state);
-      state.userReview = action.review;
-      return state;
+      let receiveUserRev = merge({}, state);
+      merge(receiveUserRev.allReviews, {[action.review.id]: action.review});
+      return receiveUserRev;
 
     case RECEIVE_EDIT:
       let editedReview = merge({}, state);
@@ -41,6 +43,7 @@ const ReviewReducer = (state = initialState, action) => {
     case REMOVE_REVIEW:
       let deleteReviewState = merge({}, state);
       delete deleteReviewState.allReviews[action.review.id];
+      deleteReviewState.userReview = {};
       return deleteReviewState;
 
     default:
