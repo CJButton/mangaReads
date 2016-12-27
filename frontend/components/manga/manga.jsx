@@ -49,7 +49,7 @@ class MangaShow extends React.Component{
     });
 
     this.setState({
-      allReviews: nextProps.allReviews,
+      allReviews: values(nextProps.allReviews),
       userReview: nextProps.userReview
     });
   }
