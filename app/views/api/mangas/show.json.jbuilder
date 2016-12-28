@@ -1,4 +1,4 @@
 
 
 
-json.extract! @manga, :id, :title, :author, :synopsis, :img_url
+json.extract! @manga, :id, :title, :author, :synopsis, :img_url, :avg

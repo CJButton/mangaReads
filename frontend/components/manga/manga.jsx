@@ -4,6 +4,7 @@
 import React from 'react';
 import Reviews from './reviews';
 import values from 'lodash/values';
+import StarRatingComponent from 'react-star-rating-component';
 
 
 
@@ -13,7 +14,8 @@ class MangaShow extends React.Component{
    this.state = {
      value: "Select-a-Status",
      allReviews: [],
-     userReview: []
+     userReview: [],
+     rating: 0
    };
 
    this.toggle = this.toggle.bind(this);
@@ -49,7 +51,8 @@ class MangaShow extends React.Component{
 
     this.setState({
       allReviews: values(nextProps.allReviews),
-      userReview: nextProps.userReview
+      userReview: nextProps.userReview,
+      rating: nextProps.manga.avg.to_i
     });
   }
 
@@ -79,6 +82,7 @@ class MangaShow extends React.Component{
 
 
  render() {
+   console.log(this.props);
    let submitReview = this.props.submitReview.bind(this);
    return (
    <div className="single-manga-show">
@@ -119,6 +123,7 @@ class MangaShow extends React.Component{
             <div className="manga-top-right">
                  <ul className="single-manga-words">
                    <li className="mangaHomeTitle">{this.props.manga.title}</li>
+                   <li>{this.state.rating}</li>
                    <br></br>
                    <li>by {this.props.manga.author}</li>
                    <br></br>
