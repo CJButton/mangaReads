@@ -24,6 +24,7 @@
 
 .formTopLeft {
   width: 428px;
+  margin-top: 30px;
 }
 
 .hideRevButton {
@@ -47,10 +48,133 @@
 .deleteModal {
   position: fixed;
   top: 35%;
-  left: 35%;
-  background-color: purple;
+  left: 33%;
+  background-color: white;
+  padding: 15px;
   height: 250px;
-  width: 600px;
+  color: black;
+  padding: 15px;
+  font-size: 60px;
+  border-radius: 3px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+.deleteEditClose {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.deleteEditClose button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: black;
+  font-size: 24px;
+}
+
+.deleteEditClose button:hover {
+  background: orange;
+}
+
+
+.editModal {
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  background-color: white;
+  padding: 15px;
+  height: 740px;
+  width: 900px;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 3px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+.editFormTop {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.editFormTitle {
+  margin-bottom: 5px;
+}
+
+.editUsername {
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.editComicTitle {
+  margin: 0px;
+  margin-bottom: 7px;
+  width: 900px;
+}
+
+.editFormModal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.editReview-text {
+  width: 500px;
+  height: 35px;
+  font-size: 30px;
+}
+
+.editReview-textarea {
+  width: 891px;
+  height: 200px;
+  font-size: 30px;
+}
+
+.review-submit {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: black;
+  font-size: 31px;
+  margin-top: 20px;
+}
+
+.review-submit:hover {
+  background: orange;
+}
+
+.editTitle {
+  margin-top: 0px;
+  margin-bottom: 3px
+}
+
+.editDescription{
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.closeEditButton {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: black;
+  font-size: 34px;
+}
+
+.closeEditButton:hover {
+  background: red;
   color: white;
 }
 
@@ -81,9 +205,4 @@
 .review-textarea {
   width: 500px;
   height: 150px;
-}
-
-.review-submit {
-  width: 100px;
-  height: 15px;
 }
