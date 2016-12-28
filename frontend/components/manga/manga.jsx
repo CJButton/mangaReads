@@ -34,7 +34,6 @@ class MangaShow extends React.Component{
 
   componentWillReceiveProps(nextProps) {
     let shelveBooks = this.onShelves(nextProps.booksonshelves);
-    console.log(nextProps);
 
     this.props.bookshelves.map((shelf) => {
       this.setState({
@@ -81,8 +80,6 @@ class MangaShow extends React.Component{
 
  render() {
    let submitReview = this.props.submitReview.bind(this);
-   console.log(this.props);
-   console.log(this.state);
    return (
    <div className="single-manga-show">
      <div className="single-manga-top">
