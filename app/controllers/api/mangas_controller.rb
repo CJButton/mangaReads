@@ -13,7 +13,9 @@ class Api::MangasController < ApplicationController
   end
 
   def show
+    sum = Review.where(manga_id: params[:id]).average(:rating).to_s
     @manga = Manga.find(params[:id])
+    @manga.avg = sum
   end
 
 
