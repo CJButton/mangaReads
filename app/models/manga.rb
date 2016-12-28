@@ -20,4 +20,8 @@ class Manga < ActiveRecord::Base
       return this_shelf.mangas
     end
   end
+
+  def attributes
+    super.merge('avg' => self.avg)
+  end
 end
