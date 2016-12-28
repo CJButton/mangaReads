@@ -42,9 +42,21 @@
   border-style: solid;
 }
 
-.deleteEdit {
 
+
+.deleteModal {
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  background-color: purple;
+  height: 250px;
+  width: 600px;
+  color: white;
 }
+
+
+
+
 
 .hide {
   display: none;

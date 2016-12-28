@@ -109,8 +109,6 @@ class Reviews extends React.Component {
   }
 
   render() {
-    console.log(this.state);
-    console.log(this.props);
     return(
       <div className="reviews">
         {this.state.userReview.rating !== undefined ? null :
@@ -201,15 +199,16 @@ class Reviews extends React.Component {
 
                   <button onClick={this.closeModal.bind(this)}>Close</button>
                 </Modal>
-
-                <Modal isOpen={this.state.deleteModal}
+              <div className="deleteModalContainer">
+                <Modal className="deleteModal"
+                  isOpen={this.state.deleteModal}
                   contentLabel="Modal">
                   <div>Are you sure you want to delete your review</div>
                   <button onClick={this.deleteReview.bind(this, review.id)}>
                     Yes, delete it!</button>
                   <button onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
                 </Modal>
-
+              </div>
 
 
               </div>
