@@ -20,6 +20,13 @@
    font-family: 'Lato', serif;
  }
 
-.button {
-  
+.basicOutline {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 3px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
 }

@@ -1,10 +1,10 @@
 
 .reviews {
-  height: 300px;
+  height: 275px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .reviewForm {
@@ -23,8 +23,7 @@
 }
 
 .formTopLeft {
-  width: 428px;
-  margin-top: 30px;
+  width: 100%;
 }
 
 .hideRevButton {
@@ -38,23 +37,110 @@
 }
 
 .review {
-  width: 300px;
-  border-width: 1px;
-  border-style: solid;
+  width: 85%;
 }
+
+.userReview-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userReview-p {
+  margin: 2px;
+}
+
+.revButton{
+  background-color: white;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: black;
+  font-size: 24px;
+}
+
+.editButton {
+  margin-right: 15px;
+}
+
+.deleteButton:hover {
+  background: red;
+  color: white;
+}
+
+.editButton:hover {
+  background: #FF6900;
+  color: white;
+}
+
+.userRevTitle {
+  width: auto;
+  height: auto;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding-bottom: 15px;
+}
+
+.userRevDescrip {
+  height: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+
+.addRevButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.addRevButton {
+  width: 350px;
+  height: 55px;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: black;
+}
+
+.addRevButton:hover {
+  background: #FF6900;
+  color: white;
+}
+
+
+
+.addModal {
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  background-color: white;
+  padding: 15px;
+  height: 740px;
+  width: 900px;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 3px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+
+
 
 
 
 .deleteModal {
   position: fixed;
   top: 35%;
-  left: 33%;
+  left: 30%;
   background-color: white;
   padding: 15px;
-  height: 250px;
   color: black;
   padding: 15px;
-  font-size: 60px;
+  font-size: 24px;
   border-radius: 3px;
   border-width: 4px;
   border-style: solid;
@@ -68,31 +154,31 @@
 }
 
 .deleteEditClose button {
-  width: 200px;
+  width: 180px;
   height: 50px;
   background-color: white;
   border-radius: 3px;
   border-width: 5px;
   border-color: black;
-  font-size: 24px;
+  font-size: 23px;
 }
 
 .deleteEditClose button:hover {
-  background: orange;
+  background: #FF6900;
 }
 
 
 .editModal {
   position: fixed;
-  top: 15%;
-  left: 30%;
+  top: 5%;
+  left: 5%;
   background-color: white;
   padding: 15px;
-  height: 740px;
-  width: 900px;
+  height: 85%;
+  width: 85%;
   color: black;
   padding: 15px;
-  font-size: 30px;
+  font-size: 24px;
   border-radius: 3px;
   border-width: 4px;
   border-style: solid;
@@ -127,30 +213,30 @@
 }
 
 .editReview-text {
-  width: 500px;
+  width: 99%;
   height: 35px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .editReview-textarea {
-  width: 891px;
-  height: 200px;
-  font-size: 30px;
+  width: 99%;
+  height: 90px;
+  font-size: 24px;
 }
 
 .review-submit {
-  width: 200px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   background-color: white;
   border-radius: 3px;
   border-width: 5px;
   border-color: black;
-  font-size: 31px;
+  font-size: 24px;
   margin-top: 20px;
 }
 
 .review-submit:hover {
-  background: orange;
+  background: #FF6900;
 }
 
 .editTitle {
@@ -186,12 +272,7 @@
   display: none;
 }
 
-.reviewBox {
-  height: 100px;
-  width: 300px;
-  border-width: 1px;
-  border-style: solid;
-}
+
 
 .formDocument {
   display: flex;

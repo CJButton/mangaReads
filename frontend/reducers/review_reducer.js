@@ -37,6 +37,7 @@ const ReviewReducer = (state = initialState, action) => {
     case RECEIVE_EDIT:
       let editedReview = merge({}, state);
       editedReview.allReviews[action.review.id] = action.review;
+      editedReview.userReview = action.review;
         return editedReview;
 
     case REMOVE_REVIEW:
