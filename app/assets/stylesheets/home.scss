@@ -1,7 +1,7 @@
 
 
 .home-title {
-  font-size: 22px;
+  font-size: 26px;
   padding-left: 270px;
   list-style: none;
 }
@@ -14,14 +14,29 @@
   list-style: none;
 }
 
+.library {
+}
 
+.comicWrapper {
+  background-color: white;
+  border-radius: 3px;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  margin: 5px;
+  width: 120px;
+}
+
+.home-center {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1%;
+}
 
 .home-container {
   padding-top: 75px;
-  padding-left: 100px;
-  padding-right: 100px;
-  display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
+  // flex-wrap: wrap;
   background-color: #FFFFFF;
 }
 
