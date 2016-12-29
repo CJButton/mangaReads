@@ -82,12 +82,16 @@ class MangaShow extends React.Component{
 
 
  render() {
-   console.log(this.props);
    let submitReview = this.props.submitReview.bind(this);
    return (
      <div className="single-manga-container">
+       
    <div className="single-manga-show">
+
+
+
      <div className="single-manga-top">
+
        <div className="manga-top-left">
          <img className="manga-picture-show"
                 src={this.props.manga.img_url} width="210" height="300"/>
