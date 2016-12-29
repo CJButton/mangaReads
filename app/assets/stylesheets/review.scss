@@ -100,6 +100,7 @@
   border-radius: 3px;
   border-width: 5px;
   border-color: black;
+  margin-bottom: 20%
 }
 
 .addRevButton:hover {
@@ -111,15 +112,15 @@
 
 .addModal {
   position: fixed;
-  top: 15%;
-  left: 30%;
+  top: 5%;
+  left: 5%;
   background-color: white;
   padding: 15px;
-  height: 740px;
-  width: 900px;
+  height: 85%;
+  width: 85%;
   color: black;
   padding: 15px;
-  font-size: 30px;
+  font-size: 24px;
   border-radius: 3px;
   border-width: 4px;
   border-style: solid;
