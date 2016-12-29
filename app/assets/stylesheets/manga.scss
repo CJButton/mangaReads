@@ -2,14 +2,12 @@
 
 
 .single-manga-show {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
   margin-top: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+}
+
+.single-manga-container {
+  display: flex;
+  justify-content: center;
 }
 
 .mangaShowTop {
@@ -52,19 +50,14 @@
 }
 
 .single-manga-top {
-  display: flex;
   flex-direction: row;
   list-style-type: none;
+  justify-content: center;
   display: flex;
   max-width: 100%;
   height: auto;
-  padding-left: 200px;
   padding-top: 25px;
   padding-bottom: 10px;
-  margin-bottom: 25px;
-  border-bottom-width: 1px;
-  border-bottom-color: black;
-  border-bottom-style: solid;
 }
 
 .manga-dropdown-wrapper {

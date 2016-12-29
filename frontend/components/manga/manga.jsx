@@ -15,8 +15,7 @@ class MangaShow extends React.Component{
      value: "Select-a-Status",
      allReviews: [],
      userReview: [],
-     rating: 0,
-     comicRating: 0
+     comicRating: 1
    };
 
    this.toggle = this.toggle.bind(this);
@@ -83,8 +82,10 @@ class MangaShow extends React.Component{
 
 
  render() {
+   console.log(this.props);
    let submitReview = this.props.submitReview.bind(this);
    return (
+     <div className="single-manga-container">
    <div className="single-manga-show">
      <div className="single-manga-top">
        <div className="manga-top-left">
@@ -126,6 +127,7 @@ class MangaShow extends React.Component{
                    <StarRatingComponent
                      className="starRating"
                      name="rater"
+                     editing={false}
                      starCount={5}
                      value={this.state.comicRating}/>
                    <li>by {this.props.manga.author}</li>
@@ -142,7 +144,8 @@ class MangaShow extends React.Component{
            allReviews={this.state.allReviews} delete={this.props.deleteReview}
            edit={this.props.editReview} submit={submitReview}
            userReview={this.state.userReview}/>
-   </div>
+     </div>
+     </div>
    );
  }
 }
