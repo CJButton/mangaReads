@@ -85,45 +85,45 @@ class MangaShow extends React.Component{
    let submitReview = this.props.submitReview.bind(this);
    return (
      <div className="single-manga-container">
-       
+
    <div className="single-manga-show">
 
 
 
      <div className="single-manga-top">
 
-       <div className="manga-top-left">
-         <img className="manga-picture-show"
-                src={this.props.manga.img_url} width="210" height="300"/>
+       <div className="manga-top-farLeft">
+         <div className="manga-dropdown-wrapper">
+           <div className="mangaDropdownBox">
+             <p className="dropdownTitle">Choose a status for this manga!</p>
+             <select className="manga-dropdown" value={this.setComicStatus()} onChange={this.handleStatus}>
+               <option className="dropdownOption" value="Select-a-Status">Select a Status</option>
+               <option value="Currently-Reading">Currently-Reading</option>
+               <option value="Read">Read</option>
+               <option value="Want-To-Read">Want-To-Read</option>
 
-              <br></br>
-              <br></br>
-              <br></br>
-              <div className="manga-dropdown-wrapper">
-                Choose a status for this manga!
-                <select className="manga-dropdown" value={this.setComicStatus()} onChange={this.handleStatus}>
-                  <option disabled value="Select-a-Status">Select a Status</option>
-                  <option value="Currently-Reading">Currently-Reading</option>
-                  <option value="Read">Read</option>
-                  <option value="Want-To-Read">Want-To-Read</option>
+             </select>
+           </div>
+           <div className="checkbox-wrapper">
+           {this.props.bookshelves.map((shelf, i) => {
+             return(
+               <label className="checkboxItem" key={i}>{shelf.title}
+                 <input className="checkboxCheckBox"
+                        key={i}
+                        type="checkbox"
+                        value={this.state[shelf.title]}
+                        checked={this.state[shelf.title]}
+                        onChange={this.handleCheckChange.bind(this, shelf.title, shelf.id)}/>
+              </label>
+             );
+           })
+         }
+         </div>
+         </div>
 
-                </select>
-                <div className="checkbox-wrapper">
-                {this.props.bookshelves.map((shelf, i) => {
-                  return(
-                    <label key={i}>{shelf.title}
-                      <input key={i}
-                             type="checkbox"
-                             value={this.state[shelf.title]}
-                             checked={this.state[shelf.title]}
-                             onChange={this.handleCheckChange.bind(this, shelf.title, shelf.id)}/>
-                   </label>
-                  );
-                })
-              }
-              </div>
-              </div>
-            </div>
+
+       </div>
+
 
             <div className="manga-top-right">
                  <ul className="single-manga-words">
@@ -137,11 +137,15 @@ class MangaShow extends React.Component{
                    <li>by {this.props.manga.author}</li>
                    <br></br>
                    <li className="mangaHomeWords">{this.props.manga.synopsis}</li>
-                   <br></br>
-                   <br></br>
-
                  </ul>
            </div>
+
+           <div className="manga-top-left">
+             <img className="manga-picture-show" src={this.props.manga.img_url}/>
+
+           </div>
+
+
          </div>
 
          <Reviews user={this.props.user} manga={this.props.manga}
@@ -155,3 +159,5 @@ class MangaShow extends React.Component{
 }
 
 export default MangaShow;
+
+// width="210" height="300"

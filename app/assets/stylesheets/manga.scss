@@ -16,45 +16,83 @@
 }
 
 .mangaHomeWords {
-  padding-bottom: 25px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
 }
 
 .mangaHomeTitle{
   font-size: 24px
 }
 
-.manga-dropdown {
-    margin: 20px;
-    background: #F4F2E9;
-    color: #FF6900;
-    text-shadow:0 1px 0 rgba(0,0,0,0.4);
-    outline-color:#FF6900;
+.mangaDropdownBox {
+  width: 280px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  font-size: 16px;
+}
 
+.manga-dropdown {
+  color: #FF6900;
+  text-shadow:0 1px 0 rgba(0,0,0,0.4);
+  outline-color:#FF6900;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  width: 250px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: black;
+  font-size: 16px;
+}
+
+
+
+
+.dropdownTitle {
+  margin-left: 28px;
+}
+
+
+.manga-top-farLeft {
+  width: 300px;
 }
 
 .manga-picture-show {
   box-shadow: 4px 4px 1px #888888;
+  height: 98%;
+  width: 98%;
 
 }
 
 .manga-top-left {
+  width: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
 }
 
 .manga-top-right {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  margin-right: 12px;
 }
 
 .single-manga-top {
   flex-direction: row;
   list-style-type: none;
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
-
   height: auto;
   padding-top: 25px;
   padding-bottom: 10px;
@@ -69,21 +107,40 @@
 .checkbox-wrapper {
   display: flex;
   flex-direction: column;
+  width: 280px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .checkbox-label {
+}
+
+.checkboxItem {
+  margin: 5px;
   display: flex;
   justify-content: space-between;
 }
 
+.checkboxCheckBox {
+  height: 25px;
+  width: 25px;
+}
+
 .single-manga-words {
   width: 300px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .single-manga-words ul {
-  justify-content: flex-start;
-  padding-left: 0px;
-  width: 500px;
+  // justify-content: flex-start;
+  // padding-left: 0px;
+  // width: 500px;
 }
 
 .single-manga-words {
