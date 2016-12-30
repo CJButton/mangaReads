@@ -164,8 +164,9 @@
   font-size: 23px;
 }
 
-.deleteEditClose button:hover {
+.cancelDelete:hover {
   background: #FF6900;
+  color: white;
 }
 
 
@@ -261,6 +262,11 @@
 }
 
 .closeEditButton:hover {
+  background: red;
+  color: white;
+}
+
+.closeButton:hover {
   background: red;
   color: white;
 }

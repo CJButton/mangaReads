@@ -3,7 +3,6 @@
 
 import React from 'react';
 import {Link} from 'react-router';
-import Modal from 'react-modal';
 
 class Sidebar extends React.Component{
   constructor(props) {
@@ -15,8 +14,7 @@ class Sidebar extends React.Component{
       currently: "bg",
       read: "bg",
       want: "bg",
-      all: "highlight",
-      deleteModal: false
+      all: "highlight"
     };
 
     this.handleAll = this.handleAll.bind(this);
@@ -126,6 +124,7 @@ class Sidebar extends React.Component{
           </div>
           <br></br>
 
+
           <div className="userGenShelvesContainer">
             <div className="shelf-title">Bookshelves</div>
             {this.props.bookshelves.map((shelf, i) => {
@@ -135,14 +134,13 @@ class Sidebar extends React.Component{
                    {shelf.title}</div>
               <div className="sidebar-delete button"
                    onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</div>
-
-              <br></br>
               </div>
             );
             })}
         </div>
         </ul>
           <div className="addShelves-sidebar">
+            <p>Add your own Shelf!</p>
             <input className="sidebar-shelf-name"
               type="text"
               placeholder="Shelfname"
@@ -153,20 +151,6 @@ class Sidebar extends React.Component{
                type="submit"
                placeholder="Add Shelf"
                onClick={this.handleAddShelf} />
-         </div>
-         <div className="deleteModalContainer">
-           <Modal className="deleteModal"
-             isOpen={this.state.deleteModal}
-             contentLabel="Modal">
-             <div>Sure you want to delete your review?</div>
-             <div className="deleteEditClose">
-               <button className="deleteButton button"
-                 onClick={this.deleteReview.bind(this, review.id)}>
-                 Yes, delete it!</button>
-               <button className="closeButton button"
-                 onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
-             </div>
-           </Modal>
          </div>
         </div>
       </main>
