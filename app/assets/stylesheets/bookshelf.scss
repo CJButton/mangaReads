@@ -2,79 +2,108 @@
 
 
 
-.bookshelfMain {
-  margin-top: 30px;
+
+
+
+
+
+.comicShelfContainer {
   display: flex;
-  padding-right: 200px;
-  padding-left: 225px;
-}
-
-.sidebar-topper {
-  border-bottom-width: 1px;
-  padding-left: 0px;
-  padding-bottom: 30px;
-  padding-top: 0px;
-  border-bottom-style: solid;
-}
-
-.shelf-title {
-  padding-right: 10px;
-  font-size: 12px;
-}
-
-.bookshelfLeft {
-  padding-right: 250px;
-}
-
-.bookshelfContainer {
-}
-
-.comicDisplayWrapper {
-
-  border-top-style: solid;
-  border-top-width: 1px;
-  margin: 5px;
-  padding-right: auto;
-}
-
-.comicInfoDisplay {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-}
-
-.bookshelfTitle {
-  font-size: 18px;
-  width: 300px;
-}
-
-.bookshelfComicText {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-
-  padding-right: 300px;
-}
-
-.sidebar-shelf-create {
-  font-size: 12px;
-  list-style: none;
-  padding-left: 30px;
-}
-
-.bookshelfComicShow {
-  flex-direction: column;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-left-color: #F4F1EA;
-
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 25%;
+  width: 60%;
+  margin-top:  10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 3px;
+  border-width: 4px;
 }
 
 .bookshelfPicture {
-  box-shadow: 10px 10px 5px #888888;
+  height: 200px;
+  width: 133px;
   margin: 5px;
-  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 3px;
+  border-width: 2px;
 }
+
+.userShelfLeft {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.shelfStarRating {
+
+}
+
+.userShelfRating {
+  margin: 0px;
+}
+
+
+
+// .bookshelfMain {
+//   margin-top: 30px;
+//   display: flex;
+//   justify-content: space-between;
+// }
+//
+//
+// .bookshelfLeft {
+// }
+//
+// .bookshelfContainer {
+//   position: absolute;
+//   right: 3%;
+// }
+//
+// .comicDisplayWrapper {
+//   display: flex;
+//   justify-content: flex-end;
+//   // width: 85%;
+// }
+//
+// .comicInfoDisplay {
+//   display: flex;
+//   flex-direction: row-reverse;;
+//   list-style: none;
+// }
+//
+// .bookshelfTitle {
+//   // font-size: 18px;
+//   // width: 300px;
+// }
+//
+// .bookshelfComicText {
+//   // list-style: none;
+//   // display: flex;
+//   // flex-direction: column;
+//   // padding-right: 300px;
+// }
+//
+//
+// .bookshelfComicShow {
+//   width: 800px;
+//   // flex-direction: column;
+//   // width: 100%;
+//   // display: flex;
+//   // border-left-style: solid;
+//   // border-left-width: 1px;
+//   // border-left-color: #F4F1EA;
+//
+// }
+//
+// .bookshelfPicture {
+//   // box-shadow: 10px 10px 5px #888888;
+//   height: 250px;
+//   border-color: black;
+//   border-style: solid;
+//   border-width: 3px;
+//   border-radius: 3px;
+//
+// }

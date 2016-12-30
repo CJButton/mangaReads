@@ -3,6 +3,7 @@
 
 import React from 'react';
 import {Link} from 'react-router';
+import Modal from 'react-modal';
 
 class Sidebar extends React.Component{
   constructor(props) {
@@ -11,10 +12,11 @@ class Sidebar extends React.Component{
     this.state = {
       bookshelves: this.props.bookshelves,
       shelfname: "",
-      Currently: "bg",
-      Read: "bg",
-      Want: "bg",
-      all: "highlight"
+      currently: "bg",
+      read: "bg",
+      want: "bg",
+      all: "highlight",
+      deleteModal: false
     };
 
     this.handleAll = this.handleAll.bind(this);
@@ -100,10 +102,10 @@ class Sidebar extends React.Component{
     return (
       <main className="sidebar-container">
         <div className="sidbar-wrapper">
-          <div className="sidebar-shelves-title">Manga Status</div>
           <ul className="sidebar-shelves-holder">
 
-            <div className="sidebar-topper">
+        <div className="sidebar-topper">
+            <div className="sidebar-shelves-title">Manga Status</div>
           <input className={`sidebar-all button ` + this.state.all}
             onClick={this.getComicsForShelf.bind(this, "all")}
             type="submit" value="All"/>
@@ -123,21 +125,22 @@ class Sidebar extends React.Component{
           <br className="sidebar-break"></br>
           </div>
           <br></br>
-          <br></br>
 
-          <li className="shelf-title">Bookshelves</li>
-          {this.props.bookshelves.map((shelf, i) => {
-            return (<div key={i} className="sidebar-generated-buttons">
-            <div className={`sidebar-shelves button ` + this.state[shelf.title] }
-                 onClick={this.getComicsForPersonalShelf.bind(this, shelf.title)}>
-                 {shelf.title}</div>
-            <div className="sidebar-delete button"
-                 onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</div>
+          <div className="userGenShelvesContainer">
+            <div className="shelf-title">Bookshelves</div>
+            {this.props.bookshelves.map((shelf, i) => {
+              return (<div key={i} className="sidebar-generated-buttons">
+              <div className={`sidebar-shelves button ` + this.state[shelf.title] }
+                   onClick={this.getComicsForPersonalShelf.bind(this, shelf.title)}>
+                   {shelf.title}</div>
+              <div className="sidebar-delete button"
+                   onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</div>
 
-            <br></br>
-            </div>
-          );
-          })}
+              <br></br>
+              </div>
+            );
+            })}
+        </div>
         </ul>
           <div className="addShelves-sidebar">
             <input className="sidebar-shelf-name"
@@ -150,6 +153,20 @@ class Sidebar extends React.Component{
                type="submit"
                placeholder="Add Shelf"
                onClick={this.handleAddShelf} />
+         </div>
+         <div className="deleteModalContainer">
+           <Modal className="deleteModal"
+             isOpen={this.state.deleteModal}
+             contentLabel="Modal">
+             <div>Sure you want to delete your review?</div>
+             <div className="deleteEditClose">
+               <button className="deleteButton button"
+                 onClick={this.deleteReview.bind(this, review.id)}>
+                 Yes, delete it!</button>
+               <button className="closeButton button"
+                 onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
+             </div>
+           </Modal>
          </div>
         </div>
       </main>
