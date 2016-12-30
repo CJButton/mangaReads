@@ -134,7 +134,8 @@
 }
 
 .addShelfSubmit:hover {
-  background: #FF6900;
+  /*background: #FF6900;*/
+  background: orange;
   color: white;
 }
 

@@ -16,7 +16,6 @@ class Bookshelf extends React.Component{
   }
 
   render() {
-    console.log(this.props);
     return (
       <div className="bookshelfMain">
         <BookshelfSidebar className="bookshelfLeft"/>
@@ -30,13 +29,13 @@ class Bookshelf extends React.Component{
                   <div className="userShelfLeft">
                     <h2>{comic.title}</h2>
                     <h3>{comic.author}</h3>
-                    <p className="userShelfRating">Your rating:
+                    <div className="userShelfRating">Your rating:
                     <div><StarRatingComponent
                       className="shelfStarRating"
                       name="rater"
                       editing={false}
                       starCount={5}
-                      value={comic.avg}/></div></p>
+                      value={comic.avg}/></div></div>
                   </div>
                 </div>
               ))}
