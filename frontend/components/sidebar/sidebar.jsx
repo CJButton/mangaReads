@@ -3,6 +3,9 @@
 
 import React from 'react';
 import {Link} from 'react-router';
+import Modal from 'react-modal';
+
+
 
 class Sidebar extends React.Component{
   constructor(props) {
@@ -14,13 +17,20 @@ class Sidebar extends React.Component{
       currently: "bg",
       read: "bg",
       want: "bg",
-      all: "highlight"
+      all: "highlight",
+      deleteModal: false,
+      shelfId: 0
     };
 
     this.handleAll = this.handleAll.bind(this);
     this.handleShelf = this.handleShelf.bind(this);
     this.handleAddShelf = this.handleAddShelf.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
+
+  componentWillMount() {
+    Modal.setAppElement('body');
+ }
 
   componentWillReceiveProps(nextprops) {
     if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
@@ -96,6 +106,24 @@ class Sidebar extends React.Component{
     });
   }
 
+  deleteModal(shelfId) {
+    this.setState({
+      deleteModal: true,
+      shelfId: shelfId
+    });
+  }
+
+  closeModal() {
+    this.setState({
+      deleteModal: false
+    });
+  }
+
+  deleteShelf() {
+    this.props.deleteBookshelf(this.state.shelfId);
+    this.closeModal();
+  }
+
   render() {
     return (
       <main className="sidebar-container">
@@ -133,7 +161,7 @@ class Sidebar extends React.Component{
                    onClick={this.getComicsForPersonalShelf.bind(this, shelf.title)}>
                    {shelf.title}</div>
               <div className="sidebar-delete button"
-                   onClick={this.props.deleteBookshelf.bind(this, shelf.id)}>X</div>
+                   onClick={this.deleteModal.bind(this, shelf.id)}>X</div>
               </div>
             );
             })}
@@ -152,6 +180,21 @@ class Sidebar extends React.Component{
                placeholder="Add Shelf"
                onClick={this.handleAddShelf} />
          </div>
+        </div>
+
+        <div className="deleteModalContainer">
+          <Modal className="deleteModal"
+            isOpen={this.state.deleteModal}
+            contentLabel="Modal">
+            <div>Sure you want to delete your shelf</div>
+            <div className="deleteEditClose">
+              <button className="deleteButton button"
+                onClick={this.deleteShelf.bind(this)}>
+                Yes, delete it.</button>
+              <button className="cancelDelete button"
+                onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
+            </div>
+          </Modal>
         </div>
       </main>
     );

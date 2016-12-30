@@ -18,7 +18,7 @@ const Home = ( {manga} ) => (
 
       {manga.map((comic, i) => {
         return(
-          <div className="library">
+          <div key={i} className="library">
             <div className="comicWrapper">
               <a href={`#/manga/${comic.id}`}>
                 <img className="homePicture" src={comic.img_url} />
