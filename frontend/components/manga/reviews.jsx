@@ -259,7 +259,7 @@ class Reviews extends React.Component {
                     <button className="deleteButton button"
                       onClick={this.deleteReview.bind(this, review.id)}>
                       Yes, delete it!</button>
-                    <button className="closeButton button"
+                    <button className="cancelDelete button"
                       onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
                   </div>
                 </Modal>
