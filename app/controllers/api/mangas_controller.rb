@@ -9,6 +9,15 @@ class Api::MangasController < ApplicationController
       @manga = Manga.all
     else
       @manga = Manga.filter(current_user, params[:filter])
+      @manga.each do |comic|
+        if Review.exists?(manga_id: comic.id, user_id: current_user.id)
+          p rev = Review.where(manga_id: comic.id, user_id: current_user.id)
+          comic.avg = rev[0].rating
+        else
+          comic.avg = 0
+        end
+        @manga
+      end
     end
   end
 

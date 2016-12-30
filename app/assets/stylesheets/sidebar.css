@@ -1,5 +1,11 @@
 
 
+.sidebar-container {
+  position: fixed;;
+  top: 5%;
+  left: 2%;
+}
+
 .highlight {
   background-color: orange;
 }
@@ -12,6 +18,8 @@
 
 .sidebar-topper input {
   margin: 5px;
+  font-size: 17px;
+  margin-left: 7px;
 }
 
 .sidebar-shelf-create {
@@ -30,9 +38,9 @@
 }
 
 .sidebar-shelves-title {
-  padding-top: 50px;
-  padding-left: 60px;
-  padding-bottom: 10px;
+  font-size: 19px;
+  margin-top: 15px;
+  padding-left: 45px;
   list-style-type: none;
 }
 
@@ -63,11 +71,29 @@
 
 .sidebar-delete {
   order: 1;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+
+.sidebar-delete:hover {
+  background-color: red;
+  color: white;
 }
 
 .sidebar-shelves {
   width: 150px;
-  margin-right: 5px;
+  font-size: 18px;
+  margin: 5px;
 }
 
 .addShelves-sidebar {
@@ -95,7 +121,37 @@
   padding-right: 10px;
 }
 
+.userGenShelvesContainer {
+  width: 200px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3px;
+  padding-bottom: 25px;
+}
 
 .sidebar-footer {
   width: 25px;
+}
+
+.sidebar-topper {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3px;
+  width: 185px;
+  padding-right: 17px;
+}
+
+.shelf-title {
+  padding-left: 35px;
+  padding-top: 5px;
+  font-size: 24px;
+}
+
+.sidebar-shelf-create {
+  font-size: 12px;
+  list-style: none;
+  padding-left: 30px;
 }

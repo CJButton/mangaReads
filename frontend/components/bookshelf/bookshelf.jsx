@@ -6,6 +6,8 @@ import React from 'react';
 import { createBookshelf } from '../../actions/bookshelf_actions';
 import BookshelfSidebar from '../sidebar/sidebar_container';
 
+import StarRatingComponent from 'react-star-rating-component';
+
 
 class Bookshelf extends React.Component{
   constructor(props) {
@@ -14,40 +16,64 @@ class Bookshelf extends React.Component{
   }
 
   render() {
+    console.log(this.props);
     return (
       <div className="bookshelfMain">
-        <BookshelfSidebar className="bookshelfLeft">
-        </BookshelfSidebar >
-          <div className="bookshelfContainer">
-              <div className="bookshelfComicShow">
-                <br></br>
-                      Your collection:
-                <br></br>
-              {
+        <BookshelfSidebar className="bookshelfLeft"/>
 
-                this.props.manga.map((comic, i) => (
-                <element key={i} className="comicDisplayWrapper">
-                  <ul className="comicInfoDisplay">
 
-                    <a href={`#/manga/${comic.id}`}>
-                      <img className="bookshelfPicture" src={comic.img_url}/>
-                    </a>
-                    <ul className="bookshelfComicText">
-                      <li className="bookshelfTitle">{comic.title}</li>
-                      <li>by {comic.author}</li>
-
-                    </ul>
-                  </ul>
-                </element>
-                  )
-                    )
-              }
-            </div>
-          </div>
-    </div>
+              {this.props.manga.map((comic, i) => (
+                <div key={i} className="comicShelfContainer">
+                  <a href={`#/manga/${comic.id}`}>
+                    <img className="bookshelfPicture" src={comic.img_url}/>
+                  </a>
+                  <div className="userShelfLeft">
+                    <h2>{comic.title}</h2>
+                    <h3>{comic.author}</h3>
+                    <p className="userShelfRating">Your rating:
+                    <div><StarRatingComponent
+                      className="shelfStarRating"
+                      name="rater"
+                      editing={false}
+                      starCount={5}
+                      value={comic.avg}/></div></p>
+                  </div>
+                </div>
+              ))}
+      </div>
     );
   }
 }
 
 
 export default Bookshelf;
+// <div className="bookshelfComicText">
+//   <div className="bookshelfTitle">{comic.title}</div>
+//     <div>by {comic.author}</div>
+// </div>
+
+// (
+//   <div className="bookshelfMain">
+//     <BookshelfSidebar className="bookshelfLeft"/>
+//
+//
+//       <div className="bookshelfContainer">
+//           <div className="bookshelfComicShow">
+//
+//           {this.props.manga.map((comic, i) => (
+//             <div key={i} className="comicDisplayWrapper">
+//               <div className="comicInfoDisplay">
+//
+//                 <div>
+//                   <a href={`#/manga/${comic.id}`}>
+//                     <img className="bookshelfPicture" src={comic.img_url}/>
+//                   </a>
+//                 </div>
+//
+//               </div>
+//             </div>
+//               ))}
+//         </div>
+//       </div>
+// </div>
+// );
