@@ -2,7 +2,7 @@
 
 .sidebar-container {
   position: fixed;;
-  top: 5%;
+  top: 10%;
   left: 2%;
 }
 
@@ -162,7 +162,6 @@
 }
 
 .sidebar-topper {
-  margin-top: 50px;
   padding-top: 0px;
   border-style: solid;
   border-width: 4px;

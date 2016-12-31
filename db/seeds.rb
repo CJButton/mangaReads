@@ -203,194 +203,194 @@ Manga.create(title: "One Punch Vol. 1",
              author: "One",
              synopsis: "A manga series that packs quite the punch! Nothing about Saitama passes the eyeball test when it comes to superheroes, from his lifeless expression to his bald head to his unimpressive physique. However, this average-looking guy has a not-so-average problem—he just can’t seem to find an opponent strong enough to take on! Every time a promising villain appears, he beats the snot out of ’em with one punch! Can Saitama finally find an opponent who can go toe-to-toe with him and give his life some meaning? Or is he doomed to a life of superpowered boredom?",
              release_date: "December 12, 2012",
-             img_url: "",
+             img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167721/onepunch1_mkmmb3.jpg",
              genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: The Secret To His Strength Vol. 2",
             author: "One",
-            synopsis: "Saitama’s easily taken out a number of monsters, including a crabby creature, a malicious mosquito girl and a muscly meathead. But his humdrum life takes a drastic turn when he meets Genos—a cyborg who wants to uncover the secret behind his strength!"
+            synopsis: "Saitama’s easily taken out a number of monsters, including a crabby creature, a malicious mosquito girl and a muscly meathead. But his humdrum life takes a drastic turn when he meets Genos—a cyborg who wants to uncover the secret behind his strength!",
             release_date: "December 12, 2012",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167721/onepunch2_lcnzsy.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: The Rumor Vol. 3",
             author: "One",
-            synopsis: "For three years, Saitama has defeated countless monsters, but no one knows about him… That’s because he isn’t in the Hero Association’s registry! Together with Genos, Saitama decides to take the Hero Association’s test! But can they pass?!"
+            synopsis: "For three years, Saitama has defeated countless monsters, but no one knows about him… That’s because he isn’t in the Hero Association’s registry! Together with Genos, Saitama decides to take the Hero Association’s test! But can they pass?!",
             release_date: "April 4, 2013",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167721/onepunch3_v8w7lx.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: Giant Meteor Vol. 4",
             author: "One",
             synopsis: "Saitama is now a certified hero! And with that title comes great responsibility—he’s required to perform one heroic deed per week. While Saitama makes the rounds to meet his quota, an incoming threat from outer space is screeching toward Earth...",
             release_date: "August 2, 2013",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483168076/onepunch4_wkmgjm.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: Shining in Tatters Vol. 5",
             author: "One",
             synopsis: "To stop a Demon-level crisis, Saitama and company head toward the action. However, even Class-S heroes prove to be no match for the Deep Sea King! In order to protect the good citizens, our heroes will need to summon all of their courage and confront this threat!",
             release_date: "December 4, 2013",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167721/onepunch5_bskv9p.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: The Big Prediction Vol. 6",
             author: "One",
             synopsis: "An emergency summons gathers Class S heroes at headquarters…and Saitama tags along. There, they learn that the great seer Shibabawa left the following prophecy: “The Earth is in danger!” What in the world is going to happen?!",
             release_date: "May 2, 2014",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167944/onepunch6_jgvrhl.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: The Fight Vol. 7",
             author: "One",
             synopsis: "When aliens invade Earth, a group of Class-S heroes finally finds a way to fight back and go on the offensive. Inside the enemy mother ship, Saitama fights Boros. Faced with the alien’s frightful power, he decides to get serious! What is the Earth’s fate?!",
             release_date: "December 4, 2014",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/onepunch7_e80ljs.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: That Man Vol. 8",
             author: "One",
             synopsis: "Class-S hero King is known as the strongest man on earth. Even monsters fear him. But when a mysterious organization sends an assassin after him, the shocking truth about King is revealed!",
             release_date: "April, 2015",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167721/onepunch8_n9bhlv.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: Don't Dis Heroes Vol. 9",
             author: "One",
             synopsis: "Garo, a man who admires monsters, attacks the Hero Association! But after pulverizing the heroes there, he just leaves. What the heck does this guy want?! Meanwhile, Class-B, Rank-1 Miss Blizzard visits Saitama at his apartment. Since he’s just a low-ranking hero, she thinks she can make him one of her subordinates, but as always, Saitama has other plans!",
             release_date: "August 9, 2015",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/onepunch9_iqwtow.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "One Punch Man: Pumped Up Vol. 10",
             author: "One",
             synopsis: "Hero hunter Gato intensifies his onslaught, so of course Saitama decides now is the perfect time to join a combat tournament. Meanwhile, Class-S hero Metal Bat takes an assignment guarding a Hero Association executive and his son, and before long trouble appears!",
             release_date: "December 4, 2015",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167721/onepunch10_ry24vh.jpg",
             genre: ["Action", "Parody", "Superhero"])
 
 Manga.create(title: "Attack on Titan Vol. 1",
             author: "Hajime Isayama",
             synopsis: "In this post-apocalytpic sci-fi story, humanity has been devastated by the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming mankind. Seemingly unintelligent, they have roamed the world for years, killing everyone they see. For the past century, what's left of man has hidden in a giant, three-walled city. People believe their 100-meter-high walls will protect them from the Titans, but the sudden appearance of an immense Titan is about to change everything.",
             release_date: "March 17, 2010",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack1_b13gbw.jpg",
             genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 2",
             author: "Hajime Isayama",
             synopsis: "The Colossal Titan has breached humanity’s first line of defense, Wall Maria. Mikasa, the 104th Training Corps’ ace and Eren’s best friend, may be the only one capable of defeating them, but beneath her calm exterior lurks a dark past. When all looks lost, a new Titan appears and begins to slaughter its fellow Titans. Could this new monster be a blessing in disguise, or is the truth something much more sinister?",
             release_date: "July 16, 2010",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack2_dg3fd2.jpg",
             genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 3",
             author: "Hajime Isayama",
             synopsis: "The last thing Eren remembers before blacking out, a Titan had bitten off his arm and leg and was getting ready to eat him alive. Much to his surprise he wakes up without a scratch on him, with a crowd of angry soldiers screaming for his blood. What strange new power has he awakened, and what will happen when the boy devoted to destroying the Titans becomes one himself? Includes special extras after the story!",
             release_date: "December 9, 2010",
-            img_url: "",
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack3_a5wigu.jpg",
             genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 4",
             author: "Hajime Isayama",
             synopsis: " The Survey Corps develop a risky gambit - have Eren in Titan form attempt to repair Wall Rose, reclaiming human territory from the monsters for the first time in a century. But Titan-Eren's self-control is far from perfect, and when he goes on a rampage, not even Armin can stop him! With the survival of humanity on his massive shoulders, will Eren be able to return to his senses, or will he lose himself forever?",
             release_date: "April 8, 2011",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack4_ezzmii.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 5",
             author: "Hajime Isayama",
             synopsis: " Thanks to Eren, humanity has taken the town of Trost back from the Titans. Exhausted, Eren falls into a coma for three days - and wakes in shackles, staring at Erwin Smith, leader of the Survey Corps. Certain that Eren's father's research holds the key to the mystery of the Titans' rise, Smith wants an expedition to retrieve it from the house where Eren grew up. But that's deep in Titan territory, and to get there Eren will need to master a power he still doesn't fully understand...",
             release_date: "August 9, 2011",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack5_eyvyuk.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 6",
             author: "Hajime Isayama",
             synopsis: "On the way to Eren's home, deep in Titan territory, the Survey Corps ranks are broken by a charge led by a female Titan! But this Abnormal is different - she kills not to eat but to protect herself, and she seems to be looking for someone. Armin comes to a shocking conclusion!",
             release_date: "December 9, 2011",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack6_kofxex.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 7",
             author: "Hajime Isayama",
             synopsis: "The Survey Corps sets a cunning trap to capture the mysterious Abnormal Titan that broke through their ranks. As Arwin tries to determine the grotesque creature's identity and purpose, scouts report Titans closing in on all sides! But they don't seem to be after the humans - instead they're targeting the Titan!",
             release_date: "April 9, 2012",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack7_m0tkhn.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 8",
             author: "Hajime Isayama",
             synopsis: "The expedition outside the wall was Eren's chance to prove himself. But it failed, and the female Titan is free once more! With his squad dead, Eren faces a royal summons. Will Mikasa and Armin have to betray their king to save their friend? And can they discover the female Titan's identity before she kills again? ? ?",
             release_date: "August 9, 2012",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167720/attack8_jrxfjz.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 9",
             author: "Hajime Isayama",
             synopsis: "Eren is still resting from his brutal fight with the female Titan, when word reaches the interior that the impossible has happened: Wall Rose itself has been breached, and Titans are pouring through the gap! The emergency casts new urgency over Armin and Hange's questions about how the walls were built, and what humanity can do to restore them...",
             release_date: "December 7, 2012",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack9_maoghk.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 10",
             author: "Hajime Isayama",
             synopsis: "With no combat gear and Wall Rose breached, the 104th scrambles to evacuate the villages in the Titans' path. On their way to the safety of Wall Sheena, they decide to spend the night in Utgard Castle. But their sanctuary becomes a slaughterhouse when they discover that, for some reason, these Titans attack at night!",
             release_date: "April 9, 2013",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack10_zbw0xq.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 11",
             author: "Hajime Isayama",
             synopsis: "Thanks to Eren's timely arrival, the 104th has managed to turn the tide at Wall Rose. But this momentary victory forces two more traitors into a corner - and the identity of the Titans who have been destroying the walls is revealed! What can Eren do against the two most dangerous monsters humanity has ever faced? And who else might be an enemy in disguise?",
             release_date: "August 9, 2013",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack11_bwigkx.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 12",
             author: "Hajime Isayama",
             synopsis: "Erwin and the Survey Corps desperately mount a rescue operation to take Eren back from the Colossus Titan and Armored Titan. But without the numbers to form up properly outside the walls, how can the humans catch up before they're all slaughtered? Just whose side is Ymir on? And will Eren ever see his friends again?",
             release_date: "December 9, 2013",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack12_pokfjs.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 13",
             author: "Hajime Isayama",
             synopsis: "At great cost to the Garrison and the Survey Corps, Commander Erwin has managed to recover Eren from the Titans who tried to carry him off. But during the battle, Eren manifested yet another power he doesn't understand. As Eren and Krista find new enemies, the Survey Corps faces threats from both inside and outside the walls. And what will happen to Ymir, now that she has decided to make herself the Titans' prize?",
             release_date: "April 9, 2014",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack13_j6ytwp.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 14",
             author: "Hajime Isayama",
             synopsis: "Commander Erwin has finally come to a decision: Putting their own wealth and position ahead of the survival of humanity, the royal government is no longer fit to lead. To execute their leader's most audacious plan yet, Eren and Krista will have to put themselves in peril yet again, and Armin, Mikasa, and the rest of the Survey Corps will have to turn from humanity's guardians into traitors. If they fail this time, they'll face not a Titan's gaping mouth, but the gallows...",
             release_date: "August 8, 2014",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack14_ge2dqi.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 15",
             author: "Hajime Isayama",
             synopsis: "Hange's interrogation of a Military Police squad has revealed that Krista (a.k.a. Historia Reiss) is the true heir to the throne. The Corps quickly moves to enthrone her as queen, but a homicidal MP leads a squad that abducts Eren and Krista and throws the Corps into disarray. With Erwin arrested and the Survey Corps on the edge of dissolution, are Levi and Hange finally out of options?",
             release_date: "December 9, 2014",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack15_q4jyxl.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 16",
             author: "Hajime Isayama",
             synopsis: "Captured by Rod Reiss, the rightful king, Krista and Eren finally have their memories back. What exactly happened to Eren, and what was the crime his father committed? Meanwhile, the Survey Corps desperately hunts for Eren, while at the same time seeking to legitimize their military coup. As the situation inside the walls comes to a head, the mysteries of the world of the Titans seem on the cusp of being solved at last!",
             release_date: "April 9, 2015",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack16_gzpw7j.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 17",
             author: "Hajime Isayama",
             synopsis: "Thanks to Rod Reiss, Eren finally knows the terrible truth behind how he acquired his Titan powers, and the depth of his father's crimes. The king orders his daughter Historia to kill Eren and restore the power of the Titans to its rightful place, but she chooses her own selfish path: survival. As the cavern crumbles around the Survey Corps, Eren must make another last-minute decision, with the lives of all his friends in the balance.",
             release_date: "August 7, 2015",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack17_zh3zlu.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])
 
 Manga.create(title: "Attack on Titan Vol. 18",
             author: "Hajime Isayama",
             synopsis: "The Survey Corps has overthrown the Royal Government and swept away the tyranny of the king. The next step: Move to retake Wall Maria, with the helpf of a newly-discovered metallic ore and Eren’s miraculous Titan hardening powers. But as humanity pulls together, its enemies also unite beyond the Walls… now that the Beast Titan has joined Reiner and Bertolt, what havoc will they wreak?",
             release_date: "December 9, 2015",
-            img_url: "",
-            genre: ["Dark fantasy", "Post-Apocalpytic"]))
+            img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483167719/attack18_rjbrip.jpg",
+            genre: ["Dark fantasy", "Post-Apocalpytic"])

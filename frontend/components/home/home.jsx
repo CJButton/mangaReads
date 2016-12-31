@@ -2,19 +2,20 @@
 
 import React from 'react';
 
-const Home = ( {manga} ) => (
+const Home = ( {manga} ) => {
+    return (
   <main className="home-container">
-    <div className="home-left">
+    <div className="home-left"></div>
+    <div className="home-top">
+      <h2 className="home-title">mangaReads</h2>
     </div>
-    <h1>mangaReads</h1>
-    <h3>There is more to Japan than sushi and samurai!</h3>
-    <br></br>
-    <br></br>
-    <br></br>
-    <h2>The Library</h2>
+    <div className="home-top">
+      <div>There is more to Japan than sushi and samurai!</div>
+    </div>
+    <div className="home-top2">Click on a manga from the Library to see more</div>
+
+
     <div className="home-center">
-
-
 
       {manga.map((comic, i) => {
         return(
@@ -24,7 +25,7 @@ const Home = ( {manga} ) => (
                 <img className="homePicture" src={comic.img_url} />
               </a>
             </div>
-        </div>
+          </div>
         );
       })}
       <br></br>
@@ -34,7 +35,11 @@ const Home = ( {manga} ) => (
     <div className="home-right">
     </div>
   </main>
-);
+
+
+
+  );
+};
 
 export default Home;
 

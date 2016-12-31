@@ -31,18 +31,58 @@
   border-width: 2px;
 }
 
+.releaseDate {
+  margin: 5px;
+}
+
+.genres {
+  padding-right: 40px;
+  margin: 5px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.genres li{
+  margin-top: 7px;
+}
+
+.mangaContent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.author {
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 120px;
+}
+
+.author div{
+  margin-top: 5px;
+}
+
+.releaseDate {
+  margin-right: 40px;
+}
+
+.releaseDate div{
+  margin-top: 5px;
+}
+
+.shelfStarRating {
+  margin-top: 5px;
+}
+
 .userShelfLeft {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
 }
 
-.shelfStarRating {
-
-}
-
 .userShelfRating {
-  margin: 0px;
+  margin: 5px;
+  margin-right: 40px;
 }
 
 
