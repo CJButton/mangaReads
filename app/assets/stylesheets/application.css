@@ -17,9 +17,17 @@
  /*background-color: #f4f2e9;*/
  body {
    background-color: #FFFFFF;
+   font-family: 'Bangers', cursive;
+   /*font-family: 'AnimeAce';*/
    /*background-color: black;*/
-   font-family: 'Lato', serif;
+   /*font-family: 'Lato', serif;*/
+   /*font-family: "Comic Sans MS", sans-serif;*/
  }
+
+@font-face {
+   font-family: "AnimeAce";
+   src: url('fonts/animeace2_reg.ttf');
+}
 
 .basicOutline {
   background-color: white;
