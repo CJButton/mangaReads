@@ -4,6 +4,7 @@
 class Manga < ActiveRecord::Base
   validates :title, :author, :synopsis, presence: true
   validates :title, uniqueness: true
+  
   attr_accessor :avg
 
   has_many :mangabookshelves, :class_name => 'MangaBookshelf'

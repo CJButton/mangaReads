@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161220204052) do
+ActiveRecord::Schema.define(version: 20161231044855) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,12 +39,14 @@ ActiveRecord::Schema.define(version: 20161220204052) do
   end
 
   create_table "mangas", force: :cascade do |t|
-    t.string   "title",      null: false
-    t.string   "author",     null: false
-    t.text     "synopsis",   null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "title",                     null: false
+    t.string   "author",                    null: false
+    t.text     "synopsis",                  null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
     t.text     "img_url"
+    t.string   "release_date"
+    t.string   "genre",        default: [],              array: true
   end
 
   create_table "reviews", force: :cascade do |t|
