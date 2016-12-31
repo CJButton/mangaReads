@@ -5,6 +5,7 @@ import React from 'react';
 import Reviews from './reviews';
 import values from 'lodash/values';
 import StarRatingComponent from 'react-star-rating-component';
+import {hashHistory} from 'react-router';
 
 
 
@@ -80,8 +81,14 @@ class MangaShow extends React.Component{
    }
  }
 
+ handleMyManga(e) {
+   e.preventDefault();
+   hashHistory.push("/my-Manga");
+ }
+
 
  render() {
+   window.scrollTo(0,0);
    let submitReview = this.props.submitReview.bind(this);
    return (
      <div className="single-manga-container">
@@ -105,6 +112,7 @@ class MangaShow extends React.Component{
              </select>
            </div>
            <div className="checkbox-wrapper">
+             <p className="checkbox-title">Your Bookshelves:</p>
            {this.props.bookshelves.map((shelf, i) => {
              return(
                <label className="checkboxItem" key={i}>{shelf.title}
@@ -118,6 +126,13 @@ class MangaShow extends React.Component{
              );
            })
          }
+         </div>
+         <div className="linkMyManga">
+           <p className="linkMyMangatitle">Check out your collection:</p>
+           <div className="linkMyMangaContainer">
+             <input className="linkMyMangabutton button" type="submit"
+               value="myManga" onClick={this.handleMyManga}/>
+           </div>
          </div>
          </div>
 
@@ -159,5 +174,3 @@ class MangaShow extends React.Component{
 }
 
 export default MangaShow;
-
-// width="210" height="300"

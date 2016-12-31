@@ -16,6 +16,8 @@ class Bookshelf extends React.Component{
   }
 
   render() {
+    console.log(this.props);
+    window.scrollTo(0,0);
     return (
       <div className="bookshelfMain">
         <BookshelfSidebar className="bookshelfLeft"/>
@@ -27,15 +29,29 @@ class Bookshelf extends React.Component{
                     <img className="bookshelfPicture" src={comic.img_url}/>
                   </a>
                   <div className="userShelfLeft">
-                    <h2>{comic.title}</h2>
-                    <h3>{comic.author}</h3>
-                    <div className="userShelfRating">Your rating:
-                    <div><StarRatingComponent
-                      className="shelfStarRating"
-                      name="rater"
-                      editing={false}
-                      starCount={5}
-                      value={comic.avg}/></div></div>
+                    <h3>{comic.title}</h3>
+                    <div className="mangaContent">
+                      <div className="releaseDate">Release Date:<div>
+                        {comic.release_date}</div></div>
+
+                      {comic.genre !== undefined ?
+                      <ul className="genres">Genres:
+                        <li>{comic.genre[0]}</li>
+                        <li>{comic.genre[1]}</li>
+                        <li>{comic.genre[2]}</li>
+                      </ul> : null
+                    }
+
+                      <div className="author">Author:
+                        <div>{comic.author}</div></div>
+                      <div className="userShelfRating">Your rating:
+                      <div><StarRatingComponent
+                        className="shelfStarRating"
+                        name="rater"
+                        editing={false}
+                        starCount={5}
+                        value={comic.avg}/></div></div>
+                    </div>
                   </div>
                 </div>
               ))}
