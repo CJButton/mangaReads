@@ -16,7 +16,6 @@ class Bookshelf extends React.Component{
   }
 
   render() {
-    console.log(this.props);
     window.scrollTo(0,0);
     return (
       <div className="bookshelfMain">
