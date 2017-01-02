@@ -162,10 +162,12 @@
   border-width: 5px;
   border-color: black;
   font-size: 23px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .cancelDelete:hover {
-  background: orange;
+  background: #FF6900;
   color: white;
 }
 
@@ -239,6 +241,7 @@
 
 .review-submit:hover {
   background: #FF6900;
+  color: white;
 }
 
 .editTitle {

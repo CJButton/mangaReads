@@ -2,6 +2,8 @@
 
 import React from 'react';
 import { Link } from 'react-router';
+import Modal from 'react-modal';
+
 
 
 class AuthForm extends React.Component{
@@ -12,12 +14,15 @@ class AuthForm extends React.Component{
       password1: "",
       name: "",
       email: "",
-      password2: ""
+      password2: "",
+      background: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
+      bgidx: 0
     };
 
     this.handleLogin = this.handleLogin.bind(this);
     this.handleSignup = this.handleSignup.bind(this);
     this.handleGuest = this.handleGuest.bind(this);
+    this.comicPanel = this.comicPanel.bind(this);
   }
 
   update(property) {
@@ -50,6 +55,34 @@ class AuthForm extends React.Component{
     this.props.signup(newUser);
   }
 
+  comicPanel() {
+    console.log("in comic panel");
+    console.log(this.state);
+    let comicPanels = [
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312528/splash4_e9ks1b.jpg",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312533/splash2_aaup5c.jpg",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312530/splash1_a28xfd.jpg",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312528/splash7_t5sdpr.jpg",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png"
+    ];
+    let idx = this.state.bgidx;
+    if (idx + 1 > 4) {
+      idx = 0;
+    } else {
+      idx = idx += 1;
+    }
+
+    this.setState({
+      background: comicPanels[idx],
+      bgidx: idx
+    });
+
+  }
+
+  // componentWillMount() {
+  //   var interval = setInterval(this.comicPanel, 4000);
+  // }
+
   componentDidUpdate() {
 		this.redirectIfLoggedIn();
 	}
@@ -76,10 +109,23 @@ class AuthForm extends React.Component{
    }
   }
 
+  // <div className="leftPanel">
+  //   <div>
+  //        <img className="leftComic" src={this.state.background}/>
+  //
+  //
+  //
+  //
+  //   </div>
+  // </div>
+
+
   render() {
     const {username, password1, name, email, password2} = this.state;
     return (
     <nav className="login-signup">
+
+
 
         <div className="headerNav">
 
@@ -100,8 +146,6 @@ class AuthForm extends React.Component{
             <br></br>
 
           <div className="loginButtons">
-            <input className="guestLogin button" type="submit" onClick={this.handleGuest}
-              value="Guest Login" />
 
             <input className="auth-login-button button" type="submit" value="Login"/>&nbsp;
 
@@ -109,13 +153,13 @@ class AuthForm extends React.Component{
           </form>
         </div>
       <div className="signUpBody">
-        <div>
+        <div className="mottoContainer">
           <h3 className="mottoSplash">
-            Discover Japan through comics.
+            There is more to Japan than sushi and samurai.
           </h3>
           <p className="mottoSubSplash">
-            Action, adventure, romance, a slice-of-life, and more! You'll<br></br>
-            find it all in these comics from Japan. Organize your collection,<br></br>
+            Action, adventure, romance, a slice-of-life, and more! You'll
+            find it all in these comics from Japan. Organize your collection,
             and find new comics to enjoy, here with mangaReads!
           </p>
         </div>
@@ -137,7 +181,11 @@ class AuthForm extends React.Component{
             value={password2}
             onChange={this.update("password2")}/>
 
-          <input className="submitButton button" type="submit" placeholder="Sign up"/>
+          <button className="submitButton button" type="submit" placeholder="Sign up">
+            Sign Up</button>
+
+          <button className="guestLogin button" type="submit" onClick={this.handleGuest}
+            value="Guest Login">Guest Login</button>
 
         </form>
       </div>
