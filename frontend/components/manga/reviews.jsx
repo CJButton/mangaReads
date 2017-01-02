@@ -1,7 +1,6 @@
 
 import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
-import ReactSpinner from 'react-spinjs';
 import Modal from 'react-modal';
 import values from 'lodash/values';
 
