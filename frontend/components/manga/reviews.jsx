@@ -189,6 +189,7 @@ class Reviews extends React.Component {
                   </div>
 
                       <div className="userReview-p userRevStarRating">
+
                     <StarRatingComponent
                       className="indivRevStarRating"
                       name="indivRevStar"
@@ -197,6 +198,13 @@ class Reviews extends React.Component {
                       value={review.rating}/></div>
                   </div>
                 </div>
+
+                <StarRatingComponent
+                  className="indivRevStarRating"
+                  name="indivRevStar"
+                  editing={false}
+                  starCount={5}
+                  value={review.rating}/>
 
                   <div className="userRevTitle">
                     {review.title}
