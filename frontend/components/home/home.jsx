@@ -6,12 +6,6 @@ const Home = ( {manga} ) => {
     return (
   <main className="home-container">
     <div className="home-left"></div>
-    <div className="home-top">
-      <h2 className="home-title">mangaReads</h2>
-    </div>
-    <div className="home-top">
-      <div>There is more to Japan than sushi and samurai!</div>
-    </div>
     <div className="home-top2">Click on a manga from the Library to see more</div>
 
 
@@ -42,6 +36,12 @@ const Home = ( {manga} ) => {
 };
 
 export default Home;
+// <div className="home-top">
+//   <h2 className="home-title">mangaReads</h2>
+// </div>
+// <div className="home-top">
+//   <div>There is more to Japan than sushi and samurai!</div>
+// </div>
 
 // <div className="home-left">
 // </div>

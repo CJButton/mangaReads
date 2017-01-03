@@ -54,11 +54,11 @@ class TopBar extends React.Component{
             <div className="topbar-logo button" onClick={this.handleLogo}></div>
             <input className="topbar-home-button button" type="submit"
               onClick={this.handleHome} value="Home" />
+            <input className="topbar-myManga-button button" type="submit"
+              onClick={this.handleMyManga} value="MyManga" />
           </div>
 
           <div className="topbar-right">
-            <input className="topbar-myManga-button button" type="submit"
-              onClick={this.handleMyManga} value="MyManga" />
             <input className="topbar-logout-button button" type="submit"
               onClick={this.handleLogout} value="Logout"/>
           </div>
