@@ -82,6 +82,10 @@
   padding-left: 10px;
 }
 
+.userShelfTitle-link, .userShelfTitle-link:visited, .userShelfTitle-link:hover, .userShelfTitle-link:active {
+  color: inherit;
+}
+
 .userShelfRating {
   margin: 5px;
   // margin-right: 40px;

@@ -12,7 +12,6 @@ import StarRatingComponent from 'react-star-rating-component';
 class Bookshelf extends React.Component{
   constructor(props) {
     super(props);
-
   }
 
   render() {
@@ -28,7 +27,9 @@ class Bookshelf extends React.Component{
                     <img className="bookshelfPicture" src={comic.img_url}/>
                   </a>
                   <div className="userShelfLeft">
-                    <h3>{comic.title}</h3>
+                      <a href={`#/manga/${comic.id}`} className="userShelfTitle-link">
+                        <h3>{comic.title}</h3>
+                      </a>
                     <div className="mangaContent">
                       <div className="releaseDate">Release Date:<div>
                         {comic.release_date}</div></div>
