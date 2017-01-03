@@ -170,24 +170,6 @@ class Reviews extends React.Component {
           this.state.allReviews.map((review, idx) => {
             return(
               <div className="review basicOutline" key={idx}>
-                <div className={review.user_id === this.props.user.id
-                      ? "deleteEdit" : "hide"}>
-
-                      <div className="userReview-top">
-                        <div className="userReview-buttons">
-                          <button className="editButton button revButton"
-                              onClick={this.editReviewModal.bind(this,
-                                review.id, review.rating,
-                                review.title, review.description)}>
-                                Edit</button>
-                          <button className="deleteButton button revButton"
-                              onClick={this.deleteReviewModal.bind(this)}>
-                                Delete</button>
-                        </div>
-                      </div>
-
-                  </div>
-
 
                   <div className="userRevTitle">
                     <div className="userRevtitle-top">
@@ -199,10 +181,31 @@ class Reviews extends React.Component {
                         starCount={5}
                         value={review.rating}/>
                     </div>
-                    {review.title}
+                    <div className="userRevTitle-bottom">
+
+                      {review.title}
+                      <div className={review.user_id === this.props.user.id
+                            ? "deleteEdit" : "hide"}>
+
+                            <div className="userReview-top">
+                              <div className="userReview-buttons">
+                                <button className="editButton button revButton"
+                                    onClick={this.editReviewModal.bind(this,
+                                      review.id, review.rating,
+                                      review.title, review.description)}>
+                                      Edit</button>
+                                <button className="deleteButton button revButton"
+                                    onClick={this.deleteReviewModal.bind(this)}>
+                                      Delete</button>
+                              </div>
+                            </div>
+
+                        </div>
+                      </div>
                   </div>
                   <div className="userRevDescrip">
                   {review.description}
+
                   </div>
 
                   <Modal className="editModal"

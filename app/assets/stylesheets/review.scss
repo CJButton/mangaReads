@@ -1,4 +1,8 @@
 
+.userRevTitle-bottom {
+  display: flex;
+  justify-content: space-between;
+}
 
 .userRevtitle-top {
   display: flex;
@@ -10,7 +14,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 20px;
+  // padding-top: 15px;
 }
 
 .reviewForm {
@@ -44,6 +48,8 @@
 
 .review {
   width: 1000px;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .userReview-top {
