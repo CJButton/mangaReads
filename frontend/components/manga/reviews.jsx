@@ -133,7 +133,8 @@ class Reviews extends React.Component {
           </div>
           <div className="formTop">
             <div className="formTopLeft">
-              <p className="editUsername">{this.props.user.username}</p>
+              {this.state.userReview === undefined ? null :
+                <p className="editUsername">{this.state.userReview.username}</p>}
               <div className="editFormTop">
                 <StarRatingComponent
                   className="starRating"
