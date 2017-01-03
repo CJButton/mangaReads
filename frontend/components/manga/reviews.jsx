@@ -114,7 +114,6 @@ class Reviews extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     return(
       <div className="reviews">
         <div className="addRevButtonContainer">
@@ -185,7 +184,7 @@ class Reviews extends React.Component {
                     </div>
                     <div className="userRevTitle-bottom">
 
-                      <div>{review.title}</div>
+                      <div className="userRevTitle-title">{review.title}</div>
                       <div className={review.user_id === this.props.user.id
                             ? "deleteEdit" : "hide"}>
 

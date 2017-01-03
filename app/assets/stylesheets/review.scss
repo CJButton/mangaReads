@@ -2,11 +2,13 @@
 .userRevTitle-bottom {
   display: flex;
   justify-content: space-between;
+  font-size: 18px;
 }
 
 .userRevtitle-top {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 .reviews {
@@ -61,12 +63,20 @@
   margin: 2px;
 }
 
+.userReview-buttons {
+  padding-top: 6px;
+}
+
 .revButton{
   background-color: white;
   border-radius: 3px;
-  border-width: 5px;
+  border-width: 3px;
   border-color: black;
-  font-size: 24px;
+  font-size: 18px;
+}
+
+.userRevTitle-title {
+  margin-top: 10px;
 }
 
 .editButton {
@@ -95,6 +105,7 @@
   height: auto;
   padding-bottom: 15px;
   padding-top: 15px;
+  font-size: 18px;
 }
 
 
