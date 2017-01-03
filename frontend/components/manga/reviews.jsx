@@ -73,9 +73,8 @@ class Reviews extends React.Component {
     });
   }
 
-  deleteReview(reviewId) {
-    console.log(reviewId);
-    this.props.delete(reviewId);
+  deleteReview() {
+    this.props.delete(this.state.userReview.id);
     this.setState({
       deleteModal: false,
       rating: 1,
@@ -90,17 +89,17 @@ class Reviews extends React.Component {
     });
   }
 
-  editReviewModal(reviewId, revRating, revTitle, revText) {
+  editReviewModal() {
     this.setState({
       editModal: true,
-      rating: revRating,
-      title: revTitle,
-      text: revText
+      rating: this.state.userReview.rating,
+      title: this.state.userReview.title,
+      text: this.state.userReview.description
     });
   }
 
   handleEdit(reviewId){
-    this.props.edit(reviewId, this.state.userRating, this.state.title, this.state.text);
+    this.props.edit(this.state.userReview.id, this.state.userRating, this.state.title, this.state.text);
     this.setState({
       editModal: false
     });
@@ -234,7 +233,7 @@ class Reviews extends React.Component {
                     </div>
 
                   <form className="editFormModal"
-                    onSubmit={this.handleEdit.bind(this, review.id)}>
+                    onSubmit={this.handleEdit.bind(this)}>
                     <p className="editTitle">Title</p>
                     <input className="editReview-text"
                       type="text"
@@ -260,7 +259,7 @@ class Reviews extends React.Component {
                   <div>Sure you want to delete your review?</div>
                   <div className="deleteEditClose">
                     <button className="deleteButton button"
-                      onClick={this.deleteReview.bind(this, review.id)}>
+                      onClick={this.deleteReview.bind(this)}>
                       Yes, delete it!</button>
                     <button className="cancelDelete button"
                       onClick={this.closeModal.bind(this)}>No! Leave as is!</button>
