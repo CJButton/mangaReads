@@ -74,6 +74,7 @@ class Reviews extends React.Component {
   }
 
   deleteReview(reviewId) {
+    console.log(reviewId);
     this.props.delete(reviewId);
     this.setState({
       deleteModal: false,
@@ -114,7 +115,6 @@ class Reviews extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     return(
       <div className="reviews">
         <div className="addRevButtonContainer">
