@@ -142,7 +142,7 @@
 
 .mottoContainer {
   width: 600px;
-  height: 160px;
+  height: 180px;
   margin-top: 125px;
   margin-left: 200px;
   background: rgba(255, 255, 255, 0.7);
@@ -164,5 +164,11 @@
 .mottoSubSplash {
   font-size: 18px;
   margin-left: 25px;
+  margin-top: 15px;
   // padding-left: 300px;
+}
+
+.mottoSplashbottom {
+  margin-left: 160px;
+  font-size: 20px;
 }

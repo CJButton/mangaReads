@@ -157,6 +157,7 @@ class AuthForm extends React.Component{
           <h3 className="mottoSplash">
             There is more to Japan than sushi and samurai.
           </h3>
+          <div className="mottoSplashbottom">There's also comic books!</div>
           <p className="mottoSubSplash">
             Action, adventure, romance, a slice-of-life, and more! You'll
             find it all in these comics from Japan. Organize your collection,
