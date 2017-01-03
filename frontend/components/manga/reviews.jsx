@@ -183,7 +183,7 @@ class Reviews extends React.Component {
                     </div>
                     <div className="userRevTitle-bottom">
 
-                      {review.title}
+                      <div>{review.title}</div>
                       <div className={review.user_id === this.props.user.id
                             ? "deleteEdit" : "hide"}>
 
