@@ -175,8 +175,6 @@ class Reviews extends React.Component {
 
                   <div className="userReview-top">
 
-                    <p className="userReview-p">{review.username}</p>
-
                     <div className="userReview-buttons">
                       <button className="editButton button revButton"
                         onClick={this.editReviewModal.bind(this,
@@ -190,23 +188,21 @@ class Reviews extends React.Component {
 
                       <div className="userReview-p userRevStarRating">
 
-                    <StarRatingComponent
-                      className="indivRevStarRating"
-                      name="indivRevStar"
-                      editing={false}
-                      starCount={5}
-                      value={review.rating}/></div>
+                  </div>
                   </div>
                 </div>
 
-                <StarRatingComponent
-                  className="indivRevStarRating"
-                  name="indivRevStar"
-                  editing={false}
-                  starCount={5}
-                  value={review.rating}/>
 
                   <div className="userRevTitle">
+                    <div className="userRevtitle-top">
+                      {review.username}
+                      <StarRatingComponent
+                        className="indivRevStarRating"
+                        name="indivRevStar"
+                        editing={false}
+                        starCount={5}
+                        value={review.rating}/>
+                    </div>
                     {review.title}
                   </div>
                   <div className="userRevDescrip">
