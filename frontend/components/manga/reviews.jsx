@@ -170,27 +170,23 @@ class Reviews extends React.Component {
           this.state.allReviews.map((review, idx) => {
             return(
               <div className="review basicOutline" key={idx}>
-                <div>
-                <div className={review.user_id === this.props.user.id ? "deleteEdit" : "hide"}>
+                <div className={review.user_id === this.props.user.id
+                      ? "deleteEdit" : "hide"}>
 
-                  <div className="userReview-top">
-
-                    <div className="userReview-buttons">
-                      <button className="editButton button revButton"
-                        onClick={this.editReviewModal.bind(this,
-                          review.id, review.rating, review.title, review.description)}>
-                          Edit</button>
-                      <button className="deleteButton button revButton"
-                          onClick={this.deleteReviewModal.bind(this)}>
-                          Delete</button>
-                    </div>
-                  </div>
-
-                      <div className="userReview-p userRevStarRating">
+                      <div className="userReview-top">
+                        <div className="userReview-buttons">
+                          <button className="editButton button revButton"
+                              onClick={this.editReviewModal.bind(this,
+                                review.id, review.rating,
+                                review.title, review.description)}>
+                                Edit</button>
+                          <button className="deleteButton button revButton"
+                              onClick={this.deleteReviewModal.bind(this)}>
+                                Delete</button>
+                        </div>
+                      </div>
 
                   </div>
-                  </div>
-                </div>
 
 
                   <div className="userRevTitle">
