@@ -41,6 +41,7 @@ class Reviews extends React.Component {
 
   // collect all the data here before sending it off to be added to db
   handleSubmit(e) {
+    console.log(this.state);
     e.preventDefault();
     this.props.submit(this.props.user.id, this.props.manga.id, this.state.rating, this.state.title, this.state.text);
     this.setState({
@@ -114,6 +115,7 @@ class Reviews extends React.Component {
   }
 
   render() {
+    console.log(this.props);
     return(
       <div className="reviews">
         <div className="addRevButtonContainer">
@@ -205,7 +207,11 @@ class Reviews extends React.Component {
                       </div>
                   </div>
                   <div className="userRevDescrip">
-                  {review.description}
+                  {review.description.split("\n").map((rev) => {
+                    return(
+                      <span>{rev}<br/></span>
+                    );
+                  })}
 
                   </div>
 
