@@ -19,15 +19,14 @@ class Bookshelf extends React.Component{
     return (
       <div className="bookshelfMain">
         <BookshelfSidebar className="bookshelfLeft"/>
-
-
               {this.props.manga.map((comic, i) => (
                 <div key={i} className="comicShelfContainer">
                   <a href={`#/manga/${comic.id}`}>
                     <img className="bookshelfPicture" src={comic.img_url}/>
                   </a>
                   <div className="userShelfLeft">
-                      <a href={`#/manga/${comic.id}`} className="userShelfTitle-link">
+                      <a href={`#/manga/${comic.id}`}
+                        className="userShelfTitle-link">
                         <h3>{comic.title}</h3>
                       </a>
                     <div className="mangaContent">
