@@ -35,7 +35,6 @@ class Api::ReviewsController < ApplicationController
   end
 
   def update
-    p params
     @review = Review.update(params[:id].to_i, :rating => params[:rating],
         :title => params[:title], :description => params[:text])
 
