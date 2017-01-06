@@ -1,6 +1,4 @@
 
-
-
 mangaReads
 ---------------------------------
 mangaReads is a full-stack project based on the website GoodReads.
