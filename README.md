@@ -56,32 +56,65 @@ creating/deleting the comic from that particular shelf.
 
 ![toggle](docs/images/production/toggle.png)
 
+Simple having this work as a toggle saves me from needing to have to
+juggle two different actions.
+
+Of some interest is the average rating, as shown by the stars under the
+title of the manga. This is not directly found in any table, but is instead
+calculated when the comic is displayed. After finding the average reviews,
+it is then attached as an extra column.
+
+![find-average](docs/images/production/avg.png)
+
+The Reviews
+
+When the user loads the manga, all reviews are fetched from the db and
+displayed under the comic. This will include the user's review if they
+have added one themselves. If they haven't, a button will appear asking
+for them to submit.
+
+![shelf-rev](docs/images/production/shelf-rev.png)
+
+This is easily implemented by simply checking whether or not the user
+has a review in the db. In the render method of the component, we can then
+see if the user's review is null or not.
+
+![add-rev-button](docs/images/production/addrevbutton.png)
+
+A very similar thing is done to show the edit/delete buttons, as we don't
+want the user trying to change a review that isn't their own!
+
+![edit-delete](docs/images/production/adddelete.png)
+
+React-modal was of great use in helping to create the add/edit/delete abilities.
+In particular, when attempting to delete a review or a bookshelf, the user is
+given a warning before the action is dispatched.
+
+![delete](docs/images/production/delete.png)
 
 
+The Bookshelves
 
+All of the user's statuses and shelves are collected here. This sidebar is
+a fixed element, so when the user scrolls down, the sidebar comes along with
+them.
 
-Features and Implementation
+![sidebar](docs/images/production/shelves.png)
 
-Manga (Japanese for comics) are stored on the database in a table, with columns for title, author, a synopsis, and an image url. When a user logs in, they are directed to Home Page which displays a collection of comics to purview. At the top of the page is a 'Topbar' component. This component is always available to the user, and is nested inside the App component which wraps all others. Thus the Topbar is available to users at all times.
+Any shelf currently selected is given a 'highlighted' classname and the color
+is changed using CSS. Once the user clicks on another shelf, the classname
+is switched to 'bg', and the color is changed to white, so as to blend in
+with the background.
 
-Upon clicking a comic that piques the users interest, they are directed then to a separate page that displays the manga's data.
-The entire page is rendered using only one component, which displays the manga's title, author, synopsis, and a picture of the cover. When the user switches to the manga's individual show page, three API calls are dispatched. The first to get the information for the particular comic, another for the user's bookshelves, and finally, another to compare the 'status' of the page.
+![all-shelves](docs/images/production/all-shelves.png)
 
-The 'status' feature is particularly interesting as it brings together the user's table, the 'manga status' table, the bookshelves table, and the 'manga bookshelves' table. The latter of which is a joins table, we can change the 'status' of particular manga. A manga's status can be one of three things: 'Read', 'Wants-To-Read', or 'Currently-Reading'.
+Manga are organized here, according to the users wishes. A little more info
+is given, with the user's review rating (if given), release date, etc. Both
+the cover and the title are links to take the user to the individual comic
+if they wish to see more.
 
-When the user clicks on a dropdown menu, a dispatch is made which in turn dispatches an API call. This will hit a custom route that was created to 'create and destroy' objects on the 'manga bookshelf' table. So if they click once, then a manga is metaphorically placed on/ or removed from these special shelves.
+----------------------
 
-This involves makes several complicated joins which took me some times to get correct. I realized on making this in the model that I in fact needed a little more information to make the proper requests. And thus I learned about pluck, which allows us to get the actual value from a query!
+The Future
 
-This page also brings together a few other elements to make it a little more interesting. We also bring together a 'bookshelves' table, a 'manga_statuses' table, and the user's table. By using the current user's id, we find their specific bookshelves that they have made as the 'status' of the manga. The status represents whether the user 'Wants to Read', is 'Currently-Reading', or has 'Read' the particular comic. The user may change this status with a click. At the bottom of the page. At the bottom of the page are the user's bookshelves, ordered in a checkbox fashion, allowing them to add to however many shelves they wish.
-
-We can also add our own custom libraries. Using a checkbox feature, a comic can be added to any shelf at will. When the shelf is checked, a dispatch is sent which in the end will place an object, representing the manga on the shelf. This click will fill in/ clear the bubble, letting the user know if there is such an object on that particular shelf.
-
-If we go to the my-Manga page, we will see all of our manga on all pages. This is automatically loaded when the pages is requested. By clicking on the various statuses on the left, we can get all of the appropriate manga for them.
-
-Getting the correct manga is done by using a special filter in the manga model which grabs manga
-based on the status and the current user.
-
-We can also create and destroy our own bookshelves on this page. After they are created, clicking
-on that shelf will bring up all manga to be found on that shelf. This is done using a simple query
-where the current user's id and the shelf's id are matched.
+Several additions that I'm considering:
