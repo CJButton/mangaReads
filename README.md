@@ -118,3 +118,13 @@ if they wish to see more.
 The Future
 
 Several additions that I'm considering:
+
+- allow users to contact one another and see one another's shelves/ updates
+
+- allow filtering by genre/author
+
+- allow voting on reviews so that more helpful reviews will bubble up to
+  the top of the reviews
+
+- allowing filtering by star rating which will allow users to see why someone
+  did or did not like the comic
