@@ -186,7 +186,7 @@ class Sidebar extends React.Component{
           <Modal className="deleteModal"
             isOpen={this.state.deleteModal}
             contentLabel="Modal">
-            <div>Sure you want to delete your shelf</div>
+            <div className="deleteShelfText">Sure you want to delete your shelf?</div>
             <div className="deleteEditClose">
               <button className="deleteButton button"
                 onClick={this.deleteShelf.bind(this)}>
