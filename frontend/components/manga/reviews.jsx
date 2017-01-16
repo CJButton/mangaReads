@@ -14,11 +14,11 @@ class Reviews extends React.Component {
       deleteModal: false,
       addModal: false,
       rating: 1,
-      userRating: this.props.userReview.rating,
+      userRating: "",
       title: "",
       text: "",
       allReviews: "",
-      userReview: this.props.userReview
+      userReview: ""
     };
 
     this.handleTitle = this.handleTitle.bind(this);
@@ -37,6 +37,16 @@ class Reviews extends React.Component {
   // gives the modal something to attach to
   componentWillMount() {
     Modal.setAppElement('body');
+ }
+
+ componentWillUnMount() {
+   this.setState({
+     userRating: "",
+     title: "",
+     text: "",
+     allReviews: "",
+     userReview: ""
+   });
  }
 
   // collect all the data here before sending it off to be added to db
