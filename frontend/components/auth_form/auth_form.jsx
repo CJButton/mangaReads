@@ -22,7 +22,6 @@ class AuthForm extends React.Component{
     this.handleLogin = this.handleLogin.bind(this);
     this.handleSignup = this.handleSignup.bind(this);
     this.handleGuest = this.handleGuest.bind(this);
-    this.comicPanel = this.comicPanel.bind(this);
   }
 
   update(property) {

@@ -117,10 +117,11 @@ class Reviews extends React.Component {
   }
 
   render() {
+    console.log(this.props);
     return(
       <div className="reviews">
         <div className="addRevButtonContainer">
-          {this.state.userReview === undefined ? null :
+          {this.state.userReview.id !== undefined ? null :
           <button className="addRevButton button"
             onClick={this.addReviewModal.bind(this)}>
             Add your own Review!</button>}
