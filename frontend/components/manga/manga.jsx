@@ -8,8 +8,6 @@ import values from 'lodash/values';
 import StarRatingComponent from 'react-star-rating-component';
 import {hashHistory} from 'react-router';
 
-
-
 class MangaShow extends React.Component{
  constructor(props) {
    super(props);
@@ -89,9 +87,7 @@ class MangaShow extends React.Component{
 
 
  render() {
-   console.log(this.props);
    window.scrollTo(0,0);
-   let submitReview = this.props.submitReview.bind(this);
    return (
      <div className="single-manga-container">
 
@@ -105,8 +101,10 @@ class MangaShow extends React.Component{
          <div className="manga-dropdown-wrapper">
            <div className="mangaDropdownBox">
              <p className="dropdownTitle">Choose a status for this manga!</p>
-             <select className="manga-dropdown" value={this.setComicStatus()} onChange={this.handleStatus}>
-               <option className="dropdownOption" value="Select-a-Status">Select a Status</option>
+             <select className="manga-dropdown"
+               value={this.setComicStatus()} onChange={this.handleStatus}>
+               <option className="dropdownOption"
+                 value="Select-a-Status">Select a Status</option>
                <option value="Currently-Reading">Currently-Reading</option>
                <option value="Read">Read</option>
                <option value="Want-To-Read">Want-To-Read</option>
@@ -123,7 +121,8 @@ class MangaShow extends React.Component{
                         type="checkbox"
                         value={this.state[shelf.title]}
                         checked={this.state[shelf.title]}
-                        onChange={this.handleCheckChange.bind(this, shelf.title, shelf.id)}/>
+                        onChange={this.handleCheckChange.bind(this,
+                          shelf.title, shelf.id)}/>
               </label>
              );
            })

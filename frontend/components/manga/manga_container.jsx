@@ -13,21 +13,16 @@ import { toggleShelf,
          requestAllShelvesWithBook }
          from '../../actions/manga_bookshelves_actions';
 
-import { submitReview, deleteReview, editReview }
-         from '../../actions/review_actions';
-
 import MangaShow from './manga';
 import values from 'lodash/values';
 
-const mapStateToProps = ({manga, bookshelves, reviews,
+const mapStateToProps = ({manga, bookshelves,
               shelvesWithBooks, status, session}) => ({
   user: session.currentUser,
   manga,
   bookshelves: values(bookshelves),
   booksonshelves: values(shelvesWithBooks),
-  status: values(status)[0],
-  allReviews: values(reviews)[0],
-  userReview: reviews.userReview
+  status: values(status)[0]
 });
 // values(valutes(reviews)[0])),
 
@@ -39,13 +34,7 @@ const mapDispatchToProps = dispatch => ({
   changeMangaStatus: (readStatus, mangaId) =>
           dispatch(changeMangaStatus(readStatus, mangaId)),
   requestMangaStatus: (mangaId) =>
-          dispatch(requestMangaStatus(mangaId)),
-  submitReview: (userId, mangaId, rating, title, description, username) =>
-          dispatch(submitReview(userId, mangaId, rating, title, description, username)),
-  deleteReview: (reviewId) =>
-          dispatch(deleteReview(reviewId)),
-  editReview: (reviewId, rating, title, text) =>
-          dispatch(editReview(reviewId, rating, title, text))
+          dispatch(requestMangaStatus(mangaId))
 });
 
 

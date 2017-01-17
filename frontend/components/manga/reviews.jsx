@@ -16,11 +16,11 @@ class Reviews extends React.Component {
       deleteModal: false,
       addModal: false,
       rating: 1,
-      userRating: "",
       title: "",
       text: "",
-      allReviews: [],
-      userReview: ""
+      allReviews: values(this.props.allReviews),
+      userReview: this.props.userReview,
+      userRating: "",
     };
 
     this.handleTitle = this.handleTitle.bind(this);
@@ -28,13 +28,13 @@ class Reviews extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  // componentWillReceiveProps(nextProps) {
-  //   this.setState({
-  //     allReviews: nextProps.allReviews,
-  //     userReview: nextProps.userReview,
-  //     userRating: nextProps.userReview.rating
-  //   });
-  // }
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      allReviews: values(nextProps.allReviews),
+      userReview: nextProps.userReview,
+      userRating: nextProps.userReview.rating
+    });
+  }
 
   // gives the modal something to attach to
   componentWillMount() {
@@ -44,7 +44,8 @@ class Reviews extends React.Component {
   // collect all the data here before sending it off to be added to db
   handleSubmit(e) {
     e.preventDefault();
-    this.props.submit(this.props.user.id, this.props.manga.id, this.state.rating, this.state.title, this.state.text);
+    this.props.submitReview(this.props.user.id, this.props.manga.id,
+                  this.state.rating, this.state.title, this.state.text);
     this.setState({
       rating: 1,
       title: "",
@@ -76,7 +77,7 @@ class Reviews extends React.Component {
   }
 
   deleteReview() {
-    this.props.delete(this.state.userReview.id);
+    this.props.deleteReview(this.state.userReview.id);
     this.setState({
       deleteModal: false,
       rating: 1,
@@ -101,7 +102,7 @@ class Reviews extends React.Component {
   }
 
   handleEdit(reviewId){
-    this.props.edit(this.state.userReview.id, this.state.userRating, this.state.title, this.state.text);
+    this.props.editReview(this.state.userReview.id, this.state.userRating, this.state.title, this.state.text);
     this.setState({
       editModal: false
     });
@@ -116,14 +117,13 @@ class Reviews extends React.Component {
   }
 
   render() {
-    console.log(this.props);
-    console.log(this.state);
     return(
       <div className="reviews">
         <div className="addRevButtonContainer">
           {this.state.userReview === undefined ? null :
           <button className="addRevButton button"
-            onClick={this.addReviewModal.bind(this)}>Add your own Review!</button>}
+            onClick={this.addReviewModal.bind(this)}>
+            Add your own Review!</button>}
         </div>
 
 
@@ -138,7 +138,8 @@ class Reviews extends React.Component {
           <div className="formTop">
             <div className="formTopLeft">
               {this.state.userReview === undefined ? null :
-                <p className="editUsername">{this.state.userReview.username}</p>}
+                <p className="editUsername">
+                  {this.state.userReview.username}</p>}
               <div className="editFormTop">
                 <StarRatingComponent
                   className="starRating"
@@ -171,7 +172,7 @@ class Reviews extends React.Component {
 
         </Modal>
 
-        {this.state.allReviews === undefined ? null :
+        {this.state.allReviews.length === 0 ? null :
           this.state.allReviews.map((review, idx) => {
             return(
               <div className="review basicOutline" key={idx}>
@@ -209,9 +210,9 @@ class Reviews extends React.Component {
                       </div>
                   </div>
                   <div className="userRevDescrip">
-                  {review.description.split("\n").map((rev) => {
+                  {review.description.split("\n").map((rev, idx2) => {
                     return(
-                      <span>{rev}<br/></span>
+                      <span key={idx2}>{rev}<br/></span>
                     );
                   })}
 
