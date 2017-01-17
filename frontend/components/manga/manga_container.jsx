@@ -32,17 +32,20 @@ const mapStateToProps = ({manga, bookshelves, reviews,
 // values(valutes(reviews)[0])),
 
 const mapDispatchToProps = dispatch => ({
-  requestAllBookshelves: () => dispatch(requestAllBookshelves()),
+  requestAllBookshelves: () =>
+          dispatch(requestAllBookshelves()),
   toggleShelf: (bookshelfId, mangaId) =>
           dispatch(toggleShelf(bookshelfId, mangaId)),
   changeMangaStatus: (readStatus, mangaId) =>
           dispatch(changeMangaStatus(readStatus, mangaId)),
-  requestMangaStatus: (mangaId) => dispatch(requestMangaStatus(mangaId)),
+  requestMangaStatus: (mangaId) =>
+          dispatch(requestMangaStatus(mangaId)),
   submitReview: (userId, mangaId, rating, title, description, username) =>
           dispatch(submitReview(userId, mangaId, rating, title, description, username)),
-  deleteReview: (reviewId) => dispatch(deleteReview(reviewId)),
+  deleteReview: (reviewId) =>
+          dispatch(deleteReview(reviewId)),
   editReview: (reviewId, rating, title, text) =>
-                      dispatch(editReview(reviewId, rating, title, text))
+          dispatch(editReview(reviewId, rating, title, text))
 });
 
 

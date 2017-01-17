@@ -1,6 +1,8 @@
 
+
 import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
+
 import Modal from 'react-modal';
 import values from 'lodash/values';
 
@@ -17,7 +19,7 @@ class Reviews extends React.Component {
       userRating: "",
       title: "",
       text: "",
-      allReviews: "",
+      allReviews: [],
       userReview: ""
     };
 
@@ -26,27 +28,17 @@ class Reviews extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  componentWillReceiveProps(nextProps) {
-    this.setState({
-      allReviews: nextProps.allReviews,
-      userReview: nextProps.userReview,
-      userRating: nextProps.userReview.rating
-    });
-  }
+  // componentWillReceiveProps(nextProps) {
+  //   this.setState({
+  //     allReviews: nextProps.allReviews,
+  //     userReview: nextProps.userReview,
+  //     userRating: nextProps.userReview.rating
+  //   });
+  // }
 
   // gives the modal something to attach to
   componentWillMount() {
     Modal.setAppElement('body');
- }
-
- componentWillUnMount() {
-   this.setState({
-     userRating: "",
-     title: "",
-     text: "",
-     allReviews: "",
-     userReview: ""
-   });
  }
 
   // collect all the data here before sending it off to be added to db
@@ -124,10 +116,12 @@ class Reviews extends React.Component {
   }
 
   render() {
+    console.log(this.props);
+    console.log(this.state);
     return(
       <div className="reviews">
         <div className="addRevButtonContainer">
-          {this.state.userReview.rating !== undefined ? null :
+          {this.state.userReview === undefined ? null :
           <button className="addRevButton button"
             onClick={this.addReviewModal.bind(this)}>Add your own Review!</button>}
         </div>
@@ -154,7 +148,7 @@ class Reviews extends React.Component {
                   onStarClick={this.onStarClick.bind(this)}/>
               </div>
               <p className="editComicTitle">
-                {this.props.manga.title}</p>
+                {this.props.manga === undefined ? null : this.props.manga.title}</p>
             </div>
           </div>
 
@@ -177,7 +171,7 @@ class Reviews extends React.Component {
 
         </Modal>
 
-        {this.state.allReviews.length > 0 ?
+        {this.state.allReviews === undefined ? null :
           this.state.allReviews.map((review, idx) => {
             return(
               <div className="review basicOutline" key={idx}>
@@ -285,7 +279,7 @@ class Reviews extends React.Component {
 
               </div>
             );
-          }) : null }
+          }) }
       </div>
     );
   }

@@ -2,7 +2,8 @@
 
 
 import React from 'react';
-import Reviews from './reviews';
+import Reviews from './reviews_container';
+
 import values from 'lodash/values';
 import StarRatingComponent from 'react-star-rating-component';
 import {hashHistory} from 'react-router';
@@ -88,6 +89,7 @@ class MangaShow extends React.Component{
 
 
  render() {
+   console.log(this.props);
    window.scrollTo(0,0);
    let submitReview = this.props.submitReview.bind(this);
    return (
@@ -163,14 +165,16 @@ class MangaShow extends React.Component{
 
          </div>
 
-         <Reviews user={this.props.user} manga={this.props.manga}
-           allReviews={this.state.allReviews} delete={this.props.deleteReview}
-           edit={this.props.editReview} submit={submitReview}
-           userReview={this.state.userReview}/>
+         <Reviews/>
      </div>
      </div>
    );
  }
 }
+
+// <Reviews user={this.props.user} manga={this.props.manga}
+//   allReviews={this.state.allReviews} delete={this.props.deleteReview}
+//   edit={this.props.editReview} submit={submitReview}
+//   userReview={this.state.userReview}/>
 
 export default MangaShow;
