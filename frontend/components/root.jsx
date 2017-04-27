@@ -24,11 +24,13 @@ import { requestMangaReviews, requestUserReview } from '../actions/review_action
 const Root = ({store}) => {
 
   const _ensureLoggedIn = (nextState, replace) => {
-  const currentUser = store.getState().session.currentUser;
-  if (!currentUser) {
-    replace('/');
-  }
-};
+    console.log("in ensurelogged in");
+    const currentUser = store.getState().session.currentUser;
+    console.log(currentUser);
+    if (!currentUser) {
+      replace('/login');
+    }
+  };
 
   const loadAllManga = () => {
     store.dispatch(requestAllManga());
@@ -47,7 +49,7 @@ const Root = ({store}) => {
     store.dispatch(requestMangaStatus(nextState.params.id));
     store.dispatch(requestAllBookshelves());
   };
-
+  //
   const _redirectIfLoggedIn = (nextState, replace) => {
     const currentUser = store.getState().session.currentUser;
     if (currentUser) {

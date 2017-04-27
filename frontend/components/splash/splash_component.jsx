@@ -14,13 +14,7 @@ class SplashComponent extends React.Component{
       password1: "",
       name: "",
       email: "",
-      password2: "",
-      background: ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340045/splashnew2_dl8m9r.jpg",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"],
-      bgidx: 0
+      password2: ""
     };
 
     this.handleLogin = this.handleLogin.bind(this);
@@ -88,14 +82,13 @@ class SplashComponent extends React.Component{
 
   render() {
     const {username, password1, name, email, password2} = this.state;
+    console.log(this.props);
     return (
     <nav className="login-signup">
 
-
-
         <div className="headerNav">
 
-          <div className="logo" src=""></div>
+          <div className="logo"></div>
 
         {this.renderErrors()}
 
@@ -169,3 +162,11 @@ class SplashComponent extends React.Component{
 }
 
 export default SplashComponent;
+
+// ,
+// background: ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340045/splashnew2_dl8m9r.jpg",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"],
+// bgidx: 0
