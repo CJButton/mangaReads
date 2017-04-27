@@ -24,9 +24,7 @@ import { requestMangaReviews, requestUserReview } from '../actions/review_action
 const Root = ({store}) => {
 
   const _ensureLoggedIn = (nextState, replace) => {
-    console.log("in ensurelogged in");
     const currentUser = store.getState().session.currentUser;
-    console.log(currentUser);
     if (!currentUser) {
       replace('/login');
     }
