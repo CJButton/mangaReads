@@ -14,13 +14,7 @@ class SplashComponent extends React.Component{
       password1: "",
       name: "",
       email: "",
-      password2: "",
-      background: ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340045/splashnew2_dl8m9r.jpg",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
-      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"],
-      bgidx: 0
+      password2: ""
     };
 
     this.handleLogin = this.handleLogin.bind(this);
@@ -28,74 +22,73 @@ class SplashComponent extends React.Component{
     this.handleGuest = this.handleGuest.bind(this);
   }
 
-
-  update(property) {
-    return e => this.setState({[property]: e.target.value});
-  }
-
-  handleGuest(e) {
-    e.preventDefault();
-    const username = "Guest";
-    const password = "password";
-    const user = {user: {username, password}};
-    this.props.login(user);
-  }
-
-  handleLogin(e) {
-    e.preventDefault();
-    const username = this.state.username;
-    const password = this.state.password1;
-    const user = {user: {username, password}};
-    this.props.login(user);
-    this.props.router.push("/");
-  }
-
-  handleSignup(e) {
-    e.preventDefault();
-    const username = this.state.name;
-    const email = this.state.email;
-    const password = this.state.password2;
-    const newUser = {user: {username, password, email}};
-    this.props.signup(newUser);
-  }
-
-  componentDidUpdate() {
-		this.redirectIfLoggedIn();
-	}
-
-	redirectIfLoggedIn() {
-		if (this.props.loggedIn) {
-			this.props.router.push("/");
-		}
-	}
-
-  renderErrors() {
-    if (this.props.errors !== []){
-      return(
-        <div className="errorsContainer">
-          <ul>
-            {this.props.errors.map((error, idx) => (
-              <li key={idx} className="errorMessage">
-                {error}
-              </li>
-            ))}
-          </ul>
-        </div>
-    );
-   }
-  }
+  //
+  // update(property) {
+  //   return e => this.setState({[property]: e.target.value});
+  // }
+  //
+  // handleGuest(e) {
+  //   e.preventDefault();
+  //   const username = "Guest";
+  //   const password = "password";
+  //   const user = {user: {username, password}};
+  //   this.props.login(user);
+  // }
+  //
+  // handleLogin(e) {
+  //   e.preventDefault();
+  //   const username = this.state.username;
+  //   const password = this.state.password1;
+  //   const user = {user: {username, password}};
+  //   this.props.login(user);
+  //   this.props.router.push("/");
+  // }
+  //
+  // handleSignup(e) {
+  //   e.preventDefault();
+  //   const username = this.state.name;
+  //   const email = this.state.email;
+  //   const password = this.state.password2;
+  //   const newUser = {user: {username, password, email}};
+  //   this.props.signup(newUser);
+  // }
+  //
+  // componentDidUpdate() {
+	// 	this.redirectIfLoggedIn();
+	// }
+  //
+	// redirectIfLoggedIn() {
+	// 	if (this.props.loggedIn) {
+	// 		this.props.router.push("/");
+	// 	}
+	// }
+  //
+  // renderErrors() {
+  //   if (this.props.errors !== []){
+  //     return(
+  //       <div className="errorsContainer">
+  //         <ul>
+  //           {this.props.errors.map((error, idx) => (
+  //             <li key={idx} className="errorMessage">
+  //               {error}
+  //             </li>
+  //           ))}
+  //         </ul>
+  //       </div>
+  //   );
+  //  }
+  // }
 
 
   render() {
     const {username, password1, name, email, password2} = this.state;
+    console.log(this.props);
     return (
     <nav className="login-signup">
 
-
-
         <div className="headerNav">
 
-          <div className="logo" src=""></div>
+          <div className="logo"></div>
 
         {this.renderErrors()}
 
@@ -169,3 +162,11 @@ class SplashComponent extends React.Component{
 }
 
 export default SplashComponent;
+
+// ,
+// background: ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340045/splashnew2_dl8m9r.jpg",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
+// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"],
+// bgidx: 0

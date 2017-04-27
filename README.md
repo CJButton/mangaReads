@@ -1,6 +1,8 @@
 
 mangaReads
 ---------------------------------
+Project can be accessed at: http://mangareads.herokuapp.com/
+
 mangaReads is a full-stack project based on the website GoodReads.
 
 mangaReads is a organization tool designed to allow users to keep track of what
