@@ -9,7 +9,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 // containers
 import App from './app';
-import AuthContainer from './auth_form/auth_container';
+import SplashContainer from './splash/splash_container';
 import MangaContainer from './manga/manga_container';
 import HomeContainer from './home/home_container';
 import BookshelfContainer from './bookshelf/bookshelf_container';
@@ -26,7 +26,7 @@ const Root = ({store}) => {
   const _ensureLoggedIn = (nextState, replace) => {
   const currentUser = store.getState().session.currentUser;
   if (!currentUser) {
-    replace('/login');
+    replace('/');
   }
 };
 
@@ -71,17 +71,11 @@ const Root = ({store}) => {
                  onEnter={loadSingleManga}/>
 
         </Route>
-        <Route path="/login" component={AuthContainer} onEnter={_redirectIfLoggedIn}/>
+        <Route path="/login" component={SplashContainer} onEnter={_redirectIfLoggedIn}/>
       </Router>
     </Provider>
   );
 
 };
-
-
-
-
-
-
 
 export default Root;

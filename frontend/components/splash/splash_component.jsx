@@ -6,7 +6,7 @@ import Modal from 'react-modal';
 
 
 
-class AuthForm extends React.Component{
+class SplashComponent extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
@@ -15,7 +15,11 @@ class AuthForm extends React.Component{
       name: "",
       email: "",
       password2: "",
-      background: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
+      background: ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340045/splashnew2_dl8m9r.jpg",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
+      "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"],
       bgidx: 0
     };
 
@@ -23,6 +27,7 @@ class AuthForm extends React.Component{
     this.handleSignup = this.handleSignup.bind(this);
     this.handleGuest = this.handleGuest.bind(this);
   }
+
 
   update(property) {
     return e => this.setState({[property]: e.target.value});
@@ -114,6 +119,9 @@ class AuthForm extends React.Component{
           </div>
           </form>
         </div>
+
+
+
       <div className="signUpBody">
         <div className="mottoContainer">
           <h3 className="mottoSplash">
@@ -160,4 +168,4 @@ class AuthForm extends React.Component{
   }
 }
 
-export default AuthForm;
+export default SplashComponent;

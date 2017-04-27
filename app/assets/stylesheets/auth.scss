@@ -1,13 +1,19 @@
 
 
+.login-signup {
+  height: 100%;
+  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 .headerNav {
   display: flex;
   justify-content: center;
   padding-top: 20px;
   height: 80px;
-  background-color: #f4f2e9;
-  border-bottom: 4px solid black;
+  // background-color: #f4f2e9;
+  // border-bottom: 4px solid black;
 }
 
 // background images goes here
@@ -15,13 +21,13 @@
   // border-top: 500px;
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  // position: fixed;
   height: 90%;
   width: 100%;
   border-bottom-color: black;
-  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
-  background-position: center;
-  background-size: cover;
+  // background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
+  // background-position: center;
+  // background-size: cover;
 }
 
 .errorsContainer {

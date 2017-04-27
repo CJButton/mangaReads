@@ -14,12 +14,15 @@
  *= require_self
  */
 
-html {
-  height: 100%
+#root {
+  height: 100%;
 }
 
- /*background-color: #f4f2e9;*/
- body {
+html {
+  height: 100%;
+}
+
+body {
    background-color: white;
    /*font-family: 'Bangers', cursive;*/
    /*font-family: 'AnimeAce';*/

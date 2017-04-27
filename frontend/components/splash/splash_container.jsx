@@ -2,7 +2,7 @@
 
 import {connect} from 'react-redux';
 import {logout, login, signup} from '../../actions/session_actions';
-import AuthForm from './auth_form';
+import SplashComponent from './splash_component';
 
 
 // if user is logged in, then redirect them elsewhere
@@ -21,4 +21,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(AuthForm);
+)(SplashComponent);

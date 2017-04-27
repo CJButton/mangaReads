@@ -117,7 +117,6 @@ class Reviews extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     return(
       <div className="reviews">
         <div className="addRevButtonContainer">
@@ -267,6 +266,7 @@ class Reviews extends React.Component {
                 <Modal className="deleteModal"
                   isOpen={this.state.deleteModal}
                   contentLabel="Modal">
+                  
                   <div>Sure you want to delete your review?</div>
                   <div className="deleteEditClose">
                     <button className="deleteButton button"

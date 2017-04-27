@@ -27,17 +27,17 @@ const ReviewMiddleware = ({ getState, dispatch }) => next => action => {
     case DELETE_REVIEW:
       success = (review) => dispatch(removeReview(review));
       deleteReviewAPI(action.reviewId, success, errorCallBack);
-    return next(action);
+      return next(action);
 
     case REQUEST_MANGA_REVIEWS:
       success = (reviews) => dispatch(receiveMangaReviews(reviews));
       getReviews(success, errorCallBack, action.mangaId);
-    return next(action);
+      return next(action);
 
     case REQUEST_USER_REVIEW:
       success = (review) => dispatch(receiveUserReview(review));
       getUserReview(action.mangaId, success, errorCallBack);
-    return next(action);
+      return next(action);
 
     case SUBMIT_REVIEW:
       success = (review) => dispatch(receiveReview(review));

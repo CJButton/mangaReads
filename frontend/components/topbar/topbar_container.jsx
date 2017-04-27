@@ -8,7 +8,7 @@ import {logout} from '../../actions/session_actions';
 import TopBar from './topbar';
 
 
-const mapStateToProps = ({}) => ({
+const mapStateToProps = () => ({
 
 });
 

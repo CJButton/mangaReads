@@ -3,7 +3,6 @@
 
 import {receiveManga,
         REQUEST_MANGA,
-        requestManga,
         receiveErrors,
         receiveAllManga,
         requestAllManga,
