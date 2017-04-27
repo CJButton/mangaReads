@@ -22,62 +22,62 @@ class SplashComponent extends React.Component{
     this.handleGuest = this.handleGuest.bind(this);
   }
 
-  //
-  // update(property) {
-  //   return e => this.setState({[property]: e.target.value});
-  // }
-  //
-  // handleGuest(e) {
-  //   e.preventDefault();
-  //   const username = "Guest";
-  //   const password = "password";
-  //   const user = {user: {username, password}};
-  //   this.props.login(user);
-  // }
-  //
-  // handleLogin(e) {
-  //   e.preventDefault();
-  //   const username = this.state.username;
-  //   const password = this.state.password1;
-  //   const user = {user: {username, password}};
-  //   this.props.login(user);
-  //   this.props.router.push("/");
-  // }
-  //
-  // handleSignup(e) {
-  //   e.preventDefault();
-  //   const username = this.state.name;
-  //   const email = this.state.email;
-  //   const password = this.state.password2;
-  //   const newUser = {user: {username, password, email}};
-  //   this.props.signup(newUser);
-  // }
-  //
-  // componentDidUpdate() {
-	// 	this.redirectIfLoggedIn();
-	// }
-  //
-	// redirectIfLoggedIn() {
-	// 	if (this.props.loggedIn) {
-	// 		this.props.router.push("/");
-	// 	}
-	// }
-  //
-  // renderErrors() {
-  //   if (this.props.errors !== []){
-  //     return(
-  //       <div className="errorsContainer">
-  //         <ul>
-  //           {this.props.errors.map((error, idx) => (
-  //             <li key={idx} className="errorMessage">
-  //               {error}
-  //             </li>
-  //           ))}
-  //         </ul>
-  //       </div>
-  //   );
-  //  }
-  // }
+
+  update(property) {
+    return e => this.setState({[property]: e.target.value});
+  }
+
+  handleGuest(e) {
+    e.preventDefault();
+    const username = "Guest";
+    const password = "password";
+    const user = {user: {username, password}};
+    this.props.login(user);
+  }
+
+  handleLogin(e) {
+    e.preventDefault();
+    const username = this.state.username;
+    const password = this.state.password1;
+    const user = {user: {username, password}};
+    this.props.login(user);
+    this.props.router.push("/");
+  }
+
+  handleSignup(e) {
+    e.preventDefault();
+    const username = this.state.name;
+    const email = this.state.email;
+    const password = this.state.password2;
+    const newUser = {user: {username, password, email}};
+    this.props.signup(newUser);
+  }
+
+  componentDidUpdate() {
+		this.redirectIfLoggedIn();
+	}
+
+	redirectIfLoggedIn() {
+		if (this.props.loggedIn) {
+			this.props.router.push("/");
+		}
+	}
+
+  renderErrors() {
+    if (this.props.errors !== []){
+      return(
+        <div className="errorsContainer">
+          <ul>
+            {this.props.errors.map((error, idx) => (
+              <li key={idx} className="errorMessage">
+                {error}
+              </li>
+            ))}
+          </ul>
+        </div>
+    );
+   }
+  }
 
 
   render() {
