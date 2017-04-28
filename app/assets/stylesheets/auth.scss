@@ -1,10 +1,32 @@
 
 
+@keyframes panning {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 100%;
+  }
+   50% {
+    background-position: 100% 0%;
+  }
+  75% {
+    background-position: 0 100%;
+  }
+}
+
 .login-signup {
+  // box-shadow: inset 0 0 100px #000;
+  box-shadow: inset 0 0 120px #000, inset 0 0 80px #000, inset 0 0 40px #000;
+  position: relative;
   height: 100%;
-  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
-  background-position: center;
-  background-size: cover;
+  width: 100%;
+  animation: panning 60s infinite linear;
+  // background: black url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
+  // background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
+  // background-position: center;
+  background-size: 170%;
+  // background-size: 100%;
 }
 
 .headerNav {
@@ -12,16 +34,11 @@
   justify-content: center;
   padding-top: 20px;
   height: 80px;
-  // background-color: #f4f2e9;
-  // border-bottom: 4px solid black;
 }
 
-// background images goes here
 .signUpBody {
-  // border-top: 500px;
   display: flex;
   justify-content: space-between;
-  // position: fixed;
   height: 90%;
   width: 100%;
   border-bottom-color: black;

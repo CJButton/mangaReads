@@ -4,8 +4,6 @@ import React from 'react';
 import { Link } from 'react-router';
 import Modal from 'react-modal';
 
-
-
 class SplashComponent extends React.Component{
   constructor(props) {
     super(props);
@@ -14,7 +12,9 @@ class SplashComponent extends React.Component{
       password1: "",
       name: "",
       email: "",
-      password2: ""
+      password2: "",
+      bgidx: 0,
+      background: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"
     };
 
     this.handleLogin = this.handleLogin.bind(this);
@@ -53,9 +53,6 @@ class SplashComponent extends React.Component{
     this.props.signup(newUser);
   }
 
-  componentDidUpdate() {
-		this.redirectIfLoggedIn();
-	}
 
 	redirectIfLoggedIn() {
 		if (this.props.loggedIn) {
@@ -79,12 +76,41 @@ class SplashComponent extends React.Component{
    }
   }
 
+  componentDidUpdate() {
+    this.redirectIfLoggedIn();
+    setTimeout(function () {
+      this.backgrounds();
+    }.bind(this), 2000);
+  }
+
+  backgrounds() {
+    let background =
+    ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
+    "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
+    "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg",
+    "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"]
+
+    let idx = this.state.bgidx;
+    console.log(idx);
+    if (idx === 4) {
+      idx = 0;
+    } else {
+      idx += 1;
+    }
+    this.setState({
+      background: background[idx],
+      bgidx: idx
+    });
+  }
+
 
   render() {
     const {username, password1, name, email, password2} = this.state;
-    console.log(this.props);
+    let bg = {backgroundImage: 'url(' + this.state.background + ')'}
+
+
     return (
-    <nav className="login-signup">
+    <nav className="login-signup" style={bg}>
 
         <div className="headerNav">
 
@@ -162,11 +188,3 @@ class SplashComponent extends React.Component{
 }
 
 export default SplashComponent;
-
-// ,
-// background: ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483312524/splash3_nafstw.png",
-// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340045/splashnew2_dl8m9r.jpg",
-// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
-// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
-// "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"],
-// bgidx: 0
