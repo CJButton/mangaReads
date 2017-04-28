@@ -80,7 +80,7 @@ class SplashComponent extends React.Component{
     this.redirectIfLoggedIn();
     setTimeout(function () {
       this.backgrounds();
-    }.bind(this), 2000);
+    }.bind(this), 4000);
   }
 
   backgrounds() {
@@ -91,8 +91,7 @@ class SplashComponent extends React.Component{
     "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"]
 
     let idx = this.state.bgidx;
-    console.log(idx);
-    if (idx === 4) {
+    if (idx === 3) {
       idx = 0;
     } else {
       idx += 1;
@@ -107,7 +106,6 @@ class SplashComponent extends React.Component{
   render() {
     const {username, password1, name, email, password2} = this.state;
     let bg = {backgroundImage: 'url(' + this.state.background + ')'}
-
 
     return (
     <nav className="login-signup" style={bg}>
