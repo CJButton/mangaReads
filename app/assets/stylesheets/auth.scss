@@ -1,6 +1,7 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Istok+Web);
+
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -15,23 +16,32 @@
 * {
   box-sizing: border-box;
 }
-body, figure {
+figure {
   margin: 0; background: #101010;
   font-family: Istok Web, sans-serif;
   font-weight: 100;
 }
-div#captioned-gallery {
-  width: 100%; overflow: hidden;
+div.captioned-gallery {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+
 }
 figure.slider {
-  position: relative; width: 500%;
-  font-size: 0; animation: 30s slidy infinite;
+  position: relative;
+  width: 500%;
+  font-size: 0;
+  animation: 30s slidy infinite;
 }
 figure.slider figure {
   width: 20%; height: auto;
   display: inline-block;  position: inherit;
 }
-figure.slider img { width: 100%; height: auto; }
+figure.slider img {
+  width: 100%;
+  height: 50%; }
+
 figure.slider figure figcaption {
   position: absolute; bottom: 0;
   background: rgba(0,0,0,0.4);
@@ -44,16 +54,8 @@ figure.slider figure figcaption {
 
 
 .login-signup {
-  // box-shadow: inset 0 0 100px #000;
-  // box-shadow: inset 0 0 120px #000, inset 0 0 80px #000, inset 0 0 40px #000;
-  // position: relative;
-  height: 100%;
-  width: 100%;
-  // background: black url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
-  // background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
-  // background-position: center;
-  // background-size: 100%;
-  // background-size: 100%;
+  // height: 100%;
+  // width: 100%;
 }
 
 .headerNav {

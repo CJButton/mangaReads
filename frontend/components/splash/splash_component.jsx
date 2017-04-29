@@ -129,15 +129,15 @@ class SplashComponent extends React.Component{
     <nav className="login-signup">
 
 
-      <div id="captioned-gallery">
+      <div className="captioned-gallery">
       	<figure className="slider">
       		<figure>
       			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg" alt/>
-      			<figcaption>Hobbiton, New Zealand</figcaption>
+      			<figcaption>Cowboy Bebop</figcaption>
       		</figure>
       		<figure>
       			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg" alt/>
-      			<figcaption>Wanaka, New Zealand</figcaption>
+      			<figcaption>One Punch Man</figcaption>
       		</figure>
       		<figure>
       			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg" alt/>
