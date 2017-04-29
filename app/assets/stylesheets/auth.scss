@@ -27,7 +27,7 @@ figure {
 
 div.captioned-gallery {
   width: 100%;
-  height: 100%; // maxes it out to the screen height, overflowing unseen
+  height: 85%; // maxes it out to the screen height, overflowing unseen
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -54,7 +54,7 @@ figure.slider img {
 
 figure.slider figure figcaption {
   position: absolute;
-  bottom: 0;
+  top: 60%;
   background: rgba(0,0,0,0.4);
   color: #fff;
   width: 100%;
@@ -67,8 +67,6 @@ figure.slider figure figcaption {
 
 
 .login-signup {
-  // height: 100%;
-  // width: 100%;
 }
 
 .headerNav {
