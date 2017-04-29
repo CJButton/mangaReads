@@ -121,10 +121,23 @@ Several additions that I'm considering:
 
 - allow users to contact one another and see one another's shelves/ updates
 
-- allow filtering by genre/author
+- filtering by genre/author
 
-- allow voting on reviews so that more helpful reviews will bubble up to
+- voting on reviews so that more helpful reviews will bubble up to
   the top of the reviews
 
 - allowing filtering by star rating which will allow users to see why someone
   did or did not like the comic
+
+- include Amazon links, so customers can buy the comic if they like it
+  (and we get 10%!)
+
+- search feature
+
+- pagination
+
+- update the splash page to look more dynamic and exciting
+
+- trending feature, showing what is most popular at the moment
+
+- currently reading on the main page

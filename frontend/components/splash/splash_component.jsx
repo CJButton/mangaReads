@@ -13,8 +13,8 @@ class SplashComponent extends React.Component{
       name: "",
       email: "",
       password2: "",
-      bgidx: 0,
-      background: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"
+      bgidx: 0
+      // background: "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"
     };
 
     this.handleLogin = this.handleLogin.bind(this);
@@ -78,37 +78,54 @@ class SplashComponent extends React.Component{
 
   componentDidUpdate() {
     this.redirectIfLoggedIn();
-    setTimeout(function () {
-      this.backgrounds();
-    }.bind(this), 4000);
+    //
+    // setTimeout(function () {
+    //   this.backgrounds();
+    // }.bind(this), 4000);
   }
 
   backgrounds() {
-    let background =
-    ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
-    "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
-    "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg",
-    "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"]
-
-    let idx = this.state.bgidx;
-    if (idx === 3) {
-      idx = 0;
-    } else {
-      idx += 1;
-    }
-    this.setState({
-      background: background[idx],
-      bgidx: idx
-    });
+    // let background =
+    // ["http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251031/Anime-Dragon-Ball-50-0_djnm3d.jpg",
+    // "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251030/Rurouni-Kenshin-TV-Header_u2haug.jpg",
+    // "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg",
+    // "http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"]
+    //
+    // let idx = this.state.bgidx;
+    // if (idx === 3) {
+    //   idx = 0;
+    // } else {
+    //   idx += 1;
+    // }
+    //
+    // this.setState({
+    //   background: background[idx],
+    //   bgidx: idx
+    // });
   }
 
 
   render() {
     const {username, password1, name, email, password2} = this.state;
-    let bg = {backgroundImage: 'url(' + this.state.background + ')'}
+    // let bg = {backgroundImage: 'url(' + this.state.background + ')'}
+    // <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"/>
 
     return (
-    <nav className="login-signup" style={bg}>
+    <nav className="login-signup">
+
+      <div className="splash-slideshow-wrapper">
+        <div className="splash-bg">
+          <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"/>
+        </div>
+
+        <div className="splash-bg">
+          <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"/>
+        </div>
+
+      </div>
+
+
+
 
         <div className="headerNav">
 
