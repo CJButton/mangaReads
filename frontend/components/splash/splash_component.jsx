@@ -110,19 +110,52 @@ class SplashComponent extends React.Component{
     // let bg = {backgroundImage: 'url(' + this.state.background + ')'}
     // <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"/>
 
+
+          // <div className="splash-slideshow-wrapper">
+          //   <figure className="bg-slider">
+          //     <figure className="splash-bg">
+          //       <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"/>
+          //     </figure>
+          //
+          //     <figure className="splash-bg">
+          //       <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"/>
+          //     </figure>
+          //   </figure>
+          //
+          // </div>
+
     return (
+
     <nav className="login-signup">
 
-      <div className="splash-slideshow-wrapper">
-        <div className="splash-bg">
-          <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg"/>
-        </div>
 
-        <div className="splash-bg">
-          <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg"/>
-        </div>
-
+      <div id="captioned-gallery">
+      	<figure className="slider">
+      		<figure>
+      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg" alt/>
+      			<figcaption>Hobbiton, New Zealand</figcaption>
+      		</figure>
+      		<figure>
+      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg" alt/>
+      			<figcaption>Wanaka, New Zealand</figcaption>
+      		</figure>
+      		<figure>
+      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg" alt/>
+      			<figcaption>Utah, United States</figcaption>
+      		</figure>
+      		<figure>
+      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg" alt/>
+      			<figcaption>Bryce Canyon, Utah, United States</figcaption>
+      		</figure>
+      		<figure>
+      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493251032/bebop_ep7hso.jpg" alt/>
+      			<figcaption>Hobbiton, New Zealand</figcaption>
+      		</figure>
+      	</figure>
       </div>
+
+
+
 
 
 

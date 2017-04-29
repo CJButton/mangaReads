@@ -1,98 +1,50 @@
 
 
-.splash-slideshow-wrapper,
-.splash-slideshow-wrapper:after {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  top: 0;
-  left: 0;
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
 }
-
-.splash-slideshow-wrapper:after {
-  content: '';
-  background: transparent;
-  // background: transparent url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg) repeat top left;
+* {
+  box-sizing: border-box;
 }
-// very unsure about this background and what it should be
-// come back to it later
-
-.splash-slideshow-wrapper img {
-  width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    //positio is 50 50?
-    background-position: 50% 50%;
-    background-repeat: none;
-    // opacity will be changed with animations
-    opacity: 0;
-    z-index: 0;
-    animation: imageAnimation 0s linear infinite 0s;
+body, figure {
+  margin: 0; background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
 }
-
-.splash-slideshow-wrapper splash-bg:nth-child(1) img {
-  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
-  animation-delay: 0s;
+div#captioned-gallery {
+  width: 100%; overflow: hidden;
 }
-
-.splash-slideshow-wrapper splash-bg:nth-child(2) img {
-  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1483340044/splashnew1_lwqq6o.jpg);
-  animation-delay: 5s;
+figure.slider {
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite;
 }
-
-@keyframes imageAnimation {
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    50% { opacity: 1; animation-timing-function: ease-out; }
-    // 17% { opacity: 1 }
-    // 25% { opacity: 0 }
-    100% { opacity: 0 }
+figure.slider figure {
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit;
 }
-
-
-
-
-
-//
-// .splash-slideshow-wrapper img{
-//   width: 100%;
-//   height: 100%;
-//   position: absolute;
-//   z-index: -1;
-// }
-//
-//
-// @keyframes xfade{
-//    0%{
-//       opacity: 1;
-//    }
-//    50% {
-//       opacity: 0;
-//    }
-  //  10.5% {
-  //     opacity:1;
-  //  }
-  //  12.5%{
-  //     opacity: 0;
-  //  }
-  //  98% {
-  //     opacity:0;
-  //  }
-//    100% {
-//       opacity:1;
-//    }
-// }
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption {
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem;
+}
 
 
 
 
 
 .login-signup {
-  box-shadow: inset 0 0 100px #000;
+  // box-shadow: inset 0 0 100px #000;
   // box-shadow: inset 0 0 120px #000, inset 0 0 80px #000, inset 0 0 40px #000;
   // position: relative;
   height: 100%;
