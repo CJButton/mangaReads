@@ -112,7 +112,7 @@ class SplashComponent extends React.Component{
 
         <div className="headerNav">
 
-          <div className="logo"></div>
+        <div className="logo"/>
 
         {this.renderErrors()}
 
