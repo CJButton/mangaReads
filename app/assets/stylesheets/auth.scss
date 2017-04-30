@@ -34,7 +34,7 @@ figure.slider {
   position: relative;
   width: 500%;
   font-size: 0;
-  animation: 35s slidy infinite;
+  animation: 25s slidy infinite;
 }
 
 figure.slider figure {
@@ -97,16 +97,17 @@ figure.slider figure figcaption {
 
 .splash-errorsBG-hidden {
   visibility: hidden;
-  margin-left: 60px;
-  margin-right: 55px;
+  margin-left: 40px;
+  margin-right: 35px;
   // margin-left: 110px;
   // margin-right: 105px;
   width: 350px;
 }
 
 .errorsContainer {
-  margin-left: 57px;
-  margin-right: 55px;
+  // 57, 55
+  margin-left: 37px;
+  margin-right: 34px;
   // margin-left: 107px;
   // margin-right: 105px;
   width: 350px;
@@ -154,6 +155,7 @@ figure.slider figure figcaption {
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.7);
   width: 275px;
+  margin-right: 25px;
 }
 
 
@@ -261,6 +263,7 @@ figure.slider figure figcaption {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
   border: black solid 1px;
+  margin-left: 25px;
 }
 
 
