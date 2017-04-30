@@ -31,6 +31,7 @@ div.captioned-gallery {
   overflow: hidden;
   position: absolute;
   z-index: -1;
+  border-bottom: black solid 1px;
 }
 
 figure.slider {
@@ -109,7 +110,7 @@ figure.slider figure figcaption {
 }
 
 .logo {
-  border-style: none;
+  border: black solid 1px;
   background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png);
   height: 55px;;
   width: 300px;
@@ -117,11 +118,11 @@ figure.slider figure figcaption {
   border-radius: 5px;
 }
 
-.loginForm {
+.login-form-wrapper {
   height: 75px;
-  border-radius: 5px;
   background: rgba(255, 255, 255, 0.7);
-  border: blacks solid 1px;
+  border: black solid 1px;
+  border-radius: 5px;
 }
 
 .loginButtons {
@@ -132,7 +133,6 @@ figure.slider figure figcaption {
 .auth-login-button {
   color: #fff;
   background-color: #6496c8;
-  // text-shadow: -1px 1px #417cb8;
   border: black solid 2px;
   border-radius: 3px;
   margin-left: 10px;

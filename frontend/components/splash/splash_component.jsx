@@ -115,7 +115,7 @@ class SplashComponent extends React.Component{
         <div className="logo"/>
 
         {this.renderErrors()}
-
+        <div className="login-form-wrapper">
           <form className="loginForm" onSubmit={this.handleLogin}>
             <input type="text"
               placeholder="Username"
@@ -128,13 +128,17 @@ class SplashComponent extends React.Component{
               onChange={this.update("password1")}/>
             <br></br>
 
-          <div className="loginButtons">
+            <div className="loginButtons">
 
-            <input className="auth-login-button button"
-                                    type="submit" value="Login"/>&nbsp;
+              <input className="auth-login-button button"
+                type="submit" value="Login"/>&nbsp;
 
-          </div>
-          </form>
+              </div>
+            </form>
+        </div>
+
+
+
         </div>
 
 
