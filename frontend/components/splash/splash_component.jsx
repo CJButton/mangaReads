@@ -88,7 +88,7 @@ class SplashComponent extends React.Component{
       <div className="captioned-gallery">
       	<figure className="slider">
           <figure>
-            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502079/cropped-1920-1200-741091_yudxc9.jpg" alt/>
+            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
             <figcaption>One Punch Man</figcaption>
           </figure>
           <figure>
@@ -104,7 +104,7 @@ class SplashComponent extends React.Component{
       			<figcaption>Dragonball</figcaption>
       		</figure>
           <figure>
-            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502079/cropped-1920-1200-741091_yudxc9.jpg" alt/>
+            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
             <figcaption>One Punch Man</figcaption>
           </figure>
       	</figure>
@@ -183,10 +183,21 @@ class SplashComponent extends React.Component{
                   value="Guest Login">Guest Login</button>
 
         </form>
+
+
+        <footer className="splash-footer" target="_blank">
+          <a href="https://www.linkedin.com/in/cjbutton">
+            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493527968/In-2CRev-14px_npyzzk.png"/>
+          </a>
+
+          <a href="https://github.com/CJButton" target="_blank">
+            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493520070/GitHub_Logo_k7corb.png"/>
+          </a>
+
+
+        </footer>
+
       </div>
-      <footer className="splash-footer">
-        <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493520070/GitHub_Logo_k7corb.png"/>
-      </footer>
     </nav>
     );
   }
