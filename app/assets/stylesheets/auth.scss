@@ -99,6 +99,13 @@ figure.slider figure figcaption {
   margin-left: 110px;
   margin-right: 105px;
   width: 350px;
+}
+
+.splash-errorsBG-hidden {
+  visibility: hidden;
+}
+
+.splash-errorsBG-show {
   background: rgba(255, 255, 255, 0.7);
 }
 

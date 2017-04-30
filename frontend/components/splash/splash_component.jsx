@@ -12,7 +12,8 @@ class SplashComponent extends React.Component{
       password1: "",
       name: "",
       email: "",
-      password2: ""
+      password2: "",
+      errorsBG: "splash-errorsBG-hidden"
     };
 
     this.handleLogin = this.handleLogin.bind(this);
@@ -60,15 +61,22 @@ class SplashComponent extends React.Component{
 
   renderErrors() {
     if (this.props.errors !== []){
+
+      this.setState({
+        errorsBG: "splash-errorsBG-show"
+      });
+
       return(
-        <div className="errorsContainer">
-          <ul>
-            {this.props.errors.map((error, idx) => (
-              <li key={idx} className="errorMessage">
-                {error}
-              </li>
-            ))}
-          </ul>
+        <div className={this.state.errorsBG}>
+          <div className="errorsContainer">
+            <ul>
+              {this.props.errors.map((error, idx) => (
+                <li key={idx} className="errorMessage">
+                  {error}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
     );
    }
