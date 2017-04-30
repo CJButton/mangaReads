@@ -62,10 +62,6 @@ class SplashComponent extends React.Component{
   renderErrors() {
     if (this.props.errors !== []){
 
-      this.setState({
-        errorsBG: "splash-errorsBG-show"
-      });
-
       return(
         <div className={this.state.errorsBG}>
           <div className="errorsContainer">
@@ -84,6 +80,14 @@ class SplashComponent extends React.Component{
 
   componentDidUpdate() {
     this.redirectIfLoggedIn();
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (this.props.errors !== []) {
+      this.setState({
+        errorsBG: "splash-errorsBG-show"
+      })
+    }
   }
 
 

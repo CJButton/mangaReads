@@ -95,24 +95,36 @@ figure.slider figure figcaption {
   border-bottom-color: black;
 }
 
-.errorsContainer {
+.splash-errorsBG-hidden {
+  visibility: hidden;
   margin-left: 110px;
   margin-right: 105px;
   width: 350px;
 }
 
-.splash-errorsBG-hidden {
-  visibility: hidden;
-}
-
+// why is margin-left need to be 107 here, but 110 above?
+// something to do with the ul?
 .splash-errorsBG-show {
+  margin-left: 107px;
+  margin-right: 105px;
+  width: 350px;
   background: rgba(255, 255, 255, 0.7);
+  border: red solid 2px;
+  border-radius: 5px;
 }
 
-.errorsContainer ul {
+.errorsContainer ul{
   padding-left: 0px;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 5px;
+}
+
+.errorMessage {
+  font-size: 12pt;
+  list-style: none;
+  color: red;
+  margin-top: 3px;
+  margin-left: 7px;
 }
 
 .splash-signUp-middle {
@@ -183,12 +195,6 @@ figure.slider figure figcaption {
   width: 179px;
   height: 34px;
   font-size: 18px;
-}
-
-.errorMessage {
-  font-size: 12pt;
-  list-style: none;
-  color: red;
 }
 
 .errorMessage li {
