@@ -12,8 +12,7 @@ class SplashComponent extends React.Component{
       password1: "",
       name: "",
       email: "",
-      password2: "",
-      errorsBG: "splash-errorsBG-hidden"
+      password2: ""
     };
 
     this.handleLogin = this.handleLogin.bind(this);
@@ -60,10 +59,9 @@ class SplashComponent extends React.Component{
 	}
 
   renderErrors() {
-    if (this.props.errors !== []){
 
+    if (this.props.errors.length > 0) {
       return(
-        <div className={this.state.errorsBG}>
           <div className="errorsContainer">
             <ul>
               {this.props.errors.map((error, idx) => (
@@ -73,21 +71,19 @@ class SplashComponent extends React.Component{
               ))}
             </ul>
           </div>
+      );
+    } else {
+      return (
+        <div className="splash-errorsBG-hidden">
+
+
         </div>
-    );
-   }
+      )
+  }
   }
 
   componentDidUpdate() {
     this.redirectIfLoggedIn();
-  }
-
-  componentWillReceiveProps(nextProps) {
-    if (this.props.errors !== []) {
-      this.setState({
-        errorsBG: "splash-errorsBG-show"
-      })
-    }
   }
 
 

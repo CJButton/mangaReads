@@ -97,16 +97,32 @@ figure.slider figure figcaption {
 
 .splash-errorsBG-hidden {
   visibility: hidden;
-  margin-left: 110px;
-  margin-right: 105px;
+  margin-left: 60px;
+  margin-right: 55px;
+  // margin-left: 110px;
+  // margin-right: 105px;
   width: 350px;
 }
+
+.errorsContainer {
+  margin-left: 57px;
+  margin-right: 55px;
+  // margin-left: 107px;
+  // margin-right: 105px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.7);
+  border: red solid 2px;
+  border-radius: 5px;
+}
+
 
 // why is margin-left need to be 107 here, but 110 above?
 // something to do with the ul?
 .splash-errorsBG-show {
-  margin-left: 107px;
-  margin-right: 105px;
+  margin-left: 57px;
+  margin-right: 55px;
+  // margin-left: 107px;
+  // margin-right: 105px;
   width: 350px;
   background: rgba(255, 255, 255, 0.7);
   border: red solid 2px;
