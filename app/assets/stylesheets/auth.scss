@@ -89,25 +89,30 @@ figure.slider figure figcaption {
 
 .signUpBody {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 90%;
   width: 100%;
   border-bottom-color: black;
 }
 
 .errorsContainer {
-  width: 390px;
-  padding-left: 10px;
-  padding-right: 70px;
+  margin-left: 110px;
+  margin-right: 105px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .errorsContainer ul {
+  padding-left: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
+.splash-signUp-middle {
+  width: 0px;
+}
+
 .signUpForm {
-  margin-right: 150px;
   margin-top: 80px;
   height: 315px;
   border: black solid 1px;
@@ -224,11 +229,11 @@ figure.slider figure figcaption {
   width: 600px;
   height: 180px;
   margin-top: 150px;
-  margin-left: 170px;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
   border: black solid 1px;
 }
+
 
 .mottoSplash {
   flex: auto;

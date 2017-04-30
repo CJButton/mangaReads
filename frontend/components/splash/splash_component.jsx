@@ -155,6 +155,12 @@ class SplashComponent extends React.Component{
             and find new comics to enjoy, here with mangaReads!
           </p>
         </div>
+
+        <div className="splash-signUp-middle">
+
+
+        </div>
+
         <form className="signUpForm" onSubmit={this.handleSignup}>
           <h4>"New here? Create a free account!"</h4>
 
