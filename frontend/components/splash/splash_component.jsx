@@ -87,6 +87,14 @@ class SplashComponent extends React.Component{
 
       <div className="captioned-gallery">
       	<figure className="slider">
+          <figure>
+            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502079/cropped-1920-1200-741091_yudxc9.jpg" alt/>
+            <figcaption>One Punch Man</figcaption>
+          </figure>
+          <figure>
+            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg" alt/>
+            <figcaption>Attack on Titan</figcaption>
+          </figure>
       		<figure>
       			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502076/cropped-1920-1200-109375_bmkmet.jpg" alt/>
       			<figcaption>Ruroni Kenshin</figcaption>
@@ -95,17 +103,9 @@ class SplashComponent extends React.Component{
       			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg" alt/>
       			<figcaption>Dragonball</figcaption>
       		</figure>
-      		<figure>
-      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502079/cropped-1920-1200-741091_yudxc9.jpg" alt/>
-      			<figcaption>One Punch Man</figcaption>
-      		</figure>
-      		<figure>
-      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg" alt/>
-      			<figcaption>Attack on Titan</figcaption>
-      		</figure>
           <figure>
-            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502076/cropped-1920-1200-109375_bmkmet.jpg" alt/>
-            <figcaption>Ruroni Kenshin</figcaption>
+            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502079/cropped-1920-1200-741091_yudxc9.jpg" alt/>
+            <figcaption>One Punch Man</figcaption>
           </figure>
       	</figure>
       </div>
@@ -184,6 +184,9 @@ class SplashComponent extends React.Component{
 
         </form>
       </div>
+      <footer className="splash-footer">
+        <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493520070/GitHub_Logo_k7corb.png"/>
+      </footer>
     </nav>
     );
   }
