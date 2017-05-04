@@ -142,4 +142,4 @@ Several additions that I'm considering:
 
 - currently reading on the main page
 
-- 
+- have homepage organized by categories, similar to Netflix's homepage 
