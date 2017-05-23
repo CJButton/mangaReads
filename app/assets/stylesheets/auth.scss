@@ -81,8 +81,8 @@ figure.slider figure figcaption {
 
 
 .headerNav {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   padding-top: 35px;
   height: 80px;
 }
@@ -108,13 +108,12 @@ figure.slider figure figcaption {
 
 .errorsContainer {
   // 57, 55
-  margin-left: 13px;
-  margin-right: 18px;
+  margin-left: 83px;
   // margin-left: 37px;
   // margin-right: 34px;
   // margin-left: 107px;
   // margin-right: 105px;
-  width: 350px;
+  width: 311px;
   background: rgba(255, 255, 255, 0.7);
   border: red solid 2px;
   border-radius: 5px;
@@ -160,6 +159,10 @@ figure.slider figure figcaption {
   margin-right: 25px;
 }
 
+.splash-top-row {
+  padding-top: 25px;
+}
+
 
 .logo {
   border: black solid 1px;
@@ -168,6 +171,7 @@ figure.slider figure figcaption {
   width: 300px;
   background-repeat: no-repeat;
   border-radius: 5px;
+  margin-left: 60px;
 }
 
 .login-form-wrapper {
@@ -175,6 +179,7 @@ figure.slider figure figcaption {
   background: rgba(255, 255, 255, 0.7);
   border: black solid 1px;
   border-radius: 5px;
+  width: 370px;
 }
 
 .loginButtons {
@@ -223,15 +228,15 @@ figure.slider figure figcaption {
 
 .loginForm > input {
   font-size: 16px;
-  width: 175px;
-  padding: 10px;
+  // width: 150px;
+  // padding: 10px;
   margin: 5px;
   font-family: 'Lato', sans-serif;
-  margin-left: 10px;
-  margin-right: 10px;
+  // margin-left: 10px;
+  // margin-right: 10px;
 }
 
-.signUpForm > h4 {
+.signUpForm > h3 {
   font-family: 'Lato', sans-serif;
   margin-left: 14px;
 }
@@ -242,7 +247,7 @@ figure.slider figure figcaption {
 }
 
 .signUpForm > input {
-  height: 20px;
+  height: 36px;
   width: 175px;
   padding: 5px;
   margin: 5px;

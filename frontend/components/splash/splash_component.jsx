@@ -2,7 +2,13 @@
 
 import React from 'react';
 import { Link } from 'react-router';
-import Modal from 'react-modal';
+import {
+  Grid,
+  Row,
+  Col,
+  Image,
+} from 'react-bootstrap';
+
 
 class SplashComponent extends React.Component{
   constructor(props) {
@@ -118,36 +124,46 @@ class SplashComponent extends React.Component{
       	</figure>
       </div>
 
-        <div className="headerNav">
+      <Row className="splash-top-row">
 
-        <div className="logo"/>
+        <Col md={3}>
+          <div className="logo"/>
+        </Col>
 
-        {this.renderErrors()}
-        <div className="login-form-wrapper">
-          <form className="loginForm" onSubmit={this.handleLogin}>
-            <input type="text"
-              placeholder="Username"
-              value={username}
-              onChange={this.update("username")}/>
+        <Col md={4}>
+          {this.renderErrors()}
+        </Col>
 
-            <input type="password"
-              placeholder="Password"
-              value={password1}
-              onChange={this.update("password1")}/>
-            <br></br>
+        <Col md={5}>
+          <div className="login-form-wrapper">
+            <form className="loginForm" onSubmit={this.handleLogin}>
+              <input type="text"
+                placeholder="Username"
+                value={username}
+                onChange={this.update("username")}/>
 
-            <div className="loginButtons">
+              <input type="password"
+                placeholder="Password"
+                value={password1}
+                onChange={this.update("password1")}/>
+              <br></br>
 
-              <input className="auth-login-button button"
-                type="submit" value="Login"/>&nbsp;
+              <div className="loginButtons">
 
-              </div>
-            </form>
-        </div>
+                <input className="auth-login-button button"
+                  type="submit" value="Login"/>
+                &nbsp;
+
+                </div>
+              </form>
+            </div>
+
+        </Col>
+
+      </Row>
 
 
 
-        </div>
 
 
 
@@ -216,5 +232,44 @@ class SplashComponent extends React.Component{
     );
   }
 }
+
+// <section>
+//
+//   <Grid fluid>
+//
+//     <Col sm={4}>
+//       <div className="logo"/>
+//     </Col>
+//
+//     <Col sm={4}>
+//       {this.renderErrors()}
+//     </Col>
+//
+//     <Col sm={4}>
+//       <div className="login-form-wrapper">
+//         <form className="loginForm" onSubmit={this.handleLogin}>
+//           <input type="text"
+//             placeholder="Username"
+//             value={username}
+//             onChange={this.update("username")}/>
+//
+//           <input type="password"
+//             placeholder="Password"
+//             value={password1}
+//             onChange={this.update("password1")}/>
+//           <br></br>
+//
+//           <div className="loginButtons">
+//
+//             <input className="auth-login-button button"
+//               type="submit" value="Login"/>&nbsp;
+//
+//             </div>
+//           </form>
+//         </div>
+//     </Col>
+//
+//   </Grid>
+// </section>
 
 export default SplashComponent;
