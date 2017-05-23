@@ -108,7 +108,7 @@ figure.slider figure figcaption {
 
 .errorsContainer {
   // 57, 55
-  margin-left: 83px;
+  // margin-left: 83px;
   // margin-left: 37px;
   // margin-right: 34px;
   // margin-left: 107px;
@@ -166,12 +166,19 @@ figure.slider figure figcaption {
 
 .logo {
   border: black solid 1px;
-  background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png);
-  height: 55px;;
-  width: 300px;
-  background-repeat: no-repeat;
   border-radius: 5px;
-  margin-left: 60px;
+  width: 100%;
+  height: auto;
+  // background-image: url(http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png);
+  // background-size: cover;
+  // height: 55px;
+  // max-height: 55px;
+  // width: 300px;
+  // max-width: 300px;
+  // height: 100%;
+  // width: 100%;
+  // background-repeat: no-repeat;
+  // margin-left: 60px;
 }
 
 .login-form-wrapper {
@@ -179,7 +186,7 @@ figure.slider figure figcaption {
   background: rgba(255, 255, 255, 0.7);
   border: black solid 1px;
   border-radius: 5px;
-  width: 370px;
+  // width: 370px;
 }
 
 .loginButtons {

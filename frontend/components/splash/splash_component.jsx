@@ -126,15 +126,15 @@ class SplashComponent extends React.Component{
 
       <Row className="splash-top-row">
 
-        <Col md={3}>
-          <div className="logo"/>
+        <Col xs={3}>
+          <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
         </Col>
 
-        <Col md={4}>
+        <Col sm={5}>
           {this.renderErrors()}
         </Col>
 
-        <Col md={5}>
+        <Col sm={4}>
           <div className="login-form-wrapper">
             <form className="loginForm" onSubmit={this.handleLogin}>
               <input type="text"
