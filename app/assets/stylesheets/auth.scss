@@ -77,18 +77,8 @@ figure.slider figure figcaption {
 }
 
 .headerNav {
-  // display: flex;
-  // justify-content: center;
   padding-top: 35px;
   height: 80px;
-}
-
-.signUpBody {
-  display: flex;
-  justify-content: space-around;
-  height: 90%;
-  width: 100%;
-  border-bottom-color: black;
 }
 
 .splash-errorsBG-hidden {
@@ -133,7 +123,6 @@ figure.slider figure figcaption {
 }
 
 .signUpForm {
-  margin-top: 1em;
   height: 315px;
   border: black solid 1px;
   border-radius: 3px;
@@ -246,32 +235,23 @@ figure.slider figure figcaption {
 }
 
 .mottoContainer {
-  width: 600px;
-  height: 180px;
-  margin-top: 150px;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
   border: black solid 1px;
-  margin-left: 25px;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 
 .mottoSplash {
-  flex: auto;
-  margin-top: 0px;
-  margin-bottom: 8px;
-  margin-top: 20px;
-  margin-left: 40px;
   font-size: 24px;
 }
 
 .mottoSubSplash {
   font-size: 18px;
-  margin-left: 25px;
-  margin-top: 15px;
 }
 
 .mottoSplashbottom {
-  margin-left: 160px;
+  text-align: center;
   font-size: 20px;
 }

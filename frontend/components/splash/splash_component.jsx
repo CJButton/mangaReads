@@ -97,6 +97,7 @@ class SplashComponent extends React.Component{
 
     return (
     <nav className="login-signup">
+      {/*
         <div className="captioned-gallery">
           <figure className="slider">
             <figure>
@@ -121,6 +122,7 @@ class SplashComponent extends React.Component{
             </figure>
           </figure>
         </div>
+        */}
 
         <div className="splash-top-bar">
           <Col xs={8} xsOffset={2} sm={5} smOffset={1} md={4} mdOffset={1}>
@@ -159,8 +161,8 @@ class SplashComponent extends React.Component{
           {this.renderErrors()}
         </Col>
 
-      <div className="signUpBody">
-        <div className="mottoContainer">
+        <Col xs={10} xsOffset={1} md={5} mdOffset={2}
+             className="mottoContainer">
           <h3 className="mottoSplash">
             There is more to Japan than sushi and samurai.
           </h3>
@@ -170,41 +172,38 @@ class SplashComponent extends React.Component{
             find it all in these comics from Japan. Organize your collection,
             and find new comics to enjoy, here with mangaReads!
           </p>
-        </div>
+        </Col>
 
-        <div className="splash-signUp-middle">
+        <Col xs={4} xsOffset={3} sm={4} smOffset={4} md={3} mdOffset={1}>
+          <form className="signUpForm" onSubmit={this.handleSignup}>
+            <h4>"New here? Create a free account!"</h4>
 
+            <input type="text"
+              placeholder="Name"
+              value={name}
+              onChange={this.update("name")} />
 
-        </div>
+            <input type="text"
+              placeholder="Email Address"
+              value={email}
+              onChange={this.update("email")} />
 
-        <form className="signUpForm" onSubmit={this.handleSignup}>
-          <h4>"New here? Create a free account!"</h4>
+            <input type="password"
+              placeholder="Password"
+              value={password2}
+              onChange={this.update("password2")}/>
 
-          <input type="text"
-            placeholder="Name"
-            value={name}
-            onChange={this.update("name")} />
+            <button className="submitButton button"
+              type="submit"
+              placeholder="Sign up">
+              Sign Up</button>
 
-          <input type="text"
-            placeholder="Email Address"
-            value={email}
-            onChange={this.update("email")} />
+            <button className="guestLogin button" type="submit"
+              onClick={this.handleGuest}
+              value="Guest Login">Guest Login</button>
 
-          <input type="password"
-            placeholder="Password"
-            value={password2}
-            onChange={this.update("password2")}/>
-
-          <button className="submitButton button"
-                  type="submit"
-                  placeholder="Sign up">
-            Sign Up</button>
-
-          <button className="guestLogin button" type="submit"
-                  onClick={this.handleGuest}
-                  value="Guest Login">Guest Login</button>
-
-        </form>
+          </form>
+        </Col>
 
 
         <footer className="splash-footer" target="_blank">
@@ -218,50 +217,9 @@ class SplashComponent extends React.Component{
 
 
         </footer>
-
-      </div>
     </nav>
     );
   }
 }
-
-// <section>
-//
-//   <Grid fluid>
-//
-//     <Col sm={4}>
-//       <div className="logo"/>
-//     </Col>
-//
-//     <Col sm={4}>
-//       {this.renderErrors()}
-//     </Col>
-//
-//     <Col sm={4}>
-//       <div className="login-form-wrapper">
-//         <form className="loginForm" onSubmit={this.handleLogin}>
-//           <input type="text"
-//             placeholder="Username"
-//             value={username}
-//             onChange={this.update("username")}/>
-//
-//           <input type="password"
-//             placeholder="Password"
-//             value={password1}
-//             onChange={this.update("password1")}/>
-//           <br></br>
-//
-//           <div className="loginButtons">
-//
-//             <input className="auth-login-button button"
-//               type="submit" value="Login"/>&nbsp;
-//
-//             </div>
-//           </form>
-//         </div>
-//     </Col>
-//
-//   </Grid>
-// </section>
 
 export default SplashComponent;
