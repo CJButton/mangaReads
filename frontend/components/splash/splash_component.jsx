@@ -176,7 +176,7 @@ class SplashComponent extends React.Component{
 
         <Col xs={4} xsOffset={3} sm={4} smOffset={4} md={3} mdOffset={1}>
           <form className="signUpForm" onSubmit={this.handleSignup}>
-            <h4>"New here? Create a free account!"</h4>
+            <h4>New here? Create a free account!</h4>
 
             <input type="text"
               placeholder="Name"
@@ -193,12 +193,12 @@ class SplashComponent extends React.Component{
               value={password2}
               onChange={this.update("password2")}/>
 
-            <button className="submitButton button"
+            <button className="submitButton button splashButtons"
               type="submit"
               placeholder="Sign up">
               Sign Up</button>
 
-            <button className="guestLogin button" type="submit"
+            <button className="guestLogin button splashButtons" type="submit"
               onClick={this.handleGuest}
               value="Guest Login">Guest Login</button>
 

@@ -107,7 +107,6 @@ figure.slider figure figcaption {
   border: red solid 2px;
   border-radius: 5px;
   padding-left: 0px;
-  margin-top: 1em;
 }
 
 .errorMessage {
@@ -123,12 +122,11 @@ figure.slider figure figcaption {
 }
 
 .signUpForm {
-  height: 315px;
+  text-align: center;
+  align-items: center;
   border: black solid 1px;
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.7);
-  width: 275px;
-  margin-right: 25px;
 }
 
 .splash-top-row {
@@ -170,27 +168,21 @@ figure.slider figure figcaption {
 }
 
 .submitButton {
-  color: #fff;
   background-color: #6496c8;
+}
+
+.splashButtons {
+  color: #fff;
   border: black solid 2px;
   border-radius: 3px;
-  margin-left: 40px;
-  width: 189px;
+  width: 175px;
   height: 34px;
   font-size: 18px;
   margin-top: 10px;
 }
 
 .guestLogin {
-  color: #fff;
   background-color: #FA6700;
-  border: black solid 2px;
-  border-radius: 3px;
-  margin-left: 40px;
-  margin-top: 10px;
-  width: 189px;
-  height: 34px;
-  font-size: 18px;
 }
 
 .errorMessage li {
@@ -215,6 +207,8 @@ figure.slider figure figcaption {
 .signUpForm {
   display: flex;
   flex-direction: column;
+  padding-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .signUpForm > input {
@@ -224,7 +218,6 @@ figure.slider figure figcaption {
   margin: 5px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  margin-left: 40px;
 }
 
 .signUpButton {
