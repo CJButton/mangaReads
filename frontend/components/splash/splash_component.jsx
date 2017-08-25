@@ -78,7 +78,8 @@ class SplashComponent extends React.Component{
             </ul>
           </div>
       );
-    } else {
+    }
+    else {
       return (
         <div className="splash-errorsBG-hidden">
 
@@ -123,15 +124,11 @@ class SplashComponent extends React.Component{
           </figure>
         </div>
 
-        <Col sm={3} smOffset={1}>
+        <Col xs={8} xsOffset={2} sm={4} smOffset={1}>
           <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
         </Col>
 
-        <Col sm={3}>
-          {this.renderErrors()}
-        </Col>
-
-        <Col sm={4}>
+        <Col xs={8} xsOffset={2} sm={5} smOffset={1}>
           <div className="login-form-wrapper">
             <form className="loginForm" onSubmit={this.handleLogin}>
               <input type="text"
@@ -155,6 +152,12 @@ class SplashComponent extends React.Component{
               </form>
             </div>
         </Col>
+
+      <Col xs={12}>
+        <Col xs={8} xsOffset={2} sm={5} smOffset={6}>
+          {this.renderErrors()}
+        </Col>
+      </Col>
 
       <div className="signUpBody">
         <div className="mottoContainer">
