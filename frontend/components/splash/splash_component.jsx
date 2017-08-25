@@ -161,7 +161,7 @@ class SplashComponent extends React.Component{
           {this.renderErrors()}
         </Col>
 
-        <Col xs={10} xsOffset={1} md={5} mdOffset={2}
+        <Col xs={10} xsOffset={1} md={6} mdOffset={1}
              className="mottoContainer">
           <h3 className="mottoSplash">
             There is more to Japan than sushi and samurai.
@@ -174,7 +174,7 @@ class SplashComponent extends React.Component{
           </p>
         </Col>
 
-        <Col xs={4} xsOffset={3} sm={4} smOffset={4} md={3} mdOffset={1}>
+        <Col xs={8} xsOffset={2} sm={4} smOffset={4} md={3} mdOffset={1}>
           <form className="signUpForm" onSubmit={this.handleSignup}>
             <h4>New here? Create a free account!</h4>
 
@@ -206,16 +206,14 @@ class SplashComponent extends React.Component{
         </Col>
 
 
-        <footer className="splash-footer" target="_blank">
-          <a href="https://www.linkedin.com/in/cjbutton">
+        <footer className="splash-footer">
+          <a href="https://www.linkedin.com/in/cjbutton" target="_blank">
             <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493527968/In-2CRev-14px_npyzzk.png"/>
           </a>
 
           <a href="https://github.com/CJButton" target="_blank">
             <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493520070/GitHub_Logo_k7corb.png"/>
           </a>
-
-
         </footer>
     </nav>
     );
