@@ -68,15 +68,13 @@ class SplashComponent extends React.Component{
 
     if (this.props.errors.length > 0) {
       return(
-          <div className="errorsContainer">
-            <ul>
-              {this.props.errors.map((error, idx) => (
-                <li key={idx} className="errorMessage">
-                  {error}
-                </li>
-              ))}
-            </ul>
-          </div>
+          <ul>
+            {this.props.errors.map((error, idx) => (
+              <li key={idx} className="errorMessage">
+                {error}
+              </li>
+            ))}
+          </ul>
       );
     }
     else {
@@ -124,40 +122,42 @@ class SplashComponent extends React.Component{
           </figure>
         </div>
 
-        <Col xs={8} xsOffset={2} sm={4} smOffset={1}>
-          <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
-        </Col>
+        <div className="splash-top-bar">
+          <Col xs={8} xsOffset={2} sm={5} smOffset={1} md={4} mdOffset={1}>
+            <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
+          </Col>
 
-        <Col xs={8} xsOffset={2} sm={5} smOffset={1}>
-          <div className="login-form-wrapper">
-            <form className="loginForm" onSubmit={this.handleLogin}>
-              <input type="text"
-                placeholder="Username"
-                value={username}
-                onChange={this.update("username")}/>
+          <Col xs={8} xsOffset={2} sm={4} smOffset={1} md={5} mdOffset={1}>
+            <div className="login-form-wrapper">
+              <form className="loginForm" onSubmit={this.handleLogin}>
+                <div className="splash-login-wrapper">
+                  <input type="text"
+                    placeholder="Username"
+                    value={username}
+                    onChange={this.update("username")}/>
 
-              <input type="password"
-                placeholder="Password"
-                value={password1}
-                onChange={this.update("password1")}/>
-              <br></br>
+                  <input type="password"
+                    placeholder="Password"
+                    value={password1}
+                    onChange={this.update("password1")}/>
+                </div>
 
-              <div className="loginButtons">
+                <div className="loginButtons">
 
-                <input className="auth-login-button button"
-                  type="submit" value="Login"/>
-                &nbsp;
+                  <input className="auth-login-button button"
+                    type="submit" value="Login"/>
+                  &nbsp;
 
                 </div>
               </form>
             </div>
-        </Col>
+          </Col>
+        </div>
 
-      <Col xs={12}>
-        <Col xs={8} xsOffset={2} sm={5} smOffset={6}>
+        <Col xs={8} xsOffset={2} sm={4} smOffset={7} md={3} mdOffset={6}
+             className="errorsContainer">
           {this.renderErrors()}
         </Col>
-      </Col>
 
       <div className="signUpBody">
         <div className="mottoContainer">
