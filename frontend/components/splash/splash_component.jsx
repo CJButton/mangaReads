@@ -98,39 +98,36 @@ class SplashComponent extends React.Component{
 
     return (
     <nav className="login-signup">
-
-      <div className="captioned-gallery">
-      	<figure className="slider">
-          <figure>
-            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
-            <figcaption>One Punch Man</figcaption>
+        <div className="captioned-gallery">
+          <figure className="slider">
+            <figure>
+              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
+              <figcaption>One Punch Man</figcaption>
+            </figure>
+            <figure>
+              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg" alt/>
+              <figcaption>Attack on Titan</figcaption>
+            </figure>
+            <figure>
+              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502076/cropped-1920-1200-109375_bmkmet.jpg" alt/>
+              <figcaption>Ruroni Kenshin</figcaption>
+            </figure>
+            <figure>
+              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg" alt/>
+              <figcaption>Dragonball</figcaption>
+            </figure>
+            <figure>
+              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
+              <figcaption>One Punch Man</figcaption>
+            </figure>
           </figure>
-          <figure>
-            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg" alt/>
-            <figcaption>Attack on Titan</figcaption>
-          </figure>
-      		<figure>
-      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502076/cropped-1920-1200-109375_bmkmet.jpg" alt/>
-      			<figcaption>Ruroni Kenshin</figcaption>
-      		</figure>
-      		<figure>
-      			<img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg" alt/>
-      			<figcaption>Dragonball</figcaption>
-      		</figure>
-          <figure>
-            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
-            <figcaption>One Punch Man</figcaption>
-          </figure>
-      	</figure>
-      </div>
+        </div>
 
-      <Row className="splash-top-row">
-
-        <Col xs={3}>
+        <Col sm={3} smOffset={1}>
           <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
         </Col>
 
-        <Col sm={5}>
+        <Col sm={3}>
           {this.renderErrors()}
         </Col>
 
@@ -157,15 +154,7 @@ class SplashComponent extends React.Component{
                 </div>
               </form>
             </div>
-
         </Col>
-
-      </Row>
-
-
-
-
-
 
       <div className="signUpBody">
         <div className="mottoContainer">
