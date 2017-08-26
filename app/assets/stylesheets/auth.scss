@@ -59,6 +59,22 @@ figure.slider figure figcaption {
   padding: .6rem;
 }
 
+.hero-carousel-wrapper {
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-carousel-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
 .splash-footer {
   position: fixed;
   bottom: 0;
