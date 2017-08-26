@@ -100,6 +100,12 @@ class SplashComponent extends React.Component{
   //   className='hero-carousel-img'>
   //   <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg"/>
   // </Carousel.Item>
+  // <Carousel.Caption
+  //   className='hero-carousel-caption'>
+  //   <p>
+  //     One Punch Man
+  //   </p>
+  // </Carousel.Caption>
 
 
   render() {
@@ -113,15 +119,10 @@ class SplashComponent extends React.Component{
         <Carousel
           indicators={false}
           controls={false}>
-          <Carousel.Item
-            className='hero-carousel-img'>
-            <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
-            <Carousel.Caption
-              className='hero-carousel-caption'>
-              <p>
-                One Punch Man
-              </p>
-            </Carousel.Caption>
+          <Carousel.Item>
+            <img
+              className='hero-carousel-img'
+              src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
           </Carousel.Item>
         </Carousel>
       </div>
