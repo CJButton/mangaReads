@@ -61,7 +61,15 @@ figure.slider figure figcaption {
 
 .hero-carousel-wrapper {
   position: absolute;
+}
+
+.login-signup {
+  height: 100%;
+}
+
+.splash-wrapper {
   z-index: -1;
+  height: 100%;
 }
 
 .hero-carousel-img {
@@ -69,11 +77,11 @@ figure.slider figure figcaption {
   background-repeat: no-repeat;
 }
 
-.hero-carousel-caption {
-  position: relative;
-  left: auto;
-  right: auto;
-}
+// .hero-carousel-caption {
+//   position: relative;
+//   left: auto;
+//   right: auto;
+// }
 
 .splash-footer {
   position: fixed;
