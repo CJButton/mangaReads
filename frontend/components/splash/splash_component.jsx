@@ -115,6 +115,9 @@ class SplashComponent extends React.Component{
     <nav className="login-signup">
 
       {/* Carousel */}
+      <img
+        className='hero-bg-mobile'
+        src='http://res.cloudinary.com/ddbfkqb9m/image/upload/q_50/v1483340044/splashnew1_lwqq6o.jpg'/>
       <div className="hero-carousel-wrapper">
         <Carousel
           indicators={false}
