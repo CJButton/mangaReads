@@ -55,11 +55,22 @@
   object-fit: cover;
 }
 
-// .hero-carousel-caption {
-//   position: relative;
-//   left: auto;
-//   right: auto;
-// }
+.hero-carousel-caption-wrapper {
+  position: fixed;
+  bottom: 55px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 1px 0;
+  font-size: 1.25em;
+}
+
+.hero-carousel-caption {
+  margin: 0;
+}
 
 .splash-footer {
   position: fixed;

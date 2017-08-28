@@ -88,30 +88,6 @@ class SplashComponent extends React.Component{
     this.redirectIfLoggedIn();
   }
 
-
-  // <Carousel.Caption
-  //   className='hero-carousel-caption'>
-  //   <p>
-  //     One Punch Man
-  //   </p>
-  // </Carousel.Caption>
-  // <Carousel.Item>
-  //   <img
-  //     className='hero-carousel-img'
-  //     src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg"/>
-  // </Carousel.Item>
-  // <Carousel.Item>
-  //   <img
-  //     className='hero-carousel-img'
-  //     src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502076/cropped-1920-1200-109375_bmkmet.jpg"/>
-  // </Carousel.Item>
-  // <Carousel.Item>
-  //   <img
-  //     className='hero-carousel-img'
-  //     src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg"/>
-  // </Carousel.Item>
-
-
   render() {
     const {username, password1, name, email, password2} = this.state;
 
@@ -123,12 +99,17 @@ class SplashComponent extends React.Component{
         <Carousel
           indicators={false}
           controls={false}
-          interval={2500}>
+          interval={1750}>
             <Carousel.Item>
               <div className='hero-carousel-img-wrapper'>
                 <img
                   className='hero-carousel-img'
                   src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
+                <div className='hero-carousel-caption-wrapper'>
+                  <p className='hero-carousel-caption'>
+                    One Punch Man
+                  </p>
+                </div>
               </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -136,21 +117,36 @@ class SplashComponent extends React.Component{
                 <img
                   className='hero-carousel-img'
                   src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg"/>
-              </div>
+                  <div className='hero-carousel-caption-wrapper'>
+                    <p className='hero-carousel-caption'>
+                      Attack on Titan
+                    </p>
+                  </div>
+                </div>
             </Carousel.Item>
             <Carousel.Item>
               <div className='hero-carousel-img-wrapper'>
                 <img
                   className='hero-carousel-img'
                   src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502076/cropped-1920-1200-109375_bmkmet.jpg"/>
-              </div>
+                  <div className='hero-carousel-caption-wrapper'>
+                    <p className='hero-carousel-caption'>
+                      Rurouni Kenshin
+                    </p>
+                  </div>
+                </div>
             </Carousel.Item>
             <Carousel.Item>
               <div className='hero-carousel-img-wrapper'>
                 <img
                   className='hero-carousel-img'
                   src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg"/>
-              </div>
+                  <div className='hero-carousel-caption-wrapper'>
+                    <p className='hero-carousel-caption'>
+                      Dragonball
+                    </p>
+                  </div>
+                </div>
             </Carousel.Item>
         </Carousel>
       </div>
