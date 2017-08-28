@@ -123,7 +123,7 @@ class SplashComponent extends React.Component{
         <Carousel
           indicators={false}
           controls={false}
-          interval={2000}>
+          interval={2500}>
             <Carousel.Item>
               <div className='hero-carousel-img-wrapper'>
                 <img
@@ -136,6 +136,20 @@ class SplashComponent extends React.Component{
                 <img
                   className='hero-carousel-img'
                   src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg"/>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className='hero-carousel-img-wrapper'>
+                <img
+                  className='hero-carousel-img'
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502076/cropped-1920-1200-109375_bmkmet.jpg"/>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className='hero-carousel-img-wrapper'>
+                <img
+                  className='hero-carousel-img'
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg"/>
               </div>
             </Carousel.Item>
         </Carousel>
