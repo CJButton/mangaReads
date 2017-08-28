@@ -9,7 +9,6 @@
 }
 
 .splash-wrapper {
-  // z-index: -1;
   display: block;
   width: 100vw;
   height: 100vh;
@@ -23,22 +22,6 @@
   object-fit: cover;
 }
 
-
-// .hero-bg-mobile {
-//   display: none;
-// }
-//
-// @media (max-width: 800px) {
-//   .hero-carousel-wrapper {
-//     display: none;
-//   }
-//   .login-signup {
-//     height: 145vh;
-//     overflow: hidden;
-//     background-image: url('http://res.cloudinary.com/ddbfkqb9m/image/upload/q_20/v1503810439/585850_rbq6cy.jpg');
-//   }
-// }
-
 .hero-carousel-img-wrapper {
   display: block;
   width: 100vw;
@@ -47,9 +30,6 @@
 }
 
 .hero-carousel-img {
-  // width: 500px;
-  // height: 500px;
-  // display: block;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -137,6 +117,7 @@
 }
 
 .splash-top-bar {
+
   padding-top: 1em;
 }
 
@@ -144,8 +125,10 @@
   border: black solid 1px;
   border-radius: 5px;
   width: 100%;
-  height: 5em;
+  height: 6em;
+  padding-top: 5px;
   margin-bottom: 1em;
+  background: #F4F2E9;
 }
 
 .login-form-wrapper {

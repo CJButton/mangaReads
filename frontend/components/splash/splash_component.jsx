@@ -153,12 +153,12 @@ class SplashComponent extends React.Component{
 
       {/* Items placed on top */}
       <div className='splash-wrapper'>
-        <div className="splash-top-bar">
-          <Col xs={8} xsOffset={2} sm={5} smOffset={1} md={4} mdOffset={1}>
+        <div className='splash-top-bar'>
+          <Col xs={8} xsOffset={2} sm={4} smOffset={1} md={4} mdOffset={1}>
             <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
           </Col>
 
-          <Col xs={8} xsOffset={2} sm={4} smOffset={1} md={5} mdOffset={1}>
+          <Col xs={8} xsOffset={2} sm={5} smOffset={1} md={5} mdOffset={1}>
             <div className="login-form-wrapper">
               <form className="loginForm" onSubmit={this.handleLogin}>
                 <div className="splash-login-wrapper">
@@ -172,20 +172,17 @@ class SplashComponent extends React.Component{
                     value={password1}
                     onChange={this.update("password1")}/>
                 </div>
-
                 <div className="loginButtons">
-
                   <input className="auth-login-button button"
                     type="submit" value="Login"/>
                   &nbsp;
-
                 </div>
               </form>
             </div>
           </Col>
         </div>
 
-      <Col xs={8} xsOffset={2} sm={4} smOffset={7} md={3} mdOffset={6}
+      <Col xs={8} xsOffset={2} sm={4} smOffset={6} md={3} mdOffset={6}
         className="errorsContainer">
         {this.renderErrors()}
       </Col>
@@ -238,7 +235,6 @@ class SplashComponent extends React.Component{
         <a href="https://www.linkedin.com/in/cjbutton" target="_blank">
           <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493527968/In-2CRev-14px_npyzzk.png"/>
         </a>
-
         <a href="https://github.com/CJButton" target="_blank">
           <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493520070/GitHub_Logo_k7corb.png"/>
         </a>
