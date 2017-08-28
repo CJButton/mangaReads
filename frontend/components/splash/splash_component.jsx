@@ -88,24 +88,28 @@ class SplashComponent extends React.Component{
     this.redirectIfLoggedIn();
   }
 
-  // <Carousel.Item
-  //   className='hero-carousel-img'>
-  //   <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg"/>
-  // </Carousel.Item>
-  // <Carousel.Item
-  //   className='hero-carousel-img'>
-  //   <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502076/cropped-1920-1200-109375_bmkmet.jpg"/>
-  // </Carousel.Item>
-  // <Carousel.Item
-  //   className='hero-carousel-img'>
-  //   <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg"/>
-  // </Carousel.Item>
+
   // <Carousel.Caption
   //   className='hero-carousel-caption'>
   //   <p>
   //     One Punch Man
   //   </p>
   // </Carousel.Caption>
+  // <Carousel.Item>
+  //   <img
+  //     className='hero-carousel-img'
+  //     src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg"/>
+  // </Carousel.Item>
+  // <Carousel.Item>
+  //   <img
+  //     className='hero-carousel-img'
+  //     src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502076/cropped-1920-1200-109375_bmkmet.jpg"/>
+  // </Carousel.Item>
+  // <Carousel.Item>
+  //   <img
+  //     className='hero-carousel-img'
+  //     src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg"/>
+  // </Carousel.Item>
 
 
   render() {
@@ -118,21 +122,27 @@ class SplashComponent extends React.Component{
       <div className="hero-carousel-wrapper">
         <Carousel
           indicators={false}
-          controls={false}>
-          <div className='hero-carousel-img-wrapper'>
+          controls={false}
+          interval={2000}>
             <Carousel.Item>
-              <img
-                className='hero-carousel-img'
-                src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
+              <div className='hero-carousel-img-wrapper'>
+                <img
+                  className='hero-carousel-img'
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
+              </div>
             </Carousel.Item>
-          </div>
+            <Carousel.Item>
+              <div className='hero-carousel-img-wrapper'>
+                <img
+                  className='hero-carousel-img'
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg"/>
+              </div>
+            </Carousel.Item>
         </Carousel>
       </div>
 
       {/* Items placed on top */}
       <div className='splash-wrapper'>
-
-
         <div className="splash-top-bar">
           <Col xs={8} xsOffset={2} sm={5} smOffset={1} md={4} mdOffset={1}>
             <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>

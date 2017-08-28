@@ -2,10 +2,10 @@
 
 .hero-carousel-wrapper {
   position: fixed;
-  // display: block;
-  // width: 100vw;
-  // height: 100vh;
-  // object-fit: cover;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .splash-wrapper {
@@ -49,7 +49,7 @@
 .hero-carousel-img {
   // width: 500px;
   // height: 500px;
-  display: block;
+  // display: block;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
