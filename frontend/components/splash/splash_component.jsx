@@ -115,23 +115,24 @@ class SplashComponent extends React.Component{
     <nav className="login-signup">
 
       {/* Carousel */}
-      <img
-        className='hero-bg-mobile'
-        src='http://res.cloudinary.com/ddbfkqb9m/image/upload/q_50/v1483340044/splashnew1_lwqq6o.jpg'/>
       <div className="hero-carousel-wrapper">
         <Carousel
           indicators={false}
           controls={false}>
-          <Carousel.Item>
-            <img
-              className='hero-carousel-img'
-              src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
-          </Carousel.Item>
+          <div className='hero-carousel-img-wrapper'>
+            <Carousel.Item>
+              <img
+                className='hero-carousel-img'
+                src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
+            </Carousel.Item>
+          </div>
         </Carousel>
       </div>
 
       {/* Items placed on top */}
       <div className='splash-wrapper'>
+
+
         <div className="splash-top-bar">
           <Col xs={8} xsOffset={2} sm={5} smOffset={1} md={4} mdOffset={1}>
             <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
@@ -162,7 +163,6 @@ class SplashComponent extends React.Component{
               </form>
             </div>
           </Col>
-
         </div>
 
       <Col xs={8} xsOffset={2} sm={4} smOffset={7} md={3} mdOffset={6}
@@ -224,32 +224,7 @@ class SplashComponent extends React.Component{
         </a>
       </footer>
       </div>
-      {/*
-        <div className="captioned-gallery">
-          <figure className="slider">
-            <figure>
-              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
-              <figcaption>One Punch Man</figcaption>
-            </figure>
-            <figure>
-              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg" alt/>
-              <figcaption>Attack on Titan</figcaption>
-            </figure>
-            <figure>
-              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502076/cropped-1920-1200-109375_bmkmet.jpg" alt/>
-              <figcaption>Ruroni Kenshin</figcaption>
-            </figure>
-            <figure>
-              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg" alt/>
-              <figcaption>Dragonball</figcaption>
-            </figure>
-            <figure>
-              <img src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1493522731/cropped-1920-1200-741091_1_eyomdd.jpg" alt/>
-              <figcaption>One Punch Man</figcaption>
-            </figure>
-          </figure>
-        </div>
-        */}
+
     </nav>
     );
   }
