@@ -8,11 +8,11 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
-    loaders: [
+    rules: [
       {
-        test: [/\.jsx?$/, /\.js?$/],
+        test: [/\.jsx?$/, /\.js?$/, /\.css$/],
         exclude: /(node_modules|bower_components)/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react']
         }
@@ -21,6 +21,6 @@ module.exports = {
   },
   devtool: 'source-maps',
   resolve: {
-    extensions: ["", ".js", ".jsx" ]
+    extensions: [".js", ".jsx" ]
   }
 };
