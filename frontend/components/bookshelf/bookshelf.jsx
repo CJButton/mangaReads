@@ -4,10 +4,12 @@
 import React from 'react';
 
 import { createBookshelf } from '../../actions/bookshelf_actions';
-import shelfControls from '../sidebar/shelfControls_Container';
+import ShelfControls from '../sidebar/shelfControls_Container';
 
 import StarRatingComponent from 'react-star-rating-component';
-
+import { Grid,
+         Row,
+         Col } from 'react-bootstrap';
 
 class Bookshelf extends React.Component{
   constructor(props) {
@@ -15,10 +17,12 @@ class Bookshelf extends React.Component{
   }
 
   render() {
-    window.scrollTo(0,0);
+    // window.scrollTo(0,0);
     return (
       <div className="bookshelfMain">
-        <shelfControls/>
+        <Col xs={10} xsOffset={1}>
+          <ShelfControls />
+        </Col>
         {/*
               {this.props.manga.map((comic, i) => (
                 <div key={i} className="comicShelfContainer">
