@@ -5,6 +5,7 @@ import React from 'react';
 import {Link} from 'react-router';
 import Modal from 'react-modal';
 import { Nav,
+         Navbar,
          NavItem,
          NavDropdown,
          MenuItem,
@@ -136,19 +137,24 @@ class shelfControls extends React.Component{
 
   render() {
     return (
-      <div className='bookshelf-controls'>
-        <Nav bsStyle="tabs" activeKey="1" onSelect={this.handleSelect}>
-        <NavItem eventKey="1" href="/home">NavItem 1 content</NavItem>
-        <NavItem eventKey="2" title="Item">NavItem 2 content</NavItem>
-        <NavItem eventKey="3" disabled>NavItem 3 content</NavItem>
-        <NavDropdown eventKey="4" title="Dropdown" id="nav-dropdown">
-          <MenuItem eventKey="4.1">Action</MenuItem>
-          <MenuItem eventKey="4.2">Another action</MenuItem>
-          <MenuItem eventKey="4.3">Something else here</MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey="4.4">Separated link</MenuItem>
-        </NavDropdown>
-      </Nav>
+      <div>
+        <Navbar>
+          <Navbar.Header>
+              Shelves
+          </Navbar.Header>
+          <Nav>
+            <NavItem eventKey={1} href="#">Link</NavItem>
+            <NavItem eventKey={2} href="#">Link</NavItem>
+            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+              <MenuItem eventKey={3.1}>Action</MenuItem>
+              <MenuItem eventKey={3.2}>Another action</MenuItem>
+              <MenuItem eventKey={3.3}>Something else here</MenuItem>
+              <MenuItem divider />
+              <MenuItem eventKey={3.4}>Separated link</MenuItem>
+            </NavDropdown>
+            <NavItem eventKey={4} href="#">Link</NavItem>
+          </Nav>
+        </Navbar>
         { /*
         <div className="sidbar-wrapper">
           <ul className="sidebar-shelves-holder">

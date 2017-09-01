@@ -19,10 +19,12 @@ class Bookshelf extends React.Component{
   render() {
     // window.scrollTo(0,0);
     return (
-      <div className="bookshelfMain">
-        <Col xs={10} xsOffset={1}>
-          <ShelfControls />
-        </Col>
+      <div>
+        <div className='bookshelfMain'>
+          <Col xs={10} sm={8}>
+            <ShelfControls />
+          </Col>
+        </div>
         {/*
               {this.props.manga.map((comic, i) => (
                 <div key={i} className="comicShelfContainer">
