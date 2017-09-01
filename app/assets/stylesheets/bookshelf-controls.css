@@ -1,10 +1,16 @@
 
 
-.sidebar-container {
-  position: fixed;;
-  top: 10%;
-  left: 2%;
+.bookshelf-controls {
+  
 }
+
+
+
+/*.sidebar-container {*/
+  /*position: fixed;
+  top: 10%;
+  left: 2%;*/
+/*}*/
 
 .highlight {
   background-color: #FF6900;
@@ -12,9 +18,9 @@
 }
 
 .sidebar-topper {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  list-style-type: none;
+  list-style-type: none;*/
 }
 
 .sidebar-topper input {
@@ -45,13 +51,13 @@
 }
 
 .sidebar-wrapper {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   border-right-width: 1px;
   border-style: solid;
   height: 500px;
   border: none;
-  padding-left: 300
+  padding-left: 300*/
 }
 
 .bg {
@@ -64,9 +70,9 @@
 }
 
 .sidebar-generated-buttons{
-  display: flex;
+  /*display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between;*/
 }
 
 .deleteShelfText {
@@ -102,7 +108,7 @@
 }
 
 .addShelves-sidebar {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   border-radius: 3px;
   border-width: 3px;
@@ -110,7 +116,7 @@
   border-color: black;
   font-size: 16px;
   width: 203px;
-  margin-left: 54px;
+  margin-left: 54px;*/
 }
 
 .addShelves-sidebar p {
@@ -126,8 +132,6 @@
 }
 
 .addShelfSubmit {
-  /*width: 106px;*/
-  /*margin-left: 50px;*/
   background-color: white;
   border-radius: 3px;
   border-width: 2px;
@@ -144,7 +148,6 @@
 }
 
 .addShelfSubmit:hover {
-  /*background: #FF6900;*/
   background: #FF6900;
   color: white;
 }

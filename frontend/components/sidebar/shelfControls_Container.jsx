@@ -8,7 +8,7 @@ import { createBookshelf,
 
 import { requestAllManga } from '../../actions/manga_actions';
 
-import Sidebar from './sidebar';
+import shelfControls from './shelfControls';
 import values from 'lodash/values';
 
 const mapStateToProps = (state) => ({
@@ -25,4 +25,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Sidebar);
+)(shelfControls);

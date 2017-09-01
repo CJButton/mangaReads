@@ -4,10 +4,15 @@
 import React from 'react';
 import {Link} from 'react-router';
 import Modal from 'react-modal';
+import { Nav,
+         NavItem,
+         NavDropdown,
+         MenuItem,
+         Grid,
+         Row,
+         Col } from 'react-bootstrap';
 
-
-
-class Sidebar extends React.Component{
+class shelfControls extends React.Component{
   constructor(props) {
     super(props);
 
@@ -126,7 +131,11 @@ class Sidebar extends React.Component{
 
   render() {
     return (
-      <main className="sidebar-container">
+      <main className='bookshelf-controls'>
+        <p>
+          Hello
+        </p>
+        { /*
         <div className="sidbar-wrapper">
           <ul className="sidebar-shelves-holder">
 
@@ -196,9 +205,10 @@ class Sidebar extends React.Component{
             </div>
           </Modal>
         </div>
+        */}
       </main>
     );
   }
 }
 
-export default Sidebar;
+export default shelfControls;

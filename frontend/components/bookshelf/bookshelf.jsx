@@ -4,7 +4,7 @@
 import React from 'react';
 
 import { createBookshelf } from '../../actions/bookshelf_actions';
-import BookshelfSidebar from '../sidebar/sidebar_container';
+import shelfControls from '../sidebar/shelfControls_Container';
 
 import StarRatingComponent from 'react-star-rating-component';
 
@@ -18,7 +18,8 @@ class Bookshelf extends React.Component{
     window.scrollTo(0,0);
     return (
       <div className="bookshelfMain">
-        <BookshelfSidebar className="bookshelfLeft"/>
+        <shelfControls/>
+        {/*
               {this.props.manga.map((comic, i) => (
                 <div key={i} className="comicShelfContainer">
                   <a href={`#/manga/${comic.id}`}>
@@ -54,6 +55,7 @@ class Bookshelf extends React.Component{
                   </div>
                 </div>
               ))}
+              */}
       </div>
     );
   }
@@ -61,6 +63,8 @@ class Bookshelf extends React.Component{
 
 
 export default Bookshelf;
+
+
 // <div className="bookshelfComicText">
 //   <div className="bookshelfTitle">{comic.title}</div>
 //     <div>by {comic.author}</div>
