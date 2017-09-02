@@ -138,13 +138,22 @@ class shelfControls extends React.Component{
   render() {
     return (
       <div>
+        <i class="fa fa-bars" aria-hidden="true"></i>
         <Navbar>
           <Navbar.Header>
-              Shelves
+            <Navbar.Brand>
+              <a href="#">Manga-Shelves</a>
+            </Navbar.Brand>
           </Navbar.Header>
           <Nav>
-            <NavItem eventKey={1} href="#">Link</NavItem>
-            <NavItem eventKey={2} href="#">Link</NavItem>
+            <NavItem>
+              <i className="fa fa-bars" aria-hidden="true" />
+            </NavItem>
+            <NavItem>
+              <i className="fa fa-th-large" aria-hidden="true" />
+            </NavItem>
+            <NavItem eventKey={1}>Horizontal</NavItem>
+            <NavItem eventKey={2}>Grid</NavItem>
             <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
               <MenuItem eventKey={3.1}>Action</MenuItem>
               <MenuItem eventKey={3.2}>Another action</MenuItem>
@@ -152,8 +161,8 @@ class shelfControls extends React.Component{
               <MenuItem divider />
               <MenuItem eventKey={3.4}>Separated link</MenuItem>
             </NavDropdown>
-            <NavItem eventKey={4} href="#">Link</NavItem>
           </Nav>
+          <MenuItem eventKey={4}>Link</MenuItem>
         </Navbar>
         { /*
         <div className="sidbar-wrapper">
