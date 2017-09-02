@@ -25,7 +25,8 @@ class shelfControls extends React.Component{
       want: "bg",
       all: "highlight",
       deleteModal: false,
-      shelfId: 0
+      shelfId: 0,
+      dropdown: 'All'
     };
 
     this.handleAll = this.handleAll.bind(this);
@@ -136,33 +137,58 @@ class shelfControls extends React.Component{
   }
 
   render() {
+    const shelfTitle = this.state.dropdown;
+
     return (
       <div>
-        <i class="fa fa-bars" aria-hidden="true"></i>
         <Navbar>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#">Manga-Shelves</a>
-            </Navbar.Brand>
-          </Navbar.Header>
-          <Nav>
-            <NavItem>
-              <i className="fa fa-bars" aria-hidden="true" />
-            </NavItem>
-            <NavItem>
-              <i className="fa fa-th-large" aria-hidden="true" />
-            </NavItem>
-            <NavItem eventKey={1}>Horizontal</NavItem>
-            <NavItem eventKey={2}>Grid</NavItem>
-            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey={3.4}>Separated link</MenuItem>
-            </NavDropdown>
-          </Nav>
-          <MenuItem eventKey={4}>Link</MenuItem>
+          <div className='nav-wrapper'>
+            <div>
+              <Navbar.Header>
+                <Navbar.Brand>
+                  <div>Manga-Shelves</div>
+                </Navbar.Brand>
+              </Navbar.Header>
+              <Nav>
+                <NavItem>
+                  <i className="fa fa-bars" aria-hidden="true" />
+                </NavItem>
+                <NavItem>
+                  <i className="fa fa-th-large" aria-hidden="true" />
+                </NavItem>
+
+                <NavDropdown eventKey={3} title={shelfTitle} className="basic-nav-dropdown">
+                  <MenuItem eventKey={3.1}>Action</MenuItem>
+                  <MenuItem eventKey={3.2}>Another action</MenuItem>
+                  <MenuItem eventKey={3.3}>Something else here</MenuItem>
+                  <MenuItem divider />
+                  <MenuItem eventKey={3.4}>Separated link</MenuItem>
+                </NavDropdown>
+
+                <Navbar.Header>
+                  <Navbar.Brand>
+                    <div>Create a Shelf</div>
+                  </Navbar.Brand>
+                </Navbar.Header>
+
+                <NavItem>
+                  <input className="sidebar-shelf-name"
+                    type="text"
+                    placeholder="Shelfname"
+                    value={this.state.shelfname}
+                    onChange={this.update("shelfname")}/>
+                </NavItem>
+                <NavItem>
+                  <input className="addShelfSubmit button"
+                    type="submit"
+                    placeholder="Add Shelf"
+                    onClick={this.handleAddShelf} />
+                </NavItem>
+              </Nav>
+
+            </div>
+
+          </div>
         </Navbar>
         { /*
         <div className="sidbar-wrapper">

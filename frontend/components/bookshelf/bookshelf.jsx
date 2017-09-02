@@ -21,9 +21,7 @@ class Bookshelf extends React.Component{
     return (
       <div>
         <div className='bookshelfMain'>
-          <Col xs={10} sm={8}>
-            <ShelfControls />
-          </Col>
+          <ShelfControls />
         </div>
         {/*
               {this.props.manga.map((comic, i) => (

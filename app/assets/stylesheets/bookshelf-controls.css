@@ -5,6 +5,10 @@
 }
 
 
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
 
 /*.sidebar-container {*/
   /*position: fixed;
@@ -126,13 +130,13 @@
 }
 
 .sidebar-shelf-name {
-  margin-left: 8px;
+  /*margin-left: 8px;
   margin-right: 8px;
-  margin-bottom: 5px;
+  margin-bottom: 5px;*/
 }
 
 .addShelfSubmit {
-  background-color: white;
+  /*background-color: white;
   border-radius: 3px;
   border-width: 2px;
   font-size: 12px;
@@ -144,7 +148,7 @@
   border-radius: 3px;
   width: 189px;
   height: 34px;
-  font-size: 18px;
+  font-size: 18px;*/
 }
 
 .addShelfSubmit:hover {
