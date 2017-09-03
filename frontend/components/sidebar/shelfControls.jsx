@@ -201,7 +201,9 @@ class shelfControls extends React.Component{
                   <FormControl type="text" placeholder="Create a Shelf" />
                 </FormGroup>
                 {' '}
-                <Button type="submit">Create</Button>
+                <Button
+                  className='shelf-button'
+                  type="submit">Create</Button>
               </Navbar.Form>
 
           </Navbar.Collapse>

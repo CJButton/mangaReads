@@ -2,25 +2,11 @@
 
 
 
-/*@media screen and (max-width: 767px) {
-  .navbar-wrapper {
-    width: 115%;
+@media screen and (max-width: 767px) {
+  .shelf-button {
+    width: 100%;
   }
-  .nav-shelf-create {
-    width: 0%
-  }
-  .bottom-nav {
-    margin: 0px;
-  }
-}*/
-
-/*.nav-right-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}*/
-
-
+}
 
 .highlight {
   background-color: #FF6900;
