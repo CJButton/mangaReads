@@ -1,21 +1,5 @@
 
 
-.bookshelf-controls {
-  /*position: fixed;*/
-}
-
-
-.nav-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-/*.sidebar-container {*/
-  /*position: fixed;
-  top: 10%;
-  left: 2%;*/
-/*}*/
-
 .highlight {
   background-color: #FF6900;
   color: white;
@@ -31,52 +15,6 @@
   margin: 5px;
   font-size: 17px;
   margin-left: 7px;
-}
-
-.sidebar-shelf-create {
-  padding-left: 50px;
-}
-
-.shelf-title {
-  font-size: 16px;
-  margin-bottom: 26px;
-}
-
-.sidebar-shelves {
-  font-size: 12px;
-  font-family: 'Lato', sans-serif;
-}
-
-.sidebar-shelves-title {
-  font-size: 19px;
-  margin-top: 15px;
-  padding-left: 45px;
-  list-style-type: none;
-}
-
-.sidebar-wrapper {
-  /*display: flex;
-  flex-direction: column;
-  border-right-width: 1px;
-  border-style: solid;
-  height: 500px;
-  border: none;
-  padding-left: 300*/
-}
-
-.bg {
-  background-color: #FFF;
-}
-
-.sidebar-all {
-  border: none;
-  width: inherit;
-}
-
-.sidebar-generated-buttons{
-  /*display: flex;
-  flex-direction: row;
-  justify-content: space-between;*/
 }
 
 .deleteShelfText {

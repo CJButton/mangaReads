@@ -9,6 +9,10 @@ import { Nav,
          NavItem,
          NavDropdown,
          MenuItem,
+         FormGroup,
+         FormControl,
+         Button,
+         Form,
          Grid,
          Row,
          Col } from 'react-bootstrap';
@@ -26,7 +30,7 @@ class shelfControls extends React.Component{
       all: "highlight",
       deleteModal: false,
       shelfId: 0,
-      dropdown: 'All'
+      dropdown: 'All-Shelves'
     };
 
     this.handleAll = this.handleAll.bind(this);
@@ -138,57 +142,49 @@ class shelfControls extends React.Component{
 
   render() {
     const shelfTitle = this.state.dropdown;
-
+    // display all shelves in dropdown
+    // add shelf functionality
     return (
       <div>
-        <Navbar>
-          <div className='nav-wrapper'>
-            <div>
+        <Navbar inverse collapseOnSelect>
+          <Navbar.Header>
+            <Navbar.Brand>
+              <a>Manga-Shelves</a>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+          </Navbar.Header>
+          <Navbar.Collapse>
+            <Nav>
+              <NavItem eventKey={1}>
+                <i className='fa fa-bars nav-type' aria-hidden='true' />
+              </NavItem>
+              <NavItem eventKey={2}>
+                <i className='fa fa-th-large nav-type' aria-hidden='true' />
+              </NavItem>
+              <NavDropdown eventKey={3} title={shelfTitle} id="basic-nav-dropdown">
+                <MenuItem eventKey={3.1}>All-Shelves</MenuItem>
+                <MenuItem eventKey={3.2}>Want-To-Read</MenuItem>
+                <MenuItem eventKey={3.3}>Currently-Reading</MenuItem>
+                <MenuItem eventKey={3.4}>Have-Read</MenuItem>
+                <MenuItem divider />
+                <MenuItem eventKey={3.5}>Separated link</MenuItem>
+              </NavDropdown>
+            </Nav>
+            <Nav pullRight>
               <Navbar.Header>
                 <Navbar.Brand>
-                  <div>Manga-Shelves</div>
+                  <a>Create a Shelf</a>
                 </Navbar.Brand>
               </Navbar.Header>
-              <Nav>
-                <NavItem>
-                  <i className="fa fa-bars" aria-hidden="true" />
-                </NavItem>
-                <NavItem>
-                  <i className="fa fa-th-large" aria-hidden="true" />
-                </NavItem>
-
-                <NavDropdown eventKey={3} title={shelfTitle} className="basic-nav-dropdown">
-                  <MenuItem eventKey={3.1}>Action</MenuItem>
-                  <MenuItem eventKey={3.2}>Another action</MenuItem>
-                  <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                  <MenuItem divider />
-                  <MenuItem eventKey={3.4}>Separated link</MenuItem>
-                </NavDropdown>
-
-                <Navbar.Header>
-                  <Navbar.Brand>
-                    <div>Create a Shelf</div>
-                  </Navbar.Brand>
-                </Navbar.Header>
-
-                <NavItem>
-                  <input className="sidebar-shelf-name"
-                    type="text"
-                    placeholder="Shelfname"
-                    value={this.state.shelfname}
-                    onChange={this.update("shelfname")}/>
-                </NavItem>
-                <NavItem>
-                  <input className="addShelfSubmit button"
-                    type="submit"
-                    placeholder="Add Shelf"
-                    onClick={this.handleAddShelf} />
-                </NavItem>
-              </Nav>
-
-            </div>
-
-          </div>
+              <Navbar.Form>
+                <FormGroup>
+                  <FormControl type="text" placeholder="Shelfname" />
+                </FormGroup>
+                {' '}
+                <Button type="submit">Submit</Button>
+              </Navbar.Form>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
         { /*
         <div className="sidbar-wrapper">
