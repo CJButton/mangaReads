@@ -6,17 +6,20 @@
   .shelf-button {
     width: 100%;
   }
+  .shelf-nav-a {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .shelf-nav-b {
+    display: none;
+  }
 }
 
 .highlight {
   background-color: #FF6900;
   color: white;
-}
-
-.sidebar-topper {
-  /*display: flex;
-  flex-direction: column;
-  list-style-type: none;*/
 }
 
 .sidebar-topper input {

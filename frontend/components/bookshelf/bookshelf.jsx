@@ -23,6 +23,10 @@ class Bookshelf extends React.Component{
           <ShelfControls />
         </div>
 
+
+
+
+
               {this.props.manga.map((comic, i) => (
                 <div key={i} className="comicShelfContainer">
                   <a href={`#/manga/${comic.id}`}>

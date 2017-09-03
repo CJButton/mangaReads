@@ -150,13 +150,23 @@ class shelfControls extends React.Component{
     // still need for standard shelves
     return (
       <div>
-        <Navbar inverse collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a>Manga-Shelves</a>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
+        <Navbar collapseOnSelect>
+          <div className='shelf-nav-a'>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a>Manga-Shelves</a>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+          </div>
+          <div className='shelf-nav-b'>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a>{shelfTitle}</a>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+          </div>
           <Navbar.Collapse>
             <Nav>
               <NavItem eventKey={1} onSelect={() => this.handleSelect(1)}>
@@ -195,7 +205,6 @@ class shelfControls extends React.Component{
                 })}
               </NavDropdown>
             </Nav>
-
               <Navbar.Form pullRight>
                 <FormGroup>
                   <FormControl type="text" placeholder="Create a Shelf" />
@@ -205,7 +214,6 @@ class shelfControls extends React.Component{
                   className='shelf-button'
                   type="submit">Create</Button>
               </Navbar.Form>
-
           </Navbar.Collapse>
         </Navbar>
         { /*
