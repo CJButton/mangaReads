@@ -1,5 +1,14 @@
 
 
+
+@media screen and (max-width: 767px) {
+  .nav-right-wrapper {
+    width: 80%;
+  }
+}
+
+
+
 .highlight {
   background-color: #FF6900;
   color: white;

@@ -170,20 +170,19 @@ class shelfControls extends React.Component{
                 <MenuItem eventKey={3.5}>Separated link</MenuItem>
               </NavDropdown>
             </Nav>
+
             <Nav pullRight>
-              <Navbar.Header>
-                <Navbar.Brand>
-                  <a>Create a Shelf</a>
-                </Navbar.Brand>
-              </Navbar.Header>
-              <Navbar.Form>
-                <FormGroup>
-                  <FormControl type="text" placeholder="Shelfname" />
-                </FormGroup>
-                {' '}
-                <Button type="submit">Submit</Button>
-              </Navbar.Form>
+              <div className='nav-right-wrapper'>
+                <Navbar.Form>
+                  <FormGroup>
+                    <FormControl type="text" placeholder="Create a Shelf" />
+                  </FormGroup>
+                  {' '}
+                  <Button type="submit">Submit</Button>
+                </Navbar.Form>
+              </div>
             </Nav>
+
           </Navbar.Collapse>
         </Navbar>
         { /*
