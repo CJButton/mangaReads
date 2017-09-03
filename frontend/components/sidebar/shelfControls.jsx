@@ -196,21 +196,19 @@ class shelfControls extends React.Component{
               </NavDropdown>
             </Nav>
 
-            <Nav pullRight>
-              <div className='nav-right-wrapper'>
-                <Navbar.Form>
-                  <FormGroup>
-                    <FormControl type="text" placeholder="Create a Shelf" />
-                  </FormGroup>
-                  {' '}
-                  <Button type="submit">Create</Button>
-                </Navbar.Form>
-              </div>
-            </Nav>
+              <Navbar.Form pullRight>
+                <FormGroup>
+                  <FormControl type="text" placeholder="Create a Shelf" />
+                </FormGroup>
+                {' '}
+                <Button type="submit">Create</Button>
+              </Navbar.Form>
 
           </Navbar.Collapse>
         </Navbar>
         { /*
+          <Nav pullRight>
+          </Nav>
         <div className="sidbar-wrapper">
           <ul className="sidebar-shelves-holder">
 

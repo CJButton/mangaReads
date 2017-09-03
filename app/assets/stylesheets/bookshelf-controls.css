@@ -1,11 +1,24 @@
 
 
 
-@media screen and (max-width: 767px) {
-  .nav-right-wrapper {
-    width: 80%;
+
+/*@media screen and (max-width: 767px) {
+  .navbar-wrapper {
+    width: 115%;
   }
-}
+  .nav-shelf-create {
+    width: 0%
+  }
+  .bottom-nav {
+    margin: 0px;
+  }
+}*/
+
+/*.nav-right-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}*/
 
 
 
