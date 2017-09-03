@@ -141,6 +141,7 @@ class shelfControls extends React.Component{
   }
 
   render() {
+    console.log(this.props);
     const shelfTitle = this.state.dropdown;
     // display all shelves in dropdown
     // add shelf functionality
@@ -179,7 +180,16 @@ class shelfControls extends React.Component{
                   onSelect={() => this.handleSelect(3.4)}
                   >Have-Read</MenuItem>
                 <MenuItem divider />
-                <MenuItem eventKey={3.5}>Separated link</MenuItem>
+                {this.props.bookshelves.map((shelf, i) => {
+                  return(
+                    <MenuItem
+                      key={i + 4}
+                      eventKey={i + 4}
+                      onSelect={() => this.handleSelect(i + 4)}>
+                      {shelf.title}
+                    </MenuItem>
+                  )
+                })}
               </NavDropdown>
             </Nav>
 
