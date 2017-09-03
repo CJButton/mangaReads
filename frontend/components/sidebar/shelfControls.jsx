@@ -155,17 +155,29 @@ class shelfControls extends React.Component{
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1}>
+              <NavItem eventKey={1} onSelect={() => this.handleSelect(1)}>
                 <i className='fa fa-bars nav-type' aria-hidden='true' />
               </NavItem>
-              <NavItem eventKey={2}>
+              <NavItem eventKey={2} onSelect={() => this.handleSelect(2)}>
                 <i className='fa fa-th-large nav-type' aria-hidden='true' />
               </NavItem>
               <NavDropdown eventKey={3} title={shelfTitle} id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>All-Shelves</MenuItem>
-                <MenuItem eventKey={3.2}>Want-To-Read</MenuItem>
-                <MenuItem eventKey={3.3}>Currently-Reading</MenuItem>
-                <MenuItem eventKey={3.4}>Have-Read</MenuItem>
+                <MenuItem
+                  eventKey={3.1}
+                  onSelect={() => this.handleSelect(3.1)}
+                  >All-Shelves</MenuItem>
+                <MenuItem
+                  eventKey={3.2}
+                  onSelect={() => this.handleSelect(3.2)}
+                  >Want-To-Read</MenuItem>
+                <MenuItem
+                  eventKey={3.3}
+                  onSelect={() => this.handleSelect(3.3)}
+                  >Currently-Reading</MenuItem>
+                <MenuItem
+                  eventKey={3.4}
+                  onSelect={() => this.handleSelect(3.4)}
+                  >Have-Read</MenuItem>
                 <MenuItem divider />
                 <MenuItem eventKey={3.5}>Separated link</MenuItem>
               </NavDropdown>
@@ -178,7 +190,7 @@ class shelfControls extends React.Component{
                     <FormControl type="text" placeholder="Create a Shelf" />
                   </FormGroup>
                   {' '}
-                  <Button type="submit">Submit</Button>
+                  <Button type="submit">Create</Button>
                 </Navbar.Form>
               </div>
             </Nav>
