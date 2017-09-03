@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-import shelfBars from './shelfBars';
-import shelfGrid from './shelfGrid';
+import ShelfBars from './shelfBars';
+import ShelfGrid from './shelfGrid';
 
 import { createBookshelf } from '../../actions/bookshelf_actions';
 import ShelfControls from '../sidebar/shelfControls_Container';
@@ -32,14 +32,15 @@ class Bookshelf extends React.Component{
     const shelfType = this.state.shelfType;
     const changeShelfType = this.changeShelfType;
     // window.scrollTo(0,0);
+    console.log(this.state);
     return (
       <div>
         <div className='bookshelfMain'>
           <ShelfControls
             changeShelfType={changeShelfType}/>
         </div>
-        {shelfType === 'grid' && <shelfGrid />}
-        {shelfType === 'bars' && <shelfBars />}
+        {shelfType === 'grid' && <ShelfGrid />}
+        {shelfType === 'bars' && <ShelfBars />}
 
 
 
