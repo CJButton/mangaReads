@@ -8,7 +8,13 @@ class shelfGrid extends React.Component{
   }
 
   render() {
-
+    return(
+      <div>
+        <h4>
+          Hello from Grid
+        </h4>
+      </div>
+    )
   }
 }
 

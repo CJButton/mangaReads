@@ -146,6 +146,7 @@ class shelfControls extends React.Component{
   render() {
     console.log(this.state);
     const shelfTitle = this.state.dropdown;
+    const changeShelfType = this.props.changeShelfType;
     // add shelf functionality
     // still need for standard shelves
     return (
@@ -169,10 +170,10 @@ class shelfControls extends React.Component{
           </div>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} onSelect={() => this.handleSelect(1)}>
+              <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
                 <i className='fa fa-bars nav-type' aria-hidden='true' />
               </NavItem>
-              <NavItem eventKey={2} onSelect={() => this.handleSelect(2)}>
+              <NavItem eventKey={2} onSelect={() => changeShelfType('grid')}>
                 <i className='fa fa-th-large nav-type' aria-hidden='true' />
               </NavItem>
               <NavDropdown eventKey={3} title={shelfTitle} id="basic-nav-dropdown">

@@ -7,9 +7,13 @@ class shelfBars extends React.Component{
   }
 
   render() {
-    <div>
-
-    </div>
+    return(
+      <div>
+        <h4>
+          Hello from Bars
+        </h4>
+      </div>
+    )
   }
 }
-export default sheflBars;
+export default shelfBars;

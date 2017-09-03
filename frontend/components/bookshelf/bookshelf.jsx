@@ -2,6 +2,9 @@
 
 import React from 'react';
 
+import shelfBars from './shelfBars';
+import shelfGrid from './shelfGrid';
+
 import { createBookshelf } from '../../actions/bookshelf_actions';
 import ShelfControls from '../sidebar/shelfControls_Container';
 
@@ -13,20 +16,34 @@ import { Grid,
 class Bookshelf extends React.Component{
   constructor(props) {
     super(props);
+    this.state = {
+      shelfType: 'bars'
+    }
+    this.changeShelfType = this.changeShelfType.bind(this);
+  }
+
+  changeShelfType(e) {
+    this.setState({
+      shelfType: e
+    });
   }
 
   render() {
+    const shelfType = this.state.shelfType;
+    const changeShelfType = this.changeShelfType;
     // window.scrollTo(0,0);
     return (
       <div>
         <div className='bookshelfMain'>
-          <ShelfControls />
+          <ShelfControls
+            changeShelfType={changeShelfType}/>
         </div>
+        {shelfType === 'grid' && <shelfGrid />}
+        {shelfType === 'bars' && <shelfBars />}
 
 
 
-
-
+            { /*
               {this.props.manga.map((comic, i) => (
                 <div key={i} className="comicShelfContainer">
                   <a href={`#/manga/${comic.id}`}>
@@ -62,6 +79,7 @@ class Bookshelf extends React.Component{
                   </div>
                 </div>
               ))}
+              */}
       </div>
     );
   }
