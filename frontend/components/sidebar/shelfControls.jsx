@@ -107,9 +107,9 @@ class shelfControls extends React.Component{
 
   getComicsForPersonalShelf(shelfname) {
     this.props.requestAllManga(shelfname);
-    this.setStatusShelvesToBG();
-    this.setStatusForPersonalShelvesBG();
-    this.setNewHighlight(shelfname);
+    // this.setStatusShelvesToBG();
+    // this.setStatusForPersonalShelvesBG();
+    // this.setNewHighlight(shelfname);
   }
 
   setNewHighlight(shelf) {
@@ -137,14 +137,17 @@ class shelfControls extends React.Component{
   }
 
   handleSelect(e) {
-    console.log(e);
+    this.getComicsForPersonalShelf(e.title);
+    this.setState({
+      dropdown: e.title
+    });
   }
 
   render() {
-    console.log(this.props);
+    console.log(this.state);
     const shelfTitle = this.state.dropdown;
-    // display all shelves in dropdown
     // add shelf functionality
+    // still need for standard shelves
     return (
       <div>
         <Navbar inverse collapseOnSelect>
@@ -185,7 +188,7 @@ class shelfControls extends React.Component{
                     <MenuItem
                       key={i + 4}
                       eventKey={i + 4}
-                      onSelect={() => this.handleSelect(i + 4)}>
+                      onSelect={() => this.handleSelect(shelf)}>
                       {shelf.title}
                     </MenuItem>
                   )

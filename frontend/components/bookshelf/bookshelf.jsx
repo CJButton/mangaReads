@@ -23,7 +23,7 @@ class Bookshelf extends React.Component{
         <div className='bookshelfMain'>
           <ShelfControls />
         </div>
-        {/*
+
               {this.props.manga.map((comic, i) => (
                 <div key={i} className="comicShelfContainer">
                   <a href={`#/manga/${comic.id}`}>
@@ -59,7 +59,6 @@ class Bookshelf extends React.Component{
                   </div>
                 </div>
               ))}
-              */}
       </div>
     );
   }
