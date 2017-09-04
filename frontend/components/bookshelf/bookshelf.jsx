@@ -32,7 +32,6 @@ class Bookshelf extends React.Component{
     const shelfType = this.state.shelfType;
     const changeShelfType = this.changeShelfType;
     const currentManga = this.props.manga;
-    // window.scrollTo(0,0);
     return (
       <div>
         <div className='bookshelfMain'>
@@ -41,8 +40,6 @@ class Bookshelf extends React.Component{
         </div>
         {shelfType === 'grid' && <ShelfGrid manga={currentManga} />}
         {shelfType === 'bars' && <ShelfBars manga={currentManga} />}
-
-
 
             { /*
               {this.props.manga.map((comic, i) => (
@@ -85,38 +82,4 @@ class Bookshelf extends React.Component{
     );
   }
 }
-
-
 export default Bookshelf;
-
-
-// <div className="bookshelfComicText">
-//   <div className="bookshelfTitle">{comic.title}</div>
-//     <div>by {comic.author}</div>
-// </div>
-
-// (
-//   <div className="bookshelfMain">
-//     <BookshelfSidebar className="bookshelfLeft"/>
-//
-//
-//       <div className="bookshelfContainer">
-//           <div className="bookshelfComicShow">
-//
-//           {this.props.manga.map((comic, i) => (
-//             <div key={i} className="comicDisplayWrapper">
-//               <div className="comicInfoDisplay">
-//
-//                 <div>
-//                   <a href={`#/manga/${comic.id}`}>
-//                     <img className="bookshelfPicture" src={comic.img_url}/>
-//                   </a>
-//                 </div>
-//
-//               </div>
-//             </div>
-//               ))}
-//         </div>
-//       </div>
-// </div>
-// );

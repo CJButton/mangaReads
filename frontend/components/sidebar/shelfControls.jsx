@@ -3,6 +3,9 @@
 
 import React from 'react';
 import {Link} from 'react-router';
+
+import DeleteShelfModal from './deleteModal';
+
 import { Nav,
          Navbar,
          NavItem,
@@ -40,10 +43,6 @@ class shelfControls extends React.Component{
     this.updateShelf = this.updateShelf.bind(this);
   }
 
-  componentWillMount() {
-    Modal.setAppElement('body');
- }
-
   componentWillReceiveProps(nextprops) {
     if (nextprops.bookshelves.length > 0 && this.props.bookshelves.length < 1) {
       nextprops.bookshelves.map((shelf) => {
@@ -79,6 +78,9 @@ class shelfControls extends React.Component{
   handleAddShelf() {
     const shelf = this.state.shelfname;
     this.props.createBookshelf(shelf);
+    this.setState({
+      shelfname: ''
+    });
   }
 
 
@@ -145,9 +147,17 @@ class shelfControls extends React.Component{
     });
   }
 
+  handleShelfDelete(shelfId) {
+    this.setState({
+      deleteModal: true,
+      shelfId: shelfId
+    });
+  }
+
   render() {
     const shelfTitle = this.state.dropdown;
     const shelfname = this.state.shelfname;
+    const openClose = this.state.deleteModal;
     const changeShelfType = this.props.changeShelfType;
 
     const handleAddShelf = this.handleAddShelf;
@@ -155,8 +165,9 @@ class shelfControls extends React.Component{
     // still need for standard shelves
     // let user create shevles on each manga page
 
-    // can create shelves
-    // can delete shelves?
+    // O can create shelves
+    // X can delete shelves?
+    // X hide too long shelf name
     console.log(this.state);
     return (
       <div>
@@ -214,7 +225,8 @@ class shelfControls extends React.Component{
                             {shelf.title}
                           </div>
                           <button
-                            className='shelf-delete-button'>
+                            className='shelf-delete-button'
+                            onClick={() => this.handleShelfDelete(shelf.id)}>
                             X
                           </button>
                         </div>
@@ -238,6 +250,9 @@ class shelfControls extends React.Component{
               </Navbar.Form>
           </Navbar.Collapse>
         </Navbar>
+
+        <DeleteShelfModal openClose={openClose}/>
+
         { /*
           <div className="sidebar-delete button"
                onClick={this.deleteModal.bind(this, shelf.id)}>X</div>

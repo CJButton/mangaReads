@@ -1,10 +1,13 @@
 import React from 'react';
 
-import { Modal } from 'react-bootstrap';
+import { Modal,
+         Button } from 'react-bootstrap';
 
-const deleteModal = (
-  <div className="delete-modal">
-    <Modal.Dialog>
+const DeleteShelfModal = props => {
+  const { openClose } = props;
+
+  return(
+    <Modal show={true}>
       <Modal.Header>
         <Modal.Title>Delete this shelf?</Modal.Title>
       </Modal.Header>
@@ -17,7 +20,7 @@ const deleteModal = (
         <Button>Close</Button>
         <Button bsStyle="primary">Save changes</Button>
       </Modal.Footer>
-
-    </Modal.Dialog>
-  </div>
-);
+  </Modal>
+  );
+}
+export default DeleteShelfModal;
