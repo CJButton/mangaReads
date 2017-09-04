@@ -56,11 +56,9 @@ class shelfControls extends React.Component{
   }
 
   updateShelf(e) {
-    console.log(e.target.value);
     this.setState({
       shelfname: e.target.value
-    })
-    // return e => this.setState({[property]: e.target.value});
+    });
   }
 
   handleAll() {
@@ -79,10 +77,9 @@ class shelfControls extends React.Component{
     });
   }
 
-  handleAddShelf(e) {
-    console.log(e.target.value);
-    // const shelf = this.state.shelfname;
-    // this.props.createBookshelf(shelf);
+  handleAddShelf() {
+    const shelf = this.state.shelfname;
+    this.props.createBookshelf(shelf);
   }
 
 
@@ -155,9 +152,11 @@ class shelfControls extends React.Component{
     const changeShelfType = this.props.changeShelfType;
 
     const handleAddShelf = this.handleAddShelf;
-    // const updateShelf = this.updateShelf();
     // add shelf functionality
     // still need for standard shelves
+    // let user create shevles on each manga page
+
+    // can create shelves
     console.log(this.state);
     return (
       <div>
