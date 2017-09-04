@@ -3,7 +3,6 @@
 
 import React from 'react';
 import {Link} from 'react-router';
-import Modal from 'react-modal';
 import { Nav,
          Navbar,
          NavItem,
@@ -214,7 +213,8 @@ class shelfControls extends React.Component{
                           <div className='shelf-menu-title'>
                             {shelf.title}
                           </div>
-                          <button className='shelf-delete-button'>
+                          <button
+                            className='shelf-delete-button'>
                             X
                           </button>
                         </div>
