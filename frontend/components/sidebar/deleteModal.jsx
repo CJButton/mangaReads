@@ -4,10 +4,11 @@ import { Modal,
          Button } from 'react-bootstrap';
 
 const DeleteShelfModal = props => {
-  const { openClose } = props;
-
+  const { openClose,
+          closeDeleteModal } = props;
+          console.log(props);
   return(
-    <Modal show={true}>
+    <Modal show={openClose}>
       <Modal.Header>
         <Modal.Title>Delete this shelf?</Modal.Title>
       </Modal.Header>
@@ -17,7 +18,10 @@ const DeleteShelfModal = props => {
       </Modal.Body>
 
       <Modal.Footer>
-        <Button>Close</Button>
+        <Button
+          onClick={closeDeleteModal}>
+          Close
+        </Button>
         <Button bsStyle="primary">Save changes</Button>
       </Modal.Footer>
   </Modal>

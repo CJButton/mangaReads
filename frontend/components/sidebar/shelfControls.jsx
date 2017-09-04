@@ -30,7 +30,7 @@ class shelfControls extends React.Component{
       read: "bg",
       want: "bg",
       all: "highlight",
-      deleteModal: false,
+      deleteModal: true,
       shelfId: 0,
       dropdown: 'All-Shelves'
     };
@@ -41,6 +41,7 @@ class shelfControls extends React.Component{
     this.closeModal = this.closeModal.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
     this.updateShelf = this.updateShelf.bind(this);
+    this.closeDeleteModal = this.closeDeleteModal.bind(this);
   }
 
   componentWillReceiveProps(nextprops) {
@@ -154,6 +155,12 @@ class shelfControls extends React.Component{
     });
   }
 
+  closeDeleteModal() {
+    this.setState({
+      deleteModal: false
+    });
+  }
+
   render() {
     const shelfTitle = this.state.dropdown;
     const shelfname = this.state.shelfname;
@@ -161,6 +168,7 @@ class shelfControls extends React.Component{
     const changeShelfType = this.props.changeShelfType;
 
     const handleAddShelf = this.handleAddShelf;
+    const closeDeleteModal = this.closeDeleteModal;
     // add shelf functionality
     // still need for standard shelves
     // let user create shevles on each manga page
@@ -251,7 +259,9 @@ class shelfControls extends React.Component{
           </Navbar.Collapse>
         </Navbar>
 
-        <DeleteShelfModal openClose={openClose}/>
+        <DeleteShelfModal
+          openClose={openClose}
+          closeDeleteModal={closeDeleteModal}/>
 
         { /*
           <div className="sidebar-delete button"
