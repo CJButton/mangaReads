@@ -42,6 +42,7 @@ class shelfControls extends React.Component{
     this.updateShelf = this.updateShelf.bind(this);
     this.closeDeleteModal = this.closeDeleteModal.bind(this);
     this.deleteShelf = this.deleteShelf.bind(this);
+    this.getComicsForShelf = this.getComicsForShelf.bind(this);
   }
 
   componentWillReceiveProps(nextprops) {
@@ -84,14 +85,6 @@ class shelfControls extends React.Component{
     });
   }
 
-
-  getComicsForShelf(shelfname) {
-    this.props.requestAllManga(shelfname);
-    this.setStatusShelvesToBG();
-    this.setStatusForPersonalShelvesBG();
-    let name = shelfname.split("-");
-    this.setNewHighlight(name[0].toLowerCase());
-  }
 
   setStatusShelvesToBG() {
     this.setState({
@@ -141,6 +134,14 @@ class shelfControls extends React.Component{
     this.setState({
       dropdown: e.title
     });
+  }
+
+  getComicsForShelf(shelfname) {
+    this.props.requestAllManga(shelfname);
+    // this.setStatusShelvesToBG();
+    // this.setStatusForPersonalShelvesBG();
+    // let name = shelfname.split("-");
+    // this.setNewHighlight(name[0].toLowerCase());
   }
 
   handleShelfDelete(shelfId) {
@@ -204,19 +205,19 @@ class shelfControls extends React.Component{
               <NavDropdown eventKey={3} title={shelfTitle} id="basic-nav-dropdown">
                 <MenuItem
                   eventKey={3.1}
-                  onSelect={() => this.handleSelect(3.1)}
+                  onSelect={() => this.getComicsForShelf('all')}
                   >All-Shelves</MenuItem>
                 <MenuItem
                   eventKey={3.2}
-                  onSelect={() => this.handleSelect(3.2)}
+                  onSelect={() => this.getComicsForShelf('Want-To-Read')}
                   >Want-To-Read</MenuItem>
                 <MenuItem
                   eventKey={3.3}
-                  onSelect={() => this.handleSelect(3.3)}
+                  onSelect={() => this.getComicsForShelf('Currently-Reading')}
                   >Currently-Reading</MenuItem>
                 <MenuItem
                   eventKey={3.4}
-                  onSelect={() => this.handleSelect(3.4)}
+                  onSelect={() => this.getComicsForShelf('Read')}
                   >Have-Read</MenuItem>
                 <MenuItem divider />
                 {this.props.bookshelves.map((shelf, i) => {
