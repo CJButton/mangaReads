@@ -7,7 +7,7 @@ const DeleteShelfModal = props => {
   const { openClose,
           closeDeleteModal,
           deleteShelf } = props;
-          console.log(props);
+
   return(
     <Modal show={openClose}>
       <Modal.Header>

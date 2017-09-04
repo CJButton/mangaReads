@@ -19,46 +19,75 @@ class shelfBars extends React.Component{
         <Grid>
         {manga.map((comic, i) => (
           <Row key={i}>
-            <Col xs={2}>
-              <a href={`#/manga/${comic.id}`}>
-                <img className="bookshelfPicture" src={comic.img_url}/>
-              </a>
-            </Col>
-            <Col xs={3}>
-              <a href={`#/manga/${comic.id}`}
-                className="userShelfTitle-link">
-                <h3>{comic.title}</h3>
-              </a>
-            </Col>
-            <Col xs={1}>
-              <div className="releaseDate">Release Date:<div>
-                {comic.release_date}</div></div>
-            </Col>
-            <Col xs={2}>
-              {comic.genre !== undefined ?
-                <ul className="genres">Genres:
-                  <li>{comic.genre[0]}</li>
-                  <li>{comic.genre[1]}</li>
-                  <li>{comic.genre[2]}</li>
-                </ul> : null
-              }
-            </Col>
-            <Col xs={3}>
-              <div className="author">
-                Author: <div>{comic.author}</div>
-                </div>
-              <div className="userShelfRating">Average rating:
-              <div><StarRatingComponent
-                className="shelfStarRating"
-                name="rater"
-                editing={false}
-                starCount={5}
-                value={comic.avg}/>
-              </div>
-              </div>
-            </Col>
-          </Row>
+            <div className='bars-shelf-row-md'>
+              <Col md={2}>
+                <a href={`#/manga/${comic.id}`}>
+                  <img className="bookshelfPicture" src={comic.img_url}/>
+                </a>
+              </Col>
 
+              <Col md={3}>
+                <div className='bars-md-left'>
+                  <Col md={12}>
+                    <a href={`#/manga/${comic.id}`}>
+                      <div className='bars-comicTitle'>
+                        {comic.title}
+                      </div>
+                    </a>
+                  </Col>
+                  <br />
+                  <br />
+                  <Col md={12}>
+                    <div>
+                      Release Date:
+                      <div>
+                        {comic.release_date}
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Col>
+
+              <Col md={2}>
+                {comic.genre !== undefined ?
+                  <ul className="genres">Genres:
+                    <li>{comic.genre[0]}</li>
+                    <li>{comic.genre[1]}</li>
+                    <li>{comic.genre[2]}</li>
+                  </ul> : null
+                }
+              </Col>
+
+              <Col md={2}>
+                <div className='bars-md-left'>
+                  <Col md={12}>
+                    <div className="author">
+                      Author:
+                      <div>
+                        {comic.author}
+                      </div>
+                    </div>
+                  </Col>
+                  <br />
+                  <Col md={12}>
+                    <div className="userShelfRating">
+                      Average rating:
+                      <div>
+                        <StarRatingComponent
+                          className="shelfStarRating"
+                          name="rater"
+                          editing={false}
+                          starCount={5}
+                          value={comic.avg}/>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Col>
+
+            </div>
+            <div className='line' />
+          </Row>
         ))}
       </Grid>
         { /*

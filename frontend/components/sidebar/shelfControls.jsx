@@ -124,9 +124,12 @@ class shelfControls extends React.Component{
   }
 
   deleteShelf() {
-    console.log('in deleteShelf');
     this.props.deleteBookshelf(this.state.shelfId);
     this.closeDeleteModal();
+    this.setState({
+      dropdown: 'All-Shelves'
+    });
+    this.getComicsForShelf('all')
   }
 
   handleSelect(e) {
@@ -138,10 +141,6 @@ class shelfControls extends React.Component{
 
   getComicsForShelf(shelfname) {
     this.props.requestAllManga(shelfname);
-    // this.setStatusShelvesToBG();
-    // this.setStatusForPersonalShelvesBG();
-    // let name = shelfname.split("-");
-    // this.setNewHighlight(name[0].toLowerCase());
   }
 
   handleShelfDelete(shelfId) {
@@ -166,15 +165,9 @@ class shelfControls extends React.Component{
     const handleAddShelf = this.handleAddShelf;
     const closeDeleteModal = this.closeDeleteModal;
     const deleteShelf = this.deleteShelf;
-    // add shelf functionality
-    // still need for standard shelves
     // let user create shevles on each manga page
 
-    // O can create shelves
-    // X can delete shelves?
     // X hide too long shelf name
-    console.log(this.state);
-    console.log(this.props);
     return (
       <div>
         <Navbar collapseOnSelect>
@@ -263,9 +256,6 @@ class shelfControls extends React.Component{
           deleteShelf={deleteShelf}/>
 
         { /*
-          <div className="sidebar-delete button"
-               onClick={this.deleteModal.bind(this, shelf.id)}>X</div>
-          </div>
 
 
 
