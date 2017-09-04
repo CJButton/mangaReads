@@ -29,11 +29,14 @@
   border-style: solid;
   border-color: black;
   background-color: white;
+  height: 1.5em;
+  padding-top: 0px;
 }
 
 .shelf-delete-button:hover {
   background-color: red;
   color: white;
+
 }
 
 

@@ -211,7 +211,7 @@ class shelfControls extends React.Component{
                         eventKey={i + 4}
                         onSelect={() => this.handleSelect(shelf)}>
                         <div className='shelf-menu-item'>
-                          <div>
+                          <div className='shelf-menu-title'>
                             {shelf.title}
                           </div>
                           <button className='shelf-delete-button'>
