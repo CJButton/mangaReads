@@ -30,7 +30,7 @@ class shelfControls extends React.Component{
       read: "bg",
       want: "bg",
       all: "highlight",
-      deleteModal: true,
+      deleteModal: false,
       shelfId: 0,
       dropdown: 'All-Shelves'
     };
@@ -38,10 +38,10 @@ class shelfControls extends React.Component{
     this.handleAll = this.handleAll.bind(this);
     this.handleShelf = this.handleShelf.bind(this);
     this.handleAddShelf = this.handleAddShelf.bind(this);
-    this.closeModal = this.closeModal.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
     this.updateShelf = this.updateShelf.bind(this);
     this.closeDeleteModal = this.closeDeleteModal.bind(this);
+    this.deleteShelf = this.deleteShelf.bind(this);
   }
 
   componentWillReceiveProps(nextprops) {
@@ -130,15 +130,10 @@ class shelfControls extends React.Component{
     });
   }
 
-  closeModal() {
-    this.setState({
-      deleteModal: false
-    });
-  }
-
   deleteShelf() {
+    console.log('in deleteShelf');
     this.props.deleteBookshelf(this.state.shelfId);
-    this.closeModal();
+    this.closeDeleteModal();
   }
 
   handleSelect(e) {
@@ -169,6 +164,7 @@ class shelfControls extends React.Component{
 
     const handleAddShelf = this.handleAddShelf;
     const closeDeleteModal = this.closeDeleteModal;
+    const deleteShelf = this.deleteShelf;
     // add shelf functionality
     // still need for standard shelves
     // let user create shevles on each manga page
@@ -177,6 +173,7 @@ class shelfControls extends React.Component{
     // X can delete shelves?
     // X hide too long shelf name
     console.log(this.state);
+    console.log(this.props);
     return (
       <div>
         <Navbar collapseOnSelect>
@@ -261,7 +258,8 @@ class shelfControls extends React.Component{
 
         <DeleteShelfModal
           openClose={openClose}
-          closeDeleteModal={closeDeleteModal}/>
+          closeDeleteModal={closeDeleteModal}
+          deleteShelf={deleteShelf}/>
 
         { /*
           <div className="sidebar-delete button"
