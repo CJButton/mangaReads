@@ -38,6 +38,7 @@ class shelfControls extends React.Component{
     this.handleAddShelf = this.handleAddShelf.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
+    this.updateShelf = this.updateShelf.bind(this);
   }
 
   componentWillMount() {
@@ -54,8 +55,12 @@ class shelfControls extends React.Component{
     }
   }
 
-  update(property) {
-    return e => this.setState({[property]: e.target.value});
+  updateShelf(e) {
+    console.log(e.target.value);
+    this.setState({
+      shelfname: e.target.value
+    })
+    // return e => this.setState({[property]: e.target.value});
   }
 
   handleAll() {
@@ -75,8 +80,9 @@ class shelfControls extends React.Component{
   }
 
   handleAddShelf(e) {
-    const shelf = this.state.shelfname;
-    this.props.createBookshelf(shelf);
+    console.log(e.target.value);
+    // const shelf = this.state.shelfname;
+    // this.props.createBookshelf(shelf);
   }
 
 
@@ -145,9 +151,14 @@ class shelfControls extends React.Component{
 
   render() {
     const shelfTitle = this.state.dropdown;
+    const shelfname = this.state.shelfname;
     const changeShelfType = this.props.changeShelfType;
+
+    const handleAddShelf = this.handleAddShelf;
+    // const updateShelf = this.updateShelf();
     // add shelf functionality
     // still need for standard shelves
+    console.log(this.state);
     return (
       <div>
         <Navbar collapseOnSelect>
@@ -207,12 +218,16 @@ class shelfControls extends React.Component{
             </Nav>
               <Navbar.Form pullRight>
                 <FormGroup>
-                  <FormControl type="text" placeholder="Create a Shelf" />
+                  <FormControl
+                    type="text"
+                    placeholder="Create a Shelf"
+                    value={shelfname}
+                    onChange={this.updateShelf}/>
                 </FormGroup>
-                {' '}
                 <Button
                   className='shelf-button'
-                  type="submit">Create</Button>
+                  type="submit"
+                  onClick={() => handleAddShelf()}>Create</Button>
               </Navbar.Form>
           </Navbar.Collapse>
         </Navbar>
@@ -265,7 +280,7 @@ class shelfControls extends React.Component{
               type="text"
               placeholder="Shelfname"
               value={this.state.shelfname}
-              onChange={this.update("shelfname")}/>
+              onChange={this.updateShelf("shelfname")}/>
 
            <input className="addShelfSubmit button"
                type="submit"

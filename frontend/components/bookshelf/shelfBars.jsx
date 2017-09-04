@@ -17,25 +17,24 @@ class shelfBars extends React.Component{
     return(
       <div>
         <Grid>
-
         {manga.map((comic, i) => (
-          <Row>
-            <Col md={3}>
+          <Row key={i}>
+            <Col xs={2}>
               <a href={`#/manga/${comic.id}`}>
                 <img className="bookshelfPicture" src={comic.img_url}/>
               </a>
             </Col>
-            <Col md={3}>
+            <Col xs={3}>
               <a href={`#/manga/${comic.id}`}
                 className="userShelfTitle-link">
                 <h3>{comic.title}</h3>
               </a>
             </Col>
-            <Col md={1}>
+            <Col xs={1}>
               <div className="releaseDate">Release Date:<div>
                 {comic.release_date}</div></div>
             </Col>
-            <Col md={2}>
+            <Col xs={2}>
               {comic.genre !== undefined ?
                 <ul className="genres">Genres:
                   <li>{comic.genre[0]}</li>
@@ -44,11 +43,11 @@ class shelfBars extends React.Component{
                 </ul> : null
               }
             </Col>
-            <Col md={3}>
+            <Col xs={3}>
               <div className="author">
                 Author: <div>{comic.author}</div>
                 </div>
-              <div className="userShelfRating">Your rating:
+              <div className="userShelfRating">Average rating:
               <div><StarRatingComponent
                 className="shelfStarRating"
                 name="rater"

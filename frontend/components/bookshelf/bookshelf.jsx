@@ -31,9 +31,8 @@ class Bookshelf extends React.Component{
   render() {
     const shelfType = this.state.shelfType;
     const changeShelfType = this.changeShelfType;
-    const currentManga = this.props.manga
+    const currentManga = this.props.manga;
     // window.scrollTo(0,0);
-    console.log(this.state);
     return (
       <div>
         <div className='bookshelfMain'>
