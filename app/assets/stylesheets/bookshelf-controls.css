@@ -17,11 +17,33 @@
   }
 }
 
-.highlight {
-  background-color: #FF6900;
+.shelf-menu-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shelf-delete-button {
+  margin-left: 0.75em;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.shelf-delete-button:hover {
+  background-color: red;
   color: white;
 }
 
+
+
+
+/*.highlight {
+  background-color: #FF6900;
+  color: white;
+}*/
+/*
 .sidebar-topper input {
   margin: 5px;
   font-size: 17px;
@@ -29,9 +51,9 @@
 }
 
 .deleteShelfText {
-  margin-left: 24px;
+  margin-left: 24px;*/
 }
-
+/*
 .sidebar-delete {
   order: 1;
   height: 15px;
@@ -46,7 +68,7 @@
   padding-bottom: 8px;
   margin-top: 3px;
   margin-right: 8px;
-}
+}*/
 
 .sidebar-delete:hover {
   background-color: red;

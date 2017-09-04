@@ -157,6 +157,7 @@ class shelfControls extends React.Component{
     // let user create shevles on each manga page
 
     // can create shelves
+    // can delete shelves?
     console.log(this.state);
     return (
       <div>
@@ -205,12 +206,19 @@ class shelfControls extends React.Component{
                 <MenuItem divider />
                 {this.props.bookshelves.map((shelf, i) => {
                   return(
-                    <MenuItem
-                      key={i + 4}
-                      eventKey={i + 4}
-                      onSelect={() => this.handleSelect(shelf)}>
-                      {shelf.title}
-                    </MenuItem>
+                      <MenuItem
+                        key={i + 4}
+                        eventKey={i + 4}
+                        onSelect={() => this.handleSelect(shelf)}>
+                        <div className='shelf-menu-item'>
+                          <div>
+                            {shelf.title}
+                          </div>
+                          <button className='shelf-delete-button'>
+                            X
+                          </button>
+                        </div>
+                      </MenuItem>
                   )
                 })}
               </NavDropdown>
@@ -231,6 +239,12 @@ class shelfControls extends React.Component{
           </Navbar.Collapse>
         </Navbar>
         { /*
+          <div className="sidebar-delete button"
+               onClick={this.deleteModal.bind(this, shelf.id)}>X</div>
+          </div>
+
+
+
           <Nav pullRight>
           </Nav>
         <div className="sidbar-wrapper">
