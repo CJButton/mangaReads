@@ -31,6 +31,7 @@ class Bookshelf extends React.Component{
   render() {
     const shelfType = this.state.shelfType;
     const changeShelfType = this.changeShelfType;
+    const currentManga = this.props.manga
     // window.scrollTo(0,0);
     console.log(this.state);
     return (
@@ -39,8 +40,8 @@ class Bookshelf extends React.Component{
           <ShelfControls
             changeShelfType={changeShelfType}/>
         </div>
-        {shelfType === 'grid' && <ShelfGrid />}
-        {shelfType === 'bars' && <ShelfBars />}
+        {shelfType === 'grid' && <ShelfGrid manga={currentManga} />}
+        {shelfType === 'bars' && <ShelfBars manga={currentManga} />}
 
 
 

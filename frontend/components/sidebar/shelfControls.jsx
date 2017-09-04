@@ -144,7 +144,6 @@ class shelfControls extends React.Component{
   }
 
   render() {
-    console.log(this.state);
     const shelfTitle = this.state.dropdown;
     const changeShelfType = this.props.changeShelfType;
     // add shelf functionality
