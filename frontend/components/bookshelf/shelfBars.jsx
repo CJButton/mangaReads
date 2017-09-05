@@ -72,7 +72,7 @@ class shelfBars extends React.Component{
                     </div>
                   </Col>
                   <br />
-                  <Col md={12}>
+                  <Col xsHidden md={12}>
                     <div className="userShelfRating">
                       Average rating:
                       <div>
