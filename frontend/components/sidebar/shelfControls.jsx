@@ -26,17 +26,11 @@ class shelfControls extends React.Component{
     this.state = {
       bookshelves: this.props.bookshelves,
       shelfname: "",
-      currently: "bg",
-      read: "bg",
-      want: "bg",
-      all: "highlight",
       deleteModal: false,
       shelfId: 0,
       dropdown: 'All-Shelves'
     };
 
-    this.handleAll = this.handleAll.bind(this);
-    this.handleShelf = this.handleShelf.bind(this);
     this.handleAddShelf = this.handleAddShelf.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
     this.updateShelf = this.updateShelf.bind(this);
@@ -61,22 +55,6 @@ class shelfControls extends React.Component{
     });
   }
 
-  handleAll() {
-    this.props.requestAllManga("all");
-  }
-
-  handleShelf(e) {
-    let target = e.currentTarget.innerHTML;
-    this.props.requestAllManga(target);
-    this.setState({
-      Currently: "bg",
-      Read: "bg",
-      Want: "bg",
-      all: "bg",
-      [target]: "highlight"
-    });
-  }
-
   handleAddShelf() {
     const shelf = this.state.shelfname;
     this.props.createBookshelf(shelf);
@@ -85,35 +63,8 @@ class shelfControls extends React.Component{
     });
   }
 
-
-  setStatusShelvesToBG() {
-    this.setState({
-      currently: "bg",
-      read: "bg",
-      want: "bg",
-      all: "bg"
-    });
-  }
-
-  setStatusForPersonalShelvesBG() {
-    this.props.bookshelves.map((shelf) => {
-      this.setState({
-        [shelf.title]: "bg"
-      });
-    });
-  }
-
   getComicsForPersonalShelf(shelfname) {
     this.props.requestAllManga(shelfname);
-    // this.setStatusShelvesToBG();
-    // this.setStatusForPersonalShelvesBG();
-    // this.setNewHighlight(shelfname);
-  }
-
-  setNewHighlight(shelf) {
-    this.setState({
-      [shelf]: "highlight"
-    });
   }
 
   deleteModal(shelfId) {
@@ -141,6 +92,25 @@ class shelfControls extends React.Component{
 
   getComicsForShelf(shelfname) {
     this.props.requestAllManga(shelfname);
+
+    const shelfNames = {
+      'all': 'All-Shelves',
+      'Read': 'Have-Read',
+      'Currently-Reading': 'Currently-Reading',
+      'Want-To-Read': 'Want-To-Read'
+    }
+    console.log(shelfname);
+    const updateShelf = shelfNames[shelfname];
+    console.log(updateShelf);
+    this.setState({
+      dropdown: [updateShelf]
+    });
+    //
+    // shelfname === 'all' ? this.setState({
+    //   dropdown: 'All-Shelves'
+    // }) : this.setState({
+    //   dropdown: shelfname
+    // });
   }
 
   handleShelfDelete(shelfId) {

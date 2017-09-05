@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 20vw;
 }
 
 .bars-shelf-row-md {
@@ -21,14 +22,19 @@
   border-bottom: black solid 1px;
 }
 
+.userShelfRating {
+  max-width: 20vw;
+}
+
 .bookshelfPicture {
-  height: 200px;
-  width: 133px;
-  margin: 5px;
+  // height: 200px;
+  // width: 133px;
+  // max-height: 16em;
+  // margin: 5px;
   border-style: solid;
   border-color: black;
   border-radius: 3px;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 .releaseDate {
@@ -38,6 +44,13 @@
 
 .genres {
   list-style: none;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .bars-md-left {
+    max-width: 100%;
+  }
 }
 
 .genres li{

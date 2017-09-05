@@ -19,49 +19,49 @@ Manga.create(title:"Dragon Ball, Vol. 2: Wish upon a Dragon",
              author:"Akira Toriyama",
              synopsis:"Dragon Ball introduces a young monkey-tailed boy named Goku (a wry update of the classic Chinese Monkey King legend), whose quiet life changes when he meets a girl named Bulma who is on a quest to collect seven Dragon Balls. If she gathers them all, an incredibly powerful dragon will appear and grant her one wish. But the precious orbs are scattered all over the world, and Bulma could use the help of a certain super-strong boy... (In Japan, Dragon Ball and Dragon Ball Z were originally a single 42-volume series. VIZ Media's Dragon Ball contains vols. 1-16 of the original Japanese Dragon Ball , from the beginning of the series to the climax of Goku's last fight with Piccolo.)",
              release_date: "January 10, 1986",
-             img_url:"https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478851605/manga%20covers/dragonball2.jpg",
+             img_url:"http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478851605/manga%20covers/dragonball2.jpg",
              genre: ["Adventure", "Martial arts", "Sci-Fi"])
 
 Manga.create(title:"Dragon Ball, Vol. 7: General Blue and the Pirate Treasure",
              author:"Akira Toriyama",
              synopsis:"Only Goku, Bulma and Kuririn stand between the Red Ribbon Army and the seven Dragon Balls which can grant any wish in the world! Using a submarine loaned by Kame-Sen'nin, the heroic trio explores a pirate's undersea cave in search of the next Dragon Ball , but gun-toting bad guys are on their tail! Now they must face not only perilous pirate traps but the sinister General Blue, a martial artist with powers even Goku doesn't have! Can they escape the cave alive? As the battle continues, Goku and General Blue go to Penguin Village, the home of the weird scientist Dr. Slump and one of the strangest places on Earth!",
              release_date: "May 8, 1987",
-             img_url:"https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478899770/manga%20covers/dragonball7.jpg",
+             img_url:"http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478899770/manga%20covers/dragonball7.jpg",
              genre: ["Adventure", "Martial arts", "Sci-Fi"])
 
 Manga.create(title:"Dragon Ball, Vol. 1: The Monkey King",
              author:"Akira Toriyama",
              synopsis:"Before there was Dragon Ball Z , there was Akira Toriyama's action epic Dragon Ball , starring the younger version of Son Goku and all the other Dragon Ball Z heroes! Meet a naive young monkey-tailed boy named Goku, whose quiet life changes when he meets Bulma, a girl who is on a quest to collect seven Dragon Balls. If she gathers them all, an incredibly powerful dragon will appear and grant her one wish. But the precious orbs are scattered all over the world, and Bulma needs Goku's help (and his super-strength)! With a magic staff for a weapon and a flying cloud for a ride, Goku sets out on the adventure of a lifetime...",
              release_date: "September 10, 1985",
-             img_url:"https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478851476/manga%20covers/dragonball1.jpg",
+             img_url:"http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478851476/manga%20covers/dragonball1.jpg",
              genre: ["Adventure", "Martial arts", "Sci-Fi"])
 
 Manga.create(title:"Dragon Ball, Vol. 5: The Red Ribbon Army",
              author:"Akira Toriyama",
              synopsis:"In the final round of the Strongest under the Heavens martial arts competition, it's down to Goku vs. Jackie Chun, the mysterious old man who's as powerful as Kame-Sen'nin himself! Will the audience survive the confrontation? After the smoke clears, Goku jumps on his flying cloud and returns to his quest to find the seven Dragon Balls, but now he's not the only one looking for them. The evil Red Ribbon Army wants the Dragon Balls for themselves, and to stop their plans, Goku must go around the world--and survive the six deadly floors of Colonel White's fortress, Muscle Tower!",
              release_date: "January 9, 1986",
-             img_url:"https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478899763/manga%20covers/dragonball5.jpg",
+             img_url:"http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478899763/manga%20covers/dragonball5.jpg",
              genre: ["Adventure", "Martial arts", "Sci-Fi"])
 
 Manga.create(title:"Dragon Ball, Vol. 6: Bulma Returns!",
              author:"Akira Toriyama",
              synopsis:"In the frozen north, Goku's one-man fight against the Red Ribbon Army continues as he storms the perilous Muscle Tower! Can he defeat General White's squad of ninjas, cyborgs, and worse, and save the peaceful people of Jingle Village from their oppressors? Then, Goku travels to the City of the West to visit his old friend Bulma, who joins him on his quest, bringing her latest inventions. Their quest for the next Dragon Ball takes them around the world to a jungle island in the South Seas...but to get THIS Dragon Ball they'll have to go through General Blue! ",
              release_date: "January 9, 1987",
-             img_url:"https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478899771/manga%20covers/dragonball6.jpg",
+             img_url:"http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478899771/manga%20covers/dragonball6.jpg",
              genre: ["Adventure", "Martial arts", "Sci-Fi"])
 
 Manga.create(title:"Dragon Ball, Vol. 3: The Training of Kame-Sen'nin",
              author:"Akira Toriyama",
              synopsis:"With the Dragon Balls gone and Bulma's summer vacation over, Goku goes to the remote house of the Turtle Hermit, Kame-Sen'nin, to be trained in the martial arts. There, the girl-ogling old master promises to teach Goku everything he knows...and prepare him for the Tenka'ichi Budôkai, the great tournament to determine the Strongest Fighter in the World! But Goku's fellow student, the Shaolin monk Kuririn, isn't above cheating to be the best. Can the two of them get along as they undergo the strangest martial arts training ever?",
              release_date: "June 10, 1986",
-             img_url:"https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478899652/manga%20covers/dragonball3.jpg",
+             img_url:"http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478899652/manga%20covers/dragonball3.jpg",
              genre: ["Adventure", "Martial arts", "Sci-Fi"])
 
 Manga.create(title:"Dragon Ball, Vol. 4: Strongest Under the Heavens ",
              author:"Akira Toriyama",
              synopsis:"Goku has made it to the Tenka'ichi Budôkai, the world's #1 martial arts tournament...but even the training of the martial arts master Kame-Sen'nin hasn't prepared him for this! Only seven finalists remain. Will the champion be Goku? His fellow student Kuririn? Yamcha, master of the Fist of the Wolf Fang? Fighting woman Ran Fuan? Giran, a rubbery monster who's part dinasaur? Namu, an Indian mystic? Or Jackie Chun, the mysterious old man who may be the toughest fighter of all? There can be only one winner in the wildest, craziest battle ever!",
              release_date: "October 9, 1986",
-             img_url:"https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478899757/manga%20covers/dragonball4.jpg",
+             img_url:"http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478899757/manga%20covers/dragonball4.jpg",
              genre: ["Adventure", "Martial arts", "Sci-Fi"])
 
 Manga.create(title:"Ruroni Kenshin (るろうに剣心) Vol.2",
@@ -75,14 +75,14 @@ Manga.create(title:"Ruroni Kenshin (るろうに剣心) Vol.4",
              author:"Nobuhiro Watsuki",
              synopsis:"Shinomori Aoshi was once the leader of Edo Castle's elite guard, the Oniwabanshû. But with the fighting at an end and the shôgunate overthrown, the brilliant Aoshi and his four most loyal onmitsu, or spies, find themselves without a home or a purpose. When fighting is your life, loyalty to those lost ideals (and to the man who most symbolized them) may be the one thing left. But Megumi's life is at stake, and however sympathetic Kenshin may feel, he will fight on, to the last man if necessary...",
              release_date: "April 4, 1995",
-             img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478548454/manga%20covers/kenshin4.jpg",
+             img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478548454/manga%20covers/kenshin4.jpg",
              genre: ["sword-fighting"])
 
 Manga.create(title:"Ruroni Kenshin (るろうに剣心) Vol.5",
              author:"Nobuhiro Watsuki",
              synopsis:"Isurugi Raijûta, a truly old-school swordsman, comes to Kenshin and requests his aid in reforming the state of swordsmanship schools, or kenjutsu dojo, in Japan. Although Kenshin is intrigued by Raijûta's ideals (chiefly, that there is a need for a nation-wide, unifying school), Raijûta's plan to weed out the schools he deems unfit is not in accordance with Kenshin's deepest-held beliefs. Given the choice of either joining Raijûta's Shinko-ryû movement or dying, Kenshin walks away, choosing neither. But Raijûta isn't willing to let Kenshin off the hook so easily...",
              release_date: "June 2, 1995",
-             img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478548454/manga%20covers/kenshin_5.jpg",
+             img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478548454/manga%20covers/kenshin_5.jpg",
              genre: ["sword-fighting"])
 
 Manga.create(title:"Ruroni Kenshin (るろうに剣心) Vol.7",
@@ -103,14 +103,14 @@ Manga.create(title:"Ruroni Kenshin (るろうに剣心) Vol.1",
              author:"Nobuhiro Watsuki",
              synopsis:"During the Meiji 11th (1878), a peaceful wanderer called Himura Kenshin, formerly known as the Hitokiri Battōsai, arrives in Tokyo, where he meets Kamiya Kaoru whose swordsmanship school is in danger as a murderer from the city claims to be from that school. After investigating, Kenshin defeats the murderer using his sakabatō sword, which has a reversed blade, making it almost impossible to kill someone. When Kenshin decides to leave Tokyo, Kaoru offers him a place to live in her dojo. During his stay in the dojo, Kenshin rescues an orphan called Myōjin Yahiko from a group of yakuza and takes him to live and train in the dojo. A few days later, a fight merchant named Sagara Sanosuke is hired to attack Kenshin. The volume ends with a one-shot by Watsuki called Rurouni Meiji Swordsman Romantic Story.",
              release_date: "September 2, 1994",
-             img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478411730/manga%20covers/kenshin_vol1.jpg",
+             img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478411691/Extras/kenshin_vol1.jpg",
              genre: ["sword-fighting"])
 
 Manga.create(title:"Ruroni Kenshin (るろうに剣心) Vol.6",
              author:"Nobuhiro Watsuki",
              synopsis:"Kenshin's battle with Raijûta to decide the fate of Meiji Era swordsmanship is coming to a head. One fact is quickly becoming apparent: Raijûta will stop at nothing to ensure the supremacy of his own school of sword-fighting! Reunited with a member of the former Sekihô Army--that doomed civilian unit--Sanosuke runs into trouble of his own. Old alliances are challenged when a plan to topple the current government by any means necessary is shared...and as his friend puts it, Sano's either in, or in the way. Plus a bonus installment containing the first story Nobuhiro Watsuki ever published!",
              release_date: "August 4, 1995",
-             img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/v1478548454/manga%20covers/kenshin_6.jpg",
+             img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_400/v1478548454/manga%20covers/kenshin_6.jpg",
              genre: ["sword-fighting"])
 
 Manga.create(title:"Cowboy Bebop, Vol. 1",
