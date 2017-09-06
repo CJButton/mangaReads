@@ -21,7 +21,7 @@ class shelfBars extends React.Component{
           <Row key={i}>
             <div className='bars-shelf-row-md'>
               <Col xs={8} xsOffset={2} sm={2} smOffset={1}>
-                <a href={`#/manga/${comic.id}`}>
+                <a className='bars-bookshelf-a ' href={`#/manga/${comic.id}`}>
                   <Image responsive className="bookshelfPicture" src={comic.img_url}/>
                 </a>
               </Col>

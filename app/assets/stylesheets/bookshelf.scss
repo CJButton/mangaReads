@@ -31,9 +31,6 @@
   border-color: black;
   border-radius: 2px;
   border-width: 1px;
-  // display: block;
-  // max-width: 100%;
-  // max-height: 29vh;
 }
 
 .grid-bookshelfPicture {
@@ -57,9 +54,16 @@
 @media screen and (max-width: 767px) {
   .bars-md-left {
     max-width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    height: 2em;
   }
   .bars-shelf-row-md {
     flex-direction: column;
+  }
+  .bars-bookshelf-a {
+    display: flex;
+    justify-content: center;
   }
 }
 
