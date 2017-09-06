@@ -154,11 +154,11 @@ class SplashComponent extends React.Component{
       {/* Items placed on top */}
       <div className='splash-wrapper'>
         <div className='splash-top-bar'>
-          <Col xs={8} xsOffset={2} sm={6} smOffset={0} md={4} mdOffset={1}>
+          <Col xs={12} sm={6} smOffset={0} md={4} mdOffset={1}>
             <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
           </Col>
 
-          <Col xs={8} xsOffset={2} sm={6} smOffset={0} md={5} mdOffset={1}>
+          <Col xs={12} sm={6} smOffset={0} md={5} mdOffset={1}>
             <div className="login-form-wrapper">
               <form className="loginForm" onSubmit={this.handleLogin}>
                 <div className="splash-login-wrapper">
