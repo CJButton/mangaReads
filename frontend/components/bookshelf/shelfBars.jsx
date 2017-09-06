@@ -21,15 +21,15 @@ class shelfBars extends React.Component{
         {manga.map((comic, i) => (
           <Row key={i}>
             <div className='bars-shelf-row-md'>
-              <Col xs={10} xsOffset={1} sm={2}>
+              <Col xs={10} xsOffset={1} sm={2} smOffset={1}>
                 <a href={`#/manga/${comic.id}`}>
                   <Image responsive className="bookshelfPicture" src={comic.img_url}/>
                 </a>
               </Col>
 
-              <Col xs={11} xsOffset={1} sm={3} md={3}>
+              <Col xs={11} xsOffset={1} sm={3} smOffset={0} md={3}>
                 <div className='bars-md-left'>
-                  <Col xs={12}>
+                  <Col>
                     <a href={`#/manga/${comic.id}`}>
                       <div className='bars-comicTitle'>
                         {comic.title}
