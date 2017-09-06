@@ -5,8 +5,9 @@ import { Modal,
 
 const ShelfGridModal = props => {
   const { openClose,
-          openCloseModal } = props;
-
+          openCloseModal,
+          mangaInfo} = props;
+          console.log(props);
   return(
     <Modal show={openClose}>
       <Modal.Header>
@@ -15,6 +16,7 @@ const ShelfGridModal = props => {
 
       <Modal.Body>
         This is where the info will go later.
+        {mangaInfo.title}
       </Modal.Body>
 
       <Modal.Footer>

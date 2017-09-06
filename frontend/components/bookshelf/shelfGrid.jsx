@@ -13,30 +13,33 @@ class shelfGrid extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      openClose: true
+      openClose: false,
+      mangaInfo: ''
     };
     this.openCloseModal = this.openCloseModal.bind(this);
   }
 
-  openCloseModal() {
+  openCloseModal(comic) {
+    console.log(comic);
     const newState = (this.state.openClose === false) ? true : false;
-    console.log(newState);
     this.setState({
-      openClose: newState
-    })
+      openClose: newState,
+      mangaInfo: comic
+    });
   }
   render() {
     // href={`#/manga/${comic.id}`}
+    console.log(this.state);
     const manga = this.props.manga;
     const openCloseModal = this.openCloseModal;
     const openClose = this.state.openClose;
-
+    const mangaInfo = this.state.mangaInfo;
     return(
       <div>
           <div className='grid-shelf'>
           {manga.map((comic, i) => (
               <Col xs={6} sm={3} md={2}>
-                <div onClick={this.openCloseModal}>
+                <div onClick={() => openCloseModal(comic)}>
                   <Image responsive className="grid-bookshelfPicture" src={comic.img_url}/>
                 </div>
               </Col>
@@ -44,7 +47,8 @@ class shelfGrid extends React.Component{
           </div>
           <ShelfGridModal
             openClose={openClose}
-            openCloseModal={openCloseModal} />
+            openCloseModal={openCloseModal}
+            mangaInfo={mangaInfo} />
       </div>
     )
   }
