@@ -15,26 +15,23 @@
  */
 
 #root {
+  /*height: 100%;
+  overflow: hidden;*/
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   height: 100%;
 }
 
 html {
-  height: 100%;
+  /*height: 100%;*/
 }
 
 body {
    background-color: white;
-   /*font-family: 'Bangers', cursive;*/
-   /*font-family: 'AnimeAce';*/
-   /*background-color: black;*/
    font-family: 'Lato', serif;
    height: 100%;
  }
-
-/*@font-face {
-   font-family: "AnimeAce";
-   src: url('fonts/animeace2_reg.ttf');
-}*/
 
 .basicOutline {
   background-color: white;

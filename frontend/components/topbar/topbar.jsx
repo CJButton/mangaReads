@@ -71,10 +71,3 @@ class TopBar extends React.Component{
 
 
 export default TopBar;
-
-// <li>
-// </li>
-// <li>
-//   <input type="text" placeholder="Search Manga"
-//     onClick={this.handleSearch} className="topbar-search" />
-// </li>
