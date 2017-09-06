@@ -21,13 +21,13 @@ class shelfBars extends React.Component{
         {manga.map((comic, i) => (
           <Row key={i}>
             <div className='bars-shelf-row-md'>
-              <Col xs={12} sm={2}>
+              <Col xs={10} xsOffset={1} sm={2}>
                 <a href={`#/manga/${comic.id}`}>
                   <Image responsive className="bookshelfPicture" src={comic.img_url}/>
                 </a>
               </Col>
 
-              <Col xs={12} sm={3} md={3}>
+              <Col xs={11} xsOffset={1} sm={3} md={3}>
                 <div className='bars-md-left'>
                   <Col xs={12}>
                     <a href={`#/manga/${comic.id}`}>
@@ -39,7 +39,7 @@ class shelfBars extends React.Component{
                   <br />
                   <br />
                   <div className='bars-releaseDate'>
-                    <Col xs={12}>
+                    <Col xsHidden sm={12}>
                       <div>
                         Release Date:
                         <div>
@@ -51,7 +51,7 @@ class shelfBars extends React.Component{
                 </div>
               </Col>
 
-              <Col sm={0} md={2}>
+              <Col xsHidden sm={0} md={2}>
                 {comic.genre !== undefined ?
                   <ul className="genres">Genres:
                     <li>{comic.genre[0]}</li>
@@ -61,7 +61,7 @@ class shelfBars extends React.Component{
                 }
               </Col>
 
-              <Col sm={3}>
+              <Col xsHidden sm={3}>
                 <div className='bars-md-left'>
                   <Col md={12}>
                     <div className="author">
@@ -72,7 +72,7 @@ class shelfBars extends React.Component{
                     </div>
                   </Col>
                   <br />
-                  <Col xsHidden md={12}>
+                  <Col md={12}>
                     <div className="userShelfRating">
                       Average rating:
                       <div>

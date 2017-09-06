@@ -105,12 +105,6 @@ class shelfControls extends React.Component{
     this.setState({
       dropdown: [updateShelf]
     });
-    //
-    // shelfname === 'all' ? this.setState({
-    //   dropdown: 'All-Shelves'
-    // }) : this.setState({
-    //   dropdown: shelfname
-    // });
   }
 
   handleShelfDelete(shelfId) {
