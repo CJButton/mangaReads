@@ -11,6 +11,7 @@ const ShelfGridModal = props => {
           openCloseModal,
           mangaInfo} = props;
           console.log(props);
+          // <a href={`#/manga/${mangaInfo.id}`}>
   return(
     <Modal show={openClose}>
       <Modal.Header>
@@ -27,15 +28,6 @@ const ShelfGridModal = props => {
 
             <Col xs={12} sm={3} smOffset={0} md={3}>
               <div className='grid-md-left'>
-                <Col xs={12}>
-                  <a href={`#/manga/${mangaInfo.id}`}>
-                    <div className='grid-comicTitle'>
-                      {mangaInfo.title}
-                    </div>
-                  </a>
-                </Col>
-                <br />
-                <br />
                 <div>
                   <Col xs={12}>
                     <div>
@@ -49,13 +41,13 @@ const ShelfGridModal = props => {
               </div>
             </Col>
 
-            <Col sm={0} md={2}>
+            <Col xs={12} sm={3} md={2}>
               {mangaInfo.genre !== undefined ?
-                <ul className="genres">Genres:
-                  <li>{mangaInfo.genre[0]}</li>
-                  <li>{mangaInfo.genre[1]}</li>
-                  <li>{mangaInfo.genre[2]}</li>
-                </ul> : null
+                <div className="grid-genres">Genres:
+                  <div>{mangaInfo.genre[0]}</div>
+                  <div>{mangaInfo.genre[1]}</div>
+                  <div>{mangaInfo.genre[2]}</div>
+                </div> : null
               }
             </Col>
 
@@ -70,8 +62,8 @@ const ShelfGridModal = props => {
                   </div>
                 </Col>
                 <br />
-                <Col md={12}>
-                  <div className="userShelfRating">
+                <Col xs={12}>
+                  <div className="grid-userShelfRating">
                     Average rating:
                     <div>
                       <StarRatingComponent
