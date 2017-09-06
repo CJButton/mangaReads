@@ -21,7 +21,7 @@ class shelfGrid extends React.Component{
           {manga.map((comic, i) => (
               <Col xs={6} sm={3} md={2}>
                 <a href={`#/manga/${comic.id}`}>
-                  <Image responsive className="bookshelfPicture" src={comic.img_url}/>
+                  <Image responsive className="grid-bookshelfPicture" src={comic.img_url}/>
                 </a>
               </Col>
           ))}
