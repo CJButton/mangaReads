@@ -39,7 +39,7 @@ class shelfBars extends React.Component{
                   <br />
                   <br />
                   <div className='bars-releaseDate'>
-                    <Col xsHidden sm={12}>
+                    <Col xsHidden>
                       <div>
                         Release Date:
                         <div>
