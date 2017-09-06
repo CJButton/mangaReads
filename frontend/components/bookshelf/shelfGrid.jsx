@@ -18,7 +18,6 @@ class shelfGrid extends React.Component{
     return(
       <div>
           <div className='grid-shelf'>
-
           {manga.map((comic, i) => (
               <Col xs={6} sm={3} md={2}>
                 <a href={`#/manga/${comic.id}`}>
