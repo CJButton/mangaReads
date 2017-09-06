@@ -1,6 +1,12 @@
 
 import React from 'react';
 
+import { Grid,
+         Row,
+         Col,
+         Image } from 'react-bootstrap';
+import StarRatingComponent from 'react-star-rating-component';
+
 
 class shelfGrid extends React.Component{
   constructor(props) {
@@ -8,11 +14,19 @@ class shelfGrid extends React.Component{
   }
 
   render() {
+    const manga = this.props.manga;
     return(
       <div>
-        <h4>
-          Hello from Grid
-        </h4>
+          <div className='grid-shelf'>
+
+          {manga.map((comic, i) => (
+              <Col xs={4} xsOffset={1} sm={3} md={2}>
+                <a href={`#/manga/${comic.id}`}>
+                  <img className="bookshelfPicture" src={comic.img_url}/>
+                </a>
+              </Col>
+          ))}
+          </div>
       </div>
     )
   }

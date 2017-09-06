@@ -99,9 +99,7 @@ class shelfControls extends React.Component{
       'Currently-Reading': 'Currently-Reading',
       'Want-To-Read': 'Want-To-Read'
     }
-    console.log(shelfname);
     const updateShelf = shelfNames[shelfname];
-    console.log(updateShelf);
     this.setState({
       dropdown: [updateShelf]
     });

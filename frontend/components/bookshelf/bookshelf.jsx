@@ -17,7 +17,7 @@ class Bookshelf extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      shelfType: 'bars'
+      shelfType: 'grid'
     }
     this.changeShelfType = this.changeShelfType.bind(this);
   }
@@ -33,13 +33,15 @@ class Bookshelf extends React.Component{
     const changeShelfType = this.changeShelfType;
     const currentManga = this.props.manga;
     return (
-      <div>
+      <div className='bookshelf-wrapper'>
         <div className='bookshelfMain'>
           <ShelfControls
             changeShelfType={changeShelfType}/>
         </div>
-        {shelfType === 'grid' && <ShelfGrid manga={currentManga} />}
-        {shelfType === 'bars' && <ShelfBars manga={currentManga} />}
+        <Grid>
+          {shelfType === 'grid' && <ShelfGrid manga={currentManga} />}
+          {shelfType === 'bars' && <ShelfBars manga={currentManga} />}
+        </Grid>
       </div>
     );
   }

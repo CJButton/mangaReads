@@ -17,7 +17,6 @@ class shelfBars extends React.Component{
     const manga = this.props.manga;
     return(
       <div>
-        <Grid>
         {manga.map((comic, i) => (
           <Row key={i}>
             <div className='bars-shelf-row-md'>
@@ -92,7 +91,6 @@ class shelfBars extends React.Component{
             <div className='line' />
           </Row>
         ))}
-      </Grid>
       </div>
     )
   }

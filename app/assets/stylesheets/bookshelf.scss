@@ -17,10 +17,6 @@
   margin-top: 1em;
 }
 
-.bookshelfPicture {
-  min-width: 100%;
-}
-
 .line {
   width: 100%;
   border-top: black solid 1px;
@@ -35,6 +31,10 @@
   border-color: black;
   border-radius: 3px;
   border-width: 1px;
+  display: block;
+  max-width: 100%;
+  max-height: 29vh;
+  margin: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .releaseDate {
