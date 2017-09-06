@@ -17,7 +17,7 @@ class Bookshelf extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      shelfType: 'bars'
+      shelfType: 'grid'
     }
     this.changeShelfType = this.changeShelfType.bind(this);
   }
