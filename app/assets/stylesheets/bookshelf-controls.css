@@ -1,0 +1,93 @@
+
+
+
+
+@media screen and (max-width: 767px) {
+  .shelf-button {
+    width: 100%;
+  }
+  .shelf-nav-a {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .shelf-nav-b {
+    display: none;
+  }
+}
+
+.shelf-menu-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shelf-delete-button {
+  margin-left: 0.75em;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  height: 1.5em;
+  padding-top: 0px;
+}
+
+.shelf-delete-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.sidebar-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.sidebar-shelves {
+  width: 150px;
+  font-size: 18px;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.sidebar-shelves-holder {
+  margin: 15px;
+  width: 150px;
+  list-style-type: none;
+  line-height: 1.5em;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.userGenShelvesContainer {
+  width: 200px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3px;
+  padding-bottom: 25px;
+}
+
+.sidebar-footer {
+  width: 25px;
+}
+
+.sidebar-topper {
+  padding-top: 0px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3px;
+  width: 185px;
+  padding-right: 17px;
+}
+
+.shelf-title {
+  padding-left: 35px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.sidebar-shelf-create {
+  font-size: 12px;
+  list-style: none;
+  padding-left: 30px;
+}

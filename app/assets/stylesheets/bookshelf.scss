@@ -1,68 +1,98 @@
 
+.bars-comicTitle {
+  color: black;
+}
 
-.comicShelfContainer {
+.grid-comicTitle {
+  color: black;
+}
+
+.bars-md-left {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: space-between;
-  margin-left: 25%;
-  width: 60%;
-  margin-top:  10px;
-  margin-bottom: 10px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 3px;
-  border-width: 4px;
+  max-width: 20vw;
+}
+
+.bars-shelf-row-md {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.grid-md-left {
+  margin-top: 0em;
+}
+
+.line {
+  width: 100%;
+  border-top: black solid 1px;
+}
+
+.userShelfRating {
+  max-width: 20vw;
+}
+
+.grid-userShelfRating {
+  margin-top: 2em;
+  max-width: 20vw;
 }
 
 .bookshelfPicture {
-  height: 200px;
-  width: 133px;
-  margin: 5px;
   border-style: solid;
   border-color: black;
-  border-radius: 3px;
-  border-width: 2px;
+  border-radius: 2px;
+  border-width: 1px;
+}
+
+.grid-bookshelfPicture {
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  border-style: solid;
+  border-color: black;
+  border-radius: 2px;
+  border-width: 1px;
 }
 
 .releaseDate {
   margin: 5px;
+  width: 100%;
 }
 
 .genres {
-  padding-right: 40px;
-  margin: 5px;
   list-style: none;
-  padding-left: 20px;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .bars-md-left {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    height: 2em;
+  }
+  .bars-shelf-row-md {
+    flex-direction: column;
+  }
+  .bars-bookshelf-a {
+    display: flex;
+    justify-content: center;
+  }
+  .grid-genres {
+    padding-left: 14px;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+  .grid-userShelfRating {
+    margin-top: 0em;
+  }
+  .grid-md-left {
+    margin-top: 1em;
+  }
 }
 
 .genres li{
   margin-top: 7px;
-  width: 120px;
-}
-
-.mangaContent {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.author {
-  margin-top: 5px;
-  // margin-right: 20px;
-  margin-left: 20px;
-  width: 135px;
-}
-
-.author div{
-  margin-top: 5px;
-}
-
-.releaseDate {
-  // margin-right: 40px;
-  width: 140px;
-}
-
-.releaseDate div{
-  margin-top: 5px;
 }
 
 .shelfStarRating {
@@ -78,72 +108,3 @@
 .userShelfTitle-link, .userShelfTitle-link:visited, .userShelfTitle-link:hover, .userShelfTitle-link:active {
   color: inherit;
 }
-
-.userShelfRating {
-  margin: 5px;
-  // margin-right: 40px;
-  width: 120px;
-}
-
-
-
-// .bookshelfMain {
-//   margin-top: 30px;
-//   display: flex;
-//   justify-content: space-between;
-// }
-//
-//
-// .bookshelfLeft {
-// }
-//
-// .bookshelfContainer {
-//   position: absolute;
-//   right: 3%;
-// }
-//
-// .comicDisplayWrapper {
-//   display: flex;
-//   justify-content: flex-end;
-//   // width: 85%;
-// }
-//
-// .comicInfoDisplay {
-//   display: flex;
-//   flex-direction: row-reverse;;
-//   list-style: none;
-// }
-//
-// .bookshelfTitle {
-//   // font-size: 18px;
-//   // width: 300px;
-// }
-//
-// .bookshelfComicText {
-//   // list-style: none;
-//   // display: flex;
-//   // flex-direction: column;
-//   // padding-right: 300px;
-// }
-//
-//
-// .bookshelfComicShow {
-//   width: 800px;
-//   // flex-direction: column;
-//   // width: 100%;
-//   // display: flex;
-//   // border-left-style: solid;
-//   // border-left-width: 1px;
-//   // border-left-color: #F4F1EA;
-//
-// }
-//
-// .bookshelfPicture {
-//   // box-shadow: 10px 10px 5px #888888;
-//   height: 250px;
-//   border-color: black;
-//   border-style: solid;
-//   border-width: 3px;
-//   border-radius: 3px;
-//
-// }
