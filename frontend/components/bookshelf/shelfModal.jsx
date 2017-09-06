@@ -26,18 +26,18 @@ const ShelfGridModal = props => {
             </Col>
 
             <Col xs={12} sm={3} smOffset={0} md={3}>
-              <div className='bars-md-left'>
-                <Col>
+              <div className='grid-md-left'>
+                <Col xs={12}>
                   <a href={`#/manga/${mangaInfo.id}`}>
-                    <div className='bars-comicTitle'>
+                    <div className='grid-comicTitle'>
                       {mangaInfo.title}
                     </div>
                   </a>
                 </Col>
                 <br />
                 <br />
-                <div className='bars-releaseDate'>
-                  <Col xsHidden>
+                <div>
+                  <Col xs={12}>
                     <div>
                       Release Date:
                       <div>
@@ -49,7 +49,7 @@ const ShelfGridModal = props => {
               </div>
             </Col>
 
-            <Col xsHidden sm={0} md={2}>
+            <Col sm={0} md={2}>
               {mangaInfo.genre !== undefined ?
                 <ul className="genres">Genres:
                   <li>{mangaInfo.genre[0]}</li>
@@ -59,8 +59,8 @@ const ShelfGridModal = props => {
               }
             </Col>
 
-            <Col xsHidden sm={3}>
-              <div className='bars-md-left'>
+            <Col sm={4}>
+              <div className='grid-md-left'>
                 <Col md={12}>
                   <div className="author">
                     Author:
