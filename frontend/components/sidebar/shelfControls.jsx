@@ -127,9 +127,7 @@ class shelfControls extends React.Component{
     const handleAddShelf = this.handleAddShelf;
     const closeDeleteModal = this.closeDeleteModal;
     const deleteShelf = this.deleteShelf;
-    // let user create shevles on each manga page
 
-    // X hide too long shelf name
     return (
       <div>
         <Navbar collapseOnSelect>
