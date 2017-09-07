@@ -17,7 +17,8 @@ import { Nav,
          Form,
          Grid,
          Row,
-         Col } from 'react-bootstrap';
+         Col,
+         Image } from 'react-bootstrap';
 
 class shelfControls extends React.Component{
   constructor(props) {
@@ -127,15 +128,26 @@ class shelfControls extends React.Component{
     const handleAddShelf = this.handleAddShelf;
     const closeDeleteModal = this.closeDeleteModal;
     const deleteShelf = this.deleteShelf;
-
+    // <div className='shelf-nav-a'>
+    //   <Navbar.Header>
+    //     <Navbar.Brand>
+    //       <a>Manga-Shelves</a>
+    //     </Navbar.Brand>
+    //     <Navbar.Toggle />
+    //   </Navbar.Header>
+    // </div>
     return (
       <div>
-        <Navbar collapseOnSelect>
+        <Navbar inverse collapseOnSelect>
           <div className='shelf-nav-a'>
             <Navbar.Header>
-              <Navbar.Brand>
-                <a>Manga-Shelves</a>
-              </Navbar.Brand>
+              <Link to='/'>
+                <Navbar.Brand>
+                  <div className='nav-logo-wrapper'>
+                    <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
+                  </div>
+                </Navbar.Brand>
+              </Link>
               <Navbar.Toggle />
             </Navbar.Header>
           </div>

@@ -44,9 +44,6 @@ class TopBar extends React.Component{
   }
 
   render() {
-    // merge this navbars functions into the mymanga navbar on that page
-    // keep a more clean/professional look
-    // <a href="#">mangaReads</a>
     return (
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
@@ -71,23 +68,4 @@ class TopBar extends React.Component{
     );
   }
 }
-// <header className="topbar-header">
-//   <nav className="topbar-nav">
-//
-//     <div className="topbar-left">
-//       <div className="topbar-logo button" onClick={this.handleLogo}></div>
-//       <input className="topbar-home-button button" type="submit"
-//         onClick={this.handleHome} value="Home" />
-//       <input className="topbar-myManga-button button" type="submit"
-//         onClick={this.handleMyManga} value="MyManga" />
-//     </div>
-//
-//     <div className="topbar-right">
-//       <input className="topbar-logout-button button" type="submit"
-//         onClick={this.handleLogout} value="Logout"/>
-//     </div>
-//   </nav>
-// </header>
-
-
 export default TopBar;
