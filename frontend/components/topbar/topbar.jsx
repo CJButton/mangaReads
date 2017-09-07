@@ -50,9 +50,11 @@ class TopBar extends React.Component{
     return (
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
-          <Link to='/' className='topbar-logo'>
+          <Link to='/'>
           <Navbar.Brand>
-              <div />
+            <div className='nav-logo-wrapper'>
+              <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
+            </div>
           </Navbar.Brand>
         </Link>
           <Navbar.Toggle />
