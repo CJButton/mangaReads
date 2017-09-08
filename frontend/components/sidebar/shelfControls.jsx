@@ -203,6 +203,9 @@ class shelfControls extends React.Component{
                 })}
               </NavDropdown>
             </Nav>
+            <Nav onSelect={this.handleLogout} pullRight>
+              <NavItem eventKey={2}>Logout</NavItem>
+            </Nav>
               <Navbar.Form pullRight>
                 <FormGroup>
                   <FormControl
@@ -217,10 +220,6 @@ class shelfControls extends React.Component{
                   onClick={() => handleAddShelf()}>
                   Create
                 </Button>
-                <Nav onSelect={this.handleLogout} pullRight>
-                  <NavItem eventKey={2}>Logout</NavItem>
-                </Nav>
-
               </Navbar.Form>
           </Navbar.Collapse>
         </Navbar>
