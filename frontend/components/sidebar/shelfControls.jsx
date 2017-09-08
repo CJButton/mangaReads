@@ -41,6 +41,7 @@ class shelfControls extends React.Component{
     this.deleteShelf = this.deleteShelf.bind(this);
     this.getComicsForShelf = this.getComicsForShelf.bind(this);
     this.handleLogout = this.handleLogout.bind(this);
+    this.redirectHome = this.redirectHome.bind(this);
   }
 
   componentWillReceiveProps(nextprops) {
@@ -129,6 +130,10 @@ class shelfControls extends React.Component{
     this.props.logout();
   }
 
+  redirectHome() {
+    hashHistory.push("/");
+  }
+
   render() {
     const shelfTitle = this.state.dropdown;
     const shelfname = this.state.shelfname;
@@ -171,11 +176,11 @@ class shelfControls extends React.Component{
           </div>
           <Navbar.Collapse>
             <Nav>
-              <Link to='/' className='shelf-link-home'>
-                <div>
-                  Home
-                </div>
-              </Link>
+              <NavItem onClick={this.redirectHome}>
+                  <div>
+                    Home
+                  </div>
+            </NavItem>
               <OverlayTrigger placement="bottom" overlay={tooltipA}>
                 <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
                     <i className='fa fa-bars nav-type' aria-hidden='true' />
