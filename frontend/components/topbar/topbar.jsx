@@ -55,7 +55,7 @@ class TopBar extends React.Component{
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav onSelect={this.handleSelect}>
+          <Nav onSelect={this.handleSelect} id='topbar-mymanga'>
             <NavItem eventKey={1}>myManga</NavItem>
           </Nav>
           <Nav onSelect={this.handleSelect} pullRight>
