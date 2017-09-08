@@ -90,7 +90,9 @@ class MangaShow extends React.Component{
  render() {
    window.scrollTo(0,0);
    return (
-     <div className="single-manga-container">
+     <div>
+       <TopBarContainer />
+       <div className="single-manga-container">
 
    <div className="single-manga-show">
      <div className="single-manga-top">
@@ -164,6 +166,7 @@ class MangaShow extends React.Component{
 
          <Reviews/>
      </div>
+   </div>
      </div>
    );
  }

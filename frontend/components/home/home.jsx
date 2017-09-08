@@ -2,9 +2,12 @@
 
 import React from 'react';
 
+import TopBarContainer from '../topbar/topbar_container';
+
 const Home = ( {manga} ) => {
     return (
   <main className="home-container">
+    <TopBarContainer />
     <div className="home-left"></div>
     <div className="home-top2">Click on a manga from the Library to see more</div>
 

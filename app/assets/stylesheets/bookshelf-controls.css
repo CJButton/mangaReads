@@ -1,9 +1,11 @@
 
 
+
+/*#basic-nav-dropdown {
+  max-width: 158px;
+}*/
+
 @media screen and (max-width: 767px) {
-  .shelf-button {
-    width: 100%;
-  }
   .shelf-nav-a {
     display: none;
   }

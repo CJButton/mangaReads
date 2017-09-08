@@ -87,6 +87,9 @@ class shelfControls extends React.Component{
 
   handleSelect(e) {
     this.getComicsForPersonalShelf(e.title);
+
+    // const newTitle = e.title.length > 17 ?
+
     this.setState({
       dropdown: e.title
     });
@@ -206,12 +209,13 @@ class shelfControls extends React.Component{
             <Nav onSelect={this.handleLogout} pullRight>
               <NavItem eventKey={2}>Logout</NavItem>
             </Nav>
-              <Navbar.Form pullRight>
+              <Navbar.Form pullRight fluid={true}>
                 <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Create a Shelf"
                     value={shelfname}
+                    className='shelf-create-input'
                     onChange={this.updateShelf}/>
                 </FormGroup>
                 <Button
