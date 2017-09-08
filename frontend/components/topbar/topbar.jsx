@@ -43,7 +43,7 @@ class TopBar extends React.Component{
 
   render() {
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar inverse collapseOnSelect id='topbar-wrapper'>
         <Navbar.Header>
           <Link to='/'>
           <Navbar.Brand>
