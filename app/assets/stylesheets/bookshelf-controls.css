@@ -6,9 +6,19 @@
   border-top: 0px;
 }
 
+#shelf-create-input {
+  margin-right: 0.3em;
+}
+
 @media screen and (max-width: 767px) {
   .shelf-nav-a {
     display: none;
+  }
+  #shelf-button {
+    width: 100%;
+  }
+  #shelf-create-input {
+    text-align: center;
   }
 }
 

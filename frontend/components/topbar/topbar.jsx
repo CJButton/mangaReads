@@ -47,7 +47,7 @@ class TopBar extends React.Component{
         <Navbar.Header>
           <Link to='/'>
           <Navbar.Brand>
-            <div className='nav-logo-wrapper'>
+            <div id='nav-logo-wrapper-a'>
               <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
             </div>
           </Navbar.Brand>

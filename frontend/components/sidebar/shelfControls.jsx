@@ -215,11 +215,11 @@ class shelfControls extends React.Component{
                     type="text"
                     placeholder="Create a Shelf"
                     value={shelfname}
-                    className='shelf-create-input'
+                    id='shelf-create-input'
                     onChange={this.updateShelf}/>
                 </FormGroup>
                 <Button
-                  className='shelf-button'
+                  id='shelf-button'
                   type="submit"
                   onClick={() => handleAddShelf()}>
                   Create
@@ -236,5 +236,4 @@ class shelfControls extends React.Component{
     );
   }
 }
-
 export default shelfControls;
