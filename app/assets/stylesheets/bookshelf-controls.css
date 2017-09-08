@@ -1,9 +1,10 @@
 
 
 
-/*#basic-nav-dropdown {
-  max-width: 158px;
-}*/
+#shelf-controls-wrapper {
+  border-radius: 0px;
+  border-top: 0px;
+}
 
 @media screen and (max-width: 767px) {
   .shelf-nav-a {

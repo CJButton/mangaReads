@@ -138,7 +138,7 @@ class shelfControls extends React.Component{
     const deleteShelf = this.deleteShelf;
     return (
       <div>
-        <Navbar inverse collapseOnSelect fluid={true}>
+        <Navbar inverse collapseOnSelect fluid={true} id='shelf-controls-wrapper'>
           <div className='shelf-nav-a'>
             <Navbar.Header>
               <Link to='/'>
