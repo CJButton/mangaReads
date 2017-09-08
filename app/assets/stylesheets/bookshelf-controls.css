@@ -32,6 +32,9 @@
   .shelf-nav-b {
     display: none;
   }
+  .shelf-link-home {
+    display: none;
+  }
 }
 
 .shelf-menu-item {

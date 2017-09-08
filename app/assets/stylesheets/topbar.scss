@@ -11,6 +11,12 @@
   left: .85em;
 }
 
+@media screen and (max-width: 767px) {
+  #nav-logo-wrapper-a {
+    display: none;
+  }
+}
+
 #topbar-mymanga {
   position: absolute;
   left: 15em;

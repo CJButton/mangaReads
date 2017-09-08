@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-router';
 
 import DeleteShelfModal from './deleteModal';
 
@@ -171,6 +171,11 @@ class shelfControls extends React.Component{
           </div>
           <Navbar.Collapse>
             <Nav>
+              <Link to='/' className='shelf-link-home'>
+                <div>
+                  Home
+                </div>
+              </Link>
               <OverlayTrigger placement="bottom" overlay={tooltipA}>
                 <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
                     <i className='fa fa-bars nav-type' aria-hidden='true' />
