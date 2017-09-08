@@ -8,8 +8,6 @@ import { Nav,
          NavItem,
          NavDropdown} from 'react-bootstrap';
 
-import logout from '../../actions/session_actions';
-
 import {hashHistory} from 'react-router';
 
 class TopBar extends React.Component{

@@ -38,6 +38,7 @@ class shelfControls extends React.Component{
     this.closeDeleteModal = this.closeDeleteModal.bind(this);
     this.deleteShelf = this.deleteShelf.bind(this);
     this.getComicsForShelf = this.getComicsForShelf.bind(this);
+    this.handleLogout = this.handleLogout.bind(this);
   }
 
   componentWillReceiveProps(nextprops) {
@@ -119,6 +120,10 @@ class shelfControls extends React.Component{
     });
   }
 
+  handleLogout() {
+    this.props.logout();
+  }
+
   render() {
     const shelfTitle = this.state.dropdown;
     const shelfname = this.state.shelfname;
@@ -128,17 +133,9 @@ class shelfControls extends React.Component{
     const handleAddShelf = this.handleAddShelf;
     const closeDeleteModal = this.closeDeleteModal;
     const deleteShelf = this.deleteShelf;
-    // <div className='shelf-nav-a'>
-    //   <Navbar.Header>
-    //     <Navbar.Brand>
-    //       <a>Manga-Shelves</a>
-    //     </Navbar.Brand>
-    //     <Navbar.Toggle />
-    //   </Navbar.Header>
-    // </div>
     return (
       <div>
-        <Navbar inverse collapseOnSelect>
+        <Navbar inverse collapseOnSelect fluid={true}>
           <div className='shelf-nav-a'>
             <Navbar.Header>
               <Link to='/'>
@@ -217,7 +214,13 @@ class shelfControls extends React.Component{
                 <Button
                   className='shelf-button'
                   type="submit"
-                  onClick={() => handleAddShelf()}>Create</Button>
+                  onClick={() => handleAddShelf()}>
+                  Create
+                </Button>
+                <Nav onSelect={this.handleLogout} pullRight>
+                  <NavItem eventKey={2}>Logout</NavItem>
+                </Nav>
+
               </Navbar.Form>
           </Navbar.Collapse>
         </Navbar>
