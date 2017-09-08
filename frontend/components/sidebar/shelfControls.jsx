@@ -18,7 +18,9 @@ import { Nav,
          Grid,
          Row,
          Col,
-         Image } from 'react-bootstrap';
+         Image,
+         Tooltip,
+         OverlayTrigger } from 'react-bootstrap';
 
 class shelfControls extends React.Component{
   constructor(props) {
@@ -136,6 +138,14 @@ class shelfControls extends React.Component{
     const handleAddShelf = this.handleAddShelf;
     const closeDeleteModal = this.closeDeleteModal;
     const deleteShelf = this.deleteShelf;
+
+    const tooltipA = (
+    <Tooltip id="tooltip">Bars</Tooltip>
+    );
+    const tooltipB = (
+    <Tooltip id="tooltip">Grid</Tooltip>
+    );
+
     return (
       <div>
         <Navbar inverse collapseOnSelect fluid={true} id='shelf-controls-wrapper'>
@@ -162,10 +172,14 @@ class shelfControls extends React.Component{
           <Navbar.Collapse>
             <Nav>
               <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
-                <i className='fa fa-bars nav-type' aria-hidden='true' />
+                <OverlayTrigger placement="bottom" overlay={tooltipA}>
+                  <i className='fa fa-bars nav-type' aria-hidden='true' />
+                </OverlayTrigger>
               </NavItem>
               <NavItem eventKey={2} onSelect={() => changeShelfType('grid')}>
-                <i className='fa fa-th-large nav-type' aria-hidden='true' />
+                <OverlayTrigger placement="bottom" overlay={tooltipB}>
+                  <i className='fa fa-th-large nav-type' aria-hidden='true' />
+                </OverlayTrigger>
               </NavItem>
               <NavDropdown eventKey={3} title={shelfTitle} id="basic-nav-dropdown">
                 <MenuItem
