@@ -171,16 +171,16 @@ class shelfControls extends React.Component{
           </div>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
-                <OverlayTrigger placement="bottom" overlay={tooltipA}>
-                  <i className='fa fa-bars nav-type' aria-hidden='true' />
-                </OverlayTrigger>
-              </NavItem>
-              <NavItem eventKey={2} onSelect={() => changeShelfType('grid')}>
-                <OverlayTrigger placement="bottom" overlay={tooltipB}>
-                  <i className='fa fa-th-large nav-type' aria-hidden='true' />
-                </OverlayTrigger>
-              </NavItem>
+              <OverlayTrigger placement="bottom" overlay={tooltipA}>
+                <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
+                    <i className='fa fa-bars nav-type' aria-hidden='true' />
+                </NavItem>
+              </OverlayTrigger>
+              <OverlayTrigger placement="bottom" overlay={tooltipB}>
+                <NavItem eventKey={2} onSelect={() => changeShelfType('grid')}>
+                    <i className='fa fa-th-large nav-type' aria-hidden='true' />
+                </NavItem>
+              </OverlayTrigger>
               <NavDropdown eventKey={3} title={shelfTitle} id="basic-nav-dropdown">
                 <MenuItem
                   eventKey={3.1}
