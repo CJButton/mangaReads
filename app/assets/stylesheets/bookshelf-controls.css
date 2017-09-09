@@ -1,18 +1,40 @@
 
 
+#shelf-controls-wrapper {
+  border-radius: 0px;
+  border-top: 0px;
+}
 
+#shelf-create-input {
+  margin-right: 0.3em;
+}
+
+#tooltip > .tooltip-inner {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #062e56;
+}
 
 @media screen and (max-width: 767px) {
-  .shelf-button {
-    width: 100%;
-  }
   .shelf-nav-a {
     display: none;
+  }
+  #shelf-button {
+    width: 100%;
+  }
+  #shelf-create-input {
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 767px) {
   .shelf-nav-b {
+    display: none;
+  }
+  .shelf-link-home {
+    display: none;
+  }
+  #shelf-redirectHome {
     display: none;
   }
 }
@@ -42,7 +64,7 @@
   background-color: red;
   color: white;
 }
-
+/*
 .sidebar-shelves {
   width: 150px;
   font-size: 18px;
@@ -90,4 +112,4 @@
   font-size: 12px;
   list-style: none;
   padding-left: 30px;
-}
+}*/

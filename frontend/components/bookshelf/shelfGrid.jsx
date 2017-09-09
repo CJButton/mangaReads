@@ -20,7 +20,6 @@ class shelfGrid extends React.Component{
   }
 
   openCloseModal(comic) {
-    console.log(comic);
     const newState = (this.state.openClose === false) ? true : false;
     this.setState({
       openClose: newState,
@@ -28,8 +27,6 @@ class shelfGrid extends React.Component{
     });
   }
   render() {
-    // href={`#/manga/${comic.id}`}
-    console.log(this.state);
     const manga = this.props.manga;
     const openCloseModal = this.openCloseModal;
     const openClose = this.state.openClose;

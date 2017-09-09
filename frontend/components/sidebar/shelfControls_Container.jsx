@@ -6,6 +6,8 @@ import { createBookshelf,
          deleteBookshelf,
          updateBookshelf } from '../../actions/bookshelf_actions';
 
+import {logout} from '../../actions/session_actions';
+
 import { requestAllManga } from '../../actions/manga_actions';
 
 import shelfControls from './shelfControls';
@@ -19,7 +21,8 @@ const mapDispatchToProps = dispatch => ({
   createBookshelf: shelf => dispatch(createBookshelf(shelf)),
   deleteBookshelf: id => dispatch(deleteBookshelf(id)),
   updateBookshelf: shelf => dispatch(updateBookshelf(shelf)),
-  requestAllManga: shelf => dispatch(requestAllManga(shelf))
+  requestAllManga: shelf => dispatch(requestAllManga(shelf)),
+  logout: () => dispatch(logout())
 });
 
 export default connect(

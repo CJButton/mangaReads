@@ -17,8 +17,8 @@
 #root {
   /*height: 100%;
   overflow: hidden;*/
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
   min-height: 100vh;
   height: 100%;
 }

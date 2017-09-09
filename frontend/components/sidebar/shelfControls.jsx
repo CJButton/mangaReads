@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-router';
 
 import DeleteShelfModal from './deleteModal';
 
@@ -17,7 +17,12 @@ import { Nav,
          Form,
          Grid,
          Row,
-         Col } from 'react-bootstrap';
+         Col,
+         Image,
+         Tooltip,
+         OverlayTrigger } from 'react-bootstrap';
+
+import {hashHistory} from 'react-router';
 
 class shelfControls extends React.Component{
   constructor(props) {
@@ -37,6 +42,8 @@ class shelfControls extends React.Component{
     this.closeDeleteModal = this.closeDeleteModal.bind(this);
     this.deleteShelf = this.deleteShelf.bind(this);
     this.getComicsForShelf = this.getComicsForShelf.bind(this);
+    this.handleLogout = this.handleLogout.bind(this);
+    this.redirectHome = this.redirectHome.bind(this);
   }
 
   componentWillReceiveProps(nextprops) {
@@ -85,6 +92,9 @@ class shelfControls extends React.Component{
 
   handleSelect(e) {
     this.getComicsForPersonalShelf(e.title);
+
+    // const newTitle = e.title.length > 17 ?
+
     this.setState({
       dropdown: e.title
     });
@@ -118,6 +128,14 @@ class shelfControls extends React.Component{
     });
   }
 
+  handleLogout() {
+    this.props.logout();
+  }
+
+  redirectHome() {
+    hashHistory.push("/");
+  }
+
   render() {
     const shelfTitle = this.state.dropdown;
     const shelfname = this.state.shelfname;
@@ -127,36 +145,54 @@ class shelfControls extends React.Component{
     const handleAddShelf = this.handleAddShelf;
     const closeDeleteModal = this.closeDeleteModal;
     const deleteShelf = this.deleteShelf;
-    // let user create shevles on each manga page
 
-    // X hide too long shelf name
+    const tooltipA = (
+    <Tooltip id="tooltip">Bars</Tooltip>
+    );
+    const tooltipB = (
+    <Tooltip id="tooltip">Grid</Tooltip>
+    );
+
     return (
       <div>
-        <Navbar collapseOnSelect>
+        <Navbar inverse collapseOnSelect fluid={true} id='shelf-controls-wrapper'>
           <div className='shelf-nav-a'>
             <Navbar.Header>
-              <Navbar.Brand>
-                <a>Manga-Shelves</a>
-              </Navbar.Brand>
+              <Link to='/'>
+                <Navbar.Brand>
+                  <div className='nav-logo-wrapper'>
+                    <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
+                  </div>
+                </Navbar.Brand>
+              </Link>
               <Navbar.Toggle />
             </Navbar.Header>
           </div>
           <div className='shelf-nav-b'>
             <Navbar.Header>
               <Navbar.Brand>
-                <a>{shelfTitle}</a>
+                <div>{shelfTitle}</div>
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>
           </div>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
-                <i className='fa fa-bars nav-type' aria-hidden='true' />
+              <NavItem onClick={this.redirectHome} id='shelf-redirectHome'>
+                <div>
+                  Home
+                </div>
               </NavItem>
-              <NavItem eventKey={2} onSelect={() => changeShelfType('grid')}>
-                <i className='fa fa-th-large nav-type' aria-hidden='true' />
-              </NavItem>
+              <OverlayTrigger placement="bottom" overlay={tooltipA}>
+                <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
+                    <i className='fa fa-bars nav-type' aria-hidden='true' />
+                </NavItem>
+              </OverlayTrigger>
+              <OverlayTrigger placement="bottom" overlay={tooltipB}>
+                <NavItem eventKey={2} onSelect={() => changeShelfType('grid')}>
+                    <i className='fa fa-th-large nav-type' aria-hidden='true' />
+                </NavItem>
+              </OverlayTrigger>
               <NavDropdown eventKey={3} title={shelfTitle} id="basic-nav-dropdown">
                 <MenuItem
                   eventKey={3.1}
@@ -196,18 +232,24 @@ class shelfControls extends React.Component{
                 })}
               </NavDropdown>
             </Nav>
-              <Navbar.Form pullRight>
+            <Nav onSelect={this.handleLogout} pullRight>
+              <NavItem eventKey={2}>Logout</NavItem>
+            </Nav>
+              <Navbar.Form pullRight fluid={true}>
                 <FormGroup>
                   <FormControl
                     type="text"
                     placeholder="Create a Shelf"
                     value={shelfname}
+                    id='shelf-create-input'
                     onChange={this.updateShelf}/>
                 </FormGroup>
                 <Button
-                  className='shelf-button'
+                  id='shelf-button'
                   type="submit"
-                  onClick={() => handleAddShelf()}>Create</Button>
+                  onClick={() => handleAddShelf()}>
+                  Create
+                </Button>
               </Navbar.Form>
           </Navbar.Collapse>
         </Navbar>
@@ -220,5 +262,4 @@ class shelfControls extends React.Component{
     );
   }
 }
-
 export default shelfControls;
