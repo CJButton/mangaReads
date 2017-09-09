@@ -61,16 +61,17 @@ class TopBar extends React.Component{
               </div>
             <Navbar.Toggle />
           </Navbar.Header>
+          <Nav pullLeft id='topbar-mymanga-full' onSelect={this.handleSelect}>
+            <NavItem eventKey={1}>myManga</NavItem>
+          </Nav>
           <Navbar.Collapse>
-            <Nav onSelect={this.handleSelect}>
-              <NavItem eventKey={1}>myManga</NavItem>
-              <NavItem eventKey={2}>Logout</NavItem>
+            <Nav onSelect={this.handleSelect} pullRight>
+              <NavItem eventKey={1} id='topbar-mymanga'>myManga</NavItem>
+              <NavItem eventKey={2} id='topbar-logout'>Logout</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
     );
   }
 }
- // id='topbar-logout'
-// id='topbar-mymanga'
 export default TopBar;

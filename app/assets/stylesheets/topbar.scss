@@ -15,16 +15,20 @@
   #nav-logo-wrapper-a {
     display: none;
   }
+  #topbar-mymanga-full {
+    display: none;
+  }
 }
 
-#topbar-mymanga {
-  position: absolute;
-  left: 11em;
+@media screen and (min-width: 767px) {
+  #topbar-mymanga {
+    display: none;
+  }
 }
 
-#topbar-logout {
+#topbar-mymanga-full {
   position: absolute;
-  left: 48em;
+  left: 200px;
 }
 
 .topbar-header {
