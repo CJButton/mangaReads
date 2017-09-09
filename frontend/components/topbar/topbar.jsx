@@ -3,7 +3,10 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import logout from '../../actions/session_actions';
+import { Nav,
+         Navbar,
+         NavItem,
+         NavDropdown} from 'react-bootstrap';
 
 import {hashHistory} from 'react-router';
 
@@ -12,21 +15,12 @@ class TopBar extends React.Component{
     super(props);
 
     this.handleLogout = this.handleLogout.bind(this);
-  }
-
-  handleSearch(e) {
-    e.preventDefault();
-    // comlete after creating component
+    this.handleSelect = this.handleSelect.bind(this);
   }
 
   handleMyManga(e) {
     e.preventDefault();
     hashHistory.push("/my-Manga");
-  }
-
-  handleProfile(e) {
-    e.preventDefault();
-    // complete after creating component
   }
 
   handleHome(e) {
@@ -39,35 +33,45 @@ class TopBar extends React.Component{
     hashHistory.push("/");
   }
 
-
-  handleLogout(e) {
-    e.preventDefault();
+  handleLogout() {
     this.props.logout();
+  }
+
+  handleSelect(e) {
+    e === 1 ? hashHistory.push('/my-Manga') : this.handleLogout()
   }
 
   render() {
     return (
-      <header className="topbar-header">
-        <nav className="topbar-nav">
-
-          <div className="topbar-left">
-            <div className="topbar-logo button" onClick={this.handleLogo}></div>
-            <input className="topbar-home-button button" type="submit"
-              onClick={this.handleHome} value="Home" />
-            <input className="topbar-myManga-button button" type="submit"
-              onClick={this.handleMyManga} value="MyManga" />
-          </div>
-
-          <div className="topbar-right">
-            <input className="topbar-logout-button button" type="submit"
-              onClick={this.handleLogout} value="Logout"/>
-          </div>
-        </nav>
-      </header>
-
+        <Navbar inverse collapseOnSelect id='topbar-wrapper'>
+          <Navbar.Header>
+              <div className='shelf-nav-a'>
+                <Link to='/'>
+                  <Navbar.Brand>
+                    <div id='nav-logo-wrapper-a'>
+                      <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
+                    </div>
+                  </Navbar.Brand>
+                </Link>
+              </div>
+              <div className='shelf-nav-b'>
+                  <Navbar.Brand>
+                    <div>mangaReads</div>
+                  </Navbar.Brand>
+              </div>
+            <Navbar.Toggle />
+          </Navbar.Header>
+          <Nav pullLeft id='topbar-mymanga-full' onSelect={this.handleSelect}>
+            <NavItem eventKey={1}>myManga</NavItem>
+          </Nav>
+          <Navbar.Collapse>
+            <Nav onSelect={this.handleSelect} pullRight>
+              <NavItem eventKey={1} id='topbar-mymanga'>myManga</NavItem>
+              <NavItem eventKey={2} id='topbar-logout'>Logout</NavItem>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
     );
   }
 }
-
-
 export default TopBar;

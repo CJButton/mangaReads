@@ -4,6 +4,8 @@
 import React from 'react';
 import Reviews from './reviews_container';
 
+import TopBarContainer from '../topbar/topbar_container';
+
 import values from 'lodash/values';
 import StarRatingComponent from 'react-star-rating-component';
 import {hashHistory} from 'react-router';
@@ -85,16 +87,14 @@ class MangaShow extends React.Component{
    hashHistory.push("/my-Manga");
  }
 
-
  render() {
    window.scrollTo(0,0);
    return (
-     <div className="single-manga-container">
+     <div>
+       <TopBarContainer />
+       <div className="single-manga-container">
 
    <div className="single-manga-show">
-
-
-
      <div className="single-manga-top">
 
        <div className="manga-top-farLeft">
@@ -166,14 +166,9 @@ class MangaShow extends React.Component{
 
          <Reviews/>
      </div>
+   </div>
      </div>
    );
  }
 }
-
-// <Reviews user={this.props.user} manga={this.props.manga}
-//   allReviews={this.state.allReviews} delete={this.props.deleteReview}
-//   edit={this.props.editReview} submit={submitReview}
-//   userReview={this.state.userReview}/>
-
 export default MangaShow;

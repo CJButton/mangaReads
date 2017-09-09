@@ -10,8 +10,7 @@ const ShelfGridModal = props => {
   const { openClose,
           openCloseModal,
           mangaInfo} = props;
-          console.log(props);
-          // <a href={`#/manga/${mangaInfo.id}`}>
+
   return(
     <Modal show={openClose}>
       <Modal.Header>
