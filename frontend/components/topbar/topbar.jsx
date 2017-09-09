@@ -45,30 +45,32 @@ class TopBar extends React.Component{
     return (
         <Navbar inverse collapseOnSelect id='topbar-wrapper'>
           <Navbar.Header>
-            <Link to='/'>
-              <Navbar.Brand>
-                <div id='nav-logo-wrapper-a'>
-                  <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
-                </div>
-              </Navbar.Brand>
-              <div className='shelf-nav-b'>
-                <Navbar.Header>
+              <div className='shelf-nav-a'>
+                <Link to='/'>
                   <Navbar.Brand>
-                    <a>mangaReads</a>
+                    <div id='nav-logo-wrapper-a'>
+                      <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
+                    </div>
                   </Navbar.Brand>
-                </Navbar.Header>
+                </Link>
               </div>
-            </Link>
+              <div className='shelf-nav-b'>
+                  <Navbar.Brand>
+                    <div>mangaReads</div>
+                  </Navbar.Brand>
+              </div>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav onSelect={this.handleSelect}>
               <NavItem eventKey={1}>myManga</NavItem>
-              <NavItem eventKey={2} pullRight>Logout</NavItem>
+              <NavItem eventKey={2}>Logout</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
     );
   }
 }
+ // id='topbar-logout'
+// id='topbar-mymanga'
 export default TopBar;

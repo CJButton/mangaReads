@@ -35,6 +35,9 @@
   .shelf-link-home {
     display: none;
   }
+  #shelf-redirectHome {
+    display: none;
+  }
 }
 
 .shelf-menu-item {

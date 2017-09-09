@@ -22,6 +22,8 @@ import { Nav,
          Tooltip,
          OverlayTrigger } from 'react-bootstrap';
 
+import {hashHistory} from 'react-router';
+
 class shelfControls extends React.Component{
   constructor(props) {
     super(props);
@@ -169,18 +171,18 @@ class shelfControls extends React.Component{
           <div className='shelf-nav-b'>
             <Navbar.Header>
               <Navbar.Brand>
-                <a>{shelfTitle}</a>
+                <div>{shelfTitle}</div>
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>
           </div>
           <Navbar.Collapse>
             <Nav>
-              <NavItem onClick={this.redirectHome}>
-                  <div>
-                    Home
-                  </div>
-            </NavItem>
+              <NavItem onClick={this.redirectHome} id='shelf-redirectHome'>
+                <div>
+                  Home
+                </div>
+              </NavItem>
               <OverlayTrigger placement="bottom" overlay={tooltipA}>
                 <NavItem eventKey={1} onSelect={() => changeShelfType('bars')}>
                     <i className='fa fa-bars nav-type' aria-hidden='true' />
