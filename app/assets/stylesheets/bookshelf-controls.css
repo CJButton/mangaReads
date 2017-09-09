@@ -1,6 +1,5 @@
 
 
-
 #shelf-controls-wrapper {
   border-radius: 0px;
   border-top: 0px;
@@ -65,7 +64,7 @@
   background-color: red;
   color: white;
 }
-
+/*
 .sidebar-shelves {
   width: 150px;
   font-size: 18px;
@@ -113,4 +112,4 @@
   font-size: 12px;
   list-style: none;
   padding-left: 30px;
-}
+}*/
