@@ -323,7 +323,7 @@ allComics = [
 {
       title: "Fullmetal Alchemist, Vol. 14",
       author: "Hiromu Arakawa",
-      synopsis: "Ed and Al come face to face with the "father" of the homunculi, who just so happens to be a dead ringer for their own father, Van Hohenheim--a resemblance too uncanny for coincidence. And later, when the allure of immortality proves to be too much for Prince Lin of Xin, he lets Greed take over...literally!",
+      synopsis: "Ed and Al come face to face with the 'father' of the homunculi, who just so happens to be a dead ringer for their own father, Van Hohenheim--a resemblance too uncanny for coincidence. And later, when the allure of immortality proves to be too much for Prince Lin of Xin, he lets Greed take over...literally!",
       release_date: "July 22nd 2006",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1021.jpg"},
 
@@ -358,7 +358,7 @@ allComics = [
 {
       title: "Fullmetal Alchemist, Vol. 24",
       author: "Hiromu Arakawa",
-      synopsis: "Hohenheim finally gets his chance to stop the mysterious homunculus "father" who rules over Central City. Will Hohenheim's surprise be enough to defeat the most powerful homunculus of them all? And when King Bradley makes a triumphant return, will the battle turn in the military's favor...?",
+      synopsis: "Hohenheim finally gets his chance to stop the mysterious homunculus 'father' who rules over Central City. Will Hohenheim's surprise be enough to defeat the most powerful homunculus of them all? And when King Bradley makes a triumphant return, will the battle turn in the military's favor...?",
       release_date: "December 22nd 2009",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1027.jpg"},
 
@@ -386,7 +386,7 @@ allComics = [
 {
       title: "Fullmetal Alchemist, Vol. 2",
       author: "Hiromu Arakawa",
-      synopsis: "In an alchemical ritual gone wrong, Edward Elric lost his arm and his leg, and his brother Alphonse became nothing but a soul in a suit of armor. Equipped with mechanical "auto-mail" limbs, Edward becomes a state alchemist, seeking the one thing that can restore his brother and himself... the legendary Philosopher's Stone.There are many types of alchemy in the world. Edward's commanding officer, 'Flame Alchemist' Roy Mustang, can control fire. Shou Tucker, the 'Sewing-Life Alchemist,' specializes in the most difficult alchemy of all...biological transmutation, the ability to alter the tissue of living things. But no matter what their power, alchemists are still human. And when a mysterious killer begins stalking state alchemists, no one can escape his vengeance...",
+      synopsis: "In an alchemical ritual gone wrong, Edward Elric lost his arm and his leg, and his brother Alphonse became nothing but a soul in a suit of armor. Equipped with mechanical 'auto-mail' limbs, Edward becomes a state alchemist, seeking the one thing that can restore his brother and himself... the legendary Philosopher's Stone.There are many types of alchemy in the world. Edward's commanding officer, 'Flame Alchemist' Roy Mustang, can control fire. Shou Tucker, the 'Sewing-Life Alchemist,' specializes in the most difficult alchemy of all...biological transmutation, the ability to alter the tissue of living things. But no matter what their power, alchemists are still human. And when a mysterious killer begins stalking state alchemists, no one can escape his vengeance...",
       release_date: "May 20th 2002",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1031.jpg"},
 
@@ -400,14 +400,14 @@ allComics = [
 {
       title: "Fullmetal Alchemist, Vol. 10",
       author: "Hiromu Arakawa",
-      synopsis: "In an alchemical ritual gone wrong, Edward Elric lost his arm and his leg, and his brother Alphonse became nothing but a soul in a suit of armor. Equipped with mechanical "auto-mail" limbs, Edward becomes a state alchemist, seeking the one thing that can restore his and his brother's bodies...the legendary Philosopher's Stone.Barry the Chopper, the psychopathic killer whose soul is encased in a suit of armor, has been captured by Colonel Mustang's troops. Fearing he will reveal the Philosopher's Stone conspiracy, Gluttony and Lust decide to kill him, using Barry's own original soulless body to track him down! Though Colonel Mustang has anticipated their moves and set up an ambush, Gluttony and Lust prove too powerful and easily fight their way through to Barry, who is being protected by Al and Lieutenant Hawkeye. In a terrible battle, a badly injured Colonel Mustang sacrifices all in a last-ditch attempt to stop Lust!",
+      synopsis: "In an alchemical ritual gone wrong, Edward Elric lost his arm and his leg, and his brother Alphonse became nothing but a soul in a suit of armor. Equipped with mechanical 'auto-mail' limbs, Edward becomes a state alchemist, seeking the one thing that can restore his and his brother's bodies...the legendary Philosopher's Stone.Barry the Chopper, the psychopathic killer whose soul is encased in a suit of armor, has been captured by Colonel Mustang's troops. Fearing he will reveal the Philosopher's Stone conspiracy, Gluttony and Lust decide to kill him, using Barry's own original soulless body to track him down! Though Colonel Mustang has anticipated their moves and set up an ambush, Gluttony and Lust prove too powerful and easily fight their way through to Barry, who is being protected by Al and Lieutenant Hawkeye. In a terrible battle, a badly injured Colonel Mustang sacrifices all in a last-ditch attempt to stop Lust!",
       release_date: "January 1st 2005",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1033.jpg"},
 
 {
       title: "Fullmetal Alchemist, Vol. 26",
       author: "Hiromu Arakawa",
-      synopsis: "With all the pieces now in his possession, the homunculus "father" executes his master plan as Edward and the others watch in horror. When the dust settles, the entire world has been reshaped. With the help of Hohenheim, the Elric brothers lauch a desperate final attack, but is it all too late...?",
+      synopsis: "With all the pieces now in his possession, the homunculus 'father' executes his master plan as Edward and the others watch in horror. When the dust settles, the entire world has been reshaped. With the help of Hohenheim, the Elric brothers lauch a desperate final attack, but is it all too late...?",
       release_date: "January 1st 2010",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1034.jpg"},
 
@@ -456,7 +456,7 @@ allComics = [
 {
       title: "Fullmetal Alchemist, Vol. 25",
       author: "Hiromu Arakawa",
-      synopsis: "As Greed and King Bradley continue their battle, the mysterious homunculus "father" makes his move under Central City. In order to achieve his objectives, he will need to force Mustang to make an unthinkable choice. Meanwhile, Alphonse has the chance to regain his own body, but the sacrifice to do so may be too much.",
+      synopsis: "As Greed and King Bradley continue their battle, the mysterious homunculus 'father' makes his move under Central City. In order to achieve his objectives, he will need to force Mustang to make an unthinkable choice. Meanwhile, Alphonse has the chance to regain his own body, but the sacrifice to do so may be too much.",
       release_date: "January 1st 2010",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1041.jpg"},
 
@@ -470,7 +470,7 @@ allComics = [
 {
       title: "Fullmetal Alchemist, Vol. 8",
       author: "Hiromu Arakawa",
-      synopsis: "In an alchemical ritual gone wrong, Edward Elric lost his arm and his leg, and his brother Alphonse became nothing but a soul in a suit of armor. Equipped with mechanical "auto-mail" limbs, Edward becomes a state alchemist, seeking the one thing that can restore his and his brother's bodies...the legendary Philosopher's Stone.The raid on the Devil's Nest becomes a slaughter, as government troops - led by the Fuhrer President himself, King Bradley - exterminate the half-human forces of the Homunculus Greed. But will Ed and Al survive the battle unchanged? As Greed is sent to meet his maker, foreign travelers arrive in Amestris, having crossed the great desert from the eastern country of Xing. Their names are Mei and Ling, and they've come for the Philosopher's Stone...and a secret even the Elric brothers never imagined...",
+      synopsis: "In an alchemical ritual gone wrong, Edward Elric lost his arm and his leg, and his brother Alphonse became nothing but a soul in a suit of armor. Equipped with mechanical 'auto-mail' limbs, Edward becomes a state alchemist, seeking the one thing that can restore his and his brother's bodies...the legendary Philosopher's Stone.The raid on the Devil's Nest becomes a slaughter, as government troops - led by the Fuhrer President himself, King Bradley - exterminate the half-human forces of the Homunculus Greed. But will Ed and Al survive the battle unchanged? As Greed is sent to meet his maker, foreign travelers arrive in Amestris, having crossed the great desert from the eastern country of Xing. Their names are Mei and Ling, and they've come for the Philosopher's Stone...and a secret even the Elric brothers never imagined...",
       release_date: "July 22nd 2004",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1043.jpg"},
 
@@ -491,7 +491,7 @@ allComics = [
 {
       title: "Fullmetal Alchemist, Vol. 3",
       author: "Hiromu Arakawa",
-      synopsis: "Accompanied by their bodyguard, Alex Louis Armstrong, our heroes seek out their closest childhood friend, mechanic Winry Rockbell, to fix their battered "auto-mail" bodyparts. Soon their quest for the Philosopher's Stone takes them to the great central library, where the Stone's formula may be hidden...if the mysterious figure named Lust doesn't get there first! But the secret of the Philosopher's Stone may be even more frightening than the beings who guard it...",
+      synopsis: "Accompanied by their bodyguard, Alex Louis Armstrong, our heroes seek out their closest childhood friend, mechanic Winry Rockbell, to fix their battered 'auto-mail' bodyparts. Soon their quest for the Philosopher's Stone takes them to the great central library, where the Stone's formula may be hidden...if the mysterious figure named Lust doesn't get there first! But the secret of the Philosopher's Stone may be even more frightening than the beings who guard it...",
       release_date: "September 21st 2002",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1046.jpg"},
 
@@ -529,7 +529,7 @@ allComics = [
 {
       title: "Saiyuki Reload, Volume 4",
       author: "Kazuya Minekura",
-      synopsis: "New troubles and new characters are introduced in this exciting installment of "Saiyuki Reload." As the fearsome foursome continue on their latest adventure, what will happen when they are faced with a new kind of enemy? Rated for older teens.",
+      synopsis: "New troubles and new characters are introduced in this exciting installment of 'Saiyuki Reload'. As the fearsome foursome continue on their latest adventure, what will happen when they are faced with a new kind of enemy? Rated for older teens.",
       release_date: "June 13th, 2006",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1051.jpg"},
 
@@ -550,7 +550,7 @@ allComics = [
 {
       title: "Saiyuki, Vol. 8",
       author: "Kazuya Minekura",
-      synopsis: "Sanzo, Goku and Hakkai are out to find 'God'--and Gojyo. At the same time, Gojyo climbs a seemingly endless stairway to heaven and is assailed by a very maternal monster. The gang finally catches up to Gojyo, and as luck would have it, they've also found "God." But this dangerous deity is no ordinary opponent, and the quartet must get serious before they get crushed.",
+      synopsis: "Sanzo, Goku and Hakkai are out to find 'God'--and Gojyo. At the same time, Gojyo climbs a seemingly endless stairway to heaven and is assailed by a very maternal monster. The gang finally catches up to Gojyo, and as luck would have it, they've also found 'God'. But this dangerous deity is no ordinary opponent, and the quartet must get serious before they get crushed.",
       release_date: "2003",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1054.jpg"},
 
@@ -606,7 +606,7 @@ allComics = [
 {
       title: "Saiyuki, Vol. 9",
       author: "Kazuya Minekura",
-      synopsis: "Feeling down in the dumps about losing in the battle against "God", Goku attempts to raise everyone's spirits with a game of Mahjung (sp?). He wins match after match until he scolds them all to snap out of it and shape up, leading to them playing a whole day straight of the game. Ready for another round, the gang approaches "The God's Castle", where they run into a bit of trouble with talking toys, before finally reaching "God". They kick major ass and succeed in beating him in the end. There is a flashback of when Sanzou was younger and had a run-in with a young "God", who was a disciple to Ukoku Sanzou Houshi, a very powerful and wise monk. With the "game" over, the castle around them collapses, but they manage to escape. Amongst the ruins, Ugoku appears and picks up "God"s (I think his name is actually Kouryuu) fallen monk hat and announces that he's ready for another "game". Our heroes drive off into the distance, back to their usual bickering selves, but the story is far from over...",
+      synopsis: "Feeling down in the dumps about losing in the battle against 'God', Goku attempts to raise everyone's spirits with a game of Mahjung (sp?). He wins match after match until he scolds them all to snap out of it and shape up, leading to them playing a whole day straight of the game. Ready for another round, the gang approaches 'The Gods Castle', where they run into a bit of trouble with talking toys, before finally reaching 'God'. They kick major ass and succeed in beating him in the end. There is a flashback of when Sanzou was younger and had a run-in with a young god, who was a disciple to Ukoku Sanzou Houshi, a very powerful and wise monk. With the 'game' over, the castle around them collapses, but they manage to escape. Amongst the ruins, Ugoku appears and picks up 'God's (I think his name is actually Kouryuu) fallen monk hat and announces that he's ready for another 'game'. Our heroes drive off into the distance, back to their usual bickering selves, but the story is far from over...",
       release_date: "March 27th 2002",
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1062.jpg"},
 
@@ -698,8 +698,8 @@ allComics = [
       img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1074.jpg"},
 
      [genres[7], genres[8], genres[5]]
-     ]
-     [
+   ],
+   [
 
 {
      title: "Attack on Titan Vol. 1",
@@ -828,7 +828,7 @@ allComics = [
       img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/attack18_rjbrip.jpg"},
 
       [genres[11], genres[12]],
-      ]
+      ],
 ]
 
 
