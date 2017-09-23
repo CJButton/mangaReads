@@ -3,6 +3,6 @@
 
 @manga.each do |comic|
   json.set! comic.id do
-    json.extract! comic, :id, :title, :author, :synopsis, :release_date, :img_url, :genre, :avg
+    json.extract! comic, :id, :title, :author, :synopsis, :release_date, :img_url, :avg
   end
 end
