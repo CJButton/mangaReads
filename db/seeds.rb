@@ -3926,7 +3926,5508 @@ allComics = [
 
       [genres[21]]
       ],
+      [
+{
+      title: "Skip Beat!, Vol. 04",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!",
+      release_date: "July 18th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1529.jpg"},
 
+{
+      title: "Skip Beat!, Vol. 19",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter! R to L (Japanese Style). Koo and Lory can't stop meddling in Kyoko's and Ren's lives. Because while Koo is impressed with Kyoko's talent, he knows that she will never be a great actress unless she can overcome her fatal weakness. And Lory knows that Ren's acting is likewise affected by his refusal to face his past. Can the two old-timers give their young protégés a much-needed kick in the pants, or will their plans blow up in their faces?! Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!",
+      release_date: "July 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1530.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 16",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!Saving Kyoko from Reino's attack has finally knocked some sense into Sho's head, and he realizes how much he cares for her. But before he can declare his devotion, Ren shows up to ruin the moment. Both men realize that Kyoko has no idea of their true feelings for her and begin a secret battle for her affections!Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!",
+      release_date: "June 19th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1531.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 24",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter! Valentine’s Day is on its way, but Kyoko won’t be able to celebrate love and friendship the normal way. She’s getting blackmailed into giving chocolate to guys she hates, she has her ongoing revenge to oblige, and to top it all off, it’s Ren’s birthday! How can Kyoko give him a meaningful present when she’s slinging meaningless chocolate left and right?",
+      release_date: "February 19th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1532.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 21",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter! ",
+      release_date: "February 19th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1533.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 03",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko is determined to win her way into show business, even if it means wearing embarrassing bright pink overalls and putting up with spoiled stars. But her first big assignment is proving more difficult than she imagined when Kyoko finds herself in front of the camera with an injured leg. Will she be able to ace her first attempt at acting despite the pain, or will she make an utter fool of herself in front of her sort-of nemesis, Ren Tsugura?",
+      release_date: "March 19th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1534.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 11",
+      author: "Yoshiki Nakamura",
+      synopsis: "There's trouble on the set, and surprisingly it's not Kyoko's fault. Ren is having difficulty acting the part of a love-struck suitor since he's never really been in love before. Stressed by his sudden acting impotence, Ren goes MIA. Kyoko is determined to help her friend, and joins forces with Ren's manager. But as Ren sees the two of them getting close, he realizes he might know more about serious emotion than he thought!",
+      release_date: "October 19th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1535.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 17",
+      author: "Yoshiki Nakamura",
+      synopsis: "R to L (Japanese Style)Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!Dark Moon is getting excellent ratings, and Kyoko is getting tons of offers for more acting jobs! But all the offers are for twisted, damaged characters like Mio. Kyoko doesn't want to get stuck as a character actor, and she certainly doesn't want to play freaks for the rest of her career. But if she refuses all these jobs, will she even have a career left?!",
+      release_date: "October 19th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1536.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 23",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter! Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!Chiori’s rage threatens the whole production when she lashes out and hurts Kyoko. Kyoko is used to overcoming obstacles, and she uses her injury as an excuse to push Chiori into exploring her acting. But Chiori has a traumatic past. Will focusing on the dark side of her character bring it all rushing back?!",
+      release_date: "October 19th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1537.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 28",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!Kyoko’ s having trouble getting into the role of Cain’ s sister. But is it because she can’ t relate to a spoiled punk princess, or because she can’ t let go of the fact that Ren is playing Cain? And Ren faces his own challenge with the situation. Can he stand to have the woman he loves treat him like a brother?",
+      release_date: "June 20th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1538.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 26",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter! Kyoko thinks she's survived Valentine's Day, but that's just the kind of attitude that gets her in trouble with the president of LME. Lory is very disappointed in the girls of the Love Me Section and sets up special new assignments to teach them the power of love. But will the president's strange methods have any affect on the troubled souls of Chiori, Moko and Kyoko?",
+      release_date: "October 19th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1539.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 12",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko's determination to help Ren continues as she lends a friendly ear--in her chicken suit. Ren opens up and confides in Chicken Bo, but is Kyoko really ready to deal with his lovelorn confession? To make matters worse, Ren's been given an ultimatum by the LME president, and if he can't act right by the end of the week, he's out on his ear!",
+      release_date: "February 17th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1540.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 35",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!Kyoko is on the tropical paradise of Guam, and in true fairy-tale fashion, she encounters a magical creature emerging from the sea! She even recognizes him as Corn, a beloved friend from her childhood whose gift of an enchanted stone has helped her deal with the trauma in her life. But Corn is actually Kuon, who is actually Ren Tsuruga! And it’s only a matter of time before Kyoko’s brilliant ability to see through Ren’s disguises breaks his cover…for good!",
+      release_date: "September 19th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1541.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 13",
+      author: "Yoshiki Nakamura",
+      synopsis: "• An ongoing manga series in Japan—over 14 volumes to date• Consistent ranking in Japan’s Top 10 manga sales• An American Idol-style manga• Every new volume has appeared in Japan’s Tohan Top 1• Previewed and promoted in VIZ Media’s Shojo Beat magazine• Released Bi-monthly (every other month).Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz! Ren's acting test is about to begin, with his entire future hanging in the balance, and he's managed to make his leading lady Itsumi mad at him. Rather than confront him directly, Itsumi decides to hit him where it hurts. Will she sabotage his test, or will Ren be able to get it together and use his legendary acting ability to lead her through the scene?",
+      release_date: "June 19th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1542.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 18",
+      author: "Yoshiki Nakamura",
+      synopsis: "R to L (Japanese Style)Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!Kyoko hasn't had a Love Me Section job in a while, and this newest assignment is pushing her limits. She's now the personal assistant to Koo Hizuri, a Japanese actor turned Hollywood star, and everyone knows how assistants are treated in Hollywood! Can Kyoko see past Koo's meanness, or will his nastiness just make her demons worse?!",
+      release_date: "February 19th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1543.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 20",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter!R to L (Japanese Style). Show biz is sweet, but revenge is sweeter! It's the season of giving in Tokyo, but Lory's granddaughter Maria is in no mood to celebrate. Kyoko, never one to sit out a challenge, finally gets Maria to admit what has her so soured on the holidays. It turns out December 24th is Maria's birthday--and the anniversary of her mother's death! Can Kyoko work a Christmas miracle and give this little girl a happy birthday?",
+      release_date: "October 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1544.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 06",
+      author: "Yoshiki Nakamura",
+      synopsis: "Superstar Ren's manager Yashiro comes down with a nasty cold, but Ren is in the middle of an important shoot and needs someone to look after him. In a feverish fit, Yashiro dares Kyoko to take over his job! Of course Kyoko accepts, but she's in way over her head with a pack of new responsibilities and the scorn of everyone who thinks she's doing a bad job. But the more time Ren spends with Kyoko the more he sees of her kind and gentle side. Will all her hassles be worth his change of heart?",
+      release_date: "February 19th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1545.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 07",
+      author: "Yoshiki Nakamura",
+      synopsis: "All Kyoko's dreams are coming true! She's got a best friend (okay, so Moko still needs to come to terms with their bosom-buddyhood, but she's learning). She's finally going to high school (so what if a mean girl is picking on her--Kyoko knows how to deal with bullies). And she's landed a spot in Sho's new video (Yes! Revenge! Bwa ha ha ha!). Life doesn't get any better than this.",
+      release_date: "July 16th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1546.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 22",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter! Is there such a thing as being too good? With Ren's help, Kyoko finally gets into her new character. But when she shows up on set and wows the crew with her new spin on the old bully role, it sends some of her costars over the edge! Kyoko's used to dealing with her own demons, but can she stand up to someone else's?!",
+      release_date: "June 19th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1547.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 02",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous enough! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!",
+      release_date: "November 19th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1548.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 15",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!",
+      release_date: "February 19th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1549.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 05",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko lands a regular role on a TV show...as a giant chicken. Not content to settle for poultry recognition, Kyoko tries out for a big commercial. At the audition she runs into her Love Me rival Moko, who's having rival woes of her own. With a jealous rich girl out to bring them down, can Kyoko and Moko overcome their difficulties and act as a team to trounce the competition?",
+      release_date: "October 17th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1550.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 25",
+      author: "Yoshiki Nakamura",
+      synopsis: "Show biz is sweet, but revenge is sweeter! Kyoko's Valentine's battle with Reino has finally gained her Sho's attention—but now it's the last thing she wants! Sho is determined to make her obsessed with him, and shows up on set with an over-the-top gift to taunt her. But when Kyoko explains her true relationship with Reino, Sho makes an inexcusable move. Has he undone her years of healing in one fell swoop?!",
+      release_date: "June 18th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1551.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 36",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko’s time in Guam is coming to an end, and with it her role as Setsu. She’s sad that she won’t have an excuse to be near Ren anymore, but unbeknownst to her, Ren is even more affected by their parting than she is! Facing his demons finally let him believe in the bright future Kyoko represents. But back in Japan, her dark past is rearing its ugly head. Will it get in the way of Kyoko’s hopes of a happily ever after?!",
+      release_date: "March 20th 2015",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1552.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 08",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko's perfect chance to wreak her revenge on Sho isn't going as well as she'd hoped. In fact, her rage is so consuming that she forgets she's supposed to be acting and tries to throttle Sho for real. That's not her only problem: Sho still thinks he owns Kyoko body and soul, but his manager is worried that Kyoko might be stealing his heart!",
+      release_date: "October 19th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1553.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 10",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko's been scouted for a role in this year's most anticipated drama, a remake of the classic . But shades of the past threaten to stifle the production as Kyoko struggles to get into the character of Mio, a young woman with a severely scarred face. Ms. Iizuka, the actress who played the original Mio, is now playing Kyoko's mother, and has grave doubts about Kyoko's ability to do justice to the role. She demands that Kyoko pass an acting test, and quit the production if she fails!",
+      release_date: "June 17th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1554.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 14",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz!Vie Ghoul is the new band burning up the charts by stealing Sho's moves, and Kyoko's hopping mad on his behalf. Kyoko's confrontation with Sho about his lack of action doesn't go as well as she hoped--Sho gets violent, and the front man for Vie Ghoul gets a good look at Kyoko's demons. And both men seem a little more interested in Kyoko than Ren would like...",
+      release_date: "October 19th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1555.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 27",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko Mogami followed her true love Sho to Tokyo to support him while he made it big as an idol. But he's casting her out now that he's famous! Kyoko won't suffer in silence--she's going to get her sweet revenge by beating Sho in show biz! Kyoko’s having trouble getting into the role of Cain’s sister. But is it because she can’t relate to a spoiled punk princess, or because she can’t let go of the fact that Ren is playing Cain? And Ren faces his own challenge with the situation. Can he stand to have the woman he loves treat him like a brother?",
+      release_date: "February 18th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1556.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 01",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko always thought that Sho, whose family took her in when she was small, was her prince charming. However, when Sho heads for Tokyo to make it big as a musician, Kyoko goes with him and has to quit high school to support his dream. But soon, being in the big city makes Kyoko realize that she has show business ambitions of her own!",
+      release_date: "July 19th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1557.jpg"},
+
+{
+      title: "Skip Beat!, Vol. 09",
+      author: "Yoshiki Nakamura",
+      synopsis: "Kyoko's big chance is finally here! Her performance in Sho's promo clip impressed some important people, and now she's been asked to act in the year's most anticipated drama! But Ren is the leading man and the character Kyoko is supposed to play is damaged and scary! Can Kyoko overcome her fear of Ren and her shame about her demons, or will this chance of a lifetime slip through her fingers?",
+      release_date: "February 18th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1558.jpg"},
+
+      [genres[14], genres[13]]
+      ],
+[
+{
+      title: "Berserk, Vol. 34",
+      author: "Kentaro Miura",
+      synopsis: "Faced with the Kushan emperor's horrific new form and the bloody swath of destruction and spawning demons he leaves in his wake with every step, the soldiers in Griffith's new Band of the Hawk must assume their true unholy forms to battle the emperor, revealing their true faces to the citizens of Midland. How will these tormented refugees react when they discover that their would-be rescuers are as monstrous as their enemies? And could this titanic confrontation threaten to unleash even greater horrors upon the human world?",
+      release_date: "October 2nd 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1559.jpg"},
+
+{
+      title: "Berserk, Vol. 6",
+      author: "Kentaro Miura",
+      synopsis: "Back in the day, Guts the Black Swordsman was a top slayer for The Band of the Hawk, an elite mercenary unit led by Griffith, whose calm demeanor and callow beauty belied his fighting prowess and steel will. While in a king's employ, the attraction between the king's daughter and Griffith and the growing favor of the king towards the Hawk leader raises the hackles of the king's jealous brother, who plots to have Griffith summarily assassinated. But if the plot fails, the king's brother will likely have to deal with Guts and his titanic broadsword, and the results of such confrontations are rarely pretty... or easy to clean up.",
+      release_date: "September 30th 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1560.jpg"},
+
+{
+      title: "Berserk, Vol. 30",
+      author: "Kentaro Miura",
+      synopsis: "Thanks to Lady Farnese's selfless sacrifice, Guts, the Black Swordsman, and the rest of his companions are free to carry on their journey aboard the ship of Farnese's brother, Magnifico — that is, if they're willing to leave Farnese behind. But having to choose between their mission and their loyalties might not be a problem for long if the Kushan emperor and his legion of monstrous minions have their way. With a host of Kushan forces descending on Vritannis, there might not be much left of Farnese's family — or any of the citizenry — to worry about!",
+      release_date: "April 5th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1561.jpg"},
+
+{
+      title: "Berserk, Vol. 8",
+      author: "Kentaro Miura",
+      synopsis: "Oblężenie twierdzy Doldrey wkracza w decydującą fazę. Drużyna Sokoła wraz z armią Midland stawia czoła przeważającym siłom wroga. Tymczasem niewielki oddział pod dowództwem Caski dostaje się na teren fortecy. Tam jednak czeka na nich kolejny potężny przeciwnik. Stawką w toczącej się bitwie jest odzyskanie utraconych przez Midland ziem oraz... być może kres toczącego się od stu lat konfliktu z imperium Tudorów. Czy w zniszczonym wojną kraju wreszcie zapanuje pokój?",
+      release_date: "September 30th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1562.jpg"},
+
+{
+      title: "Berserk, Vol. 2",
+      author: "Kentaro Miura",
+      synopsis: "The evil Count uses his dark powers to transform a defeated guard captain into an inhuman horror to combat Guts, the Black Swordsman. Meanwhile, Guts' pint-sized elf sidekick, Puck, is captured and given as a gift to the Count's daughter, a sweet girl in a gilded cage, imprisoned by her father in her own room. Guts, determined to make mincemeat of the Count - and maybe bail out his companion, if he gets around to it - assaults the castle and takes on the nearly indestructible demon/guard in a blood-soaked battle royal! But then, face-to-face with the Black Swordsman at last, the unholy Count reveals his own true form, and even Guts' super-sized sword may not be big enough to contend with this demonic monstrosity!",
+      release_date: "March 3rd 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1563.jpg"},
+
+{
+      title: "Berserk, Vol. 7",
+      author: "Kentaro Miura",
+      synopsis: "Drużyna Sokoła, jako część armii Midland, bierze udział w kampanii mającej zakończyć trwającą od stu lat wojnę z imperium Tudorów. Podczas jednej z bitew Guts ratuje życie Casce, w wyniku czego oboje spadają z wysokiego klifu. W ślad za nimi rusza pogoń wroga. Nasi bohaterowie muszą zrobić wszystko, by wrócić do swoich. Czy oboje wyjdą z tego żywi?",
+      release_date: "March 31st 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1564.jpg"},
+
+{
+      title: "Berserk, Vol. 31",
+      author: "Kentaro Miura",
+      synopsis: "Escaping the port city of Vritannis is no easy task, for even the finest ship is useless if it can't be reached, and a horde of Kushan monsters stalks the city's docks. Led by a powerful necromancer who has mastered both the elements and the monsters of the deep, this hideous brigade may be too much for Guts the Black Swordsman and his companions to handle, even if Guts and Schierke are able to join forces and control the awful wrath of the Berserker armor. And will it even matter, if the Kushan emperor makes Guts an offer he can't refuse?",
+      release_date: "September 29th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1565.jpg"},
+
+{
+      title: "Berserk, Vol. 12",
+      author: "Kentaro Miura",
+      synopsis: "The Band of the Hawks’ rescue of their leader, Griffith, has brought them no ease. Broken beyond healing, a frail ghost of his former glory, Griffith is now more an object of pity than a man, and the Hawks, who’ve grimly hung together under duress and death during his absence, are now on the verge of splintering to the winds. But Griffith’s dreams and ambitions, built on the bodies of his troops and the countless enemies they have slain, have not gone unnoticed in the spirit realm, and though Griffith has nowhere to go as a man, he may yet have a future . . . a future borne on jet-black wings in the company of the demon lords of the Godhand!",
+      release_date: "September 30th 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1566.jpg"},
+
+{
+      title: "Berserk, Vol. 17",
+      author: "Kentaro Miura",
+      synopsis: "Pages: 24 Language: English Publisher: Dark Horse Comics Warrior supreme Guts. the Black Swordsman. has seen better days - and more popular - in the kingdom of Midland. a land he once defended as captain of the Band of the Hawk But the. Hawks were betrayed and slaughtered. and now the hyolier-than-thou Holy Iron Chain Knights have captured Guts and plan to whip some repentance into him - literally But Guts is not so easily held at bay. at when he manages to escape with. the Holy Knights 'leader. Farnese. as his hostage. the demons that are drawn to Guts' Brand of Sacrifice are all too willing to show her the teeming darkness in her own soul!",
+      release_date: "April 5th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1567.jpg"},
+
+{
+      title: "Berserk, Vol. 14",
+      author: "Kentaro Miura",
+      synopsis: "The once unbeatable Band of the Hawk is smashed, and their former leader, Griffith, has made an unholy pact with the demon lords of the Godhand, sacrificing his former troops to resurrect his crippled body and ascend to stand in power beside these profane gods. The Invocation of Doom has unleashed a plague of unspeakable horrors upon the earth, and the first battle not only shatters the Hawks, but the hand of their champion, Guts, and the mind of their captain and Guts' lover, Casca. And while time may heal some of Guts' wounds, it will not heal his desire for vengeance. And his discovery of a gigantic, dragon-slaying sword might be just the ticket to deal out some king-sized payback! Also included in this volume: -Berserk Prototype, - the very first Berserk story, created during Kentaro Miura's college days as his audition that sold the series!",
+      release_date: "September 30th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1568.jpg"},
+
+{
+      title: "Berserk, Vol. 13",
+      author: "Kentaro Miura",
+      synopsis: "The Band of the Hawk may have been the most formidable band of fighters around, but when matched up against an army of abyssal monstrosities, earthly fighting skills don't amount to a hill of beans. The Hawks' tortured and mutilated former leader, Griffith, has used the accursed Crimson Behelit to open the gates to a shadowy realm of unspeakable horrors, the realm of the demon lords of the Godhand, who are willing to transform Griffith into a being of terrible power and majesty as long as Griffith is willing to give up his former command as sacrifices in the Invocation of Doom. But nobody takes down the Hawks without a fight, and their berserker champion, Guts, will take on anything Hell can throw at him in order to save his lover, Casca, from the sordid violations that only Hell can offer.",
+      release_date: "March 31st 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1569.jpg"},
+
+{
+      title: "Berserk, Vol. 3",
+      author: "Kentaro Miura",
+      synopsis: "Guts, the feared Black Swordsman, finishes his desperate battle with the monstrous Count, cutting and blasting him to gory scraps when the presence of the Count's daughter makes the monster hesitate. But Guts won't even have the time to clean his gigantic sword when the Count's dying pleas activate the Behelit, summoning the five God Hands, demon lords of immeasurable power. Guts' journey so far has been a long road of pain and death, but that's a walk in the park compared to fighting his way out of Hell itself!",
+      release_date: "October 31st 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1570.jpg"},
+
+{
+      title: "Berserk, Vol. 9",
+      author: "Kentaro Miura",
+      synopsis: "Griffith, charismatic leader of the elite mercenary Band of the Hawk, has seen better days. His fearless champion, Guts, has left the Band, defeating Griffith in personal combat as his ticket out. With his judgment clouded by this unthinkable humiliation, Griffith eases his pain in the arms of the daughter of Midland’s king. But the King doesn’t take kindly to an employee picking the royal flowers, and the next stop for Griffith is the dungeon and the torture rack! Without Griffith and Guts, the Hawks become easy prey for Midland’s army, and the AWOL Guts may be the only answer to the Hawks' — and Griffith’s — lethal problems.",
+      release_date: "March 31st 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1571.jpg"},
+
+{
+      title: "Berserk, Vol. 23",
+      author: "Kentaro Miura",
+      synopsis: "Desperate as Guts, the Black Swordsman, has been to reunite with his former captain and lover, the now-mad Casca, he’s quickly learning that being together is as dangerous as being apart. What should be a simple journey to the safety of Puck’s homeland proves to be a gauntlet of perils, as the Mark of Sacrifice each bears brings the fury of Hell down upon them, and Guts discovers that in his darkest moments he himself is the greatest danger to the woman he loves. Created by Kentaro Miura, Berserk is a fiery manga apocalypse, an ominous omnibus of furious action, fearsome horror, and funereal humor that strikes a power chord in the hearts of its devoted followers and strikes down the rest like a scythe through wheat. Bring in the sheaves!",
+      release_date: "July 5th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1572.jpg"},
+
+{
+      title: "Berserk, Vol. 28",
+      author: "Kentaro Miura",
+      synopsis: "Guts, the Black Swordsman, and his companions have finally arrived at the sea, where they discover a mysterious child who seems to share a special bond with Guts and his former lover, the now-mad Casca. The troupe's brief respite at the shore offers moments for quiet introspection and deeper bonding, but such peace is always short lived where Guts is involved, and Guts must once again don the demonic Berserker Armor to take on a force of bloodthirsty beasts emerging from the once-peaceful surf, possessed by the accursed sorcery of a powerful Kushan enchanter! And who knows what will happen when internal strife pushes a member of Guts's band unknowingly into the comforting companionship of an enemy!",
+      release_date: "March 5th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1573.jpg"},
+
+{
+      title: "Berserk, Vol. 10",
+      author: "Kentaro Miura",
+      synopsis: "Warrior supreme Guts has returned, and just in time to save the weakened Band of the Hawk from certain destruction… and to form an intimate bond with the beautiful warrior Casca. But job one is to find a way to free Griffith, the Hawks' leader, from the dank dungeons and round-the-clock tortures of the Hawks' former benefactor, the King of Midland. But while the flayed and starved Griffith may be in isolation, he is not alone. Horrors beyond imagination await Guts and the Hawks in the catacombs, and those who die may just be the lucky ones!",
+      release_date: "September 30th 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1574.jpg"},
+
+{
+      title: "Berserk, Vol. 1",
+      author: "Kentaro Miura",
+      synopsis: "Created by Kenturo Miura, Berserk is manga mayhem to the extreme - violent, horrifying, and mercilessly funny - and the wellspring for the internationally popular anime series. Not for the squeamish or the easily offended, Berserk asks for no quarter - and offers none! His name is Guts, the Black Swordsman, a feared warrior spoken of only in whispers. Bearer of a gigantic sword, an iron hand, and the scars of countless battles and tortures, his flesh is also indelibly marked with The Brand, an unholy symbol that draws the forces of darkness to him and dooms him as their sacrifice. But Guts won't take his fate lying down; he'll cut a crimson swath of carnage through the ranks of the damned - and anyone else foolish enough to oppose him! Accompanied by Puck the Elf, more an annoyance than a companion, Guts relentlessly follows a dark, bloodstained path that leads only to death...or vengeance.",
+      release_date: "December 1st 1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1575.jpg"},
+
+{
+      title: "Berserk, Vol. 29",
+      author: "Kentaro Miura",
+      synopsis: "Guts, the Black Swordsman, and his companions have finally broken free of the monster-infested wilderness and arrived at the port city of Vritannis. But the band finds out all too quickly that humans can be just as monstrous as the nightmarish creatures and apostles they battled in the forest. As Schierke and Isidro face off against pirate slavers, Farnese's power-hungry family tries to force her once again under the yoke of their political ambitions. The group's only hope is to find a ship out of the city, but even if they manage to secure a vessel, will everyone be free to leave?",
+      release_date: "October 5th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1576.jpg"},
+
+{
+      title: "Berserk, Vol. 19",
+      author: "Kentaro Miura",
+      synopsis: "Berserk, Vol. 19 by Kentaro Miura",
+      release_date: "April 5th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1577.jpg"},
+
+{
+      title: "Berserk, Vol. 20",
+      author: "Kentaro Miura",
+      synopsis: "The Black Swordsman Guts’ former captain and lover, Casca, has been taken by the Holy Iron Chain Knights to the 'Tower of Conviction' of the fanatic torturer of the Holy See, Mozgus, who plans to treat the rumored witch to the proper agonies of the damned, but Guts is on his way to rescue Casca and dish out some chastisement of his own on any who get in his way. But forces in the demonic realms are in motion and are being drawn to the torture tower in what may be a prelude to a second Eclipse and an unprecedented release of malign spirits into the world!",
+      release_date: "November 5th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1578.jpg"},
+
+{
+      title: "Berserk, Vol. 21",
+      author: "Kentaro Miura",
+      synopsis: "Guts, the feared Black Swordsman, is on the rampage — and it's personal. Mozgus, the malefic master Inquisitor of the Holy See, in his murderous campaign against heretics, has captured Guts' former lover Casca and has her at the ready to be burned at the stake in the Tower of Conviction, little knowing that Casca's demonic Mark of Sacrifice is drawing hideous dark powers to the Tower. It'll take everything Guts has and more to defeat Mozgus — who is much, much more than a man — and even if he can, will he be able to save Casca from the hordes of Hell amidst the inquisitor's disintegrating citadel?",
+      release_date: "June 5th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1579.jpg"},
+
+{
+      title: "Berserk, Vol. 33",
+      author: "Kentaro Miura",
+      synopsis: "Guts the Black Swordsman and his companions brave the open sea, hoping to reach Puck's homeland, Elfhelm, and its powerful elven king, who might be able to restore the sanity of Guts' former lover, Casca. But seeking out a sanctuary for Casca means that Guts must postpone his hunt for his ex-friend and leader, Griffith, who has been reborn as a demon lord hell-bent on conquest. The winds of change blow fast and hard across the war-torn lands of the Holy See, and if Guts waits too long to exact his vengeance, Griffith might attain his murderous goals before Guts can return to Midland to stop him!",
+      release_date: "October 31st 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1580.jpg"},
+
+{
+      title: "Berserk, Vol. 25",
+      author: "Kentaro Miura",
+      synopsis: "Guts the Black Swordsman just can't seem to find a little peace. On his way to the idyllic tranquility of his miniature pal Puck's homeland of Elfhelm, Guts and his companions, at the behest of a local witch, assist a village beset by a plague of hideous and deadly trolls. Assisted by the witch's disciple, Schierke, the warrior band manages to turn the tide against the beasts, but when a monstrous ogre hits town, a tide of another kind is needed, a mystic flood to wash the town clean. But when Casca and Farnese are carried away by the flood, they become prisoners in the troll's den, where a fate far worse than any imaginable death awaits!",
+      release_date: "July 5th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1581.jpg"},
+
+{
+      title: "Berserk, Vol. 32",
+      author: "Kentaro Miura",
+      synopsis: "Guts, the Black Swordsman, joins forces with a most unlikely ally, the fiendish Nosferatu Zodd, in a desperate attempt to defeat the Kushan emperor's malevolent astral form. But Griffith, Guts' former commander and friend reborn as a demonic lord of the Godhand, has plans of his own for the emperor, and for Midland itself. Guts and his companions' only hope is to reach the promised safety of the elf Puck's homeland, Elfhelm, but if Griffith and the emperor turn their attention back to this motley band of travelers, there may be nowhere left for Guts and crew to hide!",
+      release_date: "December 5th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1582.jpg"},
+
+{
+      title: "Berserk, Vol. 11",
+      author: "Kentaro Miura",
+      synopsis: "The Band of the Hawk - what's left of them - are on the run, Guts and Casca having rescued the Hawks' leader, Griffith, from the horrors of the King of Midland's dungeons. Starved, tortured mercilessly and imprisoned in an iron mask, Griffith hangs to life and sanity by a thread... and he'll be no help against the King's latest charges sent to bring him back to pay for his dalliance with the King's daughter. Now the depleted Hawks will have to face the Knights of the Black Dog, led by the merciless, bestial Wyald... one bad dog who's even worse when he unleashes the beast within!",
+      release_date: "March 29th 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1583.jpg"},
+
+{
+      title: "Berserk, Vol. 26",
+      author: "Kentaro Miura",
+      synopsis: "Guts, the Black Swordsman, goes from the frying pan to the fire as he must enter the mating chamber in the horrifying lair of trolls to rescue his love, Casca, and the Lady Farnese from the loathsome attentions of the hideous beasts. But while even an army of trolls cannot stand against Guts's boundless fury, the mightiest of warriors is no match for a demon lord. And so when Slan of the Godhand manifests from the entrails of slain trolls and takes Guts into her deadly embrace, Guts discovers he may not only be fighting for his life, but for his very soul!",
+      release_date: "December 24th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1584.jpg"},
+
+{
+      title: "Berserk, Vol. 36",
+      author: "Kentaro Miura",
+      synopsis: "What Guts the Black Swordsman and his companions had seen as an island refuge for monstrous sea creatures and the ghost ship of the demonic Bonebeard is, in fact, the very lair of the malefic sea god that controls them. With no avenue of escape, Guts must once again don the Berserker armor to give his company any chance of survival. But without the protective influence of the sorceress Schierke, Guts risks being forever lost within the cursed armor and becoming an even greater threat to his comrades",
+      release_date: "September 23rd 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1585.jpg"},
+
+{
+      title: "Berserk, Vol. 35",
+      author: "Kentaro Miura",
+      synopsis: "After a hellish battle against ravenous sea monsters, Guts the Black Swordsman and his companions are forced to seek refuge on a small island so that their ship can be repaired. But this island is not the safe haven they'd hoped for - it's a sinister place rife with dark energy, watched over by an ancient, vengeful god. And with a full moon on the rise, that god's power is about to be unleashed...",
+      release_date: "September 29th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1586.jpg"},
+
+{
+      title: "Berserk, Vol. 22",
+      author: "Kentaro Miura",
+      synopsis: "The world of Guts, the Black Swordsman, is changing in a hurry. Though a demonic maelstrom has leveled the dreaded Tower of Conviction and ended the reign of terror of its grand inquisitor, Mozgus, peace has not returned to Midland. The Tower’s fall has heralded the unexpected return of Griffith, Guts former leader, last seen transformed from a shattered husk into one of the demon lords of the Godhand. but Griffith looks like his old self again — and with his dreams of carving out a kingdom by his own hand still intact. He’s raising a new Band of the Hawk, but this time he’s recruiting from the dark side to fulfill his deadly destiny!",
+      release_date: "December 24th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1587.jpg"},
+
+{
+      title: "Berserk, Vol. 18",
+      author: "Kentaro Miura",
+      synopsis: "Hell has broken loose in the kingdom of Midland. On the death of Midland's king comes invasion, demonic forces seem to be on the rise, underground pagan cults are running wild, and the church is busily rounding up and teaching heretics the errors of their ways. While, Guts is busy testing out his newly repaired sword on the invaders, his former captain and lover, Casca, her mind wrecked by her unholy tryst with the demon lord, has fallen in with a rough crowd who don't exactly wish her well. But she, like Guts, is marked with the Brand of Sacrifice, and her abusers may soon find themselves face-to-face with the unholy abominations that are inexorably drawn to the Brand!",
+      release_date: "October 5th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1588.jpg"},
+
+{
+      title: "Berserk, Vol. 15",
+      author: "Kentaro Miura",
+      synopsis: "From his days as a young mercenary to his time as captain of the Band of the Hawks' Raiders, Guts's life has been defined by his ability to fight and his will to win. Now cursed with the Brand of Sacrifice - a sigil that will forever mark him as prey for the damned - and with his companions dead, his lover's mind destroyed and his one-time commander and friend reborn as a malevolent demon lord, it seems that more than ever Guts must rely upon his instinct to survive. But Hell has many faces, and when what appears to be an innocent country village proves to be a den of tragic secrets, the horror of a fairy tale perverted by pain and hate may prove to be more than Guts can handle!",
+      release_date: "January 30th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1589.jpg"},
+
+{
+      title: "Berserk, Vol. 37",
+      author: "Kentaro Miura",
+      synopsis: "Guts the Black Swordsman has again donned the accursed Berserker armor, and he ll need all its unholy power to battle the titanic Sea God from the inside! As the creature takes on an army of beautiful merrow, Guts plunges deep within the God to find its sole vulnerability and pierce its living heart. But even if he can manage this impossible task deep within the leviathan, how will Guts get back out?'",
+      release_date: "March 29th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1590.jpg"},
+
+{
+      title: "Berserk, Vol. 24",
+      author: "Kentaro Miura",
+      synopsis: "Desperate to find a sanctuary where his lover, Casca, will be safe from the demons drawn to her Brand of Sacrifice, Guts the Black Swordsman pushes his motley band of followers onward towards fairy Puck s homeland, Elfhelm. With new allies who make their home in a mystically guarded woodland paradise, Guts goal seems within reach, but danger lurks in the shadows of even the most dazzling utopias, and even fairy witchery may not protect the wondrous kingdom from an army of marauding, murderous trolls! Created by Kentaro Miura, Berserk is a runaway manga locomotive, a crashing colossus of teeth-rattling action, spine-chilling horror, and taboo-breaking humor that fires the boilers of its devoted devotees and burns the rest. Ashes to ashes!'",
+      release_date: "December 24th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1591.jpg"},
+
+{
+      title: "Berserk, Vol. 5",
+      author: "Kentaro Miura",
+      synopsis: "He is Guts, the Black Swordsman, a warrior of legendary prowess — relentless, fearless, merciless. As cold and brutal as the iron of the massive sword he wields. Bent on revenge against the unholy forces that have branded him for sacrifice, but especially on Griffith, one of the demon lords of the Godhand. But Griffith was once a man, the leader of the Hawks, a renowned cadre of elite fighters with a young Guts as its fiercest champion. Though forged in a crucible of cruelty and violence, nothing could prepare Guts for a confrontation with Nosferatu Zodd, a superhuman beast who slaughters Guts’ comrades as easily as a scythe cuts wheat. Even Guts and Griffith are no match for the abomination’s power...but something Griffith wears around his neck may well be!",
+      release_date: "March 31st 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1592.jpg"},
+
+{
+      title: "Berserk, Vol. 27",
+      author: "Kentaro Miura",
+      synopsis: "Now equipped with the mystical Berserker Armor, Guts fights on against the dragon-form of Grunbeld and his legion of fanatic apostle soldiers. But the very armor that holds Guts together — in a nightmarishly literal sense — might be the last straw that tears his tortured mind apart! While Guts struggles to hold his own against his inner demons, monsters of a very different sort rally in Windham as the Kushan Emperor, Ganishka, and the newly reborn Griffith rally their forces in a head-to-head struggle for control of all of Midland. But when the dust finally settles, there may be little left of the kingdom to claim!",
+      release_date: "August 5th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1593.jpg"},
+
+{
+      title: "Berserk, Vol. 16",
+      author: "Kentaro Miura",
+      synopsis: "Warrior supreme Guts has been marked for sacrifice to the armies of the damned, and now he has the b....",
+      release_date: "August 31st 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1594.jpg"},
+
+{
+      title: "Berserk, Vol. 4",
+      author: "Kentaro Miura",
+      synopsis: "Now that the evil Count has been killed and dragged to Hell by the demon lords of the Godhand, Guts, the Black Swordsman, hooks up with his former benefactor, the mercenary Gambino. But it’s a deadly reunion, one that nearly takes Guts’ life. The following years see Guts wandering from battlefield to battlefield, where his awesome skills as a slayer catch the eye of both warring parties, including the legendary Griffith, warrior leader of the Band of the Hawk, who is eager to test his combat skills against those of the Black Swordsman. As usual, anytime that Guts is involved there will be hell to pay!",
+      release_date: "February 29th 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1595.jpg"},
+
+      [genres[7], genres[0], genres[4], genres[21], genres[9], genres[18]]
+      ],
+[
+{
+      title: "Black Lagoon, Vol. 8",
+      author: "Rei Hiroe",
+      synopsis: "Roberta's vendetta continues as Rock and Revy enlist some old acquaintances to try and catch up with the Killer Maid before it's too late. They're going to have to get in line since Roberta's got everyone from a U.S. military black ops unit to her ex-F.A.R.C. comrades gunning for her, not to mention the CIA and the NSA. When the turmoil becomes more than the city's criminal underworld can bear, Balalaika and Hotel Moscow enter the game. With so many players at the table, it's winner take all, and the stakes couldn't be higher!",
+      release_date: "January 1st 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1596.jpg"},
+
+{
+      title: "Black Lagoon, Vol. 4",
+      author: "Rei Hiroe",
+      synopsis: "The action shifts to chilly midwinter Tokyo, where Balalaika hires Rock as her interpreter, and Revy comes along as Rock's bodyguard. The Washimine-gumi, a Yakuza family on its way down, wants to make a deal with Hotel Moscow. Soon, however, the yakuza realize they might have been better off making a deal with the Devil himself! As the pressure builds, Rock faces the reality of his outlaw life, and Revy meets her match in the Washimine's number-one enforcer. The icy streets of Tokyo are about to burn red-hot!",
+      release_date: "July 19th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1597.jpg"},
+
+{
+      title: "Black Lagoon, Vol. 2",
+      author: "Rei Hiroe",
+      synopsis: "As the newest crewmember of the Black Lagoon, Rock is learning that life as a pirate is a lot more than just fun in the sun. After a salvage job on a sunken German U-Boat turns into a full-auto blowout with a gang of neo-Nazis, the crew of the Black Lagoon realizes they have more than a few issues with Revy's hair-trigger temper. But when the arrival of a pair of psychotic assassins in Roanapur nearly starts an all-out gang war, Rock is going to need all the friends he can get!",
+      release_date: "July 19th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1598.jpg"},
+
+{
+      title: "Black Lagoon, Vol. 3",
+      author: "Rei Hiroe",
+      synopsis: "Roanapur turns into a war zone when Balalaika and Hotel Moscow team up with the Triad to hunt down the psychotic Romanian killers Hansel and Gretel. The bloody climax leaves Rock scarred by the grim reality of the underworld he's become a part of, but there's no rest for the wicked. A terrorist organization makes a move against the Triad, and the crew of the Black Lagoon once again gets pulled into the line of fire as an echo of the past comes back to haunt the present. Cock the hammer, it's time for action!",
+      release_date: "April 19th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1599.jpg"},
+
+{
+      title: "Black Lagoon, Vol. 9",
+      author: "Rei Hiroe",
+      synopsis: "Roanapur explodes as Roberta's vendetta against a top secret U.S. Special Forces team brings out the city's heaviest hitters. Balalaika and the ex-Soviet military troops of Hotel Moscow face off with Major Caxton's Grey Fox unit as it tries to fight its way out of Roanapur. Meanwhile, Rock, Revy and Garcia Lovelace continue their pursuit of Roberta, hoping to catch up to her before the Killer Maid's own demons run her down. But if they do find her, Roberta's thirst for revenge may consume more than just those who wronged her…",
+      release_date: "October 19th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1600.jpg"},
+
+{
+      title: "Black Lagoon, Vol. 10",
+      author: "Rei Hiroe",
+      synopsis: "Benny’s tech-savvy girlfriend Jane has recruited Feng Yifei, a Chinese spy, to help her hack into a massive German defense company. But Jane’s real motive is to blackmail the Chinese government by exposing their operations and hang Feng out to dry as a scapegoat. The People’s Liberation Army isn’t going to let this slide, and it’s not long before they hire local mercenaries to wipe out Feng and anyone that gets in the way, including the crew of the Black Lagoon!",
+      release_date: "May 19th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1601.jpg"},
+
+{
+      title: "Black Lagoon, Vol. 5",
+      author: "Rei Hiroe",
+      synopsis: "Rock and Revy form an uneasy alliance with Ginji, the Washimine-gumi's top enforcer, to rescue Yukio from her kidnappers. Even if she can be freed, Rock finds Yukio's position as the new head of the Washimine-gumi hard to accept, especially when it calls his beliefs and loyalties into question. The conflict between Hotel Moscow and the Washimine spirals into greater violence, setting Rock and Revy on a collision course with Balalaika, and ultimately, a shocking climax that will change Rock forever.",
+      release_date: "March 17th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1602.jpg"},
+
+      [genres[1], genres[0]]
+      ],
+      [
+{
+      title: "xxxHolic, Vol. 6",
+      author: "CLAMP",
+      synopsis: "Kimihiro Watanuki takes a welcome break from his grueling service to the time-space witch, Yûko Ishihara, only to find himself mixed up in the strangest parade of the Japanese magical world. But a slipup reveals that Kimihiro is a powerless human! How can he survive the festival without being eaten by its dangerous participants?Then Kimihiro meets a woman who grieves for her lost son. Since Kimihiro is an orphan, the two form an immediate bond. But what will Kimihiro do when he realizes that his wonderful new friendship may very well kill him?xxxHOLiC crosses over with Tsubasa, also by CLAMP. Don’t miss it!Includes chapters 35-42",
+      release_date: "January 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1603.jpg"},
+
+{
+      title: "xxxHolic, Vol. 13",
+      author: "CLAMP",
+      synopsis: "The medium Kohane-chan has been punched and bruised on national TV, but still her controlling mother is forcing her to go on the air. Now Kimihiro steps between the rebellious young psychic and her raging mother, only to take the beating himself. See the dramatic conclusion of Kohane-chan’s story!Includes chapters 80-84",
+      release_date: "June 23rd 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1604.jpg"},
+
+{
+      title: "xxxHolic, Vol. 4",
+      author: "CLAMP",
+      synopsis: "It’s Valentine’s Day–and while Domeki is showered with chocolates and cards from girls, Watanuki receives none. To make matters worse, he must also do the usual chores for Yûko, which includes making chocolate cake for her and Mokona, as well as the treats his boss wants to give away as gifts. But when Watanuki discovers he has a shy and secret admirer who is not quite human, he finds that chocolates can be more than just sweets.Then, after seeing identical twin sisters pass by in the street, Yûko makes a curious remark: that there are chains that only humans can use to bind others. Watanuki meets the sisters and senses that the relationship between them is not what it seems. . . .crosses over with , also by CLAMP. Don’t miss it!Includes chapters 23-28",
+      release_date: "June 17th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1605.jpg"},
+
+{
+      title: "xxxHolic, Vol. 10",
+      author: "CLAMP",
+      synopsis: "Months ago, when Kimihiro Watanuki became the indentured servant of the witch Yûko Ichihara, Yûko warned Kimihiro about his attraction to cute young Himawari-chan. But he refused to listen. How could his pretty classmate possibly pose any kind of danger to him? At last the secret is revealed . . . and with near-fatal results.Includes chapters 59-64",
+      release_date: "November 17th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1606.jpg"},
+
+{
+      title: "xxxHolic, Vol. 17",
+      author: "CLAMP",
+      synopsis: "Watanuki no longer leaves the wish-granting shop he inherited from the witch Yûko. What’s more, he must help everyone who walks through its doors—even the monster that ate his eye! How can the still-inexperienced Watanuki handle what can only be called one dangerous customer? Includes chapters 102-105",
+      release_date: "January 1st 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1607.jpg"},
+
+{
+      title: "xxxHolic, Vol. 8",
+      author: "CLAMP",
+      synopsis: "Kimihiro Watanuki’s after-school job working for the mysterious witch Yûko Ishikawa has taken a dangerous turn. A recent assignment cost Kimihiro his right eye to a spider with a grudge. Now the missing eye has become the latest must-have item in the spirit world. Even the Zashiki-Warashi, the pretty spirit who has a crush on Kimihiro, has become entangled in the mess . . . and she’s being held captive by an unknown evil! Can Kimihiro save both the girl and his eye–without getting himself killed by beings more powerful than he can imagine?Includes chapters 48-51",
+      release_date: "1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1608.jpg"},
+
+{
+      title: "xxxHolic, Vol. 1",
+      author: "CLAMP",
+      synopsis: "Watanuki Kimihiro is haunted by visions of ghosts and spirits. Seemingly by chance, he encounters a mysterious witch named Yuuko, who claims she can help. In desperation, he accepts, but realizes that he's just been tricked into working for Yuuko in order to pay off the cost of her services. Soon he's employed in her little shop--a job which turns out to be nothing like his previous work experience Most of Yuuko's customers live in Japan, but Yuko and Watanuki are about to have some unusual visitors named Sakura and Syaoran from a land called Clow. . . . XXXHolic volume one 'crosses over with 'Tsubasa volume one 'Don't miss it 'Includes special extras after the story Includes chapters 1-8",
+      release_date: "July 23rd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1609.jpg"},
+
+{
+      title: "xxxHolic, Vol. 14",
+      author: "CLAMP",
+      synopsis: "Kimihiro is a mystery even to himself. He has no memory of his past, or even of his beloved parents’ names. Neither does he have any idea why he is being followed by malicious spirits. But his boss, the witch Yûko Ichihara, knows, and in this volume many of Kimihiro’s secrets are finally revealed!xxxHOLiC crosses over with Tsubasa, also by CLAMP. Don’t miss it!Includes chapters 85-91",
+      release_date: "January 1st 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1610.jpg"},
+
+{
+      title: "xxxHolic, Vol. 3",
+      author: "CLAMP",
+      synopsis: "Kimihiro Watanuki is haunted by spirits–-and the only way to escape his curse is to become the indentured servant of the mysterious witch, Yûko Ichihara. But when his beloved, beautiful Himawari-chan, asks him for a favor, he and his eternal rival, the exorcist Dômeki, must go on a spirit-busting adventure without Yûko there to save them!Meanwhile Yûko gives a young woman a precious cylindrical box from her treasure room. There’s just one caveat: She must never open it. Inside is a magical device with a terrifying reputation! Can Kimihiro save an ambitious young lady from her own overconfidence? Tsubasa xxxHOLiC volume three! Includes chapters 16-22",
+      release_date: "February 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1611.jpg"},
+
+{
+      title: "xxxHolic, Vol. 11",
+      author: "CLAMP",
+      synopsis: "Kimihiro Watanuki has been saved from death by the sacrifices of his friends, but his recovery time is cut short. His special connection with the spirit world is needed to investigate a terrifying haunted house, placate annoyed Warashi spirits, and face the growing threat of a shadowy figure called Fei-Wang Reed.Includes chapters 65-72",
+      release_date: "2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1612.jpg"},
+
+{
+      title: "xxxHolic, Vol. 5",
+      author: "CLAMP",
+      synopsis: "Kimihiro Watanuki is the indentured servant of Yûko, the beautiful but completely unpredictable Space-Time Witch. He must work at her bizarre wish-granting shop until he can pay off his own wish: to be free of the spirits that haunt him. Yûko’s latest customer is a rain spirit who wants Kimihiro dispatched on a rescue mission. Little does Kimihiro know that this mission will take him to death’s door!Kimihiro has another problem. A cute spirit has given him a Valentine’s Day present, which means he’s obligated by Japanese custom to return the favor. What do you get a girl who may not even exist in this world?Includes chapters 29-34",
+      release_date: "January 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1613.jpg"},
+
+{
+      title: "xxxHolic, Vol. 9",
+      author: "CLAMP",
+      synopsis: "Without realizing it, Kimihiro Watanuki has purchased a dream. According to his boss Yûko Ishikawa, the mysterious time-space witch, people usually buy good dreams–but Kimihiro’s dream is a man-eating nightmare. Even worse, it has come true! Then Kimihiro meets a wistful girl who, like him, can see the spirit world. Together they try to prevent a harmless ghost from being exorcised from its beloved resting place, an ancient cherry tree. The girl’s mother wants her to have nothing to do with Kimihiro, but the spirits say otherwise. . . .Includes chapters 52-58",
+      release_date: "2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1614.jpg"},
+
+{
+      title: "xxxHolic, Vol. 18",
+      author: "CLAMP",
+      synopsis: "Includes special extras after the story!Watanuki's vow to the witch Yuko, who has disappeared, leaves him in charge of the shop where wishes must be granted to those who meet the price. Enter a deranged customer who is determined to capture the heart of the man she is stalking. Now Watanuki may have no choice but to deliver his friend Shizuka Domeki into the arms of this unstable woman!xxxHOLiC crosses over with Tsubasa, also by CLAMP. Don't miss it!Available on DVD from FUNimation EntertainmentIncludes chapters 106-107 + Special",
+      release_date: "January 1st 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1615.jpg"},
+
+{
+      title: "xxxHolic, Vol. 12",
+      author: "CLAMP",
+      synopsis: "Lately Kimihiro Watanuki’s dreams have been pleasant escapes that have given him the chance to talk to his new friend Haruki Dômeki. But now he’s falling asleep a lot–and starting to think that his entire life with the witch Yûko might be taking place in some kind of dreamworld. Then one night his dream is visited by a pretty princess named Sakura. . . .xxxHOLiC crosses over with Tsubasa, also by CLAMP. Don’t miss it!Available on DVD from FUNimation EntertainmentIncludes chapters 73-79",
+      release_date: "October 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1616.jpg"},
+
+{
+      title: "xxxHOLiC: AnotherHOLiC",
+      author: "CLAMP",
+      synopsis: "Introducing the thrilling first novel set in the exotic, mysterious world of xxxHOLiC! Written by bestselling author NISIOISIN, and spectacularly illustrated by CLAMP, this original story features the ever-excitable high school student Kimihiro Watanuki, the mystifying time-space witch Yûko Ichihara, and a host of fascinating new characters.Nothing could have thrilled Kimihiro more than stumbling upon the bizarre wish-granting shop of the beautiful but unnerving Yûko Ichihara, who solemnly promises to make the spirits plaguing Kimihiro go away just as soon as her fee–rendered in daily afternoon chores at her shop–is paid in full.Of course, the thrill wears off as soon as Kimihiro realizes that his payment plan bears a disturbing resemblance to indentured servitude . . . eternalindentured servitude. Still he soldiers on, ready for whatever number of adventures lie ahead. But in Kimihiro’s case, three may not be the charm!His first assignment–to procure a pair of fake eyeglasses–is exceptionally pointless, even by Yûko’s standards. Or at least it seems that way, until Kimihiro watches a woman throw herself into traffic. He soon discovers that the doors of bespectacled perception can swing both ways. Next, when a classmate seeks help solving a mystery involving text messages from the dead, Kimihiro is glad to play Sherlock. But he must turn to Yûko to determine whether the root of the riddle is otherworldly shenanigans, deceit, or murder. Finally, however ready, willing, and able Kimihiro thinks he is to face the most unusual of circumstances, he still finds himself completely bewildered by the stranger who chases away his darkest spirits, condemns Yûko as a craven charlatan, and offers Kimihiro a way out of his preternatural predicament–anda fortune besides.",
+      release_date: "2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1617.jpg"},
+
+{
+      title: "xxxHolic, Vol. 7",
+      author: "CLAMP",
+      synopsis: "KimihIro Watanuki has a wish on layaway with Yûko Ishikawa, the sultry time-space witch who can grant anyone’s deepest desire… for a price! Still, working like a slave in Yûko’s shop hasn’t dampened Kimihiro’s enthusiasm for his cute classmate Himawari-chan, nor his irritation with his too-cool rival Dômeki, the guy who always seems to be around during Kimihiro’s most embarrassing moments.But when Dômeki, trying to be a good samaritan, inadvertently becomes the object of a terrible grudge, Kimihiro seeks Yûko’s help. However, the cost for her assistance is steep: Kimihiro would be permanently impaired! Is such a sacrifice worth it for someone he would rather have disappear?Includes chapters 43–47.",
+      release_date: "October 17th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1618.jpg"},
+
+{
+      title: "xxxHolic, Vol. 19",
+      author: "CLAMP",
+      synopsis: "Kimihiro Watanuki has passed through many trials by fire. Once an indentured servant, he has matured and become the poised and skilled keeper of the shop that grants wishes. But Watanuki’s final wish is for himself: to meet the witch Yûko one more time. With Yûko long vanished from our world, is it even possible? That question and others are answered now in the concluding volume of the bestselling manga xxxHOLiC! Includes chapters 108–111",
+      release_date: "January 1st 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1619.jpg"},
+
+{
+      title: "xxxHolic, Vol. 2",
+      author: "CLAMP",
+      synopsis: "Kimihiro Watanuki thought he had signed up with a bunch of weirdoes, and he was right! He became the unfortunate indentured servant of a woman known as Yûko Ichihara, who was widely rumored to be the time-space witch. Now his voyage through the worlds of the occult are off and running, as he and Yûko go visiting fortune tellers and horoscope readers. But can the future really be told?Meanwhile, the romance is heating up between Kimihiro and cute Himawari-chan. Then fate throws Kimihiro’s old rival back into his life. Now Yûko invites all three to a temple to tell scary stories throughout the night. Is it just for fun or is there some deeper reason?Tsubasa xxxHOLiC volume two! Includes chapters 9-15",
+      release_date: "October 16th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1620.jpg"},
+
+      [genres[7], genres[4], genres[8], genres[18]]
+      ],
+[
+{
+      title: "Black Cat, Volume 16",
+      author: "Kentaro Yabuki",
+      synopsis: "Train Heartnet, also known as 'Black Cat,' was an infamous assassin for a secret organization called Chronos...until he abandoned that cold-blooded existence to live on his own terms as an easygoing bounty hunter. But is Train's past as far behind him as he thinks?Train and River put aside their differences as they face off with Shiki, one of the most powerful members of the Apostles of the Stars. Shiki is determined to show that the Tao is the ultimate form of power, and he's going to take down Train, his friends and all of Chronos to prove it!",
+      release_date: "November 15th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1621.jpg"},
+
+{
+      title: "Black Cat, Volume 07",
+      author: "Kentaro Yabuki",
+      synopsis: "Train Heartnet, also known as 'Black Cat,' was an infamous assassin for a secret organization called Chronos...until he abandoned that cold-blooded existence to live on his own terms as an easygoing bounty hunter. But is Train's past as far behind him as he thinks?",
+      release_date: "April 28th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1622.jpg"},
+
+{
+      title: "Black Cat, Volume 11",
+      author: "Kentaro Yabuki",
+      synopsis: "Charden and Kyoko have deserted Creed's Apostles of the Stars and joined up with Train and Sven. But it won't be easy to protect them, since Train has been shot by a nanotech bullet that turns him into a little boy. Rinslet goes in search of Dr. Tearju, who developed Creed's nanotechnology and may be the only one who can return Train to normal. But will Rinslet find the doctor before Creed or Chronos finds Train?",
+      release_date: "February 16th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1623.jpg"},
+
+{
+      title: "Black Cat, Volume 08",
+      author: "Kentaro Yabuki",
+      synopsis: "Train Heartnet, also known as 'Black Cat,' was an infamous assassin for a secret organization called Chronos...until he abandoned that cold-blooded existence to live on his own terms as an easygoing bounty hunter. But is Train's past as far behind him as he thinks?",
+      release_date: "June 23rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1624.jpg"},
+
+{
+      title: "Black Cat, Volume 04",
+      author: "Kentaro Yabuki",
+      synopsis: "Train Heartnet was once a legendary assassin known as 'Black Cat' and belonged to a secret society called Chronos. But two years ago he faked his own death in order to leave Chronos and become a bounty hunter, able to live by his own rules. His main mission in life now is to find Creed Diskense, a former Chronos member who killed his best friend. Train and his partner Sven are joined by a sexy thief named Rinslet and an amazing young girl named Eve who is a creation of nanotechnology!",
+      release_date: "September 24th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1625.jpg"},
+
+{
+      title: "Black Cat, Volume 15",
+      author: "Kentaro Yabuki",
+      synopsis: "• 20 volumes of Black Cat have sold approximately 600,000 copies each in Japan. • Volumes 1-11 have all debuted in the top 15 on Bookscan’s Graphic Novel charts.• Named one of the Top 50 Manga Properties of 2006 by ICv2• The first eleven volumes of Black Cat manga have sold through over 175k units in the U.S. to date.• Previewed and promoted in SHONEN JUMP magazine• Black Cat anime DVDs launched in fall of 2006 by Funimation.• Serialized in Weekly Shonen Jump in Japan for approximately four years, from issue 32 in 2000 through issue 29 in 2004• Creator Kentaro Yabuki debuted as an artist with the Weekly Shonen Jump one-shot Yamato Gensouki. • Anime started airing in Fall 2005 on TV in Japan. Produced by Studio Gonzo, renowned for its 2D/3D hybrid CGI animation.• Released bi-monthly (every other month).Train Heartnet, also known as 'Black Cat,' was an infamous assassin for a secret organization called Chronos...until he abandoned that cold-blooded existence to live on his own terms as an easygoing bounty hunter. But is Train's past as far behind him as he thinks? Train and the Sweeper Alliance make it to Creed's island hideout. However, the Apostles of the Stars are ready and waiting for them. Separated from the others, Eve must finally do battle on her own when confronted by Leon, the wind master. She has the powers she needs to win, but does she have the heart?",
+      release_date: "January 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1626.jpg"},
+
+{
+      title: "Black Cat, Volume 13",
+      author: "Kentaro Yabuki",
+      synopsis: "After surviving another attack by the Apostles, Train and his partners agree that they have to eliminate Creed. At Sven's urging, Train finally reveals the details of his past: the nature of his relationship with Saya Minasaki, the details of his quitting the Chrono Numbers and the cause of his violent hatred of Creed.",
+      release_date: "June 17th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1627.jpg"},
+
+{
+      title: "Black Cat, Volume 14",
+      author: "Kentaro Yabuki",
+      synopsis: "Glin, a mysterious information broker, is forming a Sweeper Alliance in order to destroy Creed and the Apostles of the Stars. He invites Train, Eve and Sven to join their group. But even if this motley crew can locate the Apostles' hiding place, will they be able to survive the perilous journey to get there?",
+      release_date: "2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1628.jpg"},
+
+{
+      title: "Black Cat, Volume 10",
+      author: "Kentaro Yabuki",
+      synopsis: "The battle between Creed's Apostles and the Cerberus Team ends in a draw, with serious wounds on both sides. Just when Train thinks he can relax again, his friends Sven and Eve are captured by Creed, who believes that killing them is the only way to get Train to join him. Now Train has to race to save the only people he can trust.",
+      release_date: "October 20th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1629.jpg"},
+
+{
+      title: "Black Cat, Volume 19",
+      author: "Kentaro Yabuki",
+      synopsis: "R to L (Japanese Style)",
+      release_date: "August 18th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1630.jpg"},
+
+{
+      title: "Black Cat, Volume 20",
+      author: "Kentaro Yabuki",
+      synopsis: "R to L (Japanese Style)",
+      release_date: "September 22nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1631.jpg"},
+
+{
+      title: "Black Cat, Volume 03",
+      author: "Kentaro Yabuki",
+      synopsis: "Two years ago, Train, a high-level assassin known as Number XIII in Chronos, left the secret society to live by his own rules. Since then, Train has been a sweeper, a bounty hunter, catching criminals and bringing them in alive. But his main mission is to find a former Chronos member who killed his best friend.",
+      release_date: "January 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1632.jpg"},
+
+{
+      title: "Black Cat, Volume 06",
+      author: "Kentaro Yabuki",
+      synopsis: "Train Heartnet, also known as 'Black Cat,' was an infamous assassin for a secret organization called Chronos...until he abandoned that cold-blooded existence to live on his own terms as an easygoing bounty hunter. But is Train's past as far behind him as he thinks?",
+      release_date: "February 18th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1633.jpg"},
+
+{
+      title: "Black Cat, Volume 09",
+      author: "Kentaro Yabuki",
+      synopsis: "A new force has been unleashed from the darkest, wildest realms of the Net--a menace more dangerous than anything DenTech City has ever faced. What is it? MegaMan himself! Transformed by the mysterious 'Beast' program, MegaMan has developed the unwelcome power to turn into a rampaging monster. While Lan's scientist dad searches for a solution, MegaMan and Lan try to deal with MegaMan's beastly new condition...while fighting the world's most powerful NetNavis!",
+      release_date: "September 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1634.jpg"},
+
+{
+      title: "Black Cat, Volume 01",
+      author: "Kentaro Yabuki",
+      synopsis: "Two years ago, Train, a high-level assassin known as Number XIII in Chronos, left the secret society to live by his own rules. Since then, Train has been a sweeper, a bounty hunter, catching criminals and bringing them in alive. But his main mission is to find a former Chronos member who killed his best friend.",
+      release_date: "January 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1635.jpg"},
+
+{
+      title: "Black Cat, Volume 12",
+      author: "Kentaro Yabuki",
+      synopsis: "In order to revert back to his regular-sized self, Train sets out to see Dr. Tearju, a woman who bears a striking resemblance to the girl Eve. But before she can help Train return to normal, the Apostles of the Stars come crashing in, with the intent of forcing Dr. Tearju to join their ranks. A mysterious new weapon may be the only hope for keeping the Apostles at bay.",
+      release_date: "March 16th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1636.jpg"},
+
+{
+      title: "Black Cat, Volume 02",
+      author: "Kentaro Yabuki",
+      synopsis: "Two years ago, Train, a high-level assassin known as Number XIII in Chronos, left the secret society to live by his own rules. Since then, Train has been a sweeper, a bounty hunter, catching criminals and bringing them in alive. But his main mission is to find a former Chronos member who killed his best friend.",
+      release_date: "June 18th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1637.jpg"},
+
+      [genres[0], genres[7], genres[5], genres[1], genres[10]]
+      ],
+      [
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 4",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "November 17th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1638.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 5",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "January 16th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1639.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 15",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "April 14th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1640.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 3",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "September 17th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1641.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 1",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "May 16th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1642.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 9",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "November 17th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1643.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 7",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "June 17th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1644.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 13",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "November 17th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1645.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 6",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "April 17th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1646.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 8",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "August 17th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1647.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 10",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "March 17th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1648.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 14",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "January 17th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1649.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 12",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "August 17th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1650.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 19",
+      author: "Tōru Fujisawa",
+      synopsis: "In a surprise visit, Onizuka shows Uchiyamada life is indeed wonderful. Meanwhile, Teshigawara rocks the schoolhouse when he hatches a deadly plot to kidnap Fuyutsuki. Can Onizuka get her back before Teshigawara lays a finger on her? Put away the homework and take notes-an explosive conclusion awaits readers in this action-packed volume of GTO!",
+      release_date: "March 16th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1651.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 20",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old virgin and ex-biker. He’s crude, foul-mouthed, and has a split second temper. His goal: to be the Greatest High School Teacher in the World!When former gangster Onizuka decides to become a teacher, the only job he lands is a student teacher position at the Holy Forest Academy where he must rely on his street smarts to deal with the difficult students.",
+      release_date: "June 15th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1652.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 23",
+      author: "Tōru Fujisawa",
+      synopsis: "What can Onizuka do to help Miyabi improve her relationship with her parents? Kidnap her of course! Unfortunately the police don't agree with Onizuka's crazy scheme. In contrast to the wild adventure orchestrated by Onizuka, some light is finally shed on Miyabi's traumatic past. Even if Onizuka can rebuild the bridge between Miyabi and her parents, will he be able to stop her from jumping off the deep end?",
+      release_date: "March 15th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1653.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 17",
+      author: "Tōru Fujisawa",
+      synopsis: "Miyabi has exposed Urumi's secret to the school and Urumi wants revenge. Urumi's web page featuring secret cameras in Miyabi's house leads Miyabi to an overdose. With both girls hanging on to their lives by a thread, Onizuka must pool all his resources to save them before it's too late.",
+      release_date: "September 14th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1654.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 22",
+      author: "Tōru Fujisawa",
+      synopsis: "Onizuka's quest to become the greatest teacher in the world often lands him in hot water. On this occasion, Onizuka must convince Tokiwa that not all men deserve a beating, something about which Ms. Daimon won't be very happy! Meanwhile, Uehara appears to be falling for a computer nerd. Does she know something behind the thick glasses and pocket protectors?",
+      release_date: "November 16th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1655.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 16",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "July 17th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1656.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 21",
+      author: "Tōru Fujisawa",
+      synopsis: "Tokiwa may look like an angel on the outside, but don't let the saintly exterior deceive you... she's got quite an inner demon. After dispatching a bunch of delinquents, the devious diva brings the rumble to Kikuchi. Onizuka must step in to teach Tokiwa a lesson about real men!",
+      release_date: "August 10th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1657.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 18",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old virgin and ex-biker. He's crude, foul-mouthed, and has a split second temper. His goal: to be the Greatest High School Teacher in the World!",
+      release_date: "December 15th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1658.jpg"},
+
+{
+      title: "GTO: Great Teacher Onizuka, Vol. 2",
+      author: "Tōru Fujisawa",
+      synopsis: "Meet Eikichi Onizuka, a 22-year-old college karate champ and ex-biker. He's crude, foul-mouthed, and has a hair-trigger temper. Just the sort of guy you'd expect to see going back to school...to become a teacher",
+      release_date: "July 17th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1659.jpg"},
+
+      [genres[14], genres[7], genres[8]]
+      ],
+      [
+{
+      title: "Hunter x Hunter, Vol. 21",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.REUNIONThe Chimera Ant king is born, bursting from the stomach of the queen--a violent birth for a violent being. He makes his first move on the neighboring country by manipulating its dictator to summon all citizens to a ceremony at the capital. There he plans to Nen-baptize them, which will kill 99 percent of the population. The remaining one percent will have their Nen awakened, thus providing a healthy snack for the new king that not only tastes good but greatly increases his power. Can Gon and Killua find a way to stop this brutal Ant king?",
+      release_date: "2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1660.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 04",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.END GAMEThe fourth exam rages on as the Hunter hopefuls try to gain points by stealing each other's badges. Gon, Kurapika, and Leorio fall into a trap set for another applicant and must face a pit of poisonous snakes. When Leorio is bitten, Gon braves the snakes to snatch the antidote and a badge!Finally, the friends reach the end of the exams and the ultimate 'reverse tournament'--the winner of each round automatically passes the Hunter exam, but the defeated keep competing against each other until the last candidate standing fails the exam. Killing an opponent means immediate failure--will Killua's rage stand in the way of his dream to become a Hunter?",
+      release_date: "February 9th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1661.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 20",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.WEAKNESSDeep in the heart of the land of NGL (Neo-Green Life), Gon and Killua have one month to train if they hope to beat their powerful foe Knuckle! But first they need to increase their baseline stamina just to get to his level. Gon discovers that his windup leaves something to be desired--it sucks up all his energy until he passes out! Meanwhile, Biscuit confronts Killua about a serious flaw in his fighting ability--one that could cost them everything!",
+      release_date: "January 1st 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1662.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 03",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.RESOLUTIONGon and his teammates have been challenged by a group of criminals hired by the Hunter Association. Gon wins with wits, and Kurapika's red-eyed rage assures a victory. But Leorio is all out of luck, and loses precious time for his team. It's up to Killua to save the day with a gruesome display of his assassin skills. With time running out, it takes ingenuity and brute force to beat the clock and the test.And the fourth exam finds the team stranded on an island for a battle royale. Can Gon get the best of Hisoka, or will he be... eliminated?",
+      release_date: "November 9th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1663.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 32",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters. As the Hunter elections reach the moment of decision, Killua closes in on the hospital where Gon lies in a coma. Can he and his terrifyingly powerful sister Alluka reach Gon in time If they do, Gon will have a chance to fulfill the dream that drove him to become a Hunter in the first place reuniting with his father, Ging",
+      release_date: "December 5th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1664.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 31",
+      author: "Yoshihiro Togashi",
+      synopsis: "An endlessly imaginative and best-selling cult hit from the pages of Japan’s Weekly Shonen Jump magazine.Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters. The time has come for the Hunter Association to choose a new chairman, but it’s shaping up to be anything but a clean election. While the world’s Hunters descend into dirty politics, Gon remains hospitalized in critical condition. Killua knows of a way to save him, but it will mean facing his deadly family of assassins…and the deadliest and strangest of them all, Killua’s little sibling Alluka… Reads R to L (Japanese Style) for teen plus audiences.",
+      release_date: "December 4th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1665.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 02",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.A STRUGGLE IN THE MISTGon and his friends Leorio and Kurapika have more to worry about than just the Hunter Exam--their fellow applicants are deadly serious. Hisoka, the mad magician, nearly kills them all in a mock test and Killua reveals that appearances can be deceiving.Then there are the tests, which prove to be as varied as they are difficult. The picky proctors of the second exam demand the applicants perform culinary feats of wonder, and it takes the intervention of the President of the Hunter Association Review Board to convince them to let anyone pass at all!",
+      release_date: "September 7th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1666.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 01",
+      author: "Yoshihiro Togashi",
+      synopsis: "When Gon learns his father Ging--whom he thought was dead--is a famous Hunter, he aspires to follow in his footsteps and track down monsters, treasures, and words of magic. Rated for older teens.",
+      release_date: "1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1667.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 11",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.NEXT STOP: METEOR CITY--THE JUNKYARD OF THE WORLDGon, Killua, Leorio and Kurapika are finally reunited. Kurapika tells the gang that he made a Nen covenant to strengthen his ability by setting limits on it--all for the bargain price of his own death if he ever uses Chain Jail against anyone who's not a Spider. Meanwhile, the Mafia is researching the members of the mysterious and deadly Troupe, but even the most foolproof database contains no information on them. But there's only one place where goons can avoid registration: Meteor City, the junkyard of the world!",
+      release_date: "March 7th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1668.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 18",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.CHANCE ENCOUNTERKillua and Biscuit take on two Bombers in a fisticuff competition, and during the fight, Biscuit reveals her true shocking form! Meanwhile, Gon is set on getting revenge on Genthru no matter what the cost--including his own body parts! Afterwards a strange event is triggered due to Gon having 99 cards--it's a multiple-choice quiz! But just what is the quiz about, and more importantly what can the prize possibly be?!",
+      release_date: "October 3rd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1669.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 25",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.CHARGEAs the midnight hour nears, all the Hunters are rarin' to go! With some surprising allies on their side, they launch their blitz against the ruthless Ants. While Chairman Netero is past his prime, don't count this old man out! He's got a trick or two up his sleeve for his battle with the King. But an unexpected turn of events reveals a side of the King that no one could have predicted...",
+      release_date: "March 4th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1670.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 06",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.NEN SENSEGon and Killua have split off from the rest of the group to spend the next six months training as Heavens Arena. But despite the skills they came in with, the friends are quickly outmatched by another young fighter who can access the mysterious power called 'Nen'. Nobody will hire a Nen-less Hunter, so Gon and Killua are determined to learn quickly. Do they have what it takes to become Nen masters?",
+      release_date: "October 9th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1671.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 28",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.REGENERATIONNetero has struck a deal with the Chimera Ant King: if the King can defeat him, Netero will reveal the King's true name. Netero is determined to keep fighting, but his attacks have no effect on the terrifyingly powerful King. Will Netero's ultimate attack, the Guanyin Bodhisattva: Zero, break through the King's defenses, or will he be forced to take even more desperate measures?",
+      release_date: "December 28th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1672.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 14",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.THE SECRET OF GREED ISLANDThe multi-trillionaire Battera hires Gon and Killua to play the Greed Island video game for him, just as the two had hoped. But when they enter the game and head to a nearby town, they stumble onto one of the game's dark secrets. Greed Island isn't just a game--it has real-life consequences that can spell life or death for the players involved. And it isn't long before the Spiders enter the game themselves!",
+      release_date: "April 9th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1673.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 19",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.N.G.L.Welcome to the country of NGL (Neo-Green Life), a unique place led by an eco-group that's totally against any kid of technology! No metal, synthetic material or modern tools are allowed, and death is considered 'nature's will'. But a secret and powerful drug cartel operates within in the country, and when the queen of a colony of huge insects eats the cartel thugs, her offspring begin to exhibit unnatural signs of aggression! When Gon and friends arrive on the scene, will they too end up in the belly of the insect queen?",
+      release_date: "2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1674.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 23",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.6: PART 1Killua is under attack!! Confronted with a sniper that's shooting Flea-Bullets from afar, Killua must predict where the next shot will hit or fall victim to the fleas that are draining all his blood. But there are more surprises in store as other snipers aim to take a shot at him! Being a human dartboard was not of today's to-do list! Meanwhile, Gon's silent stalker finally reveals himself... with a proposition Gon  expected!",
+      release_date: "July 9th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1675.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 12",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.SEPTEMBER 4: PART 2The Spiders unravel the clues that will bring them ever closer to Kurapika's identity. Meanwhile, Kurapika's desire for revenge is rekindled when he learns that the Spiders are still alive. And though the bounty on the Spiders has been withdrawn, Gon persuades Killua to help Kurapika awhile longer, if only to bring the cycle of killing to an end. Then, during a mad chase through the crowded streets of Yorknew, the Spiders capture Gon and Killua again! Will Kurapika and Leorio be able to set them free? And will Kurapika finally get his revenge?",
+      release_date: "2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1676.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 22",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.8: PART 1Having lost their queen, the Chimera Ants are spreading beyond their native homeland to establish their own colonies. Some attack Meteor City, and the group of assassins known as the Spiders are called home to fend off the invasion. Meanwhile, in the Republic of East Gorteau, Gon and Killua realise that entire populations of towns are going missing. They decide to find out what's happening and try to stop it, but Gon soon realizes he's not alone, and whoever's following him is not friendly!",
+      release_date: "March 3rd 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1677.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 27",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.NAMEThe Hunters are getting beaten further and further into a corner by the powerful Chimera Ant King's Royal Guards. With teamwork on their side, the just may be able to overcome the impossible odds. But when they make sacrifices to save each other, it just might cost them the bigger battle at hand!",
+      release_date: "January 1st 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1678.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 26",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.WE MEET AGAINKillua's uneasiness about the Ants wasn't so far-fetched after all! When unforeseen incidents set the Hunters back in their showdown with the King and his Royal Guards, everyone has to scramble to get back on track! Can the Hunters regain their advantage against an enemy that's way more than they bargained for...?!",
+      release_date: "October 3rd 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1679.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 17",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.A FIERCE THREE-WAY STRUGGLEIn an unexpected turn of events, Gon, Killua, and their sometime enemy Hisoka pull off a stunning victory in a heated game of deadly dodge ball. Only by working together are they able to defeat Razor and his 14 Devils. Meanwhile, a group of rival Hunters zap out for a meeting with the billionaire benefactor who has hired numerous hunters, including Gon, to solve the Greed Island game. There they make a shocking discovery that may very well make all of their struggles meaningless!",
+      release_date: "June 9th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1680.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 05",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.FAMILY MATTERSGon's new friend Killua may have run away from home, but that doesn't mean his family is willing to let him leave. Killua's parents sent his older brother Illumi to keep an eye on him during the Hunter Exam, and now Illumi has convinced Killua to return to the family business of assassination. Gon is convinced that Killua must have been brainwashed, and sets out with Leorio and Kurapika to make an intervention. But before the newly-licensed Hunters can try to talk some sense into Killua, they have to make it past the unstoppable guard beast that is trained to eat all visitors!",
+      release_date: "March 5th 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1681.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 24",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other men. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.1: Part 4 With the King preoccupied with playing Gungi, Gon and the other Hunters get closer and closer to their target. An unforeseen accident results in the deactivation of Neferpitou's En, making the defenses surrounding the castle temporarily vulnerable. The Extermination team readies for their showdown with the King, but with only a few days left before the 'selection,' will they be in time to save all the citizens from turning into Ant soldiers?!",
+      release_date: "March 3rd 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1682.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 15",
+      author: "Yoshihiro Togashi",
+      synopsis: "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.PROGRESSGon and Killua are so incompetent at fighting the monsters on Greed Island that a Hunter named Biscuit has taken pity and offered to coach them in the use of their Nen powers. But the clock is ticking, for a violent player known as 'the Bomber' has a plan to get his hands on all but ten of the item cards in one fell swoop.",
+      release_date: "October 9th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1683.jpg"},
+
+{
+      title: "Hunter x Hunter, Vol. 33",
+      author: "Yoshihiro Togashi",
+      synopsis: "Plucky Gon’s quest to find his dad leads him into a whole world of crazy adventure.Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves The journey to the Dark Continent begins! Chairman Netero’s son Beyond has a dream to explore the dangerous land of the Dark Continent. Many have made trips there and almost everyone has disappeared or died! But he’s not alone in his desire to explore this strange land—the Hunter Association has their own plan. And where are Gon and his friends in all this mess?",
+      release_date: "June 3rd 2016",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1684.jpg"},
+
+      [genres[0], genres[4], genres[1], genres[10], genres[20]]
+      ],
+      [
+{
+      title: "Battle Royale, Vol. 09",
+      author: "Koushun Takami",
+      synopsis: "As Shuuya is nursed back to health, he discovers his saviour is a group of of girls with plans to defeat  and escape the island. But hope turns to despair when one girl's paranoia makes her believe thar Shuuya is the devil...and she will stop at nothing to cast him into darkness!Just when you thought that things couldn't get any more outrageous, this volume of  pulls no punches and packs a ton of heat...turns into a gruesome, over the top splatterfest filled of paranoia, corruption and bloody lies,The body count is rising! Are you still game?",
+      release_date: "March 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1685.jpg"},
+
+{
+      title: "Battle Royale, Vol. 07",
+      author: "Koushun Takami",
+      synopsis: "Book by Koushun Takami, Masayuki Taguchi",
+      release_date: "August 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1686.jpg"},
+
+{
+      title: "Battle Royale, Vol. 01",
+      author: "Koushun Takami",
+      synopsis: "Battle Royale, a high-octane thriller about senseless youth violence in a dystopian world, it is one of Japan's best-selling - and most controversial - novels. As part of a ruthless program by the totalitarian government, ninth-grade students are taken to a small isolated island with a map, food, and various weapons. Forced to wear special collars that explode when they break a rule, they must fight each other for three days until only one 'winner' remains. The elimination contest becomes the ultimate in must-see reality television. A Japanese pulp classic available in English for the first time, Battle Royale is a potent allegory of what it means to be young and survive in today's dog-eat-dog world. The first novel by small-town journalist Koushun Takami, it went on to become an even more notorious film by 70-year-old director Kinji Fukusaku.",
+      release_date: "May 1st 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1687.jpg"},
+
+{
+      title: "Battle Royale, Vol. 08",
+      author: "Koushun Takami",
+      synopsis: "The sun is setting on the first day of The Program, and the students of Class B are in for one hell of a night. With the failure of their initial plan to take down The Program, Shinji Mimura and Yutaka Sato are putting their backup plan in motion. Having located all the supplies necessary to create a bomb, the pair are all set to deliver their package right where it will do the most damage: the 'school' which serves as The Program control center. But with the school in a permanent danger zone, will it be their bomb that detonates first... or the explosive collars locked around their necks?",
+      release_date: "August 3rd 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1688.jpg"},
+
+{
+      title: "Battle Royale, Vol. 14",
+      author: "Koushun Takami",
+      synopsis: "The beginning of the end!Shuuya, Kawada, and Noriko fight for their lives against Kiriyama, the psychotic student who decimated most of their class. While Kiriyama strives to eradicate the other kids' futures, we get an insider's view of Kiriyama's past... and what forces shaped this bright, talented young man into the unfeeling killer he is today.",
+      release_date: "January 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1689.jpg"},
+
+{
+      title: "Battle Royale, Vol. 05",
+      author: "Koushun Takami",
+      synopsis: "In the future, random Jr. High School classes are chosen to compete in a game called Battle Royale. The rules: only one student can survive after 3 days on an island or else they all perish. Weapons are handed out and each student is sent out into the field alone and unprepared for the horror that awaits them. The classmates turn upon themselves in a battle for survival, treaties are made and broken, and former friends become foes as the relentless countdown continues. Amid the betrayals and rising body count, two classmates confess their love for each other and swear to survive this deadly game together.",
+      release_date: "November 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1690.jpg"},
+
+{
+      title: "Battle Royale, Vol. 11",
+      author: "Koushun Takami",
+      synopsis: "Sugimura meets up with Kotohiki. Sugimura's excitement leads him to forget what the situation was, and how dangerous it still is. Sugimura and Kotohiki exchange a few words, as they head toward Shuuya's group. He expresses his emotions and his feeling of powerlessness against Kiriyama. Unfortunately, Kiriyama catches up to them, and Sugimura has to fight him in order to protect Kotohiki. As he tries to fight him, he again feels it's meaningless to try to defeat the monster Kiriyama.",
+      release_date: "November 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1691.jpg"},
+
+{
+      title: "Battle Royale, Vol. 04",
+      author: "Koushun Takami",
+      synopsis: "Book by Koushun Takami, Masayuki Taguchi",
+      release_date: "July 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1692.jpg"},
+
+{
+      title: "Battle Royale, Vol. 03",
+      author: "Koushun Takami",
+      synopsis: "In the future, random Jr. High School classes are chosen to compete in a game called Battle Royale. The rules: only one student can survive after 3 days on an island or else they all perish. Weapons are handed out and each student is sent out into the field alone and unprepared for the horror that awaits them. The classmates turn upon themselves in a battle for survival, treaties are made and broken, and former friends become foes as the relentless countdown continues. Amid the betrayals and rising body count, two classmates confess their love for each other and swear to survive this deadly game together.",
+      release_date: "April 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1693.jpg"},
+
+{
+      title: "Battle Royale, Vol. 12",
+      author: "Koushun Takami",
+      synopsis: "You cannot fight what you cannot see. You cannot kill someone who is dead on the inside. It is the defiantly human animal that is forced to kill without porpose...When Sugimura realizes that he can't beat Kiriyama, he turns to protecting Kotohiki at all costs. But Kiriyama might just beat him to the kill, because he has an ace up his sleeve: Oda's Kevlar vest!Meanwhile, Kawada and Shuuya discuss just how dangerous Kiriyama really may be. But how can you fight someone who is barely human?",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1694.jpg"},
+
+{
+      title: "Battle Royale, Vol. 06",
+      author: "Koushun Takami",
+      synopsis: "In the future, random Jr. High School classes are chosen to compete in a game called Battle Royale. The rules: only one student can survive after 3 days on an island or else they all perish. Weapons are handed out and each student is sent out into the field alone and unprepared for the horror that awaits them. The classmates turn upon themselves in a battle for survival, treaties are made and broken, and former friends become foes as the relentless countdown continues. Amid the betrayals and rising body count, two classmates confess their love for each other and swear to survive this deadly game together.",
+      release_date: "April 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1695.jpg"},
+
+{
+      title: "Battle Royale, Vol. 10",
+      author: "Koushun Takami",
+      synopsis: "Shuuya walks into the dining room to find all the girls except Yuko dead. The tragic deaths of her friends has sent Yuko further over the edge. She climbs to the top of the lighthouse as the madness takes over her mind, ignoring Shuuya's pleas. Realizing she was wrong about Shuuya, Yuko throws herself off of the lighthouse.",
+      release_date: "July 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1696.jpg"},
+
+{
+      title: "Battle Royale, Vol. 15",
+      author: "Koushun Takami",
+      synopsis: "Brace yourself for the climactic conclusion to !Mere days ago, forty-two students were marooned on an island, given random weapons and ordered to kill or be killed. Now only four remain alive... but that's still three too many. As our heores are confronted with a grisly end, one wil be forced to betray the others in the ultimate sacrifice. Will anyone make it out of  alive?",
+      release_date: "April 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1697.jpg"},
+
+{
+      title: "Battle Royale, Vol. 13",
+      author: "Koushun Takami",
+      synopsis: "Of the original 42 students forced to kill or be killed by ",
+      release_date: "July 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1698.jpg"},
+
+{
+      title: "Battle Royale, Vol. 02",
+      author: "Koushun Takami",
+      synopsis: "As the violence begins to escalate, Shuuya continues searching for friends who would be willing to join his alliance. However, the search doesn't go as well as he would hope, resulting in the deaths of several more students. Childhood friends Yumiko Kusaka and Yukiko Kitano would be glad to join Shuuya, but will he reach him in time? The answer may lie with the mysterious Kawada. Will Shuuya be able to convince the transfer student to join him? Meanwhile, having also decided not to play the game, how long will devoted couple Sakura Ogawai and Kazuhiko Yamamoto survive? Finally, the deadly Kazuo must decide what to do about his gang. Will he allow them to join him? Or will Mitsuru Numai and the rest just slow him down?",
+      release_date: "November 1st 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1699.jpg"},
+
+      [genres[0], genres[7], genres[21]]
+      ],
+[
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 8: Yugi vs. Pegasus",
+      author: "Kazuki Takahashi",
+      synopsis: "Yugi's beaten the champions of Duel Monsters... but now it's time to meet the maker! In the final battle of the tournament, Yugi faces ulta-rich game designer Maxillion Pegasus with the soul of his grandfather at stake! As cards fly, Yugi and Pegasus turn to the darker side of their decks, unleashing sinister monsters of the netherworld. But Pegasus has the power of the mind-scanning Millenium Eye. How can Yugi defeat an opponent who knows exactly what he's going to do?",
+      release_date: "1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1700.jpg"},
+
+{
+      title: "Yu-Gi-Oh! Vol. 2: The Cards With Teeth",
+      author: "Kazuki Takahashi",
+      synopsis: "After Seto Kaiba discovers that Yugi's grandfather is the owner of the incredibly rare Blue-Eyes White Dragon card, the master of the dangerous collectible card game will stop at nothing to obtain the greatly desired card.",
+      release_date: "1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1701.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 10: The Egyptian God Cards",
+      author: "Kazuki Takahashi",
+      synopsis: "Yugi enters the Duel Monsters, the world's most popular collectible card game, where he must face ruthless opponents like game designer Maximillion Pegasus in the hopes of discovering the origin of the game and his own powers.",
+      release_date: "December 4th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1702.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Millennium World, Vol. 5: Tomb of Shadows",
+      author: "Kazuki Takahashi",
+      synopsis: "The final saga of the Yu-Gi-Oh! epic! After many deadly duels, Yugi has collected the three Egyptian God Cards, the key to remembering his own past life as an Egyptian pharaoh. When the cards take Yugi's soul back in time, can he defeat the villains of the past and achieve his ultimate destiny?",
+      release_date: "February 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1703.jpg"},
+
+{
+      title: "Yu-Gi-Oh! Vol. 7: Monster World",
+      author: "Kazuki Takahashi",
+      synopsis: "When Yugi beat Kaiba at a card game, little did he know the consequences: a trip through Kaiba's 'Death T'  a theme park of death  and a series of evil spells against Yugi's family. It doesn't help that Kaiba's little brother also has a score to settle.",
+      release_date: "March 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1704.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 3: The Player Killer",
+      author: "Kazuki Takahashi",
+      synopsis: "The diabolical Player Killer challenges Yugi to a duel of darkness while across the ocean, Yugi's #1 rival Kaiba has been awakened to reclaim his fortune and get revenge. Rated for teens.",
+      release_date: "October 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1705.jpg"},
+
+{
+      title: "Yu-Gi-Oh! Vol. 5: The Heart of the Cards",
+      author: "Kazuki Takahashi",
+      synopsis: "Yugi, Jonouchi, and Anzu have survived Kaiba's deadly theme park, but now they're faced with the two Kaiba brothers, heirs of the biggest game empire in Japan. Seto Kaiba has spent years and millions of dollars building the greatest 'Duel Monsters' deck ever. Armed only with his grandfather's hand-me-down deck, Yugi fights Seto Kaiba for his grandfather, for his friends, and most of all, for revenge. But will faith, and good card playing, be enough?",
+      release_date: "August 12th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1706.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 14: Double Trouble",
+      author: "Kazuki Takahashi",
+      synopsis: "Duels rage around Battle city as fish monsters, sea serpents, and dark beasts of the underworld are unleashed from their decks! First Jonouchi fights Ryota Kajiki, Duelist of the Sea, on his home turf at the Domino City Aquarium! Then Marik's henchmen, the Rare Hunters, force Kaiba and Yugi into a tag-team duel on top of a skyscraper! Can the two arch-rivals work together... or will they fall to their deaths 12 floors below?",
+      release_date: "January 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1707.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 24: Yugi vs. Marik",
+      author: "Kazuki Takahashi",
+      synopsis: "The greatest powers can often fall to the smallest opponents. Yugi used Kuriboh to defeat the Blue-Eyes Ultimate Dragon. Now, does the tiny Metal Devil hold the secret to defeating the Sun Dragon Ra? As the world's mightiest gamers clash, the very island may not survive the battle. The Battle City tournament is over...but who will walk away from the ruins?",
+      release_date: "January 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1708.jpg"},
+
+{
+      title: "Yu-Gi-Oh!, Vol. 1: The Millenium Puzzle",
+      author: "Kazuki Takahashi",
+      synopsis: "10th grader Yugi spent most of his time alone playing games... until he solved the Millennium Puzzle, a mysterious Egyptian artifact! Possessed by the puzzle, Yugi becomes Yu-Gi-Oh, the King of Games, and challenges evildoers to the Shadow Games... weird games with high stakes and high risks! These graphic novels contain new stories not seen in the anime, including the origin of Yugi and his friends!",
+      release_date: "December 16th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1709.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Millennium World, Vol. 7: Through The Last Door",
+      author: "Kazuki Takahashi",
+      synopsis: "In the illusionary Millennium World of three thousand years ago, the forces of good and evil clash for the last time. But now that Yugi has split from Yu-Gi-Oh, the heroes must go on a journey to present-day Egypt, where Yu-Gi-Oh--the pharaoh--must face his final destination. But what awaits them in Egypt? Has the evil of the Millennium Items truly been exorcised? And can the bonds which hold the pharaoh's soul ever be broken? The ultimate battle beckons!",
+      release_date: "June 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1710.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 22: Slifer vs. Obelisk",
+      author: "Kazuki Takahashi",
+      synopsis: "Three thousand years ago, an ancient Egyptian carving predicted the final battle between Yugi and Kaiba...and now that day has finally come! The heavens shake as the archrivals unleash the ultimate gods of collectible card games: Slifer the Sky Dragon and the God of the Obelisk! But will the duel be decided in the present, or will the force of the gods smash through time itself?",
+      release_date: "January 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1711.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 11: The Shadow of Marik",
+      author: "Kazuki Takahashi",
+      synopsis: "First a sinister clown-masked figure steals Yugi's Millennium Puzzle, then Ryuji Otogi challenges Yugi to a collectible dice game. Without the Millennium Puzzle, Yugi can't call Yu-Gi-Oh. Can he win without his other self to help him out? Rated for children 9-12.",
+      release_date: "May 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1712.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 23: Ra the Immortal",
+      author: "Kazuki Takahashi",
+      synopsis: "Yugi and Kaiba fight their final duel! One will lose, and the other will go to meet the greatest Egyptian God, the Sun Dragon Ra! But can anyone defeat the ultimate God Card in the hands of its master, the mad Marik? Or will they fall victim to the terrible prophecy: ",
+      release_date: "October 4th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1713.jpg"},
+
+{
+      title: "Yu-Gi-Oh! Duelist, Vol. 1:  Duelist Kingdom",
+      author: "Kazuki Takahashi",
+      synopsis: "Yugi, Jonouchi, and Anzu have survived Kaiba's deadly theme park, but now they're faced with the two Kaiba brothers, heirs of the biggest game empire in Japan. Seto Kaiba has spent years and millions of dollars building the greatest 'Duel Monsters' deck ever. Armed only with his grandfather's hand-me-down deck, Yugi fights Seto Kaiba for his grandfather, for his friends, and most of all, for revenge. But will faith, and good card playing, be enough?",
+      release_date: "May 1st 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1714.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Millennium World, Vol. 4: Birth of the Dragon",
+      author: "Kazuki Takahashi",
+      synopsis: "The final Yu-Gi-Oh! Story! After hundreds of battles, Yugi has finally gathered all the Egyptian God Cards... the key to unlocking his memories of his past life as a n Egyptian pharaoh. When Ryo Bakura gives him the Millennium Eye, Yugi opens the door to the world of memory, and hismind travels back in time to ancient Egypt, when the magic and mosters were real! Now Yugi and his friends must explore the world of Yugi's forgotten past... and fight an enemy who has been waiting for them for 3000 years!",
+      release_date: "November 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1715.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 7: Heavy Metal Raiders",
+      author: "Kazuki Takahashi",
+      synopsis: "It's the final round before the fight with Pegasus, and only one of the four will survive! Mai Kujaku has always wanted to fight Yugi, and now she's got her chance! Can Yugi beat her harpies' pet dragon? Then, Jonouchi fights 'Bandit' Keith Howard, America's most unscrupulous gamer. Jonouchi's deck is loaded with warrior monsters, but Keith's machine deck deals death with six-guns and slot machine... American style!",
+      release_date: "May 22nd 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1716.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Millennium World, Vol. 6: The Name of the Pharaoh",
+      author: "Kazuki Takahashi",
+      synopsis: "In the pharaoh's empty tomb, Yugi fights Bakura for the most powerful magic of all: Yu-Gi-Oh's forgotten Egyptian name! But can Yugi win a life-or-death match of Duel Monsters without his partner's help? Meanwhile, while massive earthquakes shake the World of Memories, the pharaoh and the forces of Egypt fight a last stand against the undead armies of Zorc Necrophades. It's the final battle between good and evil...as the world itself comes to an end!",
+      release_date: "May 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1717.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 12: Magician vs. Magician",
+      author: "Kazuki Takahashi",
+      synopsis: "Yugi fights Pandora, a duelist who uses one of Yugi's own favorite cards, the Dark Magician! But can Yugi duel  Meanwhile, Jonouchi fights an old enemy, Insector Haga. For the sake of his sister, Jonouchi must fight an army of vicious bugs... and that's not all. His own deck has been infected with Haga's parasitic insects! Is this the end?",
+      release_date: "July 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1718.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 19: Duel With the Future",
+      author: "Kazuki Takahashi",
+      synopsis: "Kaiba faces the mysterious eighth duelist, Ishizu Ishtar, the woman who gave him The God of the Obelisk... and now she's taking it back! Even though Kaiba has an Egyptian God Card, Ishizu has the Millennium Tauk, which gives her the power to see the future! Kaiba's the only hope for victory may lie in the sands of time, in the secrets kept for centuries by the mysterious Egyptian Tomb Guardians. But even Kaiba may not be ready for the horrifying secret origin of the mad heir of the Tomb Guardians, the last of the line. His name is Marik Ishtar... Ishizu's brother!",
+      release_date: "November 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1719.jpg"},
+
+{
+      title: "Yu-Gi-Oh! Vol. 4: Kaiba's Revenge",
+      author: "Kazuki Takahashi",
+      synopsis: "When Yugi beat Kaiba at a card game, little did he know the consequences: a trip through Kaiba's 'Death T' -- a theme park of death -- and a series of evil spells against Yugi's family. It doesn't help that Kaiba's little brother also has a score to settle.",
+      release_date: "January 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1720.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 17: One-Turn Kill",
+      author: "Kazuki Takahashi",
+      synopsis: "On an airship flying high above Japan, Yugi fights for his life against Bakura's fiendish occult deck! when Bakura's Ouija Board spells out 'DEATH,' Yugi will be obliterated forever... and nothing can stop it! Then, Jonouchi fights Marik, the evil leader of the Ghouls! Or does he? Unbeknownst to our heroes, Marik has been impersonated by his henchman Rishid, a fanatic duelist with a deck full of Egyptian monsters, and a past as dark as Marik's own...",
+      release_date: "June 6th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1721.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Millennium World, Vol. 3: The Return of Bakura",
+      author: "Kazuki Takahashi",
+      synopsis: "The final Yu-Gi-Oh! Story! After hundreds of battles, Yugi has finally gathered all the Egyptian God Cards... the key to unlocking his memories of his past life as a n Egyptian pharaoh. When Ryo Bakura gives him the Millennium Eye, Yugi opens the door to the world of memory, and hismind travels back in time to ancient Egypt, when the magic and mosters were real! Now Yugi and his friends must explore the world of Yugi's forgotten past... and fight an enemy who has been waiting for them for 3000 years!",
+      release_date: "August 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1722.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 18: The Power of Ra",
+      author: "Kazuki Takahashi",
+      synopsis: "The third and most powerful od the Egyptian God Cards is unleashed... twice! Locked in combat with the Egyptian duelist Rishid, Jonouchi watches in shock as his opponent summons the terrifying Sun Dragon Ra! But the Ra in Rishid's deck is a mere counterfeit... the  Ra lies in the hands of Rishid's master Marik, at the heart of his deck of sadistic torture cards. And Marik's next opponent is Mai Kujaku! Is she in over her head, or does she have a special reason for challenging the ruler of the gods?",
+      release_date: "January 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1723.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 15: Yugi vs. Jonouchi",
+      author: "Kazuki Takahashi",
+      synopsis: "The place: the top of a 13-story skyscraper. The duel: Yugi and Kaiba vs. the Rare Hunters in a tag-team match! But even if Yugi escapes a deadly drop to his death, the worst is yet to come. His best friends, Mai and Jonouchi, have been possessed by Marik! Now, Yugi must fight Marik's mind inside Jonouchi's body. But the rules of this duel are... ",
+      release_date: "December 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1724.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 4: Dungeon of Doom",
+      author: "Kazuki Takahashi",
+      synopsis: "The action moves underground as the tournament continues! Bandit Keith, the cutthroat American gamer, drags Jonouchi into the corpse-fulled catacombs for a match with 'Ghost' Kozuka, master of the undead. Traped in the tunnels beneath Duelist Kingdom, Yugi and Jonouchi must conquer the maze of the Meikyû Brothers in a two-on-two duel. It's monster vs. monster in the endless maze of tiny passages... and waiting in the Meikyû Brother's decks is the Gate Guardian, lord of the underworld, one of the most powerful monsters of all!",
+      release_date: "January 8th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1725.jpg"},
+
+{
+      title: "Yu-Gi-Oh! Vol. 6: Monster Fight!",
+      author: "Kazuki Takahashi",
+      synopsis: "When Yugi beat Kaiba at a card game, little did he know the consequences: a trip through Kaiba's 'Death T'  a theme park of death  and a series of evil spells against Yugi's family. It doesn't help that Kaiba's little brother also has a score to settle.",
+      release_date: "1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1726.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Millennium World, Vol. 2: Magician's Genesis",
+      author: "Kazuki Takahashi",
+      synopsis: "Yu-Gi-Oh's mind has travelled 3000 years back in time, to relive his life as a pharaoh in ancient Egypt! But his life may not last long, because the mad tomb-robber Bakura - vessel of the monstrous spirit Diabound - has invaded the palace to slaughter the pharaoh and his priests! Can the Gods of Egypt stop Bakura's vengeance?",
+      release_date: "January 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1727.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 9: Dungeon Dice Monsters",
+      author: "Kazuki Takahashi",
+      synopsis: "There's a new game shop in town, peddling a hot new game, and things look bad for Grandpa Mutou's family business But the Black Crown game store is more than a business competitor...its owners want to put Yugi and his grandfather out the picture forever. First a sinister clown-masked figure steals Yugi's Millennium Puzzle Then Ryuji Otogi, the teenager heir to the store, challenges Yugi to a collectible dice game of dragons and monsters. But without the Millennium Puzzle, Yugi can't call Yu-Gi-Oh. Can he win without his 'other self' to help him out?",
+      release_date: "January 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1728.jpg"},
+
+{
+      title: "Yu-Gi-Oh! Vol. 3: Capsule Monster Chess",
+      author: "Kazuki Takahashi",
+      synopsis: "With the Millennium Scales and the Millennium Key, Shadi summons deadly illusions that, if Yugi can't successfully fight them, will kill his best friends. Later, Yugi and his friends discover the hidden characters in digital keychain pets, and Yugi meets Mokuba, Kaiba's brother, for a high-stakes game of 'Capsule Monster Chess.'",
+      release_date: "January 1st 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1729.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 13: Slifer the Sky Dragon",
+      author: "Kazuki Takahashi",
+      synopsis: "Tenth-grade loner Yugi always had his head in some game - until he solved the Millennium Puzzle, an Egyptian artifact containing the spirit of a master gambler from the age of the pharoahs! Now, Yugi has become Yu-Gi-Oh - and the Shadow Games has begun!",
+      release_date: "September 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1730.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 16: The Battle City Finals",
+      author: "Kazuki Takahashi",
+      synopsis: "Tenth-grade loner Yugi always had his head in some game - until he solved the Millennium Puzzle, an Egyptian artifact containing the spirit of a master gambler from the age of the pharoahs! Now, Yugi has become Yu-Gi-Oh - and the Shadow Games has begun!",
+      release_date: "April 5th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1731.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 5: Blue-Eyes Ultimate Dragon",
+      author: "Kazuki Takahashi",
+      synopsis: "Can Yugi and Jonouchi escape the subterranean maze of the Meikyû Brothers, or will they be buried with their cards? Maybe they'd be safer underground, because Kaiba, the world's former greatest gamer, is back! On the towers og Pegasus Castle, Yugi and Kaiba fight their third Duel Monsters battle, with everything at stake. But this time, Kaiba is fighting for more than his own pride; he's fighting to save his brother. And there's nothing more dangerous than a gamer with nothing left to lose...",
+      release_date: "November 18th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1732.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 21: Duel the Lightning!",
+      author: "Kazuki Takahashi",
+      synopsis: "Only four duelists remain in the running! On the Tower of Alcatraz, Jonouchi faces Marik, the evil Egyptian duelist whose grudge has smoldered for three thousand years. But can Jonouchi fight while he's trapped in a steel cage surrounded by molten lava? And can he overcome the power of Marik's Egyptian God Card, the Sun Dragon Ra? If he wins, he'll get his dream of facing Yugi in the finals. But if he loses, he'll get a one-way ticket to the grave!",
+      release_date: "January 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1733.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 2: The Puppet Master",
+      author: "Kazuki Takahashi",
+      synopsis: "On the island called Duelist Kingdom a battle royale is taking place to determine the greatest 'Duel Monsters' player in the world! Yugi s friend Jonouchi has finally learned some strategy but will it be enough to beat sexy Mai Kujaku and mean 'Dinosaur' Ryuzaki A fight with fisherman Ryota Kajiki is just a warm up for Yugi the only person who s beaten Kaiba the former world champion. But although Kaiba may be in a coma his deck still lives...in the hands of an evil ventriloquist who has stolen not only Kaiba s deck but his very soul! Contains the original storyline of the first season of Yu Gi Oh! including scenes too startling for TV!",
+      release_date: "August 4th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1734.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 20: Evil vs. Evil",
+      author: "Kazuki Takahashi",
+      synopsis: "The quarterfinals are over, but not without casualties: Mai and Rishid lie in the infirmary, and if Marik isn't defeated in 24 hours, Mai will never wake up! As the airship speeds toward its mysterious destination, Bakura and Marik end their sinister alliance and fight a vicious duel over the Millennium Rod. But who is Bakura's unexpected ally?! Meanwhile, the four semifinalists get ready for what could be the last duels of their lives. And for Jonouchi, it's his last chance to save Mai from Marik's deadly power...",
+      release_date: "January 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1735.jpg"},
+
+{
+      title: "Yu-Gi-Oh!: Duelist, Vol. 6: The Terror of Toon World",
+      author: "Kazuki Takahashi",
+      synopsis: "Kaiba, the world's second-greatest gamer, duels Pegasus! Are Kaiba's dragons stronger than Pegasus's rubbery, slapstick, fearsome toons? Awaiting their own turn to fight, Yugi and his friends explore Pegasus's castle. But they're not alone. Bandit Keith, the unscrupulous American card shark, prowls the dark castle with his own evil plans. And Mai Kujaku, both friend and foe, has also made it to the final rounds!",
+      release_date: "January 1st 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1736.jpg"},
+
+      [genres[0], genres[4], genres[10]]
+      ],
+[
+{
+      title: "Tsubasa: RESERVoir CHRoNiCLE, Vol. 08",
+      author: "CLAMP",
+      synopsis: "Princess Sakura's memories are scattered across multiple dimensions - and now she and Syaoran are part of an unlikely group of friends traveling from world to world to find them. Unfortunately the memories have been transformed into immensely powerful magical feathers, and those who possess them are seldom willing to give them up without a fight. The quest takes Syaoran's odd bunch to a jungle world where helpless creatures are being terrorized by a sacrifice-demanding beast. When Syaoran, Mokona, and Sakura are separated from Fai and Kurogane, each group finds themselves on opposing sides of a conflict that threatens to destroy the future of a troupe of young women performers...and possibly the entire world!",
+      release_date: "November 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1737.jpg"},
+
+{
+      title: "Tsubasa: RESERVoir CHRoNiCLE, Vol. 07",
+      author: "CLAMP",
+      synopsis: "The latest chapter of the top-selling series continues the saga of heroic, romantic characters on a magical quest. SYAORAN OVERMATCHED? Young Syaoran and his friends are on a quest to retrieve the magically potent feather-shaped shards of Princess Sakura's memory. The search has led them to the country of Oto, a world with the romantic feel of Japan in the early 1900s. However, another dimension traveler has shown up as well-the immensely powerful Seishiro, who first trained Syaoran. Now he and Syaoran are mortal enemies Seishiro's first objective is to kill Fai, beloved wizard and one of Syaoran's closest companions. Does Syaoran, who is just beginning his training, have any hope of surviving their inevitable battle?",
+      release_date: "August 17th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1738.jpg"},
+
+{
+      title: "Tsubasa: RESERVoir CHRoNiCLE, Vol. 01",
+      author: "CLAMP",
+      synopsis: "SAKURA AND SYAORAN RETURN!But they're not the people you know. Sakura is the princess of Clow - and possessor of a mysterious, misunderstood power that promises to change the world. Syaoran is her childhood friend and leader of the archaeological dig that took his father's life. They reside in an alternate reality...where whatever you least expect can happen - . When Sakura ventures to the dig site to declare her love for Syaoran, a puzzling symbol is uncovered - which triggers a remarkable quest. Now Syaoran embarks upon a desperate journey through other worlds - all in the name of saving Sakura.",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1739.jpg"},
+
+{
+      title: "Tsubasa ALBuM De REProDUCTioNS: Original Art Collection",
+      author: "CLAMP",
+      synopsis: "In celebration of the twentieth anniversary of the phenomenon known as CLAMP–a prolific collective of four female artists who are now among the most popular manga creators in the United States–here’s a deluxe, gorgeously designed book featuring more than one hundred pages of color art, plus a five-page original Tsubasa manga that will appear only in this book!",
+      release_date: "2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1740.jpg"},
+
+{
+      title: "Tsubasa Character Guide 2",
+      author: "CLAMP",
+      synopsis: "THE SECRETS OF TSUBASA!Are you completely obsessed with Tsubasa: RESERVoir CHRoNiCLE, the bestselling epic manga by CLAMP? Now explore the magic behind the masterpiece in this official companion to CLAMP’s thrilling fantasy saga. In the second installment of , learn more about the people, creatures, worlds, and mysteries featured in volumes 8 through 14–including a cool look at the Tsubasa and xxxHOLiC crossover!  also includes an interview with CLAMP, games and quizzes, a special fan section, preproduction artwork, a full-color poster, and more! This essential book is perfect for any fan of the Tsubasa anime and manga!",
+      release_date: "September 29th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1741.jpg"},
+
+{
+      title: "Tsubasa Character Guide",
+      author: "CLAMP",
+      synopsis: "TSUBASA: BEHIND THE SCENES!Here is a revealing look at the acclaimed, bestselling manga series Tsubasa: RESERVoir CHRoNiCLE. Spanning the first seven graphic novels, this thrilling guide includes intriguing details about the characters, worlds, and mysteries of Tsubasa, including info on the popular crossover CLAMP characters who always seem to appear in the Tsubasa universe! It also features a brand-new Tsubasa short story, an interview with CLAMP writer Ageha Ohkawa, games and quizzes, a fan section, pre-production artwork, and more. This is an essential book for any fan of the Tsubasa manga series and anime!",
+      release_date: "April 14th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1742.jpg"},
+
+{
+      title: "Tsubasa: RESERVoir CHRoNiCLE, Vol. 03",
+      author: "CLAMP",
+      synopsis: "CAN PURE DETERMINATION DEFEAT A MASTER MAGICIAN?Sakura is awake, but she remembers almost nothing–certainly not Syaoran, who has sacrificed everything to help her. Accompanied by the happy-go-lucky Fai, the intense Kurogane, and the strikingly odd creature Mokona Modoki, Sakura and Syaoran make their way into a new universe where a traveling magician has suddenly become frighteningly powerful and is terrorizing an entire town. Only a few independent-minded stragglers remain to battle for control of their own lives. Fai, the lone magician in the group, traded his magical powers to the dimension witch, ’s Yûko, before the journey started. Without a weapon with which to fight, can the extraordinary group of friends defeat a master magician who can control the Earth’s elements?",
+      release_date: "December 15th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1743.jpg"},
+
+{
+      title: "Tsubasa: RESERVoir CHRoNiCLE, Vol. 06",
+      author: "CLAMP",
+      synopsis: "Syaoran, Sakura, and their companions travel to Ôto, a country where cherry blossoms perfume the days and demons called Oni terrorize the nights. To earn funds, the foursome split up to hunt the wicked creatures. Soon they learn that a new type of Oni has appeared - one that is both mysterious and beautiful...and rumored to control the other demons! Will the brave twosome of Big Puppy (Kurogane) and Little Puppy (Syaoran) save the land of Ôto from this frightening foe - and retrieve another piece of Sakura's fragmented past?",
+      release_date: "June 17th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1744.jpg"},
+
+{
+      title: "Tsubasa: RESERVoir CHRoNiCLE, Vol. 04",
+      author: "CLAMP",
+      synopsis: "A FAIRYTALE TURNED NIGHTMARE!Young Syaoran embarks on a worlds-spanning adventure to restore the memory of the most important person in his life, the princess Sakura– even though he knows that she’ll never remember her love for him. The trail leads to a small town reminiscent of Europe at the turn of the nineteenth century, a place where the ghostly image of a golden-haired woman comes in the night to steal the town’s children. Syaoran and his band of outrageous friends–affable Fai D. Flowright, loose cannon Kurogane, the odd creature Mokona, and Sakura herself–mount their horses and venture into forbidding, barren woods to solve a mystery, rescue the children, and retrieve one more piece of Sakura’s missing memories.",
+      release_date: "January 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1745.jpg"},
+
+      [genres[0], genres[7], genres[4], genres[1]]
+      ],
+[
+{
+      title: "Chibi Vampire, Vol. 10",
+      author: "Yuna Kagesaki",
+      synopsis: "Things are finally going great for Karin Maaka. She's now officially going out with Kenta and she's even met another vampire who has similar problems to hers. However, her luck may not continue when her grandmother once again awakens from a long sleep. What will Elda Marker do when she discovers that Karin is not a normal vampire? And when Karin finds out the true reason why love between vampires and humans is taboo, will it destroy her relationship with Kenta?",
+      release_date: "December 28th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1746.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 07",
+      author: "Yuna Kagesaki",
+      synopsis: "With Kenta discovering the true reason behind Karin's increase in blood when around him, their relationship shatters. Both sides struggle to deal with the thought of losing the one they love. Is there light at the end of the tunnel? Will the two of them finally make up and bring happiness to the whole family?",
+      release_date: "January 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1747.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 13",
+      author: "Yuna Kagesaki",
+      synopsis: "Karin is a cute little girl who also happens to be a vampire--with a twist. She's a vamp with blood to spare, so rather than stealing blood from humans, she actually gives her blood to them.",
+      release_date: "December 28th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1748.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 03",
+      author: "Yuna Kagesaki",
+      synopsis: "Kenta sees Karin every day at both work and school, so each day serves as a reminder that something about the girl with the oft-bloody nose just isn't right. He is suspicious, and has not exactly subtle about it.",
+      release_date: "July 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1749.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 01",
+      author: "Yuna Kagesaki",
+      synopsis: "Karin is a cute little girl who also happens to be a vampire... with a twist. Once a month, she experiences intense bleeding from her nose - we're talking gushers! In other words, she's a vamp with blood to spare, so rather than stealing blood from humans she actually gives her blood to them.",
+      release_date: "October 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1750.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 04",
+      author: "Yuna Kagesaki",
+      synopsis: "Karin is a cute little girl who also happens to be a vampire... with a twist. Once a month, she experiences intense bleeding from her nose--we're talking gushers! In other words, she's a vamp with blood to spare, so rather than stealing blood from humans she actually gives her blood to them. If done right, this can be an extremely positive experience that benefits the 'victim' as much as the vamp. The problem is that Karin never seems to do things right!",
+      release_date: "November 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1751.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 05",
+      author: "Yuna Kagesaki",
+      synopsis: "Karin is a cute little girl who also happens to be a vampire... with a twist. Once a month, she experiences intense bleeding from her nose--we're talking gushers! In other words, she's a vamp with blood to spare, so rather than stealing blood from humans she actually gives her blood to them. If done right, this can be an extremely positive experience that benefits the 'victim' as much as the vamp. The problem is that Karin never seems to do things right!",
+      release_date: "March 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1752.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 12",
+      author: "Yuna Kagesaki",
+      synopsis: "Karin is a cute little girl who also happens to be a vampire--with a twist. She's a vamp with blood to spare, so rather than stealing blood from humans, she actually gives her blood to them.",
+      release_date: "August 9th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1753.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 08",
+      author: "Yuna Kagesaki",
+      synopsis: "After months of little romantic development, are Karin and Kenta ready to take a big step forward in their relationship? With the young couple finally starting to hold hands in public, Maki forces the issue by setting up a date.",
+      release_date: "April 1st 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1754.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 11",
+      author: "Yuna Kagesaki",
+      synopsis: "Book by Yuna Kagesaki",
+      release_date: "April 1st 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1755.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 09",
+      author: "Yuna Kagesaki",
+      synopsis: "Karin Maaka is a vampire, from a family of vampires, but instead of needing to drink blood, she has an excess of blood that she must give to her victims. If done right, giving this blood to her victim can be an extremely positive thing. The problem with this is that Karin never seems to do things right...As Karin and Kenta's official first date continues, Anju shows up to keep an eye on the clumsy couple. But when Kenta notices her, he grabs Karin and takes her on the Ferris wheel. There he tells her how he really feels...will this destroy their relationship? Also, new girl Yuriya begins snooping around town in search of vampires. For what reason is she trying to uncover Karin's identity and what secrets of her own is she hiding?",
+      release_date: "September 1st 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1756.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 14",
+      author: "Yuna Kagesaki",
+      synopsis: "Features color art and an interview with the creator.",
+      release_date: "April 9th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1757.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 06",
+      author: "Yuna Kagesaki",
+      synopsis: "Karin's crush of Kenta may be finally be revealed. But things take a turn when Kenta's mom seeks the whereabouts of Kenta and Karin with the assistance of a detective. A case of mistaken identity causes Karin’s most explosive nose bleed ever! Karin's crush continues but now it is a forbidden one.",
+      release_date: "July 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1758.jpg"},
+
+{
+      title: "Chibi Vampire, Vol. 02",
+      author: "Yuna Kagesaki",
+      synopsis: "Kenta sees Karin at work and school, each day serving as a reminder that something about the girl with the oft-bloody nose just isn't right! He's suspicious...and he's not exactly subtle about it. Fearing that he might discover her secret, Karin decides to kill this potential problem--with kindness! She goes out of her way to do all kinds of nice things for him. But when Kenta catches her 'feeding' yet again, the gig may be up. So what's a vampire girl to do? Why, take the boy home to meet her parents, of course!",
+      release_date: "March 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1759.jpg"},
+
+      [genres[14], genres[7], genres[13], genres[15], genres[18]]
+      ],
+[
+{
+      title: "D.Gray-man, Vol. 1",
+      author: "Katsura Hoshino",
+      synopsis: "Set in a fictional end of the 19th century England, it's the story of Allen Walker, a 15-year-old boy who roams the Earth in search of . Washed away to unknown parts of the world after The Great Flood, Innocence is the mysterious substance used to create weapons that obliterate demons known as .A born exorcist, Walker's primary anti-akuma weapon is the cross that's embossed on his red and disfigured left hand, which contains Innocence. But not only does Walker destroy akuma, he sees the akuma hiding inside a person's soul! Together with his fellow exorcists fighting under the command of the Black Order, Walker leads the battle against the Millennium Earl, the evil being out to destroy mankind.",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1760.jpg"},
+
+      [genres[7], genres[21], genres[1], genres[18]]
+      ],
+[
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 3",
+      author: "Naoko Takeuchi",
+      synopsis: "Tuxedo Mask gone bad?! As more of her closest allies fall under the power of the evil Queen Beryl, Usagi comes closer to discovering the truth behind her past. The stage is set for an all-out battle for the fate of Earth between the Sailor Guardians and the forces of evil. But when the dust settles, a little girl calling herself “Usagi” falls from the sky and right into the arms of Mamoru. What is her connection to Sailor Moon and why does she want the Legendary Silver Crystal?This new edition of Sailor Moon features: - An entirely new, incredibly accurate translation- Japanese-style, right-to-left reading- New cover art never before seen in the U.S.- The original Japanese character names- Detailed translation notes",
+      release_date: "October 23rd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1761.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 5",
+      author: "Naoko Takeuchi",
+      synopsis: "Chibi-Usa gets sucked into the far reaches of space-time and vanishes! It’s up to Tuxedo Mask to reach her and get her back safely while Sailor Moon and the others must escape Nemesis and the evil clutches of Wiseman and his cronies. But as Tuxedo Mask travels through the space-time storm, he encounters an ominous woman claiming to be his daughter! Who is this strange woman? Is she really Chibi-Usa?!This new edition of Sailor Moon features:- An entirely new, incredibly accurate translation- Japanese-style, right-to-left reading- New cover art never before seen in the U.S.- The original Japanese character names- Detailed translation notes",
+      release_date: "December 22nd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1762.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 10",
+      author: "Naoko Takeuchi",
+      synopsis: "The threat of the Dead Moon Circus is so great that the outer planet Guardians return to fight alongside their compatriots. But with Usagi now coughing up black blood as well, are they too late? And to make things worse, Queen Nehelenia's servant, Zirconia, casts another curse upon Usagi and Mamoru, sending them both back into childhood. However, Helios whisks away their spirits to Elysion, where they manage to break free and return to their true forms. After they rejoin their companions, the final showdown against Queen Nehelenia herself begins! Will the Sailor Guardians and Tuxedo Mask manage to save Earth and Elysion before the Queen transforms them into eternal realms of nightmares?",
+      release_date: "May 21st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1763.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 2",
+      author: "Naoko Takeuchi",
+      synopsis: "The mysterious Tuxedo Mask has revealed his identity, forcing Usagi to come to terms with her growing affections for the masked vigilante, all the while defending the people of Earth from renewed attacks by the sinister “enemy”. Everything threatens to overwhelm even Sailor Moon when suddenly a new Sailor Guardian appears. Could this new Guardian be the Moon Princess the Sailor Guardians are sworn to protect?",
+      release_date: "September 22nd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1764.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 6",
+      author: "Naoko Takeuchi",
+      synopsis: "Just when all seems well again in the world, another enemy appears. Two new figures from the private school Mugen Academy appear and take a special interest in Sailor Moon and company. Who are they, and do they have anything to do with the strange occurrences that are suddenly taking place? Meanwhile, the appearance of two new Guardians takes everyone by surprise as our favorite Sailor heroes must once again face off against new enemies to save the world.This new edition of Sailor Moon features:  - An entirely new, incredibly accurate translation  - Japanese-style, right-to-left reading  - New cover art never before seen in the U.S.  - The original Japanese character names  - Detailed translation notes",
+      release_date: "January 23rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1765.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 7",
+      author: "Naoko Takeuchi",
+      synopsis: "Old friends and new enemies lurk in the mysteries surrounding Mugen Academy. The Death Busters crave the Hoste, the human energies, of Sailor Moon and her friends--and they’ll prey on the girls’ dreams and weaknesses to get it! Furthermore, prophetic dreams hint of “talismans” that could awaken a “Deity of Destruction.” Could these things be connected to the guardians’ power? And are the Sailor Senshi capable of murdering the innocent to save the entire world?",
+      release_date: "February 23rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1766.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 9",
+      author: "Naoko Takeuchi",
+      synopsis: "Amidst the chaos caused by Usagi and Chibi-Usa's body swap, courtesy of the Amazoness PallaPalla, the Sailor Guardians' primary concern remains Mamoru's illness and its possible link to the newcomers in town, the Dead Moon Circus. The Amazonesses and their circus animal lackeys go after the Guardians one by one, tempting them with false visions. However, each of the Guardians manage to defeat the enemy after their inner selves shows them their individual heart crystals and new power. Meanwhile, it is still a toss up who the 'young maiden' is that Elysion priest Helios seeks: She who shall find and unlock the Golden Crystal that will save Earth, Elysion and Mamoru!",
+      release_date: "April 23rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1767.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 8",
+      author: "Naoko Takeuchi",
+      synopsis: "Chibi Usa’s sickly friend Hotaru isn’t just Sailor Saturn, Deity of Destruction. She’s also possessed by Master Pharaoh 90. Facing this cataclysmic power will be impossible--unless Sailor Moon can unite the powers of every Guardian of the Solar System. Then, when the moon eclipses the sun, a mystical unicorn begs for help. An elaborate ship floats through the sky, and Usagi and Chibi-Usa have trouble seeing eye to eye...",
+      release_date: "March 23rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1768.jpg"},
+
+{
+      title: "Pretty Guardian Sailor Moon, Vol. 4",
+      author: "Naoko Takeuchi",
+      synopsis: "A new group calling themselves Black Moon is after Usagi and the rest of the Sailor Guardians, wielding a new power known only as the Malefic Black Crystal. Chibi-Usa may be the key to it all, but to find the answers and rescue her kidnapped friends, Usagi will have to journey through time to the 30th century and discover what fate has in store.  This new edition of Sailor Moon features:  - An entirely new, incredibly accurate translation  - Japanese-style, right-to-left reading  - New cover art never before seen in the U.S.  - The original Japanese character names  - Detailed translation notes",
+      release_date: "November 21st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1769.jpg"},
+
+      [genres[4], genres[13], genres[10], genres[17]]
+      ],
+[
+{
+      title: "Godchild, Volume 03",
+      author: "Kaori Yuki",
+      synopsis: "A grotesque gift holds a clue to the Cain family past; a mortician's daughter has deadly designs on one of Cain's closest friends; and a woman from Riff's past may have murder on her mind. Enjoy three new tales destined to delight and disturb from the imagination of master storyteller Kaori Yuki!",
+      release_date: "June 19th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1770.jpg"},
+
+{
+      title: "Godchild, Volume 05",
+      author: "Kaori Yuki",
+      synopsis: "Cain crosses a high official of the secret society of DELILAH when he attempts to stop a massacre of socialites at the lushly restored Crimone Gardens. And later, an old nursery rhyme plays out to eerie perfection during a fateful carriage ride in the sinister 'Solomon Grundy's Sunday.'",
+      release_date: "February 19th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1771.jpg"},
+
+{
+      title: "Godchild, Volume 06",
+      author: "Kaori Yuki",
+      synopsis: "Cain crosses a high official of the secret society of DELILAH when he attempts to stop a massacre of socialites at the lushly restored Crimone Gardens. And later, an old nursery rhyme plays out to eerie perfection during a fateful carriage ride in the sinister 'Solomon Grundy's Sunday.'",
+      release_date: "June 19th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1772.jpg"},
+
+{
+      title: "Godchild, Volume 07",
+      author: "Kaori Yuki",
+      synopsis: "Shall the son suffer for the continued sins of the father? Alexis hatches an evil plan involving a beautiful girl with a sick fascination for his son. And could Jizabel's hatred of Cain also stem from their father? Step into the past as we learn more about the tortured early life of Dr. Disraeli!",
+      release_date: "2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1773.jpg"},
+
+{
+      title: "Godchild, Volume 08",
+      author: "Kaori Yuki",
+      synopsis: "It is time for the truth to be told. At last, all the secrets of the Hargreaves family will emerge from the dark into the harsh light of day, as Kaori Yuki wraps up Cain's epic adventures. Is Cain ready to find out who he truly is? Are  ready?",
+      release_date: "January 19th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1774.jpg"},
+
+{
+      title: "Godchild, Volume 01",
+      author: "Kaori Yuki",
+      synopsis: "Deep in the heart of 19th century London, a young nobleman named Cain walks the shadowy cobblestone streets of the aristocratic society into which he was born. Forced to become an earl upon the untimely death of his father, Cain assumes the role of head of the Hargreaves, a noble family with a dark past. With Riff, his faithful manservant, and Mary Weather, his 10-year-old half sister, Cain investigates the mysterious crimes that seem to follow him wherever he goes.",
+      release_date: "November 19th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1775.jpg"},
+
+{
+      title: "Godchild, Volume 02",
+      author: "Kaori Yuki",
+      synopsis: "Deep in the heart of 19th Century London, a young nobleman named Cain walks the shadowy cobblestone streets of the aristocratic society in which he was born. Forced to become an Earl upon the untimely death of his father, Cain assumes the role of head of the Hargreaves, a noble family with a dark past. With Riff, his faithful manservant, and Marie Weather, his 10-year-old half sister, Cain investigates the mysterious crimes that seem to follow him wherever he goes.",
+      release_date: "2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1776.jpg"},
+
+{
+      title: "Godchild, Volume 04",
+      author: "Kaori Yuki",
+      synopsis: "A grotesque gift holds a clue to the Cain family past; a mortician's daughter has deadly designs on one of Cain's closest friends; and a woman from Riff's past may have murder on her mind. Enjoy three new tales destined to delight and disturb from the imagination of master storyteller Kaori Yuki!",
+      release_date: "October 18th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1777.jpg"},
+
+      [genres[21], genres[8], genres[18]]
+      ],
+[
+{
+      title: "Fairy Tail, Vol. 02",
+      author: "Hiro Mashima",
+      synopsis: "THE BOOK OF SECRETS Beautiful celestial wizard Lucy has teamed up with the crazy fire wizard Natsu and his bizarre flying cat, Happy. Their job: to steal a book from the notorious Duke Everlue. But the eccentric Everlue has killed wizards before, and Lucy’s team is walking right into his death trap!",
+      release_date: "January 12th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1778.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 05",
+      author: "Hiro Mashima",
+      synopsis: "GRAY-OUTGray’s old training companion Reitei Lyon is trying to revive a calamity demon, but doing so will make their former master’s sacrifice meaningless! What’s the secret of Gray’s past, and why does he keep taking off his clothing? Gray is revealed (metaphorically speaking) in this pivotal volume!",
+      release_date: "July 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1779.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 06",
+      author: "Hiro Mashima",
+      synopsis: "DEMON RISINGHotshot Natsu and his cool rival Gray are fighting to stop a calamity demon from being revived by Gray’s fellow disciple Lyon and Zalty, a master of Lost Magic. But while they try to defeat the bad guys, the magical ice binding the demon keeps melting. Then a grudge between Fairy Tail and a rival guild turns to all-out war!Includes special extras after the story!",
+      release_date: "September 14th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1780.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 40",
+      author: "Hiro Mashima",
+      synopsis: "DRAGONS VS. WIZARDS!Seven years ago, one dragon defeated all of Fairy Tail. Now they're up against seven! How can Natsu and Fairy Tail defeat the most destructive force in history?! The secrets of the dragon slayers are revealed in the stunning climax of the Festival of the Dragon King!",
+      release_date: "October 17th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1781.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 47",
+      author: "Hiro Mashima",
+      synopsis: "LOST IN THE ETHERIOUS Desperate to stop the Face bombs from going off, Natsu and Gajeel face off against Tempester and Torafuzar from Tartaros! Meanwhile, Gray emerges from his dramatic encounter with Silver with a new power: demon slayer magic, and Erza finally reaches the control room only to find it infested by demons! The Book of Zeref's worst denizens stand arrayed before Fairy Tail's wizards... Can they defeat them and preserve the magic of the entire continent?",
+      release_date: "January 16th 2015",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1782.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 10",
+      author: "Hiro Mashima",
+      synopsis: "SHADOWS OF THE PAST Erza Scarlet is the most kick-butt woman wizard in Fairy Tail, but in the past this indomitable fighter was . . . a slave? Now she finds out that her old companions have completed the evil device they were forced to build while held in slavery: the Tower of Heaven. What's more, their wicked master requires a sacrifice: Erza! Includes special extras after the story!",
+      release_date: "May 16th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1783.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 03",
+      author: "Hiro Mashima",
+      synopsis: "MUSICAL MURDERSThe evil members of the Dark Guild Eisenwald have found a cursed flute that can murder anyone who hears its music–and now they’ve taken over a midtown train station with a very loud public address system. Only Natsu and his crazy friends (including a flying cat) can stop them!Includes special extras after the story!",
+      release_date: "March 16th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1784.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 11",
+      author: "Hiro Mashima",
+      synopsis: "WHEN CHECKMATE MEANS DEATH! Erza's childhood friend Jellal has started to play an elaborate board game--with Natsu and his team as enemy pieces to be eliminated. Meanwhile, Siegrain is trying to get the Magic Council to fire a weapon that will wipe out Jellal's tower, killing everyone within it--including our heroes from Fairy Tail!",
+      release_date: "March 3rd 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1785.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 1",
+      author: "Hiro Mashima",
+      synopsis: "THE WICKED SIDE OF WIZARDRYCelestial wizard Lucy wants to join the Fairy Tail, a club for the most powerful wizards. But instead, her ambitions land her in the clutches of a gang of unsavory pirates led by a devious magician. Her only hope is Natsu, a strange boy she happens to meet on her travels. Natsu's not your typical hero, he gets motion sickness, eats like a pig, and his best friend is a talking cat. With friends like this, is Lucy better off with her enemies?",
+      release_date: "December 15th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1786.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 08",
+      author: "Hiro Mashima",
+      synopsis: "Gajeel is a dragon slayer who can shoot huge iron pillars from his body with crushing precision, while dragon slayer Natsu fights with devastating flame attacks. Their fierce battle began when Gajeel’s wizard guild, Phantom Lord, assaulted rival guild Fairy Tail–but can either headquarters withstand two such destructive forces?",
+      release_date: "January 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1787.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 45",
+      author: "Hiro Mashima",
+      synopsis: "Fairy Tail takes place in a world filled with magic. 17-year-old Lucy is an attractive mage-in-training who wants to join a magician's guild so that she can become a full-fledged magician. The guild she dreams about joining is the most famous in the world, and it is known as the Fairy Tail. One day she meets Natsu, a boy raised by a Dragon who mysteriously left him when he was young. Natsu has devoted his life to finding his Dragon father. When Natsu helps Lucy out of a tricky situation, she discovers that he is a member of the Fairy Tail magician's guild, and our heroes' adventure together begins.",
+      release_date: "September 17th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1788.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 04",
+      author: "Hiro Mashima",
+      synopsis: "S IS FOR SCREWUPS-Class quests are so dangerous that one false move means certain death! Now loose cannon Natsu, rookie Lucy, and nearly powerless Happy have embarked on a stolen S-Class quest, setting out for the Demon Island. Can anyone stop them before they get themselves killed?",
+      release_date: "May 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1789.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 09",
+      author: "Hiro Mashima",
+      synopsis: "FADING WIZARD Stylish wizard Loke is the ladies' man of the Fairy Tail guild. But now he's suddenly broken up with all his girlfriends, claiming he simply doesn't have the time! It turns out that Loke's life may be about to end, and Lucy, a freshman, is the only one who can save him! But what can a first-year wizard do that an experienced wizard can't?",
+      release_date: "March 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1790.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 57",
+      author: "Hiro Mashima",
+      synopsis: "  Prepared to do what they need to or die trying, Fairy Tail faces off against the vast hordes of the Alvarez Empire. They've retaken the port town of Hargeon, but the battles are hard, and every victory is costly. Fairy Tail's prisoner, Brandish, makes an offer to act as a go-between in a negotiation with August, a man known as the strongest of the Spriggan 12. Fairy Tail is desperate, but can Brandish be trusted? Meanwhile, Gajeel's group has fought a fierce battle to rescue the members of Saber Tooth and regain lost ground, but powerful enemies are close, which could mean more despair for the embattled members of Fairy Tail...",
+      release_date: "September 16th 2016",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1791.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 12",
+      author: "Hiro Mashima",
+      synopsis: "THE DOOMSDAY WEAPON!   Erza and Natsu are trying to stop Jellal from reviving the most feared black wizard the world has ever known! To help in the effort, the Magic Council launches its magic of mass destruction, Etherion. But Jellal knows that the Council’s attack could kill both him and the Fairy Tail wizards—and he isn’t running away. What is he plotting?  ",
+      release_date: "October 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1792.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 56",
+      author: "Hiro Mashima",
+      synopsis: "THE SHOW MUST GO ONDespite the Spriggan 12 being reduced to eight, both sides remain uncertain of victory.. In Halgeon, the Warrior Queen Di Maria has trapped the Sky Sisters in a tricky situation. Meanwhile, back at Fairy Tail, members start disappearing at the hands of Jacob the Assassin, but Natsu is still fast asleep! The decisive battle for Magnolia remains perilous...the waves of formidable enemies keep coming, but the wizards of Fiore are ready to fight!",
+      release_date: "July 15th 2016",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1793.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 41",
+      author: "Hiro Mashima",
+      synopsis: "FAIRY TOTSFairy Tail visits a town of giants frozen in magical ice that Gray can't dispel and Natsu can't melt! At its heart is supposedly an Eternal Flame… but how can a flame be frozen? And they're not the only ones after the town's secrets. Three treasure hunters block their path, while an old nemesis lurks in the shadows. To top it off, a magical trap makes all the Fairy Tail wizards' problems seem much bigger!",
+      release_date: "December 17th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1794.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 13",
+      author: "Hiro Mashima",
+      synopsis: "THE DOOMSDAY WEAPON! Master Makarov’s grandson, the too-powerful wizard Laxus, has seen the new Fairy Tail guild hall and doesn’t like what he sees! So he gathers some of the strongest wizards in the guild, and starts a Fairy Tail civil war!",
+      release_date: "December 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1795.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 43",
+      author: "Hiro Mashima",
+      synopsis: "FACE OFFThe demons of Tartaros are murdering Council members to try to get to a secret weapon with the power to wipe out all who would oppose them in one fell swoop. But what is this weapon? How could killing ex-Council members help them get it? And how do they even know about it in the first place? Natsu and his friends need to solve these mysteries if they hope to stand up to the demons!",
+      release_date: "May 16th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1796.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 07",
+      author: "Hiro Mashima",
+      synopsis: "GUILD WARFairy Tail’s rival guild, Phantom Lord, has taken the competition to dangerous levels by smashing the Fairy Tail building and nearly killing three wizards. What is Fairy Tail response? A full-frontal assault on Phantom Lord! But this clash is all part of the Phantom Lord evil plot to capture a coveted prize.Includes special extras after the story!",
+      release_date: "November 16th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1797.jpg"},
+
+{
+      title: "Fairy Tail, Vol. 46",
+      author: "Hiro Mashima",
+      synopsis: "FACE THE COLD TRUTHAs the bloody battle against the Nine Demon Gates and their king Mard Geer engulfs all of Fairy Tail, the guild learns a terrible secret: the threat from Face, the magic pulse bomb, isn’t over yet! Meanwhile, the ice demon slayer known as Silver faces off against Gray, and the bond that ties their fates together is revealed! The truth sends Gray from shivering terror into an icy rage, but what greater sadness waits in the fight ahead?",
+      release_date: "November 17th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1798.jpg"},
+
+      [genres[0], genres[4], genres[1], genres[10]]
+      ],
+[
+{
+      title: "Trinity Blood, Vol. 12",
+      author: "Kiyo Kyujyo",
+      synopsis: "With the Pope injured and what seems like the entire Vatican turned against them, Esther and Schera must fight for their lives, as well as attempt to reveal Cardinal D'Annuncio's fiendish plot. But with so much blood already shed, can even the Lady Saint and her powerful ally escape unscathed? Then, the curtain closes on the story of Istvan, and a new story begins as Esther and co. head towards the island nation of Albion! Sell Sheet Keynote:In this gorgeous, gothic-action series-part of the super-popular Trinity Blood franchise-the very survival of the human race is at stake.",
+      release_date: "August 24th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1799.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 11",
+      author: "Kiyo Kyujyo",
+      synopsis: "In the damaged city of Istvan, where the populace clings to the hope of their Holy Saint Esther, intrigue and vengeance lurk around every corner. When faith and betrayal are blended in the dark shadows of the alleys and back streets, will Esther and Abel ever be able to find one another again?",
+      release_date: "October 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1800.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 1",
+      author: "Kiyo Kyujyo",
+      synopsis: "In a dark and distant future, Armageddon has giving rise to the fabled Second Moon--and a perpetual war between the vampires and the humans! Esther is a nun in the city of Istavan. When she crosses paths with Abel Nightroad, a priest sent from the Vatican to combat the local order of vampires, the two form a holy alliance to battle the most evil of threats: Gyula, the leader of the vampires. In this gorgeous, gothic-action series--part of the super-popular Trinity Blood franchise--the very survival of the human race is at stake!",
+      release_date: "March 17th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1801.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 4",
+      author: "Kiyo Kyujyo",
+      synopsis: "The Gothic-action masterpiece continues as Esther remembers the cold, cruel day when a heartless Dietrich betrayed her. And now, among the flames, Radu is about to do the same to Ion...until Brother Petros and his Department of Inquisition arrive. Weakened after his previous fight with Petros, Abel is just barely keeping himself under control and, as the battle rages, Esther may once again find herself betrayed by someone she trusted...",
+      release_date: "June 17th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1802.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 7",
+      author: "Kiyo Kyujyo",
+      synopsis: "Astaroshe and Abel present their case to the Diwan, while Ion and Esther get lost in the city. They meet a strange young tea-seller named Seth, and have a run-in with Dietrich's vampire zombie soldiers, one of whose victims reveals that Radu may be alive...just as the man himself appears before Abel and accuses the party from the west of conspiring to assassinate the Empress.",
+      release_date: "July 15th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1803.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 6",
+      author: "Kiyo Kyujyo",
+      synopsis: "Ion awakes to find that he is still alive, while Esther confronts Abel in the underground waterway. Orders have been given to recover Radu's body from the ocean, but is he really dead? Older teens.",
+      release_date: "February 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1804.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 9",
+      author: "Kiyo Kyujyo",
+      synopsis: "The war between humans and vampires continues as a struggle between two factions: the Vatican and the New Human Empire. Amidst the bloodshed and violence, many desire a peaceful coexistence between the two species. But standing between them is a group of vampire extremists.",
+      release_date: "May 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1805.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 2",
+      author: "Kiyo Kyujyo",
+      synopsis: " ",
+      release_date: "July 17th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1806.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 8",
+      author: "Kiyo Kyujyo",
+      synopsis: "A plot to assassinate the Methuselah Emperor is revealed at last, but Ion, Esther and company are accused of the crime! Astharoshe struggles with her own immortality and how feelings of loyalty and love can change over the course of centuries, and Dietrich has yet another cruel twist of fate in store for his beloved Esther.",
+      release_date: "December 16th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1807.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 10",
+      author: "Kiyo Kyujyo",
+      synopsis: "In a post-apocalyptic world, humans represented by the Vatican and vampires of the New Human Empire struggle for world domination. Standing in the way is a group of vampire extremists. The only thing to do is to send in a vampire who preys on other vampires.",
+      release_date: "February 16th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1808.jpg"},
+
+{
+      title: "Trinity Blood, Vol. 5",
+      author: "Kiyo Kyujyo",
+      synopsis: "Esther is left terrified by Abel's form as the Crusnik while the Vatican agents, along with the injured Petros, head east to return Ion to the Empire. But an enormous artificial sandstorm is unleashed by Radu in a final attempt to destroy the city of Carthage, and new alliances must be forged in order to halt its devastating path, while an old friend is waiting for Abel in a secret underground chamber...",
+      release_date: "September 17th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1809.jpg"},
+
+      [genres[4], genres[21], genres[18]]
+      ],
+[
+{
+      title: "Hikaru no Go, Vol. 10: Lifeline",
+      author: "Yumi Hotta",
+      synopsis: "The main round of the pro test has begun. Everyone's feeling the pressure, no one more so than Hikaru's friend Isumi, who has failed the test twice before. Fighting off his feelings of self-doubt, Isumi faces his next opponent, who turns out to be Hikaru. But a careless mistake lands the pair in an awkward position!",
+      release_date: "December 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1810.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 2: First Battle",
+      author: "Yumi Hotta",
+      synopsis: "With sure ans steady moves, Sai and Hikaru are making a name Hikaru Shindo as the one who might possibly beat the venerable Akira Toya. Wait. Who are we kidding? Hikaru: sure and steady...? Yeah, right! In between all the shenanigans Hikaru gets himself into during school and after, and dealing with Sai's unhappy sobs when Hikaru tries to run away from playing Go, his fame is growing. Principals, teachers and Go tournament kids alike are all wondering who this unruly bronco of a Go player is. Tetsuo, a Shogi punk who has a beef of his own with Akira, harasses poor Hikaru at first - then later puts him on his own Go team! Meanwhile, Akira, looking for a rematch with Hikaru, is surprised to find Hikaru playing with a third-rate Go club. You won't be disappointed with the further adventures of this dynamic Go duo!",
+      release_date: "August 4th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1811.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 4: Divine Illusions",
+      author: "Yumi Hotta",
+      synopsis: "Another tournament is underway. Three members of the cutthroat Kaio Go Club face three members of the budding Haze Go Club. As tensions rise, the antagonism between both teams culminates in a telling match between Akira and Hikaru. Who will win? Which team will win? Even if the answer surprises you, the ensuing drama won't.After the excitement of the tournament, there's nothing left for Hikaru and Kimihiro to do...except learn how to play more Go! In the process, Hikaru finds a way to let Sai play all the Go his fluttering heart desires without everybody and their mother pointing and staring at Hikaru. Find out what Hikaru discovers in this volume of !",
+      release_date: "December 2nd 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1812.jpg"},
+
+{
+      title: "Hikaru's Go 1-23",
+      author: "Yumi Hotta",
+      synopsis: "Complete Indonesian Edition",
+      release_date: "January 1st 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1813.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 7: The Young Lions Tournament",
+      author: "Yumi Hotta",
+      synopsis: "Hikaru Shindo is like any sixth-grader in Japan: a pretty normal school boy with a two-tone head of hair and a penchant for antics. One day, he finds an old bloodstained GO board in his grandfather's attic-and that's when things get really interesting. Trapped inside the GO board is Fujiwara-no-Sai, the ghost of an ancient GO master who taught the strategically complex board game to the Emperor of Japan many centuries ago. In one fateful moment, Sai becomes a part of Hikaru's consciousness and together, through thick and thin, they make an unstoppable GO-playing team. Will they be able to defeat GO players who have dedicated their lives to the game? Will Sai achieve the 'Divine Move' so he'll finally be able to rest in peace? Begin your journey with Hikaru and Sai in this first volume of HIKARU NO GO.",
+      release_date: "June 2nd 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1814.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 11: Fierce Battle",
+      author: "Yumi Hotta",
+      synopsis: "Hikaru's classmate Ochi has won enough games to guarantee his place among the top three players who will pass the pro test. Hikaru, on the other hand, still needs to win more games, and he'll soon face his friend Waya and Ochi himself, who has been preparing for their match with Akira's help! When the dust clears, who will be left standing?",
+      release_date: "March 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1815.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 1: Descent of the Go Master",
+      author: "Yumi Hotta",
+      synopsis: "Hikaru Shindo is like any sixth-grader in Japan: a pretty normal school boy with a two-tone head of hair and a penchant for antics. One day, he finds an old bloodstained Go board in his grandfather's attic - and that's when thing get really interesting. Trapped inside the Go board is Fujiwara-no-Sai, the ghost of an ancient Go master who taught the strategically complex bpard game to the Emperor of Japan many centuries ago. In one fateful moment, Sai becomes a part of Hikaru's consciousness and together, through thick and thin, they make an unstoppable Go-playing team. Will they be able to defeat Go players who have dedicated their lives to the game? Will Sai achieve the 'Divine Move' so he'll finally be able to rest in peace? Begin your journey with Hikaru and Sai in this first volume of Hikaru no Go.",
+      release_date: "April 30th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1816.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 3: Preliminary Scrimmage",
+      author: "Yumi Hotta",
+      synopsis: "Akira is beginning a new school year at Kaio Middle School. With his daunting reputation as the Toya Meijin's son, Akira finds he must prove himself to more than a few mean and jealous classmates. And with the help of upper-classman Yuri Hidaka, Akira finds the confidence to preserve in his hunt to beat Hikaru. Meanwhile, Hikaru is having a hard enough time just trying to find a third teammate to play in the Haze Middle School Go CLub. A possible teammate arrives in the form of Yuki Mitani - but will he join their club or continue to swindle old timers for their pocket change?",
+      release_date: "October 4th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1817.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 21: Great Expectations",
+      author: "Yumi Hotta",
+      synopsis: "The Hokuto Cup, a new tournament for young players from Japan, China and Korea, is looming, and Hikaru's rival Akira has already secured one of the coveted three places on Japan's team. While Hikaru battles his way to one of the two remaining spots, Akira's father baffles the go world with his unexpected retirement!",
+      release_date: "April 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1818.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 23: Endgame",
+      author: "Yumi Hotta",
+      synopsis: " Hikaru is in the toughest battle of his life when he faces Ko Yong Ha, Korea's top player in the Hokuto Cup tournament. The stakes, however, aren't for personal glory but for something far deeper, something that differentiates a mere game from a way of life. Hikaru knows what this means to him, but will he understand what it means to the new wave of go players and, indeed, the game of go itself? ",
+      release_date: "September 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1819.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 12: Sai's Day Out",
+      author: "Yumi Hotta",
+      synopsis: "Hikaru's career as a professional Go player begins! In his first game he must face veteran player Toya Meijin, none other than Akira's father. But to Sai, this round is . Then Sai attempts to teach a cheating Go player a lesson he'll never forget... Will Hikaru's ghostly master do him proud, or make him like an amateur?",
+      release_date: "May 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1820.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 8: The Pro Test Preliminaries: Day Four",
+      author: "Yumi Hotta",
+      synopsis: ":Hikaru faces the preliminary rounds of the pro test, during which he must eliminate not only his classmates at the insei school but also any outsiders who want to take the test. One of them in particular appears to know how to exploit Hikaru's weaknesses, and poor Hikaru seems powerless to stop him.",
+      release_date: "August 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1821.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 19: One Step Forward!",
+      author: "Yumi Hotta",
+      synopsis: "An ancient ghost possesses Hikaru and unleashes his hidden genius!R to L (Japanese Style). An ancient ghost possesses Hikaru and unleashes his hidden genius!  Hikaru is determined to move carefully, step by step, up the ladder of professional go. He pours his energy into it, striving to get closer to his ultimate goal--playing the Divine Move. After many games he finally gets to play a 7-dan, who turns out to be someone he's confronted before, though not across a board. Their mutual animosity fires their competitiveness, pushing them to play with maximum intensity!",
+      release_date: "October 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1822.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 13: First Professional Match",
+      author: "Yumi Hotta",
+      synopsis: "A normal sixth grader who finds himself dealing with a centuries-old ghost and a board game that's even older.",
+      release_date: "August 3rd 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1823.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 9: The Pro Test Begins",
+      author: "Yumi Hotta",
+      synopsis: "Practicing at Go salons is turning out to be more fun than Hikaru thought. But at one salon, he meets his match in Suyong Hong, a sullen 12-year-old who is studying for the pro test in his native Korea. By mistake, Hikaru insults Suyong, and now the only way they can settle their differences is by playing a grudge match!",
+      release_date: "October 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1824.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 6: The Insei Exam",
+      author: "Yumi Hotta",
+      synopsis: "Hikaru Shindo is like any sixth-grader in Japan: a pretty normal school boy with a two-tone head of hair and a penchant for antics. One day, he finds an old bloodstained GO board in his grandfather's attic-and that's when things get really interesting. Trapped inside the GO board is Fujiwara-no-Sai, the ghost of an ancient GO master who taught the strategically complex board game to the Emperor of Japan many centuries ago. In one fateful moment, Sai becomes a part of Hikaru's consciousness and together, through thick and thin, they make an unstoppable GO-playing team. Will they be able to defeat GO players who have dedicated their lives to the game? Will Sai achieve the 'Divine Move' so he'll finally be able to rest in peace? Begin your journey with Hikaru and Sai in this first volume of HIKARU NO GO.",
+      release_date: "April 4th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1825.jpg"},
+
+{
+      title: "Hikaru no Go, Vol. 5: Start",
+      author: "Yumi Hotta",
+      synopsis: "After stumbling across a haunted Go board, irresponsible Hikaru Shindo discovers that the spirit of a master player has taken up residence in his consciousness. In his pursuit of the 'Divine Move', Fujiwara-no-Sai awakens in Hikaru an untapped genius for the game, and soon the scoolboy is chasing his own dream - defeating the famed Go prodigy Akira Toya!Sai's games on the Internet have Go players around the world guessing his true identity. Among them is Hikaru's rival, Akira, who suspects that Hikaru is hiding behind the screen name 'sai'. So intense is Akira's interest, in fact, that he skips the first day of his pro exam for a re-match. And on a rainy Sunday, the battle of wills begins anew...",
+      release_date: "February 2nd 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1826.jpg"},
+
+      [genres[0], genres[10], genres[19], genres[18]]
+      ],
+[
+{
+      title: "Yu Yu Hakusho, Volume 4: Training Day",
+      author: "Yoshihiro Togashi",
+      synopsis: "The legendary exorcist Genkai is about to pass on her explosive demon-smiting techniques to just one student. Trouble is, one of the people battling for the honor is a demon in disguise: the sadistic Rando. Can Yusuke defeat him? Complicating matters is the quartet of demonic criminals plotting a monstrous attack on the mortal world.",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1827.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 2: Lonesome Ghost",
+      author: "Yoshihiro Togashi",
+      synopsis: "A few weeks ago, Yusuke Urameshi was the ttoughest 8th-grader in his junior high; now, he's taking the toughest test of his life, the test to see if he will come back to life or stay a wandering spirit forever! Until he passes the test, his body is in a coma, and he can only come back to life one day a month. But Yusuke and his spirit guide, Botan, are in for a lot more than they bargained for as evil curses, bullies, and the ghost of a scary little girl all stand in the way of resurrection! And when a real-world fire threatens the life of Yusuke's friend Keiko, Yusuke must make a brave sacrifice, or there'll be another ghost joining him in his haunting...",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1828.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 9: The Huge Ordeal!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "After Yusuke Urameshi grounds a 'flighty' Jin for good, Team Urameshi should be one step closer to victory. But thanks (more like no thanks) to a pervading conspiracy among the organizers of the Dark Tournament, Team Urameshi's plate is wiped clean of soldiers left to fight in the twisted event.Meanwhile, Genkai formally reveals herself to Yusuke and gives him the final test to be the sole heir to her formidable technique - a concentrated ball of aura! But due to the conditions surrounding his 'second life,' Yusuke must be ready and able to inherit the technique - or he dies!",
+      release_date: "December 1st 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1829.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 13: The Executors of a Dying Wish!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "This is it, folks - the conclusion of the long and deadly Dark Tournament. But don't worry - there's lots more to come because a new adventure starts with this volume! After the Dark Tournament ends, Yusuke and his friends come home for a much deserved rest. The vacation is cut short when Yusuke is taken hostage by three classmates who have recently gained strange powers. It's up to Kuwabara and friends to try and rescue him. But without their star fighter's abilities, will they be up to the task?",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1830.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 1: Goodbye, Material World!",
+      author: "Yoshihiro Togashi",
+      synopsis: "Yusuke Urameshi was a tough teen delinquent until one selfless act changed his life... by ending it. When he died saving a little kid from a speeding car, the afterlife didn't know what to do with him, so it gave him a second chance at life. Now, Yusuke is a ghost with a mission, performing good deeds at the behest of Botan, the spirit guide of the dead, and Koenma, her pacifier-sucking boss from the 'other side.' But what strange things await him on the borderline between life and death?",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1831.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 17: Showdown!",
+      author: "Yoshihiro Togashi",
+      synopsis: "Yusuke and the gang finally face off against Sensui in a final battle to defeat him and close the portal to the demon plane. The furious exchange of devastating punches and reigun blasts push both Sensui and Yusuke beyond the limits, setting off a transformation that no one, least of all Yusuke, ever expected!As things wind down from the battle, it's time to tie up a few loose ends. Then just when it looks like Yusuke might get some time off for a change, another message from the demon plane arrives that will set Yusuke's final destiny in motion! But first Yusuke needs to ask Keiko a very important question...",
+      release_date: "1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1832.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 14: A Bloody Past!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "With the Dark Tournament far behind them, the gang is in a whole new mess! Someone is trying to pick up where Sakyo's dream of opening a portal from the demon plane into the human world left off. Already, energy from their evil world is seeping through.",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1833.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 10: Unforgivable!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "Team Urameshi's successful campaign in the Dark Tournament continues after Fox Demon Kurama makes an honest monster out of Reverse Urashima. Too bad Reverse Uramshima's fellow Fractured Fairy Tale Shishiwakamaru silences him before he could divulge the truth about their team.Meanwhile, Team Urameshi suffers the biggest blow when one member bids them adieu... for good!",
+      release_date: "1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1834.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 15: Showdown at the Eleventh Hour",
+      author: "Yoshihiro Togashi",
+      synopsis: "Kuwabara's been kidnapped! Unbeknownst to anyone--especially him--his aura sword is so powerful it can actually cut holes between dimensions, which is exactly what his kidnapper Sensui is after. But Yusuke's not giving up so easily and sets off in pursuit on a bicycle.Then Yusuke and his old friends and new allies are put to the test when they battle a bratty little kid in a deadly video game contest! From trivia to battle tennis, the contest heats up! Who will come out on top and who will face the dreaded 'Game Over'?",
+      release_date: "1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1835.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 18: The Demon Plane Unification Tournament",
+      author: "Yoshihiro Togashi",
+      synopsis: "After the epic struggle to close the tunnel to the demon plane, Yusuke and the gang take some hard-earned time off. It's still a busy year, and Hiei and Kurama both spend time training and taking care of some loose ends from their pasts. Meanwhile, Yusuke trains with Raizen and ends up in charge of the old demon's domain!The other kings of the underworld won't stand for this state of affairs for long, so Yusuke proposes a new tournament, and the winner will be king of the demon plane!",
+      release_date: "1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1836.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 11: Eat or Be Eaten!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "The Dark Tournament is finally down to the wire. After a long trail of brutal bloodshed, the stage has been set for the ultimate showdown between Team Urameshi and Team Toguro. And now that Kurama can transform into a fox demon at will by drinking the potion from the Seed of De-Incarnation--a lovely parting gift from Suzuki, The Beautiful Fighter--his ferocious plants have been given a much-needed energy boost.Meanwhile, Sakyo reveals that his grand plan is to create a path between the demon plane and the human world, allowing powerful demons to come through and wreak havoc in the human realm. Could this be the beginning of the end for humans...?",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1837.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 5: Focus Your Mind as One!",
+      author: "Yoshihiro Togashi",
+      synopsis: "Yusuke Urameshi was just another street punk until he died in an unexpected act of self-sacrifice... and came back. Now he's the Underworld's official supernatural detective, charged with keeping the peace between the mortal and immortal realms.That peace has been shattered. A gang of demons called the Four Beasts is infecting humanity with a swarm of nasty supernatural brain bugs. The only way to control the bugs is with an enchanted whistle... and the only way to the whistle is straight through the Four Beasts! Yusuke and his fellow delinquent Kuwabara have descended into the Underworld to do a little exterminating, but the two human teenagers can't take down the toughest demonic criminals on the supernatural plane! Good thing they've got backup...",
+      release_date: "March 1st 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1838.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 7: Knife-Edge Death Match",
+      author: "Yoshihiro Togashi",
+      synopsis: "Yusuke Urameshi was a teen delinquent until a selfless act changed his life... by ending it. The afterlife didn't know what to do with him, so he got a second chance at life. What strange things await him on the borderline between life and death?",
+      release_date: "August 10th 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1839.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 12: The Championship Match Begins!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "When Kuwabara learns the truth about Genkai's demise, he takes the news hard, wondering why Yusuke waited so long to tell him. Then the elder Toguro reappears and taunts the team about Genkai's death! It's not a good idea to tease those experiencing great sorrow--a lesson the elder Toguro quickly learns, but not from the one you'd expect to teach him.Then it's the match you've all been waiting for--Yusuke vs. younger Toguro! Witness fisticuffs the likes of which you've never before seen! Toguro powers up to 80 percent full fighting capacity and emits an aura so toxic it melts the weakest of the demons watching the tournament--and that's just the beginning!",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1840.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 6: The Dark Tournament",
+      author: "Yoshihiro Togashi",
+      synopsis: "When the Black Book Club kidnaps a beautiful ice spirit named Yukina and torments her for the sake of her priceless crystal tears, Yusuki, teenage delinquent and part-time Underworld Detective, is dispatched to rescue Yukina and break up the club.",
+      release_date: "June 1st 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1841.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 16: Into the Demon Plane!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "Itsuki locks the others away in a separate dimension so Yusuke and Sensui can fight undisturbed. Under intense pressure, Sensui's real personality, suppressed for so long, starts to come out. Then Koenma shows up and things really start to get hot, forcing Yusuke to resort to desperate measures to draw their enemies out.Kuwabara and the rest of the crew escape Itsuki's clutches and plunge into the Demon Plane after Sensui. Meanwhile, the Underworld special defense force goes looking for Yusuke. What secret do they know about Yusuke that is enough to sign his death warrant?",
+      release_date: "1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1842.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 8: Open Your Eyes!!",
+      author: "Yoshihiro Togashi",
+      synopsis: "Dr. Ichigaki's ultimate biological weapons are in the ring, but Team Urameshi is suddenly having a severe attack of conscience. After Kuwabara's enlightening reverie about how Dr. Ichigaki implanted blood-slaver nodes in the brains of Master Mitamura's martial-arts students, Yusuke and company just don't have the heart to conduct their demon-slaying business as usual.",
+      release_date: "September 1st 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1843.jpg"},
+
+{
+      title: "Yu Yu Hakusho, Volume 3: In the Flesh",
+      author: "Yoshihiro Togashi",
+      synopsis: "Yusuke's new after-school job is working for Botan and Koenma, bringing in renegade demons. But when three demons - a soul-devouring ogre, a shape-shifter, and the deadly Hiei of the Thousand Eyes - escape to the human world with evil artifacts, Yusuke's job turns into a trial by fire.",
+      release_date: "1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1844.jpg"},
+
+      [genres[0], genres[10], genres[20], genres[18]]
+      ],
+[
+{
+      title: "Gin Tama, Vol. 2",
+      author: "Hideaki Sorachi",
+      synopsis: "The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity.",
+      release_date: "July 2nd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1845.jpg"},
+
+{
+      title: "Gin Tama, Vol. 16",
+      author: "Hideaki Sorachi",
+      synopsis: "It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment! R to L (Japanese Style).   1. Mandatory driving classes for Shinsengumi officers 2. Unibrows for everyone! 3. Zero-tolerance policy for cheesy 'hard-boiled' dialog 4. Lock up all the pervy architects 5. I get in free to speed-dating parties The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity...",
+      release_date: "December 27th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1846.jpg"},
+
+{
+      title: "Gin Tama, Vol. 11",
+      author: "Hideaki Sorachi",
+      synopsis: "R to L (Japanese Style)The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity...The Sun Rises AgainGin's Surefire Dating Tips1. Chicks with cat ears that you meet online are always hiding something. 2. Riding with a cute girl on the back of your scooter is cool (but watch out for the rocket boost). 3. Never allow partially a blind ninja to take care of your wounds (even if she looks hot in a nurse's uniform).4. When getting involved in a coup d'etat, remember to bring your umbrella (what's that got to do with dating?!)",
+      release_date: "February 3rd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1847.jpg"},
+
+{
+      title: "Gin Tama, Vol. 7",
+      author: "Hideaki Sorachi",
+      synopsis: "• An ongoing manga series in Japan—17 volumes released and over 13 million copies sold in Japan to date• Each volume is a top ten selling manga title in Japan upon release.• 2.7 million copies sold in Japan in its first year (2004)--Vol. 1 through 4• Gin Tama anime currently running on TV Tokyo.• Sorachi made his manga debut with the one-shot story DANDELION, which is included in volume 1 of the GIN TAMA graphic novel.• Previewed and promoted in VIZ Media’s Shonen Jump magazine.• Originally serialized in Japan’s manga anthology Weekly Shonen Jump.• Official Japanese Website  • Translated into Korean and ChineseThe samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity. Yoruzuya Hit List  (Exploding Targets):1.  The Shinsegumi elite police and Gin (innocent bystander).               2.  Chief Kondo and Gin's new workplace (during their shift).3.  Human shields named Kondo, Yamazaki, and Gin.4.  The special New Year's issue of Shonen Jump magazine and Gin.5. Gin's apartment (more than once).6. Fireworks and...not Gin.",
+      release_date: "May 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1848.jpg"},
+
+{
+      title: "Gin Tama, Vol. 15",
+      author: "Hideaki Sorachi",
+      synopsis: "It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment! R to L (Japanese Style).   1. If Kondo marries a gorilla, does that mean his kids will be chimpanzees? 2. Which is better to use as body armor, shojo or shonen manga? 3. How do you get a horny robot dog off your leg? 4. If I become shogun and order you to kill yourself, will you do it? 5. How much hot pepper do you have to eat to make your hair get frizzy? The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity...",
+      release_date: "November 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1849.jpg"},
+
+{
+      title: "Gin Tama, Vol. 14",
+      author: "Hideaki Sorachi",
+      synopsis: "R to L (Japanese Style). When you smash the dish that's strapped to my headYou're doing it for honor so it's all okaySandpaper makes lousy toilet tissue (someone said)You can use my picture (but you're gonna pay)Don't fight for Otae (Shinpachi should)Oh, baby you make it hurt so gooood!",
+      release_date: "September 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1850.jpg"},
+
+{
+      title: "Gin Tama, Vol. 10",
+      author: "Hideaki Sorachi",
+      synopsis: "The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity.Even an Inch-long Insect Has a SoulGin's 'Five Things They Don't Teach You in Samurai School' List 1. Gold can be found in the strangest places (not always up your nose).2. Talking smack to a blind swordsman is NEVER a good idea.3. Stomping on giant beetles the size of small cars is both messy and really dangerous.4. When the scariest thing in your haunted house is one of your customers, just pack up and go home for the day.5. Just because your date has cat ears doesn't necessarily mean she's an alien.The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity...",
+      release_date: "December 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1851.jpg"},
+
+{
+      title: "Gin Tama, Vol. 20",
+      author: "Hideaki Sorachi",
+      synopsis: "It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment!Reads R to L (Japanese Style), for T+ audiences. 1. Blatantly rip off other  manga. 2. Make sure the gorilla (artist) gets lots of bananas.3. Add lots of emotional death scenes and sappy dog funerals.4. Make Yamazaki the main character.5. Have plenty of nude beach scenes...with Shinpachi!",
+      release_date: "October 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1852.jpg"},
+
+{
+      title: "Gin Tama, Vol. 23",
+      author: "Hideaki Sorachi",
+      synopsis: "It's samurai vs. aliens!Reads R to L (Japanese Style), for audiences T+  Gin&#8217;s Hot Spring Travel Tips 1. If it looks like a haunted mansion, it probably is 2. Ghosts like hot baths too 3. Skid marks on your briefs are unavoidable 4. Return your rented DVDs before you leave 5. When being chased by angry ghosts you only need to run faster than Shinpachi Final Volume!",
+      release_date: "April 4th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1853.jpg"},
+
+{
+      title: "Gin Tama, Vol. 12",
+      author: "Hideaki Sorachi",
+      synopsis: "R to L (Japanese Style)The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity...The Longest Way Around Is the Shortest WayThings I've Learned While Living With Gin (by Kagura)1. Buildings get destroyed because they are in the way.2. If you're going to stalk someone, watch out for pit-traps!3. People who say Santa doesn't really exist actually want to believe in him.4. Some people (Shinpachi) are always the butt of the joke.5. No matter what Gin says ice cream is a great prize for winning a snowball fight, uh-huh!",
+      release_date: "April 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1854.jpg"},
+
+{
+      title: "Gin Tama, Vol. 21",
+      author: "Hideaki Sorachi",
+      synopsis: "It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment!Reads R to L (Japanese Style) T+ audience. Shinpachi&#8217;s List of Things I Learned During My Summer Vacation 1. Never trust a guy in a turtle suit! 2. Sometimes the age to wisdom ratio isn&#8217;t what it should be. 3. If you want to see how a woman will age, look at her mother. 4. Whack-a-Mole is awesome. 5. Parents still don&#8217;t understand.",
+      release_date: "December 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1855.jpg"},
+
+{
+      title: "Gin Tama, Vol. 17",
+      author: "Hideaki Sorachi",
+      synopsis: "It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment!R to L (Japanese Style). It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment!   Gin's Top 5 List of Things to Look For When Hiring a Maid  1. Alien robot head? Attached! 2. King-sized pooper scooper? Check! 3. Mad scientist to keep mechanical maid army running? Check! 4. Main battle tank gassed up? Check! 5. Extra-manly moustache? Check! What?!",
+      release_date: "March 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1856.jpg"},
+
+{
+      title: "Gin Tama, Vol. 18",
+      author: "Hideaki Sorachi",
+      synopsis: "万事屋VS真選組のゲーム対決最終戦は、仮想現実世界でのRPG対決！！　意外な武器が勝負を決める事に！？　他にも洞爺湖の仙人的なオジさんとかウルトラなヒーローとかマダオ裁判の弁護人銀時とか断食道場本気闘争とか！",
+      release_date: "May 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1857.jpg"},
+
+{
+      title: "Gin Tama, Vol. 19",
+      author: "Hideaki Sorachi",
+      synopsis: "It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment!Reads R to L (Japanese Style). It's samurai vs. aliens!; He's too busy fighting aliens, the yakuza and unemployment! A Schemer Caught in His Own Scheme. Top 5 Things to Consider Before Joining the Shinsengumi: 1. Your sword might be cursed by the vengeful spirit of an anime otaku. 2. Rivalries and betrayals may lead to a short and painful career.3. No Shonen Jump manga allowed4. You're a nobody unless you can afford the sword with the built-in MP3 player. 5. The black uniforms are killer on a hot summer day!",
+      release_date: "August 3rd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1858.jpg"},
+
+{
+      title: "Gin Tama, Vol. 9",
+      author: "Hideaki Sorachi",
+      synopsis: "The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity.Gin's 'to do' list for this volume:1. Stock up on paper napkins and stain remover.2. Think of a good excuse not to buy Hasegawa a new shirt.3. Find out who swiped my strawberry milk from the fridge. 4. Get tickets to the game at Edo Dome.5. Tell Shinpachi, Kondo and Matsudaira they're buying if they want me to go for drinks with them.The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity...",
+      release_date: "October 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1859.jpg"},
+
+{
+      title: "Gin Tama, Vol. 5",
+      author: "Hideaki Sorachi",
+      synopsis: " 1. Sea Monster extermination 2. Traveling exorcism 3. Convenience-store sitting/motorcycle gang thrashing 4. Rescuing kidnapping victims (willing and unwilling)  Pachinko, TV shopping, extricating self from shotgun weddings, etc.",
+      release_date: "December 27th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1860.jpg"},
+
+{
+      title: "Gin Tama, Vol. 6",
+      author: "Hideaki Sorachi",
+      synopsis: " 1. Zombie bear with mysterious mushroom growing out of head (magic?) 2. Crab chock-full of food poisoning (yum!) 3. Hot nurse in hospital (where we wind up due to #2) 4. Goro, queen of the human-size cockroaches (no comment) 5. 100 ice cream mini-cups (yum!) 6. The truth behind a cult that purports to make your dreams a reality (dream on…)",
+      release_date: "March 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1861.jpg"},
+
+{
+      title: "Gin Tama, Vol. 8",
+      author: "Hideaki Sorachi",
+      synopsis: "• An ongoing manga series in Japan—17 volumes released and over 13 million copies sold in Japan to date• Each volume is a top ten selling manga title in Japan upon release.• 2.7 million copies sold in Japan in its first year (2004)--Vol. 1 through 4• Gin Tama anime currently running on TV Tokyo.• Sorachi made his manga debut with the one-shot story DANDELION, which is included in volume 1 of the GIN TAMA graphic novel.• Previewed and promoted in VIZ Media’s Shonen Jump magazine.• Originally serialized in Japan’s manga anthology Weekly Shonen Jump.• Official Japanese Website ? • Translated into Korean and ChineseThe samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity. Do's and Don'ts for Daddy-Daughter Day:1.  Don't let alien monsters grow exponentially by siphoning energy from space terminals and eating your daughter.2.  Do show your dad you've learned to use your abnormal strength to help others--not hurt them.3.  Do respect your daughter's planetary preferences, especially when they're in writing.4.  Don't assassinate your daughter's boyfriend.",
+      release_date: "August 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1862.jpg"},
+
+{
+      title: "Gin Tama, Vol. 1",
+      author: "Hideaki Sorachi",
+      synopsis: "The samurai didn't stand a chance. First, the aliens invaded Japan. Next, they took all the jobs. And then they confiscated everyone's swords. So what does a hotheaded former samurai like Sakata 'Gin' Gintoki do to make ends meet? Take any odd job that comes his way, even if it means losing his dignity.",
+      release_date: "April 2nd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1863.jpg"},
+
+{
+      title: "Gin Tama, Vol. 13",
+      author: "Hideaki Sorachi",
+      synopsis: "R to L (Japanese Style). 1. Frontal wedgies are extremely effective.2. Girls hit a lot harder the more innocent they look (unless they are alien gorillas).3. Only morons start fights in the Ninja Bar. Yeah, only morons...4. Using a bazooka is cheating (but it sure settles things quickly).5. No one hits harder than Shinpachi's sister Otae when she's riled.",
+      release_date: "July 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1864.jpg"},
+
+      [genres[0], genres[14], genres[5], genres[1], genres[9], genres[18]]
+      ],
+[
+{
+      title: "Kamisama Kiss, Vol. 13",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy!Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity! Himemiko is convinced that her human boyfriend Kotaro could never love her in her true form, and that dating a yokai will only put him in danger. Even though she feels she can no longer see him, she vows to avenge the wounds he suffered at the hands of Nishiki of Inuaki Swamp. But Himemiko and Nishiki have been engaged since they were young. Will her quest for revenge bring all-out war to the swamps? Reads R to L (Japanese Style) for teen audiences.",
+      release_date: "September 20th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1865.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 10",
+      author: "Julietta Suzuki",
+      synopsis: "Reads R to L (Japanese Style), for audiences rated teen. Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity! Kuruma’s father, the Sojobo of the Kuruma tengu, is gravely ill. Nanami thinks she can cure him with her supply of Momotan, but first she needs to get past the magic shields of Jiro, the next in line for the leadership of the mountain. And Jiro isn’t the only thing on the mountain the gang needs to watch out for…",
+      release_date: "September 20th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1866.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 7",
+      author: "Julietta Suzuki",
+      synopsis: "Reads R to L (Japanese Style), for audiences T. Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity! Mizuki loves living at the shrine with Nanami, but he hates that he has to stay behind when she goes to school. He hates even more that Tomoe gets to go with her. But Mizuki isn’t used to the human world, so Nanami thinks it’s safer if he just stays put. Can Mizuki become a master of the mundane, or will his secret foray into town end in disaster?!",
+      release_date: "September 17th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1867.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 11",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy!Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity! New Year’s is coming up, and that means the Tochigami Shrine needs to send a representative to greet the toshigami, the visiting kami who assures a good harvest for the year. Nanami insists on going with her shinshi but gets stuck in limbo at the meeting place. Her shinshi rush to get her back, but instead they all end up trapped in Nanami’s troubled childhood… Reads R to L (Japanese Style) for teen audiences.",
+      release_date: "January 20th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1868.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 12",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy!Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity! Himemiko, ayakashi ruler of Tatara swamp, is happily dating her human sweetie Kotaro. But yokai/human relationships are hard to manage, especially when the human has no idea who he’s dating! When the supernatural starts to intrude, can Himemiko tell Kotaro the truth about herself? Or will she lose him no matter what she does? Reads R to L (Japanese Style) for teen audiences.",
+      release_date: "April 20th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1869.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 8",
+      author: "Julietta Suzuki",
+      synopsis: "Reads R to L (Japanese Style), for audiences T. Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity! Things at the kami convention in Izumo aren’t going so well. Nanami tried to earn some respect by guarding death’s door while the keeper went off to party. But now she’s stuck in the land of the dead, and the residents seem to have a taste for new kami!",
+      release_date: "December 17th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1870.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 2",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy!Reads R to L (Japanese Style) T audience. Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity!Nanami doesn't want to miss out on the fun when a hot teen idol joins the student body. Tomoe reluctantly agrees to let her go, as long as she conceals her divine mark. After all, what could possibly go wrong at high school...?",
+      release_date: "2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1871.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 4",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy!Reads R to L (Japanese Style), for audiences T  Being a teen deity is tough! Not only does Nanami have her duties at the shrine, she has her female classmates begging her to get them dates with her yokai companions. Tomoe wants nothing to do with dating, so what is Nanami going to do about her growing feelings for him?",
+      release_date: "September 18th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1872.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 9",
+      author: "Julietta Suzuki",
+      synopsis: "Reads R to L (Japanese Style), for audiences rated teen. Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwittingly taken over his job as a local deity! Nanami may have been (begrudgingly) accepted by the other kami at Izumo, but that doesn't make her any less human or help her deal with her growing feelings for Tomoe. Should she be true to her heart or cut Tomoe loose for his own good? Either way, getting dragged into a group date isn't going to help matters at all!",
+      release_date: "May 19th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1873.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 5",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy! After returning from a seaside vacation, Nanami is shocked to discover that the townsfolk consider her shrine abandoned. She decides to hold a summer festival for the local humans and yokai to revitalize the shrine's reputation. But Tomoe is strangely reluctant. Can Nanami pull off the festival with a little help from her yokai friends, or will Tomoe's naysaying spell disaster?",
+      release_date: "January 19th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1874.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 3",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy! Nanami has been missing a lot of school because of her new duties at the shrine. But every time she goes to class, something seems to go wrong! And now her instinct to rescue animals has turned and bit her on the wrist! Is she marked for life...or death?!",
+      release_date: "May 19th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1875.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 1",
+      author: "Julietta Suzuki",
+      synopsis: "A  comedy!Nanami Momozono is alone and homeless after her dad skips town to evade his gambling debts and the debt collectors kick her out of her apartment. So when a man she's just saved from a dog offers her his home, she jumps at the opportunity. But it turns out that his place is a shrine, and Nanami has unwillingly taken over his job as a local deity!Nanami has all kinds of new responsabilities she doesn't understand, dangers she's unaware of, and a cranky ex-familiar who's... actually pretty hot. What's a new-fledged godling to do?",
+      release_date: "2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1876.jpg"},
+
+{
+      title: "Kamisama Kiss, Vol. 6",
+      author: "Julietta Suzuki",
+      synopsis: "A divine comedy! Every year, kami from all over Japan gather in Izumo for a sort of divine convention. One of Mikage's friends comes to the shrine to invite Nanami to the retreat, but it turns out most of the other kami and Tomoe don't want her to go. Can Nanami prove she's kami enough to attend; or does she even want to bother?",
+      release_date: "May 19th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1877.jpg"},
+
+      [genres[4], genres[13], genres[15]]
+      ],
+[
+{
+      title: "Attack on Titan: No Regrets, Volume 01",
+      author: "Hajime Isayama",
+      synopsis: "THE THIEF AND THE SOLDIER The young Erwin Smith is a rising star in the Survey Corps, humanity’s only hope of defeating the man-eating monsters known as Titans. Ruthless and dispassionate, Erwin’s mind is devoted to strategies and intrigue. But beneath Erwin’s feet is another world, the Underground, where humans are born and die surrounded by the garbage the Capital throws away. Here, the criminal Levi survives on his wits and agility. But when these two ambitious men cross paths, who will prove himself stronger? The long-awaited origin story of Levi and Erwin, two of Attack on Titan’s most beloved characters!",
+      release_date: "April 9th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1878.jpg"},
+
+{
+      title: "Attack on Titan: No Regrets, Volume 02",
+      author: "Hajime Isayama",
+      synopsis: "REMEMBER YOUR TRUE ENEMYErwin’s political enemies have hired Levi and his crew to take back some incriminating documents. Their reward: the right to live a proud life above ground, in the royal capital. But deep in Titan territory, it’s going to be tough to break formation and steal from a squad leader, and Levi still insists on killing the man who humiliated him after the mission is complete. Of course, beyond the walls anything can happen, and a sudden change in Levi’s fortunes will force him to face the greatest regret in his life…FINAL VOLUME!",
+      release_date: "August 8th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1879.jpg"},
+
+      [genres[0], genres[21], genres[10], genres[20], genres[18]]
+      ],
+[
+{
+      title: "Death Note: Another Note - The Los Angeles BB Murder Cases",
+      author: "NisiOisiN",
+      synopsis: "There's a serial killer loose in Los Angeles and the local authorities need help fast. For some reason the killer has been leaving a string of maddeningly arcane clues at each crime scene. Each of these clues, it seems, is an indecipherable roadmap to the next murder.Onto the scene comes L, the mysterious super-sleuth. Despite his peculiar working habits, he's never shown his face in public—but this time, he needs help.Enlisting the services of an FBI agent named Naomi Misora, L starts snooping around the City of Angels. It soon becomes apparent that the killing spree is a psychotic riddle designed to specifically engage L in a battle of wits. Stuck in the middle between killer and investigator, it's up to Misora to navigate both the dead bodies and the egos to solve the Los Angeles Murder Cases.",
+      release_date: "2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1880.jpg"},
+
+{
+      title: "Death Note, Vol. 4: Love",
+      author: "Tsugumi Ohba",
+      synopsis: "With two Kiras on the loose, L asks Light to join the task force and pose as the real Kira in order to catch the copycat. L still suspects Light and figures that this is the perfect excuse to get closer to his quarry. Light agrees to the plan in order to have free access to the task force resources. But when Light manages to contact the new Kira, he discovers that his rival is anything but as expected. Will Light escape from love unscathed?",
+      release_date: "November 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1881.jpg"},
+
+{
+      title: "Death Note, Vol. 3: Hard Run",
+      author: "Tsugumi Ohba",
+      synopsis: "Light is chafing under L's extreme surveillance, but even 64 microphones and cameras hidden in his room aren't enough to stop Light. He steps up the game, but before the battle of wits can really begin, a family emergency distracts him. But even though Light isn't using the Death Note right now, someone else is! Who's the new 'Kira' in town?",
+      release_date: "September 3rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1882.jpg"},
+
+{
+      title: "Death Note: Black Edition, Vol. 5",
+      author: "Tsugumi Ohba",
+      synopsis: "Killer 2-for-1 value on hit thriller Death Note!Reads R to L (Japanese Style), for audiences T+  Contains Volumes 9 and 10 of Death Note! Light Yagami is an ace student with great prospects--and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and now Light has vowed to use the power of the Death Note to rid the world of evil. Will Light's noble goal succeed, or will the Death Note turn him into the very thing he fights against?",
+      release_date: "2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1883.jpg"},
+
+{
+      title: "Death Note, Vol. 8: Target",
+      author: "Tsugumi Ohba",
+      synopsis: "Light, working as Kira, the newest member of the NPA intelligence bureau, and L, has nearly succeeded in creating his ideal world. But the years of uncontested victory have made him complacent, and he is unprepared for a new attack close to home. With his younger sister Sayu kidnapped and the NPA's Death Note demanded as ransom, Light must travel across the world and confront two new adversaries, each with a very different agenda. Will Light's quick wits be a match for this new challenge, or will he be forced to choose between Kira's ambitions and his own family's lives?",
+      release_date: "September 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1884.jpg"},
+
+{
+      title: "Death Note, Vol. 11: Kindred Spirits",
+      author: "Tsugumi Ohba",
+      synopsis: "Light's latest machinations are putting a strain on even his formidable intellect as Near flies to Japan to beard Kira in his den. Near is sure that Light is Kira, but his sense of honor as L's heir will allow no doubts. He doesn't want to just stop the Kira murders, he wants to expose Light as the Death Note killer. Light thinks he's up to the challenge, but will the pressures of his fiancée, his new flame, and his acolyte prove to be fatal distractions?",
+      release_date: "May 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1885.jpg"},
+
+{
+      title: "Death Note, Vol. 10: Deletion",
+      author: "Tsugumi Ohba",
+      synopsis: "With Near openly suspecting the new L of being Kira and sowing doubt in the hearts of the taskforce members, Light is once again forced to pass the Death Note on to another to take the heat off himself. But this time, Kira chooses a disciple from among his true believers. With no way to contact his successor directly, Light must rely on his faithful follower's adherence to Kira's goals. Will this newest move bring Light's ideal world closer to reality? Or will losing control of the Death Note spell Light's doom?",
+      release_date: "February 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1886.jpg"},
+
+{
+      title: "Death Note, Vol. 5: Whiteout",
+      author: "Tsugumi Ohba",
+      synopsis: "After a week locked up with no one but Ryuk for company, Light is ready to give up his Death Note and all memories of it. Freed from his past actions, Light is convinced he's innocent. But L is ready to keep Light under lock and key forever, especially since the killings stopped once Light was incarcerated. Then a new wave of Kira crimes hits Japan. Someone else has gotten their hands on a Death Note, and these new deaths aren't focused on making the world a better place, they're focused on making money. Big business can be murder, and Kira has gone corporate!",
+      release_date: "February 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1887.jpg"},
+
+{
+      title: "Death Note, Vol. 1: Boredom",
+      author: "Tsugumi Ohba",
+      synopsis: "Light tests the boundaries of the Death Note's powers as L and the police begin to close in. Luckily, Light's father is the head of the Japanese National Police Agency and leaves vital information about the case lying around the house. With access to his father's files, Light can keep one step ahead of the authorities. But who is the strange man following him, and how can Light guard against enemies whose names he doesn't know?",
+      release_date: "April 2nd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1888.jpg"},
+
+{
+      title: "Death Note, Vol. 6: Give-and-Take",
+      author: "Tsugumi Ohba",
+      synopsis: "Although they've collected plenty of evidence tying the seven Yotsuba members to the newest Kira, Light, L and the rest of the task force are no closer to discovering which one actually possesses the Death Note. Desperate for some headway, L recruits Misa to infiltrate the group and feed them information calculated to bring Kira into the open. But the Shinigami Rem reveals to Misa who the Kiras really are, and, armed with this knowledge, Misa will do anything to help Light. But what will that mean for L...?",
+      release_date: "April 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1889.jpg"},
+
+{
+      title: "Death Note, Vol. 13: How to Read",
+      author: "Tsugumi Ohba",
+      synopsis: "An encyclopedic guide to the  manga series, including character bios, storyline summaries, interviews with creators Tsugumi Ohba and Takeshi Obata, production notes and commentaries, and bonus manga pages. Light Yagami is an ace student with great prospects--and he's bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and now Light has vowed to use the power of the Death Note to rid the world of evil. But when criminals begin dropping dead, the authorities send the legendary detective L to track down the killer. With L hot on his heels, will Light lose sight of his noble goal…or his life?",
+      release_date: "October 13th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1890.jpg"},
+
+{
+      title: "Death Note, Vol. 12: Finis",
+      author: "Tsugumi Ohba",
+      synopsis: "The battle ends here!",
+      release_date: "July 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1891.jpg"},
+
+{
+      title: "Death Note, Vol. 2: Confluence",
+      author: "Tsugumi Ohba",
+      synopsis: "Light thinks he's put an end to his troubles with the FBI—by using the Death Note to kill off the FBI agents working the case in Japan! But one of the agents has a fiancée who used to work in the Bureau, and now she's uncovered information that could lead to Light's capture. To make matters worse, L has emerged from the shadows to work directly with the task force headed by Light's father. With people pursuing him from every direction, will Light get caught in the conflux?",
+      release_date: "July 2nd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1892.jpg"},
+
+{
+      title: "Death Note: L, Change the World",
+      author: "Tsugumi Ohba",
+      synopsis: "In an alternative continuity in the  setting, ace detective L's name has been placed in a Death Note. He has twenty-three days to bring a terrorist group to justice, or they will use a deadly new virus to change the world—by killing off most of humanity.",
+      release_date: "2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1893.jpg"},
+
+      [genres[0], genres[7], genres[8]]
+      ],
+      [
+{
+      title: "Pet Shop of Horrors, Vol. 1",
+      author: "Matsuri Akino",
+      synopsis: "A smoke-filled alley in Chinatown harbors Count D's Pet Shop. The pets sold here aren's your everyday variety and the Count prides himself on selling Love and Dreams in the form of magical creatures that come with an exclusive contract. But buyers beware. If the contract is broken the Count cannot be held accountable for whatever may happen. A fascinating and macabre look into the very soul of human nature. ",
+      release_date: "February 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1894.jpg"},
+
+{
+      title: "Pet Shop of Horrors, Volume 09",
+      author: "Matsuri Akino",
+      synopsis: "Book by Akino, Matsuri",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1895.jpg"},
+
+{
+      title: "Pet Shop of Horrors, Vol. 2",
+      author: "Matsuri Akino",
+      synopsis: "Count D and his exotic pets have a way of changing a person's life for better or for worse. Whether it is fulfilling one's deepest desire or teaching an errant soul an important lesson in life, his magic always comes with a price.",
+      release_date: "August 12th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1896.jpg"},
+
+      [genres[4], genres[21], genres[8], genres[18]]
+      ],
+      [
+{
+      title: "Uzumaki, Vol. 2",
+      author: "Junji Ito",
+      synopsis: "A sleepy town on the coast of Japan is under quiet, deadly siege, not by a person or group but by a primeval spiral shape whose victims include both parents of Shuichi Saito. In this second volume of the saga, Shuichi's girlfriend Kirie becomes further involved in the town's terrible secret when schoolmates start turning up as horrible human snails and something unspeakable is discovered within the walls of the local hospital.",
+      release_date: "February 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1897.jpg"},
+
+{
+      title: "Uzumaki, Vol. 3",
+      author: "Junji Ito",
+      synopsis: "Kurozu-cho, a fogbound town on the coast of Japan, is haunted by a recurring pattern: a spiral manifesting itself in increasingly terrifying ways. In this third and final volume, the town is cut off from the outside by devastating hurricanes. Kirie, her boyfriend Shuichi, and the other desperate survivors must face the impending horror. The movie version of Uzumaki will soon be released in the U.S.",
+      release_date: "September 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1898.jpg"},
+
+{
+      title: "Uzumaki, Vol. 1",
+      author: "Junji Ito",
+      synopsis: "Shortly after Shuichi Saito's father becomes obsessed with spirals -- snail shells, whirlpools, and man-made patterns -- he dies mysteriously, his body positioned in the shape of a twisted coil. Soon, the entire town is afflicted with a snail-like disease.",
+      release_date: "August 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1899.jpg"},
+
+      [genres[7], genres[21], genres[18]]
+      ],
+      [
+{
+      title: "The Seven Deadly Sins, Vol. 2",
+      author: "Nakaba Suzuki",
+      synopsis: "SIN VS VIRTUETo save her kingdom, Princess Elizabeth has pinned her last hope on the infamous traitors, “The Seven Deadly Sins” and has set out on a journey with Meliodas—the Dragon Sin of Wrath—to seek out the rest of his fellow knights and former friends. Deep within an uninviting forest they find Diane, the Serpent Sin of Envy. Before they can celebrate their reunion, they must deal with an attack from Gilthunder, an electrifying Holy Knight!",
+      release_date: "April 17th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1900.jpg"},
+
+{
+      title: "The Seven Deadly Sins, Vol. 13",
+      author: "Nakaba Suzuki",
+      synopsis: "A GRAND SACRIFICE   The Seven Deadly Sins fight against Hendrickson in his new form as an evil god, and one by one, its members fall in the face of Hendrickson’s fury—even the mighty Meliodas. But just when it seems like all is lost, a mysterious figure courageously rises to save the day! And that valiant hero turns out to be a trusted friend and comrade! The prayers of a grief-stricken maiden awaken hidden powers, bringing miracles and hope back to life.",
+      release_date: "February 17th 2015",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1901.jpg"},
+
+{
+      title: "The Seven Deadly Sins, Vol. 3",
+      author: "Nakaba Suzuki",
+      synopsis: "Inside Baste Prison, Meliodas has an explosive reunion with Ban, the Fox Sin of Greed. However, trouble is on the horizon as their journey continues. Another member of The Seven Deadly Sins appears and is dead set on punishing Ban. The heroes clash as a feud is revived from their past!",
+      release_date: "June 17th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1902.jpg"},
+
+{
+      title: "The Seven Deadly Sins, Vol. 14",
+      author: "Nakaba Suzuki",
+      synopsis: "A NEW EVIL   Due to the great efforts of The Seven Deadly Sins, Hendrickson has been crushed and peace has been returned to Liones. But with one enemy vanquished, another formidable evil awakens and the identity of this villain will shake the kingdom. Meanwhile, Camelot and the Fairy King’s forest face sudden disaster and amidst the chaos the full story of the world will be revealed!",
+      release_date: "April 17th 2015",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1903.jpg"},
+
+{
+      title: "The Seven Deadly Sins, Vol. 15",
+      author: "Nakaba Suzuki",
+      synopsis: "THE HOLY WAR BEGINS A three thousand-year-old seal has been broken, awakening members of the Demon clan. The only person standing in their way is none other than Meliodas. With a difficult battle ahead of him, Meliodas must reclaim his Sacred Treasure if he hopes to stand a chance against these new and powerful enemies. Elsewhere, the Demon clan casts its shadow upon the Fairy King and his comrades and at the end of the ensuing battle, the true Fairy King will be revealed.",
+      release_date: "June 17th 2015",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1904.jpg"},
+
+{
+      title: "The Seven Deadly Sins, Vol. 12",
+      author: "Nakaba Suzuki",
+      synopsis: "BAN'S DECISIONMeliodas is on the verge of death as Elizabeth turns herself in to Hendrickson to save Gilthunder. During this moment of crisis, their trusted comrade, Ban the Undead, steps in. However, the Fox Sin of Greed they once knew is no longer—Ban bares his fangs and attacks, aiming straight for Meliodas's heart! The demon blood has begun to run its course; the Kingdom is being razed; and in the wake of it all, a powerful grotesque monster rises. Will the world be swallowed up by darkness, or is there another way?!",
+      release_date: "December 17th 2014",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1905.jpg"},
+
+{
+      title: "The Seven Deadly Sins, Vol. 1",
+      author: "Nakaba Suzuki",
+      synopsis: "When they were accused of trying to overthrow the monarchy, the feared warriors the Seven Deadly Sins were sent into exile. Princess Elizabeth discovers the truth - the Sins were framed by the king's guard, the Holy Knights - too late to prevent them from assassinating her father and seizing the throne! Now the princess is on the run, seeking the Sins to help her reclaim the kingdom. But the first Sin she meets, Meliodas, is a little innkeeper with a talking pig. He doesn't even have a real sword! Have the legends of the Sins' strength been exaggerated...?",
+      release_date: "February 15th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1906.jpg"},
+
+      [genres[0], genres[4], genres[1], genres[10], genres[18]]
+      ],
+[
+{
+      title: "Hellsing, Vol. 09",
+      author: "Kohta Hirano",
+      synopsis: "After Alucard's triumphant return, the streets of London were flooded with the blood of vampire Nazi soldiers and crazed Catholic warriors. After the dust settled, only the Hellsing order of Protestant knights was left standing. Now it's up to the earthly agents of divine punishment to save the souls of the innocent. However, chaos soon engulfs the streets yet again. Come to find out, not all the Nazis were vanquished after all. Will Alucard and his allies have what it takes to save what is left of the city?",
+      release_date: "July 1st 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1907.jpg"},
+
+{
+      title: "Hellsing, Vol. 10",
+      author: "Kohta Hirano",
+      synopsis: "Final Volume!One of the best things about Kohta Hirano's sexy apocalypse of warring vampires, Nazis, Catholics, werewolves, and Australian mercenaries is that all the way up to, and possibly through, this final volume, we don't know who's going to win. The streets of London are awash in blood, a zeppelin descends a la Hindenburg, and six of our favorite characters are locked in face-off fights. It's possible that no one will come away from this crescendo 'alive.' Of course, we're not sure who's alive or undead at this point. But what's most certain is that London needs babies, because there isn't a civilian soul left alive in this battle to the undeath. Alas, Hellsing, we knew you well.",
+      release_date: "March 27th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1908.jpg"},
+
+{
+      title: "Hellsing, Vol. 04",
+      author: "Kohta Hirano",
+      synopsis: "Chronicles the exploits of the secret Hellsing Organization, formed by the Hellsing family to protect England and the Protestant church from vampires and other monsters, and its top operative, the vampire Alucard.Hellsing 4Hirano, KohtaDiamond Comic Distributors2004/09/22208PAPERBACK",
+      release_date: "January 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1909.jpg"},
+
+{
+      title: "Hellsing, Vol. 07",
+      author: "Kohta Hirano",
+      synopsis: "What do you get when you mix reanimated Nazis, vampires, and freaky killer Catholics and Protestants breathing down each others’ necks? In the case of Hellsing, you get an all-out bloody war. Or such has proven to be the case so far. The world is engulfed in the flames of destruction, and all seems lost. Vernedead’s 'Geese' are literally being eaten alive, and it might just take half-vampire, Seras Victoria, a certain loss of innocence to provide a shred of hope. But that’s not all this story hinges on. The vampire Hellsing himself will surely show at some point, and the Catholic Iscariot Army, a dreaded force, is also on the march. This is a situation of boiling blood, and it’s about to burst!",
+      release_date: "December 27th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1910.jpg"},
+
+{
+      title: "Hellsing, Vol. 08",
+      author: "Kohta Hirano",
+      synopsis: "London is already bathed in blood, its citizenry almost entirely slaughtered by vampiric, reborn nazi soldiers. And marching through the rivers of blood - thousands of extreme Catholic warriors in creepy cloaks. But the focus of this chaotic eighth volume is the return of Alucard, the slave-paladin of the British Protestants, who's just piloted an aircraft character up the Thames to join the fray. It's a crazy face-off between three gory armies and their primary killers, and if you think that sounds nuts, wait until you dive into the crimson-stained new volume of Kohta Hirano's creepy-cool Hellsing manga series.",
+      release_date: "January 1st 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1911.jpg"},
+
+{
+      title: "Hellsing, Vol. 01",
+      author: "Kohta Hirano",
+      synopsis: "There's a secret organization somewhere in England created to defend the Queen and country from monsters of all sorts. Yes, it's hard to believe in this day and age.... but really, isn't this the true age of monsters?Enter Hellsing, an agency, long in tooth, with the experience, know-how, and...er...equipment to handle the problems that arise when vampires, ghouls take on these dark forces. 'What equipment?' you may say. How about another vampire, and a big pistol loaded with special silver bullets? That oughta do the trick.Hellsing the long-awaited manga is finally in America, thanks to Dark Horse Comics and the folks at Digital Manga, and you're gonna love it. Come get some smart-ass gore and action as only Japan seems to produce, in that crazy 'non-Western' formats the kids seem to love. And nice and thick at over 200 pages!",
+      release_date: "September 1st 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1912.jpg"},
+
+{
+      title: "Hellsing, Vol. 05",
+      author: "Kohta Hirano",
+      synopsis: "As the emerging Millennium Project, an army of Nazi undead, is unleashed upon the world. What ensues is a war of blood and nostalgia. Featuring old sharpshooter rifles, and throwback uniforms, mixed with jet technology and vampires, this title contains mysticism and apocalypse.",
+      release_date: "January 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1913.jpg"},
+
+{
+      title: "Hellsing, Vol. 03",
+      author: "Kohta Hirano",
+      synopsis: "What's left of the Hellsing crew and their new team of hired bodyguards have traveled to South American to investigate the Millennium threat.",
+      release_date: "December 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1914.jpg"},
+
+{
+      title: "Hellsing, Vol. 06",
+      author: "Kohta Hirano",
+      synopsis: "The war between three armies of vampires, humans, and those in between is in full swing. The Hellsing organization is embattled as London is falling to Nazi vampire forces, turning the city's citizens into rivers of blood and a population of ghouls. It looks like it might be the end of Sir Integral Wingates Hellsing and her henchman, Walter. But what's this? The Vatican? But that means the Vatican is unprotected. If you haven't figured it out yet, Earth is in chaos of a World War like no other. New forces will rise up, surprises of undead power will surge forth, guns will blaze, and blades will sing. There's no telling how this will end, as Hellsing clamors forward with a seething wit and a frantic pace, and style that passes beyond gothic grace.",
+      release_date: "November 14th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1915.jpg"},
+
+{
+      title: "Hellsing, Vol. 02",
+      author: "Kohta Hirano",
+      synopsis: "Hellsing continues with more blood, guts, ghouls, and gothic murder. Created by Kohta Hirano, and making its way into an incredibly popular anime, Hellsing pushes the boundary of horror, yet looks so visually stunning and graphically cool that instead of being scary, it's super fun. Certainly not intended for younger readers, this series follows the Hellsing Organization, an old institution created by English royalty to squash the ghoulish undead of the world, as they face an insurgence of murderous monsters running rampant across the isles, fueled by... could it be... Nazi's? Watch the dark story unravel as Dark Horse Manga presents Hellsing volume 2.",
+      release_date: "December 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1916.jpg"},
+
+      [genres[0], genres[7], genres[21], genres[18]]
+      ],
+[
+{
+      title: "Akira, Vol. 5",
+      author: "Katsuhiro Otomo",
+      synopsis: "In the 21st century, the once-glittering Neo-Tokyo lies in ruins, leveled in minutes by the infinite power of the child psychic giant, Akira. Now a wasteland of rubble and anarchy, the Great Tokyo Empire rises, a ragtag group of zealots and crazies who worship and fear Akira and his mad prime minister, Tetsuo, an angry teen with immense powers of his own -- and equally immense twisted ambitions. The planet at large is not taking the threat lying down, however, and the might of the world is ready to take on the Empire, but will technology's most advanced weaponry be enough to destroy Akira -- and is Tetsuo an ever greater threat? The fifth chapter in a sweeping epic of over 2000 pages, Akira vol. 5 is the penultimate act of a mind-blowing graphic-novel masterpiece of awe-inspiring imagination and gut-wrenching power, and the inspiration for the classic Akira animated film.",
+      release_date: "December 10th 1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1917.jpg"},
+
+{
+      title: "Akira, Vol. 6",
+      author: "Katsuhiro Otomo",
+      synopsis: "The explosive finale to one of graphic fiction's greatest achievements is here! The mad psychic colossus Tetsuo, the world's military, and the remaining psychics of The Project face off -- with the child psychic god, Akira, the wild card -- in what may not only decide the fate of mankind, but may determine the next step in human evolution! This long-awaited volume -- a staggering 440 pages -- features the impossible-to-find final chapters of Akira, never before collected in the U.S., presented as they were intended to be seen in their original, stunning black and white! Featuring a revised translation and top-quality art reproduction, this is the final edition of one of comics' definitive works, a six-volume epic of over two thousand pages. Katsuhiro Otomo's entire masterpiece is finally available -- only from Dark Horse!",
+      release_date: "March 23rd 1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1918.jpg"},
+
+{
+      title: "Akira, Vol. 2",
+      author: "Katsuhiro Otomo",
+      synopsis: "The science fiction tale set in 2019 in Tokyo after the city was destroyed by World War III, follows the lives of two teenage friends, Tetsuo and Kaneda, who have a consuming fear of a monstrous power known as Akira.",
+      release_date: "September 4th 1985",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1919.jpg"},
+
+{
+      title: "Akira, Vol. 1",
+      author: "Katsuhiro Otomo",
+      synopsis: "The science fiction tale set in 2019 in Tokyo after the city was destroyed by World War III, follows the lives of two teenage friends, Tetsuo and Kaneda, who have a consuming fear of a monstrous power known as Akira.",
+      release_date: "September 21st 1984",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1920.jpg"},
+
+{
+      title: "Akira, Vol. 3",
+      author: "Katsuhiro Otomo",
+      synopsis: "In the 21st century, the glittering Neo-Tokyo has risen from the rubble of a Tokyo destroyed by an apocalyptic telekinetic blast from a young boy called Akira -- the subject of a covert government experiment gone wrong now imprisoned in frozen stasis. But Tetsuo, an angry young man with immense and rapidly growing psychic abilities, has done the unthinkable: he has released Akira and set into motion a chain of events that could once destroy the city and drag the world to the brink of Armageddon. Resistance agents and an armada of government forces race against the clock to find the child with godlike powers before his unthinkable destructive abilities are unleashed! One of the true international classics of graphic fiction and unavailable for nearly a decade in America, Akira has once again taken America by storm, its first Dark Horse volume selling out almost overnight in comic shops and bookstores across the country!",
+      release_date: "September 1st 1986",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1921.jpg"},
+
+{
+      title: "Akira, Vol. 4",
+      author: "Katsuhiro Otomo",
+      synopsis: "The science fiction tale set in 2019 in Tokyo after the city was destroyed by World War III, follows the lives of two teenage friends, Tetsuo and Kaneda, who have a consuming fear of a monstrous power known as Akira.",
+      release_date: "July 10th 1987",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1922.jpg"},
+
+      [genres[7], genres[5], genres[20]]
+      ],
+[
+{
+      title: "Beast Master, Vol. 1",
+      author: "Kyousuke Motomi",
+      synopsis: "Reads R to L (Japanese Style). Taming a Beast was never this dangerous! ",
+      release_date: "June 25th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1923.jpg"},
+
+{
+      title: "Beast Master, Vol. 2",
+      author: "Kyousuke Motomi",
+      synopsis: "Taming a Beast was never this dangerous!R to L (Japanese Style). Taming a Beast was never this dangerous!  Leo's 18th birthday is around the corner, but celebrating seems impossible as someone is after Leo's life! Can Leo overcome the dangers of his past? Or will this beast-like boy be separated from his beloved 'master'...forever?",
+      release_date: "January 1st 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1924.jpg"},
+
+      [genres[14], genres[13]]
+      ],
+[
+{
+      title: "Reborn! Vol. 09: New Item Arrives!",
+      author: "Akira Amano",
+      synopsis: "Junior high student Tsuna is a failure at school, sports, and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!Tsuna, Reborn and their friends are in deep trouble! The villainous Mukuro appears to be unstoppable, and further efforts by Yamamoto and Gokudera to take him down only seem to prove the point. It finally falls to Tsuna to face this nemesis, though he knows he doesn't have a prayer of coming out of the encounter in one piece. His only hope is to receive a Deathperation Shot, but Reborn has only one left! Will it be enough? Junior high student Tsuna is a failure at school, sports, and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!",
+      release_date: "April 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1925.jpg"},
+
+{
+      title: "Reborn! Vol. 03: Faintly Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna, a timid junior high student, is a failure at school, sports, and social life. But everything changes for Tsuna when Reborn, a fedora-wearing, gun-toting toddler who claims to be an Italian hit man, shows up at his house. Reborn was sent to Japan to groom Tsuna for his future life as a big mafia boss! Reborn's gun has quite an unusual effect: When Reborn shoots people in the head, they die but are then 'reborn' with temporary supernatural powers that allow them to fulfill their dying wish. Reborn and Tsuna make an unlikely pair, but every day they're together, Tsuna gets reborn into a new (and better) guy!",
+      release_date: "March 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1926.jpg"},
+
+{
+      title: "Reborn! Vol. 05: The Prince of Star Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna becomes the protector of a master statistician and his book of statistics, which supposedly holds the key to Mafia control of the world! Naturally, other gangs would like to have this book, but that isn't Tsuna's biggest challenge. He also gets embroiled in the snowball fight to end all snowball fights, and finds himself on a zoo date with Kyoko!",
+      release_date: "July 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1927.jpg"},
+
+{
+      title: "Reborn! Vol. 06: Ochōshimono Arrives!",
+      author: "Akira Amano",
+      synopsis: "As if Reborn's training regimen at home and at school weren't harrowing enough, Tsuna soon discovers that even his vacations are now being co-opted by his 'tutor' to further the cause of turning Tsuna into a proper boss for the Vongola Family! But even his leisure travails pale when he finds out what awaits at the wedding of...Reborn and Bianchi!",
+      release_date: "September 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1928.jpg"},
+
+{
+      title: "Reborn! Vol. 17: Hibird Arrives!",
+      author: "Akira Amano",
+      synopsis: "The Power of the Rings Tsuna and his friends have been thrust ten years into the future, where all is decidedly not well. Their only hope of survival seems to lie with Lal Mirch, one-time associate of Tsuna's father Iemitsu.",
+      release_date: "November 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1929.jpg"},
+
+{
+      title: "Reborn! Vol. 07: Hot Summer Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna is targeted for assassination, so a weapons tuner for the Vongola Family arrives to upgrade Reborn's arsenal. This winds up creating a fair amount of chaos, but it's summer and Tsuna soon finds other distractions--learning to swim, taking part in a summer poetry contest, racing into the ocean to rescue a girl in distress, and defying a ghost bent on taking him to the 'other side'!",
+      release_date: "December 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1930.jpg"},
+
+{
+      title: "Reborn! Vol. 08: The Neighboring Town Boys Arrives!",
+      author: "Akira Amano",
+      synopsis: "Students at Tsuna's school are being attacked, and it's up to Tsuna and Reborn--on orders from the ninth generation boss of the Vongola Family--to figure out why and take the culprit down. Then it's time for a lunch break, featuring the ever-deadly cuisine of Bianchi, who has a lesson in love to teach. But the big surprise is Tsuna's discovery that a member of his 'family' has become a turncoat!",
+      release_date: "February 3rd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1931.jpg"},
+
+{
+      title: "Reborn! Vol. 16: Ten Years Later Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna is just a scaredy-cat junior high student who's no good at school or sports...until Reborn shoots him in the head and he starts life fresh with the power to solve his problems! Junior high student Tsuna is a failure at school, sports, and social life. He needs a mafia hit man mentor like he needs a hole in the head...and he's about to get both! Reborn's gun will kill you and make you stronger! Final Volume!Reads R to L (Japanese Style). Tsuna is just a scaredy-cat junior high student who's no good at school or sports...until Reborn shoots him in the head and he starts life fresh with the power to solve his problems!Junior high student Tsuna is a failure at school, sports, and social life. He needs a mafia hit man mentor like he needs a hole in the head...and he's about to get both!Reborn's gun will kill you and make you stronger! Ten Years LaterTsuna wins the Sky Battle and secures the Vongola succession at last. He responds by passing out, though he manages to revive in time to join his friends in a celebration of the victory. But just when things appear to be returning to normal, Reborn gets into a fight with Lambo. Lambo tries to shoot himself with his Ten-Year Bazooka and hits Reborn instead. What happens next launches Tsuna into his most bizarre adventure yet!",
+      release_date: "August 3rd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1932.jpg"},
+
+{
+      title: "Reborn! Vol. 13: The Mist Guardian Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna is just a scaredy-cat junior high student who's no good at school or sports...until  shoots him in the head and he starts life fresh with the power to solve his problems!Junior high student Tsuna is a failure at school, sports, and social life. He needs a mafia hit man mentor like he needs a hole in the head...and he's about to get both!Reborn's gun will kill you and make you stronger! R to L (Japanese Style).  Yamamoto uses the Shigure Soen Ryu sword technique taught to him by his father to battle Superbi Squalo, who has beaten a Shigure Soen Ryu practitioner once before! Even though Squalo sees through his moves, Yamamoto refuses to lose faith in the technique and presses on. The question is, does he have any chance of winning?! Meanwhile, the identity of the person chosen to be Tsuna's Mist Guardian is finally revealed! Junior high student Tsuna is a failure at school, sports and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!",
+      release_date: "January 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1933.jpg"},
+
+{
+      title: "Reborn! Vol. 02: Many Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna, a timid junior high student, is a failure at school, sports, and social life. But everything changes for Tsuna when Reborn, a fedora-wearing, gun-toting toddler who claims to be an Italian hit man, shows up at his house. Reborn was sent to Japan to groom Tsuna for his future life as a big mafia boss! Reborn's gun has quite an unusual effect: When Reborn shoots people in the head, they die but are then 'reborn' with temporary supernatural powers that allow them to fulfill their dying wish. Reborn and Tsuna make an unlikely pair, but every day they're together, Tsuna gets reborn into a new (and better) guy!",
+      release_date: "December 27th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1934.jpg"},
+
+{
+      title: "Reborn! Vol. 04: Bucking Bronco Arrives!",
+      author: "Akira Amano",
+      synopsis: "It's a reunion--mafia style! Dino, the 10th-generation of the Chiavorone family, and Reborn's former student, brings his squad of goons to pay Tsuna a visit. The explosive little Lambo decides to liven things up a bit by tossing several grenades at the goons. Things quickly escalate as Dino springs into action in a battle of whips versus grenades!",
+      release_date: "May 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1935.jpg"},
+
+{
+      title: "Reborn! Vol. 15: Zero Point Breakthrough Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna is just a scaredy-cat junior high student who's no good at school or sports...until Reborn shoots him in the head and he starts life fresh with the power to solve his problems! Junior high student Tsuna is a failure at school, sports, and social life. He needs a mafia hit man mentor like he needs a hole in the head...and he's about to get both! Reborn's gun will kill you and make you stronger!R to L (Japanese Style). Tsuna is just a scaredy-cat junior high student who's no good at school or sports...until  shoots him in the head and he starts life fresh with the power to solve his problems! Junior high student Tsuna is a failure at school, sports, and social life. He needs a mafia hit man mentor like he needs a hole in the head...and he's about to get both! Reborn's gun will kill you and make you stronger! : Tsuna finally faces Xanxus in the Ring battle! While they trade blows, Xanxus shows off the power of his Flames of Rage, the very ability possessed by the 2nd Generation boss of the Vongola. Tsuna soon discovers that Xanxus has brought a lot more to the party and is pummeled by attack after attack. Tsuna's friends, meanwhile, pass the Storm Ring around in an attempt to protect Lambo from the renewed fury of Leviathan!",
+      release_date: "May 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1936.jpg"},
+
+{
+      title: "Reborn! Vol. 12: Hard Battle Arrives!",
+      author: "Akira Amano",
+      synopsis: "The battle between the Varia assassins and Tsuna's 'family' for the Vongola rings is on! Tsuna's intervention on Lambo's behalf has caused forfeiture of both their rings, so it's up to Gokudera to hold up the side. He gives it his all, but the Varia are proving themselves masters of not playing fair and appear to view the rules, such as they are, as applicable only to their opponents!",
+      release_date: "October 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1937.jpg"},
+
+{
+      title: "Reborn! Vol. 14: The Sky Match Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsuna is just a scaredy-cat junior high student who's no good at school or sports...until  shoots him in the head and he starts life fresh with the power to solve his problems!Junior high student Tsuna is a failure at school, sports, and social life. He needs a mafia hit man mentor like he needs a hole in the head...and he's about to get both!Reborn's gun will kill you and make you stronger! R to L (Japanese Style).  Tsuna's old adversary, Mukuro Rokudo, has successfully fought on the side of Tsuna's 'family' for possession of the Mist Ring. But his opponent, the Varia known as Mammon, has a highly developed sense of never-say-die! Later, Tsuna finally completes his training and returns in time to confront one of the Varia who is running amok. The whole game changes, however, when he finds out who this Varia really is! Junior high student Tsuna is a failure at school, sports and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!",
+      release_date: "March 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1938.jpg"},
+
+{
+      title: "Reborn! Vol. 10: Ring Arrives!",
+      author: "Akira Amano",
+      synopsis: "Junior high student Tsuna is a failure at school, sports, and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!Tsuna faces a group of assassins that's taken exception to his candidacy for the coveted position of boss of the Vongola Family. With recent experience having made their deficiencies in fighting prowess glaringly apparent, Tsuna's 'family' members decide they need to undergo a serious training regimen in order to meet this new threat. It hardly helps that Tsuna, now possessed of an impressive new ability, needs the training more than anyone else!Junior high student Tsuna is a failure at school, sports, and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!",
+      release_date: "June 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1939.jpg"},
+
+{
+      title: "Reborn! Vol. 11: Varia Arrives!",
+      author: "Akira Amano",
+      synopsis: "Junior high student Tsuna is a failure at school, sports, and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!Tsuna and his friends continue to train for the imminent confrontation with the Varia. Tsuna manages to complete the second stage of his training and Yamamoto has learned all he can from his father about swordplay, but Gokudera has yet to master the fighting technique of Dr. Shamal. Meanwhile, two members of the Varia have arrived ahead of schedule and are looking to take out anyone in possession of a Vongola ring!",
+      release_date: "August 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1940.jpg"},
+
+{
+      title: "Reborn! Vol. 01: Reborn Arrives!",
+      author: "Akira Amano",
+      synopsis: "Tsunayoshi Sawada (Tsuna for short) is a cowardly junior high student who doesn't excel at academics or sports. He only attends school so he can stare at his beautiful classmate Kyoko from afar. But Tsuna's life takes a dramatic turn when Reborn, a suit-wearing, gun-toting baby who claims to be an Italian hit man, shows up at his house. Reborn was sent to Japan to groom Tsuna for his future life as a big Mafia boss. Tsuna doesn't believe this absurd story, so Reborn shoots Tsuna in the head with his gun. As Tsuna faces his own death, he's filled with regret that he never confessed his feelings to Kyoko...and suddenly he's overcome with supernatural powers that allow him to run off screaming to tell Kyoko how much he loves her. After five minutes, Tsuna goes back to normal. Reborn explains how his gun works: when he shoots a person in the head, if that person has regrets about her life, then she will die and be reborn, temporarily endowed with special powers that enable her to fix or solve whatever is the source of her regret. (If Reborn shoots someone who is free of regret, she would die.)Tsuna becomes Reborn's disciple, and because Reborn shoots Tsuna in the head all the time, he is constantly being reborn and growing into a stronger and better person, gradually impressing those around him and making friends.---Junior high student Tsuna is a failure at school, sports, and social life. He needs a Mafia hit man tutor like he needs a hole in the head...and he's about to get both!When Reborn, a fedora-wearing, gun-toting toddler, arrives and says he's come to groom Tsuna for his future as boss of an Italian organized crime family, Tsuna is more than a little skeptical. But Reborn may have the 'magic bullet' necessary to turn Tsuna's life around!",
+      release_date: "October 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1941.jpg"},
+
+      [genres[14], genres[4], genres[1], genres[10], genres[15]]
+      ],
+[
+{
+      title: "07 Ghost, Volume 06",
+      author: "Yuki Amemiya",
+      synopsis: "Ayanami has set his sights on capturing Teito at all costs, and has chosen the vessel with which to capture his prey -- the passionate and faithful Kuroyuri! When Kuroyuri's schemes place Teito at the mercy of Ayanami's entire military, Bishop Frau must make a soul-shattering decision between his duty as a Seven Ghost. . . and Teito's life.",
+      release_date: "May 24th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1942.jpg"},
+
+{
+      title: "07-Ghost, Volume 02",
+      author: "Yuki Amemiya",
+      synopsis: "His best friend's fate spurs Teito into trying to master the Bascule - a powerful weapon that can harness and focus his innate power. Friends become enemies and rivals become allies as Teito begins to fulfill his destiny, and protect his fallen country from the minions of his former masters.",
+      release_date: "January 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1943.jpg"},
+
+{
+      title: "07 Ghost, Volume 07",
+      author: "Yuki Amemiya",
+      synopsis: "Trapped in an ancient battle between a wicked God and the Seven Ghosts and guided by three mysterious priests, Teito discovers a power that could save the world. . . and shed light on his own mysterious past.",
+      release_date: "November 25th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1944.jpg"},
+
+{
+      title: "07-GHOST, Volume 16",
+      author: "Yuki Amemiya",
+      synopsis: "Years ago, the Seven Ghost Landkarte succumbed to a dark desire to eradicate all sin by erasing humanity. His plan has run unchecked for years, and now Frau, Teito, and fellow Seven Ghost Ea are the only ones left standing in his way. If Teito hopes to continue on his journey to seal the evil god Verloren, then he'll have to find a way to forgive even this most irredeemable of souls.",
+      release_date: "January 1st 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1945.jpg"},
+
+{
+      title: "07-Ghost, Volume 01",
+      author: "Yuki Amemiya",
+      synopsis: "Thousands of years ago, two powerful countries existed in a delicate balance of power. Each received a magical Eye to watch over it. Each thought they were invincible... until one fell. The destinies of both now depend on only one thing... a boy named Teito.",
+      release_date: "November 25th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1946.jpg"},
+
+{
+      title: "07-GHOST, Volume 15",
+      author: "Yuki Amemiya",
+      synopsis: "“The identities of the two final Seven Ghosts - revealed. The identity of the Warmonger - revealed. The twisted web of romance and blood relations that drew the Barsburg and Raggs empires into a tragic war - revealed. With all the cards laid on the table, the world of 07-Ghost stands poised for the final battle of good versus evil!",
+      release_date: "January 1st 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1947.jpg"},
+
+      [genres[4], genres[1], genres[18]]
+      ],
+      [
+{
+      title: "Parasyte, Volume 4",
+      author: "Hitoshi Iwaaki",
+      synopsis: "Shinichi, an ordinary high school student, is the only one who knows that aliens have invaded Earth and are controlling the minds of thousands of unwitting victims. It's a secret too dangerous to share...but too big to cover up. Then Shinichi meets Kana, a brave young girl with a strange gift that may allow her to detect the alien parasites. Has Shinichi at last found an ally to combat these creatures?",
+      release_date: "January 20th 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1948.jpg"},
+
+{
+      title: "Parasyte, Volume 2",
+      author: "Hitoshi Iwaaki",
+      synopsis: "Shin looks like an ordinary high school boy, but he has a terrible secret: an alien parasite has infected his body. This mysterious creature is ruthless, deadly, and utterly indifferent to human suffering...and it is beginning to assert itself over Shin. As Shinji fights for control of his body, can he also hold on to his humanity?",
+      release_date: "January 18th 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1949.jpg"},
+
+{
+      title: "Parasyte, Volume 7",
+      author: "Hitoshi Iwaaki",
+      synopsis: "Shinichi is both man and monster. He's an ordinary high school student whose body has been invaded by an alien parasite. And he alone knows a terrible secret: The aliens are plotting the destruction of humankind. Now Shinichi is the target - for both the government and the alien invaders - in a hunt that will lead to a terrifying, bloody showdown....",
+      release_date: "July 20th 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1950.jpg"},
+
+{
+      title: "Parasyte, Volume 6",
+      author: "Hitoshi Iwaaki",
+      synopsis: "Shinichi has been hiding his true nature from the world: His body has been colonized by an alien being, and now he's half-human, half-alien. The other alien invaders, led by the cruel and beautiful Tamura, have discovered his secret. Shinichi is a threat to their plan to destroy the human race - a threat that these ruthless creatures will no longer ignore....",
+      release_date: "January 19th 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1951.jpg"},
+
+{
+      title: "Parasyte, Volume 1",
+      author: "Hitoshi Iwaaki",
+      synopsis: "They arrive in silence and darkness. They descend from the skies. They have a hunger for human flesh. They are everywhere. They are parasites, alien creatures who must invade - and take control of - a human host to survive. And once they have infected their victims, they can assume any deadly form they choose: monsters with giant teeth, winged demons, creatures with blades for hands. But most have chosen to conceal their lethal purpose behind ordinary human faces. So no one knows their secret - except an ordinary high school student. Shin is battling for control of his own body against an alien parasite, but can he find a way to warn humanity of the horrors to come?",
+      release_date: "July 20th 1990",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1952.jpg"},
+
+{
+      title: "Parasyte, Volume 5",
+      author: "Hitoshi Iwaaki",
+      synopsis: "MONSTER Shinichi was just an ordinary high school student, until his body was invaded by a parasite, a horrifying alien being. Now Shinichi is a monster with a human face . . . and a human conscience. He is unlike anything else in the world-part man, part alien, and caught in a desperate struggle to save his own soul.",
+      release_date: "August 19th 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1953.jpg"},
+
+{
+      title: "Parasyte, Volume 3",
+      author: "Hitoshi Iwaaki",
+      synopsis: "ALIEN NATION Aliens parasites have invaded Earth and taken over the minds of ordinary people. Shin has been infected with a parasite, but he still can think and act for himself. Now he's been approached by two mysterious victims of the invasion: Tamiya, a beautiful schoolteacher, and Shimada, another student. What do the aliens want with humanity . . . and with Shin?",
+      release_date: "July 18th 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1954.jpg"},
+
+{
+      title: "Parasyte, Volume 8",
+      author: "Hitoshi Iwaaki",
+      synopsis: "MONSTER TWIST Shinichi vows to destroy Goto, one of the deadliest of the alien parasites that have invaded Earth-and people's bodies. But at the moment of truth, Shinichi discovers something unexpected in his heart: sympathy for the monster. Soon Shinichi, who harbors his own alien parasite, will come to a stunning realization about the dark side of human nature-and his own soul. This is the final volume of Parasyte. Includes special extras after the story!",
+      release_date: "February 16th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1955.jpg"},
+
+      [genres[7], genres[21], genres[5]]
+      ],
+      [
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 7: Castaway",
+      author: "Yuu Watase",
+      synopsis: "Now that the Seiryu Warriors have ruined their attempt to summon the god Suzaku, Miaka and her Celestial Warriors are forced to travel to a frozen northern country in hopes of gathering the sacred treasures that will grant them a second chance. Illustrations. Rated for older teens.",
+      release_date: "October 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1956.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 5: Rival",
+      author: "Yuu Watase",
+      synopsis: "A tale of a normal teenager who is transported into a fictional version of ancient China.",
+      release_date: "March 20th 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1957.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 14: Prophet",
+      author: "Yuu Watase",
+      synopsis: "When Miaka was whisked away into the pages of a mysterious old book, she began a dual existence, divided between her life as an ordinary schoolgirl in modern Japan and her role as a priestess in a fictional version of ancient China. Priestess Miaka and her Celestial Warriors saved the earth from destruction, and in the wake of their triumph, Miaka believed that the world of the book was closed to her forever… but she was wrong!Suzaku's ProphetThe voice of the god Suzaku is invading Miaka's thoughts, and she is given a new mission: to restore the balance of power between the four gods. To do it, Miaka must defeat a new foe - a rising, monstrous power with ambitions to take over all of the universes!",
+      release_date: "July 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1958.jpg"},
+
+{
+      title: "Fushigi Yûgi: VizBig Edition, Vol. 2",
+      author: "Yuu Watase",
+      synopsis: "Includes:Fushigi Yugi: The Mysterious Play, Volumes 4-6",
+      release_date: "2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1959.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 6: Summoner",
+      author: "Yuu Watase",
+      synopsis: "When best friends Miaka and Yui open an ancient Chinese book, they find themselves transported to a parallel world. Trapped in the Universe of the Four Gods, Miaka is identified as a priestess who must save an entire empire.",
+      release_date: "July 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1960.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 10: Enemy",
+      author: "Yuu Watase",
+      synopsis: "Convinced that she can never summon the God Suzaku and get her wishes granted, Miaka runs away from Tamahome and her celestial Warriors, straight into the arms of her enemy Amiboshi.",
+      release_date: "January 1st 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1961.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 1: Priestess",
+      author: "Yuu Watase",
+      synopsis: "When best friends Miaka and Yui open the pages of an ancient Chinese book, they are transported into the Universe of the Four Gods, a parallel world to ancient China. Now, to escape schoolwork and family problems, Miaka flees to the parallel world, only to find a lot more danger and romance than she bargained for.",
+      release_date: "May 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1962.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 17: Demon",
+      author: "Yuu Watase",
+      synopsis: "An enormous explosion rocks Taka's apartment complex with Taka is inside, and as fire engulfs the building, an image of the demon god Tenko appears in the flames Could Taka have been injured in the blast, or, worse, have fallen into Tenko's clutches? When Tenko steals the four stones that Miaka has already collected, is all hope lost for the return of Taka's memories? And will Tenko's manipulation of Taka and Miaka's friends slowly drive wedges between them and ensure their defeat?",
+      release_date: "April 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1963.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 15: Guardian",
+      author: "Yuu Watase",
+      synopsis: "Miaka must reenter The Universe of the Four Gods and collect the seven magic stones that contain her soulmate Taka's lost memories . . . or else risk losing him forever. Illustrations. Rated for older teens.",
+      release_date: "October 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1964.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 9: Lover",
+      author: "Yuu Watase",
+      synopsis: "Series Description: Fushigi Yugi features a modern girl magically transported into an ancient Chinese epic fantasy. When they open an ancient Chinese book, best friends Miaka and Yui are transported to the bizarre and dangerous Universe of the Four Gods. In a world with no fast food and no friends, they must find the seven Celestial Warriors and tap the power they hold. Attacks by ninja emissaries, an excursion into the court of the enemy, and Yui's sudden transformation into the Priestess of Seiryu put the two to the ultimate test A much-loved member of the Celestial Warriors of Suzaku has given his life for the sake of a treasure left behind by the god of the North. The Shentso-Pao is one of the keys to summoning the god Suzaku and having Miaka's most cherished wishes granted. Even if she passes the trials and obtains the treasure, can she hold onto it with the murderous Warriors of Seiryu close on her heels?",
+      release_date: "April 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1965.jpg"},
+
+{
+      title: "Fushigi Yûgi: VizBig Edition, Vol. 5",
+      author: "Yuu Watase",
+      synopsis: "R to L (Japanese Style). Get It All--Get Big , The 3-in- Edition Change Your Perspective--Get BIGA Collection of Volumes 13 - 15 Yui summons Seiryu and uses one of her wishes to make Nakago a god. She then sends Miaka back to the real world to separate her from Tamahome, but Tamahome holds on to Miaka, and the couple is sent to present-day Japan together. Suboshi follows Yui to Japan, intent on destroying Miaka for Yui. Simultaneous battles rage in both 'The Universe of the Four Gods' and in present-day Japan, and Celestial Warriors die. But Yui is soon to discover that having her wishes granted comes at a great personal price...",
+      release_date: "2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1966.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 2: Oracle",
+      author: "Yuu Watase",
+      synopsis: "Transported to the Universe of the Four Gods, Miaka is saved from the Imperial Guards when she is proclaimed to be the Priestess of Suzaku. But now she must deal with the lovestruck Emperor and the ire of his would-be bride.",
+      release_date: "May 1st 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1967.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 13: Goddess",
+      author: "Yuu Watase",
+      synopsis: "'First published by Shogakukan Inc. in Japan as 'Fushigi Yugi.' --t.p. verso.",
+      release_date: "April 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1968.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 16: Assassin",
+      author: "Yuu Watase",
+      synopsis: "As enigmatic exchange student Lian slowly takes control of the minds of everyone in school, his agenda becomes clear: he is training an army of assassins to kill Miaka. Illustrations. Rated for older teens.",
+      release_date: "January 26th 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1969.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 3: Disciple",
+      author: "Yuu Watase",
+      synopsis: "An exciting, funny, and heartfelt tale of a normal teenager who is transported into a fictional version of ancient China. She encounters base villains and dashing heroes, and still manages to worry about her grades and where her next meal is coming from!",
+      release_date: "1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1970.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 8: Friend",
+      author: "Yuu Watase",
+      synopsis: "Now that the Seiryu Warriors have ruined their attempt to summon the god Suzaku, Miaka and her Celestial Warriors are forced to travel to a frozen northern country in hopes of gathering the sacred treasures that will grant them a second chance. Rated for older teens.",
+      release_date: "January 26th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1971.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 4: Bandit",
+      author: "Yuu Watase",
+      synopsis: "When best friends Miaka and Yui open an ancient Chinese book, they find themselves transported to a parallel world. Trapped in the Universe of the Four Gods, Miaka is identified as a priestess who must save an entire empire.",
+      release_date: "January 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1972.jpg"},
+
+{
+      title: "Fushigi Yûgi: The Mysterious Play, Vol. 18: Bride",
+      author: "Yuu Watase",
+      synopsis: "The Neverending Story meets Romance of the Three Kingdoms in this praised shojo (girls') manga. When classmates Miaka and Yui open an ancient magical Chinese book, Miaka is transported inside, beyond the reach of schoolwork and family problems, into the Universe of the Four Gods. Heralded as the legendary Priestess of Suzaku, she becomes involved in romance and court politics, and must find the Seven Celestial Warriors of Suzaku to fulfill a prophecy and find her way home.",
+      release_date: "1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1973.jpg"},
+
+      [genres[4], genres[13], genres[1], genres[22]]
+      ],
+      [
+{
+      title: "Toradora! Vol. 5",
+      author: "Yuyuko Takemiya",
+      synopsis: "Ryuji Takasu thought that his ill-fated luck had turned around now that he was in Junior High sitting next to the girl of his dreams, Minori Kushieda. Ryuji was wrong; for after unwittingly crossing the most feared and fearsome girl in school, Taiga Aisaku, everything went off the deep end!New transfer student Ami might have won Ryuuji all to herself for the summer...but Taiga, Minori, and Kitamura won't be giving them a moment of peace! Let the wet hot Japanese summer begin!",
+      release_date: "January 1st 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1974.jpg"},
+
+{
+      title: "Toradora! Vol. 3",
+      author: "Yuyuko Takemiya",
+      synopsis: "'A romance of warmth and humor with an uncanny ability to dodge the excesses of the genre while exploiting all the joys it has to offer.'—Ryuji Takasu thought that his ill-fated luck had turned around now that he was in Junior High and sitting next to the girl of his dreams, Minori Kushieda. Ryuji was wrong; after he unwittingly crossed the most fearsome girl in school, Taiga Aisaku, everything went off the deep end! Taiga made Ryuji's life by taking it over, and Ryuji's every attempt to make peace led only to further complications.It's taken time, but Ryuji and Taiga have found some common ground and can at least tolerate each other (just a little). The problem is everyone in Ryuji's class is now convinced that he and Taiga are datingeven Minori! And to make matters even more embarrassing, Minori has given Ryuji and Taiga her blessings. How's Ryuji ever going to win Minori's heart?",
+      release_date: "September 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1975.jpg"},
+
+{
+      title: "Toradora! Vol. 7",
+      author: "Yuyuko Takemiya",
+      synopsis: "Ryuji Takasu thought that his ill-fated luck had turned around now that he was in Junior High sitting next to the girl of his dreams, Minori Kushieda. Ryuji was wrong; for after unwittingly crossing the most feared and fearsome girl in school, Taiga Aisaku, everything went off the deep end!It's taken time, but Ryuji and Taiga have slowly found some common ground and can at least tolerate each other (just a little). The problem is, Fate just doesn't seem to throw Ryuji a bone. Everyone in Ryuji's class is now convinced that he and Taiga are dating--even Minori! And to make matters even more embarassing, Minori has given Ryuji and Taiga her blessings. How's Ryuji ever going to win Minori's heart now?!",
+      release_date: "April 21st 2015",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1976.jpg"},
+
+{
+      title: "Toradora! Vol. 6",
+      author: "Yuyuko Takemiya",
+      synopsis: "A must-have for fans of over-the-top high school comedies like School Rumble and The Melancholy of Haruhi Suzumiya, this is the sixth volume in the bestselling series.The gang is back in school and it's nearly time for the Culture Festival. Ryuuji and Taiga and the rest of Class 2-C can't figure out what to do for the event, until a random lottery pick tasks them with presenting... a pro-wrestling performance?!Over on the home front, Taiga's dad has decided to pop back into her life. The possibility of a divorce with his current wife could mean a reunion with his estranged daughter, but Taiga doesn't trust the old man. Ryuuji feels conflicted. While he hopes for a happily-ever-after between father and daughter, it could spell the end of his own 'domestic bliss' with Taiga.",
+      release_date: "October 1st 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1977.jpg"},
+
+      [genres[14], genres[13], genres[15]],
+      ],
+      [
+{
+      title: "Blade of The Immortal, Volume 16: Shortcut",
+      author: "Hiroaki Samura",
+      synopsis: "As Rin frets over her bodyguard Manji's disappearance, she is surprised by the arrival of two warriors, the feisty Doa Yoshino and her companion, Isaku Yasono-okami. Rin quickly regrets her decision to let this couple stay with her, but her detective work takes priority when she returns to the stronghold of Habaki Kagamura to search for Manji.",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1978.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 21: Demon Lair II",
+      author: "Hiroaki Samura",
+      synopsis: "A prisoner subjected to Habaki Kagimura and crazy Doc Burando's twisted experiments for far too long, Manji finds himself closer to freedom than ever before -- but several colorful villains block his way! While the shogun's executioner matches Manji and Doa's skills, the reborn, powerful Isaku struggles with Asaemon and Kagimura's henchmen. The breakout battle in the tunnels beneath Edo Castle continues! With plenty of mortal enemies to go around, Manji and company are surprised by the appearance of Burando's most horrific kessen-chu success story, just as the already treacherous tunnels begin to flood. Rin tries to remain hopeful, Burando faces the reality of his 'immortality experiments' on Manji, and a monstrous villain makes a return appearance!",
+      release_date: "May 30th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1979.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 4: On Silent Wings",
+      author: "Hiroaki Samura",
+      synopsis: "Manji is one of the most skilled samurai in all of feudal Japan. He is also immortal, condemned to a life of combat until he spills the blood of a thousand evil men. But along with eternal life comes the need to make an eternal living, and so manji works as a bodyguard for Rin, who seeks to personally avenge her father's murder at the hands of one of Japan's deadliest swordsmen, Anotsu Kagehisa. But with Manji's instruction and her own burning thirst for retribution, can Rin ever stand against such a powerful and ruthless adversary? And in her quest to kill Anotsu, does she risk becoming more like him?",
+      release_date: "October 31st 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1980.jpg"},
+
+{
+      title: "Blade of the Immortal Volume 25: Snowfall at Dawn",
+      author: "Hiroaki Samura",
+      synopsis: "The showdown that fans have been waiting for begins here, as Manji and Shira finally cross swords! Although he's missing an arm, Manji's mystical healing powers still ensure that he's a formidable opponent -- but his greatest foe, the masochistic Shira, has a few depraved tricks up his own sleeves! With Shira deadlier than ever, having had plenty of time to plot twisted revenge schemes, will Manji be able to protect Rin from his deranged nemesis? Plus -- an Itto-ryu warrior dies, in typically dramatic Hiroaki Samura fashion. Samura's widely acclaimed Blade of the Immortal manga series has won awards across the globe, including the Eisner Award in America, the prestigious Media Arts Award of Japan, and multiple British Eagle Awards.",
+      release_date: "September 23rd 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1981.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 28: Raining Chaos",
+      author: "Hiroaki Samura",
+      synopsis: "Another group of suicidal soldiers face off! Heads and limbs fly as the vicious grudge match between desperate rogue Anotsu and disgraced officer Habaki continues! Three weird Rokki-dan thugs catch up to the fleeing Itto-Ryu crew -- with unexpected results! Hiroaki Samura's epic manga series nears its final volume, so now's the time to catch up with Manji, Rin, and your favorite battling groups of anachronistic, freakish warriors! Blade of the Immortal has won many awards across the globe, including the Eisner Award in America, the prestigious Media Arts Award of Japan, and multiple British Eagle Awards.",
+      release_date: "January 1st 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1982.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 1: Blood of a Thousand",
+      author: "Hiroaki Samura",
+      synopsis: "Blade of the Immortal,Vol. 1- Blood of a Thousand by Samura,Hiroaki. [2010] Paperback",
+      release_date: "September 22nd 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1983.jpg"},
+
+{
+      title: "Blade of the Immortal, Vol. 15: Trickster",
+      author: "Hiroaki Samura",
+      synopsis: "Kidnapped and bound by three Ittoryu warriors, Rin is unable to warn her bodyguard Manji, the immortal swordsman, that he's heading into a trap. To make matters worse, the Itto-ryu possess a large dose of kessen-satsu, the only poison known to damage Manji's blood and severely cripple his regenerative abilities. And is Mugai-ryu assassin Giichi following Manji in order to help rescue Rin … or will he just stick around long enough to finish off any survivors?",
+      release_date: "November 30th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1984.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 5: On Silent Wings II",
+      author: "Hiroaki Samura",
+      synopsis: "In her quest across feudal Japan to avenge the murder of her parents, Rin has seen too much death and agony. When Rin befriends a young boy, she is horrified to learn that his father is one of her parents' killers. Wery of blood, Rin now wishes only for an apology from the killer, a mask maker whose only desire is to keep his evil past from his son and who will take up the sword again to protect his secret. Protecting Rin, however, is the immortal samurai, Manji--but if he kills the mask maker, will Rin's young friend be drawn into the same cycle of vengeance that has scarred her own life?",
+      release_date: "1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1985.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 19: Badger Hole",
+      author: "Hiroaki Samura",
+      synopsis: "The time for reconnaissance, planning, and waiting is over! Rin and Doa, desperate to be reunited with their friends (or even reassured that they're alive), take their first bold steps in penetrating Edo Castle's defenses and foiling Kagimura's foul 'immortality' experiments! A trip to an old doctor, a chance encounter with a high-strung peasant, and an appearance by a strange, all-new Itto-ryu warrior combine to make this volume an important series of encounters in persistent Rin's quest to find Manji and Isaku-and in her own growth as a warrior! The 'Badger Hole' is a dank passageway that leads to an underground tunnel system beneath Edo Castle. With some new skills and tricks, these two young ladies brave darkness and the promise of death to run headlong towards Kagimura's cruel prisons, where Manji hangs drugged and helpless!",
+      release_date: "June 30th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1986.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 7: Heart of Darkness",
+      author: "Hiroaki Samura",
+      synopsis: "It is said that the enemy of my enemy is my friend, but couldn't he just be another enemy? Rin and her bodyguard, the immortal swordsman Manji, need to know the answer when they visit the headquarters of the mysterious Akagi assassins - led by the beautiful and deadly Hyakurin - who are out for vengeance against the Itto-Ryu, the rogue swordschool of Anotsu Kagehisa, the man responsible for the murder of Rin's parents. Can Rin and Manji hold to their own course once they've agreed to join forces with the misfit band of killers? Collecting the eight-issue story arc. 'Samura's art is the icing which makes this...confection of violence and irreverence rather enticing.' - The Comics Journal",
+      release_date: "1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1987.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 18: The Sparrow Net",
+      author: "Hiroaki Samura",
+      synopsis: "The immortality of the captive Manji is being sorely tested, as the horrifying experiments commanded by Habaki Kagimura in the dungeons below Edo castle continue. One of Kagimura’s doctors, Ayame Burando, has already gone half-mad, tormented by the sickening mutilations intended to unlock the secret of passing Manji’s amazing regenerative powers to others, and Burando’s replacements have upped the ante with their utter incompetence. Meanwhile, Manji’s charge, Rin, is desperately trying to find him, but Edo’s brutal police are on her trail, and the race is on for Rin to free her immortal bodyguard before she joins him behind bars!",
+      release_date: "October 30th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1988.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 11: Beasts",
+      author: "Hiroaki Samura",
+      synopsis: "After traveling a long and perilous road together, Rin and her immoral bodyguard, Manji, have become separated, Rin risking life and limb in her pursuit of her family's murderer, the ruthless Anotsu Kagehisa, leader of the outlaw Itto-Ryu sword school. Manji is slowly recovering -- and reassembling -- after being dismembered by Itto-ryu thugs, and has set off to find Rin. Meanwhile, both friends and enemies are also assembling. Manji's ally, the beautiful assassin Hyakurin has put a lot of Itto-ryu swordsmen under the dirt, but the tides are turned when she falls under the hands of a group of Itto-ryu killers who will go to any length -- and spare no agonies -- to get her to talk. Collecting issues #66-72 of the ongoing series.",
+      release_date: "January 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1989.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 10: Secrets",
+      author: "Hiroaki Samura",
+      synopsis: "Anotsu Kagehisa, murderous leader of the rogue Ittö-ryü, has journeyed to the mountains far from Edo to the romote Shingyötö-ryü dojo under invitation to bring the sword school under his wing. But instead of a warm welcome, Anotsu finds a dojo full of angry young men who don't want to take orders from an upstart, unless he can proves he's tougher than the best of them! That sits just fine with Anotsu, who has dedicated his life to putting the killing back into Japan's formalized sword schools, but Anotsu suspects that something more than proof of his worthiness lies beneath the challenge. Meanwhile, the immortal swordsman, Manji, is recovering from a battle that left him literally cut to pieces. His charge, Rin, is till nowhere to be found, bound for vengeance against Anotsu, but soon his troubles may become a bit more immediate, troubles that even an immortal may not survive! Collecting issues #58-#65 of the ongoing series.",
+      release_date: "2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1990.jpg"},
+
+{
+      title: "Blade of the Immortal Volume 14: Last Blood",
+      author: "Hiroaki Samura",
+      synopsis: "Rin has spent countless days chasing the murderer of her parents, and now she has Anotsu Kagehisa where she wants him, but the deathly ill Anotsu is too sick for the honor-bound Rin to strike down. But such is not the case for the students of the Shingyvtv-ry], who are out to avenge the death of their sword master, and they have Rin captured and Anotsu cornered. The spirit of revenge is thick in the air - and about to get thicker as Manji, Rin's immortal bodyguard, finally reunites with his charge as this pot of retribution prepares to boil over. And so Manji's faced with a strange irony - to save Rin, he must cut down the men who are out to kill Anotsu, Manji's sworn enemy",
+      release_date: "2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1991.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 17: On the Perfection of Anatomy",
+      author: "Hiroaki Samura",
+      synopsis: "Manji, the immortal swordsman, lies imprisoned in the bakufu stronghold of the mysterious Habaki Kagemura. Seeking to impart the life-extending powers of the Manji’s kessen chu bloodworms to other humans, Kagimura orders his medical examiners to discover the secrets of Manji’s amazing regenerative abilities. Using a series of convicts as live subjects in an increasingly grisly series of twisted experiments, Burando, Kagimura’s lead medical examiner, begins to grow more desperate and sickened with each horrifying failure. And through it all, Manji lives, and regenerates, and bides his time for the moment that he can pay back his tormentors... limb by limb!",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1992.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 22: Footsteps",
+      author: "Hiroaki Samura",
+      synopsis: "Hiroaki Samura's latest Blade of the Immortal volume finds Manji and Rin recovering from their harrowing escape out of Edo's underground prisons and finally confronting their odd relationship. Döa and Isaku have something important to announce when Anotsu and the Itto-ryu reunite with their missing members, and Habaki Kagimura faces a death sentence! To atone for his failures and sins, Kagimura has one month to destroy Anotsu and his crew — or Kagimura must commit suicide. With his Mugai-ryu assassins disbanded, Kagimura enlists even stranger felons than before, creating the frightening, new Rokki-dan gang. With his colorful cast expanding, Samura's knack for creating memorable characters and his masterful ability to dovetail multiple plotlines into each other are evident in this new volume, which also packs a powerful surprise ending!",
+      release_date: "December 21st 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1993.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 26: Blizzard",
+      author: "Hiroaki Samura",
+      synopsis: "Last volume's vicious battle continues -- and a popular, key character meets a grisly end! With the help of some new allies, Manji and Rin may have a fighting chance, but can a wounded and road-weary Magatsu hold his own against an invigorated, freshly armed foe? Hiroaki Samura's spellbinding masterpiece finds several major story lines finally beginning to dovetail. As some characters' strange paths are beginning to converge, is Samura's epic study on revenge and survival beginning to wind its way toward a massive, final confrontation?",
+      release_date: "May 21st 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1994.jpg"},
+
+{
+      title: "Blade of the Immortal Volume 27: Mist on the Spider's Web",
+      author: "Hiroaki Samura",
+      synopsis: "With Hiroaki Samura's epic series completed in Japan, now's the time to catch up with Manji, Rin, and your favorite battling groups of anachronistic, enigmatic warriors! Anotsu Kagehisa's Itto-Ryu crew is splintered - yet still deadly - as Habaki Kagimura's group of suicidal Rokki-dan soldiers closes in on them! The cursed former general Kagimura is desperate to find and kill the remaining members of the Itto-Ryu - even if it puts his own daughter's life on the line! Hiroaki Samura's Blade of the Immortal series has won many awards across the globe, including the Eisner Award in America, the prestigious Media Arts Award of Japan, and multiple British Eagle Awards.",
+      release_date: "May 1st 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1995.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 2: Cry of the Worm",
+      author: "Hiroaki Samura",
+      synopsis: "The curse of the bloodworm is what keeps Manji alive -- slit his throat or stab him in the heart and those mystical worms will force his body to heal. This immortal curse will not be lifted until Manji has killed one thousand evil men. Manji's female companion, Rin, finds the treasured sword of her destroyed  (school of swordsmanship). The ronin who has it must have been involved in the destruction of the school -- and that means that Manji could be one step closer to ending his curse. If you like ninja action, Hiroaki Samura's  will keep you on edge.",
+      release_date: "December 15th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1996.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 13: Mirror of the Soul",
+      author: "Hiroaki Samura",
+      synopsis: "Anotsu Kagehisa, master swordsman and leader of the rogue Itto-ryu dojo, has sheathed his blade for the moment to join in marriage with the daughter of yet another dojo soon to be brought under his dark wing. But for a man of action, the formal traditions of feudal Japan can be just as tense and fraught with hidden agendas as the battlefield. And while Anotsu may indulge in a moment of peace, his enemies are not at rest, among them Rin, who has stalked him for years to take revenge for the murder of her parents. Anotsu had best make sure that if he stops to smell the flowers, he doesn't end up losing his head!",
+      release_date: "1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1997.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 9: The Gathering II",
+      author: "Hiroaki Samura",
+      synopsis: "His droop-toed characters and hilarious sound effects have gained Don Martin worldwide recognition and acclaim as the seminal MAD artist and a master of the profoundly absurd cartoon! Packed with outrageous gags and unique humor, this is Don's hand-picked collection of his favorite material -- including his syndicated newspaper strip The Nutheads, and material never before published in the U.S.! New cover painting by Martin.This special limited edition hardcover of Don Martin's Droll Book, includes a numbered signature sheet featuring an all-new, full-color illustration signed by the artist! Limited to 500 copies!",
+      release_date: "1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1998.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 29: Beyond Good and Evil",
+      author: "Hiroaki Samura",
+      synopsis: "Disgraced Edo officer Habaki and his strange group of Rokki-dan thugs turn a seemingly innocent harbour into a port of death - killing everyone who's docked there just in case they're working with Anotsu's fleeing warriors! And when will Manji, revenge-seeking Rin, desperate Anotsu, and possibly the most powerful soldier arrive?",
+      release_date: "April 1st 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1999.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 8: The Gathering",
+      author: "Hiroaki Samura",
+      synopsis: "The immortal samurai, Manji, and his charge, Rin have lost their best chance to avenge the death of Rin's parents at the hands of Anotsu Kagehisa's renegade sword school, the deadly Itto-ryu.",
+      release_date: "1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2000.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 12: Autumn Frost",
+      author: "Hiroaki Samura",
+      synopsis: "You'd think that Manji, the immortal swordsman, would have dispatched just about every sinister personality in feudal Japan on his mission to slay a thousand evil men. But instead of thinning out the vicious herd, he's only shaken loose the most vicious and depraved. Now, Manji and his pal Magatsu are on the trail of one of the baddest apples in the barrel, Shira, old enemy of Manji - and a one-handed enemy, courtesy of the immortal's blade. But while Manji and Magatsu are hunting Shira, the crafty killer has hired a pack of hunters of his own, and if he can't kill Manji, he's hoping for the next best thing: to cut Manji to pieces on a daily basis. Streetwise and violent and yet possessed with a dark grace and beauty, Hiroaki Samura's award-winning Blade of the Immortal has taken its rightful place among the finest that graphic fiction has to offer, a stunning tour-de-force of story and art like none other.",
+      release_date: "1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2001.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 6: Dark Shadows",
+      author: "Hiroaki Samura",
+      synopsis: "MANGA ACTION ADVENTURE WITH THE IMMORTAL SAMURAI MANJI, WHO WILL NOT HAVE HIS CURSE OF ETERNAL LIFE LIFTED UNTIL HE HAS KILLED 1000 EVIL MEN. WORKING AS A BODYGUARD FOR THE YOUNG GIRL RIN, MANJI MUST FIGHT THE RENEGADE ITTO-RYU SWORD SCHOOL TO AVENGE THE DEATH OF RIN'S FATHER. BLADE OF THE IMMORTAL HAS WON JAPAN'S 1998 MEDIA ARTS AWARD AND THE USA'S WILL EISNER AWARD.",
+      release_date: "1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2002.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 24: Massacre",
+      author: "Hiroaki Samura",
+      synopsis: "There s going to be a massacre at Edo Castle! While the bitter Kagimura believes that he s sending his forces chasing after Anotsu and the entire Itto-ryu crew, Anotsu fakes them all out and risks his life in one mad dash back to Edo Castle grounds! What is his strange mission? Hiroaki Samura's widely acclaimed Blade of the Immortal manga series has won awards across the globe, including the Eisner Award in America, the prestigious Media Arts Award of Japan, and multiple British Eagle Awards.'",
+      release_date: "2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2003.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 20: Demon's Lair",
+      author: "Hiroaki Samura",
+      synopsis: "A massive, 280-page volume brings readers back into the 'Badger Hole' with Rin and Doa, as they make some shocking discoveries and finally find their missing companions! When Rin bumps into Toraemon, the unfortunate assistant to crazy Doc Burando and witness to his disgusting 'immortality experiments,' it seems that breaking Manji free will be a breeze. Not so. Getting Manji out of Edo's nightmarish underground cells and dank tunnel systems will be just as arduous as the ordeal of locating him was!",
+      release_date: "2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2004.jpg"},
+
+{
+      title: "Blade of the Immortal, Volume 3: Dreamsong",
+      author: "Hiroaki Samura",
+      synopsis: "Makie is a natural-born killer bred to be a geisha. Splitting her life between servitude and slaughter could lead to an untimely death, so it's time she chooses a path, but her choice could mean trouble for Manji, the immortal samurai. It's round two for the man who gave up his right to die and the woman who gave up her right to dream. And this time, there'll be no winners.",
+      release_date: "1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2005.jpg"},
+
+      [genres[0], genres[7], genres[1], genres[9]]
+      ],
+[
+{
+      title: "Goth",
+      author: "Otsuichi",
+      synopsis: "A notebook that leads to murder - a refrigerator filled with hands... a pit of dead dogs... an accidental suicide... a boy buried alive - and where two teenagers linked by an obsession with murder and torture explore the recesses of humanity's dark side.",
+      release_date: "July 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2006.jpg"},
+
+      [genres[8], genres[1], genres[18]]
+      ],
+[
+{
+      title: "InuYasha: Good Intentions",
+      author: "Rumiko Takahashi",
+      synopsis: "Inu-Yasha's magic sword can only be wielded in defense of humanity. But when the lovesick Nobunaga tells Kagome and InuYasha the story of a 300-year-old demon, it seems that such a sword might come in handy!",
+      release_date: "October 18th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2007.jpg"},
+
+{
+      title: "InuYasha: Flesh and Bone",
+      author: "Rumiko Takahashi",
+      synopsis: "The adventure ensues in this new tale of the best-selling graphic novel. Inu-Yasha, Kagome, and Shippo continue their quest for more shards of the shattered magic jewel. Along the way, they meet a young girl named Nazuma fleeing from a horde of Spider-Head demons.",
+      release_date: "April 18th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2008.jpg"},
+
+{
+      title: "InuYasha: River of Blood",
+      author: "Rumiko Takahashi",
+      synopsis: "River of BloodKagome faces a difficult decision - only she can help Kikyo heal from Naraku's miasma. Will the love triangle between Kagome, Inuyasha, and Kikyo stop her from doing the right thing? Kohaku comes under Naraku's power and is ordered to steal the infant Hakudoshi. Will Kohaku be able to resist? While Inuyasha and his comrades watch, Naraku shows up at the demon bird's nest for a showdown. A series of disturbing events is about to unfold, and a path to the borderland will be revealed",
+      release_date: "September 18th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2009.jpg"},
+
+{
+      title: "InuYasha: Lost and Alone",
+      author: "Rumiko Takahashi",
+      synopsis: "In this adventure, Kagome returns to present-day Japan, only to find herself in the middle of an eerie ghost story. Can she save the lost soul of a little girl?",
+      release_date: "January 18th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2010.jpg"},
+
+{
+      title: "InuYasha: Building a Better Trap",
+      author: "Rumiko Takahashi",
+      synopsis: "It isn't only demons who can gain power from the Shikon jewel, as Kagome, InuYasha, and their companions see when they fall afoul of the hideous 'Peach Man.' Meanwhile, there are even more mysteries of the jewel to be uncovered, as they meet a village of warriors dedicated to fighting the demons the jewel creates.",
+      release_date: "January 18th 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2011.jpg"},
+
+{
+      title: "InuYasha: The Struggle Continues",
+      author: "Rumiko Takahashi",
+      synopsis: "Historical action and romance from one of Japan’s most beloved creators! L to R (Western Style). The evil Midoriko and Naraku both seek to restore the Shikon Jewel. To do this they must take the final shards from Koga and Kohaku. Then Inuyasha and the gang stumble across a new sword with some intriguing powers. Could this sword lead to a victory against both Midoriko and Naraku?  Kagome is a modern Japanese high school girl. Never the type to believe in myths and legends, her world view dramatically changes when, one day, she's pulled out of her own time and into another! There, in Japan's ancient past, Kagome discovers more than a few of those dusty old legends are true, and that her destiny is linked to one legendary creature in particular--the dog-like half-demon called Inuyasha! That same trick of fate also ties them both to the Shikon Jewel, or 'Jewel of Four Souls.' But demons beware...the smallest shard of the Shikon Jewel can give the user unimaginable power.",
+      release_date: "February 18th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2012.jpg"},
+
+{
+      title: "InuYasha: Turning Back Time",
+      author: "Rumiko Takahashi",
+      synopsis: "Transported back to Japan's feudal era, high school student Kagome accidentally releases the feral half-demon dog boy Inu-Yasha from his imprisonment for stealing the Jewel of Four Souls.",
+      release_date: "May 18th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2013.jpg"},
+
+{
+      title: "Inuyasha, Volume 06",
+      author: "Rumiko Takahashi",
+      synopsis: "With the power granted by a large piece of the Shikon Jewel, Naraku's scheming is in high gear as his minions go forth to do his bidding. Kikyo, the priestess whose duty it once was to guard the jewel, gave the fragment to him, but why? Then Inuyasha takes on another of Naraku's evil offspring, a demon that inhabits the very sword his half brother Sesshomaru wields. Naraku's human origins may yet prove to be his downfall if Kikyo can exploit his weaknesses by forcing him to make a difficult choice, one that is mirrored by Inuyasha's lost love for Kikyo and a possible future with Kagome!",
+      release_date: "February 1st 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2014.jpg"},
+
+{
+      title: "InuYasha: The Demon of the Birds",
+      author: "Rumiko Takahashi",
+      synopsis: "The Demon of the BirdsThe search for the final shard of the Shikon Jewel leads Inuyasha and the gang to a mountain fortress. But the gate is guarded by two giant statues and a force that will only allow the dead to enter Seeking a path to the underworld, Naraku meanwhile teams up with a new demon, Abi Hime, who hunts the blood of innocent villagers to heal her mother. Inuyasha and friends step in to stop them when they find that Kikyo may be involved",
+      release_date: "July 18th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2015.jpg"},
+
+{
+      title: "InuYasha: Close Enemies",
+      author: "Rumiko Takahashi",
+      synopsis: "Inu-Yasha's half-brother, the demon Sessho-Maru, has returned with vengeance on his mind and new, stronger powers. Will Inu-Yasha be able to defeat his stronger sibling again? It doesn't help that the demon Naraku is on a rampage.",
+      release_date: "September 18th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2016.jpg"},
+
+{
+      title: "The Art of Inuyasha",
+      author: "Rumiko Takahashi",
+      synopsis: "This book includes cell art and paintings from the hit anime series running on the Cartoon Network. Showcasing the excellent artwork and beautiful characters of the immensely popular time-traveling horror/action series, this book offers fans page after page of full-color designs, plus character profiles, watercolors from the manga covers, character profiles and 66 pages of colored manga pages, and much more!",
+      release_date: "February 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2017.jpg"},
+
+{
+      title: "Inuyasha, Volume 15",
+      author: "Rumiko Takahashi",
+      synopsis: "After falling through an ancient well, schoolgirl Kagome has become the defender of both modern and 16th-century Japan against the forces of myth and darkness. But if she thought the horrors she and partner Inu-Yasha have faced so far were bgad, she hasn't met Inu-Yasha's family yet. This installment includes the final fight with the soulless, seductive Yura of the Hair.",
+      release_date: "May 18th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2018.jpg"},
+
+{
+      title: "InuYasha: Wounded Souls",
+      author: "Rumiko Takahashi",
+      synopsis: "Kikyo, the killer of InuYasha in the distant past, is distraught from the shock of being resurrected, and she must make a decision — whether to return to death for Kagome's sake or hold onto her second chance at life.",
+      release_date: "May 18th 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2019.jpg"},
+
+      [genres[0], genres[4], genres[1], genres[10], genres[18]]
+      ],
+[
+{
+      title: "Ghost in the Shell 2: Man-machine Interface",
+      author: "Masamune Shirow",
+      synopsis: "March 6, 2035. Motoko Aramaki is a hyper-advanced cyborg, a counter-terrorist net security expert heading the investigative department of the giant multi-national, Poseidon Industrial. Partly transcending the physical world and existing in a virtual world of networks, Motoko is a fusion of multiple entities and identities, deploying remotely controlled prosthetic humanoid surrogates around the globe to solve a series of bizarre crimes. Meanwhile, Tamaki Tamai, a psychic investigator from the Channeling Agency, has been commissioned to investigate strange changes in the temporal universe, brought about by two forces, one represented by the teachings of a professor named Rahampol, and the other by the complex, evolving Motoko entity. What unfolds will be all in a day's work...a day that will change everything, forever.",
+      release_date: "June 28th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2020.jpg"},
+
+{
+      title: "Ghost in the Shell 1.5: Human-error Processor",
+      author: "Masamune Shirow",
+      synopsis: "This volume presents for the first time in America the lost Ghost in the Shell stories, created by Masamune, but never collected until now. Deep into the 21st century, the line between man and machine has been inexorably blurred as humans rely on the enhancement of mechanical implants, and robots are upgraded with human tissue. Older teens.",
+      release_date: "July 23rd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2021.jpg"},
+
+{
+      title: "Ghost in the Shell",
+      author: "Masamune Shirow",
+      synopsis: "In the rapidly converging landscape of the 21st century Major Kusanagi is charged to track down the craftiest and most dnagerous terrorists and cybercriminals, including ghost hackers When he track the trail of one hacker, her quest leads her to a world she could never have imagined.",
+      release_date: "October 5th 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2022.jpg"},
+
+      [genres[0], genres[5]]
+      ],
+[
+{
+      title: "Blue Exorcist, Vol. 3",
+      author: "Kazue Kato",
+      synopsis: "As a new Exorcist Esquire at True Cross Academy, Rin Okumura has a long way to go before he reaches the top rank of Paladin. When Rin and his classmates are sent to search for a ghost, Amaimon, King of Earth, takes Rin by surprise and steals the Koma Sword. Higher powers have been observing events at the academy and make their presence known. New players enter the game, and Rin doesn't even know he's playing!",
+      release_date: "March 4th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2023.jpg"},
+
+{
+      title: "Blue Exorcist, Vol. 7",
+      author: "Kazue Kato",
+      synopsis: "Mamushi and Todo now have both eyes of the Impure King and are headed for the temple that was once the center of the Myodha sect. Mamushi wants to seal the eyes away, but may be too late to realize Todo’s true purpose—the awakening of the Impure King! Meanwhile, Rin learns more about Father Fujimoto’s connection to Tatsuma and the origin of the Koma Sword. Rin will need the weapon and all of his strength to face the terrible power of the Impure King!",
+      release_date: "September 2nd 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2024.jpg"},
+
+{
+      title: "Blue Exorcist, Vol. 8",
+      author: "Kazue Kato",
+      synopsis: "Awakened by the traitor Saburota Todo, the Impure King’s massive form threatens to engulf the city of Kyoto. As the Exorcists of the Tokyo Branch and the monks of the Myodha temple do all they can to contain the demon, Rin and his friends find themselves separated and facing their own battles. While Rin and Ryuji race to confront the full might of the Impure King, Yukio takes on Todo singlehanded and discovers that he may be his own worst enemy!",
+      release_date: "April 4th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2025.jpg"},
+
+{
+      title: "Blue Exorcist, Vol. 6",
+      author: "Kazue Kato",
+      synopsis: "The heads of the various Myodha temple families gather to discuss recent events surrounding the Eyes of the Impure King. Revelations at the meeting only deepen suspicion of Suguro’s father, Tatsuma, and angry accusations follow. Tatsuma’s silence on the matter isn’t helping either. Amid all the swirling distrust, Rin tries to make sense of things but struggles to keep his flame in check. Then Rin receives a letter that may shed more light on the current situation—and the secret past!",
+      release_date: "April 4th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2026.jpg"},
+
+{
+      title: "Blue Exorcist, Vol. 9",
+      author: "Kazue Kato",
+      synopsis: "All of Rin’s friends have done their best to hold off the deadly Impure King so Rin can confront it. Now it’s entirely up to Rin to finish off the gigantic demon. Although Rin has finally drawn the Koma sword and found his confidence, that alone may not be enough to defeat the Impure King! And Yukio’s battle with the possessed Saburota Todo may have awakened something dark deep within him.",
+      release_date: "September 4th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2027.jpg"},
+
+{
+      title: "Blue Exorcist, Vol. 1",
+      author: "Kazue Kato",
+      synopsis: "Raised by Father Fujimoto, a famous exorcist, Rin Okumura never knew his real father. One day a fateful argument with Father Fujimoto forces Rin to face a terrible truth – the blood of the demon lord Satan runs in Rin's veins! Rin swears to defeat Satan, but doing that means entering the mysterious True Cross Academy and becoming an exorcist himself. Can Rin fight demons and keep his infernal bloodline a secret? It won't be easy, especially when drawing his father's sword releases the demonic power within him!",
+      release_date: "August 4th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2028.jpg"},
+
+{
+      title: "Blue Exorcist, Vol. 11",
+      author: "Kazue Kato",
+      synopsis: "Rin and his friends continue to investigate the Seven School Mysteries. Yukio watches as the Exwires take on the Academy’s ghosts, troubled by lingering doubts about his own feelings. Rin seems to be learning to control his power more, but is tapping his inner demonic fire going to be his salvation or his doom?",
+      release_date: "August 2nd 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2029.jpg"},
+
+      [genres[0], genres[15], genres[18]]
+      ],
+      [
+
+{
+      title: "Negima! Volumes 19-21",
+      author: "Ken Akamatsu",
+      synopsis: "TO THE MAGICAL WORLD!Asuna trains hard to accompany Negi on the quest of his life-- a journey to the Magical World to find his mysterious and powerful father! But when they arrive, they realize it's going to be even harder than they thought. A mysterious platinum-haired boy named Fate scatters Negi's students to the winds, and it's up to him to save them from the unknown dangers lurking in this new realm!Contains Negima! volumes 19-20-21!",
+      release_date: "June 25th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2030.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 33",
+      author: "Ken Akamatsu",
+      synopsis: "A PERFECT WORLDNegi and his party have arrived at the Gravekeeper's Palace and are ready to rescue their friends and save the world, but the evil organization has another trick up their seeve. Ala Alba is about to find out exactly what Cosmo Entelekheia means - as they experience it firsthand. Includes special extras after the story!",
+      release_date: "February 17th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2031.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 7",
+      author: "Ken Akamatsu",
+      synopsis: "IT'S TRAINING TIME!After their adventures on a school trip to Kyoto, you'd think that Negi and his students would want to rest. But now that they're back at Mahora Academy, relaxation is pretty low on the list! First there are Asuna's dreams, which hint at a deeper relationship between Negi and his father of which she is unaware. Then Negi starts a quest to improve his abilities. To do this, the teacher will need to become a student - and Negi's students will become his teachers.Fei Ku is a master of every martial art imaginable, but can she teach Negi the skill he needs to survive? And there's only one magic user at Mahora Academy with abilities that surpass Negi's own. Dark Evangeline might train him, but only at a price - and does Negi really want to be Evangeline's personal slave?!",
+      release_date: "September 17th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2032.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Vol. 15",
+      author: "Ken Akamatsu",
+      synopsis: "STUDENT VS. TEACHER!Boy wizard Negi Springfield has met some tough challenges. After all, heâ��s an English teacher at an all-girls high school. But now he must face one of his own students in battle . . . without relying on his magical powers!Includes special extras after the story![Rating logo:]OTAges 16+",
+      release_date: "August 17th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2033.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 20",
+      author: "Ken Akamatsu",
+      synopsis: "BLAST FROM THE PASTAsuna and her friends want to give Negi some fun in the sun at the beach before they all set out on a dangerous journey to the Magical World. But then Negiâ��s childhood friend Anya crashes the partyâ��and all hell breaks loose when her jealousy goes nuclear!",
+      release_date: "October 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2034.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 9",
+      author: "Ken Akamatsu",
+      synopsis: "MAHORAFEST MADNESSItâ��s almost time for the legendary MahoraFestâ��the Mahora Academy Festivalâ��and the whole school is buzzing with anticipation. Class 3-A is preparing a haunted house, even though the class really is haunted. Evaâ��s robotic servant appears to be malfunctioning, but the mechanical girl might just be feeling human emotions. And sheâ��s not the only one! Asuna sees the upcoming festival as the perfect opportunity to finally confess true love to Takahata-sensei. Unfortunately, Asuna canâ��t work up the nerve. Whatâ��s a girl to do? Why, go out on a practice date with a magically aged Negi, of course!",
+      release_date: "January 1st 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2035.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 4",
+      author: "Ken Akamatsu",
+      synopsis: "A FIELD TRIP INTO PERILTen-year-old teacher/magician Negi Springfield is looking forward to taking his class of beautiful girls to the historic cities of Kyoto and Nara–but there’s a catch! Negi’s student, Konoka, is a kidnap target of feuding magicians in those very cities. Her grandfather, the school principal, orders Negi to protect Konoka–while keeping the fact that she’s in danger a secret from the unsuspecting girl. To add to Negi’s headaches, his sword-wielding student, Setsuna, may be a spy for the kidnappers. With so much on his mind, how is a young magician to see the sights, care for a sarcastic stoat, and stay in the good graces of his hot-tempered magical partner Asuna?",
+      release_date: "January 16th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2036.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 21",
+      author: "Ken Akamatsu",
+      synopsis: "A Fateful EncounterNegi and his students have journeyed to the Magical World in search of Negiâ��s father. But a mysterious platinum-haired boy called Fate has other plans for them. Seriously wounded, Negi watches helplessly as his students are teleported to the far corners of this mysterious realm. Negi made a promise to protect his students no matter what. Can he rescue them from certain peril?",
+      release_date: "January 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2037.jpg"},
+
+{
+      title: "Negima! Magister Negi Magi, Vol. 1",
+      author: "Ken Akamatsu",
+      synopsis: "Ten-year-old prodigy Negi Springfield, has just graduated from magic academy. He dreams of becoming a master wizard. Instead he's sent to Japan to teach English...at an all-girls high school! All the students are delighted with their cute new teacher--except for Asuna, who resents Negi for replacing the teacher she secretly has a crush on. Although he is forbidden to display his magical powers, sometimes Negi can't resist. And when Asuna discovers Negi's secret, she vows to make his life as difficult as possible--just the thing to prepare Negi for the challenges of life as a master wizard!",
+      release_date: "July 17th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2038.jpg"},
+
+{
+      title: "Negima! Magister Negi Magi, Vol. 2",
+      author: "Ken Akamatsu",
+      synopsis: "KNOWLEDGE CAN BE DANGEROUS!For ten-year-old teacher Negi Springfield and his all-girl class, it's time for final exams! If his students manage  to end up with the lowest scores in school, the principal has promised to make Negi an  teacher. To prepare for the tests, the class takes a trip to the school's Library Island. But this is no quiet place of study...stone golems, traps, and secret passageways are the norm throughout the enormous library building. With all of these distractions, can Negi's class hope to climb out of the cellar--both academically and literally?",
+      release_date: "August 12th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2039.jpg"},
+
+{
+      title: "Negima! Volumes 7-9",
+      author: "Ken Akamatsu",
+      synopsis: "10-year-old Negi Springfield has just graduated from a British school for wizards. After meeting with the school headmaster to discuss his graduate work assignment, he finds that he will be moving to Japan--to teach English at an all-girls high school. Under strict instructions not to show his magic powers, Negi finds that he can't resist using them to help others. Of course, despite his good intentions sometimes his magic just makes things even worse!",
+      release_date: "December 6th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2040.jpg"},
+
+{
+      title: "Negima! Volumes 16-18",
+      author: "Ken Akamatsu",
+      synopsis: "10-year-old Negi Springfield has just graduated from a British school for wizards. After meeting with the school headmaster to discuss his graduate work assignment, he finds that he will be moving to Japan--to teach English at an all-girls high school. Under strict instructions not to show his magic powers, Negi finds that he can't resist using them to help others. Of course, despite his good intentions sometimes his magic just makes things even worse!",
+      release_date: "November 27th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2041.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 38",
+      author: "Ken Akamatsu",
+      synopsis: "THE ETERNAL QUESTION Class 3-A has finally had enough of Negi and his philandering ways! They've devised an elaborate plot for revenge, but everything changes when they discover that their young teacher may actually have some small affection for one special girl. Can Negi escape with his secret intact, or will they make him talk?FINAL VOLUME!",
+      release_date: "May 17th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2042.jpg"},
+
+{
+      title: "Negima! Volumes 10-12",
+      author: "Ken Akamatsu",
+      synopsis: "TIME AFTER TIMEThe epic Mahora Academy Festial storyline that spanned over 700 pages begins here, in this omnibus collection of Negima! Volumes 10, 11, and 12. Exhausted by Evangeline's training, battling enemy wizards, hiding his magic abilities, and teaching 31 students, Negi sleeps through the first day of the festival! All the girls he promised to spend the day with are going to be incredibly disappointed... or are they? This is Negima!, after all! But before the festival is over, Negi finds himself competing in the Budokai Marital Arts Tournament, and there's more at stake than he thinks!Includes special extras after the story!",
+      release_date: "March 13th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2043.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 36",
+      author: "Ken Akamatsu",
+      synopsis: "NEGI VS. FATE   The battle with Fate continues, and neither opponent shows any sign of giving in. Knowing Fate's past, Negi is even more determined to win him over to his side. It comes down to one last clash of spells, but with magic as powerful as theirs, they can't possibly both survive.",
+      release_date: "November 17th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2044.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 5",
+      author: "Ken Akamatsu",
+      synopsis: "A KISS IS NOT JUST A KISSWhen ten-year-old prodigy Negi Springfield graduated from university with a degree in magic, he never imagined he would soon be teaching English to a bevy of gorgeous high school girls. Now Negi’s old friend Chamo, a lecherous weasel from Wales, and student Asakura have arranged a competition among the girls to see which of the lovely students will be the first to kiss the teacher! Sure, a kiss will strengthen Negi’s magical abilities, but doesn’t this contest just support Chamo’s voyeuristic proclivities? On the other hand, Negi needs all the help he can get when the magical creatures of western Japan strike back!",
+      release_date: "April 16th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2045.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 35",
+      author: "Ken Akamatsu",
+      synopsis: "TWO WORLDS COLLIDE   The time has come for the long-awaited showdown between Negi Springfield and Fate Averruncus. Negi is prepared to do whatever it takes to knock his own version of sense into Fate. Meanwhile the two worlds have connected, and Mahora Academy must save itself from hordes of demons!Includes special extras after the story!",
+      release_date: "August 17th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2046.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 32",
+      author: "Ken Akamatsu",
+      synopsis: "His battle with Fate looms ever closer, but Negi has more pressing concerns. The darkness has started to consume him, and if he doesn't get it under control, he'll turn into a monster. Before Negi can keep his students safe from Fate, he has to keep them safe from himself.",
+      release_date: "October 7th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2047.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 17",
+      author: "Ken Akamatsu",
+      synopsis: "THE ULTIMATE BATTLEBoy wizard and high school teacher Negi is the only one who can stop Chao and her plans for world domination. But Chaoâ��master magician, Martian warrior, and supergeniusâ��may be the most formidable opponent the boy wonder has ever faced. Who will survive their final clash?",
+      release_date: "January 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2048.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 14",
+      author: "Ken Akamatsu",
+      synopsis: "ALL GROWN UP?Negi Springfield has finally met his fatherâ��or at least a hologram of him. Now Negi is more determined than ever to follow in his fatherâ��s footsteps. But there is no time for self-reflection: After his mind-blowing performance at the BudÅ�kai Martial Arts Tournament, Negi is at the center of a media storm. On the run from marauding reporters, Negi disguises himself with the help of a potion that turns him into a gorgeous bishÅ�nen. But using magic puts Negi at risk. His sneaky pupil Chisame may finally discover his secretâ��that Negi is really a powerful wizard!",
+      release_date: "April 17th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2049.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 30",
+      author: "Ken Akamatsu",
+      synopsis: "Now that Negi has learned all about his parents and his village, Goedel invites the boy to join forces with him, promising to help Negi get revenge on those who destroyed his life. Our hero asserts that vengeance was never his goal, but the dark magic inside him claims otherwise.",
+      release_date: "May 17th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2050.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 31",
+      author: "Ken Akamatsu",
+      synopsis: "10-year-old Negi Springfield has just graduated from a British school for wizards. After meeting with the school headmaster to discuss his graduate work assignment, he finds that he will be moving to Japan--to teach English at an all-girls high school. Under strict instructions not to show his magic powers, Negi finds that he can't resist using them to help others. Of course, despite his good intentions sometimes his magic just makes things even worse!",
+      release_date: "August 17th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2051.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 22",
+      author: "Ken Akamatsu",
+      synopsis: "NEW TEACHERTo help his students get home from the Magical World, Negi must become a more powerful wizardâ��and fast. Just when heâ��s beginning to doubt himself, he meets Rakan, his fatherâ��s old friend and rival. Rakan is an awesome wizard, but his teaching methods are a little . . . eccentric. Can he teach Negi to be strong like his father?Includes special extras after the story!",
+      release_date: "April 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2052.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 18",
+      author: "Ken Akamatsu",
+      synopsis: "TELL ME A SECRETNow that the Mahora Festival is finally over, everyone’s ready for some peace and quiet. But the school is in an uproar after Misora impersonates a priest . . . and convinces her fellow students to spill their deepest secrets in the confessional. It seems like everyone has a secret–and all of them involve Negi!",
+      release_date: "April 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2053.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 29",
+      author: "Ken Akamatsu",
+      synopsis: "Realizing it might be a trap, Negi and friends accept an invitation to the ball where Goedel claims he will tell Negi everything he wants to know.  Haruna insists that Negi make as many pactios as possible before walking into danger, but the girls won’t surrender their lips so easily!",
+      release_date: "January 14th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2054.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 26",
+      author: "Ken Akamatsu",
+      synopsis: "HIS FATHER’S SON After hearing about his father’s heroics, Negi vows to prove himself—by winning the martial arts tournament and freeing his students from slavery. With his teacher’s help, Negi has gotten much stronger, so it should be a piece of cake! What possibly could go wrong? Turns out: plenty! Available on DVD from FUNimation Entertainment ",
+      release_date: "May 15th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2055.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 27",
+      author: "Ken Akamatsu",
+      synopsis: " INVINCIBLE It’s time for the final match to decide the winner of the Nagi Cup, but Negi must compete against martial arts legend Jack Rakan. Will Negi’s intense training and new trump cards be enough to beat the unbeatable hero?",
+      release_date: "September 17th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2056.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 19",
+      author: "Ken Akamatsu",
+      synopsis: "WIN OR DIE!Itâ��s summer breakâ��a time when most kids are getting ready for a vacation full of fun and friends. But not Asuna. Sheâ��s prepping for the challenge of her life. Sheâ��s started a new school club thatâ��s devoted to helping Negi find his father, but before Asuna can embark on this adventure she has to prove her mettle. The test: a dangerous mission on a snow-covered mountain. Does Asuna have what it takes to survive?",
+      release_date: "July 17th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2057.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 34",
+      author: "Ken Akamatsu",
+      synopsis: "DARKNESS FALLSThe battle gets fierce as Negi and his party come up against the leaders of Cosmo Entelekheia. Our hero manages to defeat Dynamis, but in the process he allows the dark magic to almost consume him. As he fights for his humanity, his class must fight Fate for their lives.Includes special extras after the story!",
+      release_date: "May 17th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2058.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 37",
+      author: "Ken Akamatsu",
+      synopsis: "ENEMY TO WOMANKIND   The war is over, and all that's left is the save the Magical World from imminent destruction. With the help of Asuna and others in his class, Negi is working to put his plan into effect. Meanwhile, Negi's students are realizing just what a heartbreaker the little boy has become.",
+      release_date: "February 17th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2059.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 23",
+      author: "Ken Akamatsu",
+      synopsis: "DARKNESS OR LIGHT?The great tournament that will decide the fate of Negi and his friends is fast approaching. Negi has no choice: He must become a great wizard like his father–and soon. For Negi will have to face his powerful nemesis, Fate Averruncus, and make a profound decision, one that will bring him victory or death!Available on DVD from FUNimation EntertainmentIncludes special extras after the story!",
+      release_date: "August 12th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2060.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 28",
+      author: "Ken Akamatsu",
+      synopsis: "Now that the tournament is over, Negi wants to find his missing students and take them home. But first, he’s confronted by a sinister man who claims to know the answers to all of Negi’s questions. He promises to share those answersâ€”but only if Negi will join his cause. Â  Available on DVD from FUNimation Entertainment",
+      release_date: "November 17th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2061.jpg"},
+
+{
+      title: "Negima! Magister Negi Magi, Vol. 3",
+      author: "Ken Akamatsu",
+      synopsis: "BLOOD FEUD WITH A VAMPIREThere is a vampire stalking the night! Normally ten-year-old teacher/magician Negi Springfield would have no problem dispatching such a villain, but this vampire has a magic-enhancing partner--and worse, the vampire is a student in his own class! Now he must find a partner of his own, but with a class full of beautiful girls all vying for the position, it won't be an easy task. Add in Negi's old friend, a skirt-chasing, wisecracking weasel from Wales, and the nice orderly chaos of Negi's life turns into a hilarious melee of sirens and sorcery!",
+      release_date: "November 17th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2062.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 6",
+      author: "Ken Akamatsu",
+      synopsis: "The chaotic class trip continues as Negi Springfield and his thirty-one beautiful female students explore the historic cities of Kyoto and Nara. Negi’s special headache is Konoka, the headmaster’s granddaughter, who turns out to have her own magical abilities! Although she’s not aware of them, others certainly are . . . and Konoka is kidnapped by a group of wizards who plan to corrupt her budding talents. Negi is going to need all the help he can get–even if it comes from a former foe. . . .",
+      release_date: "June 17th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2063.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 24",
+      author: "Ken Akamatsu",
+      synopsis: "NODOKA IN PERILThe Festival of Ostia is the Magical Worldâ��s most amazing eventâ��and includes a major martial arts tournament in which Negi and his friends will be active participants! But a team of professional bounty hunters blocks Nodokaâ��s way to the event. Can Negi save her, or will they all fall into the huntersâ�� trap?",
+      release_date: "November 17th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2064.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Volume 25",
+      author: "Ken Akamatsu",
+      synopsis: "A TRICK OF FATE When the Festival of Ostia begins, Fate Averruncus emerges from hiding to set his evil plans into motion. But first he gives Negi a proposition. If Negi promises not to interfere with Fate’s plot, he will allow Negi and the girls to go home unharmed. Now Negi must choose between his students and an entire world. ",
+      release_date: "February 17th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2065.jpg"},
+
+{
+      title: "Negima!: Magister Negi Magi, Vol. 16",
+      author: "Ken Akamatsu",
+      synopsis: "In Stock. Covers do have a few bends and some wear. Mint!",
+      release_date: "October 17th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2066.jpg"},
+
+      [genres[0], genres[14], genres[4], genres[22], genres[15]]
+      ],
+      [
+{
+      title: "Naoki Urasawa's Monster, Volume 5: After the Carnival",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracy and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.Suspecting that Johan suffers from a multi-personality disorder, Dr. Tenma calls upon expert criminal psychologist Rudy Gillen to help him in his campaign to stop Johan. But will Dr. Gillen come to the same conclusion as the authorities - that Tenma is the killer with the split personality?",
+      release_date: "May 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2067.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 9: A Nameless Monster",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracy and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.When an unusual children's book causes a disturbing reaction in Johan, it may provide an ideal opportunity for Tenma to fire a well-aimed sniper shot. Could this curious book created by an obscure Czech writer also be the key to unlocking more secrets of Johan's enigmatic past?",
+      release_date: "July 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2068.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 10: Picnic",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracy and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.'Cedok Bridge, the three frogs...the mother of the twins is in Pargue.' A cryptic message from wealthy financier Schuwald sends Tenma to the city of a hundred spires. There, he meets Grimmer, an investigative reporter tracking down the former director of the infamous 511 Kinderheim orphanage. Could it be that the horrific experiments of the past are being recreated in Prague?",
+      release_date: "December 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2069.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 8: My Nameless Hero",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracy and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.Tenma is hot on Johan's trail and he's more determined than ever. Now in top physical condition and armed with a high-performance sniper rifle, has Tenma acquired the keen hunter's edge necessary to bag his prey? Or will his physician's instincts prevent him from carrying out his dreaded task?",
+      release_date: "February 1998",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2070.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 1: Herr Dr. Tenma",
+      author: "Naoki Urasawa",
+      synopsis: "An ice-cold killer is on the loose, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracies, serial murders, and a scathing indictment of hospital politics are all masterfully woven together in this compelling manga thriller. Tenma risks his promising medical career to save the life of a critically wounded young boy. Unbeknownst to him, this child is destined for a terrible fate. Who could have known that Tenma would create a monster!",
+      release_date: "December 5th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2071.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 7: Richard",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracy and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.When Johan works his way into the inner circle of powerful financier Hans Schuwald, things get dicey for Richard Brown, a private detective hired to find Schuwald's long-lost son. As Richard edges closer to a horrifying truth, his path clashes with Johan's hidden agenda - and his unfortunate fate is all but sealed.",
+      release_date: "December 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2072.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 6: The Secret Woods",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracy and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.Tenma's former fiancée Eva Heinneman's life has gone downhill since the death of her father and her breakup with Tenma. Now she's involved with a menacing man with a shady past and a mysterious connection to Johan. Meanwhile, Johan has worked his way into the graces of a powerful but lonely old financier. Could Johan be targeting this man for more than just his money?",
+      release_date: "May 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2073.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 3: 511 Kinderheim",
+      author: "Naoki Urasawa",
+      synopsis: "An ice-cold killer is on the loose, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracies, serial murders, and a scathing indictment of hospital politics are all masterfully woven together in this compelling manga thriller.Tenma's on the run!! A wanted man, he's the prime suspect for the serial killings he's trying to stop. But he still manages to edge closer to the truth about Johan's mysterious past, and everything seems to point to a now defunct institution of East Berlin - an infamous 'experimental' orphanage called 511 Kinderheim!",
+      release_date: "March 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2074.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 2: Surprise Party",
+      author: "Naoki Urasawa",
+      synopsis: "An ice-cold killer is on the loose, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracies, serial murders, and a scathing indictment of hospital politics are all masterfully woven together in this compelling manga thriller.Tenma springs to action when he discovers that Johan, the boy whose life he saved nine years ago, has grown up and turned into a serial killer. But when Tenma finds out that Johan has strong inside connections with government officials, he realizes that this monster is far more powerful than he could have ever imagined.",
+      release_date: "September 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2075.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 4: Ayse's Friend",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracies and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.As Tenma uncovers more about the infamous 511 Kinderheim orphanage, Johan's twin sister Anna sets out on her own to stop her brother. Their separate searches lead them both to a powerful neo-Nazi organization conspiring to establish Johan as their new superleader! Can Tenma and Anna stop Johan from becoming another Hitler?",
+      release_date: "August 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2076.jpg"},
+
+{
+      title: "Naoki Urasawa's Monster, Volume 15: The Door to Memories",
+      author: "Naoki Urasawa",
+      synopsis: "Johan is a cold and calculating killer with a mysterious past, and brilliant Dr. Kenzo Tenma is the only one who can stop him! Conspiracy and serial murder open the door to a compelling, intricately woven plot in this masterpiece manga thriller.Dangerous men of influence hoping to exploit Johan's frightening min for their own shadowy purposes are also hot on the 'monster's' trail, and they're willing to use Eva, Tenma's ex-fiancée, to identify him. But what will happen to Eva when her assistance is no longer required? Will her only chance for salvation rest on the shoulders of the very man who's been hired to kill her?!",
+      release_date: "October 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2077.jpg"},
+
+      [genres[0], genres[21], genres[8]]
+      ],
+      [
+{
+      title: "X/1999, Volume 02: Overture",
+      author: "CLAMP",
+      synopsis: "This supernatural saga begins when teenager Kamui loses his entire family in a mysterious accident. Kamui finds that he is heir to a bizarre destiny that could determine the fate of the entire world.",
+      release_date: "1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2078.jpg"},
+
+{
+      title: "X (3-in-1 Edition), Vol. 1",
+      author: "CLAMP",
+      synopsis: "Reads R to L (Japanese Style). ",
+      release_date: "October 11th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2079.jpg"},
+
+{
+      title: "X/1999, Volume 03: Sonata",
+      author: "CLAMP",
+      synopsis: "'Originally published in Japan in 1993 by Kodakawa Shoten Publishing, Inc., Ltd., Tokyo'--T.p. recto.",
+      release_date: "1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2080.jpg"},
+
+{
+      title: "X/1999, Volume 01: Prelude",
+      author: "CLAMP",
+      synopsis: "As part of the X/1999 series, this volume features breathless action and stunning art. When Kamui returns to Tokyo, he learns that his childhood girlfriend Kotori and psychic Princess Hitoni are having strange dreams about his role in a coming apocalypse! Is he the angel of salvation, or the devil of destruction?",
+      release_date: "July 29th 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2081.jpg"},
+
+{
+      title: "X (3-in-1 Edition), Vol. 2",
+      author: "CLAMP",
+      synopsis: "Reads R to L (Japanese Style). ",
+      release_date: "April 10th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2082.jpg"},
+
+{
+      title: "X (3-in-1 Edition), Vol. 3",
+      author: "CLAMP",
+      synopsis: "Reads R to L (Japanese Style), for audiences rated teen plus. X, the epic series from CLAMP, is now available in this deluxe collector’s edition. The pages have been recomposed in the original right-to-left reading order and restored to the highest quality. Each volume contains three of the original graphic novels, along with gorgeous, full-color illustrations never before published outside Japan. As the gears of fate turn, Kamui draws ever closer to the moment when he must make his inevitable choice: become either humanity’s savior or its scourge. After his last surviving blood relative sacrifices herself to bring forth the Sacred Sword, the weapon he will need in the war to come, that moment finally arrives. With Kamui’s decision, however, come unimaginable consequences for Fuma and Kotori. Meanwhile, the members of both sides of the conflict—the Dragons of Heaven and the Dragons of Earth—converge on Tokyo, obeying the call of their intertwined destinies. Among them is Subaru Sumeragi, a powerful magic user, who arrives just in time to help Kamui see the path that he must take. But Subaru must conquer his own doubts and fears when he’s finally reunited with the one person who is truly special to him—and whom he must fight to the death.",
+      release_date: "April 10th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2083.jpg"},
+
+      [genres[0], genres[7], genres[4], genres[8], genres[15], genres[18]]
+      ],
+      [
+{
+      title: "Naruto, Vol. 09: Turning the Tables",
+      author: "Masashi Kishimoto",
+      synopsis: "Still in the thick of the Chūnin Selection Exams, the student ninja unleash their signature techniques as they spar in a series of one-on-one elimination matches. The heated battles bring out a new side in many of the opponents as they fight to advance to the third stage of the test and, in some cases, struggle to survive! Naruto looses an explosive new move on his foe—but will it be enough to win? And when Hyuga clan members Neji and Hinata are pitted against each one another, will old family grudges make their duel even more vicious than the others?",
+      release_date: "October 4th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2084.jpg"},
+
+{
+      title: "Naruto, Vol. 18: Tsunade's Choice",
+      author: "Masashi Kishimoto",
+      synopsis: "Naruto's training with Jiraiya intensifies, while Orochimaru uses threats to coerce a legendary kunoichi into helping him. But will her tragic past play a part in destroying Naruto's future?",
+      release_date: "August 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2085.jpg"},
+
+{
+      title: "Naruto, Vol. 26: Awakening",
+      author: "Masashi Kishimoto",
+      synopsis: "The battle between former best friends Sasuke and Naruto grows even more fierce. Will Sasuke risk everything, even Naruto's life, to obtain the power of the Mangekyo?",
+      release_date: "February 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2086.jpg"},
+
+{
+      title: "Naruto, Vol. 01: The Tests of the Ninja",
+      author: "Masashi Kishimoto",
+      synopsis: "In another world, ninja are the ultimate power—and in the village of Konohagakure live the stealthiest ninja in the world. But twelve years ago Konohagakure was attacked by a fearsome threat—a nine-tailed fox demon which claimed the life of the Hokage, the village champion. Today, peace has returned, and a troublemaking orphan named Uzumaki Naruto is struggling to graduate from the Ninja Academy. His goal: to become the next Hokage. But unknown to Naruto and his classmates, within him is a terrifying force...",
+      release_date: "September 21st 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2087.jpg"},
+
+{
+      title: "Naruto, Vol. 24: Unorthodox",
+      author: "Masashi Kishimoto",
+      synopsis: "Kankuro, Temari and Gaara unexpectedly aid Konohagakure against the Sound Ninja. Could they have another purpose besides rekindling the old alliance between Leaf and Sand?",
+      release_date: "October 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2088.jpg"},
+
+{
+      title: "Naruto, Vol. 07: Orochimaru's Curse",
+      author: "Masashi Kishimoto",
+      synopsis: "Deep within the Forest of Death, Naruto, Sasuke and Sakura are still reeling from Orochimaru's attack—and now they must battle his minions, the mysterious Sound Ninja. And as Sasuke struggles with the strange force growing inside him, spreading like an infection from the curse-mark Orochimaru burned into his neck, time is running out for the student ninja to collect the scrolls they need to pass the Chūnin Exams!",
+      release_date: "May 1st 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2089.jpg"},
+
+{
+      title: "Naruto, Vol. 17: Itachi's Power",
+      author: "Masashi Kishimoto",
+      synopsis: "What does Sasuke's older brother want with Naruto? As Jiraiya trains Naruto to push beyond his limits, secrets of the past are revealed, and a mysterious shinobi who could change everything begins to take center stage.",
+      release_date: "May 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2090.jpg"},
+
+{
+      title: "Naruto, Vol. 14: Hokage vs. Hokage!!",
+      author: "Masashi Kishimoto",
+      synopsis: "Their village is under attack, and Naruto, Sakura and Shikamaru can't stay behind to defend it. They have a top priority mission to track down Sasuke and the Sand chūnin. But with nine bloodthirsty ninja on their heels, the hunters have quickly become the hunted! Back at the village, the Third Hokage is still trapped in Orochimaru's impenetrable barrier. Pushed to the breaking point, the Hokage must decide how far he will go to save what is precious to him!",
+      release_date: "November 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2091.jpg"},
+
+{
+      title: "Naruto, Vol. 47: The Seal Destroyed",
+      author: "Masashi Kishimoto",
+      synopsis: "Naruto inches ever closer to discovering the true identity of his nemesis, Pain. But is it worth it as the frustrated ninja begins to morph at last into the dreaded Nine Tails? Plus an unexpected confession reveals incredible secrets about his past as Naruto prepares for the ultimate battle with Pain. Can the chakra-challenged Naruto win when one misstep could spell disaster?",
+      release_date: "August 4th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2092.jpg"},
+
+{
+      title: "Naruto, Vol. 61: Uchiha Brothers United Front",
+      author: "Masashi Kishimoto",
+      synopsis: "As Madara uses his dominating power to fend off the Five Kage, Sasuke is reunited with his brother Itachi. Can the brothers put aside their differences and help each other out? When they come face-to-face with Kabuto, the man who revived Itachi from the dead, they'll have to team up if they have any hope of survival!",
+      release_date: "July 27th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2093.jpg"},
+
+{
+      title: "Naruto, Vol. 15: Naruto's Ninja Handbook!",
+      author: "Masashi Kishimoto",
+      synopsis: "The tension between Naruto and Gaara builds, and Naruto finds himself not only understanding his rival but also sympathizing with him. But that doesn't mean he's gone soft. As Gaara continues to mutate, Naruto prepares for the fight of his life!",
+      release_date: "December 20th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2094.jpg"},
+
+{
+      title: "Naruto, Vol. 32:  The Search for Sasuke",
+      author: "Masashi Kishimoto",
+      synopsis: "A new ninja causes trouble among the ranks of Team Kakashi when they return from the battle against Sasori. The secrets this stranger hides could be disastrous for Naruto. Meanwhile, Naruto's nemesis Orochimaru has troubles of his own—his stronghold may be infiltrated by a spy!",
+      release_date: "April 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2095.jpg"},
+
+{
+      title: "Naruto, Vol. 08: Life-and-Death Battles",
+      author: "Masashi Kishimoto",
+      synopsis: "As the preliminaries to the third phase of the Chūnin Exams begin, the student ninja face off against each other in no-holds-barred, one-on-one bouts. Deaf to Sakura's pleas to withdraw from the contest and despite the crippling effects of the curse placed on him by the nefarious Orochimaru, Sasuke enters the first match against one of the vicious Sound Ninja spies. But with his signature fighting techniques suddenly off-limits, how can Sasuke possibly prevail? And even if he manages to survive the violent brawl, Orochimaru's curse is threatening to change Sasuke forever!",
+      release_date: "August 3rd 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2096.jpg"},
+
+{
+      title: "Naruto, Vol. 04: The New Opponents",
+      author: "Masashi Kishimoto",
+      synopsis: "There comes a time in every ninja's training when he must put aside his morals and face the truth: ninjas are tools for killing. For Naruto, seeing Sasuke dead, that time is now. Rage awakens the nine-tailed fox spirit within Naruto, giving him the strength to overcome Haku—but can he bring himself to finish the job?As the battle for the Land of the Waves comes to a tragic ending, our heroes return to the village of Konohagakure in time for the Chūnin Exams. But junior ninjas from around the world have gathered to take the exam, bringing their own strange ninjutsu and mysterious goals.",
+      release_date: "October 4th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2097.jpg"},
+
+{
+      title: "Naruto, Vol. 25: Brothers",
+      author: "Masashi Kishimoto",
+      synopsis: "Sasuke delves deep to remember how his brother Itachi became the feared ninja he is today! In the bloody battle that ensues between Naruto and his best friend, Naruto realizes that being close to an Uchiha brother could mean his downfall.",
+      release_date: "December 3rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2098.jpg"},
+
+{
+      title: "Naruto, Vol. 33: The Secret Mission",
+      author: "Masashi Kishimoto",
+      synopsis: "Morphing out of control, a stronger-than-ever Naruto turns on his own teammates! Orochimaru triggers a frightening change in Naruto as he reveals a sinister plot that's been the death of far more people than anyone knew.",
+      release_date: "June 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2099.jpg"},
+
+{
+      title: "Naruto, Vol. 02: The Worst Client",
+      author: "Masashi Kishimoto",
+      synopsis: "Tired of menial tasks, Naruto, Sasuke and Sakura ask for a tougher assignment. But you should always be careful what you wish for! Along with their sensei, Kakashi, the trio must guard a cranky old man from the Land of Waves. But Tazuna the bridge builder is in more danger than anyone could have imagined. And now the young ninja are too!",
+      release_date: "June 2nd 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2100.jpg"},
+
+{
+      title: "Naruto, Vol. 13: The Chūnin Exam, Concluded...!!",
+      author: "Masashi Kishimoto",
+      synopsis: "The final battle of the Chūnin Exam is at hand! Sasuke makes it to the arena in time to compete, but the anticipation has only whetted Gaara's terrible bloodlust and strained his already fragile sanity. Can Gaara pull himself together in time to face Sasuke's newfound strength? Or will the demon inside him take complete control and wreak havoc on Konohagakure?!",
+      release_date: "August 2nd 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2101.jpg"},
+
+{
+      title: "Naruto, Vol. 16: Eulogy",
+      author: "Masashi Kishimoto",
+      synopsis: "Death in the village! When the dust settles from Orochimaru's attack, the shinobi find that not everyone has survived. While the ninja mourn, an unlikely candidate is chosen for greatness, a long-lost ninja returns with a dangerous entourage, and Naruto finds his life in more turmoil than ever before.",
+      release_date: "March 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2102.jpg"},
+
+{
+      title: "Naruto, Vol. 46: Naruto Returns",
+      author: "Masashi Kishimoto",
+      synopsis: "Naruto's friends are tested as an attempt to overthrow Tsunade begins and they must all fight—or fall. New secrets about Pain are revealed, but they only add to the mystery of his identity. As Pain commences with the final destruction of Konoha, Naruto and the Toads prepare to take him on in battle. Can Naruto save his beloved village?",
+      release_date: "May 1st 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2103.jpg"},
+
+{
+      title: "Naruto, Vol. 10: A Splendid Ninja",
+      author: "Masashi Kishimoto",
+      synopsis: "With only a few matches left to be fought in the preliminaries to the third portion of the Chūnin Selection Exams, the highly anticipated bout between mysterious Sand ninja Gaara and intense, earnest Konoha ninja Rock Lee begins. Will Gaara's bloodlust and his strange powers of sand manipulation be too much for Lee to handle? Or could Lee prove that dedication and an amazing work ethic are enough to make him a splendid ninja?",
+      release_date: "December 4th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2104.jpg"},
+
+{
+      title: "Naruto, Vol. 31: Final Battle",
+      author: "Masashi Kishimoto",
+      synopsis: "Naruto and his fellow ninja engage in deadly conflict with the enemy. If any of them makes the wrong decision, it could be one of Naruto's closest friends who pays the ultimate price.",
+      release_date: "December 26th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2105.jpg"},
+
+{
+      title: "Naruto, Vol. 29: Kakashi vs. Itachi",
+      author: "Masashi Kishimoto",
+      synopsis: "Guy vs. Kisame!! Kakashi vs. Itachi!! We finally learn what may be happening to Gaara and what might also be in store for Naruto, when they both come face to face with a devious common enemy: the Akatsuki!",
+      release_date: "August 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2106.jpg"},
+
+{
+      title: "Naruto, Vol. 05: Exam Hell",
+      author: "Masashi Kishimoto",
+      synopsis: "The three ninja-in-training have signed up for the Chūnin Selection Exams, which they must pass if they ever want to advance to the rank of full-fledged shinobi. They learn too late how grueling the exams are—and how dangerous. If the tests of skill, stealth, and battle prowess don't kill them, their fellow junior ninja will. And, since the three pass or fail as a group, they're only as strong as their weakest link: Naruto!",
+      release_date: "December 4th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2107.jpg"},
+
+{
+      title: "Naruto, Vol. 19: Successor",
+      author: "Masashi Kishimoto",
+      synopsis: "It's all-out shinobi war as Naruto, Tsunade, Jiraiya and Shizune take on Orochimaru and Kabuto in battle—with the final fate of Tsunade hanging on the outcome! Will her darkest fears finally become reality?!",
+      release_date: "November 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2108.jpg"},
+
+{
+      title: "Naruto, Vol. 12: The Great Flight",
+      author: "Masashi Kishimoto",
+      synopsis: "At last, the finals of the third phase of the Chūnin Selection Exams begin! In the first battle, Naruto faces off against Neji, widely considered to be the most talented young ninja in Konohagakure. With his newfound ability to access the power of the Nine-Tailed Fox, can Naruto beat his genius opponent? Or will Neji overcome his family's troubled history to triumph in the match?",
+      release_date: "May 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2109.jpg"},
+
+{
+      title: "Naruto, Vol. 30: Puppet Masters",
+      author: "Masashi Kishimoto",
+      synopsis: "Sakura takes her place at the front of the fight to save Naruto. With Granny Chiyo at her side, she must battle Sasori, who can create golems from the undead. But Granny Chiyo is a puppet master too—only it could be Sakura's strings she's pulling!",
+      release_date: "November 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2110.jpg"},
+
+{
+      title: "Naruto, Vol. 49: The Gokage Summit Commences",
+      author: "Masashi Kishimoto",
+      synopsis: "As the five leaders of the strongest villages in the ninja world meet to discuss the fate of their universe—and how to deal with the ever-looming threat of the rogue organization, the Akatsuki—plans are made that will affect Naruto deeply. The new Hokage, leader of Naruto's village, is not afraid to make the final end move against Naruto's old pal, Sasuke!",
+      release_date: "January 4th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2111.jpg"},
+
+{
+      title: "Naruto, Vol. 27: Departure",
+      author: "Masashi Kishimoto",
+      synopsis: "Sakura, Sasuke and Naruto part ways to begin training with separate sensei. Plus, take a trip back in time to finally learn the true story of Kakashi's greatest secret!",
+      release_date: "April 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2112.jpg"},
+
+{
+      title: "Naruto, Vol. 28: Homecoming",
+      author: "Masashi Kishimoto",
+      synopsis: "It's been two years since Naruto left to train with Jiraiya. Now he reunites with his old friends to find out he's still not the most accomplished of his former teammates. But when one of them is kidnapped, it's up to Naruto to prove he's got the stuff to save them!",
+      release_date: "June 3rd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2113.jpg"},
+
+{
+      title: "Naruto, Vol. 42: The Secret of the Mangekyo",
+      author: "Masashi Kishimoto",
+      synopsis: "To truly end the Akatsuki's reign of pain, Naruto's teacher Jiraiya must delve deep into the past to uncover the secret of Pain's origin. At the same time, Sasuke moves toward the final battle of the Uchiha brothers when he closes in on the elusive Itachi!",
+      release_date: "May 2nd 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2114.jpg"},
+
+{
+      title: "Naruto, Vol. 45: Battlefield, Konoha",
+      author: "Masashi Kishimoto",
+      synopsis: "Sasuke and Naruto find that their powers are ever-increasing. Sasuke can now use the Mangekyo Sharingan in multiple ways, and Naruto may have become even more powerful than his fallen sensei, Jiraiya! But is anyone powerful enough to stop the ultimate attack as the Pains of the Akatsuki launch their deadly strike against Naruto's home village?!",
+      release_date: "February 4th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2115.jpg"},
+
+{
+      title: "Naruto, Vol. 06: The Forest of Death",
+      author: "Masashi Kishimoto",
+      synopsis: "Through Naruto's pluck and a healthy dose of luck, Naruto, Sasuke and Sakura passed the written portion of their Chūnin Exam—but that was only the beginning. They're now in the thick of the exam's second portion, held in the aptly named Forest of Death, and instructor Mitarashi Anko has promised to cut the number of advancing teams by half!Each team is turned against the others, using stealth and cunning to purloin the scrolls that they need to pass the test, while trying to survive the many perils that lurk in the forest. And if that's not enough, there's a mysterious imposter among the students who has it in for Sasuke!",
+      release_date: "March 2nd 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2116.jpg"},
+
+{
+      title: "Naruto, Vol. 03: Bridge of Courage",
+      author: "Masashi Kishimoto",
+      synopsis: "While they recover from their injuries, Kakashi puts Naruto, Sasuke, and Sakura on a strict training regimen to protect Tazuna's family against Zabuza's next attack. But Zabuza has a dangerous new apprentice in Haku. And as the bridge comes closer to completion, our heroes must be willing to kill—or die.",
+      release_date: "August 4th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2117.jpg"},
+
+{
+      title: "Naruto, Vol. 44: Senjutsu Heir",
+      author: "Masashi Kishimoto",
+      synopsis: "Naruto must decipher the cryptic last words of his beloved mentor. What did Jiraiya find out about the leader of the Akatsuki that was so important he had to hide it in code? And can Naruto stand a fighting chance against those who managed to take down one of the Three Great Shinobi?",
+      release_date: "November 4th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2118.jpg"},
+
+{
+      title: "Naruto, Vol. 23: Predicament",
+      author: "Masashi Kishimoto",
+      synopsis: "Orochimaru's nefarious plans for Sasuke are revealed, and Naruto vows to save his friend. But first he must battle the mysterious Kimimaro, who has deadly past ties to the Sound Ninja Four!",
+      release_date: "August 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2119.jpg"},
+
+{
+      title: "Naruto, Vol. 21: Pursuit",
+      author: "Masashi Kishimoto",
+      synopsis: "Tsunade sends a team to hunt down the conflicted Sasuke, who's made a terrible choice of new teammates. Are Naruto, Neji and the others capable of beating the Sound Four? They have no choice but to find out!",
+      release_date: "March 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2120.jpg"},
+
+{
+      title: "Naruto, Vol. 58:  Naruto vs. Itachi",
+      author: "Masashi Kishimoto",
+      synopsis: "Kabuto’s hold over his army of undead minions tightens as he senses that he’s losing power over the stronger members of his Immortal Corps, including Nagato Pain. Sasuke’s brother, Itachi, may have the best chance of breaking Kabuto’s hold. But he’s still not completely in control of his actions, which means Naruto may have to take him down once and for all.",
+      release_date: "November 4th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2121.jpg"},
+
+{
+      title: "Naruto, Vol. 64: Ten Tails",
+      author: "Masashi Kishimoto",
+      synopsis: "With the masked man's identity revealed as Obito, Kakashi's resolve is severely shaken. It will be up to Naruto to inspire his old master to continue the fight. But when Ten Tails is finally awakened, will the entire ninja world be doomed?",
+      release_date: "April 4th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2122.jpg"},
+
+{
+      title: "Naruto, Vol. 40: The Ultimate Art",
+      author: "Masashi Kishimoto",
+      synopsis: "It's Deidara vs. Sasuke! Is even Deidara's Ultimate Art no match for the all-powerful new Sasuke? Plus, deep inside the Land of Rain lies a secret of the Akatsuki that sheds doubt on the mysterious organization's true intentions as well as their bizarre leader, Pain.",
+      release_date: "November 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2123.jpg"},
+
+{
+      title: "Naruto, Vol. 20: Naruto vs. Sasuke",
+      author: "Masashi Kishimoto",
+      synopsis: "It's ninja vs. ninja and Sakura is caught in the middle! With the Sound Four looming close and Lee in the hospital, all three friends hurl toward an uncertain future and find that growing up sometimes means growing apart.",
+      release_date: "December 19th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2124.jpg"},
+
+{
+      title: "Naruto, Vol. 60: Kurama",
+      author: "Masashi Kishimoto",
+      synopsis: "Now aligned with the tailed beasts and his fellow jinchūriki hosts more than ever, Naruto impresses the Allied Shinobi Forces with his newfound strength. But his comrades are not going to leave this final battle with the forces of Tobi up to Naruto alone. As they rush to assist their friend, Sasuke returns. And this time, he's intent on taking out Naruto once and for all.",
+      release_date: "May 2nd 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2125.jpg"},
+
+{
+      title: "Naruto, Vol. 48: The Cheering Village",
+      author: "Masashi Kishimoto",
+      synopsis: "Finally face-to-face with his ultimate nemesis, Naruto finds out there's way more to the true Pain than he could have ever imagined. As the consequences of the tumultuous politics of the past come to light, an unexpected turn of events puts a new ninja in power in Konoha. And the first act by the new leader will change Naruto's world forever.",
+      release_date: "November 4th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2126.jpg"},
+
+{
+      title: "Naruto, Vol. 11: Impassioned Efforts",
+      author: "Masashi Kishimoto",
+      synopsis: "Now preparing for the finals of the Chūnin Selection Exams, Naruto studies with naughty new mentor Jiraiya and struggles to harness the power of the Nine-Tailed Fox chakra locked within him. Meanwhile, other ninja villages are forming secret alliances against Konohagakure...",
+      release_date: "March 4th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2127.jpg"},
+
+      [genres[0], genres[4], genres[1], genres[10]]
+      ],
+      [
+{
+      title: "Claymore, Vol. 7: Fit for Battle",
+      author: "Norihiro Yagi",
+      synopsis: "Fearing that she's no match for the deadly Claymore named Ophelia, Clare spirits her companion Raki away to relative safety. But no matter how far they run they won't be able to escape Ophelia's heightened senses. And now that Ophelia knows that Clare has awakened, she will not rest until she has destroyed Clare.",
+      release_date: "November 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2128.jpg"},
+
+{
+      title: "Claymore, Vol. 6: The Endless Gravestones",
+      author: "Norihiro Yagi",
+      synopsis: "Teresa, a powerful Claymore, saves a young girl from her bandit captors and leaves the child in the care of some villagers. But triumph quickly gives way to despair when the situation takes a tragic turn, and Teresa is forced to kill a human--an act that will condemn her to death at the hands of her own kind.",
+      release_date: "April 30th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2129.jpg"},
+
+{
+      title: "Claymore, Vol. 11: Kindred of Paradise",
+      author: "Norihiro Yagi",
+      synopsis: "In the northern town of Pieta, Clare and a force of Claymores battle a troupe of Awakened Ones to prevent them from advancing south. Their orders are to hold off the evil horde at all costs, while the Organization prepares a secret weapon. Clare and her comrades realize that theirs is a suicide mission. As their friends fall one by one, the warriors band together to make their last stand.",
+      release_date: "November 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2130.jpg"},
+
+{
+      title: "Claymore, Vol. 9: The Deep Abyss of Purgatory",
+      author: "Norihiro Yagi",
+      synopsis: "Clare and her fellow Claymores Galatea and Jean must battle the Awakened Beings that are holding them captive. In the process, they find their captors' true motive: by torturing the warriors, they want to force them to awaken, and join them in a gathering of Yoma. Will Clare and her comrades be able to defeat the Awakened Beings without becoming one themselves?",
+      release_date: "November 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2131.jpg"},
+
+{
+      title: "Claymore, Vol. 15: Genesis of War",
+      author: "Norihiro Yagi",
+      synopsis: "Sexy sword-swinging ladies. R to L (Japanese Style). Galatea's plans to eliminate the Awakened former number 2, 'Bloody' Agatha, have failed, but the arrival of Clare and her comrades turns the tide of battle. In the aftermath, Miria decides to finally share her shocking discoveries about the true nature of the Yoma, of the Organization and of the Claymores themselves. In a world where monsters called Yoma prey on humans and live among them in disguise, humanity's only hope is a new breed of warrior known as Claymores. Half human, half monster, these silver-eyed slayers possess supernatural strength, but are condemned to fight their savage impulses or lose their humanity completely.",
+      release_date: "December 4th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2132.jpg"},
+
+{
+      title: "Claymore, Vol. 19: Phantoms in the Heart",
+      author: "Norihiro Yagi",
+      synopsis: "Sexy, sword-swinging ladies in an epic medieval monster huntReads R to L (Japanese Style). Priscilla relentlessly pursues Clare's destruction, while Deneve and Helen remain just as determined to protect her. But when the combined form of Luciela and Rafaela attacks, Clare and her cohorts are pulled into the twisting mass. Meanwhile, in Ribona, Miria heads east to destroy the Organization. She encounters Rubel and his secret weapons: mysterious warrior twins who may be Alicia and Beth's successors, as well as the Organization's number 10—a deadly fighter who can read Miria's mind.",
+      release_date: "December 3rd 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2133.jpg"},
+
+{
+      title: "Claymore, Vol. 3: Teresa of the Faint Smile",
+      author: "Norihiro Yagi",
+      synopsis: "A Claymore - a female warrior named for the sword she carries - travels from medieval village to village to destroy Yoma, monsters who disguise themselves as humans and who are almost impossible to kill. Claymores are half-humans, half-demons who willingly transformed themselves by mixing their blood with monster's blood. Claire, nicknamed silver-eyed killer, is such a powerful Claymore, she can slay a Yoma using only one hand. But she must constantly struggle to keep from becoming a monster herself.",
+      release_date: "November 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2134.jpg"},
+
+{
+      title: "Claymore, Vol. 10: The Battle of the North",
+      author: "Norihiro Yagi",
+      synopsis: "Clare and a group of Claymores are sent to the north to battle a group of Yoma that have banded together under the command of Isley, a powerful Awakened Being. When the warriors arrive, they find their new enemies to be unusually dangerous. They are incredibly strong, well organized, and seem to have a plan to dominate the entire region. Will the Claymores be able to stop this monstrous army?",
+      release_date: "May 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2135.jpg"},
+
+{
+      title: "Claymore, Vol. 5: The Slashers",
+      author: "Norihiro Yagi",
+      synopsis: "Teresa, a powerful Claymore, saves a young girl from her bandit captors and leaves the child in the care of some villagers. But triumph quickly gives way to despair when the situation takes a tragic turn, and Teresa is forced to kill a human--an act that will condemn her to death at the hands of her own kind.",
+      release_date: "January 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2136.jpg"},
+
+{
+      title: "Claymore, Vol. 22: Claws and Fangs of the Abyss",
+      author: "Norihiro Yagi",
+      synopsis: "Sexy, sword-swinging ladies in an epic medieval monster huntIn a world where monsters called Yoma prey on humans and live among them in disguise, humanity's only hope is a new breed of warrior known as Claymores. Half human, half monster, these silver-eyed slayers possess supernatural strength but are condemned to fight their savage impulses or lose their humanity completely. Rebel Claymores, the Organization that created them, and a host of reanimated top-level warriors clash with savage intensity. The Claymores’ demonic impulses are provoked, threatening to destroy their human consciousnesses. Meanwhile, Hysteria, animated by blind vengeance, grows stronger with each attack against her. Is it possible that the rebels will be defeated by their long-dead comrades? Reads R to L (Japanese Style) for teen plus audiences.",
+      release_date: "June 4th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2137.jpg"},
+
+{
+      title: "Claymore, Vol. 2: Darkness in Paradise",
+      author: "Norihiro Yagi",
+      synopsis: "A Claymore - a female warrior named for the sword she carries - travels from medieval village to village to destroy Yoma, monsters who disguise themselves as humans and who are almost impossible to kill. Claymores are half-humans, half-demons who willingly transformed themselves by mixing their blood with monster's blood. Claire, nicknamed silver-eyed killer, is such a powerful Claymore, she can slay a Yoma using only one hand. But she must constantly struggle to keep from becoming a monster herself.",
+      release_date: "May 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2138.jpg"},
+
+{
+      title: "Claymore, Vol. 8: The Witch's Maw",
+      author: "Norihiro Yagi",
+      synopsis: "Clare's battle with the awakened Ophelia ends with a surprising request from Ophelia. Ominous signs begin to emerge as Clare searches for Raki. Not only are the usually solitary Yoma joining forces, they appear to be preparing for battle. More mysteriously, Clare is taken captive by a male Awakened Being and held in a dungeon with other Claymores. Who are her captors, and what do they want?",
+      release_date: "April 28th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2139.jpg"},
+
+{
+      title: "Claymore, Vol. 4: Marked for the Death",
+      author: "Norihiro Yagi",
+      synopsis: "Teresa, a powerful Claymore, saves a young girl from her bandit captors and leaves the child in the care of some villagers. But triumph quickly gives way to despair when the situation takes a tragic turn, and Teresa is forced to kill a human--an act that will condemn her to death at the hands of her own kind.",
+      release_date: "May 1st 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2140.jpg"},
+
+{
+      title: "Claymore, Vol. 18: The Ashes of Lautrec",
+      author: "Norihiro Yagi",
+      synopsis: "Sexy, sword-swinging ladies in an epic medieval monster huntReads R to L (Japanese Style), for audiences T+  The Ashes of Lautrec After finding herself mysteriously drawn to the lair of Riful of the West, Clare made contact with the fused form of Rafaela and Luciela, which Awakened and transformed into the terrible being known as the Destroyer. Now, the entire land of Lautrec is subject to its dreadful, relentless assault. It seems that nothing, and no one, can halt the devastation. But there may be one force that is greater still…",
+      release_date: "July 2nd 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2141.jpg"},
+
+{
+      title: "Claymore, Vol. 21: Corpse of the Witch",
+      author: "Norihiro Yagi",
+      synopsis: "Reads R to L (Japanese Style). In a world where monsters called Yoma prey on humans and live among them in disguise, humanity's only hope is a new breed of warrior known as Claymores. Half human, half monster, these silver-eyed slayers possess supernatural strength but are condemned to fight their savage impulses or lose their humanity completely.A battle begins between rebel Claymore warriors and the Organization that created them. When the team of seven notorious rebel fighters is joined by an army of newly minted soldiers loyal to rebel leader Miria, it seems their victory is a foregone conclusion. Then the Organization releases its newest secret weapon: reanimated high-level warriors from past generations of Claymores.",
+      release_date: "December 2nd 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2142.jpg"},
+
+{
+      title: "Claymore, Vol. 12: The Souls of the Fallen",
+      author: "Norihiro Yagi",
+      synopsis: "In a world where monsters called Yoma prey on humans and live among them in disguise, humanity’s only hope is a new breed of warrior known as Claymores.",
+      release_date: "April 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2143.jpg"},
+
+{
+      title: "Claymore, Vol. 1: Silver-eyed Slayer",
+      author: "Norihiro Yagi",
+      synopsis: "A Claymore - a female warrior named for the sword she carries - travels from medieval village to village to destroy Yoma, monsters who disguise themselves as humans and who are almost impossible to kill. Claymores are half-humans, half-demons who willingly transformed themselves by mixing their blood with monster's blood. Claire, nicknamed silver-eyed killer, is such a powerful Claymore, she can slay a Yoma using only one hand. But she must constantly struggle to keep from becoming a monster herself.",
+      release_date: "January 5th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2144.jpg"},
+
+      [genres[0], genres[4], genres[9]]
+      ],
+      [
+{
+      title: "Mushishi, Vol. 7",
+      author: "Yuki Urushibara",
+      synopsis: "Ginko is sent on a fact-finding expedition to discover what the head of an ancient clan of mushishi is doing in an isolated, abandoned Japanese village. But the answer may be more than Ginko can handle: the Ragged Road he is investigating leads to mushi that can leave a man worse than dead!Includes special extras after the story!",
+      release_date: "February 23rd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2145.jpg"},
+
+{
+      title: "Mushishi, Vol. 4",
+      author: "Yuki Urushibara",
+      synopsis: "Nebulous and unseen, existing in a state somewhere between life and death, mushi bring nothing but pain, suffering, and destruction to humans. A small community of wandering healers and naturalists known as mushishi protect humans from the ravages of these malevolent entities. Ginko, with his green eye and white hair, is a mushishi. But when Ginko tries to help a boy who seems to have found spring in the middle of winter, he and the boy both become victims of the life-sucking creatures.",
+      release_date: "October 22nd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2146.jpg"},
+
+{
+      title: "Mushishi, Vol. 8/9/10",
+      author: "Yuki Urushibara",
+      synopsis: "Ginko is a master of the ephemeral life form known as Mushi. Their influence can be as visible as a mountain never giving up its winter to allow for spring, or as subtle as a prank played in a child's game. To some they are a curse; to others they offer unimagined possibility. Read the final three volumes of Ginko's journeys in this one remarkable edition!",
+      release_date: "2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2147.jpg"},
+
+{
+      title: "Mushishi, Vol. 2",
+      author: "Yuki Urushibara",
+      synopsis: "DARK MOUNTAINMushi, a terrifying primitive life-form, take countless shapes–most of them deadly to the human race. Enter Ginko, a mushi expert, known as a mushishi. Though his laconic smile and soft-spoken manner don’t seem imposing, he represents the human world’s greatest defense. When a fellow mushishi disappears, Ginko must search for him on a mushi-infested mountain, putting his own life on the line!",
+      release_date: "February 20th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2148.jpg"},
+
+{
+      title: "Mushishi, Vol. 1",
+      author: "Yuki Urushibara",
+      synopsis: "THEY HAVE EXISTED SINCE THE DAWN OF TIME.Some live in the deep darkness behind your eyelids. Some eat silence. Some thoughtlessly kill. Some simply drive men mad. Shortly after life emerged from the primordial ooze, these deadly creatures, mushi, came into terrifying being. And they still exist and wreak havoc in the world today. Ginko, a young man with a sardonic smile, has the knowledge and skill to save those plagued by mushi . . . perhaps.",
+      release_date: "November 22nd 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2149.jpg"},
+
+{
+      title: "Mushishi, Vol. 5",
+      author: "Yuki Urushibara",
+      synopsis: "Imagine being blind–but that nebulous creatures called mushi allow you to see farther and better than any human, even into another person’s future. Ginko, whose lifelong task is to understand the many kinds of mushi, encounters such a woman and becomes entangled in the shocking future she sees for him.",
+      release_date: "October 22nd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2150.jpg"},
+
+{
+      title: "Mushishi, Vol. 3",
+      author: "Yuki Urushibara",
+      synopsis: "They live on the shadowy border between the possible and the impossible–ancient life-forms known as mushi. Rare is the individual who can see them, but those with that special ability, the mushishi, can counter the creatures’ deadly effects on humans. After a young boy is orphaned in the forest, he is saved by a reclusive female mushishi. But the lake near the mushishi’s home holds a deadly secret, and the boy must find out what it is before his only friend is lost forever.",
+      release_date: "December 18th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2151.jpg"},
+
+{
+      title: "Mushishi, Vol. 6",
+      author: "Yuki Urushibara",
+      synopsis: "A father disappears and his son, a hunter, inherits his father’s power to lure animals to their deaths, quietly and entranced. But this ability poisons the mind and the body. Can mushi master Ginko cure the son before he shares his father’s fate, or will the young man turn his deadly powers on his would-be savior?",
+      release_date: "June 23rd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2152.jpg"},
+
+      [genres[4], genres[18]]
+      ],
+      [
+{
+      title: "Ouran High School Host Club, Vol. 9",
+      author: "Bisco Hatori",
+      synopsis: "In middle school, Tamaki Suoh must entice the coldhearted twins, Hikaru and Kaoru Hitachiin, to join his newly created Host Club. But in order to get them to accept his proposal, he must first best them at their own game.",
+      release_date: "September 5th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2153.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 4",
+      author: "Bisco Hatori",
+      synopsis: "One day, Haruhi, a scholarship student at exclusive Ouran High School, breaks an $80,000 vase that belongs to the 'Host Club', a mysterious campus group consisting of six super-rich (and gorgeous) guys. To pay back the damages, she is forced to work for the club, and it's there that she discovers just how wealthy the boys are and how different they are from everybody else.",
+      release_date: "December 31st 1999",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2154.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 5",
+      author: "Bisco Hatori",
+      synopsis: "In this sharp-witted romantic comedy about the clash of the classes (of all kinds), a poor girl at a rich kids' school ends up working at the school's toniest club-and gets mistaken for a boy!",
+      release_date: "January 5th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2155.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 2",
+      author: "Bisco Hatori",
+      synopsis: "The school-wide physical exam has thrown the members of the elegant Host Club for a loop. How can the doctor not discover that Haruhi is a girl? And once the female customers learn the turn, Haruhi can kiss her job goodbye. Illustrations. Rated for teens.",
+      release_date: "November 5th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2156.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 3",
+      author: "Bisco Hatori",
+      synopsis: "In this sharp-witted romantic comedy about the clash of the classes (of all kinds), a poor girl at a rich kids' school ends up working at the school's toniest club, and gets mistaken for a boy! ",
+      release_date: "March 5th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2157.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 6",
+      author: "Bisco Hatori",
+      synopsis: "In this sharp-witted romantic comedy about the clash of the classes (of all kinds), a poor girl at a rich kids' school ends up working at the school's toniest club-and gets mistaken for a boy!",
+      release_date: "July 5th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2158.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 11",
+      author: "Bisco Hatori",
+      synopsis: "In this screwball romantic comedy, Haruhi, a poor girl at a rich kids' school, is forced to repay an $80,000 debt by working for the school's swankiest, all-male club--as a boy! There, she discovers just how wealthy the six members are and how different the rich are from everybody else... ",
+      release_date: "November 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2159.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 10",
+      author: "Bisco Hatori",
+      synopsis: "Ever since the day he helped her up after a nasty tumble, Black Magic Club member Reiko Kanazuki has been obsessed with Hunny. She is devoting all her knowledge of the dark arts to curse him and steal his soul. Will the sweetest member of the Host Club fall victim to her spells?",
+      release_date: "August 14th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2160.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 7",
+      author: "Bisco Hatori",
+      synopsis: "Hunny's little brother, Chika, pays a visit to the Host Club--and immediately starts attacking Hunny, using all his martial-arts prowess against his older brother! Chika seems to be the absolute opposite of his sweets-loving, Bun-Bun-toting sibling, but why is he so angry with Hunny? The Host Club is determined to find out the cause...",
+      release_date: "December 5th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2161.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 14",
+      author: "Bisco Hatori",
+      synopsis: " ",
+      release_date: "May 1st 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2162.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 12",
+      author: "Bisco Hatori",
+      synopsis: "In this screwball romantic comedy, Haruhi, a poor girl at a rich kids' school, is forced to repay an $80,000 debt by working for the school's swankiest, all-male club--as a boy! There she discovers just how wealthy the six members are and how different the rich are from everybody else... ",
+      release_date: "July 22nd 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2163.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 15",
+      author: "Bisco Hatori",
+      synopsis: "Reads R to L (Japanese Style), for T audiences. The members of the Host Club plan an event to help Tamaki get over his separation anxiety from the Host Club, and even Haruhi gets in on the action. Will the bonds of friendship between Tamaki and Haruhi become bonds of love?",
+      release_date: "2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2164.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 1",
+      author: "Bisco Hatori",
+      synopsis: "One day, Haruhi, a scholarship student at exclusive Ouran High School, breaks an $80,000 vase that belongs to the 'Host Club', a mysterious campus group consisting of six super-rich (and gorgeous) guys. To pay back the damages, she is forced to work for the club, and it's there that she discovers just how wealthy the boys are and how different they are from everybody else.",
+      release_date: "August 5th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2165.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 17",
+      author: "Bisco Hatori",
+      synopsis: "Tamaki’s father and grandmother, the heads of the powerful Suoh Corp., are behind the Host Club’s suspension and the plan for Haruhi to be shipped off abroad. Now the Host Club members must pull out all the stops to save their beloved leader from his family’s infighting.",
+      release_date: "September 3rd 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2166.jpg"},
+
+{
+      title: "Ouran High School Host Club Box Set",
+      author: "Bisco Hatori",
+      synopsis: "The complete best-selling series, now in a value-priced box setReads R to L (Japanese style) for teen audiences. In this screwball romantic comedy, Haruhi, a poor girl at a rich kids school, is forced to repay an $80,000 debt by working for the school's swankiest, all-male club, as a boy! There she discovers just how wealthy the six members are and how different the rich are from everybody else.",
+      release_date: "August 16th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2167.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 8",
+      author: "Bisco Hatori",
+      synopsis: "The first-years in Class 1-A are taking part in a test of courage, where the loser will receive the dubious honor of being dubbed Best of Cowards. Kazukiyo Souga, the club president and fraidy-cat at heart, is happy to be on a team with the levelheaded Haruhi, but will he be able to stomach the antics of his other teammates - the twins Hikaru and Kaori Hitachiin?",
+      release_date: "April 5th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2168.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 16",
+      author: "Bisco Hatori",
+      synopsis: "The two senior members of the Host Club are graduating and will lead separate lives at university. Everyone is mourning the loss of the Hunny-Mori Combo, but the longtime duo already seems to have ended their close friendship. Now Mori has challenged Hunny to a duel--but why?",
+      release_date: "2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2169.jpg"},
+
+{
+      title: "Ouran High School Host Club, Vol. 13",
+      author: "Bisco Hatori",
+      synopsis: "Mei, wanting Haruhi to face up to her feelings, leaves out a magazine that has a checklist for determining whether a girl is in love. As Haruhi reads through the checklist, she realizes that one host may have captured her heart without her even knowing...",
+      release_date: "August 20th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2170.jpg"},
+
+      [genres[14], genres[13], genres[22], genres[15]]
+      ],
+      [
+{
+      title: "Battle Angel Alita, Volume 04: Angel of Victory",
+      author: "Yukito Kishiro",
+      synopsis: "Alita must choose a challenge team to defeat Jashugan, the proud, invincible Motorball champion. Who will give their all-their very life-for the lovely Battle Angel? In the intense heat of battle during her final one-on-one showdown with Jashugan, Alita slips into a trance that provides an incredible revelation about her mysterious past.",
+      release_date: "May 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2171.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 01: Rusty Angel",
+      author: "Yukito Kishiro",
+      synopsis: "Yukito Kishiro blurs the lines between human and machine in the sci-fi/action adventure Battle Angel Alita.Daisuke Ido, a talented cybernetic doctor, finds the head of a cyborg in a junk heap. When he rebuilds her body, Alita's only clue to her past surfaces-her deadly fighting instincts! And now she is determine to find out the truth about who she once was...",
+      release_date: "September 24th 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2172.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 07: Angel Of Chaos",
+      author: "Yukito Kishiro",
+      synopsis: "Alita meets Kaos, the son of mad scientist Desty Nova, who uses his psychometric powers to repair Alita's cyborg body after she falls into a sinkhole. A refurbished Alita finally goes head to head against the forces of Barjack and is ready to kill their leader, Den, when she's unexpectedly betrayed. Then Alita discovers the secret relationship between Den and Kaos...",
+      release_date: "1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2173.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 03: Killing Angel",
+      author: "Yukito Kishiro",
+      synopsis: "Her spirit crushed over the loss of Hugo, Alita runs away from Doc Ido and the life she's built in the Scrapyard to become a challenger in motorball, a combat-like game that pits cyborg competitors against each other. As they race through the obstacle course, fighting for the ball, Alita learns her foes will do anything to win, and that losers often don't live to talk about their defeat.",
+      release_date: "1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2174.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 09: Angel's Ascension",
+      author: "Yukito Kishiro",
+      synopsis: "The final volume of this epic sci-fi action series finds the beautiful and deadly cyborg Alita locked in a nightmarish virtual-reality battle with her nemesis, Desty Nova -- a struggle that may spell the end of the world.",
+      release_date: "1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2175.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 08: Fallen Angel",
+      author: "Yukito Kishiro",
+      synopsis: "'First published in Japan in 1991 by Shueisha Inc., Tokyo'--T.p. verso.",
+      release_date: "September 1st 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2176.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 05: Angel Of Redemption",
+      author: "Yukito Kishiro",
+      synopsis: "'First published in Japan in 1991 by Shueisha Inc., Tokyo'--T.p. verso.",
+      release_date: "1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2177.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 06: Angel Of Death",
+      author: "Yukito Kishiro",
+      synopsis: "Alita's death sentence is commuted in exchange for her service as a member of the 'Tuned,' an elite force of the utopian city of Tiphares. Her first assignment is to protect a nuclear-powered train from the infamous bandit known as Barjack.",
+      release_date: "June 1st 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2178.jpg"},
+
+{
+      title: "Battle Angel Alita, Volume 02: Tears of an Angel",
+      author: "Yukito Kishiro",
+      synopsis: "Alita's mastery of the lethal Panzer Kunst technique may not help her in volume 2 of this popular series. Her worst enemy may be herself.",
+      release_date: "February 24th 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2179.jpg"},
+
+      [genres[0], genres[5]]
+      ],
+      [
+{
+      title: "Nana, Vol. 4",
+      author: "Ai Yazawa",
+      synopsis: "This is the story of two 20-year old women who share the same name. Even though they come from completely different backgrounds, they somehow meet and become best friends. The world of NANA is a world exploding with sex, music, fashion, gossip, and all-night parties.",
+      release_date: "December 10th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2180.jpg"},
+
+{
+      title: "Nana, Vol. 7",
+      author: "Ai Yazawa",
+      synopsis: "Nana K. was happy to be Blast's biggest cheerleader, but now that the band is taking off, she's discovering that there are hordes of fans eager to take her place. At the same time, her involvement with Trapnest hottie Takumi is turning into a romantic entanglement she hadn't expected. When a chance for another kind of happiness presents itself, will Nana K. be strong enough to face the difficult choices that result?",
+      release_date: "October 15th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2181.jpg"},
+
+{
+      title: "Nana, Vol. 8",
+      author: "Ai Yazawa",
+      synopsis: "Hachi's happiness with Nobu is slipping through her fingers as an unexpected complication with Takumi threatens to upend her entire life. And unlike her past romantic woes, the choice she makes now will change the lives of everyone around her.",
+      release_date: "May 15th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2182.jpg"},
+
+{
+      title: "Nana, Vol. 1",
+      author: "Ai Yazawa",
+      synopsis: "Nana Komatsu is a young woman who's endured an unending string of boyfriend problems. Moving to Tokyo, she's hoping to take control of her life and put all those messy misadventures behind her. She's looking for love and she's hoping to find it in the big city. Nana Osaki, on the other hand, is cool, confident and focused. She swaggers into town and proceeds to kick down the doors to Tokyo's underground punk scene. She's got a dream and won't give up until she becomes Japan's No. 1 rock'n'roll superstar. This is the story of two 20-year-old women who share the same name. Even though they come from completely different backgrounds, they somehow meet and become best friends. The world of Nana is a world exploding with sex, music, fashion, gossip and all-night parties.",
+      release_date: "May 15th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2183.jpg"},
+
+{
+      title: "Nana, Vol. 10",
+      author: "Ai Yazawa",
+      synopsis: "Being an engaged woman isn't as wonderful as Hachi thought it would be. She has a trendy new apartment, but she's isolated from all her friends and Takumi is hardly ever home. When scandal hits Blast hard, Trapnest (and her fiancé) flee to Europe and Hachi is left to watch Blast suffer in the scandal rags and tabloid shows.",
+      release_date: "March 15th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2184.jpg"},
+
+{
+      title: "Nana, Vol. 11",
+      author: "Ai Yazawa",
+      synopsis: "Nana 11",
+      release_date: "August 11th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2185.jpg"},
+
+{
+      title: "Nana, Vol. 3",
+      author: "Ai Yazawa",
+      synopsis: "This is the story of two 20-year old women who share the same name. Even though they come from completely different backgrounds, they somehow meet and become best friends. The world of NANA is a world exploding with sex, music, fashion, gossip, and all-night parties.",
+      release_date: "May 15th 2001",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2186.jpg"},
+
+{
+      title: "Nana, Vol. 13",
+      author: "Ai Yazawa",
+      synopsis: "This is the story of two 20-year-old women who share the same name. Even though they come from completely different backgrounds, they somehow meet and become best friends. The world of Nana is a world exploding with sex, music, fashion, gossip and all-night parties.",
+      release_date: "August 12th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2187.jpg"},
+
+{
+      title: "Nana, Vol. 20",
+      author: "Ai Yazawa",
+      synopsis: "The all-time best-selling shojo title in Japan R to L (Japanese Style). Ren's drug use is spiraling out of control and he doesn't want to drag Trapnest down with him. Neither Takumi nor Reira are willing to let Ren quit the band, and both do their best to give him the time he needs to get it together. But Ren isn't sure this is something he can handle on his own. Will he turn to Nana for help, or will their strained relationship make him try to face his demons alone? Nana 'Hachi' Komatsu hopes that moving to Tokyo will help her make a clean start and leave her capricious love life behind her. Nana Osaki, who arrives in the city at the same time, has plans to score big in the world of rock'n'roll. Although these two young women come from different backgrounds, they quickly become best friends in a whirlwind world of sex, music, fashion, gossip and all-night parties!",
+      release_date: "September 12th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2188.jpg"},
+
+{
+      title: "Nana, Vol. 21",
+      author: "Ai Yazawa",
+      synopsis: "Reads R to L (Japanese Style). The all-time best-selling shojo title in Japan ",
+      release_date: "March 13th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2189.jpg"},
+
+{
+      title: "Nana, Vol. 14",
+      author: "Ai Yazawa",
+      synopsis: "This is the story of two 20-year-old women who share the same name. Even though they come from completely different backgrounds, they somehow meet and become best friends. The world of Nana is a world exploding with sex, music, fashion, gossip and all-night parties.",
+      release_date: "December 15th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2190.jpg"},
+
+{
+      title: "Nana, Vol. 5",
+      author: "Ai Yazawa",
+      synopsis: "Nana K. is going home--for an awesome TrapNest concert! She drags Nana O. along, convinced that somehow Ren will sense his ex-flame in the audience. But life is never that easy, and Nana O. isn't sure if she even wants Ren back. As for Nana K., is she prepared for TrapNest to come down off the stage and into her life, or will her fan-girl attitude land her in a heap of trouble?",
+      release_date: "May 15th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2191.jpg"},
+
+{
+      title: "Nana, Vol. 9",
+      author: "Ai Yazawa",
+      synopsis: "Takumi and Hachi are getting married, but it's far from a joyous announcement. Nobu and Nana are devastated, and even Takumi's bandmates take the news hard. With paparazzi skulking around for a new scandal to exploit and tensions between Trapnest and Blast on high alert, will Hachi ever get her happily ever after?",
+      release_date: "November 14th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2192.jpg"},
+
+{
+      title: "Nana, Vol. 12",
+      author: "Ai Yazawa",
+      synopsis: "Hachi tells herself that she's got her eye on the future and her life with Takumi, but she just can't let go of the past and her friendship with Nana and the rest of Blast - especially Nobu. And the tangle gets thicker when Hachi's wedding has to be postponed in favor of Nana and Ren's nuptials. Can Hachi handle another delay in her happily ever after?",
+      release_date: "March 15th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2193.jpg"},
+
+{
+      title: "Nana, Vol. 2",
+      author: "Ai Yazawa",
+      synopsis: "This is the story of two 20-year old women who share the same name. Even though they come from completely different backgrounds, they somehow meet and become best friends. The world of NANA is a world exploding with sex, music, fashion, gossip, and all-night parties.",
+      release_date: "December 11th 2000",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2194.jpg"},
+
+{
+      title: "Nana, Vol. 6",
+      author: "Ai Yazawa",
+      synopsis: "Nana Osaki's band Blast is taking off in a big way--from sold-out club dates to a record label waving a contract at them. But the Trapnest menace still lurks, stealing away everything she cares for. Trapnest took her boyfriend, and even though Ren is back in her life, his band still comes first. And now her trusty sidekick Nana K. is being lured away by Trapnest bassist Takumi. But this time, Nana O. won't give up without a fight!",
+      release_date: "September 13th 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2195.jpg"},
+
+      [genres[7], genres[13], genres[16]]
+      ],
+      [
+{
+      title: "Soul Eater, Vol. 07",
+      author: "Atsushi Ohkubo",
+      synopsis: "Shinigami-sama summons the strongest weapons from around the world to contain the rogue kishin and the spread of his madness. As these powerful weapons strategize for what will be the most difficult battle of their lives, the students of DWMA try to get back to their normal lives as best they can. For Maka, adjusting to the dangerous times is nothing compared to Crona's struggle to adjust to life as a DWMA student!",
+      release_date: "September 22nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2196.jpg"},
+
+{
+      title: "Soul Eater, Vol. 03",
+      author: "Atsushi Ohkubo",
+      synopsis: "Tsubaki and Black*Star set off on their most difficult mission yet: a battle with the Uncanny Sword Masamune, a soul on the brink of becoming a Kishin. But this fight holds personal significance for Tsubaki - their target is her older brother. Jealous of her inherited talents, Masamune is holding nothing back. Usually docile and complacent, Tsubaki must find the strength to overtake the Uncanny Sword before she too is sucked into the darkness.",
+      release_date: "April 22nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2197.jpg"},
+
+{
+      title: "Soul Eater, Vol. 01",
+      author: "Atsushi Ohkubo",
+      synopsis: "Maka is a weapon meister, determined to turn her partner, a living scythe named Soul Eater, into a powerful death scythe - the ultimate weapon of Death himself! Charged with the task of collecting and devouring the tainted souls of ninety-nine humans and one witch, Maka and her fellow meisters strive to master their weapons as they face off against the bizarre and dangerous minions of the underworld. But the meisters' own personal quirks may prove a bigger obstacle than any sultry enchantress!",
+      release_date: "June 22nd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2198.jpg"},
+
+{
+      title: "Soul Eater, Vol. 04",
+      author: "Atsushi Ohkubo",
+      synopsis: "At Maka's request, she and Soul meet with Doctor Stein for an intensive tutoring session. Although Stein warns that they may never be able to resonate again if they fail to complete the training, Maka insists, desperate to become stronger so that Soul is never hurt again. But Soul's strange nightmares have made him reluctant to seek power, and his unwillingness to share his fears only frustrates his partner. With their soul wavelengths pulling apart, will Maka and Soul be able to come together when danger emerges on their next assignment?",
+      release_date: "August 22nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2199.jpg"},
+
+{
+      title: "Soul Eater, Vol. 06",
+      author: "Atsushi Ohkubo",
+      synopsis: "Death the Kid and Black*Star race after Free and Eruka, ready to do whatever it takes to stop the Black Blood before it is used to revive the slumbering First Kishin. Meanwhile, Maka has allowed herself to slip into madness in an effort to reach Crona’s troubled soul. In addition to being horribly embarrassing, her actions carry a great risk. If Maka can’t find Crona fast, she too will be consumed by madness!",
+      release_date: "January 1st 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2200.jpg"},
+
+{
+      title: "Soul Eater, Vol. 02",
+      author: "Atsushi Ohkubo",
+      synopsis: "The remedial assignment continues as Soul and Maka confront Dr. Franken Stein, the man behind Sid-sensei's unfortunate transformation and the strongest meister ever to graduate from Death Weapon Meister Academy. Even without a weapon, his massive soul dwarfs them all-even big shot Black*Star! Can Maka rally her strength to face Stein in battle, or will despair be her downfall?",
+      release_date: "November 22nd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2201.jpg"},
+
+{
+      title: "Soul Eater, Vol. 05",
+      author: "Atsushi Ohkubo",
+      synopsis: "On the night of DWMA’s anniversary celebration, every meister and weapon in Death City has gathered at the school for an evening of music and dancing. Little do they know that the witch Medusa is about the crash Shinigami-sama’s party. Trapping the meisters inside, the witch makes her way to the chamber where the First Kishin is imprisoned. Will the few meisters who’ve managed to escape be enough to prevent Medusa from rousing the madness that slumbers far below in the Kishin’s domain?",
+      release_date: "December 22nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2202.jpg"},
+
+      [genres[0], genres[4], genres[1], genres[10], genres[18]]
+      ],
+      [
+{
+      title: "A Bride's Story, Vol. 2",
+      author: "Kaoru Mori",
+      synopsis: "Acclaimed creator Kaoru Mori's tale of life on the nineteenth-century Silk Road continues as the young bride, Amir Halgal, struggles to remain with her new groom despite the wishes of her family, who would see her wed another. Will Amir be able to preserve the bonds she has cultivated in her new home?",
+      release_date: "June 15th 2010",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2203.jpg"},
+
+{
+      title: "A Bride's Story, Vol. 1",
+      author: "Kaoru Mori",
+      synopsis: "Acclaimed creator Kaoru Mori (Emma, Shirley) brings the nineteenth-century Silk Road to lavish life, chronicling the story of Amir Halgal, a young woman from a nomadic tribe betrothed to a twelve-year-old boy eight years her junior. Coping with cultural differences, blossoming feelings for her new husband, and expectations from both her adoptive and birth families, Amir strives to find her role as she settles into a new life and a new home in a society quick to define that role for her.",
+      release_date: "October 15th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2204.jpg"},
+
+{
+      title: "A Bride's Story, Vol. 3",
+      author: "Kaoru Mori",
+      synopsis: "Acclaimed creator Kaoru Mori's tale of life on the nineteenth-century Silk Road continues, this time introducing a new would-be bride--Talas. A young widow, Talas opens her home to the researcher Mr. Smith, who has ventured to her town to continue his studies. However, when Talas's uncle begins to see Smith as an impediment to his plans to wed his son to Talas, the old man's schemes land the Englishman in prison! Far from friends and even farther from home, Smith's outlook seems grim...",
+      release_date: "June 15th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2205.jpg"},
+
+{
+      title: "A Bride's Story, Vol. 4",
+      author: "Kaoru Mori",
+      synopsis: "Acclaimed creator Kaoru Mori’s tale of life on the nineteenth-century Silk Road turns westward, following Englishman Mr. Smith on his long journey to Ankara. Passing through a fishing village along the Aral Sea, Smith and his guide encounter a pair of spirited young girls named Laila and Leily--identical twins who are fishing not for sturgeon, but for husbands! Despite their efforts to find two wealthy, healthy, and handsome brothers to wed, Laila and Leily’s plans generally only land them in loads of trouble!",
+      release_date: "May 12th 2012",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2206.jpg"},
+
+{
+      title: "A Bride's Story, Vol. 5",
+      author: "Kaoru Mori",
+      synopsis: "Acclaimed creator Kaoru Mori's tale of life on the nineteenth-century Silk Road takes on an air of celebration as, at long last, Laila and Leily's wedding day arrives! But the marriage ceremony may be even more taxing for the girls than their search for a pair of grooms. Sitting still and silent as their guests celebrate and eat is a trial that will push the girls' patience to its limit, not to mention that of Sami and Sarm! As the twins finally make their vows and commit themselves to their husbands, the gravity of the moment finally sets in. Though they have dreamed of marriage for years, only now do they realize that everything in their lives is about to change...Crafted in painstaking detail, Ms. Mori's pen breathes life into the scenery and architecture of the period in this heart-warming, slice-of-life tale that is at once wholly exotic, yet familiar and accessible through the everyday lives of the characters she has created.",
+      release_date: "January 15th 2013",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2207.jpg"},
+
+      [genres[7], genres[13], genres[9], genres[16]]
+      ],
+      [
+{
+      title: "Pandora Hearts, Volume 7",
+      author: "Jun Mochizuki",
+      synopsis: "The past holds everyone in its thrall, and Oz, Alice, Raven, Break, and their acquaintances are no exception, especially as recollections of the tragedy of Sablier elude even those who were present. Indeed, with his own body playing host to Jack Vessalius, the hero of Sablier, the likelihood of Oz escaping the past seems nigh impossible. But given a renewed lease on life by Elliot Nightray — the legitimate heir to the Nightray dukedom, of all people — Oz is eager to keep moving forward by learning all that he can about the events that came to pass all those years ago. To this end, he and his friends seek an audience with another of the four great dukes — Duke Rufus Barma. But it is not a glimpse into a hundredyear-old disaster that is revealed to them in the Duke’s presence, but rather one into Break’s lamentable, shockingly unforgettable past…",
+      release_date: "December 27th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2208.jpg"},
+
+{
+      title: "Pandora Hearts, Volume 8",
+      author: "Jun Mochizuki",
+      synopsis: "The snow-white maiden encountered once upon a time in the depths of the Abyss by the clown christened the Red-Eyed Specter…who was she really? As there are two sides to every story, could it be there are two sides to the existence known as Alice? Duke Barma may have provided a sordid outline, but Break colors the tale with vivid swathes of bloody crimson as he opens up about his past. Will these tragic truths long secreted away isolate Break further from his allies once he has revealed them?",
+      release_date: "March 27th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2209.jpg"},
+
+{
+      title: "Pandora Hearts, Volume 6",
+      author: "Jun Mochizuki",
+      synopsis: "Though Oz’s sudden appearance in the midst of Pandora wreaks havoc, the initially chilly reception to the prison-breaker runs more than warm when Jack Vessalius, hero of the tragedy of Sablier and the man from Alice’s memories, manifests in Oz’s body. Sensing Oz’s resultant inner turmoil, Uncle Oscar drags Oz and company on a “mission” to Lutwidge Academy, where Oz’s little sister, Ada, is a student. But some carefree fun and a tearful reunion ten years in the making is not all for which Oz must prepare himself: crimson-cloaked foes are lying in wait to torture him for answers about the events of a hundred years ago…",
+      release_date: "August 27th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2210.jpg"},
+
+{
+      title: "Pandora Hearts, Volume 3",
+      author: "Jun Mochizuki",
+      synopsis: "Heir to an aristocratic family, Oz Vessalius is a carefree teen. That is until his fifteenth birthday. His entire world changes at his coming of age ceremony when dark forces rise to punish Oz for the sins of a past life. Incarcerated in a prison known as the Abyss, Oz’s life and perhaps his sanity are saved by a black rabbit called Alice. As Oz plunges deeper down the proverbial rabbit hole, he must unravel the mysteries surrounding him before falling into the clutches of the shadowy cabal called Pandora!Contents:Retrace X: MaledictionRetrace XI: GrimRetrace XII: Where Am IRetrace XIII: A Lost Raven",
+      release_date: "July 27th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2211.jpg"},
+
+{
+      title: "Pandora Hearts, Volume 4",
+      author: "Jun Mochizuki",
+      synopsis: "As Oz Vessalius and his valet, Gilbert, are reunited with their dear Uncle Oscar, they fail to notice an alienated Alice lost in thought stumbling right into the lurking Xerxes Break. Before Alice can take heed of Break’s warning of a trap set by the Cheshire Cat — a powerful, extraordinary chain — she and Break are spirited away to Cheshire’s lair, where both danger and fragments of Alice’s past reside. With Sharon’s help, Oz and Gil find a way to enter the sealed dimension of memories, but not only do their allies await them there, so too does the man from Alice’s earlier memory! Does he hold the key to the truth about Oz’s “sin”?Contents:Retrace XIV: Lop EarRetrace XV: Welcome to LabyrinthRetrace XVI: Keeper of the SecretRetrace XVII: Odds and EndsRetrace XVIII: Hollow Eye Socket",
+      release_date: "December 27th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2212.jpg"},
+
+{
+      title: "Pandora Hearts, Volume 2",
+      author: "Jun Mochizuki",
+      synopsis: "Oz Vessalius may have survived his stint in the Abyss, but he is no closer to discovering the truth behind the “sin” for which he was condemned. On the advice of a mysterious man who appeared to him when Alice regained the first of her memories, Oz, along with Alice and Pandora’s Raven, embarks on a mission to investigate the site of his disastrous coming-of-age ceremony in search of answers. However, what begins as a simple investigation becomes the revelation of a harsher reality, which comes swooping down on Oz as the hands of the clock continue ticking away mercilessly…Contents:Retrace V: Clockwise DoomRetrace VI: Where am IRetrace VII: ReunionRetrace VIII: WhipsererRetrace IX: Question",
+      release_date: "March 27th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2213.jpg"},
+
+{
+      title: "Pandora Hearts, Volume 5",
+      author: "Jun Mochizuki",
+      synopsis: "Oz memasuki salah satu ingatan Alice yang ternyata merupakan ingatan mengenai bencana yang terjadi 100 tahun lalu. Di sana, Oz mengetahui kenyataan mengerikan tentang Alice dan Vincent Nightray. Tapi, kenapa Vincent bisa berada dalam ingatan Alice? Berhasilkah Oz menyelamatkan Alice!?",
+      release_date: "April 26th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2214.jpg"},
+
+      [genres[7], genres[4], genres[10], genres[8]]
+      ],
+      [
+{
+      title: "Eyeshield 21, Vol. 12: Devil Bat Ghost",
+      author: "Riichiro Inagaki",
+      synopsis: "We're back at the Deimon-Amino game as Sena faces his nemesis Munakata in a memorable showdown. Then, as the season unfolds, new rivals emerge, along with a slew of worthy opposing teams, in a thrilling quadruple-header filled with pent-up emotion, gritty determination and a surprise finale. Get ready for more football action in volume 12 of EYESHIELD 21!",
+      release_date: "March 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2215.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 3: And They're Called the Devil Bats",
+      author: "Riichiro Inagaki",
+      synopsis: "Sena faces a brick wall in the form of hulking über-athlete, Shin, of the White Knights. Rather than run away, Sena runs at full speed, straight at this exciting new challenge! But will Sena's frail body hold up to all the brain-jostling tackles that Shin dishes out?",
+      release_date: "June 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2216.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 2: The False Hero",
+      author: "Riichiro Inagaki",
+      synopsis: "The second game of the season finds Sena and the Devilbats lined up against the champion White Knights. Big and ferocious, the Knights feature a squad of the toughest kids in high school. Will Sena wimp out of this one or will he break through the Knights' defense to see daylight? And what's the deal with the Devilbats' center? Will we ever find out why his head is shaped like a chestnut?",
+      release_date: "March 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2217.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 23: Then Came the Showdown!",
+      author: "Riichiro Inagaki",
+      synopsis: "Bone-crushing action, slapstick comedy and a heartwarming coming-of-age story!",
+      release_date: "February 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2218.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 20: Devils vs. Gods",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats go up against a team far superior to any they've faced yet! Their opponents, the Nagas, have an ace quarterback and a star player whose athletic skill is so far above others he looks down on them as insects. The dismal score has devastated the Bats' morale and they've all but given up. Even the crowd who usually cheers them on has started to leave. Could this be the end of their surprise winning streak, not to mention their goal of going to the Christmas Bowl?",
+      release_date: "January 1st 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2219.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 17: The Drive to Be the Best",
+      author: "Riichiro Inagaki",
+      synopsis: "With their former kicker back on the team, the Devil Bats have a real shot at closing the gap against the Seibu Wild Gunmen. But Seibu is still a major threat. Can the Devil Bats hold on for the victory?",
+      release_date: "January 5th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2220.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 8: True Warriors Seek Out Strong Foes",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats take on the NASA Aliens! After months of grueling training, the game against the Americans is finally about to begin. But the Aliens have a huge front line and a quarterback with an arm like a rocket launcher. Will the Devil Bats be able to clinch the win before the Aliens' score goes up into orbit?!",
+      release_date: "April 30th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2221.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 13: Who is the Real Eyeshield 21?",
+      author: "Riichiro Inagaki",
+      synopsis: "Could there be more than one Eyeshield 21? A player on a rival team claims he met the real Eyeshield 21 while he was an exchange student in America. Back then, this mysterious other Eyeshield was on the Notre Dame feeder school football team. But now he's in Japan, and he's going to play during the fall season!",
+      release_date: "April 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2222.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 22: Time-Out 0",
+      author: "Riichiro Inagaki",
+      synopsis: "Bone-crushing action, slapstick comedy and a heartwarming coming-of-age story!",
+      release_date: "December 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2223.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 27: Seijuro Shin vs. Sena Kobayakawa",
+      author: "Riichiro Inagaki",
+      synopsis: "R to L (Japanese Style). With a mere two and a half minutes on the clock, the Deimon Devil Bats desperately try to erase the Ojo White Knights' five-point lead. The ball is in Deimon's hands, but everyone is past the threshold of exhaustion...and they're still 40 yards away from the goal line. Sena's banking on some of his slickest moves to help him outmaneuver Ojo's ace Shin and carry his team to victory...but Shin has never backed down to another competitor before, and doesn't plan on starting anytime soon.",
+      release_date: "November 2nd 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2224.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 15: The Toughest Warriors in Tokyo",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats' game against the Poseidons comes to its nail-biting conclusion, a foot from the Poseidons' goal line and with only two seconds left in the game. Later, a new player shows up on the scene--Sena's childhood friend Riku, a Seibu Wild Gunman who's looking to become Sena's greatest rival.",
+      release_date: "September 2nd 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2225.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 11: Open Season",
+      author: "Riichiro Inagaki",
+      synopsis: "With summer coming to an end, the Devil Bats are back at home...and the start of the fall season is staring them in the face! Who will be in the fall lineup? And when Sena gets lost on his way to the first game of the season, can the team survive without the speed and star power of Eyeshield 21?",
+      release_date: "December 3rd 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2226.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 29: The Second Quarterback",
+      author: "Riichiro Inagaki",
+      synopsis: "Bone-crushing action, slapstick comedy and a heartwarming coming-of-age story! R to L (Japanese Style). As the gridiron mega-showdown between the Deimon Devil Bats and the Hakushu Dinosaurs rapidly approaches, players on both teams use their final moments to build as much strength as possible. Hoping to muscle-up so as to not be utterly obliterated by the monstrous Rikiya Gao, Kurita turns to an old rival for a unique bout of special training. Also knowing full well that Hakushu will be gunning for his head, Hiruma imparts manager Mamori with some special instructions to be used in the (very likely) event that he gets knocked out of the game. Who will score the first touchdown and who will be carried off the field on a stretcher?! Wimpy Sena Kobayakawa has been running away from bullies all his life. But when the football gear comes on, things change--Sena's speed and uncanny ability to elude big bullies just might give him what it takes to become a great high school football hero! Catch all the bone-crushing action and slapstick comedy of Japan's hottest football manga!",
+      release_date: "April 4th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2227.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 4: Intimidation",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats face off against the Chamelons--a team of ruthless delinquents. But when fragile Sena goes up against the Chameleon's sinister ace linebacker, who will be intimidating whom?",
+      release_date: "August 4th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2228.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 19: The Successor",
+      author: "Riichiro Inagaki",
+      synopsis: "It's the second half of the game between the Bando Spiders and the Deimon Devil Bats. The winner will walk away with the final seed to the Kanto Tournament--the loser will walk away in shame. Strong winds are playing havoc with the passing games of both teams, forcing them to stick to the ground. But the shifty Hiruma has been intentionally throwing weak passes to make the Spiders defense underestimate him. Just when they least expect it he fires off a missile for a touchdown and puts the Bats back in the game! But it's not over yet...",
+      release_date: "June 2nd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2229.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 18: Sena Kobayakawa",
+      author: "Riichiro Inagaki",
+      synopsis: "It's time for some serious gridiron action when the Bando Spiders collide with the Devil Bats! The game gets off to a bad start for the Bats when an incredibly accurate onside kick, combined with top-notch blocking, results in a field goal and an early lead for the Spiders. From there it just gets worse as the Devil Bats try to overcome the Spiders' special defensive maneuver, the 'Run Force'!",
+      release_date: "March 3rd 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2230.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 14: The Demons vs. the Gods of the Sea",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats' game against the Poseidons has begun! Besides a huge size advantage, the Poseidons boast 'the High Wave,' a powerful attack that threatens to wipe out all opposition. Mid-game, the Devil Bats' quarterback decides that it's time to unveil a new counterattack, but will it be enough to stop the team's slide into defeat?",
+      release_date: "July 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2231.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 28: Tokyo Dome of the Decisive Battle",
+      author: "Riichiro Inagaki",
+      synopsis: "Just as the manager for the Hakushu Dinosaurs is about to show Sena and Riku some footage of her team in an attempt to dissuade them from continuing in the tournament, the horrifically powerful Rikiya Gao appears and gets ready to smash everything and everyone. But Gao's scare tactics fail to intimidate Riku, who declares that the Wild Gunmen won't back down from their upcoming match. Known for injuring quarterbacks left and right, does Gao now have The Kid dead in his sights?",
+      release_date: "February 4th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2232.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 1: The Boy With the Golden Legs",
+      author: "Riichiro Inagaki",
+      synopsis: "What does a wimpy kid who's been bullied all his life have to depend on but his own two feet? Sena Kobayakawa is about to start his first year in high school and he's vowed not to get picked on anymore. Unfortunately, the sadistic captain of the football team already has his eye on Sena and his lightning-fast speed.",
+      release_date: "January 1st 2002",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2233.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 9: Hell is for Devil Bats",
+      author: "Riichiro Inagaki",
+      synopsis: "Fun in the sun! When the Devil Bats and the Seibu Wild Gunmen head to the Texas coast, they merge to form a single team and compete in a beach football tournament! But this game is played without helmets...so will Eyeshield 21's identity be revealed?! And are the Devil Bats dedicated enough to sacrifice their summer vacation for a hellishly intense training camp?",
+      release_date: "August 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2234.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 10: Is There a Loser in the House?",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats are training harder than ever as they endure a grueling 'death march' from Houston to Las Vegas! A biker gang whisks Sena off on a wild detour to San Antonio, where he tries to recruit a promising tight end prospect. And if the team survives the trek through the desert, what kind of havoc will they wreak in Sin City?!",
+      release_date: "October 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2235.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 16: Dawn of the Time-Out",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats pull out all the stops in their game against the Seibu Wild Gunmen, but the Gunmen's offense proves to be unshakeable. Without a kicker, the Devil Bats don't stand a snowball's chance in hell...or do they?",
+      release_date: "November 4th 2005",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2236.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 26: Rough 'n' Tumble",
+      author: "Riichiro Inagaki",
+      synopsis: "R to L (Japanese Style). As the second half begins in the Kanto Tournament game between the Devil Bats and the White Knights, Ojo is still leading by seven points. Sena continues to struggle against the seemingly unstoppable Shin, but it's another Deimon player who finds a kink in the Knights' armor. Hoping to prove his superiority in the air, Monta clashes head-on with ace receiver Sakuraba. Will Monta's skills help put Deimon back in scoring position?",
+      release_date: "September 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2237.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 25: Perfect Player",
+      author: "Riichiro Inagaki",
+      synopsis: "R to L (Japanese Style)",
+      release_date: "July 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2238.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 32: Xmas BOWL",
+      author: "Riichiro Inagaki",
+      synopsis: "Bone-crushing action, slapstick comedy and a heartwarming coming-of-age story!Reads R to L (Japanese Style). Bone-crushing action, slapstick comedy and a heartwarming coming-of-age story! Christmas Bowl In preparation for their match against the strongest football team in Japan, the Deimon Devil Bats partner up with a host of star players from their previous matches in the hope of gaining a tactical edge. Sena and Shin, Kurita and Gao, Monta and Ikkyu; each Devil Bat hopes to find new strength in this extra-special bout of one-on-one training. But will an emotionally shaken Monta dash Deimon's chance for victory?",
+      release_date: "January 1st 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2239.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 21: They Were 11!!",
+      author: "Riichiro Inagaki",
+      synopsis: "Sena Kobayakawa is about to start his first year of high school and he’s vowed not to get picked on anymore. Unfortunately, the sadistic captain of the football team already has his eye on Sena and his lightning-fast speed. Bone-crushing action, slapstick comedy and a heartwarming coming-of-age story!",
+      release_date: "October 4th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2240.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 24: The Indomitable Fortress",
+      author: "Riichiro Inagaki",
+      synopsis: "R to L (Japanese Style)",
+      release_date: "April 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2241.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 6: Devil Bats Take Flight",
+      author: "Riichiro Inagaki",
+      synopsis: "The Devil Bats are going to feel like dancing for joy if they can beat Banba and his hulking team, the Taiyo Sphinx. Sena and crew have held their own in the first half, but they're going to have to come up with something really special to defeat this bunch of bruisers. And don't forget, the winner of this game gets to play against a championship team from the United States!",
+      release_date: "December 19th 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2242.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 7: Musashi",
+      author: "Riichiro Inagaki",
+      synopsis: "The American team cancels the big game against the Devil Bats for no apparent reason--but with a bit of creative video editing, Hiruma 'convinces' them to change their minds. And later, Sena and Monta search for a much-needed kicker to join the team and find him in a most unexpected place.",
+      release_date: "March 4th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2243.jpg"},
+
+{
+      title: "Eyeshield 21, Vol. 5: Powerful",
+      author: "Riichiro Inagaki",
+      synopsis: "Sena's school's football team only has two players: Ryokan, who dreams of someday competing in the Christmas bowl game, and Hiruma, the quarterback known for frightening the underclassmen. Sena disguises his identity in order to join the team and showcase his great speed.'",
+      release_date: "October 3rd 2003",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2244.jpg"},
+
+      [genres[14], genres[10], genres[19]]
+      ],
+      [
+{
+      title: "Special A, Vol. 14",
+      author: "Maki Minami",
+      synopsis: "A fast-paced comedy series from Japan R to L (Japanese Style). The world of the SA class is turned upside down when Iori Tokiwa, a new student, transfers in and takes second place after Kei in the rankings, knocking Hikari down to third. But instead of resenting him, Hikari recognizes Iori as a kindred spirit as they both aim for the number one spot. As the two grow close, Kei must deal with a completely new experience--jealousy. Her whole life, Hikari Hanazono has been consumed with the desire to win against her school rival, Kei Takishima--at anything. He always comes out on top no matter what he does, and Hikari is determined to do whatever it takes to beat this guy...somehow At age 6 Hikari lost to Kei in an impromptu wrestling match. Now, at 15, Hikari joins 'Special A,' a group of the top seven students at a private academy, for the opportunity to trounce the guy who made her suffer her first defeat.",
+      release_date: "July 16th 2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2245.jpg"},
+
+{
+      title: "Special A, Vol. 17",
+      author: "Maki Minami",
+      synopsis: "Joy abounds when final exams are over and the students begin to plan for the summer festival. But secretly Hikari is heartbroken--she'll be moving to Kyushu because of her father's job. She can't bring herself to tell Kei and the others. Will she really leave the boy and the school she loves?",
+      release_date: "2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2246.jpg"},
+
+{
+      title: "Special A, Vol. 02",
+      author: "Maki Minami",
+      synopsis: "Hikari and Kei are pitted against a pair of professional wresters in a challenge issued by the student council. Hikari may now be on the same team as Kei, but a rival is still a rival!",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2247.jpg"},
+
+{
+      title: "Special A, Vol. 10",
+      author: "Maki Minami",
+      synopsis: "When Sakura learns of Hikari's feelings for Kei, she is determined to get the two together! But getting Hikari to confess is more difficult than anyone imagined. The effort will take Kei and Hikari from a haunted house to a deadly duel to a date with Kei's mom to... Australia?! This is one trip you won't want to miss!",
+      release_date: "2004",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2248.jpg"},
+
+      [genres[14], genres[13], genres[15]]
+      ],
+      [
+{
+      title: "Slam Dunk, Vol. 6",
+      author: "Takehiko Inoue",
+      synopsis: "He tried to slam her with love, but she dunked his heart. R to L (Japanese Style). With just a minute remaining on the game clock, Shohoku still trails Ryonan by four points. Hoping to put this match away for good, Ryonan hands the ball to their ace Sendoh, but they make the fatal error of overlooking the incredibly erratic (and at times phenomenally talented) Hanamichi. With a shot block that sets up a clinching basket for superstar Kaede Rukawa, Shohoku still has a chance for the win, but have they already chewed up too much time in the process? Winning isn't everything in the game of basketball, but who wants to come in second? It takes dedication and discipline to be the best, and the Shohoku High hoops team wants to be just that. They have one last year to make their captain's dream of reaching the finals come true--will they do it? Takehiko Inoue's legendary beloved basketball manga is finally here and the tale of a lifetime is in your hands.",
+      release_date: "December 3rd 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2249.jpg"},
+
+{
+      title: "Slam Dunk, Vol. 2",
+      author: "Takehiko Inoue",
+      synopsis: "R to L (Japanese Style)One of the most popular manga in the history of manga! Winning isn't everything in basketball, but who wants to come in second? It takes dedication and discipline to be the best, and the Shohoku High hoops team wants to be just that--the best. They have one last year to make their captain's dream of reaching the finals come true--will they do it? Takehiko Inoue's legendary basketball manga is finally here, and the tale of a lifetime is in your hands!He may be a pain in the butt, but Hanamichi's athletic prowess and monstrous strength have not gone unnoticed by the captain of Shohoku's judo team. Hoping to take his troupe to a national title, the judo captain is willing to go to great lengths to lure Hanamichi away from the court and get him on the sparring mat. Will out-and-out bribery convince Hanamichi that judo's the way to go, or will he stay a basketball man to the very end?",
+      release_date: "June 10th 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2250.jpg"},
+
+{
+      title: "Slam Dunk, Vol. 4",
+      author: "Takehiko Inoue",
+      synopsis: "R to L (Japanese Style). Shohoku's (somewhat) friendly game against Ryonan finally gets underway. Old rivalries reignite with captain Akagi going toe-to-toe with Ryonan's center, Uozumi. Hanamichi has flat-out declared that he will personally shut down Ryonan's ace, Sendoh, but will Kaede Rukawa take care of things before Hanamichi even gets a chance to hit the floor? Either way, this is bound to be a game to remember.",
+      release_date: "August 7th 1991",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2251.jpg"},
+
+{
+      title: "Slam Dunk, Vol. 14",
+      author: "Takehiko Inoue",
+      synopsis: "He tried to slam her with love, but she dunked his heart.Reads R to L (Japanese Style) T audience. Winning isn't everything in the game of basketball, but who wants to come in second? It takes dedication and discipline to be the best, and the Shohoku High hoops team wants to be just that. They have one last year to make their captain's dream of reaching the finals come true--will they do it?",
+      release_date: "August 4th 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2252.jpg"},
+
+{
+      title: "Slam Dunk, Vol. 19",
+      author: "Takehiko Inoue",
+      synopsis: "Get ready for the greatest sports manga of all time!Reads R to L (Japanese Style). Thanks to consecutive three-pointers by Mistui late in the first half of the game against Ryonan High, Shohoku High ends the half down by only six points. Rukawa's still got plenty of strength left and he's going to need it to face Ryonan's ace, Sendoh. The pressure on Ryonan continues to draw fouls from them--can Shohoku exploit this and pull ahead? Or is Ryonan's coach Taoka just waiting for Shohoku to trip themselves up?",
+      release_date: "July 4th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2253.jpg"},
+
+{
+      title: "Slam Dunk, Vol. 9",
+      author: "Takehiko Inoue",
+      synopsis: "As luck would have it, the basketball team narrowly avoids suspension over the all-out-brawl incident when Yohei and Mitsui's friends take responsibility. Now, with Mitsui back in the lineup for the first time in two years, Shohoku quickly resumes practice in preparation for their upcoming tournament. As punishment for the lack of discipline they displayed in the fight, though, Coach Anzai decides on a starting lineup for Shohoku's game without Hanamichi, Rukawa, Ryota and Mitsui. Can Anzai's squad hold their own when their best players (and perpetual problem children) ride the bench?",
+      release_date: "September 4th 1992",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2254.jpg"},
+
+{
+      title: "Slam Dunk, Vol. 17",
+      author: "Takehiko Inoue",
+      synopsis: "Get ready for the greatest sports manga of all time!Reads R to L (Japanese Style), for audiences T  As the boys from Shohoku watch from the sidelines, the much-anticipated game between Ryonan High and Kainan High continues to heat up. Kainan superstar Maki’s stellar play helps swing the momentum back in his team’s direction, aided in no small part by a key player from Ryonan getting into foul trouble. However, Captain Akagi and company leave the game early when they receive an alarming bit of news: Coach Anzai has collapsed and is now in the hospital!",
+      release_date: "February 4th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2255.jpg"},
+
+{
+      title: "Slam Dunk, Vol. 12",
+      author: "Takehiko Inoue",
+      synopsis: "He tried to slam her with love, but she dunked his heart.Reads R to L (Japanese Style), for T audiences. The final four teams that will play in the round-robin tournament have been decided, and Shohoku's one of them. However, Shohoku's next opponent is Kainan, and they're known as the 'Kings' for good reason-they've made it to Nationals 16 years in a row. Ever since he joined Shohoku, Akagi has dreamed of playing Kainan. His wish is about to come true, but is it one he'll soon be regretting?",
+      release_date: "April 2nd 1993",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2256.jpg"},
+
+      [genres[7], genres[15], genres[19]]
+      ],
+      [
+{
+      title: "Case Closed, Vol. 11",
+      author: "Gosho Aoyama",
+      synopsis: "High-school mystery fan Shin'ichi Kudo is actually one of his high school's best minds, but he gets his reality checks from his childhood friend and almost-girlfriend Ran Mori. Nothing can keep Shin'ichi from a case, until he follows a suspicious man into a park, is accosted from behind and fed a strange chemical which renders him unconscious. When he awakens, he has been transformed into a puny grade schooler! The hapless boy finds a home with eccentric inventor Professor Agasa, who searches for a cure for his condition. While he's waiting to be restored to his adolescence, Shin'ichi takes on the name Conan Edogawa (borrowed from Sir Arthur Conan Doyle and the last name of the famous Japanese mystery writer Edogawa Ranpo). As Conan, he plays the part of the little brother that Ran never had, and helps her incompetent private-detective father solve all of the gruesome murder mysteries that come their way.",
+      release_date: "July 18th 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2257.jpg"},
+
+{
+      title: "Case Closed, Vol. 8",
+      author: "Gosho Aoyama",
+      synopsis: "It's Conan versus the Phantom Thief. When Conan's elementary school friends decide to become super sleuths, they form the Junior Detective League. But will they get into more trouble than they can handle?",
+      release_date: "December 9th 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2258.jpg"},
+
+{
+      title: "Case Closed, Vol. 1",
+      author: "Gosho Aoyama",
+      synopsis: "Ghastly beheadings, bloody murders, and cold-hearted child abduction cases: precocious high school student Shin'ichi Kudo uses his keen powers of observation and astute intuition to solve mysteries that have left law enforcement officials baffled. Hot on the trail of a suspect, Shin'ichi is accosted from behind and fed a strange chemical which physically transforms him into a grade schooler! Taking on the pseudonym Conan Edogawa, he attempts to track down the people that did this to him.",
+      release_date: "June 18th 1994",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2259.jpg"},
+
+{
+      title: "Case Closed, Vol. 9",
+      author: "Gosho Aoyama",
+      synopsis: "The Junior Detective league takes action! While playing hide and seek, first- grader Amy discovers a chopped off head. Will Conan and friends be able to save Amy from a serial murderer? And when Richard Moore P.I. attends a reunion of his college friends, one of them ends up with a bullet hole to her temple and a gun in her hand. Was it suicide or murder?! Later, Conan, Richard, and Rachel attend the birthday party of the daughter of a wealthy financier. But Conan's deductive skills are put to the test when the birthday girl ends up missing and a dead body turns up.",
+      release_date: "January 18th 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2260.jpg"},
+
+{
+      title: "Case Closed, Vol. 12",
+      author: "Gosho Aoyama",
+      synopsis: "High-school mystery fan Shin'ichi Kudo is actually one of his high school's best minds, but he gets his reality checks from his childhood friend and almost-girlfriend Ran Mori. Nothing can keep Shin'ichi from a case, until he follows a suspicious man into a park, is accosted from behind and fed a strange chemical which renders him unconscious. When he awakens, he has been transformed into a puny grade schooler! The hapless boy finds a home with eccentric inventor Professor Agasa, who searches for a cure for his condition. While he's waiting to be restored to his adolescence, Shin'ichi takes on the name Conan Edogawa (borrowed from Sir Arthur Conan Doyle and the last name of the famous Japanese mystery writer Edogawa Ranpo). As Conan, he plays the part of the little brother that Ran never had, and helps her incompetent private-detective father solve all of the gruesome murder mysteries that come their way.",
+      release_date: "September 18th 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2261.jpg"},
+
+{
+      title: "Case Closed, Vol. 5",
+      author: "Gosho Aoyama",
+      synopsis: "A vicious murderer whose face is covered in bandages is on the loose. Will Conan be able to catch him before he strikes again?",
+      release_date: "April 18th 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2262.jpg"},
+
+{
+      title: "Case Closed, Vol. 6",
+      author: "Gosho Aoyama",
+      synopsis: "It's Conan versus the Phantom Thief. When Conan's elementary school friends decide to become super sleuths, they form the Junior Detective League. But will they get into more trouble than they can handle? Rated for older teens.",
+      release_date: "July 18th 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2263.jpg"},
+
+{
+      title: "Case Closed, Vol. 14",
+      author: "Gosho Aoyama",
+      synopsis: "The Magical Suicide",
+      release_date: "March 18th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2264.jpg"},
+
+{
+      title: "Case Closed, Vol. 7",
+      author: "Gosho Aoyama",
+      synopsis: "On a remote island, a job request comes in from a pianist who's been dead for over 10 years. Can Conan solve the case of the cursed piano?And later, a mysterious woman shows up claiming to be Jimmy's girlfriend. The only problem is, Conan's never seen her before in his life!",
+      release_date: "November 18th 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2265.jpg"},
+
+{
+      title: "Case Closed, Vol. 15",
+      author: "Gosho Aoyama",
+      synopsis: "During a school field trip, Conan and Rachel end up in a mountain cabin with several members of the teaching staff. Conan gets quite a surprise when he answers the doorbell and a frozen teacher's corpse falls into the house! To add to the mystery, a strange letter is written on the teacher's hand, which sends another of the educators running to his room. Shortly after, he's found dead too! Can Conan put his brainpower to work and solve the mystery before the students run out of teachers?",
+      release_date: "June 18th 1997",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2266.jpg"},
+
+{
+      title: "Case Closed, Vol. 13",
+      author: "Gosho Aoyama",
+      synopsis: "High-school mystery fan Shin'ichi Kudo is actually one of his high school's best minds, but he gets his reality checks from his childhood friend and almost-girlfriend Ran Mori. Nothing can keep Shin'ichi from a case, until he follows a suspicious man into a park, is accosted from behind and fed a strange chemical which renders him unconscious. When he awakens, he has been transformed into a puny grade schooler! The hapless boy finds a home with eccentric inventor Professor Agasa, who searches for a cure for his condition. While he's waiting to be restored to his adolescence, Shin'ichi takes on the name Conan Edogawa (borrowed from Sir Arthur Conan Doyle and the last name of the famous Japanese mystery writer Edogawa Ranpo). As Conan, he plays the part of the little brother that Ran never had, and helps her incompetent private-detective father solve all of the gruesome murder mysteries that come their way.",
+      release_date: "December 10th 1996",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2267.jpg"},
+
+{
+      title: "Case Closed, Vol. 4",
+      author: "Gosho Aoyama",
+      synopsis: "Bloody murder is committed at a museum, reproducing a scene from a gruesome painting. Later, the men in black are back! Will Conan be able to come any closer to getting his old body back? Also, Conan's friends from grade school find a treasure map--but will it only lead them to a trove of trouble?--P. [4] of cover.",
+      release_date: "February 18th 1995",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2268.jpg"},
+
+      [genres[8]]
+      ],
+      [
+{
+       title: "One Punch Vol. 1",
+       author: "One",
+       synopsis: "A manga series that packs quite the punch! Nothing about Saitama passes the eyeball test when it comes to superheroes, from his lifeless expression to his bald head to his unimpressive physique. However, this average-looking guy has a not-so-average problem—he just can’t seem to find an opponent strong enough to take on! Every time a promising villain appears, he beats the snot out of ’em with one punch! Can Saitama finally find an opponent who can go toe-to-toe with him and give his life some meaning? Or is he doomed to a life of superpowered boredom?",
+       release_date: "December 12, 2012",
+       img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch1_mkmmb3.jpg",
+       },
+
+{
+        title: "One Punch Man: The Secret To His Strength Vol. 2",
+        author: "One",
+        synopsis: "Saitama’s easily taken out a number of monsters, including a crabby creature, a malicious mosquito girl and a muscly meathead. But his humdrum life takes a drastic turn when he meets Genos—a cyborg who wants to uncover the secret behind his strength!",
+        release_date: "December 12, 2012",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch2_lcnzsy.jpg",
+        },
+
+{
+        title: "One Punch Man: The Rumor Vol. 3",
+        author: "One",
+        synopsis: "For three years, Saitama has defeated countless monsters, but no one knows about him… That’s because he isn’t in the Hero Association’s registry! Together with Genos, Saitama decides to take the Hero Association’s test! But can they pass?!",
+        release_date: "April 4, 2013",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch3_v8w7lx.jpg",
+        },
+
+{
+        title: "One Punch Man: Giant Meteor Vol. 4",
+        author: "One",
+        synopsis: "Saitama is now a certified hero! And with that title comes great responsibility—he’s required to perform one heroic deed per week. While Saitama makes the rounds to meet his quota, an incoming threat from outer space is screeching toward Earth...",
+        release_date: "August 2, 2013",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch4_wkmgjm.jpg",
+        },
+
+{
+        title: "One Punch Man: Shining in Tatters Vol. 5",
+        author: "One",
+        synopsis: "To stop a Demon-level crisis, Saitama and company head toward the action. However, even Class-S heroes prove to be no match for the Deep Sea King! In order to protect the good citizens, our heroes will need to summon all of their courage and confront this threat!",
+        release_date: "December 4, 2013",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch5_bskv9p.jpg",
+        },
+
+{
+        title: "One Punch Man: The Big Prediction Vol. 6",
+        author: "One",
+        synopsis: "An emergency summons gathers Class S heroes at headquarters…and Saitama tags along. There, they learn that the great seer Shibabawa left the following prophecy: “The Earth is in danger!” What in the world is going to happen?!",
+        release_date: "May 2, 2014",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch6_jgvrhl.jpg",
+        },
+
+{
+        title: "One Punch Man: The Fight Vol. 7",
+        author: "One",
+        synopsis: "When aliens invade Earth, a group of Class-S heroes finally finds a way to fight back and go on the offensive. Inside the enemy mother ship, Saitama fights Boros. Faced with the alien’s frightful power, he decides to get serious! What is the Earth’s fate?!",
+        release_date: "December 4, 2014",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch7_e80ljs.jpg",
+        },
+
+{
+        title: "One Punch Man: That Man Vol. 8",
+        author: "One",
+        synopsis: "Class-S hero King is known as the strongest man on earth. Even monsters fear him. But when a mysterious organization sends an assassin after him, the shocking truth about King is revealed!",
+        release_date: "April, 2015",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch8_n9bhlv.jpg",
+        },
+
+{
+        title: "One Punch Man: Don't Dis Heroes Vol. 9",
+        author: "One",
+        synopsis: "Garo, a man who admires monsters, attacks the Hero Association! But after pulverizing the heroes there, he just leaves. What the heck does this guy want?! Meanwhile, Class-B, Rank-1 Miss Blizzard visits Saitama at his apartment. Since he’s just a low-ranking hero, she thinks she can make him one of her subordinates, but as always, Saitama has other plans!",
+        release_date: "August 9, 2015",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch9_iqwtow.jpg",
+        },
+
+{
+        title: "One Punch Man: Pumped Up Vol. 10",
+        author: "One",
+        synopsis: "Hero hunter Gato intensifies his onslaught, so of course Saitama decides now is the perfect time to join a combat tournament. Meanwhile, Class-S hero Metal Bat takes an assignment guarding a Hero Association executive and his son, and before long trouble appears!",
+        release_date: "December 4, 2015",
+        img_url: "https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch10_ry24vh.jpg",
+        },
+
+        [genres[0], genres[14], genres[10], genres[20]]
+        ],
+        [
+{
+      title: "Maid-sama! Vol. 08",
+      author: "Hiro Fujiwara",
+      synopsis: "Once an all-boys school, Seika High, a renowned school full of reckless and filthy students, has recently become a co-ed school. However, with the female population still remaining a minority even after the change over the recent years, Misaki Ayuzawa takes it into her own hands to reform the school and allow a chance for the girls to feel safer in the rough environment. Even the teachers are on her side. Training, studying and even becoming the first female student council president of the school, Misaki has gained a reputation, among the male students body as an uptight boy-hating demon dictator and as a shining hope for the teachers and fellow female students. However, despite her tough-as-nails appearance, she secretly works part-time at a maid café in order to support her family. Unfortunately, her secret is soon discovered by Takumi Usui, a popular boy at Seika High.",
+      release_date: "September 4th 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2269.jpg"},
+
+{
+      title: "Maid-sama! Vol. 07",
+      author: "Hiro Fujiwara",
+      synopsis: "Once an all-boys school, Seika High, a renowned school full of reckless and filthy students, has recently become a co-ed school. However, with the female population still remaining a minority even after the change over the recent years, Misaki Ayuzawa takes it into her own hands to reform the school and allow a chance for the girls to feel safer in the rough environment. Even the teachers are on her side. Training, studying and even becoming the first female student council president of the school, Misaki has gained a reputation, among the male students body as an uptight boy-hating demon dictator and as a shining hope for the teachers and fellow female students. However, despite her tough-as-nails appearance, she secretly works part-time at a maid café in order to support her family. Unfortunately, her secret is soon discovered by Takumi Usui, a popular boy at Seika High.",
+      release_date: "April 3rd 2009",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2270.jpg"},
+
+{
+      title: "Maid-sama! Vol. 03",
+      author: "Hiro Fujiwara",
+      synopsis: "It's Seika High's Sports Day Festival! The Idiot Trio have just completed a fancy, custom-made maid outfit that they want to give to Misaki as a present, but through a mix-up, the maid outfit is sent out to the Sports Day Dress-up Race as one of its generic costumes, a contest which both Misaki and Usui are entering.",
+      release_date: "August 4th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2271.jpg"},
+
+{
+      title: "Maid-sama! Vol. 06",
+      author: "Hiro Fujiwara",
+      synopsis: "Once an all-boys school, Seika High, a renowned school full of reckless and filthy students, has recently become a co-ed school. However, with the female population still remaining a minority even after the change over the recent years, Misaki Ayuzawa takes it into her own hands to reform the school and allow a chance for the girls to feel safer in the rough environment. Even the teachers are on her side. Training, studying and even becoming the first female student council president of the school, Misaki has gained a reputation, among the male students body as an uptight boy-hating demon dictator and as a shining hope for the teachers and fellow female students. However, despite her tough-as-nails appearance, she secretly works part-time at a maid café in order to support her family. Unfortunately, her secret is soon discovered by Takumi Usui, a popular boy at Seika High.",
+      release_date: "September 4th 2008",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2272.jpg"},
+
+{
+      title: "Maid-sama! Vol. 01",
+      author: "Hiro Fujiwara",
+      synopsis: "Misaki Ayuzawa is the President of the Student Council at Seika High School, formerly an all-boys school. Unfortunately, most of the students are still male and stuck in their slovenly habits, so man-hating Misaki really socks it to them in an attempt to make the school presentable to attract more female students. But what will she do when the sexiest boy in school finds out that after school, Misaki works in a maid cafe.First published in Japan in 2006 by Hakusensha Inc., Tokyo.",
+      release_date: "September 5th 2006",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2273.jpg"},
+
+{
+      title: "Maid-sama! Vol. 02",
+      author: "Hiro Fujiwara",
+      synopsis: "Misaki Ayuzawa is the President of the Student Council at Seika High School, formerly an all-boys school. Unfortunately, most of the students are still male and stuck in their slovenly habits, so man-hating Misaki really socks it to them in an attempt to make the school presentable to attract more female students. But what will she do when the sexiest boy in school finds out that after school, Misaki works in a maid cafe.'First published in Japan in 2007 by Hakusensha, INC., Tokyo'--P. facing T.p.",
+      release_date: "February 5th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2274.jpg"},
+
+{
+      title: "Maid-sama! Vol. 04",
+      author: "Hiro Fujiwara",
+      synopsis: "The rogue hypnotist strikes again! Post-hypnosis, if Misaki sleeps, she will wake up hating Usui! Well, hating him more than usual... Usui fights to keep Misaki's rage at bay by keeping her awake as long as possible. Later, Misaki and Cafe Maid Latte take a trip to the beach. Even with Aoi along for the ride, it's all fun in the sun -- with a bit of danger and romance thrown into the mix!",
+      release_date: "December 5th 2007",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2275.jpg"},
+
+      [genres[14], genres[13], genres[15]]
+      ],
+      [
+{
+      title: "Puella Magi Madoka Magica, Vol. 01",
+      author: "Magica Quartet",
+      synopsis: "In this world, there exist strange creatures who have the power to grant one wish to a chosen girl. However, in exchange, that girl must then become a magical girl and use their powers to fight against witches, evil creatures born from darkness that are responsible for murders and suicides.In the city of Mitakihara, a schoolgirl named Madoka Kaname and her friend Sayaka Miki are approached by a familiar named Kyubey, who offers to grant each of them one wish in return for making each of them a magical girl. Another magical girl named Homura Akemi tries to prevent Madoka from making such a deal, while Kyubey urges Madoka by telling her she will become the most powerful magical girl. However, contrary to the glamorous notions one would expect, a magical girl finds herself dealing with death, isolation, loss of humanity, agony over the value of her wish, and existential crisis. Madoka, following her friends, soon sees the darker side of being a magical girl, and because of knowing the truth about being a magical girl, she questions if she should become one as well.",
+      release_date: "February 12th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2276.jpg"},
+
+{
+      title: "Puella Magi Madoka Magica, Vol. 03",
+      author: "Magica Quartet",
+      synopsis: "Madoka is horrified to learn the true nature of the witches she and her friends, the Magical Girls, have been fighting-and the terrible fate that awaits any Magical Girl who accepts Kyubey's offer of power. Having watched countless Magical Girls sacrificed for the larger aims of his people, Kyubey is only interested in securing more girls to that end, and Madoka is left with his chilling reminder that she too is destined to be a Magical Girl of incredible power... Can Madoka and her friends escape this tragic fate?",
+      release_date: "May 30th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2277.jpg"},
+
+{
+      title: "Puella Magi Madoka Magica, Vol. 02",
+      author: "Magica Quartet",
+      synopsis: "While Madoka continues to deliberate over the decision to join Akemi as a magical girl, her best friend, Sayaka, seizes the chance to wish for the recovery of the boy she loves. But when Sayaka is caught in a territory dispute with a more experienced (and more deadly) magical girl named Kyouko, Madoka is reminded that being a magical girl is more than a matter of donning a frilly costume and fighting evil... it is also a matter of life and death!",
+      release_date: "March 12th 2011",
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2278.jpg"},
+
+      [genres[0], genres[14], genres[7], genres[4], genres[1]]
+      ],
 ]
 
 
