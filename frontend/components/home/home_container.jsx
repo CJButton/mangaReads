@@ -5,8 +5,9 @@ import { connect } from 'react-redux';
 
 import Home from './home';
 
+// manga: Object.keys(manga).map(key => manga[key])
 const mapStateToProps = ({manga}) => ({
-  manga: Object.keys(manga).map(key => manga[key])
+  manga
 });
 
 const mapDispatchToProps = dispatch => ({
