@@ -10,38 +10,31 @@ class Api::MangasController < ApplicationController
       # genres of comics in it
       # @manga = Manga.all.limit(14).offset(500)
 
-      # Action => 708
+      ### Use 'whenver' gem to schedule daily updates ###
+      # Action  => 708
       # Romance => 291
-      action = []
-      act = Array(0..708)
-      act_ids = act.sample(10)
-      act_ids.each do |id|
-        action.push(Genre.where(:genre => 'Action')[id].manga)
-      end
+      # action = []
+      # act = Array(0..708)
+      # act_ids = act.sample(1)
+      # gen = Genre.includes(:manga).where(:genre => 'Action')
+      # p gen
+      # Genre.where(:genre => 'Action').order("RANDOM()").limit(5)
+      # Manga.joins(:genres).where(genres: {genre: 'Action'}).limit(2)
+      action = Manga.joins(:genres).where(genres: {genre: 'Action'}).order("RANDOM()").limit(10)
+      romance = Manga.joins(:genres).where(genres: {genre: 'Romance'}).order("RANDOM()").limit(10)
+      # act_ids.each do |id|
+      #   action.push(Genre.where(:genre => 'Action')[id].manga)
+      # end
 
-      romance = []
-      rom = Array(0..291)
-      rom_ids = rom.sample(10)
-      rom_ids.each do |id|
-        romance.push(Genre.where(:genre => 'Romance')[id].manga)
-      end
-
+      # good enough for testing
+      # romance = []
       # rom = Array(0..291)
-      # romance = rom.sample(10)
+      # rom_ids = rom.sample(10)
+      # rom_ids.each do |id|
+      #   romance.push(Genre.where(:genre => 'Romance')[id].manga)
+      # end
 
-
-
-      # action = [
-      #   Genre.where(:genre => 'Action')[action[0]].manga,
-      #   Genre.where(:genre => 'Action')[action[1]].manga]
-      #   p action
-      # romance = [
-      #   Genre.where(:genre => 'Romance').first.manga,
-      #   Genre.where(:genre => 'Romance').last.manga]
       @manga = {action: action, romance: romance}
-
-      # I believe the following will alllow us to decide which view we can build with
-      # render "api/users/show"
       render json: @manga
     else
       # Comic Info Page #
@@ -63,7 +56,4 @@ class Api::MangasController < ApplicationController
     @manga = Manga.find(params[:id])
     @manga.avg = sum
   end
-
-
-
 end

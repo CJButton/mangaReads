@@ -23,13 +23,6 @@ class Manga < ActiveRecord::Base
   # Mystery
   # Romance
 
-  # Grab a random number
-  ranNum = rand()
-
-  # Grab 10 genres for Home Page #
-  def self.genres
-  end
-
   def self.filter(current_user, shelf_name)
     if shelf_name == "all"
       return current_user.mangas
