@@ -1,38 +1,42 @@
 
 
 import React from 'react';
+import Slider from 'react-slick';
+
+import { Grid,
+         Row,
+         Col,
+         Image } from 'react-bootstrap';
 
 import TopBarContainer from '../topbar/topbar_container';
 
 const Home = ( props ) => {
-  // <a href={`#/manga/${comic.id}`}></a>
+  const settings = {
+     dots: false,
+     slidesToShow: 5
+   };
+
+   ///
+   //background-color of #root chnged to black to help with nighttime
+   ///
   const actions = props.manga.action;
   const romances = props.manga.romance;
+    // <Image responsive className="bookshelfPicture" src={comic.img_url}/>
+    // <img key={i} src={comic.img_url} />
     return (
   <main className="home-container">
     <TopBarContainer />
-    <div className="home-left"></div>
-      <div className="home-center">
-      {actions &&
-        <div>
-          {actions.map((comic, i) => {
-            return(
-              <div key={i} className="library">
-                <div className="comicWrapper">
-                  <img className="homePicture" src={comic.img_url} />
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      }
-      <br></br>
-      <br></br>
-      </div>
-
-
-    <div className="home-right">
-    </div>
+    {actions &&
+      <Slider {...settings}>
+        {actions.map((comic, i) => {
+          return(
+            <div>
+              <Image responsive src={comic.img_url}/>
+            </div>
+          )
+        })}
+      </Slider>
+    }
   </main>
 
 
