@@ -10,10 +10,39 @@ import { Grid,
 
 import TopBarContainer from '../topbar/topbar_container';
 
+function SampleNextArrow(props) {
+  const {className, style, onClick} = props
+  return (
+    <div
+      className={className}
+      style={{style, height: '100%', 'padding-top': '13%', 'background': 'rgba(0, 0, 0, 0.5);'}}
+      onClick={onClick} />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const {className, style, onClick} = props
+  return (
+    <div
+      className={className}
+      style={{style, height: '100%', 'padding-top': '13%', 'background': 'rgba(0, 0, 0, 0.5);'}}
+      onClick={onClick} />
+  );
+}
+
 const Home = ( props ) => {
+
+  // dots: false,
+  // slidesToShow: 4.25,
+  // infinite: true,
+  // slidesToScroll: 3,
   const settings = {
      dots: false,
-     slidesToShow: 5
+     slidesToShow: 5,
+     infinite: true,
+     slidesToScroll: 5,
+     nextArrow: <SampleNextArrow />,
+     prevArrow: <SamplePrevArrow />
    };
 
    ///
@@ -24,22 +53,24 @@ const Home = ( props ) => {
     // <Image responsive className="bookshelfPicture" src={comic.img_url}/>
     // <img key={i} src={comic.img_url} />
     return (
-  <main className="home-container">
+  <div>
     <TopBarContainer />
     {actions &&
-      <Slider {...settings}>
-        {actions.map((comic, i) => {
-          return(
-            <div>
-              <Image responsive src={comic.img_url}/>
-            </div>
-          )
-        })}
-      </Slider>
+      <div className='home-sider-action'>
+        <Slider {...settings}>
+          {actions.map((comic, i) => {
+            return(
+              <div>
+                <div className='home-slider-img'>
+                  <Image responsive src={comic.img_url} />
+                </div>
+              </div>
+            )
+          })}
+        </Slider>
+      </div>
     }
-  </main>
-
-
+  </div>
 
   );
 };
