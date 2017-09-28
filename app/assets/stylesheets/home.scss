@@ -42,14 +42,15 @@
   width: 50px;
 }
 .rsc-navigation_left {
-  left: -100px;
+  left: -13%;
 }
 .rsc-navigation_right {
-  right: -100px;
+  right: -13%;
   text-align: right;
 }
 .rsc-arrow_left,
 .rsc-arrow_right {
+  background: rgba(20,20,20,.5);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
