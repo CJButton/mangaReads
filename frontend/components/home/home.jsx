@@ -12,7 +12,7 @@ import { Grid,
 import TopBarContainer from '../topbar/topbar_container';
 
 const Home = ( props ) => {
-   //background-color of #root chnged to black to help with nighttime
+   //background-color of #root chnged to grey to help with nighttime
    ///
   const actions = props.manga.action;
   const romances = props.manga.romance;
@@ -23,9 +23,23 @@ const Home = ( props ) => {
       Action
     </h3>
   {actions &&
-    <Slider actions={actions} isInfinite delay={1000000}>
-      {actions.map((comic, i) => <div key={i}><img src={comic.img_url} /></div>)}
-    </Slider>
+    <div className='slider-wrapper'>
+      <Slider actions={actions} isInfinite delay={1000000}>
+        {actions.map((comic, i) => <div key={i}><img src={comic.img_url} /></div>)}
+      </Slider>
+    </div>
+  }
+  <br />
+  <br />
+  <h3>
+    Romance
+  </h3>
+  {romances &&
+    <div className='slider-wrapper'>
+      <Slider romances={romances} isInfinite delay={1000000}>
+        {romances.map((comic, i) => <div key={i}><img src={comic.img_url} /></div>)}
+      </Slider>
+    </div>
   }
   </div>
   );

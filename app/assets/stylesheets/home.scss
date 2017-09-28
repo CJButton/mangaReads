@@ -1,8 +1,12 @@
+
+.slider-wrapper {
+  overflow: hidden;
+}
+
 .rsc-container {
-  width: 100%;
   position: relative;
   margin: 0 auto;
-  overflow: hidden;
+  width: 80%;
 }
 .rsc-slider {
   display: -webkit-flex;
@@ -11,7 +15,7 @@
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .rsc-slider-item {
   width: 100%;
@@ -38,10 +42,10 @@
   width: 50px;
 }
 .rsc-navigation_left {
-  left: 0;
+  left: -100px;
 }
 .rsc-navigation_right {
-  right: 0;
+  right: -100px;
   text-align: right;
 }
 .rsc-arrow_left,
@@ -58,7 +62,7 @@
 @media screen and (min-width: 1280px) {
   .rsc-arrow_left,
   .rsc-arrow_right {
-    background-size: 100%;
+    background-size: 75%;
   }
 }
 @media screen and (max-width: 720px) {

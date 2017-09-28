@@ -12,8 +12,8 @@ class Api::MangasController < ApplicationController
       ### Use 'whenver' gem to schedule daily updates ###
       # Genre.where(:genre => 'Action').order("RANDOM()").limit(5)
       # Manga.joins(:genres).where(genres: {genre: 'Action'}).limit(2)
-      action = Manga.joins(:genres).where(genres: {genre: 'Action'}).order("RANDOM()").limit(12)
-      romance = Manga.joins(:genres).where(genres: {genre: 'Romance'}).order("RANDOM()").limit(16)
+      action = Manga.joins(:genres).where(genres: {genre: 'Action'}).order("RANDOM()").limit(24)
+      romance = Manga.joins(:genres).where(genres: {genre: 'Romance'}).order("RANDOM()").limit(24)
       @manga = {action: action, romance: romance}
       render json: @manga
     else
