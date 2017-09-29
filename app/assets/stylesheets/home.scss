@@ -2,6 +2,12 @@
 .slider-wrapper {
   overflow: hidden;
 }
+.slider-wrapper:hover {
+  .rsc-arrow_left,
+  .rsc-arrow_right {
+    display: block;
+  }
+}
 
 .rsc-container {
   position: relative;
@@ -17,6 +23,34 @@
           justify-content: flex-start;
   transition: all 0.3s ease-in-out;
 }
+// .grow { transition: all .2s ease-in-out; }
+// .grow:hover { transform: scale(2.1); }
+
+/* default link color is blue */
+// .parent a {
+//   color: blue;
+// }
+
+/* prev siblings should be red */
+// .parent:hover a {
+//   color: red;
+  // have ALL elements shift left
+// }
+// .parent a:hover,
+// .parent a:hover ~ a {
+//   color: blue;
+  // when hovered, have all elements from the one selected to far right NOT
+  // shfited left
+// }
+//
+// <div class="parent">
+//   <a href="#">link</a>
+//   <a href="#">link</a>
+//   <a href="#">link</a>
+//   <a href="#">link</a>
+//   <a href="#">link</a>
+// </div>
+
 .rsc-slider-item {
   width: 100%;
   box-sizing: border-box;
@@ -25,6 +59,21 @@
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
+}
+.rsc-slider-item-img:hover {
+  animation-name: example;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  // 0%   {
+  //  }
+  // 100% {
+  //   width: 300px;
+  //   height: 300px;
+  //  }
 }
 
 .rsc-slider-item-img img {
@@ -50,6 +99,7 @@
 }
 .rsc-arrow_left,
 .rsc-arrow_right {
+  display: none;
   background: rgba(20,20,20,.5);
   background-repeat: no-repeat;
   background-size: 50%;
