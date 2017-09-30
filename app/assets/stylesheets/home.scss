@@ -1,8 +1,8 @@
 
 .home-wrapper {
   overflow: hidden;
-  height: 130%;
   background-color: grey;
+  padding-bottom: 8em;
 }
 .slider-wrapper:hover {
   .rsc-arrow_left,
@@ -35,7 +35,7 @@
 }
 
 .rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
-  opacity: .3;
+  opacity: .7;
   &:hover{
     transform: scale(1.5);
     opacity: 1;
