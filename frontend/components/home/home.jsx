@@ -1,7 +1,6 @@
 
 
 import React from 'react';
-// import Slider from 'react-slick';
 import Slider from 'react-image-slider';
 
 import { Grid,
@@ -15,19 +14,25 @@ class Home extends React.Component{
     super(props);
 
     this.comicHoverEnter = this.comicHoverEnter.bind(this);
+    this.comicHoverLeave = this.comicHoverLeave.bind(this);
   }
 
   comicHoverEnter(id) {
     console.log(`entered comic ${id}`);
   }
 
+  comicHoverLeave(id) {
+    console.log(`left comic ${id}`);
+  }
+
+ render() {
+   ///
    //background-color of #root chnged to grey to help with nighttime
    ///
- render() {
   const actions = this.props.manga.action;
   const romances = this.props.manga.romance;
     return (
-      <div>
+      <div className='home-wrapper'>
         <TopBarContainer />
         <h3>
           Action
@@ -39,7 +44,7 @@ class Home extends React.Component{
               <div key={i} className='slider-img'>
                 <img
                   onMouseEnter={() => this.comicHoverEnter(i)}
-                  onMouseLeave={this.someOtherHandler}
+                  onMouseLeave={() => this.comicHoverLeave(i)}
                   src={comic.img_url} />
               </div>)}
           </Slider>

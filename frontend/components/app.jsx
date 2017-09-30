@@ -7,7 +7,7 @@ import TopBarContainer from './topbar/topbar_container';
 
 // <TopBarContainer />
 const App = ({ children }) => (
-  <div>
+  <div className='react-root'>
     {children}
   </div>
 );
