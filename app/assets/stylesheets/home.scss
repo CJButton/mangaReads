@@ -1,7 +1,8 @@
 
 .home-wrapper {
   overflow: hidden;
-  height: 100%;
+  height: 130%;
+  background-color: grey;
 }
 .slider-wrapper:hover {
   .rsc-arrow_left,
@@ -29,6 +30,8 @@
 
 .rsc-slider:hover .rsc-slider-item {
   transform: translate3d(-2em, 0, 0);
+  transition-delay: 0.5s;
+  transition-duration: 1s;
 }
 
 .rsc-slider:hover .rsc-slider-item{
@@ -48,6 +51,8 @@
 .rsc-slider-item {
   width: 100%;
   box-sizing: border-box;
+  transition-timing-function: ease-out;
+  transition: 1s;
 }
 .rsc-slider-item-img {
   width: 100%;

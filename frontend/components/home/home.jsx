@@ -12,17 +12,6 @@ import TopBarContainer from '../topbar/topbar_container';
 class Home extends React.Component{
   constructor(props) {
     super(props);
-
-    this.comicHoverEnter = this.comicHoverEnter.bind(this);
-    this.comicHoverLeave = this.comicHoverLeave.bind(this);
-  }
-
-  comicHoverEnter(id) {
-    console.log(`entered comic ${id}`);
-  }
-
-  comicHoverLeave(id) {
-    console.log(`left comic ${id}`);
   }
 
  render() {
@@ -31,6 +20,8 @@ class Home extends React.Component{
    ///
   const actions = this.props.manga.action;
   const romances = this.props.manga.romance;
+  const drama = this.props.manga.drama;
+  console.log(this.props.manga);
     return (
       <div className='home-wrapper'>
         <TopBarContainer />
@@ -42,10 +33,7 @@ class Home extends React.Component{
           <Slider actions={actions} delay={1000000}>
             {actions.map((comic, i) =>
               <div key={i} className='slider-img'>
-                <img
-                  onMouseEnter={() => this.comicHoverEnter(i)}
-                  onMouseLeave={() => this.comicHoverLeave(i)}
-                  src={comic.img_url} />
+                <img src={comic.img_url} />
               </div>)}
           </Slider>
         </div>
@@ -58,7 +46,27 @@ class Home extends React.Component{
       {romances &&
         <div className='slider-wrapper'>
           <Slider romances={romances} delay={1000000}>
-            {romances.map((comic, i) => <div key={i}><img src={comic.img_url} /></div>)}
+            {romances.map((comic, i) =>
+              <div key={i}>
+                <img src={comic.img_url} />
+
+                </div>)}
+          </Slider>
+        </div>
+      }
+      <br />
+      <br />
+      <h3>
+        Drama
+      </h3>
+      {drama &&
+        <div className='slider-wrapper'>
+          <Slider drama={drama} delay={1000000}>
+            {drama.map((comic, i) =>
+              <div key={i}>
+                <img src={comic.img_url} />
+
+                </div>)}
           </Slider>
         </div>
       }
