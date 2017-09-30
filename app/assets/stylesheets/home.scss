@@ -26,15 +26,15 @@
   transition: all 0.3s ease-in-out;
 }
 
-/// Netflix popping effect for selected elements ///
+/// Netflix focusing effect for selected elements ///
 
-.rsc-slider:hover .rsc-slider-item {
+.rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
   transform: translate3d(-2em, 0, 0);
   transition-delay: 0.5s;
   transition-duration: 1s;
 }
 
-.rsc-slider:hover .rsc-slider-item{
+.rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
   opacity: .3;
   &:hover{
     transform: scale(1.5);
@@ -42,7 +42,7 @@
   }
 }
 
-.rsc-slider-item:hover ~.rsc-slider-item {
+.rsc-slider-item:hover ~.rsc-slider-item > .rsc-slider-item-img {
   transform: translate3d(2em, 0, 0);
 }
 
@@ -51,13 +51,13 @@
 .rsc-slider-item {
   width: 100%;
   box-sizing: border-box;
-  transition-timing-function: ease-out;
-  transition: 1s;
 }
 .rsc-slider-item-img {
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
+  transition-timing-function: ease-out;
+  transition: 1s;
 }
 .rsc-slider-item-img img {
   max-width: 100%;

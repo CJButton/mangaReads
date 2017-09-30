@@ -33,7 +33,7 @@ class Home extends React.Component{
           <Slider actions={actions} delay={1000000}>
             {actions.map((comic, i) =>
               <div key={i} className='slider-img'>
-                <img src={comic.img_url} />
+                <Image src={comic.img_url} />
               </div>)}
           </Slider>
         </div>
