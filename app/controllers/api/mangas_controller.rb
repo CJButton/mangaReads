@@ -5,10 +5,7 @@ class Api::MangasController < ApplicationController
   def index
     # Home Page #
     if params[:filter].nil?
-      action = Manga.joins(:genres).where(genres: {genre: 'Action'}).order("RANDOM()").limit(32)
-      romance = Manga.joins(:genres).where(genres: {genre: 'Romance'}).order("RANDOM()").limit(32)
-      drama = Manga.joins(:genres).where(genres: {genre: 'Drama'}).order("RANDOM()").limit(32)
-      @manga = {action: action, romance: romance, drama: drama}
+      @manga = Manga.genres
       render json: @manga
     else
       # Comic Info Page #

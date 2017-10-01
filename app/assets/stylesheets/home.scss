@@ -33,7 +33,6 @@
   transition-delay: 0.5s;
   transition-duration: 1s;
 }
-
 .rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
   opacity: .7;
   &:hover{
@@ -41,14 +40,14 @@
     opacity: 1;
   }
 }
-
 .rsc-slider-item:hover ~.rsc-slider-item > .rsc-slider-item-img {
   transform: translate3d(2em, 0, 0);
 }
 
-///
+///                                              ///
 
 .rsc-slider-item {
+  cursor: pointer;
   width: 100%;
   box-sizing: border-box;
 }
@@ -61,6 +60,7 @@
 }
 .rsc-slider-item-img img {
   max-width: 100%;
+  border: black solid 1px;
 }
 
 .rsc-slider-item_transparent {

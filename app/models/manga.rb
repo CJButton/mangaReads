@@ -11,17 +11,26 @@ class Manga < ActiveRecord::Base
   has_many :bookshelves, through: :mangabookshelves, source: :bookshelf
   has_many :reviews
   has_many :genres
+  def self.genres
+    gens = [
+      'Action',
+      'Adventure',
+      'Drama',
+      'Battles',
+      'School Life',
+      'Comedy',
+      'Supernatural',
+      'Horror',
+      'Mystery',
+      'Romance'
+    ]
+    @manga = {}
 
-  # Action
-  # Adventure
-  # Drama
-  # Battles
-  # School Life
-  # Comedy
-  # Supernatural
-  # Horror
-  # Mystery
-  # Romance
+    gens.each do |type|
+      @manga[type] = Manga.joins(:genres).where(genres: {genre: type}).order("RANDOM()").limit(32)
+    end
+    return @manga
+  end
 
   def self.filter(current_user, shelf_name)
     if shelf_name == "all"
