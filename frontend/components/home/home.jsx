@@ -29,7 +29,7 @@ class Home extends React.Component{
             let genre = allGenres[type];
             return(
               <div key={i}>
-                <h3>
+                <h3 className='slider-title'>
                   {type}
                 </h3>
                 <div className='slider-wrapper'>

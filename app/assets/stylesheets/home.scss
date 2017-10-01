@@ -1,13 +1,20 @@
 
 .home-wrapper {
   overflow: hidden;
-  background-color: grey;
+  background-color: black;
   padding-bottom: 8em;
+}
+
+.slider-title {
+  color: #E5E5E5;
+  margin-left: 7%;
 }
 .slider-wrapper:hover {
   .rsc-arrow_left,
   .rsc-arrow_right {
     display: block;
+    background-color: rgba(229,229,229,.5);
+    border-radius: 5px;
   }
 }
 
@@ -23,15 +30,15 @@
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 /// Netflix focusing effect for selected elements ///
 
 .rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
   transform: translate3d(-2em, 0, 0);
-  transition-delay: 0.5s;
-  transition-duration: 1s;
+  transition-delay: 0.4s;
+  transition-duration: 0.25s;
 }
 .rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
   opacity: .7;
