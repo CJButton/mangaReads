@@ -88,6 +88,7 @@ class MangaShow extends React.Component{
  }
 
  render() {
+   console.log(this.props);
    window.scrollTo(0,0);
    return (
      <div>
