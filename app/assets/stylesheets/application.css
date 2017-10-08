@@ -24,8 +24,10 @@
   height: 100%;
 }
 
+/* meant to prevent scroll bar from intefering with screen size */
 html {
   height: 100%;
+  /*margin-left: calc(100vw - 100%);*/
 }
 
 body {

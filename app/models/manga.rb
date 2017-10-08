@@ -25,9 +25,9 @@ class Manga < ActiveRecord::Base
       'Romance'
     ]
     @manga = {}
-
+    # p Genre.select(:genre).distinct.pluck(:genre).map{ |type| Manga.joins(:genres).where(genres: {genre: type}).limit(32).order("RANDOM()") }
     gens.each do |type|
-      @manga[type] = Manga.joins(:genres).where(genres: {genre: type}).order("RANDOM()").limit(32)
+      @manga[type] = Manga.joins(:genres).where(genres: {genre: type}).limit(32).order("RANDOM()")
     end
     return @manga
   end

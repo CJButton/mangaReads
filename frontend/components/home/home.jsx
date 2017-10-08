@@ -18,7 +18,6 @@ class Home extends React.Component{
  render() {
   const actions = this.props.manga.Action;
   const allGenres = this.props.manga;
-  console.log(this.props);
     return (
       <div className='home-wrapper'>
         <TopBarContainer />
