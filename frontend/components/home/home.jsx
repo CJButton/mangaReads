@@ -16,8 +16,9 @@ class Home extends React.Component{
   }
 
  render() {
-  const actions = this.props.manga.Action;
-  const allGenres = this.props.manga;
+   console.log(this.props.home);
+  const actions = this.props.home.Action;
+  const allGenres = this.props.home;
 
     return (
       <div className='home-wrapper'>

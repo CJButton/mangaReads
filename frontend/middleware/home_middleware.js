@@ -12,7 +12,7 @@ const HomeMiddleware = ({ getState, dispatch }) => next => action => {
 
   switch(action.type) {
     case REQUEST_ALL_HOME:
-      success = allComics => dispatch(receiveAllManga(allComics));
+      success = allComics => dispatch(receiveAllHome(allComics));
       getAllManga(success, errorCallBack, action.shelf);
       return next(action);
 

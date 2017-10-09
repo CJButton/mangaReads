@@ -8,7 +8,7 @@ export const requestAllHome = () => ({
 });
 
 export const receiveAllHome = (allComics) => ({
-  type: RECEIVE_ALL_Home,
+  type: RECEIVE_ALL_HOME,
   allComics
 });
 
