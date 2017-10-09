@@ -26,6 +26,7 @@
 
 /* meant to prevent scroll bar from intefering with screen size */
 html {
+  background-color: #141414;
   height: 100%;
   /*margin-left: calc(100vw - 100%);*/
 }

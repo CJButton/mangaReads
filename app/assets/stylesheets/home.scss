@@ -40,19 +40,19 @@
 /// Netflix focusing effect for selected elements ///
 
 .rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
-  transform: translate3d(-2em, 0, 0);
+  transform: translate3d(-3em, 0, 0);
   transition-delay: 0.4s;
   transition-duration: 0.25s;
 }
 .rsc-slider:hover .rsc-slider-item > .rsc-slider-item-img{
   opacity: .7;
   &:hover{
-    transform: scale(1.5);
+    transform: scale(1.75);
     opacity: 1;
   }
 }
 .rsc-slider-item:hover ~.rsc-slider-item > .rsc-slider-item-img {
-  transform: translate3d(2em, 0, 0);
+  transform: translate3d(3em, 0, 0);
 }
 
 ///                                              ///
