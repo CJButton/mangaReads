@@ -5,23 +5,48 @@
   padding-bottom: 8em;
 }
 
-.hero-home-img {
-  opacity: 0.7;
+.hero-home-bg {
+  opacity: 0.5;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
 }
 
-.heroInfoWrapper {
+.home-info-wrapper {
   position: absolute;
-  top: 18em;
-  width: 35em;
+  top: 14em;
   background: rgba(0, 0, 0, 0);
   color: #F7FBD8;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.home-info {
+  width: 45em;
+  margin-left: 5em;
 }
 
 .hero-Title {
+  font-size: 3em;
+  text-shadow: 2px 1px 1px black;
+}
 
+.hero-author {
+  font-size: 2em;
+  text-shadow: 2px 1px 1px black;
+}
+
+.hero-cover {
+  margin-right: 10em;
+  border: black solid 1px;
+}
+
+.hero-syn {
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.25em;
+  width: 25em;
 }
 
 .slider-title {

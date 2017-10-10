@@ -54,30 +54,31 @@ class Home extends React.Component{
   ]
 
   const homeSyn = [
-     "A manga series that packs quite the punch! Nothing about Saitama passes the eyeball test when it comes to superheroes, from his lifeless expression to his bald head to his unimpressive physique. However, this average-looking guy has a not-so-average problem—he just can’t seem to find an opponent strong enough to take on! Every time a promising villain appears, he beats the snot out of ’em with one punch! Can Saitama finally find an opponent who can go toe-to-toe with him and give his life some meaning? Or is he doomed to a life of superpowered boredom?"
+     "One punch is all it takes! Can Saitama find an opponent who can go toe-to-toe with him and give his life some meaning? Or is he doomed to a life of superpowered boredom?"
   ]
 
     return (
       <div className='home-wrapper'>
         <TopBarContainer />
       <img
-        className='hero-home-img'
+        className='hero-home-bg'
         src={homeHeroes[heroIdx]} />
-      <div className='heroInfoWrapper'>
-        <div className='hero-Title'>
-          {homeTitle[heroIdx]}
+      <div className='home-info-wrapper'>
+        <div className='home-info'>
+          <div className='hero-Title'>
+            {homeTitle[heroIdx]}
+          </div>
+          <div className='hero-author'>
+            {homeAuthor[heroIdx]}
+          </div>
+          <div className='hero-syn'>
+            {homeSyn[heroIdx]}
+          </div>
         </div>
-        <div>
-          {homeSyn[heroIdx]}
+        <div className='hero-cover'>
+          <img
+            src={homeCovers[heroIdx]}/>
         </div>
-        <div>
-          {homeAuthor[heroIdx]}
-        </div>
-        {/*
-          <Button>
-          onClick={}
-          </Button>
-          */}
       </div>
       {actions &&
         <div>
