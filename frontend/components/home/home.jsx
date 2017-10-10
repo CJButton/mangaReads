@@ -77,10 +77,13 @@ class Home extends React.Component{
           </div>
           <div>
             <Button id='home-visit-button-left'>
-              <div className='home-visit-wrapper'>
-                <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
-                <div className='home-visit-text hvt-l'>PEAK</div>
-              </div>
+              <Link
+                to={`/manga/${homeId[heroIdx]}`}>
+                <div className='home-visit-wrapper'>
+                  <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
+                  <div className='home-visit-text hvt-l'>PEAK</div>
+                </div>
+              </Link>
             </Button>
             <Button id='home-visit-button-right'>
               <div className='home-visit-wrapper'>
