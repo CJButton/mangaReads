@@ -45,9 +45,9 @@ class Home extends React.Component{
   const homeHeroes = [
   "http://res.cloudinary.com/ddbfkqb9m/image/upload/q_15/covers/opm-home2.jpg"
   ]
-
+// 'https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch1_mkmmb3.jpg'
   const homeCovers = [
-    'https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch1_mkmmb3.jpg'
+    'https://res.cloudinary.com/ddbfkqb9m/image/upload/onepunch1_mkmmb3.jpg'
   ]
 
   const homeAuthor = [
