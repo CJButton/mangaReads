@@ -7,7 +7,8 @@ import { Link } from 'react-router';
 import { Grid,
          Row,
          Col,
-         Image } from 'react-bootstrap';
+         Image,
+         Button } from 'react-bootstrap';
 
 import TopBarContainer from '../topbar/topbar_container';
 
@@ -74,6 +75,12 @@ class Home extends React.Component{
           <div className='hero-syn'>
             {homeSyn[heroIdx]}
           </div>
+          <Button id='home-visit-button'>
+            <div className='home-visit-wrapper'>
+              <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
+              <div className='home-visit-text'>PEAK</div>
+            </div>
+          </Button>
         </div>
         <div className='hero-cover'>
           <img
