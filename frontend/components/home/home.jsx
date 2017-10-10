@@ -75,12 +75,20 @@ class Home extends React.Component{
           <div className='hero-syn'>
             {homeSyn[heroIdx]}
           </div>
-          <Button id='home-visit-button'>
-            <div className='home-visit-wrapper'>
-              <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
-              <div className='home-visit-text'>PEAK</div>
-            </div>
-          </Button>
+          <div>
+            <Button id='home-visit-button-left'>
+              <div className='home-visit-wrapper'>
+                <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
+                <div className='home-visit-text hvt-l'>PEAK</div>
+              </div>
+            </Button>
+            <Button id='home-visit-button-right'>
+              <div className='home-visit-wrapper'>
+                <i className="fa fa-plus fa-lg home-shelf-add" aria-hidden="true" />
+                <div className='home-visit-text hvt-r'>MY SHELVES</div>
+              </div>
+            </Button>
+          </div>
         </div>
         <div className='hero-cover'>
           <img

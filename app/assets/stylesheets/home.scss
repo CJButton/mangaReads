@@ -62,16 +62,35 @@
   justify-content: space-between;
 }
 
-#home-visit-button {
+#home-visit-button-left {
   background-color: #FC0000;
   border-width: 0px;
   border-radius: 1px;
 }
 
+#home-visit-button-right {
+  background: rgba(0, 0, 0, 0);
+  color: #F7FBD8; //off-white
+  margin-left: 1em;
+  border-radius: 1px;
+  font-size: 16px;
+}
+
+.home-shelf-add {
+  margin-top: 5px;
+}
+
 .home-visit-text {
   font-size: 16px;
-  padding-left: 13px;
   color: #F7FBD8;
+}
+
+.hvt-l {
+  padding-left: 13px;
+}
+
+.hvt-r {
+  padding-left: 10px;
 }
 
 .slider-title {
