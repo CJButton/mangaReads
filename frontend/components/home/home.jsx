@@ -78,6 +78,7 @@ class Home extends React.Component{
           <div>
             <Button id='home-visit-button-left'>
               <Link
+                style={{ textDecoration: 'none' }}
                 to={`/manga/${homeId[heroIdx]}`}>
                 <div className='home-visit-wrapper'>
                   <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
