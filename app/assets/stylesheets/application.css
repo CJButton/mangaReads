@@ -15,16 +15,20 @@
  */
 
 #root {
-  /*height: 100%;
-  overflow: hidden;*/
-  /*display: flex;
-  flex-direction: column;*/
   min-height: 100vh;
+  height: 100%;
+  background-color: #141414;
+}
+
+.react-root {
   height: 100%;
 }
 
+/* meant to prevent scroll bar from intefering with screen size */
 html {
-  /*height: 100%;*/
+  background-color: #141414;
+  height: 100%;
+  /*margin-left: calc(100vw - 100%);*/
 }
 
 body {

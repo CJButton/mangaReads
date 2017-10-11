@@ -10,7 +10,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: [/\.jsx?$/, /\.js?$/, /\.css$/],
+        test: [/\.jsx?$/, /\.js?$/, /\.css/],
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         query: {
@@ -22,5 +22,5 @@ module.exports = {
   devtool: 'source-maps',
   resolve: {
     extensions: [".js", ".jsx" ]
-  }
-};
+    }
+}

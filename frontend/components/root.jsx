@@ -15,6 +15,7 @@ import HomeContainer from './home/home_container';
 import BookshelfContainer from './bookshelf/bookshelf_container';
 
 // actions
+import { requestAllHome } from '../actions/home_actions';
 import { requestAllManga, requestManga } from '../actions/manga_actions';
 import { requestAllBookshelves } from '../actions/bookshelf_actions';
 import { requestMangaStatus } from '../actions/manga_status_actions';
@@ -30,8 +31,13 @@ const Root = ({store}) => {
     }
   };
 
+  let flag = false;
+  {/* Flag to keep from dispatching after the first time is needed */}
   const loadAllManga = () => {
-    store.dispatch(requestAllManga());
+    if (flag === false) {
+      store.dispatch(requestAllHome());
+      flag = true
+    }
   };
 
   const loadAllShelves = () => {

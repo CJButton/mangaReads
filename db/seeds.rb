@@ -1099,9 +1099,9 @@ allComics = [
 {
       title: "Vampire Knight, Vol. 17",
       author: "Matsuri Hino",
-      synopsis: "The #1 hit series from Shojo Beat—a tale of vampire romanceCross Academy is attended by two groups of students: the Day Class and the Night Class. At twilight, when the students of the Day Class return to their dorm, they cross paths with the Night Class on their way to school. Yuki Cross and Zero Kiryu are the Guardians of the school, protecting the Day Class from the Academy's dark secret: the Night Class is full of vampires!Reads R to L (Japanese Style) for teen plus audiences.",
+      synopsis: "The #1 hit series from Shojo Beat—a tale of vampire romance. Cross Academy is attended by two groups of students: the Day Class and the Night Class. At twilight, when the students of the Day Class return to their dorm, they cross paths with the Night Class on their way to school. Yuki Cross and Zero Kiryu are the Guardians of the school, protecting the Day Class from the Academy's dark secret: the Night Class is full of vampires!Reads R to L (Japanese Style) for teen plus audiences.",
       release_date: "December 5th 2012",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1143.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/v1506176957/covers/1143.jpg"},
 
 {
       title: "Vampire Knight, Vol. 9",
@@ -1652,98 +1652,98 @@ allComics = [
       author: "Tachibana Higuchi",
       synopsis: "The Alice Festival is coming to a close, but the surprises and fun aren't over for Mikan and her friends yet! Things get a little crazy for Narumi's musical when an accident takes out some of the performers, and Mikan has to step in as the star of the show. But what will happen when she and Luca have to kiss on stage?! And as if that's not enough, as soon as the kids are back in class, it's time for exams, and Mikan is in for some bad news when the scores come back! ",
       release_date: "July 16th 2004",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1226.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2280.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 03",
       author: "Tachibana Higuchi",
       synopsis: "The school cultural festival is approaching, and the special guest star is going to be Leo. But it turns out that Leo is apparently involved in a dangerous plot to kidnap Natsume for some mysterious purpose. It's up to Mikan and Sumire to break out of the school to follow the abductors.",
       release_date: "November 19th 2003",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1227.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2282.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 06",
       author: "Tachibana Higuchi",
       synopsis: "Young Mikan is the newest student at the mysterious and prestigious Alice Academy, where the most talented and powerful students in the country are united, but for what purpose? A series of mysterious incidents of Alices suddenly losing their powers strikes close to home when Prez's abilities suddenly disappear!",
       release_date: "November 19th 2004",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1228.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2287.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 02",
       author: "Tachibana Higuchi",
       synopsis: "Mikan is officially admitted into Alice Academy, but things still aren't exactly going smoothly. Natsume still bullies her, her class ranking couldn't be lower, some of the teachers are outright hostile, and she has been forbidden to contact anyone outside of the school. Will she be able to find others like her at the school, be betrayed?",
       release_date: "July 18th 2003",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1229.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2290.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 10",
       author: "Tachibana Higuchi",
       synopsis: "It's time for New Year's, which also makes it Mikan's birthday. But will her special day get lost in the latest whirl of crazy Academy celebrations? And what happens when you combine an invitation to the elite Flower Garden Association's New Year's party (a girls-only event!) with a very sticky prank? Natsume's definitely up to something, but Mikan is left baffled as to what it might be. Read on in the latest, loveliest volume of Gakuen Alice! (Tokyopop)",
       release_date: "April 19th 2006",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1230.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2292.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 07",
       author: "Tachibana Higuchi",
       synopsis: "Mikan and co. successfully broke into the Senior Division, trying to find the location of the secret wormhole that Z used to escape from campus. But they're all shocked to discover who the guardians of the wormhole turn out to be! And even once their hot pursuit of Z continues, getting a cure for Hotaru and bringing back Prez's Alice may well cost them their lives.",
       release_date: "March 18th 2005",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1231.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2284.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 08",
       author: "Tachibana Higuchi",
       synopsis: "Mikan and her friends have infiltrated Z's secret hideout, but their dangerous journey is far from over. A face-off between Mikan and the Alice-stealing woman with connections to Mikan's past is just the start of a tense battle to save Hotaru, Prez, and maybe even the lives of Mikan and her team!(Tokyopop)",
       release_date: "August 19th 2005",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1232.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2283.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 04",
       author: "Tachibana Higuchi",
       synopsis: "Mikan's daring rescue of Natsume has earned her an upgrade to One-star rank, and just in time for the School Festival to start. The festival is even more spectacular than Mikan had ever dreamed, and she and the rest of the Special Ability class are all set to knock visitor's socks off with their great new attraction.",
       release_date: "March 19th 2004",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1233.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2279.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 13",
       author: "Tachibana Higuchi",
       synopsis: "The exciting events of the Flower Palace may be finally concluded, but the drama never stops at Alice Academy! A lesson in the making of Alice Stones turns out to be fairly revealing, especially when the meaning behind the exchange of said stones is explained to poor Mikan!",
       release_date: "May 18th 2007",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1234.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2289.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 09",
       author: "Tachibana Higuchi",
       synopsis: "It's time for the Alice Academy Christmas party, and all the students are pitching in with their Alices to help with the preparations. But while Mikan has gotten a lot more comfortable with her own powers, how can 'nullification' help in a situation like this? Meanwhile, the holidays are bringing up a variety of confusing emotions all around, and quite a bit of speculation about romance! (Tokyopop)",
       release_date: "December 16th 2005",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1235.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2288.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 01",
       author: "Tachibana Higuchi",
       synopsis: "Young Mikan runs away to Tokyo following her best friend, Hotaru, who has been enrolled in an exclusive, secretive private school for geniuses. But it turns out that there is a lot more to Alice Academy than meets the eye. If Mikan wants to stay by Hotaru's side, she has to both pass the strange 'entrance exam' and face the even greater challenge of befriending her very odd new classmates. Whether it's Hotaru's gift for inventing gadgets, the cranky Natsume's fire-casting ability, or Professor Narumi's control of human pheromones, everyone at the school has some sort of special talent. But what ability, if any, does Mikan possess? Mikan is going to have to rely on her courage and spunk if she's going to stay in school, or even stay alive!",
       release_date: "January 1st 2003",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1236.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2281.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 11",
       author: "Tachibana Higuchi",
       synopsis: "Natsume has infiltrated the Flower Princess Palace's basement, but he's fallen into a trap. The dangerous abilities class discipline squad has been ordered to punish him and lock him in the basement forever! Will Mikan, Hotaru, Luca, and the rest of the gang be able to stop them from carrying out this deadly crime?",
       release_date: "September 19th 2006",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1237.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2286.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 12",
       author: "Tachibana Higuchi",
       synopsis: "Young Mikan runs away to Tokyo following her best friend, Hotaru, who has been enrolled in an exclusive private school for geniuses. But it turns out that Alice Academy has more than meets the eye. What ability, if any, does Mikan possess?",
       release_date: "December 19th 2006",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1238.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2291.jpg"},
 
 {
       title: "Gakuen Alice, Vol. 14",
       author: "Tachibana Higuchi",
       synopsis: "Mikan and her friends are 6th graders now, but the new school year is starting off badly. The school president has created a Public Morals Squad, and it's clear whose behaviour they will be monitoring the most. To top it off, there's a new student in Mikan's class! But for a gentle girl with a sickly demeanour, she's up to something.",
       release_date: "September 19th 2007",
-      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/1239.jpg"},
+      img_url: "http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/covers/2285.jpg"},
 
       [genres[14], genres[13], genres[15]]
       ],

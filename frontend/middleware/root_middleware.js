@@ -8,6 +8,7 @@ import BookshelfMiddleware from './bookshelf_middleware';
 import MangaBookshelvesMiddleware from './manga_bookshelves_middleware';
 import MangaStatusMiddleware from './manga_status_middleware';
 import ReviewMiddleware from './review_middleware';
+import HomeMiddleware from './home_middleware';
 
 const RootMiddleware = applyMiddleware(
   SessionMiddleware,
@@ -15,7 +16,8 @@ const RootMiddleware = applyMiddleware(
   BookshelfMiddleware,
   MangaBookshelvesMiddleware,
   MangaStatusMiddleware,
-  ReviewMiddleware
+  ReviewMiddleware,
+  HomeMiddleware
 );
 
 export default RootMiddleware;
