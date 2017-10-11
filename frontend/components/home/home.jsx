@@ -11,6 +11,7 @@ import { Grid,
          Button } from 'react-bootstrap';
 
 import TopBarContainer from '../topbar/topbar_container';
+import AccountDropdown from './dropdown';
 
 class Home extends React.Component{
   constructor(props) {
@@ -45,7 +46,7 @@ class Home extends React.Component{
   const homeHeroes = [
   "http://res.cloudinary.com/ddbfkqb9m/image/upload/q_15/covers/opm-home2.jpg"
   ]
-// 'https://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,h_350,w_233/onepunch1_mkmmb3.jpg'
+
   const homeCovers = [
     'https://res.cloudinary.com/ddbfkqb9m/image/upload/onepunch1_mkmmb3.jpg'
   ]
@@ -57,7 +58,7 @@ class Home extends React.Component{
   const homeSyn = [
      "One punch is all it takes! Can Saitama find an opponent who can go toe-to-toe with him and give his life some meaning? Or is he doomed to a life of superpowered boredom?"
   ]
-
+  console.log(this.props);
     return (
       <div className='home-wrapper'>
         <TopBarContainer />
@@ -99,6 +100,7 @@ class Home extends React.Component{
             src={homeCovers[heroIdx]}/>
         </div>
       </div>
+      <AccountDropdown />
       {actions &&
         <div>
           {Object.keys(allGenres).map((type, i) => {
