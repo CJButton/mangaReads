@@ -1,6 +1,4 @@
 
-
-
 import React from 'react';
 import Reviews from './reviews_container';
 

@@ -16,12 +16,19 @@ import { toggleShelf,
 
 import values from 'lodash/values';
 
-const mapStateToProps = ({home, bookshelves, shelvesWithBooks, status}) => ({
-  home,
-  bookshelves: values(bookshelves),
-  shelvesWithBooks: values(shelvesWithBooks),
-  status: values(status)[0]
-});
+const mapStateToProps = ({home, bookshelves, shelvesWithBooks, status}) => {
+  let shelfSet = new Set();
+  values(shelvesWithBooks).map((el) => (shelfSet.add(el.id)))
+  // shelvesWithBooks: values(shelvesWithBooks).map((el) => ( (el.id))),
+  return(
+    {
+      home,
+      bookshelves: values(bookshelves),
+      shelvesWithBooks: shelfSet,
+      status: values(status)[0]
+    }
+  );
+};
 
 const mapDispatchToProps = dispatch => ({
   requestAllBookshelves: () =>

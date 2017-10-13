@@ -12,6 +12,7 @@ import { Grid,
 
 import TopBarContainer from '../topbar/topbar_container';
 import AccountDropdown from './dropdown';
+import { CustomToggle, CustomMenu } from'./dropdown-bootstrap';
 
 class Home extends React.Component{
   constructor(props) {
@@ -58,81 +59,91 @@ class Home extends React.Component{
   const homeSyn = [
      "One punch is all it takes! Can Saitama find an opponent who can go toe-to-toe with him and give his life some meaning? Or is he doomed to a life of superpowered boredom?"
   ]
-  console.log(this.props);
-    return (
-      <div className='home-wrapper'>
-        <TopBarContainer />
-      <img
-        className='hero-home-bg'
-        src={homeHeroes[heroIdx]} />
-      <div className='home-info-wrapper'>
-        <div className='home-info'>
-          <div className='hero-Title'>
-            {homeTitle[heroIdx]}
-          </div>
-          <div className='hero-author'>
-            {homeAuthor[heroIdx]}
-          </div>
-          <div className='hero-syn'>
-            {homeSyn[heroIdx]}
-          </div>
-          <div>
-            <Button id='home-visit-button-left'>
-              <Link
-                style={{ textDecoration: 'none' }}
-                to={`/manga/${homeId[heroIdx]}`}>
-                <div className='home-visit-wrapper'>
-                  <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
-                  <div className='home-visit-text hvt-l'>PEAK</div>
-                </div>
-              </Link>
-            </Button>
-            <Button id='home-visit-button-right'>
-              <div className='home-visit-wrapper'>
-                <i className="fa fa-plus fa-lg home-shelf-add" aria-hidden="true" />
-                <div className='home-visit-text hvt-r'>MY SHELVES</div>
-              </div>
-            </Button>
-          </div>
+
+  const { bookshelves,
+          shelvesWithBooks,
+          status,
+          toggleShelf,
+          changeMangaStatus } = this.props
+
+  // toggleShelf: (bookshelfId, mangaId) =>
+  //         dispatch(toggleShelf(bookshelfId, mangaId)),
+  // changeMangaStatus: (readStatus, mangaId) =>
+  //         dispatch(changeMangaStatus(readStatus, mangaId)),
+
+  return (
+    <div className='home-wrapper'>
+      <TopBarContainer />
+    <img
+      className='hero-home-bg'
+      src={homeHeroes[heroIdx]} />
+    <div className='home-info-wrapper'>
+      <div className='home-info'>
+        <div className='hero-Title'>
+          {homeTitle[heroIdx]}
         </div>
-        <div className='hero-cover'>
-          <img
-            src={homeCovers[heroIdx]}/>
+        <div className='hero-author'>
+          {homeAuthor[heroIdx]}
         </div>
-      </div>
-      <AccountDropdown />
-      {actions &&
+        <div className='hero-syn'>
+          {homeSyn[heroIdx]}
+        </div>
         <div>
-          {Object.keys(allGenres).map((type, i) => {
-            let genre = allGenres[type];
-            return(
-              <div key={i}>
-                <h3 className='slider-title'>
-                  {type}
-                </h3>
-                <div className='slider-wrapper'>
-                  <Slider genre={genre} delay={1000000}>
-                    {genre.map((comic, i) =>
-                      <Link
-                        to={`/manga/${comic.id}`}
-                        key={i}>
-                        <div className='slider-img'>
-                          <Image src={comic.img_url} />
-                        </div>
-                      </Link>
-                      )}
-                    </Slider>
-                  </div>
-                  <br/>
-                  <br/>
-                </div>
-              );
-            }
-          )}
+          <Button id='home-visit-button-left'>
+            <Link
+              style={{ textDecoration: 'none' }}
+              to={`/manga/${homeId[heroIdx]}`}>
+              <div className='home-visit-wrapper'>
+                <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
+                <div className='home-visit-text hvt-l'>PEAK</div>
+              </div>
+            </Link>
+          </Button>
+          <AccountDropdown
+            bookshelves={bookshelves}
+            shelvesWithBooks={shelvesWithBooks}
+            status={status}
+            toggleShelf={toggleShelf}
+            changeMangaStatus={changeMangaStatus}/>
         </div>
-      }
       </div>
-      );
+      <div className='hero-cover'>
+        <img
+          src={homeCovers[heroIdx]}/>
+      </div>
+    </div>
+    {actions &&
+      <div>
+        {Object.keys(allGenres).map((type, i) => {
+          let genre = allGenres[type];
+          return(
+            <div key={i}>
+              <h3 className='slider-title'>
+                {type}
+              </h3>
+              <div className='slider-wrapper'>
+                <Slider genre={genre} delay={1000000}>
+                  {genre.map((comic, i) =>
+                    <Link
+                      to={`/manga/${comic.id}`}
+                      key={i}>
+                      <div className='slider-img'>
+                        <Image src={comic.img_url} />
+                      </div>
+                    </Link>
+                    )}
+                  </Slider>
+                </div>
+                <br/>
+                <br/>
+              </div>
+            );
+          }
+        )}
+      </div>
+    }
+    </div>
+    );
   }
 };
 
