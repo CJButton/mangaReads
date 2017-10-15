@@ -33,20 +33,10 @@ class AccountDropdown extends Component {
   }
 
   render () {
-    // toggleShelf: (bookshelfId, mangaId) =>
-    //         dispatch(toggleShelf(bookshelfId, mangaId)),
-    // changeMangaStatus: (readStatus, mangaId) =>
-    //         dispatch(changeMangaStatus(readStatus, mangaId)),
-    // bookshelves
-    // {id: 4, title: "Testing Shelf", user_id: 1}
-    // 1
-    // :
-    // {id: 5, title: "test 2", user_id: 1}
-    console.log(this.props);
     const statuses = {
-      'Read': 'Have-Read',
-      'Currently-Reading': 'Currently-Reading',
-      'Want-To-Read': 'Want-To-Read'
+      'Read': 'HAVE-READ',
+      'Currently-Reading': 'CURRENTLY-READING',
+      'Want-To-Read': 'WANT-TO-READ'
     }
     const { bookshelves,
             shelvesWithBooks,
@@ -70,6 +60,7 @@ class AccountDropdown extends Component {
               if(status.status === type) {checkStatus = true}
               return(
                 <Radio
+                  id='home-dropdown-radio'
                   key={i}
                   checked={checkStatus}
                   onChange={() => checkStat(type, 1277)}>

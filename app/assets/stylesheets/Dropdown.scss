@@ -6,6 +6,15 @@
 .dropdown__content {
     display: none;
     position: absolute;
+    margin-left: 1.15em;
+    padding-left: 0.5em;
+    width: 120%;
+    background: rgba(20,20,20,.5);
+    border-radius: 3px;
+}
+
+.home-dropdown-radio {
+  font-family: 'Lato', serif;
 }
 
 .dropdown--active .dropdown__content {
