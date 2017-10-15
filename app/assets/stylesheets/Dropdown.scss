@@ -13,8 +13,16 @@
     border-radius: 3px;
 }
 
+.home-dd-form {
+  margin-top: 0.5em;
+}
+
 .home-dropdown-radio {
   font-family: 'Lato', serif;
+}
+
+.home-dropdown-radio > label > input {
+  margin-right: 1em;
 }
 
 .dropdown--active .dropdown__content {

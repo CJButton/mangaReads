@@ -53,14 +53,14 @@ class AccountDropdown extends Component {
           </Button>
         </DropdownTrigger>
         <DropdownContent>
-          <form>
+          <form className='home-dd-form'>
             {status && <FormGroup>
               {Object.keys(statuses).map((type, i) => {
               let checkStatus = false;
               if(status.status === type) {checkStatus = true}
               return(
                 <Radio
-                  id='home-dropdown-radio'
+                  bsClass='home-dropdown-radio'
                   key={i}
                   checked={checkStatus}
                   onChange={() => checkStat(type, 1277)}>
