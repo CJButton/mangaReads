@@ -12,12 +12,10 @@ import { Button,
 class AccountDropdown extends Component {
   constructor (props) {
     super(props);
-    this.state = {
-      shelvesWithBooks: ''
-    }
 
     this.handleLinkClick = this.handleLinkClick.bind(this);
     this.checkShelf = this.checkShelf.bind(this);
+    this.checkStat = this.checkStat.bind(this);
   }
 
   handleLinkClick () {
@@ -25,9 +23,13 @@ class AccountDropdown extends Component {
   }
 
   checkShelf (bookshelfId, mangaId) {
-    console.log('in checkShelf');
-    console.log(bookshelfId);
+    this.props.toggleShelf(bookshelfId, mangaId);
+  }
+
+  checkStat(readStatus, mangaId) {
+    console.log(readStatus);
     console.log(mangaId);
+    this.props.changeMangaStatus(readStatus, mangaId)
   }
 
   render () {
@@ -41,8 +43,15 @@ class AccountDropdown extends Component {
     // :
     // {id: 5, title: "test 2", user_id: 1}
     console.log(this.props);
-    const { bookshelves, shelvesWithBooks } = this.props;
-    const { checkShelf } = this;
+    const statuses = {
+      'Read': 'Have-Read',
+      'Currently-Reading': 'Currently-Reading',
+      'Want-To-Read': 'Want-To-Read'
+    }
+    const { bookshelves,
+            shelvesWithBooks,
+            status } = this.props;
+    const { checkShelf, checkStat } = this;
     return (
       <Dropdown className="account-dropdown" ref="dropdown">
         <DropdownTrigger>
@@ -55,17 +64,29 @@ class AccountDropdown extends Component {
         </DropdownTrigger>
         <DropdownContent>
           <form>
+            {status && <FormGroup>
+              {Object.keys(statuses).map((type, i) => {
+              let checkStatus = false;
+              if(status.status === type) {checkStatus = true}
+              return(
+                <Radio
+                  key={i}
+                  checked={checkStatus}
+                  onChange={() => checkStat(type, 1277)}>
+                  {statuses[type]}
+                </Radio>
+              );
+            })}
+            </FormGroup>}
             {bookshelves && shelvesWithBooks && <FormGroup>
               {bookshelves.map((shelf, i) => {
                 let checkState = false
                 if(shelvesWithBooks.has(shelf.id)) {checkState = true}
-                {/* see if we can get this check down to O(1)
-                    use a Set instead of an array */}
                 return(
                   <Checkbox
                     key={i}
                     checked={checkState}
-                    onClick={() => checkShelf(shelf.id, 1277)}>
+                    onChange={() => checkShelf(shelf.id, 1277)}>
                     {shelf.title}
                   </Checkbox>
                 );
