@@ -19,7 +19,6 @@ import values from 'lodash/values';
 const mapStateToProps = ({home, bookshelves, shelvesWithBooks, status}) => {
   let shelfSet = new Set();
   values(shelvesWithBooks).map((el) => (shelfSet.add(el.id)))
-  // shelvesWithBooks: values(shelvesWithBooks).map((el) => ( (el.id))),
   return(
     {
       home,

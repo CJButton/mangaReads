@@ -66,11 +66,6 @@ class Home extends React.Component{
           toggleShelf,
           changeMangaStatus } = this.props
 
-  // toggleShelf: (bookshelfId, mangaId) =>
-  //         dispatch(toggleShelf(bookshelfId, mangaId)),
-  // changeMangaStatus: (readStatus, mangaId) =>
-  //         dispatch(changeMangaStatus(readStatus, mangaId)),
-
   return (
     <div className='home-wrapper'>
       <TopBarContainer />

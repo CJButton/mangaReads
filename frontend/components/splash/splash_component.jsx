@@ -151,11 +151,12 @@ class SplashComponent extends React.Component{
         </Carousel>
       </div>
 
-      {/* Items placed on top */}
+      {/* Items placed on top
+        http://res.cloudinary.com/ddbfkqb9m/image/upload/Extras/Logomakr_6eQJJ4.png*/}
       <div className='splash-wrapper'>
         <div className='splash-top-bar'>
           <Col xs={10} xsOffset={1} sm={6} smOffset={0} md={4} mdOffset={1}>
-            <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/Extras/Logomakr_6eQJJ4.png"/>
+            <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,w_400/Logomakr_46VsDw_by27ya.png"/>
           </Col>
 
           <Col xs={10} xsOffset={1} sm={6} smOffset={0} md={5} mdOffset={1}>
