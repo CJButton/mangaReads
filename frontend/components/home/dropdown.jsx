@@ -69,12 +69,13 @@ class AccountDropdown extends Component {
               );
             })}
             </FormGroup>}
-            {bookshelves && shelvesWithBooks && <FormGroup>
+            {bookshelves && shelvesWithBooks && <FormGroup bsSize='large'>
               {bookshelves.map((shelf, i) => {
                 let checkState = false
                 if(shelvesWithBooks.has(shelf.id)) {checkState = true}
                 return(
                   <Checkbox
+                    bsClass='home-dropdown-radio'
                     key={i}
                     checked={checkState}
                     onChange={() => checkShelf(shelf.id, 1277)}>
