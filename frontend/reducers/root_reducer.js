@@ -9,7 +9,7 @@ import BookshelfReducer from './bookshelf_reducer';
 import MangaBookshelvesReducer from './mangabookshelf_reducer';
 import MangaStatusReducer from './mangastatus_reducer';
 import ReviewReducer from './review_reducer';
-
+import HomeReducer from './home_reducer';
 
 const RootReducer = combineReducers({
   session: SessionReducer,
@@ -17,7 +17,8 @@ const RootReducer = combineReducers({
   bookshelves: BookshelfReducer,
   shelvesWithBooks: MangaBookshelvesReducer,
   status: MangaStatusReducer,
-  reviews: ReviewReducer
+  reviews: ReviewReducer,
+  home: HomeReducer
 });
 
 export default RootReducer;

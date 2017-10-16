@@ -15,33 +15,36 @@
  */
 
 #root {
-  /*height: 100%;
-  overflow: hidden;*/
-  /*display: flex;
-  flex-direction: column;*/
   min-height: 100vh;
+  height: 100%;
+  background-color: #141414;
+}
+
+.react-root {
   height: 100%;
 }
 
+/* meant to prevent scroll bar from intefering with screen size */
 html {
-  /*height: 100%;*/
+  background-color: #141414;
+  height: 100%;
+  /*margin-left: calc(100vw - 100%);*/
 }
 
 body {
-   background-color: white;
+   /*background-color: white;*/
    font-family: 'Lato', serif;
    height: 100%;
  }
 
 .basicOutline {
-  background-color: white;
+  background-color: #F7FBD8;
+  width: 100%;
   color: black;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 30px;
-  border-radius: 3px;
-  border-width: 4px;
-  border-style: solid;
-  border-color: black;
+  border-radius: 2px;
+  border: black solid 1px;
 }

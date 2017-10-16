@@ -1,6 +1,5 @@
 
 
-
 import {receiveManga,
         REQUEST_MANGA,
         receiveErrors,

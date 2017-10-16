@@ -1,74 +1,144 @@
 
 
 import React from 'react';
+import Slider from 'react-image-slider';
+import { Link } from 'react-router';
+
+import { Grid,
+         Row,
+         Col,
+         Image,
+         Button } from 'react-bootstrap';
 
 import TopBarContainer from '../topbar/topbar_container';
+import AccountDropdown from './dropdown';
 
-const Home = ( {manga} ) => {
-    return (
-  <main className="home-container">
-    <TopBarContainer />
-    <div className="home-left"></div>
-    <div className="home-top2">Click on a manga from the Library to see more</div>
+class Home extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+      heroIdx: 0
+    }
+
+  }
+
+  componentWillMount() {
+    let heroIdx = Math.floor(Math.random() * (1));
+    this.setState({
+      heroIdx: heroIdx
+    });
+  }
 
 
-    <div className="home-center">
+ render() {
+  const actions = this.props.home.Action;
+  const allGenres = this.props.home;
+  let heroIdx = this.state.heroIdx;
 
-      {manga.map((comic, i) => {
-        return(
-          <div key={i} className="library">
-            <div className="comicWrapper">
-              <a href={`#/manga/${comic.id}`}>
-                <img className="homePicture" src={comic.img_url} />
-              </a>
-            </div>
-          </div>
-        );
-      })}
-      <br></br>
-      <br></br>
+  const homeId = [
+    1277
+  ]
+
+  const homeTitle = [
+    'One Punch Man Vol. 1'
+  ]
+
+  const homeHeroes = [
+  "http://res.cloudinary.com/ddbfkqb9m/image/upload/q_15/covers/opm-home2.jpg"
+  ]
+
+  const homeCovers = [
+    'https://res.cloudinary.com/ddbfkqb9m/image/upload/onepunch1_mkmmb3.jpg'
+  ]
+
+  const homeAuthor = [
+    'One'
+  ]
+
+  const homeSyn = [
+     "One punch is all it takes! Can Saitama find an opponent who can go toe-to-toe with him and give his life some meaning? Or is he doomed to a life of superpowered boredom?"
+  ]
+
+  const { bookshelves,
+          shelvesWithBooks,
+          status,
+          toggleShelf,
+          changeMangaStatus } = this.props
+
+  return (
+    <div className='home-wrapper'>
+      <TopBarContainer />
+    <img
+      className='hero-home-bg'
+      src={homeHeroes[heroIdx]} />
+    <div className='home-info-wrapper'>
+      <div className='home-info'>
+        <div className='hero-Title'>
+          {homeTitle[heroIdx]}
+        </div>
+        <div className='hero-author'>
+          {homeAuthor[heroIdx]}
+        </div>
+        <div className='hero-syn'>
+          {homeSyn[heroIdx]}
+        </div>
+        <div>
+          <Button id='home-visit-button-left'>
+            <Link
+              style={{ textDecoration: 'none' }}
+              to={`/manga/${homeId[heroIdx]}`}>
+              <div className='home-visit-wrapper'>
+                <i className="fa fa-play fa-lg home-visit" aria-hidden="true" />
+                <div className='home-visit-text hvt-l'>PEAK</div>
+              </div>
+            </Link>
+          </Button>
+          <AccountDropdown
+            bookshelves={bookshelves}
+            shelvesWithBooks={shelvesWithBooks}
+            status={status}
+            toggleShelf={toggleShelf}
+            changeMangaStatus={changeMangaStatus}/>
+        </div>
+      </div>
+        <div className='hero-cover'>
+          <Image
+            src={homeCovers[heroIdx]}/>
+        </div>
     </div>
-
-    <div className="home-right">
+    {actions &&
+      <div>
+        {Object.keys(allGenres).map((type, i) => {
+          let genre = allGenres[type];
+          return(
+            <div key={i}>
+              <h3 className='slider-title'>
+                {type}
+              </h3>
+              <div className='slider-wrapper'>
+                <Slider genre={genre} delay={1000000}>
+                  {genre.map((comic, i) =>
+                    <Link
+                      to={`/manga/${comic.id}`}
+                      key={i}>
+                      <div className='slider-img'>
+                        <Image src={comic.img_url} />
+                      </div>
+                    </Link>
+                    )}
+                  </Slider>
+                </div>
+                <br/>
+                <br/>
+              </div>
+            );
+          }
+        )}
+      </div>
+    }
     </div>
-  </main>
-
-
-
-  );
+    );
+  }
 };
 
 export default Home;
-// <div className="home-top">
-//   <h2 className="home-title">mangaReads</h2>
-// </div>
-// <div className="home-top">
-//   <div>There is more to Japan than sushi and samurai!</div>
-// </div>
-
-// <div className="home-left">
-// </div>
-// <div className="home-center">
-//   <ul>
-//   <li className="home-title">Welcome to mangaReads!</li>
-//   <br></br>
-//   <li className="home-description">Click on a manga below to get more infromation about it.</li>
-//   <li className="home-greeting">We hope you enjoy and discover a little more about Japan by reading these comics!</li>
-//   </ul>
-//   {
-//     manga.map((comic, i) => (
-//   <ul key={i} className="mangaHomeDisplay">
-//       <a href={`#/manga/${comic.id}`}>
-//         <img className="homePicture" src={comic.img_url} />
-//       </a>
-//       <ul className="homeMangaText">
-//       </ul>
-//   </ul>
-//   ))
-//  }
-// </div>
-// <ul>
-//
-// </ul>
-// <div className="home-right">
-// </div>

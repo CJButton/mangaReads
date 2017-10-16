@@ -5,12 +5,39 @@ import { connect } from 'react-redux';
 
 import Home from './home';
 
-const mapStateToProps = ({manga}) => ({
-  manga: Object.keys(manga).map(key => manga[key])
-});
+import { changeMangaStatus,
+         requestMangaStatus } from '../../actions/manga_status_actions';
+
+import { requestAllBookshelves } from '../../actions/bookshelf_actions';
+
+import { toggleShelf,
+         requestAllShelvesWithBook }
+         from '../../actions/manga_bookshelves_actions';
+
+import values from 'lodash/values';
+
+const mapStateToProps = ({home, bookshelves, shelvesWithBooks, status}) => {
+  let shelfSet = new Set();
+  values(shelvesWithBooks).map((el) => (shelfSet.add(el.id)))
+  return(
+    {
+      home,
+      bookshelves: values(bookshelves),
+      shelvesWithBooks: shelfSet,
+      status: values(status)[0]
+    }
+  );
+};
 
 const mapDispatchToProps = dispatch => ({
-
+  requestAllBookshelves: () =>
+          dispatch(requestAllBookshelves()),
+  toggleShelf: (bookshelfId, mangaId) =>
+          dispatch(toggleShelf(bookshelfId, mangaId)),
+  changeMangaStatus: (readStatus, mangaId) =>
+          dispatch(changeMangaStatus(readStatus, mangaId)),
+  requestMangaStatus: (mangaId) =>
+          dispatch(requestMangaStatus(mangaId))
 });
 
 export default connect(

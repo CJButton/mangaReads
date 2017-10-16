@@ -99,12 +99,12 @@ class SplashComponent extends React.Component{
         <Carousel
           indicators={false}
           controls={false}
-          interval={1750}>
+          interval={2500}>
             <Carousel.Item>
               <div className='hero-carousel-img-wrapper'>
                 <img
                   className='hero-carousel-img'
-                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502079/cropped-1920-1200-741091_yudxc9.jpg"/>
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/cropped-1920-1200-741091_yudxc9.jpg"/>
                 <div className='hero-carousel-caption-wrapper'>
                   <p className='hero-carousel-caption'>
                     One Punch Man
@@ -116,7 +116,7 @@ class SplashComponent extends React.Component{
               <div className='hero-carousel-img-wrapper'>
                 <img
                   className='hero-carousel-img'
-                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502077/cropped-1920-1200-451608_v8lzqm.jpg"/>
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/cropped-1920-1200-451608_v8lzqm.jpg"/>
                   <div className='hero-carousel-caption-wrapper'>
                     <p className='hero-carousel-caption'>
                       Attack on Titan
@@ -128,7 +128,7 @@ class SplashComponent extends React.Component{
               <div className='hero-carousel-img-wrapper'>
                 <img
                   className='hero-carousel-img'
-                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502076/cropped-1920-1200-109375_bmkmet.jpg"/>
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/cropped-1920-1200-109375_bmkmet.jpg"/>
                   <div className='hero-carousel-caption-wrapper'>
                     <p className='hero-carousel-caption'>
                       Rurouni Kenshin
@@ -140,7 +140,7 @@ class SplashComponent extends React.Component{
               <div className='hero-carousel-img-wrapper'>
                 <img
                   className='hero-carousel-img'
-                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/v1493502078/cropped-1920-1200-474477_a2qnlp.jpg"/>
+                  src="http://res.cloudinary.com/ddbfkqb9m/image/upload/q_30/cropped-1920-1200-474477_a2qnlp.jpg"/>
                   <div className='hero-carousel-caption-wrapper'>
                     <p className='hero-carousel-caption'>
                       Dragonball
@@ -151,11 +151,13 @@ class SplashComponent extends React.Component{
         </Carousel>
       </div>
 
-      {/* Items placed on top */}
+      {/* Items placed on top
+        logomakr.com/866ype
+        http://res.cloudinary.com/ddbfkqb9m/image/upload/Extras/Logomakr_6eQJJ4.png*/}
       <div className='splash-wrapper'>
         <div className='splash-top-bar'>
           <Col xs={10} xsOffset={1} sm={6} smOffset={0} md={4} mdOffset={1}>
-            <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478400202/Extras/Logomakr_6eQJJ4.png"/>
+            <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,w_400/Logomakr_46VsDw_by27ya.png"/>
           </Col>
 
           <Col xs={10} xsOffset={1} sm={6} smOffset={0} md={5} mdOffset={1}>
