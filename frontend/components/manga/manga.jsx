@@ -130,7 +130,7 @@ class MangaShow extends React.Component{
            <p className="linkMyMangatitle">Check out your collection:</p>
            <div className="linkMyMangaContainer">
              <input className="linkMyMangabutton button" type="submit"
-               value="myManga" onClick={this.handleMyManga}/>
+               value="MY-MANGA" onClick={this.handleMyManga}/>
            </div>
          </div>
          </div>

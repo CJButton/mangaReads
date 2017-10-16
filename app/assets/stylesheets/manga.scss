@@ -16,7 +16,7 @@
 .linkMyMangabutton {
   width: 100px;
   height: 35px;
-  border: 3px solid black;
+  border: 1px solid black;
   background: #F7FBD8;
   font-size: 16px;
   margin-bottom: 5px;
@@ -96,9 +96,8 @@
 .manga-picture-show {
   height: 100%;
   width: 100%;
-  max-height: 430px;
-  border: black solid 3px;
-  border-radius: 3px;
+  // max-height: 430px;
+  border: black solid 1px;
 }
 
 .checkbox-title {
@@ -110,13 +109,8 @@
 .manga-top-left {
   width: 300px;
   display: flex;
-  // flex-direction: column;
   justify-content: center;
   background-color: #F7FBD8;
-  // border-radius: 3px;
-  // border-width: 4px;
-  // border-color: black;
-  // border-style: solid;
 }
 
 .single-manga-top {
@@ -125,7 +119,6 @@
   justify-content: space-between;
   display: flex;
   height: auto;
-  // padding-top: 25px;
 }
 
 .manga-top-right {
@@ -173,20 +166,11 @@
 }
 
 .single-manga-words {
-  width: 300px;
+  width: 30em;
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.single-manga-words ul {
-  // justify-content: flex-start;
-  // padding-left: 0px;
-  // width: 500px;
-}
-
-.single-manga-words {
   list-style-type: none;
   line-height: 1.5em;
   text-decoration: none;
-  width: 400px;
+  margin: 1em 1em 0 1em;
 }
