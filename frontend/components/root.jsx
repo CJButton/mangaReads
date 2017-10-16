@@ -36,6 +36,9 @@ const Root = ({store}) => {
   const loadAllManga = () => {
     if (flag === false) {
       store.dispatch(requestAllHome());
+      store.dispatch(requestAllBookshelves());
+      store.dispatch(requestMangaStatus(1277));
+      store.dispatch(requestAllShelvesWithBook(1277));
       flag = true
     }
   };
@@ -53,7 +56,7 @@ const Root = ({store}) => {
     store.dispatch(requestMangaStatus(nextState.params.id));
     store.dispatch(requestAllBookshelves());
   };
-  //
+
   const _redirectIfLoggedIn = (nextState, replace) => {
     const currentUser = store.getState().session.currentUser;
     if (currentUser) {

@@ -152,7 +152,6 @@ class shelfControls extends React.Component{
     const tooltipB = (
     <Tooltip id="tooltip">Grid</Tooltip>
     );
-
     return (
       <div>
         <Navbar inverse collapseOnSelect fluid={true} id='shelf-controls-wrapper'>
@@ -161,7 +160,7 @@ class shelfControls extends React.Component{
               <Link to='/'>
                 <Navbar.Brand>
                   <div className='nav-logo-wrapper'>
-                    <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/v1478401023/Extras/Logomakr_1YWFpy.png' />
+                    <img src='http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,w_155/Logomakr_62rs0J_j5kujj.png' />
                   </div>
                 </Navbar.Brand>
               </Link>
@@ -233,7 +232,7 @@ class shelfControls extends React.Component{
               </NavDropdown>
             </Nav>
             <Nav onSelect={this.handleLogout} pullRight>
-              <NavItem eventKey={2}>Logout</NavItem>
+              <NavItem eventKey={2}>LOGOUT</NavItem>
             </Nav>
               <Navbar.Form pullRight fluid={true}>
                 <FormGroup>
@@ -248,7 +247,7 @@ class shelfControls extends React.Component{
                   id='shelf-button'
                   type="submit"
                   onClick={() => handleAddShelf()}>
-                  Create
+                  CREATE
                 </Button>
               </Navbar.Form>
           </Navbar.Collapse>

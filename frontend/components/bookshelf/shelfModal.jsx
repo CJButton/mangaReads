@@ -9,15 +9,15 @@ import StarRatingComponent from 'react-star-rating-component';
 const ShelfGridModal = props => {
   const { openClose,
           openCloseModal,
-          mangaInfo} = props;
+          mangaInfo } = props;
 
   return(
     <Modal show={openClose}>
-      <Modal.Header>
+      <Modal.Header id='shelf-modal-bg'>
         <Modal.Title>{mangaInfo.title}</Modal.Title>
       </Modal.Header>
 
-      <Modal.Body>
+      <Modal.Body id='shelf-modal-bg'>
           <div className='bars-shelf-row-md'>
             <Col xs={12} sm={4}>
               <a className='bars-bookshelf-a ' href={`#/manga/${mangaInfo.id}`}>
@@ -25,7 +25,7 @@ const ShelfGridModal = props => {
               </a>
             </Col>
 
-            <Col xs={12} sm={3} smOffset={0} md={3}>
+            <Col xs={12} sm={4} smOffset={0} md={4}>
               <div className='grid-md-left'>
                 <div>
                   <Col xs={12}>
@@ -39,16 +39,17 @@ const ShelfGridModal = props => {
                 </div>
               </div>
             </Col>
-
-            <Col xs={12} sm={3} md={2}>
+            {/*
+              <Col xs={12} sm={3} md={2}>
               {mangaInfo.genre !== undefined ?
-                <div className="grid-genres">Genres:
-                  <div>{mangaInfo.genre[0]}</div>
-                  <div>{mangaInfo.genre[1]}</div>
-                  <div>{mangaInfo.genre[2]}</div>
-                </div> : null
+              <div className="grid-genres">Genres:
+              <div>{mangaInfo.genre[0]}</div>
+              <div>{mangaInfo.genre[1]}</div>
+              <div>{mangaInfo.genre[2]}</div>
+              </div> : null
               }
-            </Col>
+              </Col>
+              */}
 
             <Col sm={4}>
               <div className='grid-md-left'>
@@ -80,8 +81,9 @@ const ShelfGridModal = props => {
           </div>
       </Modal.Body>
 
-      <Modal.Footer>
+      <Modal.Footer id='shelf-modal-bg'>
         <Button
+          id='shelf-modal-bg'
           onClick={openCloseModal}>
           Close
         </Button>

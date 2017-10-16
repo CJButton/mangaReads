@@ -9,6 +9,7 @@ import { changeMangaStatus,
          requestMangaStatus } from '../../actions/manga_status_actions';
 
 import { requestAllBookshelves } from '../../actions/bookshelf_actions';
+
 import { toggleShelf,
          requestAllShelvesWithBook }
          from '../../actions/manga_bookshelves_actions';
@@ -35,7 +36,6 @@ const mapDispatchToProps = dispatch => ({
   requestMangaStatus: (mangaId) =>
           dispatch(requestMangaStatus(mangaId))
 });
-
 
 export default connect(
   mapStateToProps,
