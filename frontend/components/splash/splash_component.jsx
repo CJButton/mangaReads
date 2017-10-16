@@ -152,6 +152,7 @@ class SplashComponent extends React.Component{
       </div>
 
       {/* Items placed on top
+        logomakr.com/866ype
         http://res.cloudinary.com/ddbfkqb9m/image/upload/Extras/Logomakr_6eQJJ4.png*/}
       <div className='splash-wrapper'>
         <div className='splash-top-bar'>

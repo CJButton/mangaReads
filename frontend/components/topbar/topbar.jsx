@@ -64,12 +64,12 @@ class TopBar extends React.Component{
             <Navbar.Toggle />
           </Navbar.Header>
           <Nav pullLeft id='topbar-mymanga-full' onSelect={this.handleSelect}>
-            <NavItem eventKey={1}>myManga</NavItem>
+            <NavItem eventKey={1}>MY-MANGA</NavItem>
           </Nav>
           <Navbar.Collapse>
             <Nav onSelect={this.handleSelect} pullRight>
-              <NavItem eventKey={1} id='topbar-mymanga'>myManga</NavItem>
-              <NavItem eventKey={2} id='topbar-logout'>Logout</NavItem>
+              <NavItem eventKey={1} id='topbar-mymanga'>MY-MANGA</NavItem>
+              <NavItem eventKey={2} id='topbar-logout'>LOGOUT</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

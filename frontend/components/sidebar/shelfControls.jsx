@@ -232,7 +232,7 @@ class shelfControls extends React.Component{
               </NavDropdown>
             </Nav>
             <Nav onSelect={this.handleLogout} pullRight>
-              <NavItem eventKey={2}>Logout</NavItem>
+              <NavItem eventKey={2}>LOGOUT</NavItem>
             </Nav>
               <Navbar.Form pullRight fluid={true}>
                 <FormGroup>

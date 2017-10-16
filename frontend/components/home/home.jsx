@@ -12,7 +12,6 @@ import { Grid,
 
 import TopBarContainer from '../topbar/topbar_container';
 import AccountDropdown from './dropdown';
-import { CustomToggle, CustomMenu } from'./dropdown-bootstrap';
 
 class Home extends React.Component{
   constructor(props) {
@@ -102,10 +101,10 @@ class Home extends React.Component{
             changeMangaStatus={changeMangaStatus}/>
         </div>
       </div>
-      <div className='hero-cover'>
-        <img
-          src={homeCovers[heroIdx]}/>
-      </div>
+        <div className='hero-cover'>
+          <Image
+            src={homeCovers[heroIdx]}/>
+        </div>
     </div>
     {actions &&
       <div>

@@ -7,8 +7,6 @@ import { Button,
          Checkbox,
          Radio } from 'react-bootstrap';
 
-
-{/* Replace with react-bootstrap's CustomToggle */}
 class AccountDropdown extends Component {
   constructor (props) {
     super(props);
@@ -27,8 +25,6 @@ class AccountDropdown extends Component {
   }
 
   checkStat(readStatus, mangaId) {
-    console.log(readStatus);
-    console.log(mangaId);
     this.props.changeMangaStatus(readStatus, mangaId)
   }
 
@@ -41,7 +37,8 @@ class AccountDropdown extends Component {
     const { bookshelves,
             shelvesWithBooks,
             status } = this.props;
-    const { checkShelf, checkStat } = this;
+    const { checkShelf,
+            checkStat } = this;
     return (
       <Dropdown className="account-dropdown" ref="dropdown">
         <DropdownTrigger>
