@@ -137,17 +137,15 @@
   position: fixed;
   top: 10%;
   left: 24.5%;
-  background-color: white;
+  background-color: #F7FBD8;
   padding: 15px;
   height: 70%;
   width: 50%;
   color: black;
   padding: 15px;
   font-size: 24px;
+  border: black solid 1px;
   border-radius: 3px;
-  border-width: 4px;
-  border-style: solid;
-  border-color: black;
 }
 
 
@@ -230,7 +228,6 @@
 .editComicTitle {
   margin: 0px;
   margin-bottom: 7px;
-  width: 900px;
 }
 
 .editFormModal {
@@ -252,14 +249,12 @@
 }
 
 .review-submit {
-  width: 150px;
   height: 40px;
   background-color: white;
   border-radius: 3px;
-  border-width: 5px;
-  border-color: black;
+  border: black solid 1px;
   font-size: 24px;
-  margin-top: 20px;
+  margin-top: 9px;
 }
 
 .review-submit:hover {
@@ -280,7 +275,7 @@
 .closeEditButton {
   height: 50px;
   width: 50px;
-  background-color: white;
+  background-color: #F7FBD8;
   border-radius: 3px;
   border-width: 5px;
   border-color: black;

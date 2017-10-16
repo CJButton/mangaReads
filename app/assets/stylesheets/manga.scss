@@ -4,6 +4,7 @@
   margin-top: 10px;
   border: 4px solid black;
   width: 280px;
+  background-color: #F7FBD8;
 }
 
 .linkMyMangatitle {
@@ -16,14 +17,14 @@
   width: 100px;
   height: 35px;
   border: 3px solid black;
-  background: white;
+  background: #F7FBD8;
   font-size: 16px;
   margin-bottom: 5px;
 }
 
 .linkMyMangabutton:hover {
   background: #FF6900;
-  color: white;
+  color: #F7FBD8;
 }
 
 .linkMyMangaContainer {
@@ -56,7 +57,7 @@
 
 .mangaDropdownBox {
   width: 280px;
-  background-color: white;
+  background-color: #F7FBD8;
   border-radius: 3px;
   border-width: 4px;
   border-color: black;
@@ -71,7 +72,7 @@
   margin-bottom: 50px;
   margin-left: 15px;
   width: 250px;
-  background-color: white;
+  background-color: #F7FBD8;
   border-radius: 3px;
   border-width: 2px;
   border-color: black;
@@ -111,7 +112,7 @@
   display: flex;
   // flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: #F7FBD8;
   // border-radius: 3px;
   // border-width: 4px;
   // border-color: black;
@@ -130,7 +131,7 @@
 .manga-top-right {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #F7FBD8;
   border-radius: 3px;
   border-width: 4px;
   border-color: black;
@@ -150,16 +151,13 @@
   display: flex;
   flex-direction: column;
   width: 280px;
-  background-color: white;
+  background-color: #F7FBD8;
   border-radius: 3px;
   border-width: 4px;
   border-color: black;
   border-style: solid;
   font-size: 16px;
   margin-top: 10px;
-}
-
-.checkbox-label {
 }
 
 .checkboxItem {
