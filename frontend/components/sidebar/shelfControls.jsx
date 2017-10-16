@@ -247,7 +247,7 @@ class shelfControls extends React.Component{
                   id='shelf-button'
                   type="submit"
                   onClick={() => handleAddShelf()}>
-                  Create
+                  CREATE
                 </Button>
               </Navbar.Form>
           </Navbar.Collapse>
