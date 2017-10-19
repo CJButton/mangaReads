@@ -19,7 +19,6 @@ class Home extends React.Component{
     this.state = {
       heroIdx: 0
     }
-
   }
 
   componentWillMount() {

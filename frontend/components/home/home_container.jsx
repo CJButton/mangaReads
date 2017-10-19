@@ -24,7 +24,7 @@ const mapStateToProps = ({home, bookshelves, shelvesWithBooks, status}) => {
       home,
       bookshelves: values(bookshelves),
       shelvesWithBooks: shelfSet,
-      status: values(status)[0]
+      status
     }
   );
 };

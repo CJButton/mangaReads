@@ -39,6 +39,7 @@ class AccountDropdown extends Component {
             status } = this.props;
     const { checkShelf,
             checkStat } = this;
+            console.log(this.props);
     return (
       <Dropdown className="account-dropdown" ref="dropdown">
         <DropdownTrigger>

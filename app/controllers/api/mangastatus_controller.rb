@@ -5,14 +5,22 @@
 class Api::MangastatusController < ApplicationController
 
   def show
-
     @status = MangaStatus.where(user_id: current_user.id, manga_id: params[:mangaId])
     render json: @status
   end
 
   def create
-    MangaStatus.changer(params[:readStatus], params[:mangaId], current_user.id)
-    @status = MangaStatus.where(status: params[:readStatus], manga_id: params[:mangaId], user_id: current_user.id)
+    # Just update the record if there is one; otherwise create a new record
+    # MangaStatus.update(3, status: "Read")
+    # curr_stat = MangaStatus.where(status: params[:readStatus], manga_id: params[:mangaId], user_id: current_user.id)
+    curr_stat = MangaStatus.where(manga_id: params[:mangaId], user_id: current_user.id)
+    if curr_stat.blank?
+      @status = MangaStatus.create(status: params[:readStatus], manga_id: params[:mangaId], user_id: current_user.id)
+    else
+      @status = MangaStatus.update(curr_stat.first.id, status: params[:readStatus])
+    end
+    # MangaStatus.changer(params[:readStatus], params[:mangaId], current_user.id)
+    # @status = MangaStatus.where(status: params[:readStatus], manga_id: params[:mangaId], user_id: current_user.id)
     render json: @status
   end
 
