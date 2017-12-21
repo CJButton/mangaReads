@@ -37,10 +37,10 @@ const Root = ({store}) => {
     if (flag === false) {
       store.dispatch(requestAllHome());
       store.dispatch(requestAllBookshelves());
-      store.dispatch(requestMangaStatus(1277));
       store.dispatch(requestAllShelvesWithBook(1277));
       flag = true
     }
+    store.dispatch(requestMangaStatus(1277));
   };
 
   const loadAllShelves = () => {
