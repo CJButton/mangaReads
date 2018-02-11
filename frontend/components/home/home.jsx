@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import Slider from 'react-image-slider';
+import Slider from './slider/imageSlider';
 import { Link } from 'react-router';
 
 import { Grid,
@@ -23,10 +23,10 @@ class Home extends React.Component{
   }
 
   componentWillMount() {
-    let heroIdx = Math.floor(Math.random() * (1));
-    this.setState({
-      heroIdx: heroIdx
-    });
+    // let heroIdx = Math.floor(Math.random() * (1));
+    // this.setState({
+    //   heroIdx: heroIdx
+    // });
   }
 
 
