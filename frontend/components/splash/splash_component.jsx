@@ -157,7 +157,7 @@ class SplashComponent extends React.Component{
       <div className='splash-wrapper'>
         <div className='splash-top-bar'>
           <Col xs={10} xsOffset={1} sm={6} smOffset={0} md={4} mdOffset={1}>
-            <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,w_400/Logomakr_46VsDw_by27ya.png"/>
+            <img className="logo" src="http://res.cloudinary.com/ddbfkqb9m/image/upload/c_scale,w_400/v1518929292/Logomakr_9wDwoS_pb7bwc.png"/>
           </Col>
 
           <Col xs={10} xsOffset={1} sm={6} smOffset={0} md={5} mdOffset={1}>

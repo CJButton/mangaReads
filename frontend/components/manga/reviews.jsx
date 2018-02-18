@@ -131,7 +131,7 @@ class Reviews extends React.Component {
           isOpen={this.state.addModal}
           contentLabel="Modal2">
           <div className="editFormTop">
-          <h1 className="editFormTitle">Add your own Review:</h1>
+          <h3 className="editFormTitle">Add your own Review:</h3>
           <button className="closeEditButton"
             onClick={this.closeModal.bind(this)}>X</button>
           </div>
@@ -266,7 +266,7 @@ class Reviews extends React.Component {
                 <Modal className="deleteModal"
                   isOpen={this.state.deleteModal}
                   contentLabel="Modal">
-                  
+
                   <div>Sure you want to delete your review?</div>
                   <div className="deleteEditClose">
                     <button className="deleteButton button"
